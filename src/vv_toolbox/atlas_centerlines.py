@@ -4,12 +4,41 @@ import json
 from itertools import product
 from pathlib import Path
 import numpy as np
-from scipy.ndimage import distance_transform_edt
+from scipy.ndimage import distance_transform_edt, gaussian_filter1d
 from scipy.spatial import cKDTree
 from skimage.morphology import skeletonize
 import trimesh
 
 VERSION='voxel-lee-1'
+SMOOTHING_VERSION='anchored-gaussian-arclength-1'
+
+
+def smooth_edge(edge):
+    """Smooth voxel steps with fixed graph anchors and bounded displacement.
+
+    Keep the raw extraction cache unchanged. Radii remain interpolated source
+    estimates, not newly measured clearances at the smoothed coordinates.
+    """
+    if edge.get('provenance')!='source-mesh-voxel-medial':return edge
+    points=np.asarray(edge['points'],dtype=float);radii=np.asarray(edge['radii'],dtype=float)
+    distance=np.r_[0.,np.cumsum(np.linalg.norm(np.diff(points,axis=0),axis=1))]
+    keep=np.r_[True,np.diff(distance)>1e-9]
+    if keep.sum()<4 or distance[-1]<=1e-8:return edge
+    pitch=float(edge['pitch']);length=distance[-1]
+    count=max(4,min(8192,int(np.ceil(length/max(pitch*.35,.03)))+1))
+    t=np.linspace(0.,length,count);step=t[1]-t[0]
+    raw=np.column_stack([np.interp(t,distance[keep],points[keep,i]) for i in range(3)])
+    radius=np.interp(t,distance[keep],radii[keep])
+    curve=gaussian_filter1d(raw,sigma=max(.5,1.5*pitch/step),axis=0,mode='nearest')
+    # Subtract endpoint drift smoothly without moving the graph junctions.
+    fraction=t/length
+    curve-=(1-fraction[:,None])*(curve[0]-raw[0])+fraction[:,None]*(curve[-1]-raw[-1])
+    delta=curve-raw;norm=np.linalg.norm(delta,axis=1)
+    limit=np.minimum(1.5*pitch,.35*radius)
+    delta*= (np.tanh(norm/np.maximum(limit,1e-9))*limit/np.maximum(norm,1e-12))[:,None]
+    curve=raw+delta;curve[0]=points[0];curve[-1]=points[-1]
+    return dict(edge,points=curve.tolist(),radii=radius.tolist(),smoothing=dict(method=SMOOTHING_VERSION,
+        max_displacement=float(np.linalg.norm(curve-raw,axis=1).max()),surface_containment_validated=False))
 
 
 def _paths(mask,transform,pitch,part):
@@ -156,6 +185,8 @@ def build_atlas_centerlines(atlas,estimated_parts=(),*,cache_dir=None,progress=N
         if progress:progress(i+1,len(parts))
     for p in estimated_parts:
         item=_estimated(p);result['nodes'].extend(item['nodes']);result['edges'].extend(item['edges']);result['parts'].append(item['part'])
+    result['edges']=[smooth_edge(edge) for edge in result['edges']]
+    result['smoothing']=SMOOTHING_VERSION
     result['links']=proximity_links(result['nodes'],result['edges'])
     result['summary']=dict(source_parts=len(parts),extracted=sum(p['status']=='EXTRACTED' for p in result['parts']),unresolved=sum(p['status']=='UNRESOLVED' for p in result['parts']),
                            authored_parts=len(estimated_parts),nodes=len(result['nodes']),edges=len(result['edges']),candidate_links=len(result['links']))

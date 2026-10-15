@@ -68,9 +68,42 @@ const extractionDetails=document.createElement('details'),extractionTitle=docume
 const modificationCard=atlasCard('');modificationCard.append($('atlasModificationPanel'));$('atlasModificationPanel').querySelector('h2').textContent='3 · Modify selected vessel';$('applyAtlasModification').textContent='Apply modification';$('resetAtlasModification').textContent='Restore original';
 const modificationLabel=document.createElement('label');modificationLabel.htmlFor='atlasModificationVessel';modificationLabel.textContent='Vessel selection';
 const modificationSelect=document.createElement('select');modificationSelect.id='atlasModificationVessel';modificationSelect.title='Select the vessel to modify';
-$('atlasModificationName').before(modificationLabel,modificationSelect);
+const modificationSearch=document.createElement('input');modificationSearch.id='atlasModificationSearch';modificationSearch.type='search';modificationSearch.placeholder='Name, ID or abbreviation · e.g. left ACom';modificationSearch.setAttribute('aria-label','Search vessels to modify');modificationSearch.style.cssText='width:100%;padding:10px;margin:0 0 8px;background:#20323b;color:#ecf6f6;border:1px solid #425960;border-radius:6px';
+const modificationMatches=document.createElement('p');modificationMatches.className='tip';modificationMatches.setAttribute('role','status');
+const segmentFilters=document.createElement('div');segmentFilters.className='row';
+const segmentSide=document.createElement('select');segmentSide.setAttribute('aria-label','Cerebral side');segmentSide.append(new Option('Both sides',''),new Option('Left','left'),new Option('Right','right'));
+const segmentChoice=document.createElement('select');segmentChoice.setAttribute('aria-label','Cerebral segment');segmentChoice.append(new Option('All vessel segments',''));
+for(const family of ['M','A','P'])for(const number of [1,2,3]){const id=family+number;segmentChoice.append(new Option(id+(['M1','M2','P1'].includes(id)?' · source named':' · boundary needed'),id))}
+segmentFilters.append(segmentSide,segmentChoice);segmentFilters.style.marginBottom='8px';
+const segmentNotice=document.createElement('p');segmentNotice.className='tip';segmentNotice.setAttribute('role','status');
+$('atlasModificationName').before(modificationLabel,segmentFilters,segmentNotice,modificationSearch,modificationSelect,modificationMatches);
+segmentSide.onchange=segmentChoice.onchange=()=>{modificationSearch.value='';syncAtlasModification()};
+modificationSearch.oninput=()=>syncAtlasModification();
 modificationSelect.onchange=()=>{if(modificationSelect.value)post('/api/atlas-selection',{part_id:modificationSelect.value})};
 let modificationOptionsKey='';
+function sourceSegment(vessel){
+ const name=(vessel.name||'').toLowerCase();
+ if(name.includes('sphenoid part of')&&name.includes('middle cerebral'))return 'M1';
+ if(name.includes('insular part of')&&name.includes('middle cerebral'))return 'M2';
+ if(name.includes('precommunicating part of')&&name.includes('posterior cerebral'))return 'P1';
+ return '';
+}
+function segmentCandidate(vessel,segment){
+ const name=(vessel.name||'').toLowerCase();
+ if(['M1','M2','P1'].includes(segment))return sourceSegment(vessel)===segment;
+ if(segment==='M3')return name.includes('middle cerebral')&&!sourceSegment(vessel);
+ if(segment.startsWith('A'))return name.includes('anterior cerebral artery')||name.includes('pericallosal artery');
+ if(segment.startsWith('P'))return name.includes('postcommunicating part of')&&name.includes('posterior cerebral');
+ return true;
+}
+function matchesVesselSearch(vessel,query){
+ const normalize=text=>String(text).toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+ const name=normalize(vessel.name||''),aliases=[];
+ for(const [phrase,alias]of [['anterior communicating','acom acomm'],['posterior communicating','pcom pcomm'],['internal carotid','ica'],['external carotid','eca'],['common carotid','cca'],['middle cerebral','mca'],['anterior cerebral','aca'],['posterior cerebral','pca']])if(name.includes(phrase))aliases.push(alias);
+ const tokens=normalize(query).split(' ').filter(Boolean),haystack=normalize(`${name} ${vessel.id} ${aliases.join(' ')} ${sourceSegment(vessel)}`);
+ const unpairedAcom=name.includes('anterior communicating')&&!/\b(left|right)\b/.test(name)&&(tokens.some(t=>['acom','acomm'].includes(t))||tokens.includes('communicating'));
+ return tokens.every(token=>unpairedAcom&&['left','right'].includes(token)||haystack.includes(token));
+}
 const optionsCard=atlasCard(''),displayDetails=document.createElement('details'),displayTitle=document.createElement('summary');displayTitle.textContent='Display options';displayDetails.append(displayTitle);optionsCard.append(displayDetails);displayDetails.append($('show_arterial').closest('.row'),$('atlasCenterlinesVisible').closest('label'),$('atlasContextLabel'),$('neckRepairsPanel'));
 const viewDetails=$('applyView').closest('details');viewDetails.querySelector('summary').textContent='Camera focus';displayDetails.append(viewDetails);$('mode').previousElementSibling.hidden=true;$('mode').hidden=true;
 const advancedCard=atlasCard(''),advanced=document.createElement('details'),advancedTitle=document.createElement('summary');advancedTitle.textContent='Source & reconstruction details';advanced.append(advancedTitle,$('atlasInspector'));advancedCard.append(advanced);const repairsDetails=$('neckRepairsPanel').querySelector('details');advanced.append(repairsDetails);for(const p of [...$('neckRepairsPanel').querySelectorAll(':scope > p')])advanced.append(p);advanced.append($('referenceReadOnly'));atlasWorkspace.append($('error'));
@@ -207,22 +240,28 @@ function atlasModificationValues(){
 function syncAtlasModification(){
  $('atlasModificationPanel').hidden=!isAtlas();if(!isAtlas())return;
  const vessels=[...(state.atlas?.parts||[]),...(state.neck_repairs?.parts||[])].filter(p=>layerIds.includes(p.layer));
- const optionsKey=vessels.map(p=>p.id).join('|');
+ const segment=segmentChoice.value||(modificationSearch.value.match(/\b[MAP][123]\b/i)?.[0]||'').toUpperCase(),side=segmentSide.value,needsBoundary=segment&&!['M1','M2','P1'].includes(segment);
+ const query=needsBoundary?modificationSearch.value.replace(/\b[MAP][123]\b/ig,''):modificationSearch.value;
+ const filtered=vessels.filter(p=>(!side||new RegExp('\\b'+side+'\\b','i').test(p.name||''))&&(!segment||segmentCandidate(p,segment))&&matchesVesselSearch(p,query));
+ segmentNotice.textContent=needsBoundary?`${side?side+' ':''}${segment}: no verified segment boundary in this Atlas. Listed vessels are unsegmented candidates, NOT identified ${segment} segments. Editing changes the whole selected atlas part.`:segment?`${segment}: mapped from the source anatomical name. This is a name-based label, not independent anatomical validation.`:'M1/M2/P1 have source-name mappings. Other segments require anatomical boundary annotation.';
+ const optionsKey=filtered.map(p=>p.id).join('|')+';'+modificationSearch.value+';'+segment;
  if(optionsKey!==modificationOptionsKey){
   modificationOptionsKey=optionsKey;modificationSelect.replaceChildren(new Option('Select a vessel…',''));
   for(const [layer,title]of [['arterial','Arteries'],['systemic_venous','Systemic veins'],['hepatic_portal','Portal veins']]){
    const group=document.createElement('optgroup');group.label=title;
-   for(const vessel of vessels.filter(p=>p.layer===layer).sort((a,b)=>(a.name||a.id).localeCompare(b.name||b.id)))group.append(new Option(`${vessel.name||vessel.id} · ${vessel.id}`,vessel.id));
-   modificationSelect.append(group);
+   for(const vessel of filtered.filter(p=>p.layer===layer).sort((a,b)=>(a.name||a.id).localeCompare(b.name||b.id)))group.append(new Option(`${sourceSegment(vessel)?sourceSegment(vessel)+' · ':needsBoundary?'Unsegmented · ':''}${vessel.name||vessel.id} · ${vessel.id}`,vessel.id));
+   if(group.children.length)modificationSelect.append(group);
   }
  }
  const id=state.atlas_selection,part=vessels.find(p=>p.id===id);
- modificationSelect.value=id||'';modificationSelect.disabled=pending||!vessels.length;
+ modificationSelect.value=filtered.some(p=>p.id===id)?id:'';modificationSelect.disabled=pending||!filtered.length;
+ modificationMatches.textContent=filtered.length?`${filtered.length} matching vessels`:'No matching vessels. Try a name, atlas ID, or abbreviation.';
+ if(/\b(left|right)\b/i.test(modificationSearch.value)&&filtered.some(p=>/anterior communicating/i.test(p.name||'')&&!/\b(left|right)\b/i.test(p.name||'')))modificationMatches.textContent+=' · Atlas ACom is listed without left/right labels.';
  const ready=state.atlas_centerlines?.available&&atlasCenterlineGeneration===state.generation;
  const editable=ready&&(atlasCenterlineData?.edges||[]).some(edge=>edge.part_id===id);
  const key=JSON.stringify([id,state.generation]);
  if(key!==atlasModificationKey){atlasModificationKey=key;atlasModificationGeneration=state.generation;atlasModificationPart=id;const p=state.atlas_modifications?.[id]||{};$('atlasRadius').value=p.radius_scale??1;$('atlasTortuosity').value=p.tortuosity??0;$('atlasTorsion').value=p.torsion_deg??0;atlasModificationValues()}
- $('atlasModificationName').textContent=part?`${part.name||id} · ${id}`:'Select an atlas vessel';
+ $('atlasModificationName').textContent=part?`${sourceSegment(part)?sourceSegment(part)+' · ':''}${part.name||id} · ${id}`:'Select an atlas vessel';
  $('atlasModificationControls').disabled=pending||!editable;
  $('atlasModificationStatus').textContent=!part?'Select a vessel from the atlas list or graph.':!ready?'Waiting for the current centerline graph.':!editable?'This structure has no extracted centerline and cannot be modified.':state.atlas_modifications?.[id]?'Local modification applied to this vessel.':'Original geometry · adjustments are relative to this baseline.';
 }
