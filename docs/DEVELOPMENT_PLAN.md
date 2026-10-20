@@ -193,3 +193,5 @@ ACA A1–A3와 MCA M1–M3의 구간 경계는 해부학적 기준으로 정의�
 6. 기하 검사와 재현성 허용오차, 실행 자원 및 최대 시도 횟수.
 
 각 설계 결정은 관련 요구사항, 근거와 검증 방법을 함께 기록한다. 개발계획서와 상세 명세는 저장소에서 버전 관리한다.
+
+상세 문서: [자료조사](DATA_SOURCE_SURVEY.md), [원자료 검사](LOCAL_SOURCE_INVENTORY.md), [TopCoW 검사](TOPCOW_SOURCE_INSPECTION.md), [뇌혈관 구간 및 접합점 명세](CEREBRAL_SEGMENT_SPEC.md).
