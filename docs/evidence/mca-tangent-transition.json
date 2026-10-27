@@ -1,0 +1,50 @@
+{
+  "schema": "vv-toolbox.tangent-transition/1",
+  "case_revision": "90aa67f11b698178168d7491e1da7d23bd621f252dfea6dd47029af93b9a9da4",
+  "frame": {
+    "axes": "LPS",
+    "evidence_ref": "docs/CEREBRAL_LANDMARK_INSPECTION.md",
+    "id": "bodyparts3d_native_LPS",
+    "origin": "unchanged BodyParts3D native origin",
+    "units": "mm"
+  },
+  "parent_artifact_sha256": "e556b6f7b39fda923bac2945b155e6ac7c96b7c3377fc2968782ebcc0ba286db",
+  "status": "CANDIDATE",
+  "parameterization": "provisional normalized arc length; anatomical correspondence NOT VERIFIED",
+  "sampling_intervals": 8,
+  "band_width_mm": 1.0,
+  "angles": {
+    "neck": {
+      "count": 125,
+      "maximum_deg": 29.187184552748814,
+      "p95_deg": 26.64461977060766,
+      "above_90_deg": 0
+    },
+    "outer_join": {
+      "count": 185,
+      "maximum_deg": 168.61754494520983,
+      "p95_deg": 67.60108514783653,
+      "above_90_deg": 6
+    },
+    "transition_interior": {
+      "count": 5685,
+      "maximum_deg": 179.6260667926288,
+      "p95_deg": 29.67021051626533,
+      "above_90_deg": 114
+    }
+  },
+  "minimum_triangle_quality": 0.0004508844240621646,
+  "minimum_triangle_area_mm2": 2.040975093642989e-06,
+  "closed_volume": "PASS",
+  "component_count": 1,
+  "original_vertices_unchanged": true,
+  "design_curve_exact": true,
+  "self_intersection": "NOT RUN",
+  "context_collision": "NOT RUN",
+  "smooth_junction": "UNKNOWN",
+  "crease_screen": "FAIL",
+  "crease_screen_definition": "Reject any measured transition or interface face-normal angle above 90 degrees; passing is not smoothness acceptance.",
+  "app_applied": false,
+  "artifact_sha256": "aef2ed9a0b21a56f226f34e83cffeda725fc1b9f49690974e4587f951cfdc3d1",
+  "input_unchanged": true
+}

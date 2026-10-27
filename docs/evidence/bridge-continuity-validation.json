@@ -1,0 +1,10 @@
+{
+  "schema": "vv-toolbox.validation/1",
+  "date": "2026-10-20",
+  "environment": "Docker vv-annotation-ui",
+  "command": "PYTHONPATH=src pytest -q -p no:cacheprovider tests/test_junction_continuity.py tests/test_synthetic_routes.py tests/test_synthetic_route_cli.py",
+  "passed": 26,
+  "seconds": 0.71,
+  "scope": "Both bridge attachments, sampled tangent and radius defect detection, explicit numerical tolerances and saved-case CLI",
+  "surface_smoothness": "NOT RUN"
+}

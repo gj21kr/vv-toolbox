@@ -1,0 +1,12 @@
+{
+  "scope": "Adaptive shared rim refinement, loft and closed-union regression",
+  "environment": "Docker vv-annotation-ui",
+  "command": "PYTHONPATH=src python -m pytest -q --tb=short -p no:cacheprovider tests/test_surface_neck.py tests/test_surface_neck_loft.py tests/test_surface_neck_union.py --junitxml=exports/surface-neck-refinement.xml",
+  "status": "PASS",
+  "passed": 14,
+  "warnings": 49,
+  "seconds": 14.83,
+  "atlas_execution_evidence": "docs/evidence/surface-neck-union-refined.json",
+  "continuous_collision_certification": "NOT RUN",
+  "clinical_validation": "NOT RUN"
+}

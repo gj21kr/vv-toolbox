@@ -1,0 +1,37 @@
+{
+  "case_revision": "90aa67f11b698178168d7491e1da7d23bd621f252dfea6dd47029af93b9a9da4",
+  "frame": {
+    "axes": "LPS",
+    "evidence_ref": "docs/CEREBRAL_LANDMARK_INSPECTION.md",
+    "id": "bodyparts3d_native_LPS",
+    "origin": "unchanged BodyParts3D native origin",
+    "units": "mm"
+  },
+  "schema": "vv-toolbox.explicit-neck/1",
+  "status": "CANDIDATE",
+  "parent_artifact_sha256": "e556b6f7b39fda923bac2945b155e6ac7c96b7c3377fc2968782ebcc0ba286db",
+  "origin_legend": {
+    "0": "retained parent",
+    "1": "retained sac",
+    "4": "new connecting strip"
+  },
+  "parameterization": "normalized arc length; seam nearest positive neck width direction",
+  "replaced_faces": 84,
+  "new_faces": 334,
+  "original_vertices_unchanged": true,
+  "design_curve_exact": true,
+  "design_projected_width_depth_mm": [
+    2.000000000000065,
+    0.9999999999999493
+  ],
+  "seam_dihedral_p95_deg": 160.4953472260189,
+  "seam_dihedral_max_deg": 161.20439261598185,
+  "closed_volume": "PASS",
+  "self_intersection": "NOT RUN",
+  "smooth_junction": "UNKNOWN",
+  "context_collision": "NOT RUN",
+  "clinical_validation": "NOT RUN",
+  "app_applied": false,
+  "artifact_sha256": "bfd4bf543e94cb9604e67424476b6c1b8442bbe522aa5f7243ca482d2c95a2ad",
+  "input_unchanged": true
+}

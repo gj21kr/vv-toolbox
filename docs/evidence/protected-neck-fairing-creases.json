@@ -1,0 +1,111 @@
+{
+  "status": "MEASURED",
+  "source_surface_sha256": "bad61c62ca40b1aade54c6e52e3ded05829240b23f6dbd915991d8688ae313d9",
+  "candidate_sha256": "04fdc2ef0329916b3d4b9f68f0095a64dd6d8e363b516e470bba8168ab818c0a",
+  "measured_pairs": 44616,
+  "rows": [
+    {
+      "kind": "maximum_after",
+      "source_face_pair": [
+        27406,
+        27407
+      ],
+      "source_edge_vertex_ids": [
+        10471,
+        10474
+      ],
+      "source_owners": [
+        "estimated_right_carotid_neck",
+        "estimated_right_carotid_neck"
+      ],
+      "before_angle_deg": 14.879591908928562,
+      "after_angle_deg": 22.712667182653384,
+      "increase_deg": 7.8330752737248215,
+      "edge_vertices_free": [
+        true,
+        true
+      ],
+      "before_triangle_areas_mm2": [
+        0.002163685362340332,
+        0.006962647217101186
+      ],
+      "before_edge_positions_mm": [
+        [
+          -20.207417429823657,
+          -112.62244128504565,
+          1373.5097977108908
+        ],
+        [
+          -20.210718179229772,
+          -112.57802157676907,
+          1374.2099318180065
+        ]
+      ],
+      "after_edge_positions_mm": [
+        [
+          -20.208450376365604,
+          -112.62250715148109,
+          1373.5093981246919
+        ],
+        [
+          -20.211702148156768,
+          -112.57814119031993,
+          1374.2100662443831
+        ]
+      ]
+    },
+    {
+      "kind": "maximum_increase",
+      "source_face_pair": [
+        23448,
+        23451
+      ],
+      "source_edge_vertex_ids": [
+        8494,
+        8500
+      ],
+      "source_owners": [
+        "estimated_right_carotid_neck",
+        "estimated_right_carotid_neck"
+      ],
+      "before_angle_deg": 3.5847857633415683,
+      "after_angle_deg": 22.309100422561887,
+      "increase_deg": 18.72431465922032,
+      "edge_vertices_free": [
+        false,
+        true
+      ],
+      "before_triangle_areas_mm2": [
+        0.010994771946725565,
+        0.0001043801545911307
+      ],
+      "before_edge_positions_mm": [
+        [
+          -16.506052139118765,
+          -115.13985392840671,
+          1372.082000785648
+        ],
+        [
+          -16.484434878760577,
+          -115.10025634279137,
+          1372.785946480895
+        ]
+      ],
+      "after_edge_positions_mm": [
+        [
+          -16.506052139118765,
+          -115.13985392840671,
+          1372.082000785648
+        ],
+        [
+          -16.48371177679285,
+          -115.09915010915485,
+          1372.8023603542392
+        ]
+      ]
+    }
+  ],
+  "smoothness_acceptance": "UNKNOWN",
+  "candidate_applied": false,
+  "scope": "Extrema of changed-region adjacent-face angles; not clinical curvature criteria"
+}

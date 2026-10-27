@@ -1,0 +1,48 @@
+........................................................................ [  5%]
+........................................................................ [ 11%]
+........................................................................ [ 17%]
+........................................................................ [ 23%]
+........................................................................ [ 28%]
+........................................................................ [ 34%]
+........................................................................ [ 40%]
+........................................................................ [ 46%]
+........................................................................ [ 52%]
+........................................................................ [ 57%]
+........................................................................ [ 63%]
+........................................................................ [ 69%]
+........................................................................ [ 75%]
+........................................................................ [ 81%]
+........................................................................ [ 86%]
+........................................................................ [ 92%]
+........................................................................ [ 98%]
+..................                                                       [100%]
+=============================== warnings summary ===============================
+tests/test_access_labels_cli.py: 48 warnings
+  /usr/local/lib/python3.12/site-packages/skimage/measure/_marching_cubes_lewiner.py:237: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+  As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+    ar.shape = shape
+
+tests/test_access_labels_cli.py: 4 warnings
+tests/test_anatomical_labels.py: 8 warnings
+tests/test_arterial_junctions.py: 19 warnings
+tests/test_atlas_centerlines.py: 2 warnings
+tests/test_atlas_neck.py: 6 warnings
+tests/test_batch.py: 28 warnings
+tests/test_case_surface.py: 4 warnings
+tests/test_estimated_surface_clearance.py: 10 warnings
+tests/test_fine_surface.py: 1 warning
+tests/test_fusiform_dilation.py: 2 warnings
+tests/test_geometry_quality.py: 1 warning
+tests/test_radius_profile_surface.py: 9 warnings
+tests/test_saccular_masks.py: 3 warnings
+tests/test_saccular_surface.py: 7 warnings
+tests/test_surface.py: 127 warnings
+tests/test_surface_neck_union.py: 1 warning
+tests/test_synthetic_neck_smoothing.py: 12 warnings
+tests/test_venous_surface.py: 68 warnings
+  /usr/local/lib/python3.12/site-packages/skimage/measure/_marching_cubes_lewiner.py:213: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+  As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+    faces.shape = -1, 3
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+1242 passed, 360 warnings in 148.60s (0:02:28)

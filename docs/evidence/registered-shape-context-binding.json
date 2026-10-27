@@ -1,0 +1,21 @@
+{
+  "status": "FAIL",
+  "binding": "PASS",
+  "case_revision": "e09458dedd417a1fad89eb9fbc5521a7f7074219ce31ccff88ee797c7ed65c8c",
+  "parent_revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+  "evidence_sha256": "af5ce17dc45c20cb4951f7965779e698219b35d911e5162a49f8261d2feeffc3",
+  "context_sha256": "20957bae7dcae8bfa59c04041a49ad300b857f750d829fa05aee41990180ec49",
+  "neighbor_count": 788,
+  "changed_contacts": [
+    "FJ2069",
+    "FJ2086",
+    "FJ2099",
+    "FJ2102",
+    "FJ3484"
+  ],
+  "scope": "Existing fixed-context contact measurements bound by exact before/after vertex and triangle equality; no rerun",
+  "geometry_equality": "EXACT",
+  "accepted_for_generation": false,
+  "anatomical_classification": "UNKNOWN",
+  "case_snapshot_modified": false
+}

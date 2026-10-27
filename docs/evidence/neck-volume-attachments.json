@@ -1,0 +1,204 @@
+{
+  "status": "INSPECTED",
+  "case_revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+  "rows": [
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "target": "FJ3483",
+      "cap_center_to_declared_endpoint_mm": 4.6413928804941255e-07,
+      "sampled_cap_coverage": "FAIL",
+      "cap_samples": 97,
+      "inside_source_samples": 77,
+      "outside_source_samples": 20,
+      "witness_offset_mm": 0.25,
+      "interior_overlap_witness": true,
+      "outside_example_mm": [
+        [
+          15.742077350616455,
+          -109.44133377075195,
+          1372.0411376953125
+        ],
+        [
+          15.902777671813965,
+          -106.56196594238281,
+          1372.127685546875
+        ],
+        [
+          15.905977249145508,
+          -109.83617401123047,
+          1372.0357666015625
+        ]
+      ]
+    },
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "target": "FJ1682M",
+      "cap_center_to_declared_endpoint_mm": 2.0008164555924076e-07,
+      "sampled_cap_coverage": "FAIL",
+      "cap_samples": 97,
+      "inside_source_samples": 78,
+      "outside_source_samples": 19,
+      "witness_offset_mm": 0.25,
+      "interior_overlap_witness": true,
+      "outside_example_mm": [
+        [
+          33.642784118652344,
+          -105.53044891357422,
+          1435.97021484375
+        ],
+        [
+          33.67166328430176,
+          -105.2911376953125,
+          1435.969970703125
+        ],
+        [
+          33.67678451538086,
+          -105.76907348632812,
+          1435.9727783203125
+        ]
+      ]
+    },
+    {
+      "part_id": "estimated_left_vertebral_neck",
+      "target": "FJ1725M",
+      "cap_center_to_declared_endpoint_mm": 1.3598350274137377e-06,
+      "sampled_cap_coverage": "FAIL",
+      "cap_samples": 97,
+      "inside_source_samples": 78,
+      "outside_source_samples": 19,
+      "witness_offset_mm": 0.25,
+      "interior_overlap_witness": true,
+      "outside_example_mm": [
+        [
+          14.260024070739746,
+          -80.67331314086914,
+          1399.776123046875
+        ],
+        [
+          14.41580867767334,
+          -80.5561294555664,
+          1399.7396240234375
+        ],
+        [
+          14.597699642181396,
+          -80.48328018188477,
+          1399.7089233398438
+        ]
+      ]
+    },
+    {
+      "part_id": "estimated_left_vertebral_neck",
+      "target": "FJ3479",
+      "cap_center_to_declared_endpoint_mm": 9.480306355309381e-07,
+      "sampled_cap_coverage": "PASS",
+      "cap_samples": 97,
+      "inside_source_samples": 97,
+      "outside_source_samples": 0,
+      "witness_offset_mm": 0.25,
+      "interior_overlap_witness": true,
+      "outside_example_mm": []
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "target": "FJ1682",
+      "cap_center_to_declared_endpoint_mm": 1.8110567381708289e-06,
+      "sampled_cap_coverage": "FAIL",
+      "cap_samples": 97,
+      "inside_source_samples": 79,
+      "outside_source_samples": 18,
+      "witness_offset_mm": 0.25,
+      "interior_overlap_witness": true,
+      "outside_example_mm": [
+        [
+          -37.07219314575195,
+          -106.45726776123047,
+          1436.1044921875
+        ],
+        [
+          -36.92273139953613,
+          -106.64630126953125,
+          1436.10009765625
+        ],
+        [
+          -36.77326965332031,
+          -106.83533477783203,
+          1436.095703125
+        ]
+      ]
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "target": "FJ3564",
+      "cap_center_to_declared_endpoint_mm": 6.950245640791663e-07,
+      "sampled_cap_coverage": "FAIL",
+      "cap_samples": 97,
+      "inside_source_samples": 80,
+      "outside_source_samples": 17,
+      "witness_offset_mm": 0.25,
+      "interior_overlap_witness": false,
+      "outside_example_mm": [
+        [
+          -20.36178207397461,
+          -110.27993774414062,
+          1371.93896484375
+        ],
+        [
+          -20.168726921081543,
+          -109.81467819213867,
+          1371.9073486328125
+        ],
+        [
+          -19.975671768188477,
+          -113.21028137207031,
+          1372.089599609375
+        ]
+      ]
+    },
+    {
+      "part_id": "estimated_right_vertebral_neck",
+      "target": "FJ3579",
+      "cap_center_to_declared_endpoint_mm": 1.2236464889868413e-05,
+      "sampled_cap_coverage": "PASS",
+      "cap_samples": 97,
+      "inside_source_samples": 97,
+      "outside_source_samples": 0,
+      "witness_offset_mm": 0.25,
+      "interior_overlap_witness": true,
+      "outside_example_mm": []
+    },
+    {
+      "part_id": "estimated_right_vertebral_neck",
+      "target": "FJ1725",
+      "cap_center_to_declared_endpoint_mm": 1.71616024710758e-07,
+      "sampled_cap_coverage": "FAIL",
+      "cap_samples": 97,
+      "inside_source_samples": 77,
+      "outside_source_samples": 20,
+      "witness_offset_mm": 0.25,
+      "interior_overlap_witness": true,
+      "outside_example_mm": [
+        [
+          -16.486692428588867,
+          -81.12853240966797,
+          1399.64794921875
+        ],
+        [
+          -16.37441349029541,
+          -82.77470779418945,
+          1399.963623046875
+        ],
+        [
+          -16.36586093902588,
+          -80.97238159179688,
+          1399.6307983398438
+        ]
+      ]
+    }
+  ],
+  "scope": "Cap vertices, edge midpoints and face centers plus one interior witness per end",
+  "cap_coverage_pass": 2,
+  "interior_overlap_pass": 7,
+  "continuous_overlap_volume": "NOT RUN",
+  "anatomical_connection": "NOT RUN",
+  "geometry_changed": false
+}

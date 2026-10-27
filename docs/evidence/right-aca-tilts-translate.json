@@ -1,0 +1,40 @@
+{
+  "schema": "vv-toolbox.right-aca-tilts/1",
+  "state": "COMPLETED",
+  "case_revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+  "atlas_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "expected_values": [
+    -1.0,
+    -0.5,
+    0.5,
+    1.0
+  ],
+  "parameter": "neck_offset_mm",
+  "rotation_axis": "width",
+  "protocol": "Translate neck center along declared axis. Preserve frame, dimensions and source. Evaluate every offset.",
+  "accepted_for_generation": false,
+  "containment": "NOT RUN",
+  "branch_patency": "NOT RUN",
+  "attempts": [
+    {
+      "neck_offset_mm": -1.0,
+      "status": "FAIL",
+      "reason": "Complete unique source rim trace required"
+    },
+    {
+      "neck_offset_mm": -0.5,
+      "status": "FAIL",
+      "reason": "Complete unique source rim trace required"
+    },
+    {
+      "neck_offset_mm": 0.5,
+      "status": "FAIL",
+      "reason": "Complete unique source rim trace required"
+    },
+    {
+      "neck_offset_mm": 1.0,
+      "status": "FAIL",
+      "reason": "Complete unique source rim trace required"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "Actual 788-neighbor UI inspection, reload/resume and saved result comparison",
+  "browser_path": "Playwright: Browser plugin not available",
+  "job_id": "635fd2e646344ac6944676db566e3866",
+  "reload_resumed_without_duplicate": true,
+  "job_state": "COMPLETE",
+  "completed": 788,
+  "total": 788,
+  "inspection_status": "FAIL",
+  "revision": "1876451579824ef112999c109cd5c199efbe944114d4ec31bbbd2469521c484f",
+  "exact_cli_case_match": true,
+  "post_count": 1,
+  "atlas_unchanged": true,
+  "browser_errors": [],
+  "visual_review": "NOT RUN"
+}

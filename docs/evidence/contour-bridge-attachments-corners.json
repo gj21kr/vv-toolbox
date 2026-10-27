@@ -1,0 +1,78 @@
+{
+  "case_revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+  "candidate_file_sha256": {
+    "estimated_left_carotid_neck": "28406e00a655cbeae78ab2b57c87e6180203cc575089fca609b75a1b9beac30f",
+    "estimated_right_carotid_neck": "cb472598fde0a167ef445360918ace20fdf7fadd2ff4d1cb95ed8333cfc0543d"
+  },
+  "rows": [
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "target": "FJ3483",
+      "end": 0,
+      "cap_samples": 483,
+      "outside_samples": 0,
+      "maximum_outside_distance_mm": 0.0,
+      "sampled_cap_coverage": "PASS",
+      "witness_mm": [
+        18.728313761559864,
+        -108.20655182956712,
+        1372.4296992754569
+      ],
+      "interior_overlap_witness": true,
+      "witness_definition": "0.25 mm from declared origin along inward bridge endpoint normal"
+    },
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "target": "FJ1682M",
+      "end": 1,
+      "cap_samples": 483,
+      "outside_samples": 0,
+      "maximum_outside_distance_mm": 0.0,
+      "sampled_cap_coverage": "PASS",
+      "witness_mm": [
+        35.49989478413292,
+        -105.51123142448762,
+        1435.7903201211257
+      ],
+      "interior_overlap_witness": true,
+      "witness_definition": "0.25 mm from declared origin along inward bridge endpoint normal"
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "target": "FJ3564",
+      "end": 0,
+      "cap_samples": 619,
+      "outside_samples": 0,
+      "maximum_outside_distance_mm": 0.0,
+      "sampled_cap_coverage": "PASS",
+      "witness_mm": [
+        -16.618330054536706,
+        -111.27212886297066,
+        1372.1294372329653
+      ],
+      "interior_overlap_witness": false,
+      "witness_definition": "0.25 mm from declared origin along inward bridge endpoint normal"
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "target": "FJ1682",
+      "end": 1,
+      "cap_samples": 619,
+      "outside_samples": 0,
+      "maximum_outside_distance_mm": 0.0,
+      "sampled_cap_coverage": "PASS",
+      "witness_mm": [
+        -35.49992094304713,
+        -105.51154723294498,
+        1435.790320399518
+      ],
+      "interior_overlap_witness": true,
+      "witness_definition": "0.25 mm from declared origin along inward bridge endpoint normal"
+    }
+  ],
+  "cap_coverage_pass": 4,
+  "overlap_witness_pass": 3,
+  "continuous_lumen": "NOT RUN",
+  "anatomical_validation": "NOT RUN",
+  "live_scene_changed": false
+}

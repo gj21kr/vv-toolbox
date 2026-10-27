@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scope": "Saved actual ROI archive coordinate and label consistency; no source geometry revalidation",
+  "artifact": "exports/access-candidate-roi/femoral-05mm.npz",
+  "sha256": "6a56d703e49fbf5c8f38c0c1073e3230a04e03b14258f0e387a75f62f16066d2",
+  "shape": [
+    33,
+    33,
+    33
+  ],
+  "foreground_voxels": 11691,
+  "anatomical_unknown": true,
+  "lesion_presence": "none_declared",
+  "source_sha256": "6e106b8da7e834b6f3b2a6dac4532b251f023b2d73db28bad498d28440336965"
+}

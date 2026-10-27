@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "Actual saved radius geometry and existing audit snapshot roundtrip; not live download",
+  "revision": "3ce6d2ba17216943acb549bc07d3dbe63dd799d23cc5ed5b93988c8c5c59e67f",
+  "artifact": "exports/edited-access-inspection/case.snapshot.json",
+  "geometry_sha256": "e968b1302dbe9bf726dd52d6e9d26a9195c2335c4e221e3a41ffcfaba43645ca",
+  "preserved_context_status": "FAIL",
+  "accepted_for_generation": false,
+  "audit_file_sha256": "fc41642257f32ff455f83476384d6c4f26a6c8b06b39b6e2142d27124d433327",
+  "input_surface_sha256": "e2f945149f0ed4376278ae5616814c544e729cb1dc5b83cc297eefddd5c51906",
+  "artifact_sha256": "18529177a27b2476fa8bd0f10145aac228d01e3a248d54bc52854b8b2d2b194f",
+  "graph_unchanged": true
+}

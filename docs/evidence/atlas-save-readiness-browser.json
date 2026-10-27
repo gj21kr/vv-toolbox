@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "scope": "Simulated client loading -> ready transition with unchanged server generation",
+  "generation": 5,
+  "save_button_reenabled": true,
+  "server_geometry_unchanged": true
+}

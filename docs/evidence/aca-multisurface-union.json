@@ -1,0 +1,32 @@
+{
+  "schema": "vv-toolbox.aca-multisurface-union/1",
+  "case_revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+  "atlas_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "candidate_sha256": "5822c6aa061c00c2f1427e155d83ea49f752730ea6dce4a12d71d558471cf8eb",
+  "included_parts": [
+    "FJ1654",
+    "FJ1655",
+    "FJ1690"
+  ],
+  "engine": "manifold",
+  "engine_version": "3.5.4",
+  "calculation_origin_mm": [
+    -7.400022648307224,
+    -114.57478063547572,
+    1538.305114123231
+  ],
+  "closed_volume": true,
+  "component_count": 1,
+  "baseline_volume_mm3": 240.32782868405639,
+  "candidate_volume_mm3": 276.5642621989618,
+  "removed_volume_mm3": 8.26596267729703e-08,
+  "added_volume_mm3": 36.2364336190772,
+  "anatomical_union_authorization": "NOT VERIFIED",
+  "branch_patency": "NOT RUN",
+  "self_contact": "NOT RUN",
+  "surrounding_clearance": "NOT RUN",
+  "accepted_for_generation": false,
+  "limitation": "Explicit experimental inclusion of ACom and contacting neighbor, not proof of branch attachment. Boolean arithmetic retriangulates inputs; exact source-face identity is not preserved.",
+  "artifact": "exports/aca-multisurface-union.npz",
+  "sha256": "c639bc28c50a90fe10dcc101d088de04fbdb71596fccdd0414d2371325006eb0"
+}

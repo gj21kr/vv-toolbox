@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "tests": 1231,
+  "seconds": 158.72,
+  "warnings": 360,
+  "python": "3.12.15 (main, Oct  6 2026, 02:02:22) [GCC 14.2.0]",
+  "source_snapshot_sha256": "fac3d329d0f8ec067426d9540e17c26180116059c80542b7ffe8b6dc8abf5eca",
+  "junit_sha256": "5e3ff4fec39ed555f213fb8b694df01c0ed2f38c0e33700bacd55e5137f44707",
+  "source_files_unchanged": true,
+  "scope": "Full automated Python suite; not full anatomical or clinical acceptance"
+}

@@ -1,0 +1,32 @@
+{
+  "requirement": "VV-REQ-005 / M4 editing and restoration",
+  "scope": "Failed atlas modification must not remain in model parameters, geometry data, generation, or subsequent saved edits",
+  "change": "Restore previous data references, selection, generation and legend, then redraw the previous model when rendering or selection fails during modification",
+  "test_environment": "vv-annotation-ui Docker",
+  "command": "PYTHONPATH=src python -m pytest tests/test_atlas_edit_session.py tests/test_atlas_workspace.py -q",
+  "result": "PASS",
+  "passed": 25,
+  "failure_injections": [
+    "Renderer fails once after the modified state is installed",
+    "Selection fails once after the modified state is installed",
+    "Modification renderer and recovery redraw both fail persistently",
+    "Saved-edit reload and restoration of a scene handle both fail persistently"
+  ],
+  "assertions": [
+    "Previous centerline graph, modification mapping and surface mapping references restored",
+    "Generation and legend restored",
+    "Previous model redraw requested",
+    "Saving after a recovered failure does not persist the failed modification",
+    "Incomplete recovery blocks modification, save and reload with a persistent recovery gate",
+    "Clearing the ordinary UI error does not remove that gate",
+    "Pre-existing saved file remains byte-identical after incomplete recovery",
+    "Edit status reports unavailable and instructs restarting the demo server"
+  ],
+  "browser_end_to_end": "NOT RUN",
+  "limitations": [
+    "Synthetic fixtures and fake renderer; no browser or real WebGL failure injection",
+    "Camera pose restoration not verified",
+    "A failure of the recovery redraw is explicitly reported and is not a successful rollback",
+    "This does not complete the full M4 editing workflow"
+  ]
+}

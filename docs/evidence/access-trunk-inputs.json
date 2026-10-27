@@ -1,0 +1,10469 @@
+{
+  "source_case_revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+  "status": "PASS",
+  "inputs": [
+    {
+      "part_id": "FJ3411",
+      "name": "arch of aorta",
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 381,
+        "normalized_vertices": 337,
+        "faces": 670,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "3dc876757932790b722e09e6e416d7586b5d77f91a15e93f9766a84845ff2d75",
+        "original_watertight": false,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "is_volume": true,
+      "geometry_sha256": "bf4c27840dab37d76e97d80e080449bc638ea42626b5c43da7da6e237f0f3372"
+    },
+    {
+      "part_id": "FJ3427",
+      "name": "descending aorta",
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 2351,
+        "normalized_vertices": 2283,
+        "faces": 4562,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "f93736771b75b345f63f298973b483e7e0013764beedfe6a5e66e4006344af0e",
+        "original_watertight": false,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "is_volume": true,
+      "geometry_sha256": "23dcd37be6d096c5b89b61a3d1b39ad17cbc87d5664fbd7823dddf44689c2079"
+    },
+    {
+      "part_id": "FJ1931",
+      "name": "descending thoracic aorta",
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 1229,
+        "normalized_vertices": 1147,
+        "faces": 2290,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "559b6f3a3d7db07216a50cb41820596b760f06f5f27af9d038aba0872fd0500c",
+        "original_watertight": false,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "is_volume": true,
+      "geometry_sha256": "fbb23b79b3a0fa9d0666dfc75876d62dcf5ee626ff00f245d442a9129e845a97"
+    },
+    {
+      "part_id": "FJ1932",
+      "name": "abdominal aorta",
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 1226,
+        "normalized_vertices": 1137,
+        "faces": 2270,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "4d6a63e44d35101fe15c9a5f28ac0b34d3cb98abb8f2476770657e8796b40ef6",
+        "original_watertight": false,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "is_volume": true,
+      "geometry_sha256": "1edde0597a78608867761e73ae7ead421b5eba00d7818d225ba5c770e1ee6671"
+    },
+    {
+      "part_id": "FJ3464",
+      "name": "left common iliac artery",
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 128,
+        "normalized_vertices": 126,
+        "faces": 248,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "eb24cdf57e5fb0cbbd0df9482c97cf67e42d29b2280f3bf4fa0d7b663e19cc60",
+        "original_watertight": false,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "is_volume": true,
+      "geometry_sha256": "909ab2b2f72205138ddf21a8fae4de4f52a730a6ace9f46f3bf7bfe1198052ae"
+    },
+    {
+      "part_id": "FJ3466",
+      "name": "left external iliac artery",
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 236,
+        "normalized_vertices": 233,
+        "faces": 462,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "0c08edcf0213b8ec30bfdabeee6175957a69c8b27bef052663c433d52fd97702",
+        "original_watertight": false,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "is_volume": true,
+      "geometry_sha256": "da0189b1f6ad4adbeb216cbcae8bf0c8ceefdc7e5cc337d0424f84c379f3058c"
+    },
+    {
+      "part_id": "FJ2074",
+      "name": "left femoral artery",
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 373,
+        "normalized_vertices": 372,
+        "faces": 740,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "2769d53956415fd2aec557750e430e75b1b00d17edb0d625d9d2953f2af0f8da",
+        "original_watertight": false,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "is_volume": true,
+      "geometry_sha256": "538ba2ef69c2b693b8b203348f4573f210a9ba56bb309909852a99bc1225193b"
+    },
+    {
+      "part_id": "FJ3565",
+      "name": "right common iliac artery",
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 117,
+        "normalized_vertices": 112,
+        "faces": 220,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "ba1a2cbd14ba77ab22cbef16c8ded66c23e6e5b71a891416a39473f9ccab8a65",
+        "original_watertight": false,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "is_volume": true,
+      "geometry_sha256": "ca90ee4fb30d7f93bc989da3884cfb573ef569f6c6ba47974ddaf8dfc4c6aa79"
+    },
+    {
+      "part_id": "FJ3567",
+      "name": "right external iliac artery",
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 214,
+        "normalized_vertices": 200,
+        "faces": 396,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "49f4895224aa254551e09bdea15e26537af0a4ad2b26c75050f8a28bff38c796",
+        "original_watertight": false,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "is_volume": true,
+      "geometry_sha256": "5399bec4aea96cd3afb714a9a462ce7a406019aeb531c9eb79fe8edd4e9c3039"
+    },
+    {
+      "part_id": "FJ2143",
+      "name": "right femoral artery",
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 380,
+        "normalized_vertices": 378,
+        "faces": 752,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "7f1253218360b0db4b3310c7c2f91f02912167acfd2426fa4b8cc989ed82ee89",
+        "original_watertight": false,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "is_volume": true,
+      "geometry_sha256": "9aabe7c4b539a24c04c6c63cb25f8c99186b8fa62e05f9d4a157f3fb3a8ef373"
+    },
+    {
+      "part_id": "FJ3417",
+      "name": "brachiocephalic artery",
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 160,
+        "normalized_vertices": 133,
+        "faces": 262,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "3e15eda8447a7769632298e0b380328bf420fdbda6e325f08c6f27f2afa950fc",
+        "original_watertight": false,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "is_volume": true,
+      "geometry_sha256": "84055de3a4b3a08531839c5117c52e4dc4f366d194bc5ebaf36cf263cb6d78d3"
+    },
+    {
+      "part_id": "FJ3564",
+      "name": "right common carotid artery",
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 448,
+        "normalized_vertices": 444,
+        "faces": 884,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "7dccd52af9264ece47e81e21729c1b9465ca06384ddab3e18a4c48f197333294",
+        "original_watertight": false,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "is_volume": true,
+      "geometry_sha256": "00d12b9935afecec0f027ce119f256adafb882516a4bb440f85d818c04f9969f"
+    },
+    {
+      "part_id": "FJ3483",
+      "name": "left common carotid artery",
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 126,
+        "normalized_vertices": 87,
+        "faces": 170,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "0a530163c91da9d91811386f195fd9ef1d4b8d4a4f139907fb698b256788443a",
+        "original_watertight": false,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "is_volume": true,
+      "geometry_sha256": "e9d928e4dc6df319311fabf459f5d1ef5df5448c6354d4bb9abcc2319c4f0e93"
+    }
+  ],
+  "pairs": [
+    {
+      "first": "FJ3411",
+      "second": "FJ3427",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 275,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3411",
+      "second": "FJ1931",
+      "status": "CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 1219,
+      "contact_pairs": [
+        [
+          149,
+          1948
+        ],
+        [
+          149,
+          2098
+        ],
+        [
+          149,
+          2110
+        ],
+        [
+          149,
+          2128
+        ],
+        [
+          149,
+          2127
+        ],
+        [
+          149,
+          2102
+        ],
+        [
+          149,
+          2100
+        ],
+        [
+          149,
+          2103
+        ],
+        [
+          149,
+          2099
+        ],
+        [
+          149,
+          2106
+        ],
+        [
+          149,
+          1965
+        ],
+        [
+          149,
+          1955
+        ],
+        [
+          149,
+          2101
+        ],
+        [
+          149,
+          2105
+        ],
+        [
+          149,
+          2104
+        ],
+        [
+          155,
+          2110
+        ],
+        [
+          155,
+          1998
+        ],
+        [
+          155,
+          1947
+        ],
+        [
+          155,
+          1937
+        ],
+        [
+          155,
+          1740
+        ],
+        [
+          155,
+          1751
+        ],
+        [
+          155,
+          1946
+        ],
+        [
+          155,
+          1963
+        ],
+        [
+          155,
+          1965
+        ],
+        [
+          155,
+          1954
+        ],
+        [
+          228,
+          2000
+        ],
+        [
+          228,
+          1999
+        ],
+        [
+          228,
+          1997
+        ],
+        [
+          228,
+          1998
+        ],
+        [
+          228,
+          1506
+        ],
+        [
+          228,
+          1515
+        ],
+        [
+          228,
+          1516
+        ],
+        [
+          228,
+          1505
+        ],
+        [
+          228,
+          1509
+        ],
+        [
+          228,
+          1504
+        ],
+        [
+          228,
+          1503
+        ],
+        [
+          228,
+          1508
+        ],
+        [
+          228,
+          1738
+        ],
+        [
+          228,
+          1740
+        ],
+        [
+          228,
+          1739
+        ],
+        [
+          264,
+          1299
+        ],
+        [
+          264,
+          1300
+        ],
+        [
+          264,
+          1306
+        ],
+        [
+          264,
+          1301
+        ],
+        [
+          265,
+          1306
+        ],
+        [
+          265,
+          1092
+        ],
+        [
+          266,
+          1301
+        ],
+        [
+          266,
+          1307
+        ],
+        [
+          267,
+          1794
+        ],
+        [
+          267,
+          1570
+        ],
+        [
+          267,
+          1569
+        ],
+        [
+          267,
+          1307
+        ],
+        [
+          267,
+          1795
+        ],
+        [
+          267,
+          1792
+        ],
+        [
+          268,
+          1092
+        ],
+        [
+          356,
+          1783
+        ],
+        [
+          356,
+          2000
+        ],
+        [
+          356,
+          1025
+        ],
+        [
+          356,
+          1023
+        ],
+        [
+          356,
+          1246
+        ],
+        [
+          356,
+          1243
+        ],
+        [
+          356,
+          1244
+        ],
+        [
+          356,
+          1247
+        ],
+        [
+          356,
+          1245
+        ],
+        [
+          356,
+          1506
+        ],
+        [
+          358,
+          1022
+        ],
+        [
+          358,
+          1021
+        ],
+        [
+          359,
+          1783
+        ],
+        [
+          359,
+          1782
+        ],
+        [
+          359,
+          1023
+        ],
+        [
+          359,
+          1022
+        ],
+        [
+          360,
+          1040
+        ],
+        [
+          360,
+          803
+        ],
+        [
+          360,
+          1039
+        ],
+        [
+          360,
+          1078
+        ],
+        [
+          360,
+          1079
+        ],
+        [
+          362,
+          1038
+        ],
+        [
+          362,
+          1085
+        ],
+        [
+          362,
+          1076
+        ],
+        [
+          362,
+          1285
+        ],
+        [
+          362,
+          1069
+        ],
+        [
+          362,
+          1064
+        ],
+        [
+          362,
+          1075
+        ],
+        [
+          362,
+          1063
+        ],
+        [
+          362,
+          1074
+        ],
+        [
+          362,
+          1073
+        ],
+        [
+          362,
+          1284
+        ],
+        [
+          362,
+          1286
+        ],
+        [
+          362,
+          1295
+        ],
+        [
+          365,
+          1038
+        ],
+        [
+          365,
+          1079
+        ],
+        [
+          365,
+          842
+        ],
+        [
+          365,
+          1085
+        ],
+        [
+          368,
+          1795
+        ],
+        [
+          368,
+          1782
+        ],
+        [
+          370,
+          917
+        ],
+        [
+          370,
+          899
+        ],
+        [
+          370,
+          898
+        ],
+        [
+          370,
+          900
+        ],
+        [
+          371,
+          798
+        ],
+        [
+          373,
+          1093
+        ],
+        [
+          373,
+          1089
+        ],
+        [
+          373,
+          842
+        ],
+        [
+          373,
+          1088
+        ],
+        [
+          376,
+          877
+        ],
+        [
+          376,
+          1091
+        ],
+        [
+          376,
+          1092
+        ],
+        [
+          376,
+          1090
+        ],
+        [
+          376,
+          878
+        ],
+        [
+          376,
+          900
+        ],
+        [
+          380,
+          911
+        ],
+        [
+          380,
+          917
+        ],
+        [
+          447,
+          802
+        ],
+        [
+          447,
+          803
+        ],
+        [
+          448,
+          798
+        ],
+        [
+          448,
+          806
+        ],
+        [
+          448,
+          807
+        ],
+        [
+          448,
+          802
+        ],
+        [
+          449,
+          798
+        ],
+        [
+          449,
+          1021
+        ],
+        [
+          450,
+          798
+        ],
+        [
+          451,
+          798
+        ],
+        [
+          451,
+          891
+        ],
+        [
+          451,
+          914
+        ],
+        [
+          451,
+          892
+        ],
+        [
+          452,
+          798
+        ],
+        [
+          452,
+          912
+        ],
+        [
+          452,
+          907
+        ],
+        [
+          452,
+          906
+        ],
+        [
+          452,
+          913
+        ],
+        [
+          452,
+          914
+        ],
+        [
+          453,
+          911
+        ],
+        [
+          453,
+          908
+        ],
+        [
+          453,
+          909
+        ],
+        [
+          453,
+          913
+        ],
+        [
+          453,
+          910
+        ],
+        [
+          455,
+          892
+        ],
+        [
+          455,
+          1093
+        ]
+      ],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3411",
+      "second": "FJ1932",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3411",
+      "second": "FJ3464",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3411",
+      "second": "FJ3466",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3411",
+      "second": "FJ2074",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3411",
+      "second": "FJ3565",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3411",
+      "second": "FJ3567",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3411",
+      "second": "FJ2143",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3411",
+      "second": "FJ3417",
+      "status": "CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 215,
+      "contact_pairs": [
+        [
+          297,
+          254
+        ],
+        [
+          297,
+          260
+        ],
+        [
+          297,
+          250
+        ],
+        [
+          303,
+          253
+        ],
+        [
+          304,
+          254
+        ],
+        [
+          304,
+          248
+        ],
+        [
+          305,
+          253
+        ],
+        [
+          305,
+          248
+        ],
+        [
+          315,
+          247
+        ],
+        [
+          315,
+          253
+        ],
+        [
+          401,
+          250
+        ],
+        [
+          401,
+          256
+        ],
+        [
+          405,
+          256
+        ],
+        [
+          406,
+          241
+        ],
+        [
+          406,
+          239
+        ],
+        [
+          406,
+          256
+        ],
+        [
+          407,
+          239
+        ],
+        [
+          418,
+          247
+        ],
+        [
+          418,
+          242
+        ],
+        [
+          418,
+          228
+        ],
+        [
+          419,
+          235
+        ],
+        [
+          419,
+          228
+        ],
+        [
+          420,
+          235
+        ],
+        [
+          420,
+          208
+        ],
+        [
+          421,
+          247
+        ],
+        [
+          470,
+          219
+        ],
+        [
+          470,
+          220
+        ],
+        [
+          470,
+          239
+        ],
+        [
+          474,
+          219
+        ],
+        [
+          474,
+          217
+        ],
+        [
+          474,
+          197
+        ],
+        [
+          474,
+          196
+        ],
+        [
+          481,
+          188
+        ],
+        [
+          483,
+          208
+        ],
+        [
+          485,
+          188
+        ],
+        [
+          485,
+          187
+        ],
+        [
+          485,
+          210
+        ],
+        [
+          485,
+          208
+        ],
+        [
+          524,
+          188
+        ],
+        [
+          524,
+          184
+        ],
+        [
+          524,
+          197
+        ],
+        [
+          526,
+          184
+        ],
+        [
+          526,
+          186
+        ],
+        [
+          526,
+          197
+        ],
+        [
+          535,
+          188
+        ]
+      ],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3411",
+      "second": "FJ3564",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3411",
+      "second": "FJ3483",
+      "status": "CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 86,
+      "contact_pairs": [
+        [
+          192,
+          98
+        ],
+        [
+          192,
+          92
+        ],
+        [
+          192,
+          96
+        ],
+        [
+          287,
+          156
+        ],
+        [
+          290,
+          37
+        ],
+        [
+          290,
+          33
+        ],
+        [
+          290,
+          42
+        ],
+        [
+          290,
+          30
+        ],
+        [
+          293,
+          108
+        ],
+        [
+          293,
+          92
+        ],
+        [
+          293,
+          156
+        ],
+        [
+          294,
+          100
+        ],
+        [
+          294,
+          93
+        ],
+        [
+          294,
+          104
+        ],
+        [
+          294,
+          42
+        ],
+        [
+          294,
+          94
+        ],
+        [
+          294,
+          156
+        ],
+        [
+          295,
+          42
+        ],
+        [
+          298,
+          96
+        ],
+        [
+          400,
+          95
+        ],
+        [
+          400,
+          27
+        ],
+        [
+          400,
+          19
+        ],
+        [
+          400,
+          96
+        ],
+        [
+          402,
+          19
+        ],
+        [
+          403,
+          24
+        ],
+        [
+          403,
+          20
+        ],
+        [
+          403,
+          31
+        ],
+        [
+          403,
+          23
+        ],
+        [
+          403,
+          19
+        ],
+        [
+          403,
+          30
+        ]
+      ],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3427",
+      "second": "FJ1931",
+      "status": "CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 8638,
+      "contact_pairs": [
+        [
+          1483,
+          18
+        ],
+        [
+          1483,
+          15
+        ],
+        [
+          1483,
+          4
+        ],
+        [
+          1483,
+          17
+        ],
+        [
+          1483,
+          16
+        ],
+        [
+          1483,
+          9
+        ],
+        [
+          1483,
+          8
+        ],
+        [
+          1483,
+          60
+        ],
+        [
+          1720,
+          65
+        ],
+        [
+          1720,
+          66
+        ],
+        [
+          1721,
+          66
+        ],
+        [
+          1722,
+          65
+        ],
+        [
+          1738,
+          60
+        ],
+        [
+          1738,
+          62
+        ],
+        [
+          1738,
+          63
+        ],
+        [
+          1739,
+          63
+        ],
+        [
+          1739,
+          142
+        ],
+        [
+          1739,
+          141
+        ],
+        [
+          1740,
+          16
+        ],
+        [
+          1740,
+          14
+        ],
+        [
+          1740,
+          60
+        ],
+        [
+          1741,
+          14
+        ],
+        [
+          1741,
+          65
+        ],
+        [
+          1886,
+          124
+        ],
+        [
+          1886,
+          127
+        ],
+        [
+          1887,
+          188
+        ],
+        [
+          1888,
+          127
+        ],
+        [
+          1888,
+          174
+        ],
+        [
+          1888,
+          276
+        ],
+        [
+          1888,
+          188
+        ],
+        [
+          1899,
+          124
+        ],
+        [
+          1900,
+          124
+        ],
+        [
+          1901,
+          66
+        ],
+        [
+          1901,
+          124
+        ],
+        [
+          1922,
+          141
+        ],
+        [
+          2023,
+          188
+        ],
+        [
+          2023,
+          477
+        ],
+        [
+          2039,
+          190
+        ],
+        [
+          2044,
+          124
+        ],
+        [
+          2054,
+          197
+        ],
+        [
+          2055,
+          135
+        ],
+        [
+          2055,
+          197
+        ],
+        [
+          2055,
+          141
+        ],
+        [
+          2056,
+          197
+        ],
+        [
+          2056,
+          189
+        ],
+        [
+          2056,
+          190
+        ],
+        [
+          2056,
+          199
+        ],
+        [
+          2056,
+          198
+        ],
+        [
+          2066,
+          203
+        ],
+        [
+          2066,
+          288
+        ],
+        [
+          2067,
+          287
+        ],
+        [
+          2067,
+          288
+        ],
+        [
+          2067,
+          286
+        ],
+        [
+          2069,
+          203
+        ],
+        [
+          2070,
+          136
+        ],
+        [
+          2070,
+          208
+        ],
+        [
+          2070,
+          138
+        ],
+        [
+          2070,
+          204
+        ],
+        [
+          2070,
+          203
+        ],
+        [
+          2073,
+          206
+        ],
+        [
+          2073,
+          208
+        ],
+        [
+          2080,
+          218
+        ],
+        [
+          2081,
+          217
+        ],
+        [
+          2081,
+          218
+        ],
+        [
+          2082,
+          215
+        ],
+        [
+          2083,
+          216
+        ],
+        [
+          2083,
+          215
+        ],
+        [
+          2084,
+          217
+        ],
+        [
+          2084,
+          216
+        ],
+        [
+          2085,
+          206
+        ],
+        [
+          2085,
+          215
+        ],
+        [
+          2085,
+          214
+        ],
+        [
+          2087,
+          218
+        ],
+        [
+          2087,
+          241
+        ],
+        [
+          2095,
+          243
+        ],
+        [
+          2096,
+          243
+        ],
+        [
+          2096,
+          244
+        ],
+        [
+          2098,
+          243
+        ],
+        [
+          2098,
+          241
+        ],
+        [
+          2161,
+          477
+        ],
+        [
+          2162,
+          477
+        ],
+        [
+          2163,
+          477
+        ],
+        [
+          2172,
+          277
+        ],
+        [
+          2173,
+          191
+        ],
+        [
+          2173,
+          190
+        ],
+        [
+          2173,
+          277
+        ],
+        [
+          2174,
+          278
+        ],
+        [
+          2174,
+          277
+        ],
+        [
+          2175,
+          270
+        ],
+        [
+          2175,
+          354
+        ],
+        [
+          2175,
+          278
+        ],
+        [
+          2208,
+          372
+        ],
+        [
+          2209,
+          286
+        ],
+        [
+          2209,
+          372
+        ],
+        [
+          2218,
+          333
+        ],
+        [
+          2219,
+          333
+        ],
+        [
+          2219,
+          411
+        ],
+        [
+          2220,
+          242
+        ],
+        [
+          2220,
+          333
+        ],
+        [
+          2221,
+          242
+        ],
+        [
+          2221,
+          244
+        ],
+        [
+          2274,
+          477
+        ],
+        [
+          2274,
+          488
+        ],
+        [
+          2275,
+          488
+        ],
+        [
+          2276,
+          488
+        ],
+        [
+          2277,
+          283
+        ],
+        [
+          2277,
+          489
+        ],
+        [
+          2277,
+          488
+        ],
+        [
+          2278,
+          209
+        ],
+        [
+          2278,
+          283
+        ],
+        [
+          2287,
+          356
+        ],
+        [
+          2287,
+          271
+        ],
+        [
+          2287,
+          355
+        ],
+        [
+          2342,
+          527
+        ],
+        [
+          2343,
+          373
+        ],
+        [
+          2343,
+          527
+        ],
+        [
+          2345,
+          373
+        ],
+        [
+          2345,
+          372
+        ],
+        [
+          2346,
+          372
+        ],
+        [
+          2369,
+          411
+        ],
+        [
+          2370,
+          396
+        ],
+        [
+          2370,
+          395
+        ],
+        [
+          2370,
+          412
+        ],
+        [
+          2370,
+          413
+        ],
+        [
+          2370,
+          411
+        ],
+        [
+          2371,
+          413
+        ],
+        [
+          2371,
+          410
+        ],
+        [
+          2372,
+          530
+        ],
+        [
+          2373,
+          410
+        ],
+        [
+          2373,
+          530
+        ],
+        [
+          2373,
+          409
+        ],
+        [
+          2431,
+          356
+        ],
+        [
+          2431,
+          487
+        ],
+        [
+          2431,
+          493
+        ],
+        [
+          2443,
+          209
+        ],
+        [
+          2443,
+          677
+        ],
+        [
+          2444,
+          697
+        ],
+        [
+          2445,
+          697
+        ],
+        [
+          2445,
+          677
+        ],
+        [
+          2508,
+          513
+        ],
+        [
+          2508,
+          742
+        ],
+        [
+          2509,
+          527
+        ],
+        [
+          2509,
+          513
+        ],
+        [
+          2510,
+          513
+        ],
+        [
+          2514,
+          527
+        ],
+        [
+          2530,
+          742
+        ],
+        [
+          2530,
+          524
+        ],
+        [
+          2530,
+          755
+        ],
+        [
+          2530,
+          523
+        ],
+        [
+          2544,
+          531
+        ],
+        [
+          2544,
+          530
+        ],
+        [
+          2585,
+          354
+        ],
+        [
+          2586,
+          354
+        ],
+        [
+          2587,
+          354
+        ],
+        [
+          2587,
+          355
+        ],
+        [
+          2588,
+          671
+        ],
+        [
+          2588,
+          493
+        ],
+        [
+          2588,
+          672
+        ],
+        [
+          2589,
+          672
+        ],
+        [
+          2638,
+          954
+        ],
+        [
+          2638,
+          951
+        ],
+        [
+          2638,
+          952
+        ],
+        [
+          2638,
+          953
+        ],
+        [
+          2644,
+          954
+        ],
+        [
+          2645,
+          499
+        ],
+        [
+          2645,
+          697
+        ],
+        [
+          2646,
+          499
+        ],
+        [
+          2646,
+          698
+        ],
+        [
+          2654,
+          705
+        ],
+        [
+          2654,
+          954
+        ],
+        [
+          2655,
+          713
+        ],
+        [
+          2655,
+          712
+        ],
+        [
+          2655,
+          719
+        ],
+        [
+          2655,
+          717
+        ],
+        [
+          2655,
+          698
+        ],
+        [
+          2655,
+          708
+        ],
+        [
+          2655,
+          705
+        ],
+        [
+          2656,
+          714
+        ],
+        [
+          2656,
+          713
+        ],
+        [
+          2656,
+          707
+        ],
+        [
+          2656,
+          708
+        ],
+        [
+          2719,
+          755
+        ],
+        [
+          2719,
+          520
+        ],
+        [
+          2719,
+          537
+        ],
+        [
+          2719,
+          752
+        ],
+        [
+          2719,
+          765
+        ],
+        [
+          2720,
+          742
+        ],
+        [
+          2731,
+          531
+        ],
+        [
+          2731,
+          756
+        ],
+        [
+          2731,
+          757
+        ],
+        [
+          2763,
+          775
+        ],
+        [
+          2764,
+          763
+        ],
+        [
+          2764,
+          775
+        ],
+        [
+          2765,
+          538
+        ],
+        [
+          2766,
+          537
+        ],
+        [
+          2766,
+          538
+        ],
+        [
+          2786,
+          770
+        ],
+        [
+          2786,
+          757
+        ],
+        [
+          2786,
+          992
+        ],
+        [
+          2787,
+          992
+        ],
+        [
+          2798,
+          771
+        ],
+        [
+          2798,
+          775
+        ],
+        [
+          2798,
+          777
+        ],
+        [
+          2798,
+          786
+        ],
+        [
+          2799,
+          786
+        ],
+        [
+          2799,
+          793
+        ],
+        [
+          2801,
+          538
+        ],
+        [
+          2801,
+          763
+        ],
+        [
+          2801,
+          551
+        ],
+        [
+          2831,
+          793
+        ],
+        [
+          2863,
+          793
+        ],
+        [
+          2864,
+          793
+        ],
+        [
+          2875,
+          793
+        ],
+        [
+          2877,
+          792
+        ],
+        [
+          2877,
+          798
+        ],
+        [
+          2878,
+          793
+        ],
+        [
+          2878,
+          792
+        ],
+        [
+          2879,
+          798
+        ],
+        [
+          2880,
+          798
+        ],
+        [
+          2881,
+          798
+        ],
+        [
+          2885,
+          798
+        ],
+        [
+          2885,
+          1022
+        ],
+        [
+          2885,
+          1021
+        ],
+        [
+          2886,
+          798
+        ],
+        [
+          2888,
+          1022
+        ],
+        [
+          2938,
+          638
+        ],
+        [
+          2938,
+          639
+        ],
+        [
+          2938,
+          672
+        ],
+        [
+          2938,
+          673
+        ],
+        [
+          2938,
+          932
+        ],
+        [
+          2997,
+          1146
+        ],
+        [
+          2997,
+          1404
+        ],
+        [
+          2997,
+          1144
+        ],
+        [
+          2997,
+          1401
+        ],
+        [
+          2997,
+          1403
+        ],
+        [
+          2998,
+          1147
+        ],
+        [
+          2998,
+          1404
+        ],
+        [
+          3012,
+          952
+        ],
+        [
+          3012,
+          1147
+        ],
+        [
+          3013,
+          952
+        ],
+        [
+          3014,
+          952
+        ],
+        [
+          3017,
+          952
+        ],
+        [
+          3113,
+          992
+        ],
+        [
+          3114,
+          992
+        ],
+        [
+          3114,
+          1003
+        ],
+        [
+          3114,
+          1004
+        ],
+        [
+          3114,
+          1230
+        ],
+        [
+          3114,
+          1242
+        ],
+        [
+          3251,
+          932
+        ],
+        [
+          3276,
+          1122
+        ],
+        [
+          3276,
+          1141
+        ],
+        [
+          3276,
+          1121
+        ],
+        [
+          3276,
+          1140
+        ],
+        [
+          3289,
+          1141
+        ],
+        [
+          3289,
+          1142
+        ],
+        [
+          3290,
+          1146
+        ],
+        [
+          3387,
+          1004
+        ],
+        [
+          3447,
+          1567
+        ],
+        [
+          3447,
+          1569
+        ],
+        [
+          3447,
+          1307
+        ],
+        [
+          3448,
+          1300
+        ],
+        [
+          3450,
+          1300
+        ],
+        [
+          3451,
+          1300
+        ],
+        [
+          3451,
+          1301
+        ],
+        [
+          3452,
+          1300
+        ],
+        [
+          3454,
+          1300
+        ],
+        [
+          3454,
+          1301
+        ],
+        [
+          3455,
+          1307
+        ],
+        [
+          3456,
+          1301
+        ],
+        [
+          3456,
+          1307
+        ],
+        [
+          3458,
+          1301
+        ],
+        [
+          3458,
+          1307
+        ],
+        [
+          3515,
+          1120
+        ],
+        [
+          3515,
+          932
+        ],
+        [
+          3516,
+          933
+        ],
+        [
+          3516,
+          1120
+        ],
+        [
+          3517,
+          933
+        ],
+        [
+          3517,
+          1121
+        ],
+        [
+          3542,
+          1146
+        ],
+        [
+          3543,
+          1146
+        ],
+        [
+          3543,
+          1142
+        ],
+        [
+          3599,
+          1486
+        ],
+        [
+          3600,
+          1221
+        ],
+        [
+          3600,
+          1220
+        ],
+        [
+          3600,
+          1004
+        ],
+        [
+          3600,
+          1219
+        ],
+        [
+          3600,
+          1486
+        ],
+        [
+          3642,
+          1486
+        ],
+        [
+          3644,
+          1948
+        ],
+        [
+          3644,
+          1025
+        ],
+        [
+          3644,
+          1023
+        ],
+        [
+          3644,
+          1022
+        ],
+        [
+          3644,
+          1246
+        ],
+        [
+          3644,
+          1243
+        ],
+        [
+          3644,
+          1244
+        ],
+        [
+          3644,
+          1247
+        ],
+        [
+          3644,
+          1245
+        ],
+        [
+          3644,
+          1506
+        ],
+        [
+          3644,
+          1515
+        ],
+        [
+          3644,
+          1516
+        ],
+        [
+          3644,
+          2099
+        ],
+        [
+          3644,
+          1947
+        ],
+        [
+          3644,
+          1937
+        ],
+        [
+          3644,
+          1505
+        ],
+        [
+          3644,
+          1509
+        ],
+        [
+          3644,
+          1504
+        ],
+        [
+          3644,
+          1503
+        ],
+        [
+          3644,
+          1508
+        ],
+        [
+          3644,
+          1738
+        ],
+        [
+          3644,
+          1740
+        ],
+        [
+          3644,
+          1739
+        ],
+        [
+          3644,
+          1751
+        ],
+        [
+          3644,
+          1946
+        ],
+        [
+          3644,
+          1963
+        ],
+        [
+          3644,
+          2106
+        ],
+        [
+          3644,
+          1965
+        ],
+        [
+          3644,
+          1955
+        ],
+        [
+          3644,
+          1954
+        ],
+        [
+          3644,
+          2105
+        ],
+        [
+          3644,
+          2104
+        ],
+        [
+          3665,
+          1530
+        ],
+        [
+          3665,
+          1555
+        ],
+        [
+          3672,
+          1555
+        ],
+        [
+          3672,
+          1562
+        ],
+        [
+          3672,
+          1566
+        ],
+        [
+          3673,
+          1566
+        ],
+        [
+          3674,
+          1567
+        ],
+        [
+          3675,
+          1566
+        ],
+        [
+          3675,
+          1567
+        ],
+        [
+          3768,
+          1146
+        ],
+        [
+          3833,
+          1486
+        ],
+        [
+          3833,
+          1485
+        ],
+        [
+          3833,
+          1484
+        ],
+        [
+          3854,
+          1719
+        ],
+        [
+          3854,
+          1717
+        ],
+        [
+          3857,
+          1719
+        ],
+        [
+          3858,
+          1718
+        ],
+        [
+          3858,
+          1719
+        ],
+        [
+          3862,
+          1718
+        ],
+        [
+          3862,
+          1484
+        ],
+        [
+          3863,
+          1718
+        ],
+        [
+          3868,
+          1936
+        ],
+        [
+          3868,
+          1725
+        ],
+        [
+          3871,
+          1717
+        ],
+        [
+          3872,
+          1717
+        ],
+        [
+          3872,
+          1714
+        ],
+        [
+          3872,
+          1724
+        ],
+        [
+          3872,
+          1725
+        ],
+        [
+          3873,
+          1725
+        ],
+        [
+          3876,
+          1741
+        ],
+        [
+          3876,
+          1757
+        ],
+        [
+          3878,
+          1948
+        ],
+        [
+          3878,
+          2098
+        ],
+        [
+          3878,
+          1022
+        ],
+        [
+          3878,
+          2102
+        ],
+        [
+          3878,
+          2100
+        ],
+        [
+          3878,
+          2103
+        ],
+        [
+          3878,
+          2101
+        ],
+        [
+          3879,
+          1753
+        ],
+        [
+          3880,
+          1757
+        ],
+        [
+          3880,
+          1753
+        ],
+        [
+          3882,
+          1530
+        ],
+        [
+          3882,
+          1752
+        ],
+        [
+          3883,
+          1752
+        ],
+        [
+          3884,
+          1755
+        ],
+        [
+          3884,
+          1752
+        ],
+        [
+          3885,
+          1755
+        ],
+        [
+          3885,
+          1753
+        ],
+        [
+          3890,
+          1569
+        ],
+        [
+          3890,
+          1307
+        ],
+        [
+          4079,
+          1936
+        ],
+        [
+          4081,
+          1741
+        ],
+        [
+          4083,
+          1936
+        ],
+        [
+          4083,
+          1741
+        ],
+        [
+          4085,
+          1741
+        ],
+        [
+          4088,
+          1794
+        ],
+        [
+          4088,
+          1795
+        ],
+        [
+          4088,
+          1783
+        ],
+        [
+          4088,
+          1782
+        ],
+        [
+          4088,
+          2000
+        ],
+        [
+          4088,
+          2110
+        ],
+        [
+          4088,
+          1999
+        ],
+        [
+          4088,
+          1997
+        ],
+        [
+          4088,
+          1998
+        ],
+        [
+          4088,
+          2128
+        ],
+        [
+          4088,
+          2127
+        ],
+        [
+          4088,
+          2103
+        ],
+        [
+          4096,
+          1794
+        ],
+        [
+          4096,
+          1570
+        ],
+        [
+          4096,
+          1569
+        ],
+        [
+          4096,
+          1792
+        ]
+      ],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3427",
+      "second": "FJ1932",
+      "status": "CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 9818,
+      "contact_pairs": [
+        [
+          0,
+          77
+        ],
+        [
+          1,
+          77
+        ],
+        [
+          2,
+          77
+        ],
+        [
+          22,
+          17
+        ],
+        [
+          24,
+          17
+        ],
+        [
+          27,
+          17
+        ],
+        [
+          28,
+          17
+        ],
+        [
+          29,
+          17
+        ],
+        [
+          31,
+          17
+        ],
+        [
+          33,
+          19
+        ],
+        [
+          33,
+          17
+        ],
+        [
+          34,
+          19
+        ],
+        [
+          34,
+          39
+        ],
+        [
+          34,
+          15
+        ],
+        [
+          38,
+          39
+        ],
+        [
+          40,
+          77
+        ],
+        [
+          40,
+          17
+        ],
+        [
+          40,
+          121
+        ],
+        [
+          40,
+          16
+        ],
+        [
+          40,
+          206
+        ],
+        [
+          67,
+          39
+        ],
+        [
+          68,
+          39
+        ],
+        [
+          72,
+          33
+        ],
+        [
+          72,
+          39
+        ],
+        [
+          76,
+          42
+        ],
+        [
+          77,
+          42
+        ],
+        [
+          77,
+          33
+        ],
+        [
+          77,
+          34
+        ],
+        [
+          117,
+          290
+        ],
+        [
+          118,
+          120
+        ],
+        [
+          118,
+          205
+        ],
+        [
+          119,
+          74
+        ],
+        [
+          119,
+          120
+        ],
+        [
+          122,
+          77
+        ],
+        [
+          122,
+          75
+        ],
+        [
+          124,
+          77
+        ],
+        [
+          131,
+          76
+        ],
+        [
+          131,
+          205
+        ],
+        [
+          131,
+          169
+        ],
+        [
+          132,
+          76
+        ],
+        [
+          132,
+          75
+        ],
+        [
+          133,
+          76
+        ],
+        [
+          178,
+          96
+        ],
+        [
+          178,
+          97
+        ],
+        [
+          178,
+          100
+        ],
+        [
+          179,
+          97
+        ],
+        [
+          179,
+          145
+        ],
+        [
+          181,
+          109
+        ],
+        [
+          181,
+          105
+        ],
+        [
+          181,
+          111
+        ],
+        [
+          185,
+          100
+        ],
+        [
+          185,
+          99
+        ],
+        [
+          187,
+          109
+        ],
+        [
+          187,
+          108
+        ],
+        [
+          188,
+          105
+        ],
+        [
+          189,
+          99
+        ],
+        [
+          189,
+          105
+        ],
+        [
+          190,
+          145
+        ],
+        [
+          191,
+          146
+        ],
+        [
+          191,
+          145
+        ],
+        [
+          196,
+          290
+        ],
+        [
+          196,
+          108
+        ],
+        [
+          197,
+          108
+        ],
+        [
+          212,
+          74
+        ],
+        [
+          233,
+          146
+        ],
+        [
+          234,
+          149
+        ],
+        [
+          234,
+          151
+        ],
+        [
+          234,
+          146
+        ],
+        [
+          234,
+          150
+        ],
+        [
+          235,
+          151
+        ],
+        [
+          235,
+          167
+        ],
+        [
+          239,
+          151
+        ],
+        [
+          240,
+          151
+        ],
+        [
+          245,
+          167
+        ],
+        [
+          247,
+          167
+        ],
+        [
+          252,
+          172
+        ],
+        [
+          252,
+          42
+        ],
+        [
+          252,
+          170
+        ],
+        [
+          252,
+          171
+        ],
+        [
+          253,
+          172
+        ],
+        [
+          258,
+          172
+        ],
+        [
+          261,
+          172
+        ],
+        [
+          262,
+          172
+        ],
+        [
+          262,
+          216
+        ],
+        [
+          307,
+          185
+        ],
+        [
+          307,
+          216
+        ],
+        [
+          308,
+          185
+        ],
+        [
+          309,
+          185
+        ],
+        [
+          309,
+          186
+        ],
+        [
+          309,
+          193
+        ],
+        [
+          313,
+          193
+        ],
+        [
+          313,
+          218
+        ],
+        [
+          313,
+          219
+        ],
+        [
+          382,
+          519
+        ],
+        [
+          394,
+          517
+        ],
+        [
+          394,
+          246
+        ],
+        [
+          398,
+          509
+        ],
+        [
+          398,
+          519
+        ],
+        [
+          405,
+          236
+        ],
+        [
+          405,
+          245
+        ],
+        [
+          405,
+          239
+        ],
+        [
+          405,
+          527
+        ],
+        [
+          408,
+          209
+        ],
+        [
+          408,
+          222
+        ],
+        [
+          408,
+          246
+        ],
+        [
+          408,
+          236
+        ],
+        [
+          409,
+          246
+        ],
+        [
+          475,
+          290
+        ],
+        [
+          475,
+          292
+        ],
+        [
+          476,
+          290
+        ],
+        [
+          484,
+          293
+        ],
+        [
+          485,
+          292
+        ],
+        [
+          485,
+          293
+        ],
+        [
+          486,
+          293
+        ],
+        [
+          487,
+          293
+        ],
+        [
+          487,
+          300
+        ],
+        [
+          498,
+          322
+        ],
+        [
+          499,
+          300
+        ],
+        [
+          499,
+          309
+        ],
+        [
+          499,
+          310
+        ],
+        [
+          499,
+          322
+        ],
+        [
+          504,
+          322
+        ],
+        [
+          504,
+          607
+        ],
+        [
+          505,
+          607
+        ],
+        [
+          505,
+          606
+        ],
+        [
+          517,
+          747
+        ],
+        [
+          589,
+          323
+        ],
+        [
+          589,
+          371
+        ],
+        [
+          589,
+          747
+        ],
+        [
+          589,
+          372
+        ],
+        [
+          589,
+          460
+        ],
+        [
+          590,
+          74
+        ],
+        [
+          590,
+          326
+        ],
+        [
+          590,
+          73
+        ],
+        [
+          590,
+          323
+        ],
+        [
+          592,
+          439
+        ],
+        [
+          598,
+          449
+        ],
+        [
+          598,
+          439
+        ],
+        [
+          615,
+          747
+        ],
+        [
+          615,
+          460
+        ],
+        [
+          615,
+          746
+        ],
+        [
+          622,
+          167
+        ],
+        [
+          622,
+          439
+        ],
+        [
+          622,
+          431
+        ],
+        [
+          622,
+          166
+        ],
+        [
+          625,
+          449
+        ],
+        [
+          626,
+          449
+        ],
+        [
+          628,
+          452
+        ],
+        [
+          628,
+          449
+        ],
+        [
+          628,
+          706
+        ],
+        [
+          629,
+          449
+        ],
+        [
+          632,
+          461
+        ],
+        [
+          632,
+          219
+        ],
+        [
+          633,
+          461
+        ],
+        [
+          636,
+          461
+        ],
+        [
+          636,
+          462
+        ],
+        [
+          637,
+          466
+        ],
+        [
+          637,
+          462
+        ],
+        [
+          640,
+          469
+        ],
+        [
+          640,
+          482
+        ],
+        [
+          649,
+          466
+        ],
+        [
+          649,
+          481
+        ],
+        [
+          649,
+          482
+        ],
+        [
+          658,
+          229
+        ],
+        [
+          658,
+          475
+        ],
+        [
+          658,
+          234
+        ],
+        [
+          658,
+          484
+        ],
+        [
+          660,
+          475
+        ],
+        [
+          662,
+          480
+        ],
+        [
+          662,
+          475
+        ],
+        [
+          664,
+          480
+        ],
+        [
+          664,
+          476
+        ],
+        [
+          666,
+          476
+        ],
+        [
+          666,
+          491
+        ],
+        [
+          667,
+          763
+        ],
+        [
+          667,
+          491
+        ],
+        [
+          684,
+          518
+        ],
+        [
+          686,
+          518
+        ],
+        [
+          688,
+          518
+        ],
+        [
+          692,
+          484
+        ],
+        [
+          692,
+          232
+        ],
+        [
+          693,
+          232
+        ],
+        [
+          693,
+          518
+        ],
+        [
+          698,
+          231
+        ],
+        [
+          698,
+          519
+        ],
+        [
+          699,
+          231
+        ],
+        [
+          699,
+          232
+        ],
+        [
+          700,
+          231
+        ],
+        [
+          700,
+          232
+        ],
+        [
+          701,
+          232
+        ],
+        [
+          704,
+          232
+        ],
+        [
+          704,
+          518
+        ],
+        [
+          706,
+          232
+        ],
+        [
+          707,
+          232
+        ],
+        [
+          711,
+          231
+        ],
+        [
+          715,
+          231
+        ],
+        [
+          721,
+          527
+        ],
+        [
+          722,
+          246
+        ],
+        [
+          728,
+          509
+        ],
+        [
+          728,
+          517
+        ],
+        [
+          746,
+          245
+        ],
+        [
+          746,
+          243
+        ],
+        [
+          746,
+          249
+        ],
+        [
+          746,
+          529
+        ],
+        [
+          746,
+          527
+        ],
+        [
+          777,
+          527
+        ],
+        [
+          777,
+          524
+        ],
+        [
+          777,
+          526
+        ],
+        [
+          777,
+          553
+        ],
+        [
+          777,
+          552
+        ],
+        [
+          778,
+          553
+        ],
+        [
+          778,
+          870
+        ],
+        [
+          778,
+          871
+        ],
+        [
+          778,
+          868
+        ],
+        [
+          780,
+          527
+        ],
+        [
+          819,
+          871
+        ],
+        [
+          819,
+          872
+        ],
+        [
+          873,
+          615
+        ],
+        [
+          873,
+          606
+        ],
+        [
+          873,
+          614
+        ],
+        [
+          874,
+          614
+        ],
+        [
+          877,
+          614
+        ],
+        [
+          877,
+          621
+        ],
+        [
+          878,
+          624
+        ],
+        [
+          878,
+          621
+        ],
+        [
+          886,
+          624
+        ],
+        [
+          886,
+          630
+        ],
+        [
+          887,
+          953
+        ],
+        [
+          887,
+          977
+        ],
+        [
+          887,
+          630
+        ],
+        [
+          888,
+          977
+        ],
+        [
+          901,
+          747
+        ],
+        [
+          908,
+          977
+        ],
+        [
+          950,
+          747
+        ],
+        [
+          979,
+          704
+        ],
+        [
+          980,
+          747
+        ],
+        [
+          981,
+          747
+        ],
+        [
+          982,
+          747
+        ],
+        [
+          982,
+          1119
+        ],
+        [
+          982,
+          1118
+        ],
+        [
+          982,
+          1094
+        ],
+        [
+          990,
+          706
+        ],
+        [
+          990,
+          711
+        ],
+        [
+          991,
+          711
+        ],
+        [
+          995,
+          710
+        ],
+        [
+          995,
+          711
+        ],
+        [
+          995,
+          721
+        ],
+        [
+          998,
+          711
+        ],
+        [
+          1001,
+          721
+        ],
+        [
+          1002,
+          721
+        ],
+        [
+          1003,
+          721
+        ],
+        [
+          1003,
+          702
+        ],
+        [
+          1003,
+          704
+        ],
+        [
+          1008,
+          734
+        ],
+        [
+          1008,
+          469
+        ],
+        [
+          1009,
+          734
+        ],
+        [
+          1010,
+          734
+        ],
+        [
+          1010,
+          735
+        ],
+        [
+          1011,
+          756
+        ],
+        [
+          1011,
+          737
+        ],
+        [
+          1011,
+          735
+        ],
+        [
+          1011,
+          753
+        ],
+        [
+          1012,
+          735
+        ],
+        [
+          1013,
+          756
+        ],
+        [
+          1013,
+          737
+        ],
+        [
+          1013,
+          735
+        ],
+        [
+          1014,
+          756
+        ],
+        [
+          1014,
+          1098
+        ],
+        [
+          1015,
+          756
+        ],
+        [
+          1015,
+          1098
+        ],
+        [
+          1015,
+          1101
+        ],
+        [
+          1015,
+          1115
+        ],
+        [
+          1029,
+          752
+        ],
+        [
+          1029,
+          763
+        ],
+        [
+          1030,
+          752
+        ],
+        [
+          1030,
+          754
+        ],
+        [
+          1036,
+          754
+        ],
+        [
+          1037,
+          756
+        ],
+        [
+          1037,
+          753
+        ],
+        [
+          1037,
+          757
+        ],
+        [
+          1037,
+          754
+        ],
+        [
+          1038,
+          756
+        ],
+        [
+          1038,
+          757
+        ],
+        [
+          1038,
+          1115
+        ],
+        [
+          1116,
+          1226
+        ],
+        [
+          1117,
+          1226
+        ],
+        [
+          1127,
+          873
+        ],
+        [
+          1127,
+          872
+        ],
+        [
+          1152,
+          1233
+        ],
+        [
+          1153,
+          1269
+        ],
+        [
+          1153,
+          1236
+        ],
+        [
+          1153,
+          1233
+        ],
+        [
+          1154,
+          875
+        ],
+        [
+          1154,
+          874
+        ],
+        [
+          1154,
+          873
+        ],
+        [
+          1154,
+          1233
+        ],
+        [
+          1156,
+          1233
+        ],
+        [
+          1157,
+          1233
+        ],
+        [
+          1235,
+          977
+        ],
+        [
+          1235,
+          979
+        ],
+        [
+          1235,
+          985
+        ],
+        [
+          1236,
+          985
+        ],
+        [
+          1242,
+          985
+        ],
+        [
+          1243,
+          985
+        ],
+        [
+          1244,
+          988
+        ],
+        [
+          1245,
+          988
+        ],
+        [
+          1245,
+          1005
+        ],
+        [
+          1245,
+          985
+        ],
+        [
+          1248,
+          1011
+        ],
+        [
+          1248,
+          1009
+        ],
+        [
+          1248,
+          988
+        ],
+        [
+          1249,
+          1011
+        ],
+        [
+          1255,
+          1011
+        ],
+        [
+          1282,
+          1010
+        ],
+        [
+          1282,
+          1046
+        ],
+        [
+          1282,
+          1011
+        ],
+        [
+          1282,
+          1045
+        ],
+        [
+          1284,
+          1011
+        ],
+        [
+          1285,
+          1069
+        ],
+        [
+          1306,
+          703
+        ],
+        [
+          1306,
+          704
+        ],
+        [
+          1306,
+          1039
+        ],
+        [
+          1306,
+          1043
+        ],
+        [
+          1306,
+          1044
+        ],
+        [
+          1308,
+          704
+        ],
+        [
+          1310,
+          1044
+        ],
+        [
+          1310,
+          1050
+        ],
+        [
+          1313,
+          1049
+        ],
+        [
+          1313,
+          1048
+        ],
+        [
+          1313,
+          1046
+        ],
+        [
+          1314,
+          1049
+        ],
+        [
+          1314,
+          1050
+        ],
+        [
+          1317,
+          1094
+        ],
+        [
+          1317,
+          1069
+        ],
+        [
+          1318,
+          1069
+        ],
+        [
+          1319,
+          1366
+        ],
+        [
+          1319,
+          1372
+        ],
+        [
+          1331,
+          1372
+        ],
+        [
+          1341,
+          1098
+        ],
+        [
+          1341,
+          1096
+        ],
+        [
+          1344,
+          1100
+        ],
+        [
+          1345,
+          1098
+        ],
+        [
+          1345,
+          1100
+        ],
+        [
+          1345,
+          1101
+        ],
+        [
+          1346,
+          1098
+        ],
+        [
+          1346,
+          1096
+        ],
+        [
+          1346,
+          1100
+        ],
+        [
+          1347,
+          1103
+        ],
+        [
+          1347,
+          1100
+        ],
+        [
+          1347,
+          1102
+        ],
+        [
+          1348,
+          1100
+        ],
+        [
+          1348,
+          1101
+        ],
+        [
+          1348,
+          1115
+        ],
+        [
+          1350,
+          1100
+        ],
+        [
+          1350,
+          1102
+        ],
+        [
+          1350,
+          1095
+        ],
+        [
+          1351,
+          1103
+        ],
+        [
+          1351,
+          1104
+        ],
+        [
+          1352,
+          1100
+        ],
+        [
+          1352,
+          1102
+        ],
+        [
+          1353,
+          1372
+        ],
+        [
+          1353,
+          1104
+        ],
+        [
+          1358,
+          1103
+        ],
+        [
+          1358,
+          1104
+        ],
+        [
+          1359,
+          1103
+        ],
+        [
+          1359,
+          1102
+        ],
+        [
+          1359,
+          1095
+        ],
+        [
+          1365,
+          1103
+        ],
+        [
+          1373,
+          1115
+        ],
+        [
+          1374,
+          1115
+        ],
+        [
+          1375,
+          1115
+        ],
+        [
+          1376,
+          1115
+        ],
+        [
+          1448,
+          1450
+        ],
+        [
+          1448,
+          1451
+        ],
+        [
+          1455,
+          1196
+        ],
+        [
+          1455,
+          1197
+        ],
+        [
+          1455,
+          1228
+        ],
+        [
+          1457,
+          1228
+        ],
+        [
+          1457,
+          1226
+        ],
+        [
+          1469,
+          1219
+        ],
+        [
+          1469,
+          1243
+        ],
+        [
+          1469,
+          1249
+        ],
+        [
+          1471,
+          1226
+        ],
+        [
+          1471,
+          1224
+        ],
+        [
+          1471,
+          1223
+        ],
+        [
+          1471,
+          1219
+        ],
+        [
+          1473,
+          1236
+        ],
+        [
+          1476,
+          1236
+        ],
+        [
+          1483,
+          1249
+        ],
+        [
+          1483,
+          1248
+        ],
+        [
+          1483,
+          1246
+        ],
+        [
+          1483,
+          1247
+        ],
+        [
+          1494,
+          1234
+        ],
+        [
+          1494,
+          1237
+        ],
+        [
+          1498,
+          1237
+        ],
+        [
+          1499,
+          1236
+        ],
+        [
+          1499,
+          1237
+        ],
+        [
+          1545,
+          1305
+        ],
+        [
+          1546,
+          1305
+        ],
+        [
+          1546,
+          1341
+        ],
+        [
+          1546,
+          1597
+        ],
+        [
+          1547,
+          1597
+        ],
+        [
+          1548,
+          1305
+        ],
+        [
+          1548,
+          1364
+        ],
+        [
+          1548,
+          1341
+        ],
+        [
+          1548,
+          1597
+        ],
+        [
+          1550,
+          1305
+        ],
+        [
+          1551,
+          1305
+        ],
+        [
+          1551,
+          1365
+        ],
+        [
+          1551,
+          1364
+        ],
+        [
+          1553,
+          1365
+        ],
+        [
+          1566,
+          1343
+        ],
+        [
+          1567,
+          1343
+        ],
+        [
+          1567,
+          1371
+        ],
+        [
+          1568,
+          1342
+        ],
+        [
+          1569,
+          1342
+        ],
+        [
+          1570,
+          1342
+        ],
+        [
+          1570,
+          1365
+        ],
+        [
+          1572,
+          1342
+        ],
+        [
+          1573,
+          1343
+        ],
+        [
+          1573,
+          1342
+        ],
+        [
+          1574,
+          1343
+        ],
+        [
+          1575,
+          1343
+        ],
+        [
+          1587,
+          1343
+        ],
+        [
+          1589,
+          1365
+        ],
+        [
+          1589,
+          1364
+        ],
+        [
+          1589,
+          1609
+        ],
+        [
+          1594,
+          1377
+        ],
+        [
+          1594,
+          1378
+        ],
+        [
+          1595,
+          1368
+        ],
+        [
+          1595,
+          1371
+        ],
+        [
+          1595,
+          1378
+        ],
+        [
+          1597,
+          1343
+        ],
+        [
+          1597,
+          1342
+        ],
+        [
+          1597,
+          1371
+        ],
+        [
+          1597,
+          1365
+        ],
+        [
+          1598,
+          1366
+        ],
+        [
+          1601,
+          1353
+        ],
+        [
+          1602,
+          1353
+        ],
+        [
+          1605,
+          1355
+        ],
+        [
+          1605,
+          1366
+        ],
+        [
+          1605,
+          1367
+        ],
+        [
+          1606,
+          1355
+        ],
+        [
+          1606,
+          1366
+        ],
+        [
+          1606,
+          1353
+        ],
+        [
+          1608,
+          1368
+        ],
+        [
+          1608,
+          1371
+        ],
+        [
+          1609,
+          1353
+        ],
+        [
+          1609,
+          1368
+        ],
+        [
+          1613,
+          1069
+        ],
+        [
+          1613,
+          1108
+        ],
+        [
+          1615,
+          1375
+        ],
+        [
+          1615,
+          1369
+        ],
+        [
+          1617,
+          1364
+        ],
+        [
+          1617,
+          1609
+        ],
+        [
+          1618,
+          1371
+        ],
+        [
+          1621,
+          1370
+        ],
+        [
+          1621,
+          1383
+        ],
+        [
+          1622,
+          1370
+        ],
+        [
+          1622,
+          1377
+        ],
+        [
+          1623,
+          1372
+        ],
+        [
+          1623,
+          1104
+        ],
+        [
+          1623,
+          1379
+        ],
+        [
+          1623,
+          1383
+        ],
+        [
+          1624,
+          1104
+        ],
+        [
+          1624,
+          1379
+        ],
+        [
+          1625,
+          1383
+        ],
+        [
+          1626,
+          1108
+        ],
+        [
+          1626,
+          1384
+        ],
+        [
+          1626,
+          1369
+        ],
+        [
+          1627,
+          1369
+        ],
+        [
+          1628,
+          1375
+        ],
+        [
+          1628,
+          1373
+        ],
+        [
+          1629,
+          1374
+        ],
+        [
+          1629,
+          1373
+        ],
+        [
+          1633,
+          1371
+        ],
+        [
+          1634,
+          1371
+        ],
+        [
+          1683,
+          1409
+        ],
+        [
+          1683,
+          1637
+        ],
+        [
+          1685,
+          1637
+        ],
+        [
+          1685,
+          1668
+        ],
+        [
+          1686,
+          1791
+        ],
+        [
+          1686,
+          1668
+        ],
+        [
+          1698,
+          1656
+        ],
+        [
+          1698,
+          1662
+        ],
+        [
+          1698,
+          1663
+        ],
+        [
+          1698,
+          1664
+        ],
+        [
+          1698,
+          1415
+        ],
+        [
+          1698,
+          1661
+        ],
+        [
+          1698,
+          1652
+        ],
+        [
+          1699,
+          1408
+        ],
+        [
+          1699,
+          1660
+        ],
+        [
+          1699,
+          1656
+        ],
+        [
+          1700,
+          1453
+        ],
+        [
+          1700,
+          1426
+        ],
+        [
+          1702,
+          1451
+        ],
+        [
+          1702,
+          1426
+        ],
+        [
+          1703,
+          1428
+        ],
+        [
+          1703,
+          1681
+        ],
+        [
+          1704,
+          1427
+        ],
+        [
+          1704,
+          1428
+        ],
+        [
+          1704,
+          1453
+        ],
+        [
+          1707,
+          1681
+        ],
+        [
+          1710,
+          1426
+        ],
+        [
+          1711,
+          1178
+        ],
+        [
+          1711,
+          1176
+        ],
+        [
+          1711,
+          1450
+        ],
+        [
+          1713,
+          1177
+        ],
+        [
+          1713,
+          1198
+        ],
+        [
+          1713,
+          1176
+        ],
+        [
+          1720,
+          1502
+        ],
+        [
+          1721,
+          1197
+        ],
+        [
+          1721,
+          1198
+        ],
+        [
+          1721,
+          1502
+        ],
+        [
+          1722,
+          1515
+        ],
+        [
+          1722,
+          1502
+        ],
+        [
+          1740,
+          1246
+        ],
+        [
+          1740,
+          1516
+        ],
+        [
+          1741,
+          1515
+        ],
+        [
+          1741,
+          1516
+        ],
+        [
+          1743,
+          1570
+        ],
+        [
+          1743,
+          1569
+        ],
+        [
+          1743,
+          1554
+        ],
+        [
+          1745,
+          1234
+        ],
+        [
+          1745,
+          1570
+        ],
+        [
+          1749,
+          1234
+        ],
+        [
+          1751,
+          1234
+        ],
+        [
+          1814,
+          1374
+        ],
+        [
+          1818,
+          1374
+        ],
+        [
+          1819,
+          1374
+        ],
+        [
+          1819,
+          1616
+        ],
+        [
+          1819,
+          1615
+        ],
+        [
+          1819,
+          1632
+        ],
+        [
+          1819,
+          1631
+        ],
+        [
+          1819,
+          1776
+        ],
+        [
+          1831,
+          1628
+        ],
+        [
+          1832,
+          1374
+        ],
+        [
+          1832,
+          1776
+        ],
+        [
+          1848,
+          1625
+        ],
+        [
+          1848,
+          1791
+        ],
+        [
+          1849,
+          1625
+        ],
+        [
+          1850,
+          1624
+        ],
+        [
+          1850,
+          1625
+        ],
+        [
+          1851,
+          1624
+        ],
+        [
+          1852,
+          1624
+        ],
+        [
+          1853,
+          1624
+        ],
+        [
+          1855,
+          1627
+        ],
+        [
+          1855,
+          1628
+        ],
+        [
+          1855,
+          1404
+        ],
+        [
+          1855,
+          1624
+        ],
+        [
+          1856,
+          1628
+        ],
+        [
+          1861,
+          1415
+        ],
+        [
+          1861,
+          1649
+        ],
+        [
+          1863,
+          1656
+        ],
+        [
+          1866,
+          1409
+        ],
+        [
+          1866,
+          1408
+        ],
+        [
+          1869,
+          1682
+        ],
+        [
+          1869,
+          1413
+        ],
+        [
+          1870,
+          1682
+        ],
+        [
+          1870,
+          1681
+        ],
+        [
+          1875,
+          1649
+        ],
+        [
+          1875,
+          1413
+        ],
+        [
+          1876,
+          1649
+        ],
+        [
+          1886,
+          1728
+        ],
+        [
+          1886,
+          1481
+        ],
+        [
+          1888,
+          1728
+        ],
+        [
+          1888,
+          1729
+        ],
+        [
+          1899,
+          1505
+        ],
+        [
+          1899,
+          1481
+        ],
+        [
+          1900,
+          1505
+        ],
+        [
+          1900,
+          1504
+        ],
+        [
+          1901,
+          1198
+        ],
+        [
+          1901,
+          1502
+        ],
+        [
+          1901,
+          1504
+        ],
+        [
+          1927,
+          1875
+        ],
+        [
+          1927,
+          1876
+        ],
+        [
+          1933,
+          1875
+        ],
+        [
+          1933,
+          1765
+        ],
+        [
+          1933,
+          1766
+        ],
+        [
+          1935,
+          1749
+        ],
+        [
+          1935,
+          1554
+        ],
+        [
+          1935,
+          1748
+        ],
+        [
+          1935,
+          1765
+        ],
+        [
+          1935,
+          1768
+        ],
+        [
+          1990,
+          1776
+        ],
+        [
+          1990,
+          1774
+        ],
+        [
+          1990,
+          1773
+        ],
+        [
+          1990,
+          1628
+        ],
+        [
+          2021,
+          1824
+        ],
+        [
+          2021,
+          1729
+        ],
+        [
+          2022,
+          1824
+        ],
+        [
+          2023,
+          1830
+        ],
+        [
+          2023,
+          1936
+        ],
+        [
+          2044,
+          1481
+        ],
+        [
+          2063,
+          1975
+        ],
+        [
+          2076,
+          1871
+        ],
+        [
+          2076,
+          1876
+        ],
+        [
+          2159,
+          1824
+        ],
+        [
+          2160,
+          1824
+        ],
+        [
+          2160,
+          1827
+        ],
+        [
+          2160,
+          1830
+        ],
+        [
+          2161,
+          2132
+        ],
+        [
+          2161,
+          1936
+        ],
+        [
+          2161,
+          2135
+        ],
+        [
+          2162,
+          1936
+        ],
+        [
+          2163,
+          1936
+        ],
+        [
+          2198,
+          1975
+        ],
+        [
+          2204,
+          1982
+        ],
+        [
+          2204,
+          1980
+        ],
+        [
+          2204,
+          1978
+        ],
+        [
+          2204,
+          1975
+        ],
+        [
+          2204,
+          1973
+        ],
+        [
+          2205,
+          1877
+        ],
+        [
+          2205,
+          1982
+        ],
+        [
+          2205,
+          1871
+        ],
+        [
+          2205,
+          1872
+        ],
+        [
+          2206,
+          1975
+        ],
+        [
+          2274,
+          2135
+        ],
+        [
+          2274,
+          2137
+        ],
+        [
+          2275,
+          2047
+        ],
+        [
+          2275,
+          2137
+        ],
+        [
+          2276,
+          2047
+        ],
+        [
+          2277,
+          2058
+        ],
+        [
+          2277,
+          2047
+        ],
+        [
+          2278,
+          2179
+        ],
+        [
+          2278,
+          2058
+        ],
+        [
+          2338,
+          1975
+        ],
+        [
+          2338,
+          2123
+        ],
+        [
+          2443,
+          2192
+        ],
+        [
+          2443,
+          2179
+        ],
+        [
+          2444,
+          2193
+        ],
+        [
+          2445,
+          2192
+        ],
+        [
+          2445,
+          2193
+        ],
+        [
+          2478,
+          2205
+        ],
+        [
+          2479,
+          2206
+        ],
+        [
+          2479,
+          2205
+        ],
+        [
+          2480,
+          2205
+        ],
+        [
+          2489,
+          2206
+        ],
+        [
+          2490,
+          2125
+        ],
+        [
+          2490,
+          2104
+        ],
+        [
+          2490,
+          2122
+        ],
+        [
+          2500,
+          2122
+        ],
+        [
+          2502,
+          2125
+        ],
+        [
+          2502,
+          2123
+        ],
+        [
+          2645,
+          2193
+        ],
+        [
+          2645,
+          2194
+        ],
+        [
+          2646,
+          2269
+        ],
+        [
+          2646,
+          2198
+        ],
+        [
+          2646,
+          2194
+        ],
+        [
+          2655,
+          2196
+        ],
+        [
+          2655,
+          2259
+        ],
+        [
+          2655,
+          2269
+        ],
+        [
+          2656,
+          2195
+        ],
+        [
+          2656,
+          2196
+        ],
+        [
+          2656,
+          2205
+        ],
+        [
+          2668,
+          2207
+        ],
+        [
+          2668,
+          2103
+        ],
+        [
+          2670,
+          2206
+        ],
+        [
+          2670,
+          2207
+        ],
+        [
+          2670,
+          2204
+        ],
+        [
+          2684,
+          2122
+        ],
+        [
+          2684,
+          2103
+        ]
+      ],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3427",
+      "second": "FJ3464",
+      "status": "CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 2601,
+      "contact_pairs": [
+        [
+          450,
+          63
+        ],
+        [
+          451,
+          63
+        ],
+        [
+          452,
+          63
+        ],
+        [
+          461,
+          60
+        ],
+        [
+          463,
+          60
+        ],
+        [
+          464,
+          60
+        ],
+        [
+          465,
+          62
+        ],
+        [
+          465,
+          60
+        ],
+        [
+          465,
+          63
+        ],
+        [
+          466,
+          60
+        ],
+        [
+          467,
+          60
+        ],
+        [
+          469,
+          60
+        ],
+        [
+          477,
+          61
+        ],
+        [
+          477,
+          60
+        ],
+        [
+          478,
+          61
+        ],
+        [
+          484,
+          61
+        ],
+        [
+          487,
+          61
+        ],
+        [
+          488,
+          61
+        ],
+        [
+          489,
+          61
+        ],
+        [
+          490,
+          76
+        ],
+        [
+          490,
+          61
+        ],
+        [
+          491,
+          73
+        ],
+        [
+          491,
+          76
+        ],
+        [
+          492,
+          73
+        ],
+        [
+          497,
+          73
+        ],
+        [
+          508,
+          73
+        ],
+        [
+          508,
+          12
+        ],
+        [
+          509,
+          12
+        ],
+        [
+          510,
+          12
+        ],
+        [
+          511,
+          12
+        ],
+        [
+          514,
+          12
+        ],
+        [
+          520,
+          63
+        ],
+        [
+          520,
+          48
+        ],
+        [
+          520,
+          50
+        ],
+        [
+          524,
+          63
+        ],
+        [
+          524,
+          50
+        ],
+        [
+          575,
+          12
+        ],
+        [
+          576,
+          12
+        ],
+        [
+          577,
+          12
+        ],
+        [
+          578,
+          68
+        ],
+        [
+          579,
+          68
+        ],
+        [
+          580,
+          68
+        ],
+        [
+          586,
+          12
+        ],
+        [
+          587,
+          68
+        ],
+        [
+          587,
+          12
+        ],
+        [
+          900,
+          53
+        ],
+        [
+          900,
+          105
+        ],
+        [
+          902,
+          105
+        ],
+        [
+          903,
+          105
+        ],
+        [
+          903,
+          109
+        ],
+        [
+          903,
+          110
+        ],
+        [
+          904,
+          50
+        ],
+        [
+          904,
+          53
+        ],
+        [
+          914,
+          68
+        ],
+        [
+          914,
+          72
+        ],
+        [
+          915,
+          72
+        ],
+        [
+          916,
+          72
+        ],
+        [
+          917,
+          72
+        ],
+        [
+          921,
+          72
+        ],
+        [
+          926,
+          72
+        ],
+        [
+          930,
+          72
+        ],
+        [
+          931,
+          72
+        ],
+        [
+          957,
+          72
+        ],
+        [
+          959,
+          72
+        ],
+        [
+          960,
+          72
+        ],
+        [
+          963,
+          72
+        ],
+        [
+          964,
+          72
+        ],
+        [
+          966,
+          54
+        ],
+        [
+          966,
+          59
+        ],
+        [
+          966,
+          72
+        ],
+        [
+          967,
+          54
+        ],
+        [
+          974,
+          54
+        ],
+        [
+          974,
+          66
+        ],
+        [
+          989,
+          67
+        ],
+        [
+          997,
+          54
+        ],
+        [
+          1002,
+          66
+        ],
+        [
+          1003,
+          66
+        ],
+        [
+          1199,
+          112
+        ],
+        [
+          1200,
+          112
+        ],
+        [
+          1204,
+          112
+        ],
+        [
+          1204,
+          109
+        ],
+        [
+          1205,
+          112
+        ],
+        [
+          1288,
+          109
+        ],
+        [
+          1291,
+          113
+        ],
+        [
+          1291,
+          112
+        ],
+        [
+          1319,
+          58
+        ],
+        [
+          1320,
+          67
+        ],
+        [
+          1320,
+          66
+        ],
+        [
+          1321,
+          67
+        ],
+        [
+          1323,
+          67
+        ],
+        [
+          1326,
+          67
+        ],
+        [
+          1326,
+          58
+        ],
+        [
+          1326,
+          57
+        ],
+        [
+          1326,
+          35
+        ],
+        [
+          1326,
+          34
+        ],
+        [
+          1329,
+          58
+        ],
+        [
+          1331,
+          58
+        ],
+        [
+          1333,
+          66
+        ],
+        [
+          1334,
+          66
+        ],
+        [
+          1540,
+          113
+        ],
+        [
+          1541,
+          114
+        ],
+        [
+          1541,
+          113
+        ],
+        [
+          1544,
+          114
+        ],
+        [
+          1544,
+          102
+        ],
+        [
+          1546,
+          134
+        ],
+        [
+          1546,
+          102
+        ],
+        [
+          1547,
+          133
+        ],
+        [
+          1547,
+          134
+        ],
+        [
+          1548,
+          133
+        ],
+        [
+          1548,
+          117
+        ],
+        [
+          1552,
+          117
+        ],
+        [
+          1554,
+          117
+        ],
+        [
+          1556,
+          116
+        ],
+        [
+          1556,
+          117
+        ],
+        [
+          1591,
+          116
+        ],
+        [
+          1592,
+          116
+        ],
+        [
+          1598,
+          58
+        ],
+        [
+          1603,
+          58
+        ],
+        [
+          1603,
+          116
+        ],
+        [
+          1604,
+          58
+        ],
+        [
+          1605,
+          58
+        ],
+        [
+          1606,
+          58
+        ],
+        [
+          1610,
+          116
+        ]
+      ],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3427",
+      "second": "FJ3466",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3427",
+      "second": "FJ2074",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3427",
+      "second": "FJ3565",
+      "status": "CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 2772,
+      "contact_pairs": [
+        [
+          5,
+          132
+        ],
+        [
+          6,
+          132
+        ],
+        [
+          8,
+          132
+        ],
+        [
+          10,
+          131
+        ],
+        [
+          10,
+          132
+        ],
+        [
+          18,
+          182
+        ],
+        [
+          18,
+          131
+        ],
+        [
+          51,
+          127
+        ],
+        [
+          51,
+          128
+        ],
+        [
+          52,
+          130
+        ],
+        [
+          52,
+          132
+        ],
+        [
+          53,
+          130
+        ],
+        [
+          54,
+          128
+        ],
+        [
+          54,
+          130
+        ],
+        [
+          57,
+          127
+        ],
+        [
+          57,
+          129
+        ],
+        [
+          58,
+          129
+        ],
+        [
+          90,
+          129
+        ],
+        [
+          91,
+          129
+        ],
+        [
+          94,
+          129
+        ],
+        [
+          95,
+          129
+        ],
+        [
+          113,
+          194
+        ],
+        [
+          113,
+          192
+        ],
+        [
+          114,
+          192
+        ],
+        [
+          123,
+          182
+        ],
+        [
+          127,
+          182
+        ],
+        [
+          131,
+          182
+        ],
+        [
+          133,
+          137
+        ],
+        [
+          133,
+          182
+        ],
+        [
+          134,
+          192
+        ],
+        [
+          135,
+          192
+        ],
+        [
+          136,
+          137
+        ],
+        [
+          136,
+          192
+        ],
+        [
+          138,
+          192
+        ],
+        [
+          139,
+          192
+        ],
+        [
+          169,
+          192
+        ],
+        [
+          288,
+          129
+        ],
+        [
+          296,
+          126
+        ],
+        [
+          296,
+          129
+        ],
+        [
+          298,
+          126
+        ],
+        [
+          302,
+          126
+        ],
+        [
+          303,
+          126
+        ],
+        [
+          330,
+          124
+        ],
+        [
+          331,
+          135
+        ],
+        [
+          331,
+          124
+        ],
+        [
+          331,
+          126
+        ],
+        [
+          332,
+          124
+        ],
+        [
+          332,
+          166
+        ],
+        [
+          456,
+          194
+        ],
+        [
+          457,
+          194
+        ],
+        [
+          477,
+          194
+        ],
+        [
+          477,
+          197
+        ],
+        [
+          478,
+          197
+        ],
+        [
+          479,
+          196
+        ],
+        [
+          480,
+          196
+        ],
+        [
+          481,
+          196
+        ],
+        [
+          482,
+          196
+        ],
+        [
+          485,
+          196
+        ],
+        [
+          485,
+          197
+        ],
+        [
+          486,
+          196
+        ],
+        [
+          491,
+          196
+        ],
+        [
+          491,
+          195
+        ],
+        [
+          492,
+          195
+        ],
+        [
+          507,
+          195
+        ],
+        [
+          551,
+          139
+        ],
+        [
+          552,
+          139
+        ],
+        [
+          552,
+          195
+        ],
+        [
+          554,
+          139
+        ],
+        [
+          555,
+          139
+        ],
+        [
+          556,
+          118
+        ],
+        [
+          556,
+          138
+        ],
+        [
+          557,
+          139
+        ],
+        [
+          557,
+          144
+        ],
+        [
+          558,
+          141
+        ],
+        [
+          558,
+          144
+        ],
+        [
+          559,
+          118
+        ],
+        [
+          559,
+          141
+        ],
+        [
+          560,
+          141
+        ],
+        [
+          561,
+          118
+        ],
+        [
+          562,
+          118
+        ],
+        [
+          573,
+          138
+        ],
+        [
+          574,
+          138
+        ],
+        [
+          598,
+          189
+        ],
+        [
+          599,
+          189
+        ],
+        [
+          600,
+          138
+        ],
+        [
+          601,
+          189
+        ],
+        [
+          601,
+          138
+        ],
+        [
+          602,
+          138
+        ],
+        [
+          603,
+          189
+        ],
+        [
+          604,
+          189
+        ],
+        [
+          605,
+          138
+        ],
+        [
+          606,
+          138
+        ],
+        [
+          619,
+          188
+        ],
+        [
+          624,
+          189
+        ],
+        [
+          624,
+          188
+        ],
+        [
+          625,
+          189
+        ],
+        [
+          626,
+          189
+        ],
+        [
+          636,
+          187
+        ],
+        [
+          637,
+          187
+        ],
+        [
+          637,
+          186
+        ],
+        [
+          638,
+          186
+        ],
+        [
+          644,
+          187
+        ],
+        [
+          645,
+          188
+        ],
+        [
+          646,
+          188
+        ],
+        [
+          646,
+          175
+        ],
+        [
+          647,
+          187
+        ],
+        [
+          647,
+          175
+        ],
+        [
+          659,
+          166
+        ],
+        [
+          659,
+          168
+        ],
+        [
+          668,
+          168
+        ],
+        [
+          670,
+          186
+        ],
+        [
+          670,
+          168
+        ]
+      ],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3427",
+      "second": "FJ3567",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3427",
+      "second": "FJ2143",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3427",
+      "second": "FJ3417",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3427",
+      "second": "FJ3564",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3427",
+      "second": "FJ3483",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ1931",
+      "second": "FJ1932",
+      "status": "CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 2250,
+      "contact_pairs": [
+        [
+          3,
+          1249
+        ],
+        [
+          3,
+          1248
+        ],
+        [
+          5,
+          1246
+        ],
+        [
+          6,
+          1248
+        ],
+        [
+          6,
+          1246
+        ],
+        [
+          6,
+          1247
+        ],
+        [
+          11,
+          1249
+        ],
+        [
+          15,
+          1249
+        ],
+        [
+          17,
+          1249
+        ],
+        [
+          17,
+          1248
+        ],
+        [
+          19,
+          1248
+        ],
+        [
+          21,
+          1248
+        ],
+        [
+          21,
+          1271
+        ],
+        [
+          21,
+          1270
+        ],
+        [
+          22,
+          1248
+        ],
+        [
+          39,
+          1504
+        ],
+        [
+          40,
+          1502
+        ],
+        [
+          41,
+          1246
+        ],
+        [
+          41,
+          1515
+        ],
+        [
+          41,
+          1516
+        ],
+        [
+          41,
+          1502
+        ],
+        [
+          42,
+          1502
+        ],
+        [
+          43,
+          1500
+        ],
+        [
+          43,
+          1502
+        ],
+        [
+          45,
+          1500
+        ],
+        [
+          46,
+          1500
+        ],
+        [
+          46,
+          1502
+        ],
+        [
+          46,
+          1504
+        ],
+        [
+          48,
+          1505
+        ],
+        [
+          48,
+          1504
+        ],
+        [
+          48,
+          1481
+        ],
+        [
+          80,
+          1527
+        ],
+        [
+          80,
+          1526
+        ],
+        [
+          80,
+          1528
+        ],
+        [
+          80,
+          1271
+        ],
+        [
+          80,
+          1524
+        ],
+        [
+          82,
+          1547
+        ],
+        [
+          82,
+          1546
+        ],
+        [
+          82,
+          1548
+        ],
+        [
+          82,
+          1528
+        ],
+        [
+          85,
+          1548
+        ],
+        [
+          87,
+          1574
+        ],
+        [
+          87,
+          1548
+        ],
+        [
+          96,
+          1574
+        ],
+        [
+          96,
+          1575
+        ],
+        [
+          97,
+          1576
+        ],
+        [
+          97,
+          1575
+        ],
+        [
+          97,
+          1573
+        ],
+        [
+          101,
+          1729
+        ],
+        [
+          105,
+          1728
+        ],
+        [
+          105,
+          1729
+        ],
+        [
+          109,
+          1824
+        ],
+        [
+          109,
+          1729
+        ],
+        [
+          112,
+          1481
+        ],
+        [
+          114,
+          1728
+        ],
+        [
+          114,
+          1481
+        ],
+        [
+          115,
+          1728
+        ],
+        [
+          158,
+          1573
+        ],
+        [
+          160,
+          1573
+        ],
+        [
+          160,
+          1577
+        ],
+        [
+          161,
+          1577
+        ],
+        [
+          161,
+          1771
+        ],
+        [
+          170,
+          1771
+        ],
+        [
+          170,
+          1879
+        ],
+        [
+          171,
+          1827
+        ],
+        [
+          171,
+          1830
+        ],
+        [
+          172,
+          1824
+        ],
+        [
+          172,
+          1827
+        ],
+        [
+          178,
+          1830
+        ],
+        [
+          181,
+          1830
+        ],
+        [
+          238,
+          1879
+        ],
+        [
+          238,
+          1880
+        ],
+        [
+          238,
+          1883
+        ],
+        [
+          240,
+          1883
+        ],
+        [
+          240,
+          1987
+        ],
+        [
+          252,
+          1936
+        ],
+        [
+          253,
+          1936
+        ],
+        [
+          256,
+          1830
+        ],
+        [
+          256,
+          1936
+        ],
+        [
+          262,
+          1936
+        ],
+        [
+          299,
+          1986
+        ],
+        [
+          299,
+          1987
+        ],
+        [
+          301,
+          1986
+        ],
+        [
+          301,
+          1989
+        ],
+        [
+          303,
+          1989
+        ],
+        [
+          303,
+          1992
+        ],
+        [
+          304,
+          1995
+        ],
+        [
+          304,
+          2129
+        ],
+        [
+          304,
+          1992
+        ],
+        [
+          305,
+          2129
+        ],
+        [
+          305,
+          2128
+        ],
+        [
+          306,
+          2129
+        ],
+        [
+          340,
+          2016
+        ],
+        [
+          340,
+          2013
+        ],
+        [
+          340,
+          2132
+        ],
+        [
+          340,
+          1936
+        ],
+        [
+          341,
+          2013
+        ],
+        [
+          342,
+          2013
+        ],
+        [
+          344,
+          2013
+        ],
+        [
+          348,
+          2013
+        ],
+        [
+          349,
+          2016
+        ],
+        [
+          349,
+          2013
+        ],
+        [
+          349,
+          2131
+        ],
+        [
+          351,
+          2131
+        ],
+        [
+          351,
+          2133
+        ],
+        [
+          351,
+          2134
+        ],
+        [
+          370,
+          2128
+        ],
+        [
+          370,
+          2118
+        ],
+        [
+          370,
+          2209
+        ],
+        [
+          385,
+          2128
+        ],
+        [
+          386,
+          2128
+        ],
+        [
+          390,
+          2209
+        ],
+        [
+          474,
+          2134
+        ],
+        [
+          475,
+          2136
+        ],
+        [
+          475,
+          2134
+        ],
+        [
+          483,
+          2136
+        ],
+        [
+          483,
+          2138
+        ],
+        [
+          484,
+          2138
+        ],
+        [
+          485,
+          2140
+        ],
+        [
+          485,
+          2138
+        ],
+        [
+          485,
+          2216
+        ],
+        [
+          485,
+          2218
+        ],
+        [
+          485,
+          2217
+        ],
+        [
+          506,
+          2209
+        ],
+        [
+          506,
+          2211
+        ],
+        [
+          507,
+          2204
+        ],
+        [
+          507,
+          2210
+        ],
+        [
+          507,
+          2213
+        ],
+        [
+          509,
+          2210
+        ],
+        [
+          509,
+          2211
+        ],
+        [
+          655,
+          2229
+        ],
+        [
+          655,
+          2228
+        ],
+        [
+          655,
+          2216
+        ],
+        [
+          655,
+          2218
+        ],
+        [
+          655,
+          2219
+        ],
+        [
+          655,
+          2226
+        ],
+        [
+          658,
+          2229
+        ],
+        [
+          659,
+          2229
+        ],
+        [
+          661,
+          2231
+        ],
+        [
+          661,
+          2229
+        ],
+        [
+          661,
+          2232
+        ],
+        [
+          664,
+          2233
+        ],
+        [
+          664,
+          2232
+        ],
+        [
+          664,
+          2243
+        ],
+        [
+          664,
+          2244
+        ],
+        [
+          678,
+          2250
+        ],
+        [
+          678,
+          2247
+        ],
+        [
+          678,
+          2244
+        ],
+        [
+          679,
+          2250
+        ],
+        [
+          679,
+          2251
+        ],
+        [
+          698,
+          2259
+        ],
+        [
+          698,
+          2258
+        ],
+        [
+          699,
+          2265
+        ],
+        [
+          699,
+          2263
+        ],
+        [
+          699,
+          2260
+        ],
+        [
+          700,
+          2265
+        ],
+        [
+          702,
+          2258
+        ],
+        [
+          702,
+          2265
+        ],
+        [
+          703,
+          2260
+        ],
+        [
+          703,
+          2251
+        ],
+        [
+          710,
+          2205
+        ],
+        [
+          711,
+          2206
+        ],
+        [
+          711,
+          2204
+        ],
+        [
+          711,
+          2205
+        ],
+        [
+          712,
+          2195
+        ],
+        [
+          712,
+          2196
+        ],
+        [
+          713,
+          2195
+        ],
+        [
+          713,
+          2205
+        ],
+        [
+          714,
+          2205
+        ],
+        [
+          717,
+          2259
+        ],
+        [
+          719,
+          2196
+        ],
+        [
+          719,
+          2259
+        ]
+      ],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ1931",
+      "second": "FJ3464",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ1931",
+      "second": "FJ3466",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ1931",
+      "second": "FJ2074",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ1931",
+      "second": "FJ3565",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ1931",
+      "second": "FJ3567",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ1931",
+      "second": "FJ2143",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ1931",
+      "second": "FJ3417",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ1931",
+      "second": "FJ3564",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ1931",
+      "second": "FJ3483",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ1932",
+      "second": "FJ3464",
+      "status": "CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 2833,
+      "contact_pairs": [
+        [
+          85,
+          9
+        ],
+        [
+          253,
+          69
+        ],
+        [
+          285,
+          69
+        ],
+        [
+          286,
+          74
+        ],
+        [
+          286,
+          62
+        ],
+        [
+          286,
+          69
+        ],
+        [
+          289,
+          61
+        ],
+        [
+          293,
+          61
+        ],
+        [
+          295,
+          61
+        ],
+        [
+          296,
+          61
+        ],
+        [
+          299,
+          61
+        ],
+        [
+          300,
+          61
+        ],
+        [
+          301,
+          61
+        ],
+        [
+          305,
+          61
+        ],
+        [
+          305,
+          60
+        ],
+        [
+          306,
+          61
+        ],
+        [
+          312,
+          60
+        ],
+        [
+          313,
+          60
+        ],
+        [
+          316,
+          62
+        ],
+        [
+          316,
+          60
+        ],
+        [
+          317,
+          60
+        ],
+        [
+          329,
+          10
+        ],
+        [
+          330,
+          9
+        ],
+        [
+          330,
+          10
+        ],
+        [
+          331,
+          10
+        ],
+        [
+          332,
+          10
+        ],
+        [
+          335,
+          10
+        ],
+        [
+          337,
+          61
+        ],
+        [
+          345,
+          61
+        ],
+        [
+          367,
+          61
+        ],
+        [
+          368,
+          61
+        ],
+        [
+          368,
+          10
+        ],
+        [
+          370,
+          61
+        ],
+        [
+          373,
+          9
+        ],
+        [
+          374,
+          9
+        ],
+        [
+          375,
+          9
+        ],
+        [
+          404,
+          9
+        ],
+        [
+          405,
+          12
+        ],
+        [
+          406,
+          9
+        ],
+        [
+          406,
+          12
+        ],
+        [
+          408,
+          12
+        ],
+        [
+          410,
+          68
+        ],
+        [
+          410,
+          12
+        ],
+        [
+          413,
+          68
+        ],
+        [
+          415,
+          68
+        ],
+        [
+          419,
+          68
+        ],
+        [
+          420,
+          68
+        ],
+        [
+          420,
+          72
+        ],
+        [
+          426,
+          72
+        ],
+        [
+          430,
+          72
+        ],
+        [
+          574,
+          69
+        ],
+        [
+          575,
+          69
+        ],
+        [
+          576,
+          69
+        ],
+        [
+          577,
+          65
+        ],
+        [
+          578,
+          64
+        ],
+        [
+          578,
+          65
+        ],
+        [
+          579,
+          64
+        ],
+        [
+          580,
+          64
+        ],
+        [
+          586,
+          69
+        ],
+        [
+          587,
+          69
+        ],
+        [
+          587,
+          64
+        ],
+        [
+          588,
+          69
+        ],
+        [
+          590,
+          69
+        ],
+        [
+          594,
+          64
+        ],
+        [
+          634,
+          118
+        ],
+        [
+          634,
+          65
+        ],
+        [
+          653,
+          119
+        ],
+        [
+          653,
+          113
+        ],
+        [
+          653,
+          118
+        ],
+        [
+          667,
+          59
+        ],
+        [
+          667,
+          72
+        ],
+        [
+          695,
+          59
+        ],
+        [
+          696,
+          59
+        ],
+        [
+          699,
+          54
+        ],
+        [
+          699,
+          59
+        ],
+        [
+          701,
+          54
+        ],
+        [
+          702,
+          54
+        ],
+        [
+          721,
+          54
+        ],
+        [
+          721,
+          66
+        ],
+        [
+          722,
+          66
+        ],
+        [
+          976,
+          118
+        ],
+        [
+          1024,
+          113
+        ],
+        [
+          1025,
+          113
+        ],
+        [
+          1072,
+          67
+        ],
+        [
+          1074,
+          120
+        ],
+        [
+          1074,
+          67
+        ],
+        [
+          1075,
+          66
+        ],
+        [
+          1080,
+          66
+        ],
+        [
+          1085,
+          67
+        ],
+        [
+          1085,
+          66
+        ],
+        [
+          1086,
+          67
+        ],
+        [
+          1087,
+          67
+        ],
+        [
+          1089,
+          67
+        ],
+        [
+          1091,
+          67
+        ],
+        [
+          1304,
+          114
+        ],
+        [
+          1304,
+          113
+        ],
+        [
+          1304,
+          102
+        ],
+        [
+          1305,
+          133
+        ],
+        [
+          1305,
+          134
+        ],
+        [
+          1305,
+          117
+        ],
+        [
+          1305,
+          102
+        ],
+        [
+          1340,
+          113
+        ],
+        [
+          1341,
+          102
+        ],
+        [
+          1342,
+          117
+        ],
+        [
+          1343,
+          116
+        ],
+        [
+          1343,
+          117
+        ],
+        [
+          1353,
+          58
+        ],
+        [
+          1353,
+          116
+        ],
+        [
+          1355,
+          58
+        ],
+        [
+          1364,
+          117
+        ],
+        [
+          1365,
+          117
+        ],
+        [
+          1366,
+          120
+        ],
+        [
+          1366,
+          58
+        ],
+        [
+          1366,
+          115
+        ],
+        [
+          1367,
+          58
+        ],
+        [
+          1368,
+          116
+        ],
+        [
+          1371,
+          116
+        ]
+      ],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ1932",
+      "second": "FJ3466",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ1932",
+      "second": "FJ2074",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ1932",
+      "second": "FJ3565",
+      "status": "CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 2251,
+      "contact_pairs": [
+        [
+          16,
+          130
+        ],
+        [
+          16,
+          132
+        ],
+        [
+          37,
+          123
+        ],
+        [
+          37,
+          130
+        ],
+        [
+          38,
+          122
+        ],
+        [
+          38,
+          123
+        ],
+        [
+          45,
+          192
+        ],
+        [
+          46,
+          192
+        ],
+        [
+          48,
+          194
+        ],
+        [
+          57,
+          194
+        ],
+        [
+          62,
+          194
+        ],
+        [
+          68,
+          194
+        ],
+        [
+          69,
+          194
+        ],
+        [
+          71,
+          194
+        ],
+        [
+          71,
+          197
+        ],
+        [
+          76,
+          137
+        ],
+        [
+          76,
+          182
+        ],
+        [
+          78,
+          137
+        ],
+        [
+          78,
+          192
+        ],
+        [
+          83,
+          194
+        ],
+        [
+          83,
+          192
+        ],
+        [
+          121,
+          182
+        ],
+        [
+          121,
+          131
+        ],
+        [
+          121,
+          132
+        ],
+        [
+          168,
+          182
+        ],
+        [
+          169,
+          182
+        ],
+        [
+          206,
+          132
+        ],
+        [
+          207,
+          122
+        ],
+        [
+          207,
+          129
+        ],
+        [
+          208,
+          129
+        ],
+        [
+          210,
+          129
+        ],
+        [
+          211,
+          129
+        ],
+        [
+          212,
+          126
+        ],
+        [
+          212,
+          129
+        ],
+        [
+          213,
+          129
+        ],
+        [
+          215,
+          126
+        ],
+        [
+          227,
+          126
+        ],
+        [
+          228,
+          126
+        ],
+        [
+          279,
+          196
+        ],
+        [
+          280,
+          196
+        ],
+        [
+          280,
+          197
+        ],
+        [
+          287,
+          196
+        ],
+        [
+          288,
+          197
+        ],
+        [
+          289,
+          197
+        ],
+        [
+          292,
+          196
+        ],
+        [
+          292,
+          197
+        ],
+        [
+          293,
+          197
+        ],
+        [
+          295,
+          196
+        ],
+        [
+          296,
+          196
+        ],
+        [
+          296,
+          197
+        ],
+        [
+          361,
+          196
+        ],
+        [
+          362,
+          196
+        ],
+        [
+          364,
+          196
+        ],
+        [
+          431,
+          189
+        ],
+        [
+          433,
+          189
+        ],
+        [
+          434,
+          189
+        ],
+        [
+          435,
+          189
+        ],
+        [
+          436,
+          187
+        ],
+        [
+          437,
+          187
+        ],
+        [
+          438,
+          187
+        ],
+        [
+          438,
+          188
+        ],
+        [
+          438,
+          175
+        ],
+        [
+          439,
+          189
+        ],
+        [
+          441,
+          188
+        ],
+        [
+          442,
+          188
+        ],
+        [
+          445,
+          189
+        ],
+        [
+          446,
+          189
+        ],
+        [
+          446,
+          188
+        ],
+        [
+          447,
+          189
+        ],
+        [
+          448,
+          189
+        ],
+        [
+          449,
+          189
+        ],
+        [
+          462,
+          168
+        ],
+        [
+          464,
+          187
+        ],
+        [
+          466,
+          187
+        ],
+        [
+          466,
+          186
+        ],
+        [
+          466,
+          168
+        ],
+        [
+          467,
+          187
+        ],
+        [
+          468,
+          187
+        ],
+        [
+          477,
+          126
+        ],
+        [
+          477,
+          167
+        ],
+        [
+          477,
+          166
+        ],
+        [
+          477,
+          145
+        ],
+        [
+          478,
+          166
+        ],
+        [
+          479,
+          166
+        ],
+        [
+          479,
+          168
+        ],
+        [
+          480,
+          166
+        ],
+        [
+          480,
+          168
+        ],
+        [
+          481,
+          186
+        ],
+        [
+          481,
+          168
+        ],
+        [
+          636,
+          195
+        ],
+        [
+          637,
+          195
+        ],
+        [
+          639,
+          196
+        ],
+        [
+          639,
+          195
+        ],
+        [
+          640,
+          195
+        ],
+        [
+          661,
+          139
+        ],
+        [
+          661,
+          195
+        ],
+        [
+          663,
+          139
+        ],
+        [
+          664,
+          139
+        ],
+        [
+          664,
+          191
+        ],
+        [
+          667,
+          138
+        ],
+        [
+          669,
+          138
+        ],
+        [
+          670,
+          138
+        ],
+        [
+          675,
+          138
+        ],
+        [
+          678,
+          190
+        ],
+        [
+          680,
+          190
+        ],
+        [
+          681,
+          138
+        ],
+        [
+          681,
+          190
+        ],
+        [
+          682,
+          138
+        ],
+        [
+          683,
+          191
+        ],
+        [
+          684,
+          191
+        ],
+        [
+          684,
+          190
+        ],
+        [
+          688,
+          191
+        ],
+        [
+          689,
+          191
+        ],
+        [
+          691,
+          191
+        ],
+        [
+          695,
+          138
+        ],
+        [
+          696,
+          189
+        ],
+        [
+          696,
+          138
+        ]
+      ],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ1932",
+      "second": "FJ3567",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ1932",
+      "second": "FJ2143",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ1932",
+      "second": "FJ3417",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ1932",
+      "second": "FJ3564",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ1932",
+      "second": "FJ3483",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3464",
+      "second": "FJ3466",
+      "status": "CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 1360,
+      "contact_pairs": [
+        [
+          130,
+          171
+        ],
+        [
+          130,
+          174
+        ],
+        [
+          131,
+          216
+        ],
+        [
+          131,
+          167
+        ],
+        [
+          131,
+          171
+        ],
+        [
+          150,
+          216
+        ],
+        [
+          151,
+          213
+        ],
+        [
+          152,
+          174
+        ],
+        [
+          153,
+          173
+        ],
+        [
+          153,
+          174
+        ],
+        [
+          153,
+          228
+        ],
+        [
+          153,
+          231
+        ],
+        [
+          153,
+          238
+        ],
+        [
+          154,
+          231
+        ],
+        [
+          154,
+          232
+        ],
+        [
+          155,
+          233
+        ],
+        [
+          155,
+          208
+        ],
+        [
+          156,
+          232
+        ],
+        [
+          156,
+          233
+        ],
+        [
+          157,
+          267
+        ],
+        [
+          157,
+          208
+        ],
+        [
+          157,
+          264
+        ],
+        [
+          160,
+          218
+        ],
+        [
+          160,
+          217
+        ],
+        [
+          160,
+          216
+        ],
+        [
+          160,
+          219
+        ],
+        [
+          161,
+          217
+        ],
+        [
+          161,
+          213
+        ],
+        [
+          161,
+          225
+        ],
+        [
+          172,
+          231
+        ],
+        [
+          172,
+          238
+        ],
+        [
+          192,
+          213
+        ],
+        [
+          192,
+          214
+        ],
+        [
+          193,
+          256
+        ],
+        [
+          193,
+          214
+        ],
+        [
+          194,
+          261
+        ],
+        [
+          195,
+          261
+        ],
+        [
+          195,
+          256
+        ],
+        [
+          198,
+          262
+        ],
+        [
+          198,
+          260
+        ],
+        [
+          199,
+          262
+        ],
+        [
+          199,
+          270
+        ],
+        [
+          199,
+          260
+        ],
+        [
+          199,
+          258
+        ],
+        [
+          199,
+          259
+        ],
+        [
+          201,
+          261
+        ],
+        [
+          201,
+          262
+        ],
+        [
+          201,
+          257
+        ],
+        [
+          201,
+          260
+        ],
+        [
+          202,
+          262
+        ],
+        [
+          203,
+          262
+        ],
+        [
+          204,
+          267
+        ],
+        [
+          205,
+          267
+        ],
+        [
+          205,
+          264
+        ],
+        [
+          207,
+          267
+        ],
+        [
+          209,
+          268
+        ],
+        [
+          209,
+          267
+        ],
+        [
+          209,
+          264
+        ],
+        [
+          209,
+          265
+        ],
+        [
+          209,
+          266
+        ],
+        [
+          210,
+          268
+        ],
+        [
+          210,
+          267
+        ],
+        [
+          212,
+          270
+        ],
+        [
+          213,
+          270
+        ],
+        [
+          213,
+          266
+        ],
+        [
+          213,
+          253
+        ],
+        [
+          214,
+          268
+        ],
+        [
+          214,
+          266
+        ],
+        [
+          216,
+          268
+        ]
+      ],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3464",
+      "second": "FJ2074",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3464",
+      "second": "FJ3565",
+      "status": "CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 597,
+      "contact_pairs": [
+        [
+          12,
+          139
+        ],
+        [
+          12,
+          141
+        ],
+        [
+          12,
+          144
+        ],
+        [
+          12,
+          195
+        ],
+        [
+          14,
+          162
+        ],
+        [
+          16,
+          161
+        ],
+        [
+          16,
+          162
+        ],
+        [
+          18,
+          162
+        ],
+        [
+          18,
+          158
+        ],
+        [
+          19,
+          160
+        ],
+        [
+          19,
+          159
+        ],
+        [
+          19,
+          158
+        ],
+        [
+          26,
+          169
+        ],
+        [
+          26,
+          170
+        ],
+        [
+          27,
+          170
+        ],
+        [
+          27,
+          171
+        ],
+        [
+          27,
+          180
+        ],
+        [
+          28,
+          180
+        ],
+        [
+          29,
+          169
+        ],
+        [
+          30,
+          172
+        ],
+        [
+          30,
+          177
+        ],
+        [
+          31,
+          169
+        ],
+        [
+          32,
+          172
+        ],
+        [
+          32,
+          169
+        ],
+        [
+          34,
+          188
+        ],
+        [
+          34,
+          179
+        ],
+        [
+          34,
+          211
+        ],
+        [
+          34,
+          178
+        ],
+        [
+          34,
+          177
+        ],
+        [
+          44,
+          180
+        ],
+        [
+          44,
+          161
+        ],
+        [
+          47,
+          185
+        ],
+        [
+          48,
+          192
+        ],
+        [
+          48,
+          217
+        ],
+        [
+          48,
+          185
+        ],
+        [
+          49,
+          185
+        ],
+        [
+          51,
+          185
+        ],
+        [
+          51,
+          184
+        ],
+        [
+          54,
+          189
+        ],
+        [
+          54,
+          188
+        ],
+        [
+          55,
+          188
+        ],
+        [
+          56,
+          188
+        ],
+        [
+          57,
+          188
+        ],
+        [
+          59,
+          189
+        ],
+        [
+          59,
+          138
+        ],
+        [
+          60,
+          194
+        ],
+        [
+          60,
+          192
+        ],
+        [
+          60,
+          197
+        ],
+        [
+          61,
+          196
+        ],
+        [
+          61,
+          197
+        ],
+        [
+          62,
+          192
+        ],
+        [
+          63,
+          192
+        ],
+        [
+          68,
+          118
+        ],
+        [
+          68,
+          141
+        ],
+        [
+          68,
+          138
+        ],
+        [
+          72,
+          138
+        ],
+        [
+          73,
+          196
+        ],
+        [
+          73,
+          195
+        ],
+        [
+          76,
+          196
+        ],
+        [
+          79,
+          160
+        ],
+        [
+          79,
+          181
+        ],
+        [
+          91,
+          181
+        ],
+        [
+          91,
+          203
+        ],
+        [
+          91,
+          184
+        ]
+      ],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3464",
+      "second": "FJ3567",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3464",
+      "second": "FJ2143",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3464",
+      "second": "FJ3417",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3464",
+      "second": "FJ3564",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3464",
+      "second": "FJ3483",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3466",
+      "second": "FJ2074",
+      "status": "CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 485,
+      "contact_pairs": [
+        [
+          128,
+          618
+        ],
+        [
+          128,
+          662
+        ],
+        [
+          128,
+          617
+        ],
+        [
+          128,
+          708
+        ],
+        [
+          128,
+          706
+        ],
+        [
+          129,
+          661
+        ],
+        [
+          129,
+          660
+        ],
+        [
+          129,
+          662
+        ],
+        [
+          129,
+          721
+        ],
+        [
+          129,
+          720
+        ],
+        [
+          129,
+          701
+        ],
+        [
+          129,
+          708
+        ],
+        [
+          166,
+          688
+        ],
+        [
+          166,
+          617
+        ],
+        [
+          166,
+          687
+        ],
+        [
+          166,
+          696
+        ],
+        [
+          166,
+          698
+        ],
+        [
+          166,
+          702
+        ],
+        [
+          182,
+          617
+        ],
+        [
+          182,
+          702
+        ],
+        [
+          183,
+          617
+        ],
+        [
+          183,
+          703
+        ],
+        [
+          183,
+          702
+        ],
+        [
+          183,
+          706
+        ],
+        [
+          183,
+          704
+        ],
+        [
+          183,
+          705
+        ]
+      ],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3466",
+      "second": "FJ3565",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3466",
+      "second": "FJ3567",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3466",
+      "second": "FJ2143",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3466",
+      "second": "FJ3417",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3466",
+      "second": "FJ3564",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3466",
+      "second": "FJ3483",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ2074",
+      "second": "FJ3565",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ2074",
+      "second": "FJ3567",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ2074",
+      "second": "FJ2143",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ2074",
+      "second": "FJ3417",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ2074",
+      "second": "FJ3564",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ2074",
+      "second": "FJ3483",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3565",
+      "second": "FJ3567",
+      "status": "CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 1091,
+      "contact_pairs": [
+        [
+          0,
+          308
+        ],
+        [
+          0,
+          311
+        ],
+        [
+          0,
+          309
+        ],
+        [
+          2,
+          312
+        ],
+        [
+          2,
+          308
+        ],
+        [
+          2,
+          311
+        ],
+        [
+          2,
+          319
+        ],
+        [
+          2,
+          316
+        ],
+        [
+          3,
+          311
+        ],
+        [
+          3,
+          309
+        ],
+        [
+          5,
+          325
+        ],
+        [
+          6,
+          311
+        ],
+        [
+          6,
+          310
+        ],
+        [
+          6,
+          314
+        ],
+        [
+          7,
+          311
+        ],
+        [
+          9,
+          324
+        ],
+        [
+          9,
+          314
+        ],
+        [
+          9,
+          325
+        ],
+        [
+          12,
+          308
+        ],
+        [
+          15,
+          298
+        ],
+        [
+          15,
+          312
+        ],
+        [
+          15,
+          308
+        ],
+        [
+          15,
+          301
+        ],
+        [
+          15,
+          319
+        ],
+        [
+          15,
+          318
+        ],
+        [
+          16,
+          308
+        ],
+        [
+          18,
+          329
+        ],
+        [
+          18,
+          328
+        ],
+        [
+          18,
+          301
+        ],
+        [
+          19,
+          329
+        ],
+        [
+          19,
+          328
+        ],
+        [
+          19,
+          330
+        ],
+        [
+          19,
+          368
+        ],
+        [
+          19,
+          370
+        ],
+        [
+          19,
+          369
+        ],
+        [
+          22,
+          368
+        ],
+        [
+          47,
+          368
+        ],
+        [
+          47,
+          370
+        ],
+        [
+          47,
+          377
+        ],
+        [
+          47,
+          378
+        ],
+        [
+          47,
+          379
+        ],
+        [
+          60,
+          356
+        ],
+        [
+          60,
+          325
+        ],
+        [
+          60,
+          359
+        ],
+        [
+          60,
+          358
+        ],
+        [
+          61,
+          389
+        ],
+        [
+          61,
+          379
+        ],
+        [
+          62,
+          388
+        ],
+        [
+          62,
+          389
+        ],
+        [
+          62,
+          386
+        ],
+        [
+          62,
+          385
+        ],
+        [
+          62,
+          390
+        ],
+        [
+          63,
+          388
+        ],
+        [
+          63,
+          394
+        ],
+        [
+          63,
+          385
+        ],
+        [
+          63,
+          393
+        ],
+        [
+          71,
+          388
+        ],
+        [
+          72,
+          359
+        ],
+        [
+          72,
+          367
+        ],
+        [
+          73,
+          388
+        ],
+        [
+          75,
+          389
+        ],
+        [
+          75,
+          390
+        ],
+        [
+          76,
+          390
+        ],
+        [
+          84,
+          325
+        ],
+        [
+          85,
+          394
+        ],
+        [
+          85,
+          367
+        ],
+        [
+          92,
+          379
+        ]
+      ],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3565",
+      "second": "FJ2143",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3565",
+      "second": "FJ3417",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3565",
+      "second": "FJ3564",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3565",
+      "second": "FJ3483",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3567",
+      "second": "FJ2143",
+      "status": "CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 932,
+      "contact_pairs": [
+        [
+          27,
+          517
+        ],
+        [
+          27,
+          473
+        ],
+        [
+          31,
+          611
+        ],
+        [
+          31,
+          580
+        ],
+        [
+          31,
+          546
+        ],
+        [
+          31,
+          581
+        ],
+        [
+          31,
+          597
+        ],
+        [
+          44,
+          611
+        ],
+        [
+          44,
+          612
+        ],
+        [
+          44,
+          597
+        ],
+        [
+          44,
+          602
+        ],
+        [
+          55,
+          612
+        ],
+        [
+          55,
+          613
+        ],
+        [
+          57,
+          520
+        ],
+        [
+          60,
+          520
+        ],
+        [
+          60,
+          612
+        ],
+        [
+          60,
+          613
+        ],
+        [
+          61,
+          520
+        ],
+        [
+          62,
+          613
+        ],
+        [
+          63,
+          613
+        ],
+        [
+          65,
+          513
+        ],
+        [
+          65,
+          518
+        ],
+        [
+          65,
+          511
+        ],
+        [
+          66,
+          551
+        ],
+        [
+          66,
+          623
+        ],
+        [
+          67,
+          519
+        ],
+        [
+          67,
+          513
+        ],
+        [
+          67,
+          520
+        ],
+        [
+          76,
+          546
+        ],
+        [
+          76,
+          585
+        ],
+        [
+          76,
+          591
+        ],
+        [
+          76,
+          545
+        ],
+        [
+          76,
+          596
+        ],
+        [
+          76,
+          601
+        ],
+        [
+          76,
+          597
+        ],
+        [
+          76,
+          592
+        ],
+        [
+          78,
+          602
+        ],
+        [
+          78,
+          610
+        ],
+        [
+          78,
+          604
+        ],
+        [
+          78,
+          603
+        ],
+        [
+          79,
+          554
+        ],
+        [
+          79,
+          551
+        ],
+        [
+          79,
+          550
+        ],
+        [
+          80,
+          517
+        ],
+        [
+          80,
+          511
+        ],
+        [
+          80,
+          470
+        ],
+        [
+          80,
+          522
+        ],
+        [
+          80,
+          521
+        ],
+        [
+          80,
+          473
+        ],
+        [
+          80,
+          550
+        ],
+        [
+          81,
+          551
+        ],
+        [
+          82,
+          623
+        ],
+        [
+          82,
+          624
+        ],
+        [
+          96,
+          608
+        ],
+        [
+          96,
+          610
+        ],
+        [
+          97,
+          608
+        ],
+        [
+          99,
+          606
+        ],
+        [
+          99,
+          608
+        ],
+        [
+          101,
+          608
+        ],
+        [
+          106,
+          624
+        ],
+        [
+          106,
+          626
+        ],
+        [
+          106,
+          628
+        ],
+        [
+          106,
+          627
+        ],
+        [
+          106,
+          606
+        ]
+      ],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3567",
+      "second": "FJ3417",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3567",
+      "second": "FJ3564",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3567",
+      "second": "FJ3483",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ2143",
+      "second": "FJ3417",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ2143",
+      "second": "FJ3564",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ2143",
+      "second": "FJ3483",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3417",
+      "second": "FJ3564",
+      "status": "CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 1700,
+      "contact_pairs": [
+        [
+          5,
+          69
+        ],
+        [
+          5,
+          70
+        ],
+        [
+          5,
+          158
+        ],
+        [
+          6,
+          87
+        ],
+        [
+          6,
+          15
+        ],
+        [
+          6,
+          68
+        ],
+        [
+          6,
+          78
+        ],
+        [
+          6,
+          82
+        ],
+        [
+          9,
+          68
+        ],
+        [
+          9,
+          69
+        ],
+        [
+          22,
+          15
+        ],
+        [
+          22,
+          16
+        ],
+        [
+          22,
+          24
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          23,
+          26
+        ],
+        [
+          24,
+          121
+        ],
+        [
+          24,
+          27
+        ],
+        [
+          24,
+          26
+        ],
+        [
+          25,
+          131
+        ],
+        [
+          25,
+          27
+        ],
+        [
+          25,
+          91
+        ],
+        [
+          25,
+          123
+        ],
+        [
+          26,
+          123
+        ],
+        [
+          27,
+          123
+        ],
+        [
+          28,
+          227
+        ],
+        [
+          28,
+          123
+        ],
+        [
+          29,
+          199
+        ],
+        [
+          29,
+          227
+        ],
+        [
+          29,
+          323
+        ],
+        [
+          77,
+          151
+        ],
+        [
+          77,
+          256
+        ],
+        [
+          79,
+          158
+        ],
+        [
+          79,
+          151
+        ],
+        [
+          84,
+          257
+        ],
+        [
+          84,
+          256
+        ],
+        [
+          86,
+          257
+        ],
+        [
+          86,
+          376
+        ],
+        [
+          86,
+          260
+        ],
+        [
+          86,
+          258
+        ],
+        [
+          91,
+          378
+        ],
+        [
+          91,
+          377
+        ],
+        [
+          91,
+          379
+        ],
+        [
+          95,
+          376
+        ],
+        [
+          95,
+          377
+        ],
+        [
+          115,
+          346
+        ],
+        [
+          115,
+          323
+        ],
+        [
+          115,
+          349
+        ],
+        [
+          116,
+          350
+        ],
+        [
+          116,
+          423
+        ],
+        [
+          116,
+          349
+        ],
+        [
+          117,
+          349
+        ],
+        [
+          118,
+          423
+        ],
+        [
+          118,
+          290
+        ],
+        [
+          119,
+          290
+        ],
+        [
+          122,
+          399
+        ],
+        [
+          122,
+          290
+        ],
+        [
+          123,
+          424
+        ],
+        [
+          123,
+          516
+        ],
+        [
+          123,
+          550
+        ],
+        [
+          123,
+          497
+        ],
+        [
+          123,
+          504
+        ],
+        [
+          123,
+          505
+        ],
+        [
+          123,
+          399
+        ],
+        [
+          148,
+          379
+        ],
+        [
+          148,
+          482
+        ],
+        [
+          148,
+          478
+        ],
+        [
+          148,
+          479
+        ],
+        [
+          149,
+          503
+        ],
+        [
+          149,
+          482
+        ],
+        [
+          151,
+          503
+        ],
+        [
+          151,
+          495
+        ],
+        [
+          151,
+          529
+        ],
+        [
+          151,
+          514
+        ],
+        [
+          152,
+          514
+        ],
+        [
+          153,
+          514
+        ],
+        [
+          153,
+          497
+        ],
+        [
+          153,
+          496
+        ],
+        [
+          154,
+          497
+        ],
+        [
+          157,
+          497
+        ],
+        [
+          157,
+          496
+        ]
+      ],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3417",
+      "second": "FJ3483",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 4,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    },
+    {
+      "first": "FJ3564",
+      "second": "FJ3483",
+      "status": "NO_SURFACE_CONTACT_DETECTED",
+      "complete": true,
+      "checked_pairs": 0,
+      "contact_pairs": [],
+      "degenerate_candidates": false,
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "containment": "NOT RUN",
+      "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+    }
+  ],
+  "scope": "13 named access trunks; all unordered original surface pairs",
+  "graph_connections": "NOT APPROVED",
+  "self_contact": "NOT RUN",
+  "containment": "NOT RUN",
+  "source_modified": false,
+  "live_scene_changed": false,
+  "status_scope": "Pair inspection completeness only, not geometry acceptance"
+}

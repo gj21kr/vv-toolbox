@@ -1,0 +1,74 @@
+{
+  "schema": "vv-toolbox.frontobasal-path-projection/1",
+  "source_case_revision": "ac39f2d88883cf9f2389618a7ad6f0770dd3b5efef17278fbcefa02bf677aa24",
+  "atlas_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "edge_id": "FJ1690:e0",
+  "protected_endpoint_indices": [
+    48
+  ],
+  "protocol": {
+    "inset_mm": 0.05,
+    "max_displacement_mm": 1.0
+  },
+  "status": "FAIL",
+  "accepted_for_generation": false,
+  "reason": "Projected whole path containment did not pass: FAIL",
+  "rejected_path_inspection": {
+    "status": "FAIL",
+    "method": "interior-midpoint-ball-cover/1",
+    "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+    "tolerance_mm": 1e-06,
+    "max_depth": 16,
+    "max_cells": 100000,
+    "query_batch_size": 128,
+    "indexing": {
+      "method": "exact-coordinate-index-copy/1",
+      "coordinate_tolerance_mm": 0,
+      "original_vertices": 351,
+      "normalized_vertices": 351,
+      "faces": 698,
+      "triangle_coordinate_bytes_preserved": true,
+      "triangle_sha256": "e9b4e71685d88f563376de9c3fe1dcb32affe95ce316a6e4e612cc41cfc11f94",
+      "original_watertight": true,
+      "normalized_watertight": true,
+      "normalized_winding_consistent": true,
+      "zero_area_faces": 0,
+      "usable_for_sampled_containment": true,
+      "original_modified": false,
+      "faces_added_or_removed": false,
+      "self_intersection": "NOT RUN",
+      "anatomical_validity": "NOT RUN"
+    },
+    "segment_count": 64,
+    "processed_cells": 206,
+    "covered_cells": 133,
+    "unresolved_segments": [],
+    "outside_witnesses": [
+      {
+        "segment_index": 11,
+        "fraction": 0.875,
+        "position_mm": [
+          -14.904555312863689,
+          -156.34401912825268,
+          1542.9337836574218
+        ],
+        "distance_to_surface_mm": 0.000288016802639739
+      },
+      {
+        "segment_index": 12,
+        "fraction": 0.125,
+        "position_mm": [
+          -14.904555305670325,
+          -156.34401912646314,
+          1542.9337836556194
+        ],
+        "distance_to_surface_mm": 0.0002880168025189308
+      }
+    ],
+    "maximum_depth_used": 4,
+    "minimum_cover_margin_mm": 0.000139514394669446,
+    "surface_self_intersection": "NOT RUN",
+    "anatomical_validation": "NOT RUN"
+  },
+  "refinement_enabled": true
+}

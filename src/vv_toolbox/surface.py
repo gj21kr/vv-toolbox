@@ -133,8 +133,8 @@ def network_mesh(graph, spacing=None):
     graph.validate()
     if spacing is None:
         spacing = min(0.45*max(1.0, graph.parameters.get("radius_scale",1.0)),_minimum_radius(graph)*0.70)
-    if not np.isfinite(spacing) or not 0.2 <= spacing <= _minimum_radius(graph)*0.75+1e-10:
-        raise ValueError("spacing must be >=0.2 mm and <=75% of minimum radius")
+    if not np.isfinite(spacing) or not 0.1 <= spacing <= _minimum_radius(graph)*0.75+1e-10:
+        raise ValueError("spacing must be >=0.1 mm and <=75% of minimum radius")
     venous=graph.parameters.get('circulation') in ('systemic','portal')
     continuation,fillets=_venous_junctions(graph) if venous else ({},_arterial_junctions(graph))
     arterial_profiles={} if venous else _aortic_radius_profiles(graph)

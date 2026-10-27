@@ -1,0 +1,16 @@
+{
+  "status": "FAIL",
+  "scope": "Actual browser request, result, apply gate, discard and restore",
+  "parameters": {
+    "scale": 1.05,
+    "transition_mm": 10,
+    "max_displacement_mm": 1
+  },
+  "phase": "computing",
+  "started_at": "2026-10-20T21:02:35.209Z",
+  "progress_history": [],
+  "parent_sha256": "c1981693aff26b3a21e6dda40fca292c64e04c33471cae517f6120125352602c",
+  "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n409 !== 400\n",
+  "atlas_restored": true,
+  "elapsed_seconds": 7.412
+}

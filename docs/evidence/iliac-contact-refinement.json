@@ -1,0 +1,807 @@
+{
+  "schema": "vv-toolbox.iliac-contact-refinement/1",
+  "case_revision": "3028bfcbbed7082d18b01610e596a4b27fd4458cf69fa769a0e236d854c9d722",
+  "input_report_sha256": "15bd7e8fa228dabcfc10f6766fcb81e84a5376319892a7bbba19352714a0ff4e",
+  "input_unchanged": true,
+  "pair_count": 15,
+  "pairs": [
+    {
+      "edges": [
+        "FJ1932:e0",
+        "synthetic_R_common_iliac_trunk"
+      ],
+      "scope": "surrounding",
+      "anatomy": [
+        {
+          "artery": "abdominal aorta",
+          "branch_id": "FJ1932:e0",
+          "segment": "unresolved",
+          "side": "unknown"
+        },
+        {
+          "artery": "right common iliac artery",
+          "branch_id": "synthetic_R_common_iliac_trunk",
+          "segment": "unresolved",
+          "side": "R"
+        }
+      ],
+      "interval_pairs_checked": 11480,
+      "minimum_capsule_bound_mm": -8.447285682291728,
+      "witness": {
+        "intervals": [
+          0,
+          55
+        ],
+        "fractions": [
+          0.0,
+          1.0
+        ],
+        "centers_mm": [
+          [
+            5.6,
+            -124.00000000000003,
+            961.6000000000001
+          ],
+          [
+            4.000000000000007,
+            -124.00000000000001,
+            957.6000000000001
+          ]
+        ],
+        "radii_mm": [
+          7.155417527999328,
+          5.6000000000000005
+        ],
+        "center_distance_mm": 4.3081318457076,
+        "sphere_gap_mm": -8.447285682291728
+      },
+      "status": "SWEPT_SPHERE_OVERLAP",
+      "limitation": "Negative witness proves overlap of interpolated-radius spheres only. Witness search is not the global minimum of variable-radius clearance. No source mesh or anatomy claim."
+    },
+    {
+      "edges": [
+        "FJ3427:e0",
+        "synthetic_R_common_iliac_trunk"
+      ],
+      "scope": "surrounding",
+      "anatomy": [
+        {
+          "artery": "descending aorta",
+          "branch_id": "FJ3427:e0",
+          "segment": "unresolved",
+          "side": "unknown"
+        },
+        {
+          "artery": "right common iliac artery",
+          "branch_id": "synthetic_R_common_iliac_trunk",
+          "segment": "unresolved",
+          "side": "R"
+        }
+      ],
+      "interval_pairs_checked": 18592,
+      "minimum_capsule_bound_mm": -10.728020100629536,
+      "witness": {
+        "intervals": [
+          4,
+          55
+        ],
+        "fractions": [
+          0.0,
+          1.0
+        ],
+        "centers_mm": [
+          [
+            4.800000000000001,
+            -123.83999999999999,
+            959.04
+          ],
+          [
+            4.000000000000007,
+            -124.00000000000001,
+            957.6000000000001
+          ]
+        ],
+        "radii_mm": [
+          6.72,
+          5.6000000000000005
+        ],
+        "center_distance_mm": 1.6550528692460251,
+        "sphere_gap_mm": -10.664947130753974
+      },
+      "status": "SWEPT_SPHERE_OVERLAP",
+      "limitation": "Negative witness proves overlap of interpolated-radius spheres only. Witness search is not the global minimum of variable-radius clearance. No source mesh or anatomy claim."
+    },
+    {
+      "edges": [
+        "FJ3464:e0",
+        "synthetic_R_common_iliac_trunk"
+      ],
+      "scope": "surrounding",
+      "anatomy": [
+        {
+          "artery": "left common iliac artery",
+          "branch_id": "FJ3464:e0",
+          "segment": "unresolved",
+          "side": "L"
+        },
+        {
+          "artery": "right common iliac artery",
+          "branch_id": "synthetic_R_common_iliac_trunk",
+          "segment": "unresolved",
+          "side": "R"
+        }
+      ],
+      "interval_pairs_checked": 3472,
+      "minimum_capsule_bound_mm": -8.288167318344183,
+      "witness": {
+        "intervals": [
+          1,
+          54
+        ],
+        "fractions": [
+          0.0,
+          1.0
+        ],
+        "centers_mm": [
+          [
+            7.2,
+            -122.4,
+            956.0000000000001
+          ],
+          [
+            4.000000000000007,
+            -124.00000000000001,
+            956.8000000000001
+          ]
+        ],
+        "radii_mm": [
+          5.986651818838307,
+          5.6000000000000005
+        ],
+        "center_distance_mm": 3.66606055596466,
+        "sphere_gap_mm": -7.920591262873647
+      },
+      "status": "SWEPT_SPHERE_OVERLAP",
+      "limitation": "Negative witness proves overlap of interpolated-radius spheres only. Witness search is not the global minimum of variable-radius clearance. No source mesh or anatomy claim."
+    },
+    {
+      "edges": [
+        "R-EIA-retained",
+        "FJ3569:e0"
+      ],
+      "scope": "within_selected",
+      "anatomy": [
+        {
+          "artery": "right external iliac artery",
+          "branch_id": "FJ3567:e0",
+          "segment": "unresolved",
+          "side": "R"
+        },
+        {
+          "artery": "right internal iliac artery",
+          "branch_id": "FJ3569:e0",
+          "segment": "unresolved",
+          "side": "R"
+        }
+      ],
+      "interval_pairs_checked": 12056,
+      "minimum_capsule_bound_mm": -1.2369377493842229,
+      "witness": {
+        "intervals": [
+          87,
+          126
+        ],
+        "fractions": [
+          1.0,
+          1.0
+        ],
+        "centers_mm": [
+          [
+            -36.20000000000006,
+            -104.59999999999997,
+            903.0
+          ],
+          [
+            -30.08777108327055,
+            -105.9340273556817,
+            901.3794753696469
+          ]
+        ],
+        "radii_mm": [
+          4.54302507900304,
+          3.0708202771533126
+        ],
+        "center_distance_mm": 6.462590145892948,
+        "sphere_gap_mm": -1.151255210263404
+      },
+      "status": "SWEPT_SPHERE_OVERLAP",
+      "limitation": "Negative witness proves overlap of interpolated-radius spheres only. Witness search is not the global minimum of variable-radius clearance. No source mesh or anatomy claim."
+    },
+    {
+      "edges": [
+        "R-EIA-retained",
+        "FJ3617:e0"
+      ],
+      "scope": "surrounding",
+      "anatomy": [
+        {
+          "artery": "right external iliac artery",
+          "branch_id": "FJ3567:e0",
+          "segment": "unresolved",
+          "side": "R"
+        },
+        {
+          "artery": "right testicular artery",
+          "branch_id": "FJ3617:e0",
+          "segment": "unresolved",
+          "side": "R"
+        }
+      ],
+      "interval_pairs_checked": 28776,
+      "minimum_capsule_bound_mm": -1.768778977259391,
+      "witness": {
+        "intervals": [
+          57,
+          199
+        ],
+        "fractions": [
+          1.0,
+          1.0
+        ],
+        "centers_mm": [
+          [
+            -52.0,
+            -85.60000000000002,
+            879.2
+          ],
+          [
+            -56.886769613346345,
+            -87.07158614287708,
+            880.0034972840108
+          ]
+        ],
+        "radii_mm": [
+          5.059644256269408,
+          1.1609544819050275
+        ],
+        "center_distance_mm": 5.1664001892270806,
+        "sphere_gap_mm": -1.0541985489473547
+      },
+      "status": "SWEPT_SPHERE_OVERLAP",
+      "limitation": "Negative witness proves overlap of interpolated-radius spheres only. Witness search is not the global minimum of variable-radius clearance. No source mesh or anatomy claim."
+    },
+    {
+      "edges": [
+        "R-EIA-retained",
+        "synthetic_R_iliofemoral_after_IEA"
+      ],
+      "scope": "surrounding",
+      "anatomy": [
+        {
+          "artery": "right external iliac artery",
+          "branch_id": "FJ3567:e0",
+          "segment": "unresolved",
+          "side": "R"
+        },
+        {
+          "artery": "synthetic connection",
+          "branch_id": "estimated_R_iliofemoral",
+          "segment": "unresolved",
+          "side": "unknown"
+        }
+      ],
+      "interval_pairs_checked": 13904,
+      "minimum_capsule_bound_mm": 0.21539089140899303,
+      "witness": {
+        "intervals": [
+          0,
+          0
+        ],
+        "fractions": [
+          0.0,
+          0.0
+        ],
+        "centers_mm": [
+          [
+            -56.0,
+            -102.00000000000003,
+            834.8000000000001
+          ],
+          [
+            -55.46936419362072,
+            -108.49672142002548,
+            829.0254838478202
+          ]
+        ],
+        "radii_mm": [
+          4.193673728290916,
+          4.298111652264186
+        ],
+        "center_distance_mm": 8.708271950290476,
+        "sphere_gap_mm": 0.21648656973537328
+      },
+      "status": "SEPARATED_CAPSULES",
+      "limitation": "Negative witness proves overlap of interpolated-radius spheres only. Witness search is not the global minimum of variable-radius clearance. No source mesh or anatomy claim."
+    },
+    {
+      "edges": [
+        "R-EIA-retained",
+        "R_iliac_continuation_before_IIA"
+      ],
+      "scope": "within_selected",
+      "anatomy": [
+        {
+          "artery": "right external iliac artery",
+          "branch_id": "FJ3567:e0",
+          "segment": "unresolved",
+          "side": "R"
+        },
+        {
+          "artery": "synthetic connection",
+          "branch_id": "estimated_R_CIA_EIA_continuation",
+          "segment": "unresolved",
+          "side": "unknown"
+        }
+      ],
+      "interval_pairs_checked": 8624,
+      "minimum_capsule_bound_mm": -0.5031903173699153,
+      "witness": {
+        "intervals": [
+          87,
+          97
+        ],
+        "fractions": [
+          1.0,
+          1.0
+        ],
+        "centers_mm": [
+          [
+            -36.20000000000006,
+            -104.59999999999997,
+            903.0
+          ],
+          [
+            -30.992558161755582,
+            -108.27073888787008,
+            908.6165592560917
+          ]
+        ],
+        "radii_mm": [
+          4.54302507900304,
+          4.40092070255491
+        ],
+        "center_distance_mm": 8.493380502415418,
+        "sphere_gap_mm": -0.4505652791425323
+      },
+      "status": "SWEPT_SPHERE_OVERLAP",
+      "limitation": "Negative witness proves overlap of interpolated-radius spheres only. Witness search is not the global minimum of variable-radius clearance. No source mesh or anatomy claim."
+    },
+    {
+      "edges": [
+        "R-EIA-retained",
+        "estimated_R_internal_iliac_origin"
+      ],
+      "scope": "within_selected",
+      "anatomy": [
+        {
+          "artery": "right external iliac artery",
+          "branch_id": "FJ3567:e0",
+          "segment": "unresolved",
+          "side": "R"
+        },
+        {
+          "artery": "synthetic connection",
+          "branch_id": "estimated_R_internal_iliac_origin",
+          "segment": "unresolved",
+          "side": "unknown"
+        }
+      ],
+      "interval_pairs_checked": 16808,
+      "minimum_capsule_bound_mm": 0.8269101080316825,
+      "witness": {
+        "intervals": [
+          87,
+          0
+        ],
+        "fractions": [
+          1.0,
+          0.0
+        ],
+        "centers_mm": [
+          [
+            -36.20000000000006,
+            -104.59999999999997,
+            903.0
+          ],
+          [
+            -30.992558161755582,
+            -108.27073888787008,
+            908.6165592560917
+          ]
+        ],
+        "radii_mm": [
+          4.54302507900304,
+          3.0708202771533126
+        ],
+        "center_distance_mm": 8.493380502415418,
+        "sphere_gap_mm": 0.8795351462590659
+      },
+      "status": "SEPARATED_CAPSULES",
+      "limitation": "Negative witness proves overlap of interpolated-radius spheres only. Witness search is not the global minimum of variable-radius clearance. No source mesh or anatomy claim."
+    },
+    {
+      "edges": [
+        "FJ3569:e0",
+        "R_iliac_continuation_before_IIA"
+      ],
+      "scope": "within_selected",
+      "anatomy": [
+        {
+          "artery": "right internal iliac artery",
+          "branch_id": "FJ3569:e0",
+          "segment": "unresolved",
+          "side": "R"
+        },
+        {
+          "artery": "synthetic connection",
+          "branch_id": "estimated_R_CIA_EIA_continuation",
+          "segment": "unresolved",
+          "side": "unknown"
+        }
+      ],
+      "interval_pairs_checked": 13426,
+      "minimum_capsule_bound_mm": -5.75691607196631,
+      "witness": {
+        "intervals": [
+          136,
+          97
+        ],
+        "fractions": [
+          0.6366936391295928,
+          1.0
+        ],
+        "centers_mm": [
+          [
+            -30.714599647505352,
+            -109.46726793652876,
+            907.4200302074331
+          ],
+          [
+            -30.992558161755582,
+            -108.27073888787008,
+            908.6165592560917
+          ]
+        ],
+        "radii_mm": [
+          3.0708202771533126,
+          4.40092070255491
+        ],
+        "center_distance_mm": 1.714824907741913,
+        "sphere_gap_mm": -5.75691607196631
+      },
+      "status": "SWEPT_SPHERE_OVERLAP",
+      "limitation": "Negative witness proves overlap of interpolated-radius spheres only. Witness search is not the global minimum of variable-radius clearance. No source mesh or anatomy claim."
+    },
+    {
+      "edges": [
+        "FJ3569:e0",
+        "R_iliac_continuation_after_IIA"
+      ],
+      "scope": "within_selected",
+      "anatomy": [
+        {
+          "artery": "right internal iliac artery",
+          "branch_id": "FJ3569:e0",
+          "segment": "unresolved",
+          "side": "R"
+        },
+        {
+          "artery": "synthetic connection",
+          "branch_id": "estimated_R_CIA_EIA_continuation",
+          "segment": "unresolved",
+          "side": "unknown"
+        }
+      ],
+      "interval_pairs_checked": 12878,
+      "minimum_capsule_bound_mm": -5.821637089053982,
+      "witness": {
+        "intervals": [
+          136,
+          8
+        ],
+        "fractions": [
+          0.012386281769625864,
+          0.0
+        ],
+        "centers_mm": [
+          [
+            -30.714599647505352,
+            -109.07593425207358,
+            907.028696522978
+          ],
+          [
+            -31.40637900733157,
+            -108.00103785956911,
+            908.1035929154823
+          ]
+        ],
+        "radii_mm": [
+          3.0708202771533126,
+          4.418686507704045
+        ],
+        "center_distance_mm": 1.6701386744577664,
+        "sphere_gap_mm": -5.819368110399592
+      },
+      "status": "SWEPT_SPHERE_OVERLAP",
+      "limitation": "Negative witness proves overlap of interpolated-radius spheres only. Witness search is not the global minimum of variable-radius clearance. No source mesh or anatomy claim."
+    },
+    {
+      "edges": [
+        "FJ3569:e0",
+        "synthetic_R_common_iliac_trunk"
+      ],
+      "scope": "within_selected",
+      "anatomy": [
+        {
+          "artery": "right internal iliac artery",
+          "branch_id": "FJ3569:e0",
+          "segment": "unresolved",
+          "side": "R"
+        },
+        {
+          "artery": "right common iliac artery",
+          "branch_id": "synthetic_R_common_iliac_trunk",
+          "segment": "unresolved",
+          "side": "R"
+        }
+      ],
+      "interval_pairs_checked": 7672,
+      "minimum_capsule_bound_mm": 0.9794868281181071,
+      "witness": {
+        "intervals": [
+          136,
+          0
+        ],
+        "fractions": [
+          1.0,
+          0.0
+        ],
+        "centers_mm": [
+          [
+            -30.714599647505352,
+            -109.69499874109053,
+            907.6477610119949
+          ],
+          [
+            -28.0,
+            -112.59999999999995,
+            915.0
+          ]
+        ],
+        "radii_mm": [
+          3.0708202771533126,
+          4.250902786999243
+        ],
+        "center_distance_mm": 8.358438950979023,
+        "sphere_gap_mm": 1.0367158868264674
+      },
+      "status": "SEPARATED_CAPSULES",
+      "limitation": "Negative witness proves overlap of interpolated-radius spheres only. Witness search is not the global minimum of variable-radius clearance. No source mesh or anatomy claim."
+    },
+    {
+      "edges": [
+        "FJ3632:e1",
+        "synthetic_R_common_iliac_trunk"
+      ],
+      "scope": "surrounding",
+      "anatomy": [
+        {
+          "artery": "lumbar artery",
+          "branch_id": "FJ3632:e1",
+          "segment": "unresolved",
+          "side": "unknown"
+        },
+        {
+          "artery": "right common iliac artery",
+          "branch_id": "synthetic_R_common_iliac_trunk",
+          "segment": "unresolved",
+          "side": "R"
+        }
+      ],
+      "interval_pairs_checked": 7784,
+      "minimum_capsule_bound_mm": -4.472258329488063,
+      "witness": {
+        "intervals": [
+          2,
+          55
+        ],
+        "fractions": [
+          0.0,
+          1.0
+        ],
+        "centers_mm": [
+          [
+            4.931304007414823,
+            -121.63883218289898,
+            959.1386294421832
+          ],
+          [
+            4.000000000000007,
+            -124.00000000000001,
+            957.6000000000001
+          ]
+        ],
+        "radii_mm": [
+          1.643768002471608,
+          5.6000000000000005
+        ],
+        "center_distance_mm": 2.9681342919573304,
+        "sphere_gap_mm": -4.275633710514278
+      },
+      "status": "SWEPT_SPHERE_OVERLAP",
+      "limitation": "Negative witness proves overlap of interpolated-radius spheres only. Witness search is not the global minimum of variable-radius clearance. No source mesh or anatomy claim."
+    },
+    {
+      "edges": [
+        "FJ3636:e2",
+        "synthetic_R_common_iliac_trunk"
+      ],
+      "scope": "surrounding",
+      "anatomy": [
+        {
+          "artery": "lumbar artery",
+          "branch_id": "FJ3636:e2",
+          "segment": "unresolved",
+          "side": "unknown"
+        },
+        {
+          "artery": "right common iliac artery",
+          "branch_id": "synthetic_R_common_iliac_trunk",
+          "segment": "unresolved",
+          "side": "R"
+        }
+      ],
+      "interval_pairs_checked": 7280,
+      "minimum_capsule_bound_mm": -1.3981911741858228,
+      "witness": {
+        "intervals": [
+          129,
+          55
+        ],
+        "fractions": [
+          1.0,
+          1.0
+        ],
+        "centers_mm": [
+          [
+            0.835419933048243,
+            -120.30047035894655,
+            959.8975030724276
+          ],
+          [
+            4.000000000000007,
+            -124.00000000000001,
+            957.6000000000001
+          ]
+        ],
+        "radii_mm": [
+          1.181462199593644,
+          5.6000000000000005
+        ],
+        "center_distance_mm": 5.383271025407822,
+        "sphere_gap_mm": -1.398191174185822
+      },
+      "status": "SWEPT_SPHERE_OVERLAP",
+      "limitation": "Negative witness proves overlap of interpolated-radius spheres only. Witness search is not the global minimum of variable-radius clearance. No source mesh or anatomy claim."
+    },
+    {
+      "edges": [
+        "R_iliac_continuation_after_IIA",
+        "synthetic_R_common_iliac_trunk"
+      ],
+      "scope": "within_selected",
+      "anatomy": [
+        {
+          "artery": "synthetic connection",
+          "branch_id": "estimated_R_CIA_EIA_continuation",
+          "segment": "unresolved",
+          "side": "unknown"
+        },
+        {
+          "artery": "right common iliac artery",
+          "branch_id": "synthetic_R_common_iliac_trunk",
+          "segment": "unresolved",
+          "side": "R"
+        }
+      ],
+      "interval_pairs_checked": 5264,
+      "minimum_capsule_bound_mm": -0.4376066694569296,
+      "witness": {
+        "intervals": [
+          0,
+          0
+        ],
+        "fractions": [
+          0.0,
+          0.0
+        ],
+        "centers_mm": [
+          [
+            -30.992558161755582,
+            -108.27073888787008,
+            908.6165592560917
+          ],
+          [
+            -28.0,
+            -112.59999999999995,
+            915.0
+          ]
+        ],
+        "radii_mm": [
+          4.40092070255491,
+          4.250902786999243
+        ],
+        "center_distance_mm": 8.273223184435338,
+        "sphere_gap_mm": -0.37860030511881604
+      },
+      "status": "SWEPT_SPHERE_OVERLAP",
+      "limitation": "Negative witness proves overlap of interpolated-radius spheres only. Witness search is not the global minimum of variable-radius clearance. No source mesh or anatomy claim."
+    },
+    {
+      "edges": [
+        "estimated_R_internal_iliac_origin",
+        "synthetic_R_common_iliac_trunk"
+      ],
+      "scope": "within_selected",
+      "anatomy": [
+        {
+          "artery": "synthetic connection",
+          "branch_id": "estimated_R_internal_iliac_origin",
+          "segment": "unresolved",
+          "side": "unknown"
+        },
+        {
+          "artery": "right common iliac artery",
+          "branch_id": "synthetic_R_common_iliac_trunk",
+          "segment": "unresolved",
+          "side": "R"
+        }
+      ],
+      "interval_pairs_checked": 10696,
+      "minimum_capsule_bound_mm": 0.7016074891328046,
+      "witness": {
+        "intervals": [
+          112,
+          0
+        ],
+        "fractions": [
+          0.45032595503932527,
+          0.0
+        ],
+        "centers_mm": [
+          [
+            -30.789290027894488,
+            -109.48815114659568,
+            908.0839533332373
+          ],
+          [
+            -28.0,
+            -112.59999999999995,
+            915.0
+          ]
+        ],
+        "radii_mm": [
+          3.0708202771533126,
+          4.250902786999243
+        ],
+        "center_distance_mm": 8.08055961199372,
+        "sphere_gap_mm": 0.7588365478411649
+      },
+      "status": "SEPARATED_CAPSULES",
+      "limitation": "Negative witness proves overlap of interpolated-radius spheres only. Witness search is not the global minimum of variable-radius clearance. No source mesh or anatomy claim."
+    }
+  ],
+  "final_mesh_collision": "NOT RUN",
+  "anatomical_connectivity": "UNKNOWN",
+  "default_app_applied": false
+}

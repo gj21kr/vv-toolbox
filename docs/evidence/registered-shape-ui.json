@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "Actual registered wall/graph UI edit, failure preservation, undo/redo and download",
+  "browser_path": "Playwright: Browser plugin not available",
+  "failure_preserved": true,
+  "busy_controls_locked": true,
+  "revision": "e09458dedd417a1fad89eb9fbc5521a7f7074219ce31ccff88ee797c7ed65c8c",
+  "independent_run_equal": true,
+  "undo_redo": true,
+  "atlas_unchanged": true,
+  "browser_errors": [],
+  "visual_review": "NOT RUN"
+}

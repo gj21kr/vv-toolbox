@@ -1,0 +1,21 @@
+{
+  "schema": "vv-toolbox.aca-source-sac-unions/1",
+  "case_revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+  "atlas_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "rows": [
+    {
+      "junction_id": "sample:FJ1654:e0:77",
+      "parent_part_id": "FJ1654",
+      "status": "FAIL",
+      "reason": "Source-sac union self-contact failed or incomplete: {'status': 'CONTACT_DETECTED', 'coverage': 'all distinct triangle pairs', 'checked_pairs': 43142, 'adjacent_pairs_checked': 36636, 'contact_pairs': [[470, 524], [470, 522], [470, 523]], 'tolerance_mm': 1e-08, 'max_pairs': 2000000, 'limitations': 'Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance.'}"
+    },
+    {
+      "junction_id": "sample:FJ1654M:e0:91",
+      "parent_part_id": "FJ1654M",
+      "status": "FAIL",
+      "reason": "Source-sac union self-contact failed or incomplete: {'status': 'CONTACT_DETECTED', 'coverage': 'all distinct triangle pairs', 'checked_pairs': 41319, 'adjacent_pairs_checked': 36697, 'contact_pairs': [[417, 582], [417, 580], [417, 581], [424, 620], [426, 622], [426, 620], [426, 621], [472, 516], [472, 514], [472, 515]], 'tolerance_mm': 1e-08, 'max_pairs': 2000000, 'limitations': 'Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance.'}"
+    }
+  ],
+  "app_applied": false,
+  "accepted_for_generation": false
+}

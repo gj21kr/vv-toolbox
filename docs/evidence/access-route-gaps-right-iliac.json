@@ -1,0 +1,639 @@
+{
+  "schema": "vv-toolbox.access-route-gap-audit/1",
+  "case_revision": "ac6663b2ad015ed1031d35ff61ba84bcb35be5838656397e59d79107d2cdf8f5",
+  "source_inventory_sha256": "696e332edbd2b87938e8162bf1ad4d78e36de19a1a8172f190c81b323c353ca8",
+  "source_roles": {
+    "L.ACA_source": [
+      "FJ1654M:e0"
+    ],
+    "L.MCA_sphenoid_source": [
+      "FJ1692M:e0"
+    ],
+    "L.common_carotid": [
+      "FJ3483:e0"
+    ],
+    "L.common_iliac": [
+      "FJ3464:e0"
+    ],
+    "L.external_iliac": [
+      "FJ3466:e0"
+    ],
+    "L.femoral": [
+      "FJ2074:e0"
+    ],
+    "L.internal_carotid": [
+      "FJ1682M:e0"
+    ],
+    "R.ACA_source": [
+      "FJ1654:e0"
+    ],
+    "R.MCA_sphenoid_source": [
+      "FJ1692:e0"
+    ],
+    "R.common_carotid": [
+      "FJ3564:e0"
+    ],
+    "R.common_iliac": [
+      "FJ3565:e0",
+      "FJ3565:e1",
+      "FJ3565:e2"
+    ],
+    "R.external_iliac": [
+      "FJ3567:e0"
+    ],
+    "R.femoral": [
+      "FJ2143:e0"
+    ],
+    "R.internal_carotid": [
+      "FJ1682:e0"
+    ],
+    "abdominal_aorta": [
+      "FJ1932:e0"
+    ],
+    "aortic_arch": [
+      "FJ3411:e0"
+    ],
+    "brachiocephalic": [
+      "FJ3417:e0"
+    ],
+    "descending_thoracic_aorta": [
+      "FJ1931:e0",
+      "FJ1931:e1",
+      "FJ1931:e2",
+      "FJ1931:e3",
+      "FJ1931:e4"
+    ]
+  },
+  "roles": {
+    "L.ACA_source": [
+      "FJ1654M:e0"
+    ],
+    "L.MCA_sphenoid_source": [
+      "FJ1692M:e0"
+    ],
+    "L.common_carotid": [
+      "FJ3483:e0"
+    ],
+    "L.common_iliac": [
+      "FJ3464:e0"
+    ],
+    "L.external_iliac": [
+      "FJ3466:e0-trim-first"
+    ],
+    "L.femoral": [
+      "FJ2074:e0-trim-second"
+    ],
+    "L.internal_carotid": [
+      "FJ1682M:e0"
+    ],
+    "R.ACA_source": [
+      "FJ1654:e0"
+    ],
+    "R.MCA_sphenoid_source": [
+      "FJ1692:e0"
+    ],
+    "R.common_carotid": [
+      "FJ3564:e0"
+    ],
+    "R.common_iliac": [
+      "FJ3565:e1",
+      "FJ3565:e2",
+      "R-CIA-retained"
+    ],
+    "R.external_iliac": [
+      "R-EIA-retained"
+    ],
+    "R.femoral": [
+      "FJ2143:e0-trim-first"
+    ],
+    "R.internal_carotid": [
+      "FJ1682:e0"
+    ],
+    "abdominal_aorta": [
+      "FJ1932:e0"
+    ],
+    "aortic_arch": [
+      "synthetic_arch_after_LCCA",
+      "synthetic_arch_before_LCCA"
+    ],
+    "brachiocephalic": [
+      "FJ3417:e0"
+    ],
+    "descending_thoracic_aorta": [
+      "FJ1931:e0",
+      "FJ1931:e1",
+      "FJ1931:e2",
+      "FJ1931:e3",
+      "FJ1931:e4"
+    ]
+  },
+  "legs": {
+    "L.femoral -> L.external_iliac": {
+      "from_role": "L.femoral",
+      "to_role": "L.external_iliac",
+      "status": "GRAPH_LINK_PRESENT",
+      "connecting_edges": [
+        "estimated_L_iliofemoral"
+      ],
+      "anatomical_acceptance": "UNKNOWN"
+    },
+    "L.external_iliac -> L.common_iliac": {
+      "from_role": "L.external_iliac",
+      "to_role": "L.common_iliac",
+      "status": "GRAPH_LINK_PRESENT",
+      "connecting_edges": [],
+      "anatomical_acceptance": "UNKNOWN"
+    },
+    "L.common_iliac -> abdominal_aorta": {
+      "from_role": "L.common_iliac",
+      "to_role": "abdominal_aorta",
+      "status": "MISSING_GRAPH_LINK",
+      "from_edges": [
+        "FJ3464:e0"
+      ],
+      "to_edges": [
+        "FJ1932:e0"
+      ],
+      "connecting_edges": [],
+      "next_action": "Inspect source surfaces and author a separate evidenced synthetic junction; do not nearest-neighbour snap."
+    },
+    "abdominal_aorta -> descending_thoracic_aorta": {
+      "from_role": "abdominal_aorta",
+      "to_role": "descending_thoracic_aorta",
+      "status": "MISSING_GRAPH_LINK",
+      "from_edges": [
+        "FJ1932:e0"
+      ],
+      "to_edges": [
+        "FJ1931:e0",
+        "FJ1931:e1",
+        "FJ1931:e2",
+        "FJ1931:e3",
+        "FJ1931:e4"
+      ],
+      "connecting_edges": [],
+      "next_action": "Inspect source surfaces and author a separate evidenced synthetic junction; do not nearest-neighbour snap."
+    },
+    "descending_thoracic_aorta -> aortic_arch": {
+      "from_role": "descending_thoracic_aorta",
+      "to_role": "aortic_arch",
+      "status": "MISSING_GRAPH_LINK",
+      "from_edges": [
+        "FJ1931:e0",
+        "FJ1931:e1",
+        "FJ1931:e2",
+        "FJ1931:e3",
+        "FJ1931:e4"
+      ],
+      "to_edges": [
+        "synthetic_arch_after_LCCA",
+        "synthetic_arch_before_LCCA"
+      ],
+      "connecting_edges": [],
+      "next_action": "Inspect source surfaces and author a separate evidenced synthetic junction; do not nearest-neighbour snap."
+    },
+    "aortic_arch -> L.common_carotid": {
+      "from_role": "aortic_arch",
+      "to_role": "L.common_carotid",
+      "status": "GRAPH_LINK_PRESENT",
+      "connecting_edges": [
+        "estimated_arch_to_LCCA"
+      ],
+      "anatomical_acceptance": "UNKNOWN"
+    },
+    "L.common_carotid -> L.internal_carotid": {
+      "from_role": "L.common_carotid",
+      "to_role": "L.internal_carotid",
+      "status": "GRAPH_LINK_PRESENT",
+      "connecting_edges": [
+        "estimated_L_carotid_gap"
+      ],
+      "anatomical_acceptance": "UNKNOWN"
+    },
+    "L.internal_carotid -> L.ACA_source": {
+      "from_role": "L.internal_carotid",
+      "to_role": "L.ACA_source",
+      "status": "MISSING_GRAPH_LINK",
+      "from_edges": [
+        "FJ1682M:e0"
+      ],
+      "to_edges": [
+        "FJ1654M:e0"
+      ],
+      "connecting_edges": [],
+      "next_action": "Inspect source surfaces and author a separate evidenced synthetic junction; do not nearest-neighbour snap."
+    },
+    "L.internal_carotid -> L.MCA_sphenoid_source": {
+      "from_role": "L.internal_carotid",
+      "to_role": "L.MCA_sphenoid_source",
+      "status": "MISSING_GRAPH_LINK",
+      "from_edges": [
+        "FJ1682M:e0"
+      ],
+      "to_edges": [
+        "FJ1692M:e0"
+      ],
+      "connecting_edges": [],
+      "next_action": "Inspect source surfaces and author a separate evidenced synthetic junction; do not nearest-neighbour snap."
+    },
+    "aortic_arch -> brachiocephalic": {
+      "from_role": "aortic_arch",
+      "to_role": "brachiocephalic",
+      "status": "MISSING_GRAPH_LINK",
+      "from_edges": [
+        "synthetic_arch_after_LCCA",
+        "synthetic_arch_before_LCCA"
+      ],
+      "to_edges": [
+        "FJ3417:e0"
+      ],
+      "connecting_edges": [],
+      "next_action": "Inspect source surfaces and author a separate evidenced synthetic junction; do not nearest-neighbour snap."
+    },
+    "brachiocephalic -> R.common_carotid": {
+      "from_role": "brachiocephalic",
+      "to_role": "R.common_carotid",
+      "status": "MISSING_GRAPH_LINK",
+      "from_edges": [
+        "FJ3417:e0"
+      ],
+      "to_edges": [
+        "FJ3564:e0"
+      ],
+      "connecting_edges": [],
+      "next_action": "Inspect source surfaces and author a separate evidenced synthetic junction; do not nearest-neighbour snap."
+    },
+    "R.common_carotid -> R.internal_carotid": {
+      "from_role": "R.common_carotid",
+      "to_role": "R.internal_carotid",
+      "status": "GRAPH_LINK_PRESENT",
+      "connecting_edges": [
+        "estimated_R_carotid_gap"
+      ],
+      "anatomical_acceptance": "UNKNOWN"
+    },
+    "R.internal_carotid -> R.ACA_source": {
+      "from_role": "R.internal_carotid",
+      "to_role": "R.ACA_source",
+      "status": "MISSING_GRAPH_LINK",
+      "from_edges": [
+        "FJ1682:e0"
+      ],
+      "to_edges": [
+        "FJ1654:e0"
+      ],
+      "connecting_edges": [],
+      "next_action": "Inspect source surfaces and author a separate evidenced synthetic junction; do not nearest-neighbour snap."
+    },
+    "R.internal_carotid -> R.MCA_sphenoid_source": {
+      "from_role": "R.internal_carotid",
+      "to_role": "R.MCA_sphenoid_source",
+      "status": "MISSING_GRAPH_LINK",
+      "from_edges": [
+        "FJ1682:e0"
+      ],
+      "to_edges": [
+        "FJ1692:e0"
+      ],
+      "connecting_edges": [],
+      "next_action": "Inspect source surfaces and author a separate evidenced synthetic junction; do not nearest-neighbour snap."
+    },
+    "R.femoral -> R.external_iliac": {
+      "from_role": "R.femoral",
+      "to_role": "R.external_iliac",
+      "status": "GRAPH_LINK_PRESENT",
+      "connecting_edges": [
+        "synthetic_R_iliofemoral_after_IEA",
+        "synthetic_R_iliofemoral_before_IEA"
+      ],
+      "anatomical_acceptance": "UNKNOWN"
+    },
+    "R.external_iliac -> R.common_iliac": {
+      "from_role": "R.external_iliac",
+      "to_role": "R.common_iliac",
+      "status": "GRAPH_LINK_PRESENT",
+      "connecting_edges": [
+        "estimated_R_CIA_EIA_continuation"
+      ],
+      "anatomical_acceptance": "UNKNOWN"
+    },
+    "R.common_iliac -> abdominal_aorta": {
+      "from_role": "R.common_iliac",
+      "to_role": "abdominal_aorta",
+      "status": "MISSING_GRAPH_LINK",
+      "from_edges": [
+        "FJ3565:e1",
+        "FJ3565:e2",
+        "R-CIA-retained"
+      ],
+      "to_edges": [
+        "FJ1932:e0"
+      ],
+      "connecting_edges": [],
+      "next_action": "Inspect source surfaces and author a separate evidenced synthetic junction; do not nearest-neighbour snap."
+    }
+  },
+  "routes": [
+    {
+      "femoral_side": "L",
+      "carotid_side": "L",
+      "target": "ACA_source",
+      "role_chain": [
+        "L.femoral",
+        "L.external_iliac",
+        "L.common_iliac",
+        "abdominal_aorta",
+        "descending_thoracic_aorta",
+        "aortic_arch",
+        "L.common_carotid",
+        "L.internal_carotid",
+        "L.ACA_source"
+      ],
+      "leg_ids": [
+        "L.femoral -> L.external_iliac",
+        "L.external_iliac -> L.common_iliac",
+        "L.common_iliac -> abdominal_aorta",
+        "abdominal_aorta -> descending_thoracic_aorta",
+        "descending_thoracic_aorta -> aortic_arch",
+        "aortic_arch -> L.common_carotid",
+        "L.common_carotid -> L.internal_carotid",
+        "L.internal_carotid -> L.ACA_source"
+      ],
+      "missing_leg_ids": [
+        "L.common_iliac -> abdominal_aorta",
+        "abdominal_aorta -> descending_thoracic_aorta",
+        "descending_thoracic_aorta -> aortic_arch",
+        "L.internal_carotid -> L.ACA_source"
+      ],
+      "status": "INCOMPLETE",
+      "complete_ordered_route": "NOT PROVEN",
+      "distal_segment_coverage": "NOT ASSESSED"
+    },
+    {
+      "femoral_side": "L",
+      "carotid_side": "L",
+      "target": "MCA_sphenoid_source",
+      "role_chain": [
+        "L.femoral",
+        "L.external_iliac",
+        "L.common_iliac",
+        "abdominal_aorta",
+        "descending_thoracic_aorta",
+        "aortic_arch",
+        "L.common_carotid",
+        "L.internal_carotid",
+        "L.MCA_sphenoid_source"
+      ],
+      "leg_ids": [
+        "L.femoral -> L.external_iliac",
+        "L.external_iliac -> L.common_iliac",
+        "L.common_iliac -> abdominal_aorta",
+        "abdominal_aorta -> descending_thoracic_aorta",
+        "descending_thoracic_aorta -> aortic_arch",
+        "aortic_arch -> L.common_carotid",
+        "L.common_carotid -> L.internal_carotid",
+        "L.internal_carotid -> L.MCA_sphenoid_source"
+      ],
+      "missing_leg_ids": [
+        "L.common_iliac -> abdominal_aorta",
+        "abdominal_aorta -> descending_thoracic_aorta",
+        "descending_thoracic_aorta -> aortic_arch",
+        "L.internal_carotid -> L.MCA_sphenoid_source"
+      ],
+      "status": "INCOMPLETE",
+      "complete_ordered_route": "NOT PROVEN",
+      "distal_segment_coverage": "NOT ASSESSED"
+    },
+    {
+      "femoral_side": "L",
+      "carotid_side": "R",
+      "target": "ACA_source",
+      "role_chain": [
+        "L.femoral",
+        "L.external_iliac",
+        "L.common_iliac",
+        "abdominal_aorta",
+        "descending_thoracic_aorta",
+        "aortic_arch",
+        "brachiocephalic",
+        "R.common_carotid",
+        "R.internal_carotid",
+        "R.ACA_source"
+      ],
+      "leg_ids": [
+        "L.femoral -> L.external_iliac",
+        "L.external_iliac -> L.common_iliac",
+        "L.common_iliac -> abdominal_aorta",
+        "abdominal_aorta -> descending_thoracic_aorta",
+        "descending_thoracic_aorta -> aortic_arch",
+        "aortic_arch -> brachiocephalic",
+        "brachiocephalic -> R.common_carotid",
+        "R.common_carotid -> R.internal_carotid",
+        "R.internal_carotid -> R.ACA_source"
+      ],
+      "missing_leg_ids": [
+        "L.common_iliac -> abdominal_aorta",
+        "abdominal_aorta -> descending_thoracic_aorta",
+        "descending_thoracic_aorta -> aortic_arch",
+        "aortic_arch -> brachiocephalic",
+        "brachiocephalic -> R.common_carotid",
+        "R.internal_carotid -> R.ACA_source"
+      ],
+      "status": "INCOMPLETE",
+      "complete_ordered_route": "NOT PROVEN",
+      "distal_segment_coverage": "NOT ASSESSED"
+    },
+    {
+      "femoral_side": "L",
+      "carotid_side": "R",
+      "target": "MCA_sphenoid_source",
+      "role_chain": [
+        "L.femoral",
+        "L.external_iliac",
+        "L.common_iliac",
+        "abdominal_aorta",
+        "descending_thoracic_aorta",
+        "aortic_arch",
+        "brachiocephalic",
+        "R.common_carotid",
+        "R.internal_carotid",
+        "R.MCA_sphenoid_source"
+      ],
+      "leg_ids": [
+        "L.femoral -> L.external_iliac",
+        "L.external_iliac -> L.common_iliac",
+        "L.common_iliac -> abdominal_aorta",
+        "abdominal_aorta -> descending_thoracic_aorta",
+        "descending_thoracic_aorta -> aortic_arch",
+        "aortic_arch -> brachiocephalic",
+        "brachiocephalic -> R.common_carotid",
+        "R.common_carotid -> R.internal_carotid",
+        "R.internal_carotid -> R.MCA_sphenoid_source"
+      ],
+      "missing_leg_ids": [
+        "L.common_iliac -> abdominal_aorta",
+        "abdominal_aorta -> descending_thoracic_aorta",
+        "descending_thoracic_aorta -> aortic_arch",
+        "aortic_arch -> brachiocephalic",
+        "brachiocephalic -> R.common_carotid",
+        "R.internal_carotid -> R.MCA_sphenoid_source"
+      ],
+      "status": "INCOMPLETE",
+      "complete_ordered_route": "NOT PROVEN",
+      "distal_segment_coverage": "NOT ASSESSED"
+    },
+    {
+      "femoral_side": "R",
+      "carotid_side": "L",
+      "target": "ACA_source",
+      "role_chain": [
+        "R.femoral",
+        "R.external_iliac",
+        "R.common_iliac",
+        "abdominal_aorta",
+        "descending_thoracic_aorta",
+        "aortic_arch",
+        "L.common_carotid",
+        "L.internal_carotid",
+        "L.ACA_source"
+      ],
+      "leg_ids": [
+        "R.femoral -> R.external_iliac",
+        "R.external_iliac -> R.common_iliac",
+        "R.common_iliac -> abdominal_aorta",
+        "abdominal_aorta -> descending_thoracic_aorta",
+        "descending_thoracic_aorta -> aortic_arch",
+        "aortic_arch -> L.common_carotid",
+        "L.common_carotid -> L.internal_carotid",
+        "L.internal_carotid -> L.ACA_source"
+      ],
+      "missing_leg_ids": [
+        "R.common_iliac -> abdominal_aorta",
+        "abdominal_aorta -> descending_thoracic_aorta",
+        "descending_thoracic_aorta -> aortic_arch",
+        "L.internal_carotid -> L.ACA_source"
+      ],
+      "status": "INCOMPLETE",
+      "complete_ordered_route": "NOT PROVEN",
+      "distal_segment_coverage": "NOT ASSESSED"
+    },
+    {
+      "femoral_side": "R",
+      "carotid_side": "L",
+      "target": "MCA_sphenoid_source",
+      "role_chain": [
+        "R.femoral",
+        "R.external_iliac",
+        "R.common_iliac",
+        "abdominal_aorta",
+        "descending_thoracic_aorta",
+        "aortic_arch",
+        "L.common_carotid",
+        "L.internal_carotid",
+        "L.MCA_sphenoid_source"
+      ],
+      "leg_ids": [
+        "R.femoral -> R.external_iliac",
+        "R.external_iliac -> R.common_iliac",
+        "R.common_iliac -> abdominal_aorta",
+        "abdominal_aorta -> descending_thoracic_aorta",
+        "descending_thoracic_aorta -> aortic_arch",
+        "aortic_arch -> L.common_carotid",
+        "L.common_carotid -> L.internal_carotid",
+        "L.internal_carotid -> L.MCA_sphenoid_source"
+      ],
+      "missing_leg_ids": [
+        "R.common_iliac -> abdominal_aorta",
+        "abdominal_aorta -> descending_thoracic_aorta",
+        "descending_thoracic_aorta -> aortic_arch",
+        "L.internal_carotid -> L.MCA_sphenoid_source"
+      ],
+      "status": "INCOMPLETE",
+      "complete_ordered_route": "NOT PROVEN",
+      "distal_segment_coverage": "NOT ASSESSED"
+    },
+    {
+      "femoral_side": "R",
+      "carotid_side": "R",
+      "target": "ACA_source",
+      "role_chain": [
+        "R.femoral",
+        "R.external_iliac",
+        "R.common_iliac",
+        "abdominal_aorta",
+        "descending_thoracic_aorta",
+        "aortic_arch",
+        "brachiocephalic",
+        "R.common_carotid",
+        "R.internal_carotid",
+        "R.ACA_source"
+      ],
+      "leg_ids": [
+        "R.femoral -> R.external_iliac",
+        "R.external_iliac -> R.common_iliac",
+        "R.common_iliac -> abdominal_aorta",
+        "abdominal_aorta -> descending_thoracic_aorta",
+        "descending_thoracic_aorta -> aortic_arch",
+        "aortic_arch -> brachiocephalic",
+        "brachiocephalic -> R.common_carotid",
+        "R.common_carotid -> R.internal_carotid",
+        "R.internal_carotid -> R.ACA_source"
+      ],
+      "missing_leg_ids": [
+        "R.common_iliac -> abdominal_aorta",
+        "abdominal_aorta -> descending_thoracic_aorta",
+        "descending_thoracic_aorta -> aortic_arch",
+        "aortic_arch -> brachiocephalic",
+        "brachiocephalic -> R.common_carotid",
+        "R.internal_carotid -> R.ACA_source"
+      ],
+      "status": "INCOMPLETE",
+      "complete_ordered_route": "NOT PROVEN",
+      "distal_segment_coverage": "NOT ASSESSED"
+    },
+    {
+      "femoral_side": "R",
+      "carotid_side": "R",
+      "target": "MCA_sphenoid_source",
+      "role_chain": [
+        "R.femoral",
+        "R.external_iliac",
+        "R.common_iliac",
+        "abdominal_aorta",
+        "descending_thoracic_aorta",
+        "aortic_arch",
+        "brachiocephalic",
+        "R.common_carotid",
+        "R.internal_carotid",
+        "R.MCA_sphenoid_source"
+      ],
+      "leg_ids": [
+        "R.femoral -> R.external_iliac",
+        "R.external_iliac -> R.common_iliac",
+        "R.common_iliac -> abdominal_aorta",
+        "abdominal_aorta -> descending_thoracic_aorta",
+        "descending_thoracic_aorta -> aortic_arch",
+        "aortic_arch -> brachiocephalic",
+        "brachiocephalic -> R.common_carotid",
+        "R.common_carotid -> R.internal_carotid",
+        "R.internal_carotid -> R.MCA_sphenoid_source"
+      ],
+      "missing_leg_ids": [
+        "R.common_iliac -> abdominal_aorta",
+        "abdominal_aorta -> descending_thoracic_aorta",
+        "descending_thoracic_aorta -> aortic_arch",
+        "aortic_arch -> brachiocephalic",
+        "brachiocephalic -> R.common_carotid",
+        "R.internal_carotid -> R.MCA_sphenoid_source"
+      ],
+      "status": "INCOMPLETE",
+      "complete_ordered_route": "NOT PROVEN",
+      "distal_segment_coverage": "NOT ASSESSED"
+    }
+  ],
+  "inputs_unchanged": true,
+  "source_modified": false,
+  "anatomical_acceptance": "UNKNOWN",
+  "scope": "Four access combinations, each to proximal ACA and named sphenoidal MCA source elements. Not A1-A3/M1-M3 completion.",
+  "limitation": "Pairwise leg connectivity does not prove a single ordered non-retracing route; multi-edge role internal completeness is not asserted."
+}

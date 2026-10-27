@@ -1,0 +1,19 @@
+{
+  "scope": "four source parts only; no anatomical route or segment approval",
+  "status": "PASS",
+  "source_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "preview_sha256": "1f099284deca459fcf34850d2c84223e98f78d6f576d9faa72aa0ee66a0cc8f9",
+  "case_sha256": "8688b020bbebb0eed1e89f46f92ae0cd579ff5fbc0cb2856c3c52065f54b3920",
+  "parts": [
+    "FJ1654",
+    "FJ1654M",
+    "FJ1692",
+    "FJ1692M"
+  ],
+  "node_count": 8,
+  "edge_count": 4,
+  "unresolved_edge_count": 4,
+  "candidate_links_not_traversable": 40,
+  "missing_path_parts": [],
+  "input_bytes_unchanged": true
+}

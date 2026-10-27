@@ -1,0 +1,495 @@
+{
+  "status": "FAIL",
+  "source_report_sha256": "de5fb9c7194c0b6c8a50a9ac5db791e1f423d6143b58df8079c377a45eb230b5",
+  "graph_revision": "55225c191c26dac632355661c941e338941964d3e043d07618c07f3d0c4cd2e0",
+  "surface_sha256": "bad61c62ca40b1aade54c6e52e3ded05829240b23f6dbd915991d8688ae313d9",
+  "sides": 32,
+  "rows": [
+    {
+      "collar_mm": 5,
+      "artifact": "exports/access-collar-candidates/collar-5mm-radius-wall.npz",
+      "artifact_sha256": "a8cc55975b836c507721fbde5f4d028981e8d43fc5df4372bec5caa68bf964c6",
+      "status": "FAIL",
+      "method": "sampled-wall-vertices/1",
+      "vertices": 4128,
+      "outside_count": 690,
+      "boundary_count": 0,
+      "witnesses": [
+        {
+          "vertex_index": 1,
+          "position_mm": [
+            -9.459373299380387,
+            -105.02935685078548,
+            1330.5417924061571
+          ],
+          "distance_mm": 0.09899193935579394
+        },
+        {
+          "vertex_index": 2,
+          "position_mm": [
+            -10.016919830178653,
+            -105.34637424032005,
+            1329.6448602697003
+          ],
+          "distance_mm": 0.06967937738860713
+        },
+        {
+          "vertex_index": 3,
+          "position_mm": [
+            -10.557782453926709,
+            -105.86118254628065,
+            1328.8335123498605
+          ],
+          "distance_mm": 0.29601989291397446
+        },
+        {
+          "vertex_index": 4,
+          "position_mm": [
+            -11.061176123313171,
+            -106.55399797417705,
+            1328.1389282921884
+          ],
+          "distance_mm": 0.3890257878154757
+        },
+        {
+          "vertex_index": 5,
+          "position_mm": [
+            -11.50775570192994,
+            -107.39819601565057,
+            1327.5878005724933
+          ],
+          "distance_mm": 0.38526471562442144
+        },
+        {
+          "vertex_index": 6,
+          "position_mm": [
+            -11.880359387015483,
+            -108.36133461339908,
+            1327.2013087199666
+          ],
+          "distance_mm": 0.1969044606193272
+        },
+        {
+          "vertex_index": 7,
+          "position_mm": [
+            -12.164668227910521,
+            -109.40640089124545,
+            1326.994305399754
+          ],
+          "distance_mm": 0.09113707192823589
+        },
+        {
+          "vertex_index": 8,
+          "position_mm": [
+            -12.34975639530169,
+            -110.49323353821198,
+            1326.9747456333625
+          ],
+          "distance_mm": 0.0981054557876534
+        },
+        {
+          "vertex_index": 12,
+          "position_mm": [
+            -12.017477030875883,
+            -114.43246910224691,
+            1328.6792545962155
+          ],
+          "distance_mm": 0.02724162577084895
+        },
+        {
+          "vertex_index": 13,
+          "position_mm": [
+            -11.682273359701192,
+            -115.12528453014332,
+            1329.4688688681113
+          ],
+          "distance_mm": 0.053744977683666165
+        },
+        {
+          "vertex_index": 22,
+          "position_mm": [
+            -7.285192450238983,
+            -112.6251324630249,
+            1336.5425083877608
+          ],
+          "distance_mm": 0.16577558717025062
+        },
+        {
+          "vertex_index": 23,
+          "position_mm": [
+            -7.000883609343946,
+            -111.58006618517851,
+            1336.7495117079734
+          ],
+          "distance_mm": 0.3352439560201728
+        },
+        {
+          "vertex_index": 24,
+          "position_mm": [
+            -6.815795441952776,
+            -110.49323353821198,
+            1336.7690714743649
+          ],
+          "distance_mm": 0.3009248220919516
+        },
+        {
+          "vertex_index": 25,
+          "position_mm": [
+            -6.737040782539678,
+            -109.40640089124545,
+            1336.600436016082
+          ],
+          "distance_mm": 0.559227888798538
+        },
+        {
+          "vertex_index": 26,
+          "position_mm": [
+            -6.767646128499774,
+            -108.36133461339907,
+            1336.250085899215
+          ],
+          "distance_mm": 0.528588447718684
+        },
+        {
+          "vertex_index": 27,
+          "position_mm": [
+            -6.906435333551494,
+            -107.39819601565057,
+            1335.7314848822764
+          ],
+          "distance_mm": 0.4314485180995546
+        }
+      ],
+      "tolerance_mm": 1e-06,
+      "whole_wall_containment": "NOT RUN",
+      "surface_self_contact": "NOT RUN",
+      "vertex_inspection": "COMPLETE",
+      "reason": "Outside wall vertices"
+    },
+    {
+      "collar_mm": 10,
+      "artifact": "exports/access-collar-candidates/collar-10mm-radius-wall.npz",
+      "artifact_sha256": "ba9cebe6d41d1f4b9391330a0666ad8efc894a47d5b189ac1a923385495091f7",
+      "status": "FAIL",
+      "method": "sampled-wall-vertices/1",
+      "vertices": 4128,
+      "outside_count": 1768,
+      "boundary_count": 0,
+      "witnesses": [
+        {
+          "vertex_index": 2,
+          "position_mm": [
+            -5.021726754208895,
+            -106.60724741807266,
+            1326.950309368152
+          ],
+          "distance_mm": 0.05094752296096328
+        },
+        {
+          "vertex_index": 3,
+          "position_mm": [
+            -5.645672401572632,
+            -107.10567380923082,
+            1326.1815916938083
+          ],
+          "distance_mm": 0.01749716612212806
+        },
+        {
+          "vertex_index": 4,
+          "position_mm": [
+            -6.256336037206774,
+            -107.77644288864721,
+            1325.54454957014
+          ],
+          "distance_mm": 0.09365062569465969
+        },
+        {
+          "vertex_index": 5,
+          "position_mm": [
+            -6.830250200058013,
+            -108.59377737677147,
+            1325.0636641687015
+          ],
+          "distance_mm": 0.10174053145110286
+        },
+        {
+          "vertex_index": 12,
+          "position_mm": [
+            -8.336024386889973,
+            -115.40421013082556,
+            1326.742861916018
+          ],
+          "distance_mm": 0.0814691848848798
+        },
+        {
+          "vertex_index": 13,
+          "position_mm": [
+            -8.091127192600885,
+            -116.07497921024195,
+            1327.5906579454045
+          ],
+          "distance_mm": 0.10309314404422835
+        },
+        {
+          "vertex_index": 14,
+          "position_mm": [
+            -7.7389705303898335,
+            -116.57340560140011,
+            1328.5159798996303
+          ],
+          "distance_mm": 0.009722520266407405
+        },
+        {
+          "vertex_index": 21,
+          "position_mm": [
+            -3.7698530961423176,
+            -114.5868756427013,
+            1334.1523671104383
+          ],
+          "distance_mm": 0.10510306392584112
+        },
+        {
+          "vertex_index": 22,
+          "position_mm": [
+            -3.2547436054975862,
+            -113.65438545188131,
+            1334.4586156333528
+          ],
+          "distance_mm": 0.21036759393504798
+        },
+        {
+          "vertex_index": 23,
+          "position_mm": [
+            -2.8182341559081046,
+            -112.64257463345227,
+            1334.5784583187542
+          ],
+          "distance_mm": 0.31653284307050045
+        },
+        {
+          "vertex_index": 24,
+          "position_mm": [
+            -2.47709956072428,
+            -111.59032650973639,
+            1334.5072896794509
+          ],
+          "distance_mm": 0.4197014637725236
+        },
+        {
+          "vertex_index": 25,
+          "position_mm": [
+            -2.244449431128541,
+            -110.5380783860205,
+            1334.2478446863392
+          ],
+          "distance_mm": 0.5680453608695686
+        },
+        {
+          "vertex_index": 26,
+          "position_mm": [
+            -2.1292243811295566,
+            -109.52626756759146,
+            1333.8100936650067
+          ],
+          "distance_mm": 0.4693361418427425
+        },
+        {
+          "vertex_index": 27,
+          "position_mm": [
+            -2.1358524447798355,
+            -108.59377737677147,
+            1333.2108591417089
+          ],
+          "distance_mm": 0.1946970373368351
+        },
+        {
+          "vertex_index": 28,
+          "position_mm": [
+            -2.2640789093103577,
+            -107.77644288864721,
+            1332.4731693631218
+          ],
+          "distance_mm": 0.20651144325193352
+        },
+        {
+          "vertex_index": 29,
+          "position_mm": [
+            -2.5089761035994456,
+            -107.10567380923082,
+            1331.6253733337353
+          ],
+          "distance_mm": 0.003579060060001836
+        }
+      ],
+      "tolerance_mm": 1e-06,
+      "whole_wall_containment": "NOT RUN",
+      "surface_self_contact": "NOT RUN",
+      "vertex_inspection": "COMPLETE",
+      "reason": "Outside wall vertices"
+    },
+    {
+      "collar_mm": 20,
+      "artifact": "exports/access-collar-candidates/collar-20mm-radius-wall.npz",
+      "artifact_sha256": "d1988a0b9affbb8da6b069adcc17e6f472c88c5ae46fa5cc338c303d9b5c1f5a",
+      "status": "FAIL",
+      "method": "sampled-wall-vertices/1",
+      "vertices": 4128,
+      "outside_count": 2053,
+      "boundary_count": 0,
+      "witnesses": [
+        {
+          "vertex_index": 23,
+          "position_mm": [
+            5.995601594689237,
+            -114.14737040722682,
+            1329.6340687762302
+          ],
+          "distance_mm": 0.13951956883402264
+        },
+        {
+          "vertex_index": 24,
+          "position_mm": [
+            6.299706286933134,
+            -113.12965506655829,
+            1329.5546175838151
+          ],
+          "distance_mm": 0.34855769438147927
+        },
+        {
+          "vertex_index": 25,
+          "position_mm": [
+            6.486921685680716,
+            -112.11193972588975,
+            1329.3021447134058
+          ],
+          "distance_mm": 0.3498334078269713
+        },
+        {
+          "vertex_index": 26,
+          "position_mm": [
+            6.550053208149725,
+            -111.1333346150218,
+            1328.8863525558236
+          ],
+          "distance_mm": 0.15995106082407404
+        },
+        {
+          "vertex_index": 28,
+          "position_mm": [
+            6.2992218960231305,
+            -109.44093585554177,
+            1327.6343872345828
+          ],
+          "distance_mm": 0.1026267360556057
+        },
+        {
+          "vertex_index": 29,
+          "position_mm": [
+            5.99489836808473,
+            -108.79218014214838,
+            1326.8463263961094
+          ],
+          "distance_mm": 0.10596220969770129
+        },
+        {
+          "vertex_index": 55,
+          "position_mm": [
+            5.788175974067665,
+            -114.0743363719581,
+            1329.7612804966652
+          ],
+          "distance_mm": 0.12627644263807977
+        },
+        {
+          "vertex_index": 56,
+          "position_mm": [
+            6.088687486334887,
+            -113.05761701454492,
+            1329.6840167138914
+          ],
+          "distance_mm": 0.33486373714413664
+        },
+        {
+          "vertex_index": 57,
+          "position_mm": [
+            6.272107608952091,
+            -112.04074413791284,
+            1329.43437351999
+          ],
+          "distance_mm": 0.3360995330600558
+        },
+        {
+          "vertex_index": 58,
+          "position_mm": [
+            6.331387609470287,
+            -111.06279559644196,
+            1329.0219445629004
+          ],
+          "distance_mm": 0.1839657900898764
+        },
+        {
+          "vertex_index": 60,
+          "position_mm": [
+            6.073273036778987,
+            -109.37105947892586,
+            1327.7777736947855
+          ],
+          "distance_mm": 0.12625807295403974
+        },
+        {
+          "vertex_index": 61,
+          "position_mm": [
+            5.7657976618456965,
+            -108.72228437314025,
+            1326.9938445724824
+          ],
+          "distance_mm": 0.1301780417840204
+        },
+        {
+          "vertex_index": 68,
+          "position_mm": [
+            1.5117903137355655,
+            -109.28527435374164,
+            1321.616170981521
+          ],
+          "distance_mm": 0.020710776058099394
+        },
+        {
+          "vertex_index": 87,
+          "position_mm": [
+            5.595028204598176,
+            -114.00806765861208,
+            1329.880346101563
+          ],
+          "distance_mm": 0.11427481389343988
+        },
+        {
+          "vertex_index": 88,
+          "position_mm": [
+            5.8890406998623135,
+            -112.99136774984615,
+            1329.8072928433116
+          ],
+          "distance_mm": 0.3224149866728528
+        },
+        {
+          "vertex_index": 89,
+          "position_mm": [
+            6.065328377661553,
+            -111.9742124493725,
+            1329.562800349006
+          ],
+          "distance_mm": 0.32361351470303246
+        }
+      ],
+      "tolerance_mm": 1e-06,
+      "whole_wall_containment": "NOT RUN",
+      "surface_self_contact": "NOT RUN",
+      "vertex_inspection": "COMPLETE",
+      "reason": "Outside wall vertices"
+    }
+  ],
+  "source_modified": false,
+  "live_scene_changed": false,
+  "inspection_status": "COMPLETE"
+}

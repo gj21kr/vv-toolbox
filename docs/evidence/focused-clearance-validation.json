@@ -1,0 +1,10 @@
+{
+  "schema": "vv-toolbox.validation/1",
+  "date": "2026-10-20",
+  "environment": "Docker vv-annotation-ui",
+  "command": "PYTHONPATH=src pytest -q -p no:cacheprovider tests/test_geometry_quality.py tests/test_case_surface.py tests/test_junction_continuity.py",
+  "passed": 40,
+  "warnings": 51,
+  "seconds": 1.39,
+  "scope": "Focused edge selection preserves surrounding obstacles and reports excluded old-old pairs; default full-pair behavior, surface and continuity regressions"
+}

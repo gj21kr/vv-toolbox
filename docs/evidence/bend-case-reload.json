@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "revision": "4ffe329b1d12886832348f16e3110988cdc7afe35ceb6448a95ee23c081d176a",
+  "graph_revision": "3235bfc27f583b0b1592607c22d7d67fa3545cd77459a5a549cd80533ef3fac6",
+  "file_sha256": "fdce60bdc6a078f557f79995c37fbfbb5b2e8c05a71c0132578b9bf46845be16",
+  "vertices": 25094,
+  "faces": 50188,
+  "edges": 65,
+  "context_rows": 788,
+  "context_status": "FAIL",
+  "scope": "Downloaded geometry, changed graph and full failed inspection exact roundtrip; not anatomy acceptance"
+}

@@ -1,0 +1,45 @@
+{
+  "source_case_revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+  "rows": [
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "union_file_sha256": "404b9b86c511fd0d0904ef63f46ac20701ec545d531ab3191a5b4857ce8431d7",
+      "bridge_file_sha256": "28406e00a655cbeae78ab2b57c87e6180203cc575089fca609b75a1b9beac30f",
+      "vertices": 12384,
+      "face_centers": 24764,
+      "samples": 37148,
+      "maximum_distance_mm": 2.172497631919348e-11,
+      "mean_distance_mm": 3.045346813616749e-14,
+      "p99_distance_mm": 2.2958338407482174e-13,
+      "samples_over_1e_minus6_mm": 0,
+      "worst_position_mm": [
+        34.92865938582376,
+        -103.72510024236725,
+        1430.270769311588
+      ]
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "union_file_sha256": "626742a716bc38a5e8f83e2eba5c1d63bcc0933f8d8f368725d149687bcd0ee0",
+      "bridge_file_sha256": "cb472598fde0a167ef445360918ace20fdf7fadd2ff4d1cb95ed8333cfc0543d",
+      "vertices": 15908,
+      "face_centers": 31812,
+      "samples": 47720,
+      "maximum_distance_mm": 4.128889948833304e-10,
+      "mean_distance_mm": 1.5159089193098495e-13,
+      "p99_distance_mm": 2.3437142008433856e-13,
+      "samples_over_1e_minus6_mm": 0,
+      "worst_position_mm": [
+        -28.583497679121464,
+        -109.95033734088965,
+        1409.4266657973997
+      ]
+    }
+  ],
+  "scope": "All output vertices and triangle centers to source and open bridge surfaces",
+  "reverse_distance": "NOT RUN",
+  "continuous_surface_bound": "NOT RUN",
+  "exposed_cap_area": "NOT RUN",
+  "anatomical_validation": "NOT RUN",
+  "live_scene_changed": false
+}

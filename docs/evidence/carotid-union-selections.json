@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "union_sha256": "404b9b86c511fd0d0904ef63f46ac20701ec545d531ab3191a5b4857ce8431d7",
+      "faces": 24764,
+      "selections": [
+        {
+          "source_name": "FJ1682M",
+          "faces": 1318,
+          "vertices": 721,
+          "exclusive_vertices": 599,
+          "shared_vertices": 122
+        },
+        {
+          "source_name": "FJ3483",
+          "faces": 266,
+          "vertices": 195,
+          "exclusive_vertices": 73,
+          "shared_vertices": 122
+        },
+        {
+          "source_name": "estimated_left_carotid_neck",
+          "faces": 23180,
+          "vertices": 11712,
+          "exclusive_vertices": 11468,
+          "shared_vertices": 244
+        }
+      ]
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "union_sha256": "626742a716bc38a5e8f83e2eba5c1d63bcc0933f8d8f368725d149687bcd0ee0",
+      "faces": 31812,
+      "selections": [
+        {
+          "source_name": "FJ1682",
+          "faces": 1352,
+          "vertices": 755,
+          "exclusive_vertices": 599,
+          "shared_vertices": 156
+        },
+        {
+          "source_name": "FJ3564",
+          "faces": 820,
+          "vertices": 489,
+          "exclusive_vertices": 333,
+          "shared_vertices": 156
+        },
+        {
+          "source_name": "estimated_right_carotid_neck",
+          "faces": 29640,
+          "vertices": 14976,
+          "exclusive_vertices": 14664,
+          "shared_vertices": 312
+        }
+      ]
+    }
+  ],
+  "scope": "Complete source face partition and shared vertex classification",
+  "geometry_changed": false,
+  "interactive_selection": "NOT RUN",
+  "modification": "NOT RUN"
+}

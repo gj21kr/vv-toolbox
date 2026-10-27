@@ -1,0 +1,224 @@
+{
+  "case_revision": "90aa67f11b698178168d7491e1da7d23bd621f252dfea6dd47029af93b9a9da4",
+  "varied_axis": "radial",
+  "candidates": [
+    {
+      "samples": 8,
+      "artifact_sha256": "cd83cdceb58b76019d61993107c069ff270f7927c65b084ce567de6a9031634a",
+      "total_volume_mm3": 308.43935181743046,
+      "transition_area_mm2": 13.1088327958741,
+      "absolute_angle_length_per_area_per_mm": 2.9980354198636747,
+      "crease_screen": "PASS",
+      "angles": {
+        "neck": {
+          "count": 125,
+          "maximum_deg": 29.066795722332433,
+          "p95_deg": 26.299944782031435,
+          "above_90_deg": 0,
+          "worst_edge_vertex_ids": [
+            26625,
+            26626
+          ],
+          "worst_face_ids": [
+            51536,
+            52399
+          ]
+        },
+        "outer_join": {
+          "count": 185,
+          "maximum_deg": 33.664533425037625,
+          "p95_deg": 23.034152690025916,
+          "above_90_deg": 0,
+          "worst_edge_vertex_ids": [
+            21536,
+            21537
+          ],
+          "worst_face_ids": [
+            42855,
+            52219
+          ]
+        },
+        "transition_interior": {
+          "count": 2355,
+          "maximum_deg": 51.04826357831475,
+          "p95_deg": 23.686307321514406,
+          "above_90_deg": 0,
+          "worst_edge_vertex_ids": [
+            27293,
+            27294
+          ],
+          "worst_face_ids": [
+            52934,
+            53012
+          ]
+        }
+      }
+    },
+    {
+      "samples": 16,
+      "artifact_sha256": "96c7f4d99504edaa6f8614336feb3f11b50d841caa8f11b90c04115d40b8400a",
+      "total_volume_mm3": 308.43048023087005,
+      "transition_area_mm2": 13.116213909850748,
+      "absolute_angle_length_per_area_per_mm": 3.0297301021035428,
+      "crease_screen": "PASS",
+      "angles": {
+        "neck": {
+          "count": 125,
+          "maximum_deg": 13.827199187365366,
+          "p95_deg": 12.934045717201398,
+          "above_90_deg": 0,
+          "worst_edge_vertex_ids": [
+            26625,
+            26626
+          ],
+          "worst_face_ids": [
+            51536,
+            53039
+          ]
+        },
+        "outer_join": {
+          "count": 185,
+          "maximum_deg": 33.664533425037625,
+          "p95_deg": 23.034152690025916,
+          "above_90_deg": 0,
+          "worst_edge_vertex_ids": [
+            21536,
+            21537
+          ],
+          "worst_face_ids": [
+            42855,
+            52859
+          ]
+        },
+        "transition_interior": {
+          "count": 4275,
+          "maximum_deg": 51.06184009812892,
+          "p95_deg": 16.595565902715222,
+          "above_90_deg": 0,
+          "worst_edge_vertex_ids": [
+            27267,
+            27268
+          ],
+          "worst_face_ids": [
+            52659,
+            52794
+          ]
+        }
+      }
+    },
+    {
+      "samples": 32,
+      "artifact_sha256": "2d4f8dd4d1e080241705f08889826942d4acd3e84aed3f5210e25f1e9bf2747b",
+      "total_volume_mm3": 308.428236420062,
+      "transition_area_mm2": 13.118225364465426,
+      "absolute_angle_length_per_area_per_mm": 3.2138556661918267,
+      "crease_screen": "PASS",
+      "angles": {
+        "neck": {
+          "count": 125,
+          "maximum_deg": 14.41911164040191,
+          "p95_deg": 6.617651337552387,
+          "above_90_deg": 0,
+          "worst_edge_vertex_ids": [
+            26566,
+            26690
+          ],
+          "worst_face_ids": [
+            51632,
+            54415
+          ]
+        },
+        "outer_join": {
+          "count": 185,
+          "maximum_deg": 33.664533425037625,
+          "p95_deg": 23.034152690025916,
+          "above_90_deg": 0,
+          "worst_edge_vertex_ids": [
+            21536,
+            21537
+          ],
+          "worst_face_ids": [
+            42855,
+            54139
+          ]
+        },
+        "transition_interior": {
+          "count": 8115,
+          "maximum_deg": 51.44390658691109,
+          "p95_deg": 13.799813624730664,
+          "above_90_deg": 0,
+          "worst_edge_vertex_ids": [
+            27907,
+            27908
+          ],
+          "worst_face_ids": [
+            53939,
+            54074
+          ]
+        }
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "resolutions": [
+        8,
+        16
+      ],
+      "directed_distances": [
+        {
+          "from_samples": 8,
+          "to_samples": 16,
+          "sample_count": 2665,
+          "maximum_mm": 0.007123279114487991,
+          "p95_mm": 0.0043769151765901595,
+          "mean_mm": 0.0011796424679303354
+        },
+        {
+          "from_samples": 16,
+          "to_samples": 8,
+          "sample_count": 4585,
+          "maximum_mm": 0.008487342991161315,
+          "p95_mm": 0.004814964607597866,
+          "mean_mm": 0.0013654094570898264
+        }
+      ],
+      "symmetric_sampled_maximum_mm": 0.008487342991161315
+    },
+    {
+      "resolutions": [
+        16,
+        32
+      ],
+      "directed_distances": [
+        {
+          "from_samples": 16,
+          "to_samples": 32,
+          "sample_count": 4585,
+          "maximum_mm": 0.0025087399088933237,
+          "p95_mm": 0.0011616668384876586,
+          "mean_mm": 0.0003291766829237591
+        },
+        {
+          "from_samples": 32,
+          "to_samples": 16,
+          "sample_count": 8425,
+          "maximum_mm": 0.002348117386629324,
+          "p95_mm": 0.0012689679697371543,
+          "mean_mm": 0.0003776698409115676
+        }
+      ],
+      "symmetric_sampled_maximum_mm": 0.0025087399088933237
+    }
+  ],
+  "status": "MEASURED",
+  "smoothness_convergence": "UNKNOWN",
+  "limitations": [
+    "Only radial sampling varies; the other sampling axis stays fixed.",
+    "Vertex and centroid distances are not continuous Hausdorff bounds.",
+    "Angle-length density depends on topology and excludes outer joins.",
+    "No acceptance threshold fitted to these results."
+  ],
+  "inputs_unchanged": true,
+  "app_applied": false
+}

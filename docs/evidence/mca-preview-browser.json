@@ -1,0 +1,29 @@
+{
+  "scope": "MCA candidate presentation and surface/centerline browser toggle",
+  "browser": "Shiplight headless Chromium, 1500x1000, software WebGL",
+  "session": "2026-10-20-07-02-12-c5c1",
+  "findings_fixed": [
+    "Candidate heading hard-coded to iliac title",
+    "Candidate selection did not reflect loaded candidate",
+    "Candidate view lacked a visible surface/centerline toggle",
+    "State API omitted access, target and mode needed by view requests"
+  ],
+  "checks": {
+    "mca_surface_visible": "PASS",
+    "title_and_selected_option_match_mca": "PASS",
+    "context_review_status_visible": "PASS",
+    "centerline_button_click_and_render": "PASS",
+    "return_to_surface_button_click_and_render": "PASS",
+    "atlas_return_browser_click_this_run": "NOT RUN",
+    "candidate_open_click_tool": "UNKNOWN",
+    "candidate_open_click_note": "Tool timed out while clicking; subsequent DOM and API showed MCA candidate. Not counted as successful automated action.",
+    "gpu_performance": "NOT RUN",
+    "geometry_smoothness_acceptance": "UNKNOWN"
+  },
+  "python_regression": {"passed": 12, "seconds": 1.62},
+  "screenshots": [
+    {"path": "exports/mca-preview-browser/centerline.png", "sha256": "6010fd077cce8899687cf034483f651384201137e55d3e6dbaff4607eed3d13d"},
+    {"path": "exports/mca-preview-browser/surface.png", "sha256": "1a691228847245125e17332fbddf787b13be1e529e7b00b5a0464439176b5c12"}
+  ],
+  "limitation": "Surface remains visibly irregular. Browser display is not anatomical or geometric acceptance. Screenshots contain inspection overlays."
+}

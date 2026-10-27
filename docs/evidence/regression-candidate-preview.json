@@ -1,0 +1,18 @@
+{
+  "scope": "Full Python regression after candidate preview app integration",
+  "environment": "Docker vv-annotation-ui, PYTHONPATH=src",
+  "command": "python -m pytest -q -p no:cacheprovider --junitxml=exports/regression-candidate-preview.xml",
+  "passed": 581,
+  "skipped": 3,
+  "warnings": 319,
+  "duration_seconds": 51.75,
+  "junit_sha256": "b79a5cfc2d3176466e3842712c3d1c97e308bbb71d2a37d49d2a776e45dfc389",
+  "skipped_reason": "Node-based relationship UI tests require Node unavailable in this container",
+  "warnings_reason": "scikit-image marching cubes NumPy shape assignment deprecation",
+  "focused_candidate_and_edit_session_tests_passed": 26,
+  "ui_javascript_syntax": "PASS (host Node vm.Script)",
+  "browser_evidence": "docs/evidence/candidate-preview-browser.json",
+  "anatomical_acceptance": "UNKNOWN",
+  "whole_atlas_collision": "NOT RUN",
+  "gpu_performance": "NOT RUN"
+}

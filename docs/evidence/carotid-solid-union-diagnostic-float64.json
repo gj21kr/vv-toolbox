@@ -1,0 +1,492 @@
+{
+  "source_case_revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+  "rows": [
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "status": "CANDIDATE",
+      "method": "manifold-solid-union/1",
+      "manifold_version": "3.5.4",
+      "trimesh_version": "5.1.1",
+      "input_surfaces": {
+        "FJ1682M": {
+          "geometry_sha256": "0f357b52c5515bfe1a49e5e13539dd5cde86ffef283dbcfe22daf7a609a5c80f",
+          "indexing": {
+            "method": "exact-coordinate-index-copy/1",
+            "coordinate_tolerance_mm": 0,
+            "original_vertices": 650,
+            "normalized_vertices": 638,
+            "faces": 1272,
+            "triangle_coordinate_bytes_preserved": true,
+            "triangle_sha256": "c3c68bec8842aee4b8239555a959b555b74b3bfa26b11d4cec6fb56690409bf1",
+            "original_watertight": false,
+            "normalized_watertight": true,
+            "normalized_winding_consistent": true,
+            "zero_area_faces": 0,
+            "usable_for_sampled_containment": true,
+            "original_modified": false,
+            "faces_added_or_removed": false,
+            "self_intersection": "NOT RUN",
+            "anatomical_validity": "NOT RUN"
+          },
+          "self_contact": {
+            "status": "NO_CONTACT_DETECTED",
+            "coverage": "all distinct triangle pairs",
+            "checked_pairs": 9730,
+            "adjacent_pairs_checked": 7927,
+            "contact_pairs": [],
+            "tolerance_mm": 1e-08,
+            "max_pairs": 2000000,
+            "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+          },
+          "volume_mm3": 1129.3050058630463
+        },
+        "FJ3483": {
+          "geometry_sha256": "e9d928e4dc6df319311fabf459f5d1ef5df5448c6354d4bb9abcc2319c4f0e93",
+          "indexing": {
+            "method": "exact-coordinate-index-copy/1",
+            "coordinate_tolerance_mm": 0,
+            "original_vertices": 126,
+            "normalized_vertices": 87,
+            "faces": 170,
+            "triangle_coordinate_bytes_preserved": true,
+            "triangle_sha256": "0a530163c91da9d91811386f195fd9ef1d4b8d4a4f139907fb698b256788443a",
+            "original_watertight": false,
+            "normalized_watertight": true,
+            "normalized_winding_consistent": true,
+            "zero_area_faces": 0,
+            "usable_for_sampled_containment": true,
+            "original_modified": false,
+            "faces_added_or_removed": false,
+            "self_intersection": "NOT RUN",
+            "anatomical_validity": "NOT RUN"
+          },
+          "self_contact": {
+            "status": "NO_CONTACT_DETECTED",
+            "coverage": "all distinct triangle pairs",
+            "checked_pairs": 1191,
+            "adjacent_pairs_checked": 1041,
+            "contact_pairs": [],
+            "tolerance_mm": 1e-08,
+            "max_pairs": 2000000,
+            "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+          },
+          "volume_mm3": 2884.626511610415
+        },
+        "estimated_left_carotid_neck": {
+          "geometry_sha256": "daed7f6b096205d1a910ec013efa8989e3ce82086a8537bb2fb91d99e6f7fea5",
+          "indexing": {
+            "method": "exact-coordinate-index-copy/1",
+            "coordinate_tolerance_mm": 0,
+            "original_vertices": 11712,
+            "normalized_vertices": 11712,
+            "faces": 23420,
+            "triangle_coordinate_bytes_preserved": true,
+            "triangle_sha256": "7e3a3526bbe1fe90ae186210007d6bb34c3775181fa01c922c785b0da2dc9805",
+            "original_watertight": true,
+            "normalized_watertight": true,
+            "normalized_winding_consistent": true,
+            "zero_area_faces": 0,
+            "usable_for_sampled_containment": true,
+            "original_modified": false,
+            "faces_added_or_removed": false,
+            "self_intersection": "NOT RUN",
+            "anatomical_validity": "NOT RUN"
+          },
+          "self_contact": {
+            "status": "NO_CONTACT_DETECTED",
+            "coverage": "all distinct triangle pairs",
+            "checked_pairs": 180409,
+            "adjacent_pairs_checked": 141518,
+            "contact_pairs": [],
+            "tolerance_mm": 1e-08,
+            "max_pairs": 2000000,
+            "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+          },
+          "volume_mm3": 1349.5329413606662
+        }
+      },
+      "local_origin_mm": [
+        26.564554767397066,
+        -106.89086193767683,
+        1408.8349714184733
+      ],
+      "boundary_components": 1,
+      "volume_mm3": 5324.344071810315,
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 188853,
+        "adjacent_pairs_checked": 149976,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "source_modified": false,
+      "precision": "float64",
+      "source_fidelity": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "neighbor_contact": "NOT RUN",
+      "smoothness": "NOT RUN",
+      "diagnostics": {
+        "vertices": 12384,
+        "faces": 24764,
+        "watertight": true,
+        "winding_consistent": true,
+        "is_volume": true,
+        "volume_mm3": 5324.344071810315,
+        "zero_area_faces": 0,
+        "minimum_face_area_mm2": 9.967313038005891e-05,
+        "local_origin_mm": [
+          26.564554767397066,
+          -106.89086193767683,
+          1408.8349714184733
+        ],
+        "input_surfaces": {
+          "FJ1682M": {
+            "geometry_sha256": "0f357b52c5515bfe1a49e5e13539dd5cde86ffef283dbcfe22daf7a609a5c80f",
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 650,
+              "normalized_vertices": 638,
+              "faces": 1272,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "c3c68bec8842aee4b8239555a959b555b74b3bfa26b11d4cec6fb56690409bf1",
+              "original_watertight": false,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "self_contact": {
+              "status": "NO_CONTACT_DETECTED",
+              "coverage": "all distinct triangle pairs",
+              "checked_pairs": 9730,
+              "adjacent_pairs_checked": 7927,
+              "contact_pairs": [],
+              "tolerance_mm": 1e-08,
+              "max_pairs": 2000000,
+              "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+            },
+            "volume_mm3": 1129.3050058630463
+          },
+          "FJ3483": {
+            "geometry_sha256": "e9d928e4dc6df319311fabf459f5d1ef5df5448c6354d4bb9abcc2319c4f0e93",
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 126,
+              "normalized_vertices": 87,
+              "faces": 170,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "0a530163c91da9d91811386f195fd9ef1d4b8d4a4f139907fb698b256788443a",
+              "original_watertight": false,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "self_contact": {
+              "status": "NO_CONTACT_DETECTED",
+              "coverage": "all distinct triangle pairs",
+              "checked_pairs": 1191,
+              "adjacent_pairs_checked": 1041,
+              "contact_pairs": [],
+              "tolerance_mm": 1e-08,
+              "max_pairs": 2000000,
+              "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+            },
+            "volume_mm3": 2884.626511610415
+          },
+          "estimated_left_carotid_neck": {
+            "geometry_sha256": "daed7f6b096205d1a910ec013efa8989e3ce82086a8537bb2fb91d99e6f7fea5",
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 11712,
+              "normalized_vertices": 11712,
+              "faces": 23420,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "7e3a3526bbe1fe90ae186210007d6bb34c3775181fa01c922c785b0da2dc9805",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "self_contact": {
+              "status": "NO_CONTACT_DETECTED",
+              "coverage": "all distinct triangle pairs",
+              "checked_pairs": 180409,
+              "adjacent_pairs_checked": 141518,
+              "contact_pairs": [],
+              "tolerance_mm": 1e-08,
+              "max_pairs": 2000000,
+              "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+            },
+            "volume_mm3": 1349.5329413606662
+          }
+        },
+        "manifold_version": "3.5.4",
+        "trimesh_version": "5.1.1"
+      }
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "status": "CANDIDATE",
+      "method": "manifold-solid-union/1",
+      "manifold_version": "3.5.4",
+      "trimesh_version": "5.1.1",
+      "input_surfaces": {
+        "FJ1682": {
+          "geometry_sha256": "d3944762fad53ff3cd5836b3952c427b18e8d15a01babd36cca68e969aa3ebfe",
+          "indexing": {
+            "method": "exact-coordinate-index-copy/1",
+            "coordinate_tolerance_mm": 0,
+            "original_vertices": 650,
+            "normalized_vertices": 638,
+            "faces": 1272,
+            "triangle_coordinate_bytes_preserved": true,
+            "triangle_sha256": "6856ceeff43eb65b29421f5b6865d294be279a5d7d4598f1e18e48c70359eee6",
+            "original_watertight": false,
+            "normalized_watertight": true,
+            "normalized_winding_consistent": true,
+            "zero_area_faces": 0,
+            "usable_for_sampled_containment": true,
+            "original_modified": false,
+            "faces_added_or_removed": false,
+            "self_intersection": "NOT RUN",
+            "anatomical_validity": "NOT RUN"
+          },
+          "self_contact": {
+            "status": "NO_CONTACT_DETECTED",
+            "coverage": "all distinct triangle pairs",
+            "checked_pairs": 9731,
+            "adjacent_pairs_checked": 7927,
+            "contact_pairs": [],
+            "tolerance_mm": 1e-08,
+            "max_pairs": 2000000,
+            "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+          },
+          "volume_mm3": 1129.3477809175072
+        },
+        "FJ3564": {
+          "geometry_sha256": "00d12b9935afecec0f027ce119f256adafb882516a4bb440f85d818c04f9969f",
+          "indexing": {
+            "method": "exact-coordinate-index-copy/1",
+            "coordinate_tolerance_mm": 0,
+            "original_vertices": 448,
+            "normalized_vertices": 444,
+            "faces": 884,
+            "triangle_coordinate_bytes_preserved": true,
+            "triangle_sha256": "7dccd52af9264ece47e81e21729c1b9465ca06384ddab3e18a4c48f197333294",
+            "original_watertight": false,
+            "normalized_watertight": true,
+            "normalized_winding_consistent": true,
+            "zero_area_faces": 0,
+            "usable_for_sampled_containment": true,
+            "original_modified": false,
+            "faces_added_or_removed": false,
+            "self_intersection": "NOT RUN",
+            "anatomical_validity": "NOT RUN"
+          },
+          "self_contact": {
+            "status": "NO_CONTACT_DETECTED",
+            "coverage": "all distinct triangle pairs",
+            "checked_pairs": 5927,
+            "adjacent_pairs_checked": 5462,
+            "contact_pairs": [],
+            "tolerance_mm": 1e-08,
+            "max_pairs": 2000000,
+            "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+          },
+          "volume_mm3": 2147.418149168056
+        },
+        "estimated_right_carotid_neck": {
+          "geometry_sha256": "8f5f38e6bd0f49a17b24b23bc2b9da39c34c57d79d4389ec0c3cdb7859e5da56",
+          "indexing": {
+            "method": "exact-coordinate-index-copy/1",
+            "coordinate_tolerance_mm": 0,
+            "original_vertices": 14976,
+            "normalized_vertices": 14976,
+            "faces": 29948,
+            "triangle_coordinate_bytes_preserved": true,
+            "triangle_sha256": "ddb94462681e9d632ecfae6c9b43a30c975dc452537042cc90430ae6065ed030",
+            "original_watertight": true,
+            "normalized_watertight": true,
+            "normalized_winding_consistent": true,
+            "zero_area_faces": 0,
+            "usable_for_sampled_containment": true,
+            "original_modified": false,
+            "faces_added_or_removed": false,
+            "self_intersection": "NOT RUN",
+            "anatomical_validity": "NOT RUN"
+          },
+          "self_contact": {
+            "status": "NO_CONTACT_DETECTED",
+            "coverage": "all distinct triangle pairs",
+            "checked_pairs": 251173,
+            "adjacent_pairs_checked": 180650,
+            "contact_pairs": [],
+            "tolerance_mm": 1e-08,
+            "max_pairs": 2000000,
+            "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+          },
+          "volume_mm3": 1729.3332815209644
+        }
+      },
+      "local_origin_mm": [
+        -25.562846154393355,
+        -108.19132965231601,
+        1406.490177114823
+      ],
+      "boundary_components": 1,
+      "volume_mm3": 4951.259513396374,
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 262881,
+        "adjacent_pairs_checked": 192420,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "source_modified": false,
+      "precision": "float64",
+      "source_fidelity": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "neighbor_contact": "NOT RUN",
+      "smoothness": "NOT RUN",
+      "diagnostics": {
+        "vertices": 15908,
+        "faces": 31812,
+        "watertight": true,
+        "winding_consistent": true,
+        "is_volume": true,
+        "volume_mm3": 4951.259513396374,
+        "zero_area_faces": 0,
+        "minimum_face_area_mm2": 1.2479959230516808e-05,
+        "local_origin_mm": [
+          -25.562846154393355,
+          -108.19132965231601,
+          1406.490177114823
+        ],
+        "input_surfaces": {
+          "FJ1682": {
+            "geometry_sha256": "d3944762fad53ff3cd5836b3952c427b18e8d15a01babd36cca68e969aa3ebfe",
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 650,
+              "normalized_vertices": 638,
+              "faces": 1272,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6856ceeff43eb65b29421f5b6865d294be279a5d7d4598f1e18e48c70359eee6",
+              "original_watertight": false,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "self_contact": {
+              "status": "NO_CONTACT_DETECTED",
+              "coverage": "all distinct triangle pairs",
+              "checked_pairs": 9731,
+              "adjacent_pairs_checked": 7927,
+              "contact_pairs": [],
+              "tolerance_mm": 1e-08,
+              "max_pairs": 2000000,
+              "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+            },
+            "volume_mm3": 1129.3477809175072
+          },
+          "FJ3564": {
+            "geometry_sha256": "00d12b9935afecec0f027ce119f256adafb882516a4bb440f85d818c04f9969f",
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 448,
+              "normalized_vertices": 444,
+              "faces": 884,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "7dccd52af9264ece47e81e21729c1b9465ca06384ddab3e18a4c48f197333294",
+              "original_watertight": false,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "self_contact": {
+              "status": "NO_CONTACT_DETECTED",
+              "coverage": "all distinct triangle pairs",
+              "checked_pairs": 5927,
+              "adjacent_pairs_checked": 5462,
+              "contact_pairs": [],
+              "tolerance_mm": 1e-08,
+              "max_pairs": 2000000,
+              "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+            },
+            "volume_mm3": 2147.418149168056
+          },
+          "estimated_right_carotid_neck": {
+            "geometry_sha256": "8f5f38e6bd0f49a17b24b23bc2b9da39c34c57d79d4389ec0c3cdb7859e5da56",
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 14976,
+              "normalized_vertices": 14976,
+              "faces": 29948,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "ddb94462681e9d632ecfae6c9b43a30c975dc452537042cc90430ae6065ed030",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "self_contact": {
+              "status": "NO_CONTACT_DETECTED",
+              "coverage": "all distinct triangle pairs",
+              "checked_pairs": 251173,
+              "adjacent_pairs_checked": 180650,
+              "contact_pairs": [],
+              "tolerance_mm": 1e-08,
+              "max_pairs": 2000000,
+              "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+            },
+            "volume_mm3": 1729.3332815209644
+          }
+        },
+        "manifold_version": "3.5.4",
+        "trimesh_version": "5.1.1"
+      }
+    }
+  ],
+  "live_scene_changed": false
+}

@@ -1,0 +1,16 @@
+{
+  "source_case_revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+  "rows": [
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "status": "FAIL",
+      "reason": "Union is not a positive closed nondegenerate solid"
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "status": "FAIL",
+      "reason": "Union is not a positive closed nondegenerate solid"
+    }
+  ],
+  "live_scene_changed": false
+}

@@ -1,0 +1,48 @@
+{
+  "source_sha256": "22c4b07d04a5d9d805489cc407e88a855d668b8960594ed5f08e7fbfc9f4a413",
+  "case_revision": "90aa67f11b698178168d7491e1da7d23bd621f252dfea6dd47029af93b9a9da4",
+  "config": {
+    "edge_path_extent_mm": 0.6,
+    "strength": 10.0,
+    "max_displacement_mm": 0.3,
+    "max_volume_change_fraction": 0.02
+  },
+  "protected_vertex_count": 1375,
+  "free_vertex_count": 1412,
+  "app_applied": false,
+  "status": "CANDIDATE",
+  "metrics": {
+    "status": "CANDIDATE",
+    "method": "fixed-vertex squared uniform Laplacian",
+    "strength": 10.0,
+    "free_vertices": 1412,
+    "max_displacement_mm": 0.0938134794264413,
+    "displacement_limit_mm": 0.3,
+    "volume_change_fraction": 3.1267790439493126e-05,
+    "volume_change_limit_fraction": 0.02,
+    "fixed_vertices_exact": true,
+    "closed_volume": "PASS",
+    "self_intersection": "NOT RUN"
+  },
+  "angles": {
+    "all_transition_and_changed": {
+      "edge_count": 8757,
+      "maximum_deg": 175.9507293681098,
+      "p95_deg": 24.617326454062816,
+      "above_90_deg": 71
+    },
+    "changed_neighborhood": {
+      "edge_count": 5132,
+      "maximum_deg": 175.9507293681098,
+      "p95_deg": 18.200114329842588,
+      "above_90_deg": 71
+    }
+  },
+  "protected_vertices_exact": true,
+  "crease_screen": "FAIL",
+  "smooth_junction": "UNKNOWN",
+  "self_intersection": "NOT RUN",
+  "context_collision": "NOT RUN",
+  "artifact_sha256": "270122c9a2865c02041c252d7525d35e86c7a893ad4c76afaa8caafc3521b793",
+  "input_unchanged": true
+}

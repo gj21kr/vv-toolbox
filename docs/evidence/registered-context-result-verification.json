@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "Complete measurement comparison and saved-case reload; not geometry acceptance",
+  "inspection_status": "FAIL",
+  "rows": 788,
+  "prior_rows_equal": true,
+  "geometry_graph_unchanged": true,
+  "output_revision": "1876451579824ef112999c109cd5c199efbe944114d4ec31bbbd2469521c484f",
+  "report_sha256": "72f345693e85c0df136cf38073dd437ca88e61fbf196824c5f43e2c364ec1755",
+  "output_sha256": "b74e30605e7f4d9a6e800788b014f96594dae007577005a62bc4f31326789557",
+  "accepted_for_generation": false
+}

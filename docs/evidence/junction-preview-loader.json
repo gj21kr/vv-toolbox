@@ -1,0 +1,21 @@
+{
+  "candidate_id": "right-mca-junction-review",
+  "surface_sha256": "cd83cdceb58b76019d61993107c069ff270f7927c65b084ce567de6a9031634a",
+  "verification_scope": "Current artifact loaded through candidate preview loader inside vv-annotation-ui Docker container",
+  "loader": "PASS",
+  "context_status": "REVIEW_REQUIRED",
+  "context_edge_count": 1080,
+  "separated_count": 1075,
+  "refined_count": 1,
+  "review_edges": ["FJ1654:e0", "FJ1660:e0", "FJ1682:e0", "FJ1694:e0", "FJ1718:e0"],
+  "self_contact": "NO_CONTACT_DETECTED",
+  "smoothness": "UNKNOWN",
+  "anatomy": "UNKNOWN",
+  "tests": {
+    "command": "python -m pytest tests/test_junction_candidate_preview.py tests/test_mca_candidate_preview.py tests/test_candidate_workspace.py -q",
+    "passed": 19,
+    "failed": 0
+  },
+  "browser_verification_this_change": "NOT RUN",
+  "limitations": "Profile separation does not establish separation from original atlas surfaces or approve anatomical connections. This loader verification does not prove the running app has reloaded the changed module."
+}

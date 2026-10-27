@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "Actual browser resampled-access-protected case download; not anatomy acceptance",
+  "browser_path": "Playwright: Browser plugin not available",
+  "stale_generation_status": 409,
+  "revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+  "file_sha256": "f2e8af8c7d5430ef1af7927a68e1346c9ebe6d7e5e6847565beca7258abed65d",
+  "file": "exports/candidate-case-download/case.snapshot.json",
+  "browser_errors": [],
+  "geometry_reload": "NOT RUN",
+  "visual_review": "NOT RUN",
+  "atlas_restored": true
+}

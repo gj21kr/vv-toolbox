@@ -1,0 +1,41 @@
+{
+  "schema": "vv-toolbox.aca-patch-self-contact/1",
+  "case_revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+  "attempts": [
+    {
+      "junction_id": "sample:FJ1654:e0:77",
+      "artifact": "exports/aca-curved-patches/patch-0.npz",
+      "sha256": "c783c592a5e0b1383eadc1b15af401e90b1bd15c26d73ba171bcef0d8bcc1820",
+      "input_unchanged": true,
+      "inspection": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 28290,
+        "adjacent_pairs_checked": 27168,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      }
+    },
+    {
+      "junction_id": "sample:FJ1654M:e0:91",
+      "artifact": "exports/aca-curved-patches/patch-1.npz",
+      "sha256": "4e6ea5b7682fdf496ccace488e13c0ddfe62fc37b5cd8d776b8750067ac0767c",
+      "input_unchanged": true,
+      "inspection": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 28582,
+        "adjacent_pairs_checked": 27168,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      }
+    }
+  ],
+  "accepted_for_generation": false,
+  "closed_lumen": false,
+  "app_applied": false
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "Coincident point interior clearance only; graph nodes remain distinct",
+  "union_sha256": "bad61c62ca40b1aade54c6e52e3ded05829240b23f6dbd915991d8688ae313d9",
+  "source_case_revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+  "source_node_ids": [
+    "FJ3466:n0",
+    "FJ3464:n1"
+  ],
+  "shared_original_node": false,
+  "coordinates_mm": [
+    31.200000000000003,
+    -96.80000000000001,
+    907.2
+  ],
+  "inside": true,
+  "distance_to_surface_mm": 4.347934648300417,
+  "tolerance_mm": 1e-06,
+  "graph_edges_added": 0,
+  "connection_status": "UNADJUDICATED",
+  "live_scene_changed": false
+}

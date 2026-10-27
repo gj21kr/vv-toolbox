@@ -1,0 +1,1050 @@
+{
+  "part_id": "FJ1692",
+  "field_version": "v3",
+  "input_export_sha256": "470c8e03cee16691f8d13c88e1a81b58fe841e47a547e8b9878e23b29848aa49",
+  "archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "source_surface_sha256": "55528e5d869de026fb04a2a1eb62a7c58bb39e8e3c9be876a4ca46a2695cef41",
+  "implementation_sha256": "92bf7a5a9f8bf8bbe32c036f7fe7d61b77eec422cbf1190e65a348fe793d2c94",
+  "rows": [
+    {
+      "contact_protection": false,
+      "parameters": {
+        "radius_scale": 1.0,
+        "tortuosity": 0.0,
+        "torsion_deg": 0.0
+      },
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 6355,
+        "adjacent_pairs_checked": 4920,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "basic_checks": {
+        "schema": "vv-toolbox.atlas-edit-checks/1",
+        "basic_invariants": "PASS",
+        "checks": {
+          "connectivity": "PASS",
+          "endpoint_positions_and_radii": "PASS",
+          "positive_radii": "PASS",
+          "no_new_degenerate_triangles": "PASS"
+        },
+        "area_tolerance_mm2": 1e-12,
+        "source_degenerate_triangles": 0,
+        "edited_degenerate_triangles": 0,
+        "newly_degenerate_face_ids": [],
+        "maximum_vertex_displacement_mm": 0.0,
+        "self_intersection": "NOT RUN",
+        "surrounding_collision": "NOT RUN",
+        "junction_smoothness": "NOT RUN",
+        "anatomical_validity": "UNKNOWN",
+        "scope": "Same-connectivity mesh and centerline endpoint invariants only; inherited defects are counted separately."
+      },
+      "field_support_mm": null,
+      "maximum_centerline_displacement_mm": 0.0,
+      "boundary_angles": {
+        "fixed_vertices": 402,
+        "moving_vertices": 0,
+        "before": {
+          "count": 0,
+          "max_deg": null,
+          "p95_deg": null,
+          "above_90": 0
+        },
+        "after": {
+          "count": 0,
+          "max_deg": null,
+          "p95_deg": null,
+          "above_90": 0
+        },
+        "newly_above_90_pairs": 0,
+        "smoothness": "UNKNOWN",
+        "scope": "Pairs touching both exactly fixed and displaced source vertices; includes endpoint and optional protected-region boundaries",
+        "limitation": "Face-normal angles are tessellation-dependent; no curvature or smoothness acceptance threshold established."
+      }
+    },
+    {
+      "contact_protection": false,
+      "parameters": {
+        "radius_scale": 1.0,
+        "tortuosity": 0.0,
+        "torsion_deg": 35.0
+      },
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 6032,
+        "adjacent_pairs_checked": 4920,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "basic_checks": {
+        "schema": "vv-toolbox.atlas-edit-checks/1",
+        "basic_invariants": "PASS",
+        "checks": {
+          "connectivity": "PASS",
+          "endpoint_positions_and_radii": "PASS",
+          "positive_radii": "PASS",
+          "no_new_degenerate_triangles": "PASS"
+        },
+        "area_tolerance_mm2": 1e-12,
+        "source_degenerate_triangles": 0,
+        "edited_degenerate_triangles": 0,
+        "newly_degenerate_face_ids": [],
+        "maximum_vertex_displacement_mm": 2.87338610203517,
+        "self_intersection": "NOT RUN",
+        "surrounding_collision": "NOT RUN",
+        "junction_smoothness": "NOT RUN",
+        "anatomical_validity": "UNKNOWN",
+        "scope": "Same-connectivity mesh and centerline endpoint invariants only; inherited defects are counted separately."
+      },
+      "field_support_mm": 4.7317312259797415,
+      "maximum_centerline_displacement_mm": 2.8648229103692,
+      "boundary_angles": {
+        "fixed_vertices": 177,
+        "moving_vertices": 225,
+        "before": {
+          "count": 136,
+          "max_deg": 29.137064626090314,
+          "p95_deg": 22.550829426767972,
+          "above_90": 0
+        },
+        "after": {
+          "count": 136,
+          "max_deg": 29.034481060669464,
+          "p95_deg": 22.57383594931741,
+          "above_90": 0
+        },
+        "newly_above_90_pairs": 0,
+        "smoothness": "UNKNOWN",
+        "scope": "Pairs touching both exactly fixed and displaced source vertices; includes endpoint and optional protected-region boundaries",
+        "limitation": "Face-normal angles are tessellation-dependent; no curvature or smoothness acceptance threshold established."
+      }
+    },
+    {
+      "contact_protection": false,
+      "parameters": {
+        "radius_scale": 1.0,
+        "tortuosity": 0.3,
+        "torsion_deg": 0.0
+      },
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 6449,
+        "adjacent_pairs_checked": 4920,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "basic_checks": {
+        "schema": "vv-toolbox.atlas-edit-checks/1",
+        "basic_invariants": "PASS",
+        "checks": {
+          "connectivity": "PASS",
+          "endpoint_positions_and_radii": "PASS",
+          "positive_radii": "PASS",
+          "no_new_degenerate_triangles": "PASS"
+        },
+        "area_tolerance_mm2": 1e-12,
+        "source_degenerate_triangles": 0,
+        "edited_degenerate_triangles": 0,
+        "newly_degenerate_face_ids": [],
+        "maximum_vertex_displacement_mm": 2.0423357331998266,
+        "self_intersection": "NOT RUN",
+        "surrounding_collision": "NOT RUN",
+        "junction_smoothness": "NOT RUN",
+        "anatomical_validity": "UNKNOWN",
+        "scope": "Same-connectivity mesh and centerline endpoint invariants only; inherited defects are counted separately."
+      },
+      "field_support_mm": 4.7317312259797415,
+      "maximum_centerline_displacement_mm": 2.038563692006955,
+      "boundary_angles": {
+        "fixed_vertices": 177,
+        "moving_vertices": 225,
+        "before": {
+          "count": 136,
+          "max_deg": 29.137064626090314,
+          "p95_deg": 22.550829426767972,
+          "above_90": 0
+        },
+        "after": {
+          "count": 136,
+          "max_deg": 29.369565186126234,
+          "p95_deg": 22.776320139022257,
+          "above_90": 0
+        },
+        "newly_above_90_pairs": 0,
+        "smoothness": "UNKNOWN",
+        "scope": "Pairs touching both exactly fixed and displaced source vertices; includes endpoint and optional protected-region boundaries",
+        "limitation": "Face-normal angles are tessellation-dependent; no curvature or smoothness acceptance threshold established."
+      }
+    },
+    {
+      "contact_protection": false,
+      "parameters": {
+        "radius_scale": 1.0,
+        "tortuosity": 0.3,
+        "torsion_deg": 35.0
+      },
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 6228,
+        "adjacent_pairs_checked": 4920,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "basic_checks": {
+        "schema": "vv-toolbox.atlas-edit-checks/1",
+        "basic_invariants": "PASS",
+        "checks": {
+          "connectivity": "PASS",
+          "endpoint_positions_and_radii": "PASS",
+          "positive_radii": "PASS",
+          "no_new_degenerate_triangles": "PASS"
+        },
+        "area_tolerance_mm2": 1e-12,
+        "source_degenerate_triangles": 0,
+        "edited_degenerate_triangles": 0,
+        "newly_degenerate_face_ids": [],
+        "maximum_vertex_displacement_mm": 3.9610252022227788,
+        "self_intersection": "NOT RUN",
+        "surrounding_collision": "NOT RUN",
+        "junction_smoothness": "NOT RUN",
+        "anatomical_validity": "UNKNOWN",
+        "scope": "Same-connectivity mesh and centerline endpoint invariants only; inherited defects are counted separately."
+      },
+      "field_support_mm": 4.7317312259797415,
+      "maximum_centerline_displacement_mm": 3.9508330436555372,
+      "boundary_angles": {
+        "fixed_vertices": 177,
+        "moving_vertices": 225,
+        "before": {
+          "count": 136,
+          "max_deg": 29.137064626090314,
+          "p95_deg": 22.550829426767972,
+          "above_90": 0
+        },
+        "after": {
+          "count": 136,
+          "max_deg": 29.223721486232236,
+          "p95_deg": 22.705512562086685,
+          "above_90": 0
+        },
+        "newly_above_90_pairs": 0,
+        "smoothness": "UNKNOWN",
+        "scope": "Pairs touching both exactly fixed and displaced source vertices; includes endpoint and optional protected-region boundaries",
+        "limitation": "Face-normal angles are tessellation-dependent; no curvature or smoothness acceptance threshold established."
+      }
+    },
+    {
+      "contact_protection": false,
+      "parameters": {
+        "radius_scale": 1.3,
+        "tortuosity": 0.0,
+        "torsion_deg": 0.0
+      },
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 6008,
+        "adjacent_pairs_checked": 4920,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "basic_checks": {
+        "schema": "vv-toolbox.atlas-edit-checks/1",
+        "basic_invariants": "PASS",
+        "checks": {
+          "connectivity": "PASS",
+          "endpoint_positions_and_radii": "PASS",
+          "positive_radii": "PASS",
+          "no_new_degenerate_triangles": "PASS"
+        },
+        "area_tolerance_mm2": 1e-12,
+        "source_degenerate_triangles": 0,
+        "edited_degenerate_triangles": 0,
+        "newly_degenerate_face_ids": [],
+        "maximum_vertex_displacement_mm": 0.5007488528564814,
+        "self_intersection": "NOT RUN",
+        "surrounding_collision": "NOT RUN",
+        "junction_smoothness": "NOT RUN",
+        "anatomical_validity": "UNKNOWN",
+        "scope": "Same-connectivity mesh and centerline endpoint invariants only; inherited defects are counted separately."
+      },
+      "field_support_mm": 4.7317312259797415,
+      "maximum_centerline_displacement_mm": 0.022172147988317552,
+      "boundary_angles": {
+        "fixed_vertices": 177,
+        "moving_vertices": 225,
+        "before": {
+          "count": 136,
+          "max_deg": 29.137064626090314,
+          "p95_deg": 22.550829426767972,
+          "above_90": 0
+        },
+        "after": {
+          "count": 136,
+          "max_deg": 28.798667195924406,
+          "p95_deg": 22.883995008793885,
+          "above_90": 0
+        },
+        "newly_above_90_pairs": 0,
+        "smoothness": "UNKNOWN",
+        "scope": "Pairs touching both exactly fixed and displaced source vertices; includes endpoint and optional protected-region boundaries",
+        "limitation": "Face-normal angles are tessellation-dependent; no curvature or smoothness acceptance threshold established."
+      }
+    },
+    {
+      "contact_protection": false,
+      "parameters": {
+        "radius_scale": 1.3,
+        "tortuosity": 0.0,
+        "torsion_deg": 35.0
+      },
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 5856,
+        "adjacent_pairs_checked": 4920,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "basic_checks": {
+        "schema": "vv-toolbox.atlas-edit-checks/1",
+        "basic_invariants": "PASS",
+        "checks": {
+          "connectivity": "PASS",
+          "endpoint_positions_and_radii": "PASS",
+          "positive_radii": "PASS",
+          "no_new_degenerate_triangles": "PASS"
+        },
+        "area_tolerance_mm2": 1e-12,
+        "source_degenerate_triangles": 0,
+        "edited_degenerate_triangles": 0,
+        "newly_degenerate_face_ids": [],
+        "maximum_vertex_displacement_mm": 3.218618639092187,
+        "self_intersection": "NOT RUN",
+        "surrounding_collision": "NOT RUN",
+        "junction_smoothness": "NOT RUN",
+        "anatomical_validity": "UNKNOWN",
+        "scope": "Same-connectivity mesh and centerline endpoint invariants only; inherited defects are counted separately."
+      },
+      "field_support_mm": 4.7317312259797415,
+      "maximum_centerline_displacement_mm": 2.8608712117712822,
+      "boundary_angles": {
+        "fixed_vertices": 177,
+        "moving_vertices": 225,
+        "before": {
+          "count": 136,
+          "max_deg": 29.137064626090314,
+          "p95_deg": 22.550829426767972,
+          "above_90": 0
+        },
+        "after": {
+          "count": 136,
+          "max_deg": 28.696708367892008,
+          "p95_deg": 22.68092231663002,
+          "above_90": 0
+        },
+        "newly_above_90_pairs": 0,
+        "smoothness": "UNKNOWN",
+        "scope": "Pairs touching both exactly fixed and displaced source vertices; includes endpoint and optional protected-region boundaries",
+        "limitation": "Face-normal angles are tessellation-dependent; no curvature or smoothness acceptance threshold established."
+      }
+    },
+    {
+      "contact_protection": false,
+      "parameters": {
+        "radius_scale": 1.3,
+        "tortuosity": 0.3,
+        "torsion_deg": 0.0
+      },
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 6126,
+        "adjacent_pairs_checked": 4920,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "basic_checks": {
+        "schema": "vv-toolbox.atlas-edit-checks/1",
+        "basic_invariants": "PASS",
+        "checks": {
+          "connectivity": "PASS",
+          "endpoint_positions_and_radii": "PASS",
+          "positive_radii": "PASS",
+          "no_new_degenerate_triangles": "PASS"
+        },
+        "area_tolerance_mm2": 1e-12,
+        "source_degenerate_triangles": 0,
+        "edited_degenerate_triangles": 0,
+        "newly_degenerate_face_ids": [],
+        "maximum_vertex_displacement_mm": 2.5155211239609505,
+        "self_intersection": "NOT RUN",
+        "surrounding_collision": "NOT RUN",
+        "junction_smoothness": "NOT RUN",
+        "anatomical_validity": "UNKNOWN",
+        "scope": "Same-connectivity mesh and centerline endpoint invariants only; inherited defects are counted separately."
+      },
+      "field_support_mm": 4.7317312259797415,
+      "maximum_centerline_displacement_mm": 2.030081327032568,
+      "boundary_angles": {
+        "fixed_vertices": 177,
+        "moving_vertices": 225,
+        "before": {
+          "count": 136,
+          "max_deg": 29.137064626090314,
+          "p95_deg": 22.550829426767972,
+          "above_90": 0
+        },
+        "after": {
+          "count": 136,
+          "max_deg": 29.03426141935328,
+          "p95_deg": 22.72120981770455,
+          "above_90": 0
+        },
+        "newly_above_90_pairs": 0,
+        "smoothness": "UNKNOWN",
+        "scope": "Pairs touching both exactly fixed and displaced source vertices; includes endpoint and optional protected-region boundaries",
+        "limitation": "Face-normal angles are tessellation-dependent; no curvature or smoothness acceptance threshold established."
+      }
+    },
+    {
+      "contact_protection": false,
+      "parameters": {
+        "radius_scale": 1.3,
+        "tortuosity": 0.3,
+        "torsion_deg": 35.0
+      },
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 5942,
+        "adjacent_pairs_checked": 4920,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "basic_checks": {
+        "schema": "vv-toolbox.atlas-edit-checks/1",
+        "basic_invariants": "PASS",
+        "checks": {
+          "connectivity": "PASS",
+          "endpoint_positions_and_radii": "PASS",
+          "positive_radii": "PASS",
+          "no_new_degenerate_triangles": "PASS"
+        },
+        "area_tolerance_mm2": 1e-12,
+        "source_degenerate_triangles": 0,
+        "edited_degenerate_triangles": 0,
+        "newly_degenerate_face_ids": [],
+        "maximum_vertex_displacement_mm": 4.339594879206989,
+        "self_intersection": "NOT RUN",
+        "surrounding_collision": "NOT RUN",
+        "junction_smoothness": "NOT RUN",
+        "anatomical_validity": "UNKNOWN",
+        "scope": "Same-connectivity mesh and centerline endpoint invariants only; inherited defects are counted separately."
+      },
+      "field_support_mm": 4.7317312259797415,
+      "maximum_centerline_displacement_mm": 3.9420584331833766,
+      "boundary_angles": {
+        "fixed_vertices": 177,
+        "moving_vertices": 225,
+        "before": {
+          "count": 136,
+          "max_deg": 29.137064626090314,
+          "p95_deg": 22.550829426767972,
+          "above_90": 0
+        },
+        "after": {
+          "count": 136,
+          "max_deg": 31.203264750823188,
+          "p95_deg": 22.63775614775212,
+          "above_90": 0
+        },
+        "newly_above_90_pairs": 0,
+        "smoothness": "UNKNOWN",
+        "scope": "Pairs touching both exactly fixed and displaced source vertices; includes endpoint and optional protected-region boundaries",
+        "limitation": "Face-normal angles are tessellation-dependent; no curvature or smoothness acceptance threshold established."
+      }
+    },
+    {
+      "contact_protection": true,
+      "parameters": {
+        "radius_scale": 1.0,
+        "tortuosity": 0.0,
+        "torsion_deg": 0.0
+      },
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 6355,
+        "adjacent_pairs_checked": 4920,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "basic_checks": {
+        "schema": "vv-toolbox.atlas-edit-checks/1",
+        "basic_invariants": "PASS",
+        "checks": {
+          "connectivity": "PASS",
+          "endpoint_positions_and_radii": "PASS",
+          "positive_radii": "PASS",
+          "no_new_degenerate_triangles": "PASS"
+        },
+        "area_tolerance_mm2": 1e-12,
+        "source_degenerate_triangles": 0,
+        "edited_degenerate_triangles": 0,
+        "newly_degenerate_face_ids": [],
+        "maximum_vertex_displacement_mm": 0.0,
+        "self_intersection": "NOT RUN",
+        "surrounding_collision": "NOT RUN",
+        "junction_smoothness": "NOT RUN",
+        "anatomical_validity": "UNKNOWN",
+        "scope": "Same-connectivity mesh and centerline endpoint invariants only; inherited defects are counted separately."
+      },
+      "field_support_mm": null,
+      "maximum_centerline_displacement_mm": 0.0,
+      "boundary_angles": {
+        "fixed_vertices": 402,
+        "moving_vertices": 0,
+        "before": {
+          "count": 0,
+          "max_deg": null,
+          "p95_deg": null,
+          "above_90": 0
+        },
+        "after": {
+          "count": 0,
+          "max_deg": null,
+          "p95_deg": null,
+          "above_90": 0
+        },
+        "newly_above_90_pairs": 0,
+        "smoothness": "UNKNOWN",
+        "scope": "Pairs touching both exactly fixed and displaced source vertices; includes endpoint and optional protected-region boundaries",
+        "limitation": "Face-normal angles are tessellation-dependent; no curvature or smoothness acceptance threshold established."
+      }
+    },
+    {
+      "contact_protection": true,
+      "parameters": {
+        "radius_scale": 1.0,
+        "tortuosity": 0.0,
+        "torsion_deg": 35.0
+      },
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 6620,
+        "adjacent_pairs_checked": 4920,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "basic_checks": {
+        "schema": "vv-toolbox.atlas-edit-checks/1",
+        "basic_invariants": "PASS",
+        "checks": {
+          "connectivity": "PASS",
+          "endpoint_positions_and_radii": "PASS",
+          "positive_radii": "PASS",
+          "no_new_degenerate_triangles": "PASS"
+        },
+        "area_tolerance_mm2": 1e-12,
+        "source_degenerate_triangles": 0,
+        "edited_degenerate_triangles": 0,
+        "newly_degenerate_face_ids": [],
+        "maximum_vertex_displacement_mm": 2.8703139315817268,
+        "self_intersection": "NOT RUN",
+        "surrounding_collision": "NOT RUN",
+        "junction_smoothness": "NOT RUN",
+        "anatomical_validity": "UNKNOWN",
+        "scope": "Same-connectivity mesh and centerline endpoint invariants only; inherited defects are counted separately."
+      },
+      "field_support_mm": 4.7317312259797415,
+      "maximum_centerline_displacement_mm": 2.8466918055526955,
+      "boundary_angles": {
+        "fixed_vertices": 262,
+        "moving_vertices": 140,
+        "before": {
+          "count": 140,
+          "max_deg": 29.922018676711193,
+          "p95_deg": 19.644321528689403,
+          "above_90": 0
+        },
+        "after": {
+          "count": 140,
+          "max_deg": 49.29040721169697,
+          "p95_deg": 23.716460152642664,
+          "above_90": 0
+        },
+        "newly_above_90_pairs": 0,
+        "smoothness": "UNKNOWN",
+        "scope": "Pairs touching both exactly fixed and displaced source vertices; includes endpoint and optional protected-region boundaries",
+        "limitation": "Face-normal angles are tessellation-dependent; no curvature or smoothness acceptance threshold established."
+      }
+    },
+    {
+      "contact_protection": true,
+      "parameters": {
+        "radius_scale": 1.0,
+        "tortuosity": 0.3,
+        "torsion_deg": 0.0
+      },
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 6526,
+        "adjacent_pairs_checked": 4920,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "basic_checks": {
+        "schema": "vv-toolbox.atlas-edit-checks/1",
+        "basic_invariants": "PASS",
+        "checks": {
+          "connectivity": "PASS",
+          "endpoint_positions_and_radii": "PASS",
+          "positive_radii": "PASS",
+          "no_new_degenerate_triangles": "PASS"
+        },
+        "area_tolerance_mm2": 1e-12,
+        "source_degenerate_triangles": 0,
+        "edited_degenerate_triangles": 0,
+        "newly_degenerate_face_ids": [],
+        "maximum_vertex_displacement_mm": 2.0413254621123165,
+        "self_intersection": "NOT RUN",
+        "surrounding_collision": "NOT RUN",
+        "junction_smoothness": "NOT RUN",
+        "anatomical_validity": "UNKNOWN",
+        "scope": "Same-connectivity mesh and centerline endpoint invariants only; inherited defects are counted separately."
+      },
+      "field_support_mm": 4.7317312259797415,
+      "maximum_centerline_displacement_mm": 2.0309983121107176,
+      "boundary_angles": {
+        "fixed_vertices": 262,
+        "moving_vertices": 140,
+        "before": {
+          "count": 140,
+          "max_deg": 29.922018676711193,
+          "p95_deg": 19.644321528689403,
+          "above_90": 0
+        },
+        "after": {
+          "count": 140,
+          "max_deg": 31.84081330092082,
+          "p95_deg": 22.28315101868136,
+          "above_90": 0
+        },
+        "newly_above_90_pairs": 0,
+        "smoothness": "UNKNOWN",
+        "scope": "Pairs touching both exactly fixed and displaced source vertices; includes endpoint and optional protected-region boundaries",
+        "limitation": "Face-normal angles are tessellation-dependent; no curvature or smoothness acceptance threshold established."
+      }
+    },
+    {
+      "contact_protection": true,
+      "parameters": {
+        "radius_scale": 1.0,
+        "tortuosity": 0.3,
+        "torsion_deg": 35.0
+      },
+      "self_contact": {
+        "status": "CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 6979,
+        "adjacent_pairs_checked": 4920,
+        "contact_pairs": [
+          [
+            308,
+            313
+          ],
+          [
+            313,
+            331
+          ],
+          [
+            313,
+            314
+          ],
+          [
+            314,
+            340
+          ],
+          [
+            314,
+            341
+          ],
+          [
+            331,
+            341
+          ],
+          [
+            332,
+            341
+          ],
+          [
+            398,
+            425
+          ],
+          [
+            398,
+            426
+          ],
+          [
+            401,
+            426
+          ]
+        ],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "basic_checks": {
+        "schema": "vv-toolbox.atlas-edit-checks/1",
+        "basic_invariants": "PASS",
+        "checks": {
+          "connectivity": "PASS",
+          "endpoint_positions_and_radii": "PASS",
+          "positive_radii": "PASS",
+          "no_new_degenerate_triangles": "PASS"
+        },
+        "area_tolerance_mm2": 1e-12,
+        "source_degenerate_triangles": 0,
+        "edited_degenerate_triangles": 0,
+        "newly_degenerate_face_ids": [],
+        "maximum_vertex_displacement_mm": 3.9577012156135694,
+        "self_intersection": "NOT RUN",
+        "surrounding_collision": "NOT RUN",
+        "junction_smoothness": "NOT RUN",
+        "anatomical_validity": "UNKNOWN",
+        "scope": "Same-connectivity mesh and centerline endpoint invariants only; inherited defects are counted separately."
+      },
+      "field_support_mm": 4.7317312259797415,
+      "maximum_centerline_displacement_mm": 3.928672600971385,
+      "boundary_angles": {
+        "fixed_vertices": 262,
+        "moving_vertices": 140,
+        "before": {
+          "count": 140,
+          "max_deg": 29.922018676711193,
+          "p95_deg": 19.644321528689403,
+          "above_90": 0
+        },
+        "after": {
+          "count": 140,
+          "max_deg": 62.17399584860403,
+          "p95_deg": 24.605684777411547,
+          "above_90": 0
+        },
+        "newly_above_90_pairs": 0,
+        "smoothness": "UNKNOWN",
+        "scope": "Pairs touching both exactly fixed and displaced source vertices; includes endpoint and optional protected-region boundaries",
+        "limitation": "Face-normal angles are tessellation-dependent; no curvature or smoothness acceptance threshold established."
+      }
+    },
+    {
+      "contact_protection": true,
+      "parameters": {
+        "radius_scale": 1.3,
+        "tortuosity": 0.0,
+        "torsion_deg": 0.0
+      },
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 6231,
+        "adjacent_pairs_checked": 4920,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "basic_checks": {
+        "schema": "vv-toolbox.atlas-edit-checks/1",
+        "basic_invariants": "PASS",
+        "checks": {
+          "connectivity": "PASS",
+          "endpoint_positions_and_radii": "PASS",
+          "positive_radii": "PASS",
+          "no_new_degenerate_triangles": "PASS"
+        },
+        "area_tolerance_mm2": 1e-12,
+        "source_degenerate_triangles": 0,
+        "edited_degenerate_triangles": 0,
+        "newly_degenerate_face_ids": [],
+        "maximum_vertex_displacement_mm": 0.5007488528564814,
+        "self_intersection": "NOT RUN",
+        "surrounding_collision": "NOT RUN",
+        "junction_smoothness": "NOT RUN",
+        "anatomical_validity": "UNKNOWN",
+        "scope": "Same-connectivity mesh and centerline endpoint invariants only; inherited defects are counted separately."
+      },
+      "field_support_mm": 4.7317312259797415,
+      "maximum_centerline_displacement_mm": 0.022172147988317552,
+      "boundary_angles": {
+        "fixed_vertices": 262,
+        "moving_vertices": 140,
+        "before": {
+          "count": 140,
+          "max_deg": 29.922018676711193,
+          "p95_deg": 19.644321528689403,
+          "above_90": 0
+        },
+        "after": {
+          "count": 140,
+          "max_deg": 29.922018669397794,
+          "p95_deg": 21.0338524291452,
+          "above_90": 0
+        },
+        "newly_above_90_pairs": 0,
+        "smoothness": "UNKNOWN",
+        "scope": "Pairs touching both exactly fixed and displaced source vertices; includes endpoint and optional protected-region boundaries",
+        "limitation": "Face-normal angles are tessellation-dependent; no curvature or smoothness acceptance threshold established."
+      }
+    },
+    {
+      "contact_protection": true,
+      "parameters": {
+        "radius_scale": 1.3,
+        "tortuosity": 0.0,
+        "torsion_deg": 35.0
+      },
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 6407,
+        "adjacent_pairs_checked": 4920,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "basic_checks": {
+        "schema": "vv-toolbox.atlas-edit-checks/1",
+        "basic_invariants": "PASS",
+        "checks": {
+          "connectivity": "PASS",
+          "endpoint_positions_and_radii": "PASS",
+          "positive_radii": "PASS",
+          "no_new_degenerate_triangles": "PASS"
+        },
+        "area_tolerance_mm2": 1e-12,
+        "source_degenerate_triangles": 0,
+        "edited_degenerate_triangles": 0,
+        "newly_degenerate_face_ids": [],
+        "maximum_vertex_displacement_mm": 3.1916446941959125,
+        "self_intersection": "NOT RUN",
+        "surrounding_collision": "NOT RUN",
+        "junction_smoothness": "NOT RUN",
+        "anatomical_validity": "UNKNOWN",
+        "scope": "Same-connectivity mesh and centerline endpoint invariants only; inherited defects are counted separately."
+      },
+      "field_support_mm": 4.7317312259797415,
+      "maximum_centerline_displacement_mm": 2.8324221073794824,
+      "boundary_angles": {
+        "fixed_vertices": 262,
+        "moving_vertices": 140,
+        "before": {
+          "count": 140,
+          "max_deg": 29.922018676711193,
+          "p95_deg": 19.644321528689403,
+          "above_90": 0
+        },
+        "after": {
+          "count": 140,
+          "max_deg": 53.354834096136386,
+          "p95_deg": 23.57712832760837,
+          "above_90": 0
+        },
+        "newly_above_90_pairs": 0,
+        "smoothness": "UNKNOWN",
+        "scope": "Pairs touching both exactly fixed and displaced source vertices; includes endpoint and optional protected-region boundaries",
+        "limitation": "Face-normal angles are tessellation-dependent; no curvature or smoothness acceptance threshold established."
+      }
+    },
+    {
+      "contact_protection": true,
+      "parameters": {
+        "radius_scale": 1.3,
+        "tortuosity": 0.3,
+        "torsion_deg": 0.0
+      },
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 6408,
+        "adjacent_pairs_checked": 4920,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "basic_checks": {
+        "schema": "vv-toolbox.atlas-edit-checks/1",
+        "basic_invariants": "PASS",
+        "checks": {
+          "connectivity": "PASS",
+          "endpoint_positions_and_radii": "PASS",
+          "positive_radii": "PASS",
+          "no_new_degenerate_triangles": "PASS"
+        },
+        "area_tolerance_mm2": 1e-12,
+        "source_degenerate_triangles": 0,
+        "edited_degenerate_triangles": 0,
+        "newly_degenerate_face_ids": [],
+        "maximum_vertex_displacement_mm": 2.51453016402157,
+        "self_intersection": "NOT RUN",
+        "surrounding_collision": "NOT RUN",
+        "junction_smoothness": "NOT RUN",
+        "anatomical_validity": "UNKNOWN",
+        "scope": "Same-connectivity mesh and centerline endpoint invariants only; inherited defects are counted separately."
+      },
+      "field_support_mm": 4.7317312259797415,
+      "maximum_centerline_displacement_mm": 2.0258990771434355,
+      "boundary_angles": {
+        "fixed_vertices": 262,
+        "moving_vertices": 140,
+        "before": {
+          "count": 140,
+          "max_deg": 29.922018676711193,
+          "p95_deg": 19.644321528689403,
+          "above_90": 0
+        },
+        "after": {
+          "count": 140,
+          "max_deg": 29.922018652252728,
+          "p95_deg": 21.497838282939767,
+          "above_90": 0
+        },
+        "newly_above_90_pairs": 0,
+        "smoothness": "UNKNOWN",
+        "scope": "Pairs touching both exactly fixed and displaced source vertices; includes endpoint and optional protected-region boundaries",
+        "limitation": "Face-normal angles are tessellation-dependent; no curvature or smoothness acceptance threshold established."
+      }
+    },
+    {
+      "contact_protection": true,
+      "parameters": {
+        "radius_scale": 1.3,
+        "tortuosity": 0.3,
+        "torsion_deg": 35.0
+      },
+      "self_contact": {
+        "status": "CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 6667,
+        "adjacent_pairs_checked": 4920,
+        "contact_pairs": [
+          [
+            308,
+            313
+          ],
+          [
+            313,
+            339
+          ],
+          [
+            313,
+            331
+          ],
+          [
+            313,
+            314
+          ],
+          [
+            331,
+            341
+          ],
+          [
+            332,
+            341
+          ],
+          [
+            398,
+            425
+          ],
+          [
+            398,
+            426
+          ],
+          [
+            401,
+            426
+          ]
+        ],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "basic_checks": {
+        "schema": "vv-toolbox.atlas-edit-checks/1",
+        "basic_invariants": "PASS",
+        "checks": {
+          "connectivity": "PASS",
+          "endpoint_positions_and_radii": "PASS",
+          "positive_radii": "PASS",
+          "no_new_degenerate_triangles": "PASS"
+        },
+        "area_tolerance_mm2": 1e-12,
+        "source_degenerate_triangles": 0,
+        "edited_degenerate_triangles": 0,
+        "newly_degenerate_face_ids": [],
+        "maximum_vertex_displacement_mm": 4.313092597779384,
+        "self_intersection": "NOT RUN",
+        "surrounding_collision": "NOT RUN",
+        "junction_smoothness": "NOT RUN",
+        "anatomical_validity": "UNKNOWN",
+        "scope": "Same-connectivity mesh and centerline endpoint invariants only; inherited defects are counted separately."
+      },
+      "field_support_mm": 4.7317312259797415,
+      "maximum_centerline_displacement_mm": 3.9099951596887403,
+      "boundary_angles": {
+        "fixed_vertices": 262,
+        "moving_vertices": 140,
+        "before": {
+          "count": 140,
+          "max_deg": 29.922018676711193,
+          "p95_deg": 19.644321528689403,
+          "above_90": 0
+        },
+        "after": {
+          "count": 140,
+          "max_deg": 64.68151811012578,
+          "p95_deg": 23.495674432590572,
+          "above_90": 0
+        },
+        "newly_above_90_pairs": 0,
+        "smoothness": "UNKNOWN",
+        "scope": "Pairs touching both exactly fixed and displaced source vertices; includes endpoint and optional protected-region boundaries",
+        "limitation": "Face-normal angles are tessellation-dependent; no curvature or smoothness acceptance threshold established."
+      }
+    }
+  ],
+  "live_workspace_modified": false,
+  "scope": "Component isolation on one native MCA. Endpoint collars always active. Surrounding-vessel intersections and volume containment NOT RUN."
+}

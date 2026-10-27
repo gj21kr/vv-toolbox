@@ -1,0 +1,21 @@
+{
+  "schema": "vv-toolbox.complete-case-output-validation/1",
+  "date": "2026-10-20",
+  "environment": "Docker vv-annotation-ui",
+  "command": "PYTHONPATH=src pytest -q -p no:cacheprovider tests/test_batch.py tests/test_fusiform_dilation.py tests/test_case_surface.py tests/test_geometry_quality.py",
+  "passed": 41,
+  "warnings": 63,
+  "seconds": 7.30,
+  "scope": "Synthetic two-vessel default full-case output and explicitly selected subsets",
+  "checks": {
+    "unmodified_vessel_surface_included": "PASS",
+    "unmodified_vessel_mask_included": "PASS",
+    "unmodified_vessel_lesion_label_zero": "PASS",
+    "unmodified_crossing_blocks_default_output": "PASS",
+    "explicit_subset_records_omitted_edge_ids": "PASS",
+    "cannot_omit_lesion_edge": "PASS",
+    "separate_graph_components_preserved": "PASS"
+  },
+  "anatomical_completeness": "UNKNOWN",
+  "actual_femoral_to_cerebral_model": "NOT RUN"
+}

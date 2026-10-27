@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "scope": "Current implementation service with live graph and regenerated pinned Atlas parts",
+  "summary": {
+    "case_id": "bp3d-arterial-workspace",
+    "model_kind": "synthetic",
+    "nodes": 1661,
+    "edges": 1085,
+    "surface_parts": 521,
+    "unresolved_edges": 1081,
+    "digest": "ce5726c1f980dffee4196638647fe5b6804aee4138f378c364224ba61cc2fee9"
+  },
+  "estimated_parts": [
+    "estimated_left_carotid_neck",
+    "estimated_left_vertebral_neck",
+    "estimated_right_carotid_neck",
+    "estimated_right_vertebral_neck"
+  ],
+  "omitted_arterial_parts": [
+    "FJ3553"
+  ],
+  "exact_surface_arrays": true,
+  "live_workspace_modified": false,
+  "browser": "NOT RUN",
+  "lumen_union": "NOT RUN",
+  "anatomical_connectivity": "NOT RUN"
+}

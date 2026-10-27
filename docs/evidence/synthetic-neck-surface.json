@@ -1,0 +1,96 @@
+{
+  "schema": "vv-toolbox.synthetic-neck-surface-inspection/1",
+  "status": "PASS",
+  "scope": "stored six-edge synthetic mesh topology and local rendered closeups",
+  "surface_file_sha256": "9c3d1d42ebf03be564d17b90c8f1033ce795b12dabef5890c12b9b521dec622d",
+  "case_revision": "165cebe813b506cf1a12bd299de0b05c96890def6214e4233d85d33e3eea55b3",
+  "selected_edge_ids": [
+    "estimated_L_carotid_gap",
+    "estimated_R_carotid_gap",
+    "FJ3483:e0",
+    "FJ1682M:e0",
+    "FJ3564:e0",
+    "FJ1682:e0"
+  ],
+  "spacing_mm": 0.6,
+  "vertices": 32824,
+  "triangles": 65640,
+  "graph_component_count": 2,
+  "mesh_component_count": 2,
+  "components": [
+    {
+      "vertices": 15332,
+      "triangles": 30660,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "volume_mm3": 5388.105629907575,
+      "euler_number": 2
+    },
+    {
+      "vertices": 17492,
+      "triangles": 34980,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "volume_mm3": 6657.815856575737,
+      "euler_number": 2
+    }
+  ],
+  "attachments": [
+    {
+      "bridge_id": "estimated_L_carotid_gap",
+      "endpoint": "start",
+      "node_id": "FJ3483:n1",
+      "position_mm": [
+        19.200000000000003,
+        -108.0,
+        1368.8000000000002
+      ],
+      "local_display_triangle_count": 5668
+    },
+    {
+      "bridge_id": "estimated_L_carotid_gap",
+      "endpoint": "end",
+      "node_id": "FJ1682M:n1",
+      "position_mm": [
+        35.497960300416175,
+        -105.36696152663214,
+        1436.8222026358928
+      ],
+      "local_display_triangle_count": 3252
+    },
+    {
+      "bridge_id": "estimated_R_carotid_gap",
+      "endpoint": "start",
+      "node_id": "FJ3564:n0",
+      "position_mm": [
+        -16.8,
+        -111.2,
+        1369.6000000000001
+      ],
+      "local_display_triangle_count": 5486
+    },
+    {
+      "bridge_id": "estimated_R_carotid_gap",
+      "endpoint": "end",
+      "node_id": "FJ1682:n0",
+      "position_mm": [
+        -35.49887344673566,
+        -105.36967197681852,
+        1436.8591633202527
+      ],
+      "local_display_triangle_count": 3237
+    }
+  ],
+  "input_bytes_unchanged": true,
+  "anatomical_acceptance": "UNKNOWN",
+  "surface_smoothness": "NOT RUN",
+  "final_surface_collision": "NOT RUN",
+  "source_surface_union": "NOT RUN",
+  "full_case_surface": "NOT RUN",
+  "figure": {
+    "path": "exports/synthetic-neck-case/neck-surface-attachments.png",
+    "sha256": "5f9eaa6bdef2cf61c86059084e32d82bb0f4c3f445d815efc195b0e855bd8d34"
+  }
+}

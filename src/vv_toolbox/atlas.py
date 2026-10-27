@@ -111,6 +111,10 @@ def load_atlas():
             raise ValueError('Pinned atlas source hash mismatch: '+name)
     tables={tree:list(csv.DictReader(io.StringIO((ROOT/f'{tree}_element_parts.txt').read_text(encoding='utf-8')),delimiter='\t')) for tree in ('isa','partof')}
     groups,labels=groups_from_tables(tables)
+    memberships={}
+    for tree,rows in tables.items():
+        for row in rows:
+            memberships.setdefault(row['element file id'],[]).append(dict(tree=tree,concept_id=row['concept id'],name=row['name']))
     meshes=[];parts=[]
     with zipfile.ZipFile(ROOT/'isa_BP3D_4.0_obj_99.zip') as archive:
         by_id={Path(name).stem:name for name in archive.namelist() if name.endswith('.obj')}
@@ -119,7 +123,7 @@ def load_atlas():
                 if element not in by_id:raise ValueError('Missing atlas element: '+element)
                 data=archive.read(by_id[element]);v,f=parse_obj(data)
                 _,name,concept=labels[element]
-                meshes.append(dict(id=element,name=name,layer=layer,vertices=v,faces=f))
+                meshes.append(dict(id=element,name=name,layer=layer,vertices=v,faces=f,concept_memberships=memberships.get(element,[])))
                 parts.append(dict(id=element,name=name,layer=layer,concept_id=concept,source_file=by_id[element],
                                   sha256=hashlib.sha256(data).hexdigest(),vertices=len(v),triangles=len(f),
                                   bounds_source=[v.min(axis=0).tolist(),v.max(axis=0).tolist()]))

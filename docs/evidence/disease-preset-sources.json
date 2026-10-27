@@ -1,0 +1,21 @@
+{
+  "schema": "vv-toolbox.disease-preset-evidence/1",
+  "date": "2026-10-20",
+  "scope": "geometry definitions and fixed published experimental conditions; not clinical limits or population distributions",
+  "sources": [
+    {"id":"S1","year":1994,"type":"original_measurement_study","url":"https://pubmed.ncbi.nlm.nih.gov/7974588/","doi":"10.1161/01.STR.25.12.2445","supports":["NASCET distal normal ICA reference beyond bulb"],"code_availability":"not_verified"},
+    {"id":"S2","year":2000,"type":"original_measurement_study","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC7976653/","pmid":"10782772","supports":["WASID diameter formula","protocol-specific proximal/distal/feeding reference hierarchy","major intracranial artery scope"],"does_not_support":["universal ACA A1-A3 and distal MCA validation","population severity distribution"],"code_availability":"not_verified"},
+    {"id":"S3","year":2008,"type":"original_morphometric_study","url":"https://pubmed.ncbi.nlm.nih.gov/18797347/","doi":"10.1227/01.NEU.0000316847.64140.81","supports":["perpendicular height and average neck diameter aspect ratio definition"],"does_not_support":["clinical generation limits"],"code_availability":"not_verified"},
+    {"id":"S4","year":2024,"type":"original_phantom_and_CFD_study","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC11097197/","supports":["fixed femoral model dimensions and 75 percent area stenosis"],"code_availability":"not_verified"},
+    {"id":"S5","year":2013,"type":"original_idealized_model_study","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC7965116/","supports":["fixed idealized MCA aneurysm dimensions","discrete daughter diameter ratio study settings"],"does_not_support":["population frequency or joint distribution"],"code_availability":"not_verified"},
+    {"id":"S6","year":2014,"type":"original_phantom_study","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC4981152/","doi":"10.1089/3dp.2013.0010","supports":["fixed idealized AAA lumen dimensions"],"code_availability":"not_verified"}
+  ],
+  "fixed_conditions": [
+    {"id":"femoral_concentric_area75","source_ids":["S4"],"region":"common_femoral","complete_geometry_preset":false,"parameters":{"CFA_diameter_mm":8.9,"SFA_diameter_mm":6.2,"DFA_diameter_mm":6.1,"area_stenosis_percent":75},"derived":{"circular_throat_diameter_mm":4.45,"derivation":"8.9 * sqrt(1 - 0.75)"},"required_unresolved":["lesion_length_mm","longitudinal_profile","branch_placement"],"distribution":null},
+    {"id":"mca_bifurcation_sphere42_neck40","source_ids":["S5"],"region":"MCA_bifurcation","complete_geometry_preset":false,"parameters":{"published_spherical_size_mm":4.2,"neck_width_mm":4,"published_dome_orientation_degrees":30},"published_study_settings":{"daughter_diameter_ratios":[1,1.3,2]},"required_unresolved":["orientation_axis_convention","attachment_construction","absolute_parent_and_daughter_dimensions"],"distribution":null},
+    {"id":"aaa_lumen50_neck24_iliac12","source_ids":["S6"],"region":"abdominal_aorta","complete_geometry_preset":false,"parameters":{"sac_lumen_diameter_mm":50,"proximal_neck_lumen_diameter_mm":24,"iliac_lumen_diameter_mm":12,"bifurcation_angle_degrees":60},"required_unresolved":["axial_dimensions","longitudinal_profile","angle_axis_convention"],"distribution":null}
+  ],
+  "execution_policy": {"manual_synthetic_allowed":true,"missing_values_require_explicit_operator_provenance":true,"automatic_population_sampling_supported":false,"clinical_limit_claims_supported":false},
+  "retrieval": {"primary_sources_only":true,"direct_PMC_browser_challenge_observed":true,"indexed_article_text_and_PubMed_available":true,"full_CAD_reproduction_verified":false,"supplementary_asset_licenses_verified":false},
+  "validation_status": {"specification":"draft","geometry_generator":"NOT RUN","clinical_validation":"NOT RUN"}
+}

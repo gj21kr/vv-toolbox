@@ -1,0 +1,25 @@
+{
+  "status": "MEASURED",
+  "before_revision": "55225c191c26dac632355661c941e338941964d3e043d07618c07f3d0c4cd2e0",
+  "after_revision": "3235bfc27f583b0b1592607c22d7d67fa3545cd77459a5a549cd80533ef3fac6",
+  "edge_id": "FJ2074:e0",
+  "before": {
+    "length_mm": 361.62467030160457,
+    "chord_mm": 348.5623043302302,
+    "length_over_chord": 1.037474981686485,
+    "ratio_status": "PASS",
+    "maximum_turn_deg": 22.64267234662951,
+    "total_turn_deg": 2947.0404214424734,
+    "definition": "Discrete source polyline; length/chord ratio and vertex turning angles; sampling-dependent, not differential torsion"
+  },
+  "after": {
+    "length_mm": 361.59145433847607,
+    "chord_mm": 348.5623043302302,
+    "length_over_chord": 1.0373796874945547,
+    "ratio_status": "PASS",
+    "maximum_turn_deg": 22.58815276609325,
+    "total_turn_deg": 2949.6754065579203,
+    "definition": "Discrete source polyline; length/chord ratio and vertex turning angles; sampling-dependent, not differential torsion"
+  },
+  "clinical_validity": "NOT RUN"
+}

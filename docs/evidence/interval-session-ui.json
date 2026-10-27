@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "Actual saved Atlas candidate application and undo through browser controls",
+  "duration_ms": 247079,
+  "part_id": "FJ1692",
+  "source_sha256": "082a9178daee4d52c79aaa709cba91fbdc56cfb5767fef4801fd4b9bb22d1964",
+  "generations": [
+    1,
+    2,
+    3
+  ],
+  "source_unchanged": true,
+  "active_edit_checks_restored": true,
+  "synthetic_response": false,
+  "full_viser_scene": "NOT RUN",
+  "errors": [],
+  "session_download_restore_undo": "PASS"
+}

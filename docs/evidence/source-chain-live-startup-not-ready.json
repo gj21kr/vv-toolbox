@@ -1,0 +1,5 @@
+{
+  "status": "FAIL",
+  "scope": "Actual demo HTTP split-source editing with synthetic fixture; not anatomical acceptance",
+  "error": "Error: page.goto: net::ERR_EMPTY_RESPONSE at http://127.0.0.1:8093/case-labels\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:8093/case-labels\", waiting until \"load\"\u001b[22m\n"
+}

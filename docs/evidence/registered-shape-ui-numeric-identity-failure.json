@@ -1,0 +1,8 @@
+{
+  "status": "FAIL",
+  "scope": "Actual registered wall/graph UI edit, failure preservation, undo/redo and download",
+  "browser_path": "Playwright: Browser plugin not available",
+  "failure_preserved": true,
+  "busy_controls_locked": true,
+  "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n... Skipped lines\n\n  {\n    case: {\n      base_model_id: 'bodyparts3d-4.0',\n+     case_id: 'registered-shape:e45dc6de041d268c950e',\n-     case_id: 'registered-shape:ce91c2d220977a2a3ee9',\n      declared_sample_graph: {\n        anatomical_validation: 'UNKNOWN',\n        declarations: [\n          {\n            edge_id: 'declared-link:0',\n...\n    },\n+   revision: 'ca06aa480af53522e030ed01be082c1cc690e24f39160e51cb01ff9ee3148f34',\n-   revision: 'e09458dedd417a1fad89eb9fbc5521a7f7074219ce31ccff88ee797c7ed65c8c',\n    schema: 'vv-toolbox.case-snapshot/1'\n  }\n"
+}

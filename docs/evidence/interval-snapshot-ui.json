@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "Actual Atlas creation, download, reimport and tamper rejection",
+  "snapshot_revision": "d6a63bb8c0dce322efc03c4a208c5690846f6cf0f3eb31f2214edfed4953a04a",
+  "snapshot_sha256": "502b8aab007ca5448e885d6440c116ecf497b4735cecf49c6ca4e2981241045a",
+  "source_sha256": "082a9178daee4d52c79aaa709cba91fbdc56cfb5767fef4801fd4b9bb22d1964",
+  "prior_preview_preserved_after_bad_import": true,
+  "source_unchanged": true,
+  "synthetic_response": false,
+  "geometry_revalidation_on_import": "NOT RUN",
+  "errors": []
+}

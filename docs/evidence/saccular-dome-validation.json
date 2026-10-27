@@ -1,0 +1,18 @@
+{
+  "scope": "Actual generated triangle dome dimensions and reproducible candidate metadata",
+  "environment": "Docker vv-annotation-ui, PYTHONPATH=src",
+  "command": "python -m pytest -q --tb=short -p no:cacheprovider tests/test_saccular_surface.py tests/test_saccular_masks.py tests/test_saccular_spec.py --junitxml=exports/saccular-dome-focused.xml",
+  "passed": 43,
+  "warnings": 58,
+  "seconds": 7.86,
+  "junit_sha256": "6cf1f41966c545becdc882faf31cdb8d5cd805fe870a6d42198ad854262e1a2a",
+  "fixture_evidence": "docs/evidence/saccular-neck-preservation.json",
+  "requested_width_depth_height_mm": [4, 3, 5],
+  "measured_width_depth_height_mm": [3.9986162185668945, 2.999842047691345, 5.0],
+  "engineering_tolerance_mm": 0.30,
+  "fault_injection": "Doubled sac width with unchanged neck/spec rejected by generated dome measurement",
+  "full_regression_after_this_change": "NOT RUN",
+  "global_surface_smoothness": "NOT RUN",
+  "actual_atlas_validation": "NOT RUN",
+  "clinical_validity": "NOT RUN"
+}

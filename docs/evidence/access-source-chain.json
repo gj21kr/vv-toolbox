@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "scope": "Actual access geometry with engineering split, not anatomical segmentation",
+  "parent_revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+  "input_revision": "d61f5fa1780f2edf21efa8d3a6511d396ceb6d6618814dabe052215b751c22c6",
+  "cut_station": 714,
+  "source_geometry_unchanged": true,
+  "source_path_reassembly_exact": true,
+  "accepted_for_generation": false,
+  "output_revision": "b31f1d2228bd61c92817a7c3e4935e8d7ccc1a86c8ee185e385cd1d444df879b",
+  "checked_paths": 66,
+  "graph_nodes_preserved": true,
+  "unselected_edges_preserved": true,
+  "labels_radii_preserved": true,
+  "audit": {
+    "status": "CANDIDATE",
+    "source_name": "FJ2074",
+    "bend_mm": 0.25,
+    "twist_deg": 0.0,
+    "collar_mm": 1.0,
+    "transition_mm": 10.0,
+    "maximum_displacement_mm": 0.2500000000000039,
+    "displacement_measurements": {
+      "maximum_displacement_mm": 0.2500000000000039,
+      "displacement_bound_mm": 1.0,
+      "surface_maximum_mm": 0.2500000000000039,
+      "surface_peak_vertex": 9252,
+      "surface_peak_position_mm": [
+        42.14649963378906,
+        -140.23199462890625,
+        704.8259887695312
+      ],
+      "surface_peak_chord_distance_mm": 32.1858556087745,
+      "path_maximum_mm": 0.2500000000000039,
+      "path_peak_station": 50,
+      "path_peak_position_mm": [
+        48.80191189936379,
+        -125.32107212569777,
+        813.8045347662114
+      ],
+      "chord_length_mm": 348.5623043302302,
+      "surface_displacement_percentiles_mm": [
+        0.0,
+        0.2500000000000039,
+        0.2500000000000039,
+        0.2500000000000039
+      ]
+    },
+    "fixed_vertices_unchanged": true,
+    "protected_graph_points": 66,
+    "protected_graph_points_fixed": true,
+    "path_endpoints_fixed": true,
+    "self_contact": {
+      "status": "NO_CONTACT_DETECTED",
+      "coverage": "all distinct triangle pairs",
+      "checked_pairs": 383671,
+      "adjacent_pairs_checked": 312942,
+      "contact_pairs": [],
+      "tolerance_mm": 1e-08,
+      "max_pairs": 2000000,
+      "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+    },
+    "centerline_containment": {
+      "status": "PASS",
+      "method": "interior-midpoint-ball-cover/1",
+      "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 25094,
+        "normalized_vertices": 25094,
+        "faces": 50188,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "71f35dba3cb91dcd165f2c12d08ef6df76eff282bb9e6ab9c54098e150d33534",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1427,
+      "processed_cells": 1427,
+      "covered_cells": 1427,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 0,
+      "minimum_cover_margin_mm": 4.177401738576505,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN"
+    },
+    "neighboring_vessels": "NOT RUN",
+    "radius_surface_consistency": "NOT RUN",
+    "anatomical_validation": "NOT RUN",
+    "affected_edge_ids": [
+      "FJ2074:e0",
+      "FJ2074:engineering-second"
+    ],
+    "field_scope": "One source-chain chord with fixed graph nodes"
+  },
+  "neighboring_vessels": "NOT RUN",
+  "elapsed_seconds": 272.97506097900623
+}

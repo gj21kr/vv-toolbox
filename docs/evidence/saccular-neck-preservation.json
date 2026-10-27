@@ -1,0 +1,548 @@
+{
+  "schema": "vv-toolbox.saccular-candidate/1",
+  "status": "CANDIDATE",
+  "generator_version": "saccular-sidewall-3",
+  "determinism": "no random sampling",
+  "case_revision": "aae0c1e09343288373c1d3d4f86116e4742e2330a102de12258bfc3842fc6deb",
+  "source_case_id": "sac-straight-parent-fixture",
+  "base_model_id": "engineering-fixture",
+  "sources": [
+    {
+      "id": "fixture",
+      "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "license_ref": "generated fixture; no atlas"
+    }
+  ],
+  "specification": {
+    "schema": "vv-toolbox.saccular-spec/1",
+    "type": "saccular",
+    "mode": "manual_synthetic",
+    "case_revision": "aae0c1e09343288373c1d3d4f86116e4742e2330a102de12258bfc3842fc6deb",
+    "base_model_id": "engineering-fixture",
+    "frame": {
+      "id": "fixture",
+      "units": "mm",
+      "axes": "LPS",
+      "origin": "arbitrary engineering origin"
+    },
+    "parameters": {
+      "lesion_id": "manual-sac",
+      "edge_id": "e",
+      "region": "aca",
+      "station_mm": 10,
+      "neck_center_mm": [
+        10,
+        2,
+        0
+      ],
+      "outward_normal": [
+        0,
+        1,
+        0
+      ],
+      "width_direction": [
+        1,
+        0,
+        0
+      ],
+      "neck_width_mm": 2,
+      "neck_depth_mm": 1,
+      "height_perpendicular_mm": 5,
+      "dome_width_mm": 4,
+      "dome_depth_mm": 3,
+      "blending_extent_mm": 0.5
+    },
+    "parent_anchor": {
+      "edge_id": "e",
+      "interval_index": 0,
+      "fraction": 0.5,
+      "position_mm": [
+        10.0,
+        0.0,
+        0.0
+      ]
+    },
+    "neck": {
+      "center_mm": [
+        10.0,
+        2.0,
+        0.0
+      ],
+      "normal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width_axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "depth_axis": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "curve_mm": [
+        [
+          11.0,
+          2.0,
+          0.0
+        ],
+        [
+          10.995184726672196,
+          2.0,
+          -0.0490085701647803
+        ],
+        [
+          10.98078528040323,
+          2.0,
+          -0.09754516100806412
+        ],
+        [
+          10.95694033573221,
+          2.0,
+          -0.14514233862723117
+        ],
+        [
+          10.923879532511286,
+          2.0,
+          -0.1913417161825449
+        ],
+        [
+          10.881921264348355,
+          2.0,
+          -0.23569836841299882
+        ],
+        [
+          10.831469612302545,
+          2.0,
+          -0.2777851165098011
+        ],
+        [
+          10.773010453362737,
+          2.0,
+          -0.31719664208182274
+        ],
+        [
+          10.707106781186548,
+          2.0,
+          -0.35355339059327373
+        ],
+        [
+          10.634393284163645,
+          2.0,
+          -0.3865052266813685
+        ],
+        [
+          10.555570233019603,
+          2.0,
+          -0.4157348061512726
+        ],
+        [
+          10.471396736825998,
+          2.0,
+          -0.44096063217417747
+        ],
+        [
+          10.38268343236509,
+          2.0,
+          -0.46193976625564337
+        ],
+        [
+          10.290284677254462,
+          2.0,
+          -0.47847016786610447
+        ],
+        [
+          10.195090322016128,
+          2.0,
+          -0.4903926402016152
+        ],
+        [
+          10.09801714032956,
+          2.0,
+          -0.4975923633360984
+        ],
+        [
+          10.0,
+          2.0,
+          -0.5
+        ],
+        [
+          9.90198285967044,
+          2.0,
+          -0.49759236333609846
+        ],
+        [
+          9.804909677983872,
+          2.0,
+          -0.4903926402016152
+        ],
+        [
+          9.709715322745538,
+          2.0,
+          -0.47847016786610447
+        ],
+        [
+          9.61731656763491,
+          2.0,
+          -0.46193976625564337
+        ],
+        [
+          9.528603263174002,
+          2.0,
+          -0.4409606321741775
+        ],
+        [
+          9.444429766980399,
+          2.0,
+          -0.41573480615127273
+        ],
+        [
+          9.365606715836355,
+          2.0,
+          -0.38650522668136855
+        ],
+        [
+          9.292893218813452,
+          2.0,
+          -0.3535533905932738
+        ],
+        [
+          9.226989546637263,
+          2.0,
+          -0.31719664208182274
+        ],
+        [
+          9.168530387697455,
+          2.0,
+          -0.2777851165098011
+        ],
+        [
+          9.118078735651645,
+          2.0,
+          -0.23569836841299893
+        ],
+        [
+          9.076120467488714,
+          2.0,
+          -0.19134171618254495
+        ],
+        [
+          9.04305966426779,
+          2.0,
+          -0.1451423386272312
+        ],
+        [
+          9.01921471959677,
+          2.0,
+          -0.0975451610080643
+        ],
+        [
+          9.004815273327804,
+          2.0,
+          -0.04900857016478041
+        ],
+        [
+          9.0,
+          2.0,
+          -6.123233995736766e-17
+        ],
+        [
+          9.004815273327804,
+          2.0,
+          0.049008570164780295
+        ],
+        [
+          9.01921471959677,
+          2.0,
+          0.09754516100806418
+        ],
+        [
+          9.04305966426779,
+          2.0,
+          0.14514233862723105
+        ],
+        [
+          9.076120467488714,
+          2.0,
+          0.19134171618254484
+        ],
+        [
+          9.118078735651645,
+          2.0,
+          0.23569836841299882
+        ],
+        [
+          9.168530387697455,
+          2.0,
+          0.277785116509801
+        ],
+        [
+          9.226989546637263,
+          2.0,
+          0.31719664208182263
+        ],
+        [
+          9.292893218813452,
+          2.0,
+          0.35355339059327373
+        ],
+        [
+          9.365606715836353,
+          2.0,
+          0.38650522668136833
+        ],
+        [
+          9.444429766980399,
+          2.0,
+          0.4157348061512726
+        ],
+        [
+          9.528603263174002,
+          2.0,
+          0.44096063217417747
+        ],
+        [
+          9.61731656763491,
+          2.0,
+          0.46193976625564326
+        ],
+        [
+          9.709715322745538,
+          2.0,
+          0.4784701678661044
+        ],
+        [
+          9.804909677983872,
+          2.0,
+          0.49039264020161516
+        ],
+        [
+          9.90198285967044,
+          2.0,
+          0.49759236333609846
+        ],
+        [
+          10.0,
+          2.0,
+          0.5
+        ],
+        [
+          10.09801714032956,
+          2.0,
+          0.49759236333609846
+        ],
+        [
+          10.195090322016128,
+          2.0,
+          0.4903926402016152
+        ],
+        [
+          10.290284677254462,
+          2.0,
+          0.47847016786610447
+        ],
+        [
+          10.38268343236509,
+          2.0,
+          0.4619397662556433
+        ],
+        [
+          10.471396736825998,
+          2.0,
+          0.4409606321741775
+        ],
+        [
+          10.555570233019601,
+          2.0,
+          0.41573480615127273
+        ],
+        [
+          10.634393284163645,
+          2.0,
+          0.38650522668136844
+        ],
+        [
+          10.707106781186548,
+          2.0,
+          0.35355339059327384
+        ],
+        [
+          10.773010453362737,
+          2.0,
+          0.31719664208182297
+        ],
+        [
+          10.831469612302545,
+          2.0,
+          0.2777851165098011
+        ],
+        [
+          10.881921264348355,
+          2.0,
+          0.23569836841299896
+        ],
+        [
+          10.923879532511286,
+          2.0,
+          0.1913417161825452
+        ],
+        [
+          10.95694033573221,
+          2.0,
+          0.14514233862723125
+        ],
+        [
+          10.98078528040323,
+          2.0,
+          0.09754516100806436
+        ],
+        [
+          10.995184726672196,
+          2.0,
+          0.04900857016478025
+        ]
+      ],
+      "curve_closed": true,
+      "curve_convention": "64 ordered ellipse samples; last connects to first",
+      "average_diameter_mm": 1.5,
+      "average_diameter_convention": "arithmetic mean of declared ellipse axis diameters",
+      "max_width_mm": 2
+    },
+    "requested_aspect_ratio_height_over_neck": 3.3333333333333335,
+    "geometry_status": "NOT GENERATED",
+    "checks": {
+      "parent_attachment": "UNKNOWN",
+      "open_neck_lumen": "NOT RUN",
+      "nonoverlap": "NOT RUN",
+      "surface_measurements": "NOT RUN",
+      "clinical_validity": "NOT RUN"
+    },
+    "parameter_provenance": "operator_defined; not a literature preset or population distribution"
+  },
+  "specification_sha256": "94e18d0f5eec8fca9c0c9cd2214f3be4a1f0cfbeb9367a20c40d4b28dfb134ea",
+  "edge_ids": [
+    "e"
+  ],
+  "frame": {
+    "id": "fixture",
+    "units": "mm",
+    "axes": "LPS",
+    "origin": "arbitrary engineering origin"
+  },
+  "spacing_mm": 0.15,
+  "grid_shape_xyz": [
+    167,
+    35,
+    71
+  ],
+  "grid_origin_mm": [
+    -2.4499999999999993,
+    -2.5,
+    2.55
+  ],
+  "grid_direction_columns": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0
+    ]
+  ],
+  "grid_axis_names": [
+    "neck_width",
+    "neck_depth",
+    "neck_normal"
+  ],
+  "tangent_plane_tie_policy": "parent-only zero-volume contacts treated outside at spacing/1000 field value",
+  "neck_measurement": {
+    "requested_width_depth_mm": [
+      2,
+      1
+    ],
+    "measured_width_depth_mm": [
+      2.0991029739379883,
+      1.0086474418640137
+    ],
+    "tolerance_mm": 0.3,
+    "method": "actual triangle-plane contour spans in declared neck frame",
+    "status": "PASS"
+  },
+  "dome_measurement": {
+    "requested_width_depth_height_mm": [
+      4,
+      3,
+      5
+    ],
+    "measured_width_depth_height_mm": [
+      3.9986162185668945,
+      2.999842047691345,
+      5.0
+    ],
+    "tolerance_mm": 0.3,
+    "method": "triangle surface clipped above declared neck plane; local axis spans and perpendicular height",
+    "tangent_parent_exclusion_mm": 1e-08,
+    "status": "PASS"
+  },
+  "method": "ellipsoidal-axis loft; buried-only tapered smooth union; neck-aligned grid; selected parent only",
+  "checks": {
+    "single_closed_surface": "PASS",
+    "sampled_lumen_connectivity": "PASS",
+    "context_support_clearance": "PASS",
+    "neck_dimensions": "PASS",
+    "dome_dimensions": "PASS",
+    "surface_dimensions": "PASS: declared neck and dome axis dimensions",
+    "remote_parent_self_contact": "NOT RUN",
+    "clinical_validity": "NOT RUN"
+  },
+  "context_clearance": [],
+  "neck_probe_positions_mm": [
+    [
+      10.0,
+      0.0,
+      0.0
+    ],
+    [
+      10.0,
+      2.0,
+      0.0
+    ],
+    [
+      10.0,
+      4.5,
+      0.0
+    ]
+  ],
+  "limitations": "Candidate only. Sampling is not a continuous lumen proof. Dimension tolerance is engineering-only. No accepted case lesion, bifurcation support or clinical acceptance.",
+  "vertices": 20436,
+  "triangles": 40868,
+  "independent_mesh_section_loops": 1,
+  "independent_mesh_voxel_central_channel": "PASS",
+  "fixture": "straight circular parent with manually specified sidewall sac; not atlas",
+  "actual_tip_y_mm": 7.0,
+  "requested_tip_y_mm": 7,
+  "actual_neck_width_depth_mm": [
+    2.0991029739379883,
+    1.0086474418640137
+  ],
+  "requested_neck_width_depth_mm": [
+    2,
+    1
+  ],
+  "measurement_note": "Same declared plane and triangle contour axis spans; engineering tolerance fixed at two grid spacings (0.30 mm).",
+  "neck_dimension_tolerance_mm": 0.3,
+  "neck_dimension_check": "PASS",
+  "surface_sha256": "646ca511dde69d543c95c7552565b9062a412a10d9348365d746934110c481d1",
+  "figure_sha256": "8d872b19ef61a9f7339cff2542f1ec4c4d2932f177fbcecf4fb0f8b8d547cc04"
+}

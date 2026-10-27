@@ -1,0 +1,3651 @@
+{
+  "status": "PASS",
+  "loops": [
+    {
+      "vertex_ids": [
+        8283,
+        8284,
+        8288,
+        8286,
+        8287,
+        8315,
+        8311,
+        8310,
+        8313,
+        8314,
+        8316,
+        8317,
+        8318,
+        8319,
+        8320,
+        8490,
+        8492,
+        8493,
+        8494,
+        8495,
+        8496,
+        8497,
+        8594,
+        8595,
+        8596,
+        8597,
+        8598,
+        8600,
+        8673,
+        8674,
+        8675,
+        8676,
+        8678,
+        8679,
+        8680,
+        14504,
+        14505,
+        14506,
+        14609,
+        14610,
+        14611,
+        14612,
+        14635,
+        14637,
+        14638,
+        14641,
+        14644,
+        14646,
+        14647,
+        14704,
+        14706,
+        14709,
+        14711,
+        14713,
+        15873,
+        15875,
+        15878,
+        15879,
+        15895,
+        15161,
+        15162,
+        15164,
+        15166,
+        15167,
+        15227,
+        15228,
+        15231,
+        15239,
+        15233,
+        15236,
+        15237,
+        15391,
+        15394,
+        15386,
+        15389,
+        15388,
+        15470,
+        15469,
+        15322,
+        15323,
+        15327,
+        15318,
+        15319,
+        16140,
+        16050,
+        16049,
+        16047,
+        16038,
+        16037,
+        16036,
+        16040,
+        16039,
+        15955,
+        15953,
+        15950,
+        15948,
+        15943,
+        15942,
+        15941,
+        13536,
+        13535,
+        13531,
+        13530,
+        13526,
+        11926,
+        11925,
+        11856,
+        11855,
+        11854,
+        11850,
+        11848,
+        11847,
+        11845,
+        11843,
+        11830,
+        11829,
+        11828,
+        11722,
+        11721,
+        11720,
+        11719,
+        11654,
+        11652,
+        11651,
+        11650,
+        11649,
+        11588,
+        11587,
+        11585,
+        11584,
+        11583,
+        11582,
+        10490,
+        10489,
+        10487,
+        10485,
+        10409,
+        10408,
+        10407,
+        10404,
+        10403,
+        10329,
+        10328,
+        10326,
+        10325,
+        10323,
+        10324,
+        10322,
+        10319,
+        10551,
+        10552,
+        10550,
+        10549,
+        10548,
+        10553,
+        10554
+      ],
+      "edges": [
+        {
+          "vertex_ids": [
+            8283,
+            8284
+          ],
+          "selected_face_ids": [
+            23033
+          ],
+          "complement_face_ids": [
+            23032
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8284,
+            8288
+          ],
+          "selected_face_ids": [
+            23036
+          ],
+          "complement_face_ids": [
+            23041
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8288,
+            8286
+          ],
+          "selected_face_ids": [
+            23035
+          ],
+          "complement_face_ids": [
+            23040
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8286,
+            8287
+          ],
+          "selected_face_ids": [
+            23037
+          ],
+          "complement_face_ids": [
+            23038
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8287,
+            8315
+          ],
+          "selected_face_ids": [
+            23039
+          ],
+          "complement_face_ids": [
+            23101
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8315,
+            8311
+          ],
+          "selected_face_ids": [
+            23091
+          ],
+          "complement_face_ids": [
+            23096
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8311,
+            8310
+          ],
+          "selected_face_ids": [
+            23092
+          ],
+          "complement_face_ids": [
+            23095
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8310,
+            8313
+          ],
+          "selected_face_ids": [
+            23094
+          ],
+          "complement_face_ids": [
+            23099
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8313,
+            8314
+          ],
+          "selected_face_ids": [
+            23098
+          ],
+          "complement_face_ids": [
+            23100
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8314,
+            8316
+          ],
+          "selected_face_ids": [
+            23097
+          ],
+          "complement_face_ids": [
+            23103
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8316,
+            8317
+          ],
+          "selected_face_ids": [
+            23102
+          ],
+          "complement_face_ids": [
+            23105
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8317,
+            8318
+          ],
+          "selected_face_ids": [
+            23104
+          ],
+          "complement_face_ids": [
+            23106
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8318,
+            8319
+          ],
+          "selected_face_ids": [
+            23436
+          ],
+          "complement_face_ids": [
+            23108
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8319,
+            8320
+          ],
+          "selected_face_ids": [
+            23437
+          ],
+          "complement_face_ids": [
+            23107
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8320,
+            8490
+          ],
+          "selected_face_ids": [
+            23438
+          ],
+          "complement_face_ids": [
+            23457
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8490,
+            8492
+          ],
+          "selected_face_ids": [
+            23439
+          ],
+          "complement_face_ids": [
+            23443
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8492,
+            8493
+          ],
+          "selected_face_ids": [
+            23441
+          ],
+          "complement_face_ids": [
+            23444
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8493,
+            8494
+          ],
+          "selected_face_ids": [
+            23442
+          ],
+          "complement_face_ids": [
+            23448
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8494,
+            8495
+          ],
+          "selected_face_ids": [
+            23446
+          ],
+          "complement_face_ids": [
+            23449
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8495,
+            8496
+          ],
+          "selected_face_ids": [
+            23447
+          ],
+          "complement_face_ids": [
+            23453
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8496,
+            8497
+          ],
+          "selected_face_ids": [
+            23657
+          ],
+          "complement_face_ids": [
+            23454
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8497,
+            8594
+          ],
+          "selected_face_ids": [
+            23658
+          ],
+          "complement_face_ids": [
+            23653
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8594,
+            8595
+          ],
+          "selected_face_ids": [
+            23659
+          ],
+          "complement_face_ids": [
+            23656
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8595,
+            8596
+          ],
+          "selected_face_ids": [
+            23662
+          ],
+          "complement_face_ids": [
+            23661
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8596,
+            8597
+          ],
+          "selected_face_ids": [
+            23663
+          ],
+          "complement_face_ids": [
+            23665
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8597,
+            8598
+          ],
+          "selected_face_ids": [
+            23668
+          ],
+          "complement_face_ids": [
+            23666
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8598,
+            8600
+          ],
+          "selected_face_ids": [
+            23669
+          ],
+          "complement_face_ids": [
+            23671
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8600,
+            8673
+          ],
+          "selected_face_ids": [
+            23672
+          ],
+          "complement_face_ids": [
+            23814
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8673,
+            8674
+          ],
+          "selected_face_ids": [
+            23673
+          ],
+          "complement_face_ids": [
+            23815
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8674,
+            8675
+          ],
+          "selected_face_ids": [
+            23820
+          ],
+          "complement_face_ids": [
+            23818
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8675,
+            8676
+          ],
+          "selected_face_ids": [
+            23822
+          ],
+          "complement_face_ids": [
+            23823
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8676,
+            8678
+          ],
+          "selected_face_ids": [
+            23824
+          ],
+          "complement_face_ids": [
+            23826
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8678,
+            8679
+          ],
+          "selected_face_ids": [
+            23829
+          ],
+          "complement_face_ids": [
+            23833
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8679,
+            8680
+          ],
+          "selected_face_ids": [
+            23831
+          ],
+          "complement_face_ids": [
+            23835
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            8680,
+            14504
+          ],
+          "selected_face_ids": [
+            23832
+          ],
+          "complement_face_ids": [
+            35443
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            14504,
+            14505
+          ],
+          "selected_face_ids": [
+            35446
+          ],
+          "complement_face_ids": [
+            35448
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            14505,
+            14506
+          ],
+          "selected_face_ids": [
+            35447
+          ],
+          "complement_face_ids": [
+            35450
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            14506,
+            14609
+          ],
+          "selected_face_ids": [
+            35641
+          ],
+          "complement_face_ids": [
+            35642
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            14609,
+            14610
+          ],
+          "selected_face_ids": [
+            35644
+          ],
+          "complement_face_ids": [
+            35648
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            14610,
+            14611
+          ],
+          "selected_face_ids": [
+            35646
+          ],
+          "complement_face_ids": [
+            35651
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            14611,
+            14612
+          ],
+          "selected_face_ids": [
+            35649
+          ],
+          "complement_face_ids": [
+            35653
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            14612,
+            14635
+          ],
+          "selected_face_ids": [
+            35650
+          ],
+          "complement_face_ids": [
+            35658
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            14635,
+            14637
+          ],
+          "selected_face_ids": [
+            35655
+          ],
+          "complement_face_ids": [
+            35699
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            14637,
+            14638
+          ],
+          "selected_face_ids": [
+            35657
+          ],
+          "complement_face_ids": [
+            35700
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            14638,
+            14641
+          ],
+          "selected_face_ids": [
+            35702
+          ],
+          "complement_face_ids": [
+            35704
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            14641,
+            14644
+          ],
+          "selected_face_ids": [
+            35705
+          ],
+          "complement_face_ids": [
+            35708
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            14644,
+            14646
+          ],
+          "selected_face_ids": [
+            35707
+          ],
+          "complement_face_ids": [
+            35711
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            14646,
+            14647
+          ],
+          "selected_face_ids": [
+            35709
+          ],
+          "complement_face_ids": [
+            35715
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            14647,
+            14704
+          ],
+          "selected_face_ids": [
+            35713
+          ],
+          "complement_face_ids": [
+            35831
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            14704,
+            14706
+          ],
+          "selected_face_ids": [
+            35832
+          ],
+          "complement_face_ids": [
+            35834
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            14706,
+            14709
+          ],
+          "selected_face_ids": [
+            35836
+          ],
+          "complement_face_ids": [
+            35838
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            14709,
+            14711
+          ],
+          "selected_face_ids": [
+            35839
+          ],
+          "complement_face_ids": [
+            35842
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            14711,
+            14713
+          ],
+          "selected_face_ids": [
+            35841
+          ],
+          "complement_face_ids": [
+            35844
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            14713,
+            15873
+          ],
+          "selected_face_ids": [
+            38185
+          ],
+          "complement_face_ids": [
+            38184
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15873,
+            15875
+          ],
+          "selected_face_ids": [
+            38188
+          ],
+          "complement_face_ids": [
+            38187
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15875,
+            15878
+          ],
+          "selected_face_ids": [
+            38190
+          ],
+          "complement_face_ids": [
+            38191
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15878,
+            15879
+          ],
+          "selected_face_ids": [
+            38192
+          ],
+          "complement_face_ids": [
+            38193
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15879,
+            15895
+          ],
+          "selected_face_ids": [
+            38195
+          ],
+          "complement_face_ids": [
+            38198
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15895,
+            15161
+          ],
+          "selected_face_ids": [
+            38197
+          ],
+          "complement_face_ids": [
+            38231
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15161,
+            15162
+          ],
+          "selected_face_ids": [
+            38228
+          ],
+          "complement_face_ids": [
+            38232
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15162,
+            15164
+          ],
+          "selected_face_ids": [
+            38230
+          ],
+          "complement_face_ids": [
+            36760
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15164,
+            15166
+          ],
+          "selected_face_ids": [
+            38234
+          ],
+          "complement_face_ids": [
+            36762
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15166,
+            15167
+          ],
+          "selected_face_ids": [
+            36763
+          ],
+          "complement_face_ids": [
+            36764
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15167,
+            15227
+          ],
+          "selected_face_ids": [
+            36766
+          ],
+          "complement_face_ids": [
+            36768
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15227,
+            15228
+          ],
+          "selected_face_ids": [
+            36884
+          ],
+          "complement_face_ids": [
+            36885
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15228,
+            15231
+          ],
+          "selected_face_ids": [
+            36887
+          ],
+          "complement_face_ids": [
+            36890
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15231,
+            15239
+          ],
+          "selected_face_ids": [
+            36889
+          ],
+          "complement_face_ids": [
+            36902
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15239,
+            15233
+          ],
+          "selected_face_ids": [
+            36891
+          ],
+          "complement_face_ids": [
+            36904
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15233,
+            15236
+          ],
+          "selected_face_ids": [
+            36894
+          ],
+          "complement_face_ids": [
+            36895
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15236,
+            15237
+          ],
+          "selected_face_ids": [
+            36896
+          ],
+          "complement_face_ids": [
+            36897
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15237,
+            15391
+          ],
+          "selected_face_ids": [
+            37223
+          ],
+          "complement_face_ids": [
+            37224
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15391,
+            15394
+          ],
+          "selected_face_ids": [
+            37219
+          ],
+          "complement_face_ids": [
+            37221
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15394,
+            15386
+          ],
+          "selected_face_ids": [
+            37220
+          ],
+          "complement_face_ids": [
+            37210
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15386,
+            15389
+          ],
+          "selected_face_ids": [
+            37211
+          ],
+          "complement_face_ids": [
+            37215
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15389,
+            15388
+          ],
+          "selected_face_ids": [
+            37375
+          ],
+          "complement_face_ids": [
+            37213
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15388,
+            15470
+          ],
+          "selected_face_ids": [
+            37374
+          ],
+          "complement_face_ids": [
+            37376
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15470,
+            15469
+          ],
+          "selected_face_ids": [
+            37381
+          ],
+          "complement_face_ids": [
+            37377
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15469,
+            15322
+          ],
+          "selected_face_ids": [
+            37079
+          ],
+          "complement_face_ids": [
+            37080
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15322,
+            15323
+          ],
+          "selected_face_ids": [
+            37076
+          ],
+          "complement_face_ids": [
+            37077
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15323,
+            15327
+          ],
+          "selected_face_ids": [
+            37075
+          ],
+          "complement_face_ids": [
+            37082
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15327,
+            15318
+          ],
+          "selected_face_ids": [
+            37085
+          ],
+          "complement_face_ids": [
+            37069
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15318,
+            15319
+          ],
+          "selected_face_ids": [
+            37083
+          ],
+          "complement_face_ids": [
+            37071
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15319,
+            16140
+          ],
+          "selected_face_ids": [
+            38718
+          ],
+          "complement_face_ids": [
+            38722
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            16140,
+            16050
+          ],
+          "selected_face_ids": [
+            38544
+          ],
+          "complement_face_ids": [
+            38720
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            16050,
+            16049
+          ],
+          "selected_face_ids": [
+            38543
+          ],
+          "complement_face_ids": [
+            38545
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            16049,
+            16047
+          ],
+          "selected_face_ids": [
+            38547
+          ],
+          "complement_face_ids": [
+            38548
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            16047,
+            16038
+          ],
+          "selected_face_ids": [
+            38523
+          ],
+          "complement_face_ids": [
+            38524
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            16038,
+            16037
+          ],
+          "selected_face_ids": [
+            38533
+          ],
+          "complement_face_ids": [
+            38522
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            16037,
+            16036
+          ],
+          "selected_face_ids": [
+            38532
+          ],
+          "complement_face_ids": [
+            38535
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            16036,
+            16040
+          ],
+          "selected_face_ids": [
+            38529
+          ],
+          "complement_face_ids": [
+            38530
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            16040,
+            16039
+          ],
+          "selected_face_ids": [
+            38526
+          ],
+          "complement_face_ids": [
+            38527
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            16039,
+            15955
+          ],
+          "selected_face_ids": [
+            38350
+          ],
+          "complement_face_ids": [
+            38352
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15955,
+            15953
+          ],
+          "selected_face_ids": [
+            38351
+          ],
+          "complement_face_ids": [
+            38348
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15953,
+            15950
+          ],
+          "selected_face_ids": [
+            38342
+          ],
+          "complement_face_ids": [
+            38343
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15950,
+            15948
+          ],
+          "selected_face_ids": [
+            38337
+          ],
+          "complement_face_ids": [
+            38340
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15948,
+            15943
+          ],
+          "selected_face_ids": [
+            38336
+          ],
+          "complement_face_ids": [
+            38338
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15943,
+            15942
+          ],
+          "selected_face_ids": [
+            38333
+          ],
+          "complement_face_ids": [
+            38331
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15942,
+            15941
+          ],
+          "selected_face_ids": [
+            38332
+          ],
+          "complement_face_ids": [
+            38330
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            15941,
+            13536
+          ],
+          "selected_face_ids": [
+            33512
+          ],
+          "complement_face_ids": [
+            33511
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            13536,
+            13535
+          ],
+          "selected_face_ids": [
+            33506
+          ],
+          "complement_face_ids": [
+            33509
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            13535,
+            13531
+          ],
+          "selected_face_ids": [
+            33504
+          ],
+          "complement_face_ids": [
+            33505
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            13531,
+            13530
+          ],
+          "selected_face_ids": [
+            33500
+          ],
+          "complement_face_ids": [
+            33501
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            13530,
+            13526
+          ],
+          "selected_face_ids": [
+            33498
+          ],
+          "complement_face_ids": [
+            33497
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            13526,
+            11926
+          ],
+          "selected_face_ids": [
+            33492
+          ],
+          "complement_face_ids": [
+            33494
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11926,
+            11925
+          ],
+          "selected_face_ids": [
+            33491
+          ],
+          "complement_face_ids": [
+            33493
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11925,
+            11856
+          ],
+          "selected_face_ids": [
+            30139
+          ],
+          "complement_face_ids": [
+            30140
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11856,
+            11855
+          ],
+          "selected_face_ids": [
+            30134
+          ],
+          "complement_face_ids": [
+            30136
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11855,
+            11854
+          ],
+          "selected_face_ids": [
+            30133
+          ],
+          "complement_face_ids": [
+            30135
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11854,
+            11850
+          ],
+          "selected_face_ids": [
+            30131
+          ],
+          "complement_face_ids": [
+            30130
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11850,
+            11848
+          ],
+          "selected_face_ids": [
+            30129
+          ],
+          "complement_face_ids": [
+            30127
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11848,
+            11847
+          ],
+          "selected_face_ids": [
+            30125
+          ],
+          "complement_face_ids": [
+            30124
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11847,
+            11845
+          ],
+          "selected_face_ids": [
+            30119
+          ],
+          "complement_face_ids": [
+            30121
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11845,
+            11843
+          ],
+          "selected_face_ids": [
+            30117
+          ],
+          "complement_face_ids": [
+            30118
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11843,
+            11830
+          ],
+          "selected_face_ids": [
+            30115
+          ],
+          "complement_face_ids": [
+            30095
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11830,
+            11829
+          ],
+          "selected_face_ids": [
+            30094
+          ],
+          "complement_face_ids": [
+            30091
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11829,
+            11828
+          ],
+          "selected_face_ids": [
+            29887
+          ],
+          "complement_face_ids": [
+            30090
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11828,
+            11722
+          ],
+          "selected_face_ids": [
+            29884
+          ],
+          "complement_face_ids": [
+            29890
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11722,
+            11721
+          ],
+          "selected_face_ids": [
+            29881
+          ],
+          "complement_face_ids": [
+            29886
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11721,
+            11720
+          ],
+          "selected_face_ids": [
+            29878
+          ],
+          "complement_face_ids": [
+            29883
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11720,
+            11719
+          ],
+          "selected_face_ids": [
+            29879
+          ],
+          "complement_face_ids": [
+            29880
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11719,
+            11654
+          ],
+          "selected_face_ids": [
+            29753
+          ],
+          "complement_face_ids": [
+            29754
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11654,
+            11652
+          ],
+          "selected_face_ids": [
+            29751
+          ],
+          "complement_face_ids": [
+            29750
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11652,
+            11651
+          ],
+          "selected_face_ids": [
+            29749
+          ],
+          "complement_face_ids": [
+            29746
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11651,
+            11650
+          ],
+          "selected_face_ids": [
+            29747
+          ],
+          "complement_face_ids": [
+            29744
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11650,
+            11649
+          ],
+          "selected_face_ids": [
+            29739
+          ],
+          "complement_face_ids": [
+            29742
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11649,
+            11588
+          ],
+          "selected_face_ids": [
+            29620
+          ],
+          "complement_face_ids": [
+            29623
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11588,
+            11587
+          ],
+          "selected_face_ids": [
+            29618
+          ],
+          "complement_face_ids": [
+            29621
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11587,
+            11585
+          ],
+          "selected_face_ids": [
+            29616
+          ],
+          "complement_face_ids": [
+            29617
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11585,
+            11584
+          ],
+          "selected_face_ids": [
+            29613
+          ],
+          "complement_face_ids": [
+            29612
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11584,
+            11583
+          ],
+          "selected_face_ids": [
+            29610
+          ],
+          "complement_face_ids": [
+            29608
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11583,
+            11582
+          ],
+          "selected_face_ids": [
+            29609
+          ],
+          "complement_face_ids": [
+            29605
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            11582,
+            10490
+          ],
+          "selected_face_ids": [
+            27454
+          ],
+          "complement_face_ids": [
+            27456
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10490,
+            10489
+          ],
+          "selected_face_ids": [
+            27451
+          ],
+          "complement_face_ids": [
+            27452
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10489,
+            10487
+          ],
+          "selected_face_ids": [
+            27450
+          ],
+          "complement_face_ids": [
+            27449
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10487,
+            10485
+          ],
+          "selected_face_ids": [
+            27448
+          ],
+          "complement_face_ids": [
+            27445
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10485,
+            10409
+          ],
+          "selected_face_ids": [
+            27444
+          ],
+          "complement_face_ids": [
+            27440
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10409,
+            10408
+          ],
+          "selected_face_ids": [
+            27278
+          ],
+          "complement_face_ids": [
+            27281
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10408,
+            10407
+          ],
+          "selected_face_ids": [
+            27277
+          ],
+          "complement_face_ids": [
+            27279
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10407,
+            10404
+          ],
+          "selected_face_ids": [
+            27275
+          ],
+          "complement_face_ids": [
+            27274
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10404,
+            10403
+          ],
+          "selected_face_ids": [
+            27268
+          ],
+          "complement_face_ids": [
+            27271
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10403,
+            10329
+          ],
+          "selected_face_ids": [
+            27283
+          ],
+          "complement_face_ids": [
+            27284
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10329,
+            10328
+          ],
+          "selected_face_ids": [
+            27101
+          ],
+          "complement_face_ids": [
+            27103
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10328,
+            10326
+          ],
+          "selected_face_ids": [
+            27100
+          ],
+          "complement_face_ids": [
+            27102
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10326,
+            10325
+          ],
+          "selected_face_ids": [
+            27098
+          ],
+          "complement_face_ids": [
+            27096
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10325,
+            10323
+          ],
+          "selected_face_ids": [
+            27087
+          ],
+          "complement_face_ids": [
+            27106
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10323,
+            10324
+          ],
+          "selected_face_ids": [
+            27086
+          ],
+          "complement_face_ids": [
+            27093
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10324,
+            10322
+          ],
+          "selected_face_ids": [
+            27091
+          ],
+          "complement_face_ids": [
+            27092
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10322,
+            10319
+          ],
+          "selected_face_ids": [
+            27088
+          ],
+          "complement_face_ids": [
+            27090
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10319,
+            10551
+          ],
+          "selected_face_ids": [
+            27089
+          ],
+          "complement_face_ids": [
+            27566
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10551,
+            10552
+          ],
+          "selected_face_ids": [
+            27564
+          ],
+          "complement_face_ids": [
+            27567
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10552,
+            10550
+          ],
+          "selected_face_ids": [
+            27563
+          ],
+          "complement_face_ids": [
+            27565
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10550,
+            10549
+          ],
+          "selected_face_ids": [
+            27558
+          ],
+          "complement_face_ids": [
+            27562
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10549,
+            10548
+          ],
+          "selected_face_ids": [
+            27560
+          ],
+          "complement_face_ids": [
+            27561
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10548,
+            10553
+          ],
+          "selected_face_ids": [
+            27559
+          ],
+          "complement_face_ids": [
+            27570
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10553,
+            10554
+          ],
+          "selected_face_ids": [
+            27568
+          ],
+          "complement_face_ids": [
+            27569
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        },
+        {
+          "vertex_ids": [
+            10554,
+            8283
+          ],
+          "selected_face_ids": [
+            23030
+          ],
+          "complement_face_ids": [
+            23034
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "estimated_right_carotid_neck"
+          ]
+        }
+      ],
+      "status": "PASS",
+      "complement_owner_edge_counts": {
+        "estimated_right_carotid_neck": 156
+      }
+    },
+    {
+      "vertex_ids": [
+        18592,
+        18610,
+        18607,
+        18608,
+        18609,
+        18598,
+        18600,
+        18599,
+        18601,
+        19008,
+        19009,
+        19010,
+        19011,
+        19012,
+        19019,
+        19020,
+        19030,
+        19031,
+        19032,
+        19033,
+        19034,
+        19035,
+        19096,
+        19097,
+        19099,
+        19100,
+        19102,
+        19094,
+        19093,
+        19091,
+        19092,
+        20054,
+        20053,
+        20052,
+        20051,
+        18809,
+        18807,
+        18799,
+        18798,
+        18797,
+        18796,
+        18789,
+        18788,
+        18784,
+        18783
+      ],
+      "edges": [
+        {
+          "vertex_ids": [
+            18592,
+            18610
+          ],
+          "selected_face_ids": [
+            40683
+          ],
+          "complement_face_ids": [
+            5370
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            18610,
+            18607
+          ],
+          "selected_face_ids": [
+            40704
+          ],
+          "complement_face_ids": [
+            5382
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            18607,
+            18608
+          ],
+          "selected_face_ids": [
+            40702
+          ],
+          "complement_face_ids": [
+            5381
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            18608,
+            18609
+          ],
+          "selected_face_ids": [
+            40703
+          ],
+          "complement_face_ids": [
+            5376
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            18609,
+            18598
+          ],
+          "selected_face_ids": [
+            40689
+          ],
+          "complement_face_ids": [
+            5377
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            18598,
+            18600
+          ],
+          "selected_face_ids": [
+            40691
+          ],
+          "complement_face_ids": [
+            5375
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            18600,
+            18599
+          ],
+          "selected_face_ids": [
+            40690
+          ],
+          "complement_face_ids": [
+            5374
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            18599,
+            18601
+          ],
+          "selected_face_ids": [
+            40692
+          ],
+          "complement_face_ids": [
+            5378
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            18601,
+            19008
+          ],
+          "selected_face_ids": [
+            40693
+          ],
+          "complement_face_ids": [
+            5380
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19008,
+            19009
+          ],
+          "selected_face_ids": [
+            41416
+          ],
+          "complement_face_ids": [
+            5379
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19009,
+            19010
+          ],
+          "selected_face_ids": [
+            41417
+          ],
+          "complement_face_ids": [
+            5461
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19010,
+            19011
+          ],
+          "selected_face_ids": [
+            41419
+          ],
+          "complement_face_ids": [
+            5462
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19011,
+            19012
+          ],
+          "selected_face_ids": [
+            41420
+          ],
+          "complement_face_ids": [
+            5463
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19012,
+            19019
+          ],
+          "selected_face_ids": [
+            41425
+          ],
+          "complement_face_ids": [
+            5466
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19019,
+            19020
+          ],
+          "selected_face_ids": [
+            41426
+          ],
+          "complement_face_ids": [
+            5467
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19020,
+            19030
+          ],
+          "selected_face_ids": [
+            41428
+          ],
+          "complement_face_ids": [
+            5468
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19030,
+            19031
+          ],
+          "selected_face_ids": [
+            41429
+          ],
+          "complement_face_ids": [
+            5484
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19031,
+            19032
+          ],
+          "selected_face_ids": [
+            41430
+          ],
+          "complement_face_ids": [
+            5485
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19032,
+            19033
+          ],
+          "selected_face_ids": [
+            41431
+          ],
+          "complement_face_ids": [
+            5490
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19033,
+            19034
+          ],
+          "selected_face_ids": [
+            41432
+          ],
+          "complement_face_ids": [
+            5491
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19034,
+            19035
+          ],
+          "selected_face_ids": [
+            41433
+          ],
+          "complement_face_ids": [
+            5492
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19035,
+            19096
+          ],
+          "selected_face_ids": [
+            41434
+          ],
+          "complement_face_ids": [
+            5511
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19096,
+            19097
+          ],
+          "selected_face_ids": [
+            41531
+          ],
+          "complement_face_ids": [
+            5512
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19097,
+            19099
+          ],
+          "selected_face_ids": [
+            41533
+          ],
+          "complement_face_ids": [
+            5513
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19099,
+            19100
+          ],
+          "selected_face_ids": [
+            41532
+          ],
+          "complement_face_ids": [
+            5519
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19100,
+            19102
+          ],
+          "selected_face_ids": [
+            41534
+          ],
+          "complement_face_ids": [
+            5518
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19102,
+            19094
+          ],
+          "selected_face_ids": [
+            41526
+          ],
+          "complement_face_ids": [
+            5521
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19094,
+            19093
+          ],
+          "selected_face_ids": [
+            41527
+          ],
+          "complement_face_ids": [
+            5520
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19093,
+            19091
+          ],
+          "selected_face_ids": [
+            41525
+          ],
+          "complement_face_ids": [
+            5509
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19091,
+            19092
+          ],
+          "selected_face_ids": [
+            41528
+          ],
+          "complement_face_ids": [
+            5508
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            19092,
+            20054
+          ],
+          "selected_face_ids": [
+            41523
+          ],
+          "complement_face_ids": [
+            5531
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            20054,
+            20053
+          ],
+          "selected_face_ids": [
+            43454
+          ],
+          "complement_face_ids": [
+            5528
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            20053,
+            20052
+          ],
+          "selected_face_ids": [
+            43453
+          ],
+          "complement_face_ids": [
+            5527
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            20052,
+            20051
+          ],
+          "selected_face_ids": [
+            41056
+          ],
+          "complement_face_ids": [
+            5526
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            20051,
+            18809
+          ],
+          "selected_face_ids": [
+            41055
+          ],
+          "complement_face_ids": [
+            5430
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            18809,
+            18807
+          ],
+          "selected_face_ids": [
+            41054
+          ],
+          "complement_face_ids": [
+            5429
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            18807,
+            18799
+          ],
+          "selected_face_ids": [
+            41049
+          ],
+          "complement_face_ids": [
+            5428
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            18799,
+            18798
+          ],
+          "selected_face_ids": [
+            41047
+          ],
+          "complement_face_ids": [
+            5427
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            18798,
+            18797
+          ],
+          "selected_face_ids": [
+            41046
+          ],
+          "complement_face_ids": [
+            5417
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            18797,
+            18796
+          ],
+          "selected_face_ids": [
+            41039
+          ],
+          "complement_face_ids": [
+            5414
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            18796,
+            18789
+          ],
+          "selected_face_ids": [
+            41038
+          ],
+          "complement_face_ids": [
+            5413
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            18789,
+            18788
+          ],
+          "selected_face_ids": [
+            41037
+          ],
+          "complement_face_ids": [
+            5405
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            18788,
+            18784
+          ],
+          "selected_face_ids": [
+            41032
+          ],
+          "complement_face_ids": [
+            5401
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            18784,
+            18783
+          ],
+          "selected_face_ids": [
+            41031
+          ],
+          "complement_face_ids": [
+            5398
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        },
+        {
+          "vertex_ids": [
+            18783,
+            18592
+          ],
+          "selected_face_ids": [
+            40684
+          ],
+          "complement_face_ids": [
+            5371
+          ],
+          "status": "PASS",
+          "opposite_winding": true,
+          "complement_source_owners": [
+            "FJ3411"
+          ]
+        }
+      ],
+      "status": "PASS",
+      "complement_owner_edge_counts": {
+        "FJ3411": 45
+      }
+    }
+  ],
+  "boundary_edge_count": 201,
+  "scope": "Original mesh index pairing and opposite winding only",
+  "edited_geometry_compatibility": "NOT RUN",
+  "anatomical_validation": "NOT RUN",
+  "source_surface_sha256": "bad61c62ca40b1aade54c6e52e3ded05829240b23f6dbd915991d8688ae313d9",
+  "patch_sha256": "1655747431b193a60b60e1d6e97f227668cc5dbb52da59efdaf4141acb3e6acb",
+  "source_modified": false,
+  "live_scene_changed": false
+}

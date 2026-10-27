@@ -1,0 +1,32 @@
+{
+  "source_sha256": "bfd4bf543e94cb9604e67424476b6c1b8442bbe522aa5f7243ca482d2c95a2ad",
+  "case_revision": "90aa67f11b698178168d7491e1da7d23bd621f252dfea6dd47029af93b9a9da4",
+  "config": {
+    "region_distance_mm": 2.0,
+    "strength": 10.0,
+    "max_displacement_mm": 0.3,
+    "max_volume_change_fraction": 0.02
+  },
+  "app_applied": false,
+  "status": "CANDIDATE",
+  "metrics": {
+    "status": "CANDIDATE",
+    "method": "fixed-vertex squared uniform Laplacian",
+    "strength": 10.0,
+    "free_vertices": 2533,
+    "max_displacement_mm": 0.16257982499738632,
+    "displacement_limit_mm": 0.3,
+    "volume_change_fraction": 0.00020222423352600494,
+    "volume_change_limit_fraction": 0.02,
+    "fixed_vertices_exact": true,
+    "closed_volume": "PASS",
+    "self_intersection": "NOT RUN"
+  },
+  "design_rim_exact": true,
+  "seam_dihedral_p95_deg": 104.04093804562645,
+  "seam_dihedral_max_deg": 119.43114749953948,
+  "artifact_sha256": "c39ba55a42a8735ca26510da6af9a33214692938e68d828a639892df2e8b0b21",
+  "smooth_junction": "UNKNOWN",
+  "context_collision": "NOT RUN",
+  "input_unchanged": true
+}

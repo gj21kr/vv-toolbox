@@ -1,0 +1,10 @@
+{
+  "schema": "vv-toolbox.validation/1",
+  "date": "2026-10-20",
+  "environment": "Docker vv-annotation-ui",
+  "command": "PYTHONPATH=src pytest -q -p no:cacheprovider tests/test_centerline_regularization.py tests/test_centerline_regularization_cli.py tests/test_radius_regularization.py tests/test_junction_continuity.py",
+  "passed": 31,
+  "seconds": 1.03,
+  "scope": "Bounded synthetic centerline smoothing with frozen endpoint chords, original radii, source and lesion protection, provenance and CLI roundtrip",
+  "actual_surface_improvement": "NOT ACCEPTED; separate fixed-condition experiment recorded"
+}

@@ -1,0 +1,327 @@
+{
+  "schema": "vv-toolbox.synthetic-right-iliac-junction/1",
+  "parent_revision": "23b547d31386462dbae203c4f60f67c0c363962878db538af88fe657570f5621",
+  "case_revision": "ac6663b2ad015ed1031d35ff61ba84bcb35be5838656397e59d79107d2cdf8f5",
+  "cuts": [
+    {
+      "schema": "vv-toolbox.synthetic-terminal-trim/1",
+      "parent_case_sha256": "23b547d31386462dbae203c4f60f67c0c363962878db538af88fe657570f5621",
+      "source_hashes": {
+        "bp3d": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+        "bp3d-preview": "1f099284deca459fcf34850d2c84223e98f78d6f576d9faa72aa0ee66a0cc8f9"
+      },
+      "edge_id": "FJ3565:e0",
+      "remove_endpoint": "start",
+      "interval_index": 7,
+      "fraction": 0.749999999999929,
+      "node_id": "FJ3565:e0-iliac-cut",
+      "child_edge_ids": [
+        "R-CIA-removed-tail",
+        "R-CIA-retained"
+      ],
+      "rationale": "Explicit synthetic overlap treatment at fixed LPS Z=915.0 mm; not an anatomical boundary",
+      "evidence_refs": [
+        "docs/evidence/access-route-endpoints.json"
+      ]
+    },
+    {
+      "schema": "vv-toolbox.synthetic-terminal-trim/1",
+      "parent_case_sha256": "b6fabcac0e754daddd8928a4d21448c4e58eafa88ece3c4b9b66f5220d6ea8fb",
+      "source_hashes": {
+        "bp3d": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+        "bp3d-preview": "1f099284deca459fcf34850d2c84223e98f78d6f576d9faa72aa0ee66a0cc8f9"
+      },
+      "edge_id": "FJ3567:e0-trim-second",
+      "remove_endpoint": "end",
+      "interval_index": 87,
+      "fraction": 0.749999999999929,
+      "node_id": "FJ3567:e0-trim-second-iliac-cut",
+      "child_edge_ids": [
+        "R-EIA-retained",
+        "R-EIA-removed-tail"
+      ],
+      "rationale": "Explicit synthetic overlap treatment at fixed LPS Z=903.0 mm; not an anatomical boundary",
+      "evidence_refs": [
+        "docs/evidence/access-route-endpoints.json"
+      ]
+    }
+  ],
+  "continuation_spec": {
+    "schema": "vv-toolbox.synthetic-route-extension/1",
+    "parent_case_sha256": "166f757005c1c4d4a22fcaf5ad1920e15a8eb2d4b595ab38684955b4399be122",
+    "bridges": [
+      {
+        "id": "estimated_R_CIA_EIA_continuation",
+        "from": {
+          "edge_id": "R-CIA-retained",
+          "endpoint": "start"
+        },
+        "to": {
+          "edge_id": "R-EIA-retained",
+          "endpoint": "end"
+        },
+        "handle_lengths_mm": [
+          16.590358645912413,
+          16.590358645912413
+        ],
+        "samples": 192,
+        "rationale": "Estimated continuation across explicitly trimmed R iliac endpoint overlap",
+        "evidence_refs": [
+          "docs/evidence/access-route-endpoints.json"
+        ]
+      }
+    ]
+  },
+  "new_attachments": [
+    {
+      "bridge_id": "estimated_R_CIA_EIA_continuation",
+      "attachment": "start",
+      "source_edge_id": "R-CIA-retained",
+      "source_endpoint": "start",
+      "reference": "parent endpoint chord/radius",
+      "parent_radius_difference_mm": 0.0,
+      "shared_node": true,
+      "position_gap_mm": 0.0,
+      "radius_jump_mm": 0.0,
+      "sampled_tangent_angle_deg": 0.311542626102377,
+      "status": "PASS"
+    },
+    {
+      "bridge_id": "estimated_R_CIA_EIA_continuation",
+      "attachment": "end",
+      "source_edge_id": "R-EIA-retained",
+      "source_endpoint": "end",
+      "reference": "parent endpoint chord/radius",
+      "parent_radius_difference_mm": 0.0,
+      "shared_node": true,
+      "position_gap_mm": 0.0,
+      "radius_jump_mm": 0.0,
+      "sampled_tangent_angle_deg": 0.17875236305368364,
+      "status": "PASS"
+    }
+  ],
+  "all_declared_bridge_continuity": {
+    "status": "PASS",
+    "scope": "sampled centerline endpoint position, tangent and radius continuity",
+    "max_angle_deg": 3.0,
+    "max_radius_jump_mm": 0.0,
+    "attachments": [
+      {
+        "bridge_id": "estimated_L_carotid_gap",
+        "attachment": "start",
+        "source_edge_id": "FJ3483:e0",
+        "source_endpoint": "end",
+        "reference": "parent endpoint chord/radius",
+        "parent_radius_difference_mm": 0.0,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.4241185056594775,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "estimated_L_carotid_gap",
+        "attachment": "end",
+        "source_edge_id": "FJ1682M:e0",
+        "source_endpoint": "end",
+        "reference": "parent endpoint chord/radius",
+        "parent_radius_difference_mm": 0.0,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.4241185056594775,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "estimated_R_carotid_gap",
+        "attachment": "start",
+        "source_edge_id": "FJ3564:e0",
+        "source_endpoint": "start",
+        "reference": "parent endpoint chord/radius",
+        "parent_radius_difference_mm": 0.0,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.5029550254136171,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "estimated_R_carotid_gap",
+        "attachment": "end",
+        "source_edge_id": "FJ1682:e0",
+        "source_endpoint": "start",
+        "reference": "parent endpoint chord/radius",
+        "parent_radius_difference_mm": 0.0,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.5029550254150664,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "estimated_arch_to_LCCA",
+        "attachment": "start",
+        "source_edge_id": "synthetic_arch_before_LCCA",
+        "source_endpoint": "end",
+        "reference": "declared side-branch direction/radius",
+        "parent_radius_difference_mm": 7.604863281413817,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.548102166290332,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "estimated_arch_to_LCCA",
+        "attachment": "end",
+        "source_edge_id": "FJ3483:e0",
+        "source_endpoint": "start",
+        "reference": "parent endpoint chord/radius",
+        "parent_radius_difference_mm": 0.0,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.17366723090455777,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "estimated_L_iliofemoral",
+        "attachment": "start",
+        "source_edge_id": "FJ3466:e0-trim-first",
+        "source_endpoint": "end",
+        "reference": "parent endpoint chord/radius",
+        "parent_radius_difference_mm": 0.0,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.577837142862401,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "estimated_L_iliofemoral",
+        "attachment": "end",
+        "source_edge_id": "FJ2074:e0-trim-second",
+        "source_endpoint": "start",
+        "reference": "parent endpoint chord/radius",
+        "parent_radius_difference_mm": 0.0,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.5420937782705229,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "synthetic_R_iliofemoral_before_IEA",
+        "attachment": "start",
+        "source_edge_id": "R-EIA-retained",
+        "source_endpoint": "start",
+        "reference": "parent endpoint chord/radius",
+        "parent_radius_difference_mm": 0.0,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.1780123216312059,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "synthetic_R_iliofemoral_before_IEA",
+        "attachment": "end",
+        "source_edge_id": "synthetic_R_iliofemoral_after_IEA",
+        "source_endpoint": "start",
+        "reference": "parent endpoint chord/radius",
+        "parent_radius_difference_mm": 0.0,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.0,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "synthetic_R_iliofemoral_after_IEA",
+        "attachment": "start",
+        "source_edge_id": "synthetic_R_iliofemoral_before_IEA",
+        "source_endpoint": "end",
+        "reference": "parent endpoint chord/radius",
+        "parent_radius_difference_mm": 0.0,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.0,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "synthetic_R_iliofemoral_after_IEA",
+        "attachment": "end",
+        "source_edge_id": "FJ2143:e0-trim-first",
+        "source_endpoint": "end",
+        "reference": "parent endpoint chord/radius",
+        "parent_radius_difference_mm": 0.0,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.37867598411974357,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "estimated_R_IEA_origin_connection",
+        "attachment": "start",
+        "source_edge_id": "synthetic_R_iliofemoral_before_IEA",
+        "source_endpoint": "end",
+        "reference": "declared side-branch direction/radius",
+        "parent_radius_difference_mm": 2.420281114286342,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.1320112358511417,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "estimated_R_IEA_origin_connection",
+        "attachment": "end",
+        "source_edge_id": "FJ3604:e0",
+        "source_endpoint": "start",
+        "reference": "parent endpoint chord/radius",
+        "parent_radius_difference_mm": 0.0,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.2651442856726361,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "estimated_R_CIA_EIA_continuation",
+        "attachment": "start",
+        "source_edge_id": "R-CIA-retained",
+        "source_endpoint": "start",
+        "reference": "parent endpoint chord/radius",
+        "parent_radius_difference_mm": 0.0,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.311542626102377,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "estimated_R_CIA_EIA_continuation",
+        "attachment": "end",
+        "source_edge_id": "R-EIA-retained",
+        "source_endpoint": "end",
+        "reference": "parent endpoint chord/radius",
+        "parent_radius_difference_mm": 0.0,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.17875236305368364,
+        "status": "PASS"
+      }
+    ],
+    "surface_smoothness": "NOT RUN",
+    "anatomical_connection": "UNKNOWN"
+  },
+  "original_unchanged": true,
+  "unrelated_geometry_unchanged": true,
+  "anatomical_acceptance": "UNKNOWN",
+  "surface_check": "NOT RUN",
+  "surrounding_check": "NOT RUN",
+  "limitation": "Internal iliac branch is not attached by this continuation operation."
+}

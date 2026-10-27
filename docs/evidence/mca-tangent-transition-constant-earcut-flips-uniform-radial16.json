@@ -1,0 +1,85 @@
+{
+  "schema": "vv-toolbox.tangent-transition/1",
+  "case_revision": "90aa67f11b698178168d7491e1da7d23bd621f252dfea6dd47029af93b9a9da4",
+  "frame": {
+    "axes": "LPS",
+    "evidence_ref": "docs/CEREBRAL_LANDMARK_INSPECTION.md",
+    "id": "bodyparts3d_native_LPS",
+    "origin": "unchanged BodyParts3D native origin",
+    "units": "mm"
+  },
+  "parent_artifact_sha256": "e556b6f7b39fda923bac2945b155e6ac7c96b7c3377fc2968782ebcc0ba286db",
+  "status": "CANDIDATE",
+  "parameterization": "provisional normalized arc length; anatomical correspondence NOT VERIFIED",
+  "cross_rim_tangent": "constant declared neck normal",
+  "original_cross_rim_normal_alignment": {
+    "minimum": 0.8251281320627181,
+    "maximum": 0.9968713489914766,
+    "negative_count": 0
+  },
+  "sampling_intervals": 16,
+  "band_width_mm": 1.0,
+  "interior_ring_samples": 64,
+  "projected_edge_improvement": true,
+  "outer_triangulation": "verified projected Earcut 1.0.3",
+  "angles": {
+    "neck": {
+      "count": 125,
+      "maximum_deg": 13.827199187365366,
+      "p95_deg": 12.934045717201398,
+      "above_90_deg": 0,
+      "worst_edge_vertex_ids": [
+        26625,
+        26626
+      ],
+      "worst_face_ids": [
+        51536,
+        53039
+      ]
+    },
+    "outer_join": {
+      "count": 185,
+      "maximum_deg": 33.664533425037625,
+      "p95_deg": 23.034152690025916,
+      "above_90_deg": 0,
+      "worst_edge_vertex_ids": [
+        21536,
+        21537
+      ],
+      "worst_face_ids": [
+        42855,
+        52859
+      ]
+    },
+    "transition_interior": {
+      "count": 4275,
+      "maximum_deg": 51.06184009812892,
+      "p95_deg": 16.595565902715222,
+      "above_90_deg": 0,
+      "worst_edge_vertex_ids": [
+        27267,
+        27268
+      ],
+      "worst_face_ids": [
+        52659,
+        52794
+      ]
+    }
+  },
+  "minimum_triangle_quality": 0.0017889385571042095,
+  "crease_strip_pairs": {},
+  "strip_index_definition": "0..10 parent neck-to-outer, 11..21 sac neck-to-outer; -1 retained source",
+  "minimum_triangle_area_mm2": 2.555435047973598e-06,
+  "closed_volume": "PASS",
+  "component_count": 1,
+  "original_vertices_unchanged": true,
+  "design_curve_exact": true,
+  "self_intersection": "NOT RUN",
+  "context_collision": "NOT RUN",
+  "smooth_junction": "UNKNOWN",
+  "crease_screen": "PASS",
+  "crease_screen_definition": "Reject any measured transition or interface face-normal angle above 90 degrees; passing is not smoothness acceptance.",
+  "app_applied": false,
+  "artifact_sha256": "96c7f4d99504edaa6f8614336feb3f11b50d841caa8f11b90c04115d40b8400a",
+  "input_unchanged": true
+}

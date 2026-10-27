@@ -1,0 +1,825 @@
+{
+  "case_revision": "90aa67f11b698178168d7491e1da7d23bd621f252dfea6dd47029af93b9a9da4",
+  "previous_case_revision": "ac39f2d88883cf9f2389618a7ad6f0770dd3b5efef17278fbcefa02bf677aa24",
+  "placement_policy": "retain original interval index and interpolation fraction",
+  "specification": {
+    "schema": "vv-toolbox.saccular-spec/1",
+    "type": "saccular",
+    "mode": "manual_synthetic",
+    "case_revision": "90aa67f11b698178168d7491e1da7d23bd621f252dfea6dd47029af93b9a9da4",
+    "base_model_id": "bodyparts3d-4.0",
+    "frame": {
+      "axes": "LPS",
+      "evidence_ref": "docs/CEREBRAL_LANDMARK_INSPECTION.md",
+      "id": "bodyparts3d_native_LPS",
+      "origin": "unchanged BodyParts3D native origin",
+      "units": "mm"
+    },
+    "parameters": {
+      "lesion_id": "manual-FJ1692:e0",
+      "edge_id": "FJ1692:e0",
+      "region": "mca",
+      "station_mm": 17.060158666947665,
+      "neck_center_mm": [
+        -31.266474894406095,
+        -111.1833272676106,
+        1536.9269436430916
+      ],
+      "outward_normal": [
+        -0.4696842702902806,
+        -0.08341405605315864,
+        -0.8788849648814384
+      ],
+      "width_direction": [
+        0.8608320075806304,
+        -0.2641438569907778,
+        -0.43496698442380316
+      ],
+      "neck_width_mm": 2.0,
+      "neck_depth_mm": 1.0,
+      "height_perpendicular_mm": 5.0,
+      "dome_width_mm": 4.0,
+      "dome_depth_mm": 3.0,
+      "blending_extent_mm": 0.5
+    },
+    "parent_anchor": {
+      "edge_id": "FJ1692:e0",
+      "interval_index": 26,
+      "fraction": 0.6619384117360455,
+      "position_mm": [
+        -30.51747408116745,
+        -111.05030770580849,
+        1538.3284927156901
+      ]
+    },
+    "neck": {
+      "center_mm": [
+        -31.266474894406095,
+        -111.1833272676106,
+        1536.9269436430916
+      ],
+      "normal": [
+        -0.4696842702902806,
+        -0.08341405605315864,
+        -0.8788849648814384
+      ],
+      "width_axis": [
+        0.8608320075806304,
+        -0.2641438569907778,
+        -0.43496698442380316
+      ],
+      "depth_axis": [
+        -0.19586970405498694,
+        -0.9608694594307783,
+        0.1958697040550575
+      ],
+      "curve_mm": [
+        [
+          -30.405642886825465,
+          -111.44747112460138,
+          1536.4919766586677
+        ],
+        [
+          -30.41938732236562,
+          -111.49329003805381,
+          1536.5036704377208
+        ],
+        [
+          -30.441289674289695,
+          -111.53612384058398,
+          1536.519440569126
+        ],
+        [
+          -30.47113901097562,
+          -111.57556001925822,
+          1536.5391351778974
+        ],
+        [
+          -30.508647866993797,
+          -111.61121878211783,
+          1536.5625645941864
+        ],
+        [
+          -30.553455011556352,
+          -111.64275671578346,
+          1536.589503179906
+        ],
+        [
+          -30.605128927367062,
+          -111.66987009271351,
+          1536.61969150175
+        ],
+        [
+          -30.663171966368836,
+          -111.69229779626644,
+          1536.652838829676
+        ],
+        [
+          -30.727025142366543,
+          -111.70982383539682,
+          1536.6886259367964
+        ],
+        [
+          -30.796073514369617,
+          -111.72227942476712,
+          1536.726708173706
+        ],
+        [
+          -30.869652108809998,
+          -111.72954461024278,
+          1536.7667187876457
+        ],
+        [
+          -30.947052323601067,
+          -111.73154942411614,
+          1536.808272454531
+        ],
+        [
+          -31.02752875236313,
+          -111.72827455893362,
+          1536.8509689898344
+        ],
+        [
+          -31.110306363094313,
+          -111.71975155343716,
+          1536.894397202581
+        ],
+        [
+          -31.194587962152436,
+          -111.70606248882886,
+          1536.9381388553409
+        ],
+        [
+          -31.27956187166555,
+          -111.68733919828408,
+          1536.9817726920874
+        ],
+        [
+          -31.364409746433587,
+          -111.66376199732598,
+          1537.024878495119
+        ],
+        [
+          -31.448314455039963,
+          -111.63555794728838,
+          1537.0670411319893
+        ],
+        [
+          -31.530467949273824,
+          -111.60299866859104,
+          1537.1078545534563
+        ],
+        [
+          -31.61007904607602,
+          -111.56639772488654,
+          1537.1469257039605
+        ],
+        [
+          -31.686381047064504,
+          -111.52610760327086,
+          1537.183878306964
+        ],
+        [
+          -31.75863912225883,
+          -111.48251631963996,
+          1537.2183564887
+        ],
+        [
+          -31.826157386894604,
+          -111.43604368188467,
+          1537.25002820543
+        ],
+        [
+          -31.88828560317414,
+          -111.38713724691107,
+          1537.2785884412087
+        ],
+        [
+          -31.944425442411926,
+          -111.33626801042293,
+          1537.303762145353
+        ],
+        [
+          -31.994036247266955,
+          -111.2839258709756,
+          1537.3253068813306
+        ],
+        [
+          -32.03664023856844,
+          -111.23061491198506,
+          1537.3430151615567
+        ],
+        [
+          -32.071827116590434,
+          -111.17684854712914,
+          1537.3567164456117
+        ],
+        [
+          -32.099258012462485,
+          -111.12314457589311,
+          1537.366278782641
+        ],
+        [
+          -32.1186687516621,
+          -111.07002019687751,
+          1537.3716100821114
+        ],
+        [
+          -32.12987239815978,
+          -111.01798702689301,
+          1537.3726590006945
+        ],
+        [
+          -32.13276105471523,
+          -110.96754617381079,
+          1537.3694154367313
+        ],
+        [
+          -32.12730690198673,
+          -110.91918341061981,
+          1537.3619106275155
+        ],
+        [
+          -32.11356246644657,
+          -110.87336449716737,
+          1537.3502168484624
+        ],
+        [
+          -32.09166011452249,
+          -110.8305306946372,
+          1537.3344467170573
+        ],
+        [
+          -32.06181077783657,
+          -110.79109451596297,
+          1537.3147521082858
+        ],
+        [
+          -32.02430192181839,
+          -110.75543575310336,
+          1537.2913226919968
+        ],
+        [
+          -31.97949477725584,
+          -110.72389781943772,
+          1537.2643841062772
+        ],
+        [
+          -31.927820861445127,
+          -110.69678444250768,
+          1537.2341957844333
+        ],
+        [
+          -31.869777822443353,
+          -110.67435673895474,
+          1537.2010484565071
+        ],
+        [
+          -31.805924646445646,
+          -110.65683069982437,
+          1537.1652613493868
+        ],
+        [
+          -31.736876274442572,
+          -110.64437511045406,
+          1537.1271791124773
+        ],
+        [
+          -31.66329768000219,
+          -110.6371099249784,
+          1537.0871684985375
+        ],
+        [
+          -31.585897465211122,
+          -110.63510511110505,
+          1537.045614831652
+        ],
+        [
+          -31.50542103644906,
+          -110.63837997628757,
+          1537.0029182963488
+        ],
+        [
+          -31.422643425717876,
+          -110.64690298178402,
+          1536.959490083602
+        ],
+        [
+          -31.338361826659757,
+          -110.66059204639232,
+          1536.9157484308423
+        ],
+        [
+          -31.25338791714664,
+          -110.67931533693711,
+          1536.8721145940958
+        ],
+        [
+          -31.168540042378602,
+          -110.70289253789521,
+          1536.829008791064
+        ],
+        [
+          -31.084635333772226,
+          -110.73109658793281,
+          1536.7868461541939
+        ],
+        [
+          -31.002481839538365,
+          -110.76365586663015,
+          1536.746032732727
+        ],
+        [
+          -30.92287074273617,
+          -110.80025681033464,
+          1536.7069615822227
+        ],
+        [
+          -30.846568741747685,
+          -110.84054693195033,
+          1536.6700089792191
+        ],
+        [
+          -30.774310666553358,
+          -110.88413821558123,
+          1536.6355307974832
+        ],
+        [
+          -30.706792401917586,
+          -110.93061085333652,
+          1536.6038590807532
+        ],
+        [
+          -30.64466418563805,
+          -110.97951728831012,
+          1536.5752988449744
+        ],
+        [
+          -30.588524346400263,
+          -111.03038652479826,
+          1536.5501251408302
+        ],
+        [
+          -30.538913541545234,
+          -111.0827286642456,
+          1536.5285804048526
+        ],
+        [
+          -30.49630955024375,
+          -111.13603962323613,
+          1536.5108721246265
+        ],
+        [
+          -30.461122672221755,
+          -111.18980598809205,
+          1536.4971708405715
+        ],
+        [
+          -30.433691776349704,
+          -111.24350995932808,
+          1536.487608503542
+        ],
+        [
+          -30.41428103715009,
+          -111.29663433834368,
+          1536.4822772040718
+        ],
+        [
+          -30.403077390652403,
+          -111.34866750832818,
+          1536.4812282854887
+        ],
+        [
+          -30.400188734096954,
+          -111.3991083614104,
+          1536.484471849452
+        ]
+      ],
+      "curve_closed": true,
+      "curve_convention": "64 ordered ellipse samples; last connects to first",
+      "average_diameter_mm": 1.5,
+      "average_diameter_convention": "arithmetic mean of declared ellipse axis diameters",
+      "max_width_mm": 2.0
+    },
+    "requested_aspect_ratio_height_over_neck": 3.3333333333333335,
+    "geometry_status": "NOT GENERATED",
+    "checks": {
+      "parent_attachment": "UNKNOWN",
+      "open_neck_lumen": "NOT RUN",
+      "nonoverlap": "NOT RUN",
+      "surface_measurements": "NOT RUN",
+      "clinical_validity": "NOT RUN"
+    },
+    "parameter_provenance": "operator_defined; not a literature preset or population distribution"
+  },
+  "frame_proposal": {
+    "schema": "vv-toolbox.saccular-frame-proposal/1",
+    "status": "CANDIDATE",
+    "case_revision": "90aa67f11b698178168d7491e1da7d23bd621f252dfea6dd47029af93b9a9da4",
+    "edge_id": "FJ1692:e0",
+    "station_mm": 17.060158666947665,
+    "reference_direction": [
+      -0.7071067811866749,
+      0.0,
+      -0.7071067811864201
+    ],
+    "search_mm": 8.0,
+    "seed_interval": 26,
+    "target_interval": 26,
+    "method": "direct projection",
+    "outward_normal": [
+      -0.4696842702902806,
+      -0.08341405605315864,
+      -0.8788849648814384
+    ],
+    "width_direction": [
+      0.8608320075806304,
+      -0.2641438569907778,
+      -0.43496698442380316
+    ],
+    "neck_center_mm": [
+      -31.266474894406095,
+      -111.1833272676106,
+      1536.9269436430916
+    ],
+    "anatomical_direction": "UNKNOWN",
+    "attachment_acceptance": "NOT RUN"
+  },
+  "app_applied": false,
+  "status": "CANDIDATE",
+  "vertices": 26566,
+  "triangles": 53128,
+  "union_checks": {
+    "sampled_cap_burial": "PASS",
+    "sampled_lumen_connectivity": "PASS",
+    "single_closed_surface": "PASS",
+    "neck_dimensions": "NOT RUN",
+    "smooth_junction": "NOT RUN",
+    "context_collision": "NOT RUN",
+    "clinical_validity": "NOT RUN"
+  },
+  "surface_regularization": {
+    "schema": "vv-toolbox.surface-regularization/1",
+    "status": "CANDIDATE",
+    "method": "uniform-adjacency two-pass Laplacian",
+    "coefficients": [
+      0.5,
+      -0.53
+    ],
+    "iterations": 10,
+    "max_displacement_mm": 0.07404989886095747,
+    "displacement_limit_mm": 0.15,
+    "volume_change_fraction": 0.0011952678488440505,
+    "volume_change_limit_fraction": 0.02,
+    "before_adjacent_face_angles": {
+      "median_degrees": 8.585839165130925e-05,
+      "p95_degrees": 54.73541713158259
+    },
+    "after_adjacent_face_angles": {
+      "median_degrees": 3.9678732505355407,
+      "p95_degrees": 14.18217409963252
+    },
+    "triangle_connectivity_unchanged": true,
+    "checks": {
+      "displacement": "PASS",
+      "volume_preservation": "PASS",
+      "closed_surface": "PASS",
+      "self_intersection": "NOT RUN",
+      "neck_dimensions": "NOT RUN",
+      "clinical_validity": "NOT RUN"
+    },
+    "limitation": "Same-triangle vertex motion bounds pointwise surface displacement, but not collision clearance or anatomical fidelity."
+  },
+  "context_inspection": {
+    "schema": "vv-toolbox.surface-context/1",
+    "parent_edge_id": "FJ1692:e0",
+    "context_edge_count": 1080,
+    "aabb_separated_count": 1064,
+    "results": [
+      {
+        "edge_id": "FJ1654:e0",
+        "status": "PROFILE_INTERIOR_WITNESS",
+        "lower_bound_mm": -0.3290625460057948,
+        "witness": {
+          "vertex_index": 143,
+          "position_mm": [
+            -13.60793269439258,
+            -111.32591243382427,
+            1537.1258749050323
+          ],
+          "profile_field_mm": -0.043368833927370565
+        },
+        "overlap_vertices": {
+          "vertex_count": 17,
+          "bounds_mm": [
+            [
+              -13.822069899556903,
+              -111.74062964313273,
+              1537.003001315369
+            ],
+            [
+              -13.517759340476054,
+              -111.16935145250326,
+              1537.4107799268745
+            ]
+          ],
+          "baseline_parent_status": "MEASURED",
+          "baseline_inside_count": 7,
+          "baseline_surface_band_count": 0,
+          "baseline_outside_count": 10,
+          "baseline_field_range_mm": [
+            -0.027486641049486282,
+            0.03397781995887872
+          ],
+          "farthest_outside_vertex_index": 54,
+          "farthest_outside_position_mm": [
+            -13.637685433913138,
+            -111.74062964313273,
+            1537.3442615127885
+          ]
+        },
+        "interior_samples": 0,
+        "reason": "bound overlaps; not an original atlas mesh collision verdict"
+      },
+      {
+        "edge_id": "FJ1658:e0",
+        "status": "SEPARATED_PROFILE",
+        "lower_bound_mm": 3.0180342020220836
+      },
+      {
+        "edge_id": "FJ1660:e0",
+        "status": "PROFILE_INTERIOR_WITNESS",
+        "lower_bound_mm": -1.5871854095645932,
+        "witness": {
+          "vertex_index": 7901,
+          "position_mm": [
+            -39.5704063270742,
+            -107.51126151025157,
+            1546.1385529766526
+          ],
+          "profile_field_mm": -1.2260241045475289
+        },
+        "overlap_vertices": {
+          "vertex_count": 646,
+          "bounds_mm": [
+            [
+              -41.04666170095254,
+              -108.74441522269262,
+              1544.4226815002519
+            ],
+            [
+              -37.54830064073394,
+              -106.2891602463965,
+              1547.319918691863
+            ]
+          ],
+          "baseline_parent_status": "MEASURED",
+          "baseline_inside_count": 370,
+          "baseline_surface_band_count": 0,
+          "baseline_outside_count": 276,
+          "baseline_field_range_mm": [
+            -0.050031879821873924,
+            0.059298799874892394
+          ],
+          "farthest_outside_vertex_index": 5795,
+          "farthest_outside_position_mm": [
+            -38.631757402709276,
+            -106.37478223171028,
+            1546.304032559014
+          ]
+        },
+        "interior_samples": 0,
+        "reason": "bound overlaps; not an original atlas mesh collision verdict"
+      },
+      {
+        "edge_id": "FJ1662:e0",
+        "status": "SEPARATED_PROFILE",
+        "lower_bound_mm": 1.9243101466816632
+      },
+      {
+        "edge_id": "FJ1662:e5",
+        "status": "SEPARATED_PROFILE",
+        "lower_bound_mm": 10.712086521973017
+      },
+      {
+        "edge_id": "FJ1662:e8",
+        "status": "SEPARATED_PROFILE",
+        "lower_bound_mm": 1.256151900580703
+      },
+      {
+        "edge_id": "FJ1662:e9",
+        "status": "SEPARATED_PROFILE",
+        "lower_bound_mm": 11.525200699421465
+      },
+      {
+        "edge_id": "FJ1662:e12",
+        "status": "UNKNOWN",
+        "lower_bound_mm": -0.024467260437187804,
+        "witness": null,
+        "overlap_vertices": null,
+        "interior_samples": 255,
+        "reason": "bound overlaps; not an original atlas mesh collision verdict"
+      },
+      {
+        "edge_id": "FJ1662:e13",
+        "status": "SEPARATED_PROFILE",
+        "lower_bound_mm": 1.3198792982194982
+      },
+      {
+        "edge_id": "FJ1663:e1",
+        "status": "SEPARATED_PROFILE",
+        "lower_bound_mm": 2.488616105978564
+      },
+      {
+        "edge_id": "FJ1682:e0",
+        "status": "PROFILE_INTERIOR_WITNESS",
+        "lower_bound_mm": -1.9273247411537244,
+        "witness": {
+          "vertex_index": 978,
+          "position_mm": [
+            -13.538609450395597,
+            -111.06579888437099,
+            1536.0517594449204
+          ],
+          "profile_field_mm": -1.8229954734035565
+        },
+        "overlap_vertices": {
+          "vertex_count": 1378,
+          "bounds_mm": [
+            [
+              -16.18243230483416,
+              -113.82044982571448,
+              1534.6187202725425
+            ],
+            [
+              -13.299267584515327,
+              -110.2187994466839,
+              1537.964921437146
+            ]
+          ],
+          "baseline_parent_status": "MEASURED",
+          "baseline_inside_count": 635,
+          "baseline_surface_band_count": 0,
+          "baseline_outside_count": 743,
+          "baseline_field_range_mm": [
+            -0.05456334837877108,
+            0.046229249883633416
+          ],
+          "farthest_outside_vertex_index": 427,
+          "farthest_outside_position_mm": [
+            -13.339205090355282,
+            -112.10985806401125,
+            1536.7446711014816
+          ]
+        },
+        "interior_samples": 0,
+        "reason": "bound overlaps; not an original atlas mesh collision verdict"
+      },
+      {
+        "edge_id": "FJ1685:e0",
+        "status": "SEPARATED_PROFILE",
+        "lower_bound_mm": 9.679265255867898
+      },
+      {
+        "edge_id": "FJ1694:e0",
+        "status": "PROFILE_INTERIOR_WITNESS",
+        "lower_bound_mm": -1.6900082643328425,
+        "witness": {
+          "vertex_index": 4857,
+          "position_mm": [
+            -43.34007072601581,
+            -103.53837283874269,
+            1548.7755981947612
+          ],
+          "profile_field_mm": -1.491625329181221
+        },
+        "overlap_vertices": {
+          "vertex_count": 547,
+          "bounds_mm": [
+            [
+              -44.075109776362915,
+              -105.03792705900999,
+              1547.0988213259043
+            ],
+            [
+              -41.776845244407355,
+              -103.09685527425499,
+              1549.6085642606718
+            ]
+          ],
+          "baseline_parent_status": "MEASURED",
+          "baseline_inside_count": 197,
+          "baseline_surface_band_count": 0,
+          "baseline_outside_count": 350,
+          "baseline_field_range_mm": [
+            -0.04873519880770316,
+            0.04270574477596001
+          ],
+          "farthest_outside_vertex_index": 8566,
+          "farthest_outside_position_mm": [
+            -43.5762450861627,
+            -103.5469968756193,
+            1547.6265590290009
+          ]
+        },
+        "interior_samples": 0,
+        "reason": "bound overlaps; not an original atlas mesh collision verdict"
+      },
+      {
+        "edge_id": "FJ1695:e0",
+        "status": "SEPARATED_PROFILE",
+        "lower_bound_mm": 2.889560255542401
+      },
+      {
+        "edge_id": "FJ1712:e0",
+        "status": "SEPARATED_PROFILE",
+        "lower_bound_mm": 2.833229226850921
+      },
+      {
+        "edge_id": "FJ1718:e0",
+        "status": "PROFILE_INTERIOR_WITNESS",
+        "lower_bound_mm": -1.1083590463066872,
+        "witness": {
+          "vertex_index": 10733,
+          "position_mm": [
+            -43.6849778799759,
+            -104.70446477850045,
+            1547.1012654294964
+          ],
+          "profile_field_mm": -0.9138092986211357
+        },
+        "overlap_vertices": {
+          "vertex_count": 468,
+          "bounds_mm": [
+            [
+              -44.075109776362915,
+              -106.2352815456965,
+              1545.7375099246658
+            ],
+            [
+              -42.058838353798016,
+              -103.76258417766806,
+              1548.202612295023
+            ]
+          ],
+          "baseline_parent_status": "MEASURED",
+          "baseline_inside_count": 169,
+          "baseline_surface_band_count": 1,
+          "baseline_outside_count": 298,
+          "baseline_field_range_mm": [
+            -0.03411867350818416,
+            0.04312298204569972
+          ],
+          "farthest_outside_vertex_index": 13586,
+          "farthest_outside_position_mm": [
+            -42.478512776079,
+            -105.0741196891696,
+            1545.83160065649
+          ]
+        },
+        "interior_samples": 0,
+        "reason": "bound overlaps; not an original atlas mesh collision verdict"
+      }
+    ],
+    "status": "REVIEW_REQUIRED",
+    "scope": "candidate triangles versus declared centerline/radius profiles; parent excluded",
+    "original_mesh_collision": "NOT RUN",
+    "anatomical_connection": "UNKNOWN",
+    "interior_sampling": {
+      "max_depth": 3,
+      "max_samples_per_edge": 100000,
+      "negative_result": "UNKNOWN; finite samples do not prove separation"
+    },
+    "limitation": "A negative lower bound is inconclusive. Vertex counts depend on tessellation and are not overlap volume. Baseline exterior points can reflect meshing error as well as added geometry; intended junctions are not classified."
+  },
+  "artifact_sha256": "a3e7c34c4624353dce25597f8b844cb995073734b5b288c075a306d9d278d68f",
+  "neck_dimensions_after_remesh": "NOT RUN",
+  "clinical_validation": "NOT RUN",
+  "input_unchanged": true,
+  "section_comparison": {
+    "sections": [
+      {
+        "label": "Before",
+        "loops": 1,
+        "artifact_sha256": "ede87f1a0e95491491842e886c03f00126bb231416cb1a0176cb74f87817aad2"
+      },
+      {
+        "label": "Regularized baseline",
+        "loops": 1,
+        "artifact_sha256": "a3e7c34c4624353dce25597f8b844cb995073734b5b288c075a306d9d278d68f"
+      }
+    ],
+    "plane_origin_mm": [
+      -31.266474894406095,
+      -111.1833272676106,
+      1536.9269436430916
+    ],
+    "plane_normal": [
+      -0.19586970405498694,
+      -0.9608694594307783,
+      0.1958697040550575
+    ],
+    "figure_sha256": "502388a264963df896a632854abe00c0aa608f97d334f04e07c5c4336393bb7b",
+    "limitation": "One plane only; not full surface or neck-dimension acceptance"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "schema": "vv-toolbox.full-iliac-mesh-separation/1",
+  "case_revision": "b6417e63a06dd58c4df6bd127d54ad84190499a09746c7509b2715a86357ac20",
+  "surface_sha256": "fe6c783befdf3b0d9e57ef934e0df3fc7ffce47dee627809a3efc4989f7476fc",
+  "separation": {
+    "status": "PASS",
+    "triangle_separation_bound_mm": 0.09565747101087385,
+    "triangle_pair_count": 103141694496,
+    "outside_other_component_bounds_witnesses_mm": [
+      [
+        -59.400001525878906,
+        -79.98052978515625,
+        858.4500122070312
+      ],
+      [
+        -20.253841400146484,
+        -139.35000610351562,
+        690.75
+      ]
+    ],
+    "method": "nearest triangle centroid distance minus own enclosing radius minus maximum other enclosing radius",
+    "individual_surface_self_intersection": "NOT RUN",
+    "limitation": "Conservative global bound for these two saved meshes only; no anatomical or all-atlas assertion."
+  },
+  "components": [
+    {
+      "vertices": 176315,
+      "triangles": 352626,
+      "watertight": true,
+      "euler_number": 2
+    },
+    {
+      "vertices": 146250,
+      "triangles": 292496,
+      "watertight": true,
+      "euler_number": 2
+    }
+  ],
+  "sections": [
+    {
+      "z_mm": 850.0,
+      "contour_counts": [
+        1,
+        1
+      ]
+    },
+    {
+      "z_mm": 855.0,
+      "contour_counts": [
+        1,
+        1
+      ]
+    },
+    {
+      "z_mm": 860.0,
+      "contour_counts": [
+        1,
+        1
+      ]
+    },
+    {
+      "z_mm": 875.0,
+      "contour_counts": [
+        1,
+        1
+      ]
+    },
+    {
+      "z_mm": 880.0,
+      "contour_counts": [
+        1,
+        1
+      ]
+    },
+    {
+      "z_mm": 885.0,
+      "contour_counts": [
+        1,
+        1
+      ]
+    }
+  ],
+  "figure": {
+    "path": "exports/full-iliac-surface/mesh-sections.png",
+    "sha256": "b99a8a68fb3a64bed51834a1d3e58acf5ab05d780516cdac22840415f852a659"
+  },
+  "input_unchanged": true,
+  "anatomical_acceptance": "UNKNOWN",
+  "default_app_applied": false
+}

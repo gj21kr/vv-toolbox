@@ -1,0 +1,561 @@
+{
+  "schema": "vv-toolbox.mca-boundary-followup/1",
+  "source_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "centerline_preview_sha256": "1f099284deca459fcf34850d2c84223e98f78d6f576d9faa72aa0ee66a0cc8f9",
+  "coordinate_frame_id": "bodyparts3d_native_LPS",
+  "units": "mm",
+  "groups": [
+    {
+      "boundary_id": "B.L.MCA.M1_M2",
+      "position": null,
+      "evidence_status": "unresolved",
+      "branch_source_ids": [
+        "FJ1659M",
+        "FJ1660M",
+        "FJ1662M",
+        "FJ1663M",
+        "FJ1664M",
+        "FJ1665M",
+        "FJ1666M",
+        "FJ1667M",
+        "FJ1668M",
+        "FJ1669M",
+        "FJ1670M",
+        "FJ1673M",
+        "FJ1685M",
+        "FJ1686M",
+        "FJ1692M",
+        "FJ1693M",
+        "FJ1694M",
+        "FJ1712M",
+        "FJ1716M",
+        "FJ1717M",
+        "FJ1718M",
+        "FJ1724M",
+        "FJ1729M"
+      ],
+      "anatomical_boundary_approved": false,
+      "followup_branch_source_ids": [
+        "FJ1660M",
+        "FJ1694M",
+        "FJ1664M",
+        "FJ1718M"
+      ]
+    },
+    {
+      "boundary_id": "B.L.MCA.M2_M3",
+      "position": null,
+      "evidence_status": "unresolved",
+      "branch_source_ids": [
+        "FJ1659M",
+        "FJ1660M",
+        "FJ1662M",
+        "FJ1663M",
+        "FJ1664M",
+        "FJ1665M",
+        "FJ1666M",
+        "FJ1667M",
+        "FJ1668M",
+        "FJ1669M",
+        "FJ1670M",
+        "FJ1673M",
+        "FJ1685M",
+        "FJ1686M",
+        "FJ1692M",
+        "FJ1693M",
+        "FJ1694M",
+        "FJ1712M",
+        "FJ1716M",
+        "FJ1717M",
+        "FJ1718M",
+        "FJ1724M",
+        "FJ1729M"
+      ],
+      "anatomical_boundary_approved": false,
+      "followup_branch_source_ids": [
+        "FJ1660M",
+        "FJ1694M",
+        "FJ1664M",
+        "FJ1718M"
+      ]
+    },
+    {
+      "boundary_id": "B.L.MCA.M3_M4",
+      "position": null,
+      "evidence_status": "unresolved",
+      "branch_source_ids": [
+        "FJ1659M",
+        "FJ1660M",
+        "FJ1662M",
+        "FJ1663M",
+        "FJ1664M",
+        "FJ1665M",
+        "FJ1666M",
+        "FJ1667M",
+        "FJ1668M",
+        "FJ1669M",
+        "FJ1670M",
+        "FJ1673M",
+        "FJ1685M",
+        "FJ1686M",
+        "FJ1692M",
+        "FJ1693M",
+        "FJ1694M",
+        "FJ1712M",
+        "FJ1716M",
+        "FJ1717M",
+        "FJ1718M",
+        "FJ1724M",
+        "FJ1729M"
+      ],
+      "anatomical_boundary_approved": false,
+      "followup_branch_source_ids": [
+        "FJ1660M",
+        "FJ1694M",
+        "FJ1664M",
+        "FJ1718M"
+      ]
+    },
+    {
+      "boundary_id": "B.R.MCA.M1_M2",
+      "position": null,
+      "evidence_status": "unresolved",
+      "branch_source_ids": [
+        "FJ1659",
+        "FJ1660",
+        "FJ1662",
+        "FJ1663",
+        "FJ1664",
+        "FJ1665",
+        "FJ1666",
+        "FJ1667",
+        "FJ1668",
+        "FJ1669",
+        "FJ1670",
+        "FJ1673",
+        "FJ1685",
+        "FJ1686",
+        "FJ1692",
+        "FJ1693",
+        "FJ1694",
+        "FJ1712",
+        "FJ1716",
+        "FJ1717",
+        "FJ1718",
+        "FJ1724",
+        "FJ1729"
+      ],
+      "anatomical_boundary_approved": false,
+      "followup_branch_source_ids": [
+        "FJ1660",
+        "FJ1694",
+        "FJ1664",
+        "FJ1718"
+      ]
+    },
+    {
+      "boundary_id": "B.R.MCA.M2_M3",
+      "position": null,
+      "evidence_status": "unresolved",
+      "branch_source_ids": [
+        "FJ1659",
+        "FJ1660",
+        "FJ1662",
+        "FJ1663",
+        "FJ1664",
+        "FJ1665",
+        "FJ1666",
+        "FJ1667",
+        "FJ1668",
+        "FJ1669",
+        "FJ1670",
+        "FJ1673",
+        "FJ1685",
+        "FJ1686",
+        "FJ1692",
+        "FJ1693",
+        "FJ1694",
+        "FJ1712",
+        "FJ1716",
+        "FJ1717",
+        "FJ1718",
+        "FJ1724",
+        "FJ1729"
+      ],
+      "anatomical_boundary_approved": false,
+      "followup_branch_source_ids": [
+        "FJ1660",
+        "FJ1694",
+        "FJ1664",
+        "FJ1718"
+      ]
+    },
+    {
+      "boundary_id": "B.R.MCA.M3_M4",
+      "position": null,
+      "evidence_status": "unresolved",
+      "branch_source_ids": [
+        "FJ1659",
+        "FJ1660",
+        "FJ1662",
+        "FJ1663",
+        "FJ1664",
+        "FJ1665",
+        "FJ1666",
+        "FJ1667",
+        "FJ1668",
+        "FJ1669",
+        "FJ1670",
+        "FJ1673",
+        "FJ1685",
+        "FJ1686",
+        "FJ1692",
+        "FJ1693",
+        "FJ1694",
+        "FJ1712",
+        "FJ1716",
+        "FJ1717",
+        "FJ1718",
+        "FJ1724",
+        "FJ1729"
+      ],
+      "anatomical_boundary_approved": false,
+      "followup_branch_source_ids": [
+        "FJ1660",
+        "FJ1694",
+        "FJ1664",
+        "FJ1718"
+      ]
+    }
+  ],
+  "branch_reviews": [
+    {
+      "side": "R",
+      "source_element_id": "FJ1660",
+      "edges": [
+        {
+          "edge_id": "FJ1660:e0",
+          "point_count": 29,
+          "length_mm": 14.21146809193731,
+          "endpoint_distance_to_insula_vertices_mm": [
+            0.4818666572078068,
+            3.5040565959481413
+          ],
+          "insula_vertex_distance_min_max_mm": [
+            0.2427202956563562,
+            3.5040565959481413
+          ],
+          "endpoints_mm": [
+            [
+              -42.04376853890667,
+              -110.55953949119902,
+              1555.6194359395467
+            ],
+            [
+              -38.92941531380247,
+              -107.0558921129568,
+              1544.719199651682
+            ]
+          ],
+          "orientation": "extraction order, not proximal-to-distal validated"
+        }
+      ],
+      "cutaway_plane_x_mm": -40.8114,
+      "cutaway_rule": "remove context triangles with lateral centroid beyond branch median X; not a sulcus plane",
+      "boundary_position": null,
+      "status": "unresolved"
+    },
+    {
+      "side": "R",
+      "source_element_id": "FJ1694",
+      "edges": [
+        {
+          "edge_id": "FJ1694:e0",
+          "point_count": 129,
+          "length_mm": 68.7398078950027,
+          "endpoint_distance_to_insula_vertices_mm": [
+            12.395317346355117,
+            0.7200745524130834
+          ],
+          "insula_vertex_distance_min_max_mm": [
+            0.0777200696662303,
+            12.395317346355117
+          ],
+          "endpoints_mm": [
+            [
+              -52.517235474554624,
+              -73.28897786374414,
+              1566.502911879066
+            ],
+            [
+              -43.11116344926126,
+              -103.85871194594758,
+              1548.4746071639204
+            ]
+          ],
+          "orientation": "extraction order, not proximal-to-distal validated"
+        }
+      ],
+      "cutaway_plane_x_mm": -43.5914,
+      "cutaway_rule": "remove context triangles with lateral centroid beyond branch median X; not a sulcus plane",
+      "boundary_position": null,
+      "status": "unresolved"
+    },
+    {
+      "side": "R",
+      "source_element_id": "FJ1664",
+      "edges": [
+        {
+          "edge_id": "FJ1664:e0",
+          "point_count": 194,
+          "length_mm": 98.51027060825588,
+          "endpoint_distance_to_insula_vertices_mm": [
+            35.14129410837913,
+            0.814865254465815
+          ],
+          "insula_vertex_distance_min_max_mm": [
+            0.5046275754971692,
+            35.14129410837913
+          ],
+          "endpoints_mm": [
+            [
+              -52.882484834777685,
+              -68.55136923026738,
+              1605.6689284278054
+            ],
+            [
+              -45.048042637032836,
+              -101.06430435090847,
+              1550.4361109337044
+            ]
+          ],
+          "orientation": "extraction order, not proximal-to-distal validated"
+        }
+      ],
+      "cutaway_plane_x_mm": -56.5616,
+      "cutaway_rule": "remove context triangles with lateral centroid beyond branch median X; not a sulcus plane",
+      "boundary_position": null,
+      "status": "unresolved"
+    },
+    {
+      "side": "R",
+      "source_element_id": "FJ1718",
+      "edges": [
+        {
+          "edge_id": "FJ1718:e0",
+          "point_count": 65,
+          "length_mm": 26.94644606940083,
+          "endpoint_distance_to_insula_vertices_mm": [
+            11.595135643300313,
+            1.7542099314642843
+          ],
+          "insula_vertex_distance_min_max_mm": [
+            1.7542099314642843,
+            11.595135643300313
+          ],
+          "endpoints_mm": [
+            [
+              -55.9351849100636,
+              -109.37047328783385,
+              1561.8103585502672
+            ],
+            [
+              -41.87326691591353,
+              -104.68316728978382,
+              1546.8109793565072
+            ]
+          ],
+          "orientation": "extraction order, not proximal-to-distal validated"
+        }
+      ],
+      "cutaway_plane_x_mm": -48.76495,
+      "cutaway_rule": "remove context triangles with lateral centroid beyond branch median X; not a sulcus plane",
+      "boundary_position": null,
+      "status": "unresolved"
+    },
+    {
+      "side": "L",
+      "source_element_id": "FJ1660M",
+      "edges": [
+        {
+          "edge_id": "FJ1660M:e0",
+          "point_count": 29,
+          "length_mm": 14.060913869748541,
+          "endpoint_distance_to_insula_vertices_mm": [
+            3.807495007485036,
+            1.311322465208747
+          ],
+          "insula_vertex_distance_min_max_mm": [
+            0.9998010122040135,
+            3.807495007485036
+          ],
+          "endpoints_mm": [
+            [
+              38.928088425471095,
+              -107.05224317004551,
+              1544.666548722693
+            ],
+            [
+              42.04233549950878,
+              -110.55577112833791,
+              1555.5664134818248
+            ]
+          ],
+          "orientation": "extraction order, not proximal-to-distal validated"
+        }
+      ],
+      "cutaway_plane_x_mm": 40.8114,
+      "cutaway_rule": "remove context triangles with lateral centroid beyond branch median X; not a sulcus plane",
+      "boundary_position": null,
+      "status": "unresolved"
+    },
+    {
+      "side": "L",
+      "source_element_id": "FJ1694M",
+      "edges": [
+        {
+          "edge_id": "FJ1694M:e0",
+          "point_count": 131,
+          "length_mm": 68.35045207213255,
+          "endpoint_distance_to_insula_vertices_mm": [
+            1.3655374838632033,
+            13.32554525825021
+          ],
+          "insula_vertex_distance_min_max_mm": [
+            1.0565718300176266,
+            13.32554525825021
+          ],
+          "endpoints_mm": [
+            [
+              43.11175995060648,
+              -103.8601489719156,
+              1548.4960324076928
+            ],
+            [
+              52.12603703118784,
+              -73.28999191603103,
+              1566.5245865688555
+            ]
+          ],
+          "orientation": "extraction order, not proximal-to-distal validated"
+        }
+      ],
+      "cutaway_plane_x_mm": 43.59265,
+      "cutaway_rule": "remove context triangles with lateral centroid beyond branch median X; not a sulcus plane",
+      "boundary_position": null,
+      "status": "unresolved"
+    },
+    {
+      "side": "L",
+      "source_element_id": "FJ1664M",
+      "edges": [
+        {
+          "edge_id": "FJ1664M:e0",
+          "point_count": 194,
+          "length_mm": 100.60246470799352,
+          "endpoint_distance_to_insula_vertices_mm": [
+            2.0958548575835834,
+            35.73704907370093
+          ],
+          "insula_vertex_distance_min_max_mm": [
+            1.4617023195478958,
+            35.73704907370093
+          ],
+          "endpoints_mm": [
+            [
+              45.04720061960728,
+              -101.06241530311895,
+              1550.7988456784801
+            ],
+            [
+              52.88149637953898,
+              -68.5500878994024,
+              1605.638915998002
+            ]
+          ],
+          "orientation": "extraction order, not proximal-to-distal validated"
+        }
+      ],
+      "cutaway_plane_x_mm": 56.5924,
+      "cutaway_rule": "remove context triangles with lateral centroid beyond branch median X; not a sulcus plane",
+      "boundary_position": null,
+      "status": "unresolved"
+    },
+    {
+      "side": "L",
+      "source_element_id": "FJ1718M",
+      "edges": [
+        {
+          "edge_id": "FJ1718M:e0",
+          "point_count": 67,
+          "length_mm": 27.241166009603482,
+          "endpoint_distance_to_insula_vertices_mm": [
+            2.3651987926558005,
+            13.75097308972956
+          ],
+          "insula_vertex_distance_min_max_mm": [
+            2.3651987926558005,
+            13.75097308972956
+          ],
+          "endpoints_mm": [
+            [
+              42.18238177379487,
+              -104.67479921645395,
+              1546.687331705812
+            ],
+            [
+              56.868099872819755,
+              -109.67419261186667,
+              1561.6855118920503
+            ]
+          ],
+          "orientation": "extraction order, not proximal-to-distal validated"
+        }
+      ],
+      "cutaway_plane_x_mm": 48.74825,
+      "cutaway_rule": "remove context triangles with lateral centroid beyond branch median X; not a sulcus plane",
+      "boundary_position": null,
+      "status": "unresolved"
+    }
+  ],
+  "figures": [
+    {
+      "path": "exports/mca-boundary-followup/FJ1660-rotations.png",
+      "sha256": "2611c22666fbc3bedafbc0e2c5e294533ec98f605afc201ba02648408a0287a6"
+    },
+    {
+      "path": "exports/mca-boundary-followup/FJ1694-rotations.png",
+      "sha256": "3d7f8dc1132f726b91e4796c05f8b4e8808b723c54e2df0b885bb7ee2139f925"
+    },
+    {
+      "path": "exports/mca-boundary-followup/FJ1664-rotations.png",
+      "sha256": "67e540a8f803ba8b5f1c773d6eedc02d0484ee05f214cae8ca0ef96bdcf48fb7"
+    },
+    {
+      "path": "exports/mca-boundary-followup/FJ1718-rotations.png",
+      "sha256": "fe589c5ab50ad50b5aaecbeda53c2db0d6af95a7b71c354ed5a89a67c5b52552"
+    },
+    {
+      "path": "exports/mca-boundary-followup/FJ1660M-rotations.png",
+      "sha256": "2993d67b2b28f746669850cba84b36c0d66af98e7ebf836fcba59af8a9b006d1"
+    },
+    {
+      "path": "exports/mca-boundary-followup/FJ1694M-rotations.png",
+      "sha256": "f894d300d6351992283db4a8b68a6301cd55a2cd737eb82db0d0858ac46a3a4f"
+    },
+    {
+      "path": "exports/mca-boundary-followup/FJ1664M-rotations.png",
+      "sha256": "d77254c766ccbf05d54ccaca1c875fbb101c69a1794c863d3789a1575fb79cc0"
+    },
+    {
+      "path": "exports/mca-boundary-followup/FJ1718M-rotations.png",
+      "sha256": "d06cd05a15c34a73cb237e38a290e004fc1ce6ac2d2c512436b7a8b62ae7a3a2"
+    }
+  ],
+  "approved_count": 0,
+  "limitations": [
+    "Rotated views and centroid cut-away do not supply a named circular sulcus curve or an opercular exit curve.",
+    "Preview edges remain unoriented; source part contacts do not establish a continuous daughter path.",
+    "No clinical or independent imaging validation."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "status": "UNKNOWN",
+  "source_report_sha256": "de5fb9c7194c0b6c8a50a9ac5db791e1f423d6143b58df8079c377a45eb230b5",
+  "surface_sha256": "bad61c62ca40b1aade54c6e52e3ded05829240b23f6dbd915991d8688ae313d9",
+  "graph_revision": "55225c191c26dac632355661c941e338941964d3e043d07618c07f3d0c4cd2e0",
+  "rows": [
+    {
+      "collar_mm": 5,
+      "counts": {
+        "MEASURED": 127,
+        "UNKNOWN": 0
+      },
+      "artifact": "exports/access-collar-candidates/collar-5mm-radius-sections.json",
+      "artifact_sha256": "75f775936ee493b64b5810b272d1e8df538f7511281567759e45a29214ef2a66",
+      "stored_circle_exceeds_nearest_boundary_count": 95,
+      "maximum_centroid_offset_mm": 5.728611339914652,
+      "endpoint_sections": "NOT RUN",
+      "loft_surface": "NOT RUN",
+      "branch_reattachment": "NOT RUN"
+    },
+    {
+      "collar_mm": 10,
+      "counts": {
+        "MEASURED": 127,
+        "UNKNOWN": 0
+      },
+      "artifact": "exports/access-collar-candidates/collar-10mm-radius-sections.json",
+      "artifact_sha256": "50095c998ac54539fa423f3ac1f2184645fecbd729bc737019434d60ce76b177",
+      "stored_circle_exceeds_nearest_boundary_count": 127,
+      "maximum_centroid_offset_mm": 5.163223764613612,
+      "endpoint_sections": "NOT RUN",
+      "loft_surface": "NOT RUN",
+      "branch_reattachment": "NOT RUN"
+    },
+    {
+      "collar_mm": 20,
+      "counts": {
+        "MEASURED": 127,
+        "UNKNOWN": 0
+      },
+      "artifact": "exports/access-collar-candidates/collar-20mm-radius-sections.json",
+      "artifact_sha256": "a4e465ba9396eab2d9059e0571ffd0ef36725363a88c709c2c09db4217461e4b",
+      "stored_circle_exceeds_nearest_boundary_count": 127,
+      "maximum_centroid_offset_mm": 5.414692900985475,
+      "endpoint_sections": "NOT RUN",
+      "loft_surface": "NOT RUN",
+      "branch_reattachment": "NOT RUN"
+    }
+  ],
+  "live_scene_changed": false,
+  "source_modified": false,
+  "scope": "All non-endpoint stations; unique enclosing planar contours, not an accepted loft",
+  "inspection_status": "COMPLETE"
+}

@@ -1,0 +1,45 @@
+{
+  "status": "CANDIDATE",
+  "source_surface_sha256": "bad61c62ca40b1aade54c6e52e3ded05829240b23f6dbd915991d8688ae313d9",
+  "protected_patch_sha256": "1655747431b193a60b60e1d6e97f227668cc5dbb52da59efdaf4141acb3e6acb",
+  "configuration": {
+    "strength": 0.1,
+    "max_displacement_mm": 0.5,
+    "max_volume_change_fraction": 0.01
+  },
+  "free_vertex_count": 14664,
+  "source_modified": false,
+  "live_scene_changed": false,
+  "self_contact": "NOT RUN",
+  "surroundings": "NOT RUN",
+  "smoothness_acceptance": "NOT RUN",
+  "fairing": {
+    "status": "CANDIDATE",
+    "method": "fixed-vertex squared uniform Laplacian",
+    "strength": 0.1,
+    "free_vertices": 14664,
+    "max_displacement_mm": 0.040944982924354716,
+    "displacement_limit_mm": 0.5,
+    "volume_change_fraction": 7.909083943324902e-08,
+    "volume_change_limit_fraction": 0.01,
+    "fixed_vertices_exact": true,
+    "closed_volume": "PASS",
+    "self_intersection": "NOT RUN"
+  },
+  "protection": {
+    "status": "PASS",
+    "protected_patch_identity": "PASS",
+    "fixed_positions_exact": true,
+    "protected_vertices": 767,
+    "allowed_vertices": 14664,
+    "moved_vertices": 14664,
+    "maximum_displacement_mm": 0.040944982924371494,
+    "displacement_limit_mm": 0.5,
+    "protected_triangle_sha256": "28c985f005f3cb419c8046245e9a67a79e222b70f8b1102cbffa28e3c24d93ce",
+    "self_contact": "NOT RUN",
+    "surroundings": "NOT RUN",
+    "anatomical_validation": "NOT RUN"
+  },
+  "artifact": "exports/brachiocephalic-source-patch/protected-neck-fairing.npz",
+  "artifact_sha256": "04fdc2ef0329916b3d4b9f68f0095a64dd6d8e363b516e470bba8168ab818c0a"
+}

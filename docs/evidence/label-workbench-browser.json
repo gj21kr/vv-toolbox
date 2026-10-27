@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "browser_fallback": "Browser plugin not available; Playwright over existing CDP",
+  "url": "http://127.0.0.1:8093/case-labels",
+  "title": "VV Toolbox · Saved case labels",
+  "checks": [
+    "upload",
+    "search",
+    "no matches disables apply",
+    "centerline click selects edge",
+    "keyboard rotation and reset",
+    "missing evidence rejected",
+    "apply",
+    "invalid upload preserves edits",
+    "replacement cancellation preserves edits",
+    "undo restores exact source snapshot",
+    "redo",
+    "new edit discards redo branch",
+    "download content",
+    "mobile no horizontal overflow"
+  ],
+  "screenshot_paths": [
+    "exports/label-workbench/desktop.png",
+    "exports/label-workbench/mobile.png"
+  ],
+  "console_errors": [],
+  "user_atlas_snapshot_sha256": "082a9178daee4d52c79aaa709cba91fbdc56cfb5767fef4801fd4b9bb22d1964",
+  "user_snapshot_preserved": true,
+  "scope": "synthetic saved-case label workflow; not anatomical validation or Atlas scene editing"
+}

@@ -1,0 +1,22 @@
+{
+  "scope": "Manual saccular design-input contract and unsupported lesion output guards; not sac generation",
+  "environment": "Docker vv-annotation-ui, PYTHONPATH=src",
+  "full_regression": {
+    "passed": 600,
+    "skipped": 3,
+    "warnings": 319,
+    "seconds": 49.32,
+    "scope_note": "Before subsequent saccular-spec CLI addition",
+    "junit_sha256": "148ee4d5d60f690115f56d9601634346e45a8e49161ba9a518df8489882ff18f"
+  },
+  "final_focused": {
+    "passed": 40,
+    "warnings": 54,
+    "seconds": 2.76,
+    "tests": ["test_saccular_spec.py", "test_lesion_labels.py", "test_fusiform_dilation.py", "test_case_surface.py"],
+    "junit_sha256": "9f5b0c227d812fa7625d196068a29a994e1babc4669eccc2f59329bf88689b53"
+  },
+  "sac_surface_generation": "NOT IMPLEMENTED",
+  "open_neck_lumen": "NOT RUN",
+  "clinical_validity": "NOT RUN"
+}

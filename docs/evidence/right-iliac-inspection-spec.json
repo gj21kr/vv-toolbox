@@ -1,0 +1,20 @@
+{
+  "schema": "vv-toolbox.candidate-geometry-audit/1",
+  "baseline": {
+    "snapshot": "exports/synthetic-left-iliac-smoothed/case.snapshot.json",
+    "revision": "23b547d31386462dbae203c4f60f67c0c363962878db538af88fe657570f5621",
+    "focus_edge_ids": ["FJ3565:e0", "FJ3567:e0-trim-second"]
+  },
+  "candidate": {
+    "snapshot": "exports/synthetic-right-iliac-case/case.snapshot.json",
+    "revision": "ac6663b2ad015ed1031d35ff61ba84bcb35be5838656397e59d79107d2cdf8f5",
+    "focus_edge_ids": ["R-CIA-retained", "R-EIA-retained", "estimated_R_CIA_EIA_continuation"]
+  },
+  "candidate_normalization": {
+    "R-CIA-retained": "FJ3565:e0",
+    "R-EIA-retained": "FJ3567:e0-trim-second"
+  },
+  "margin_mm": 1.2,
+  "spacing_mm": 0.6,
+  "max_segment_pairs": 2000000
+}

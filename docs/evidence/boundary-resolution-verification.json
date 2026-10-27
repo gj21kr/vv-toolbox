@@ -1,0 +1,97 @@
+{
+  "schema": "vv-toolbox.boundary-resolution-verification/1",
+  "evidence_integrity": "PASS",
+  "boundary_group_count": 12,
+  "boundary_ids": [
+    "B.L.ACA.A1_A2",
+    "B.L.ACA.A2_A3",
+    "B.L.ACA.A3_A4",
+    "B.L.MCA.M1_M2",
+    "B.L.MCA.M2_M3",
+    "B.L.MCA.M3_M4",
+    "B.R.ACA.A1_A2",
+    "B.R.ACA.A2_A3",
+    "B.R.ACA.A3_A4",
+    "B.R.MCA.M1_M2",
+    "B.R.MCA.M2_M3",
+    "B.R.MCA.M3_M4"
+  ],
+  "source_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "centerline_preview_sha256": "1f099284deca459fcf34850d2c84223e98f78d6f576d9faa72aa0ee66a0cc8f9",
+  "app_draft_sha256": "18daa39bbe0d5e86fe209c6dfb60af755e4276ca1ce2860d8108b69d82d63998",
+  "app_draft_unchanged": true,
+  "reports": [
+    {
+      "path": "docs/evidence/aca-boundary-resolution.json",
+      "sha256": "b55b7f31e85a6bbb4c797cd7d18628ff252890270561e3624b7d4070e410b858"
+    },
+    {
+      "path": "docs/evidence/mca-boundary-path-audit.json",
+      "sha256": "4b51dd5b59e2470a675465d4e63160ac8407455c9850d300c9192935642983ee"
+    }
+  ],
+  "verified_figure_count": 10,
+  "verified_candidate_interpolations": [
+    {
+      "edge_id": "FJ1654:e0",
+      "interval_index": 21,
+      "fraction": 0.2226426189648451
+    },
+    {
+      "edge_id": "FJ1654M:e0",
+      "interval_index": 22,
+      "fraction": 1.0
+    },
+    {
+      "edge_id": "FJ1699:e1",
+      "interval_index": 24,
+      "fraction": 0.9999999999999548
+    },
+    {
+      "edge_id": "FJ1699:e1",
+      "interval_index": 127,
+      "fraction": 0.6835034190723307
+    },
+    {
+      "edge_id": "FJ1699M:e0",
+      "interval_index": 232,
+      "fraction": 0.2886751345947778
+    },
+    {
+      "edge_id": "FJ1699M:e0",
+      "interval_index": 127,
+      "fraction": 0.8699894740990757
+    },
+    {
+      "edge_id": "FJ1660:e0",
+      "interval_index": 13,
+      "fraction": 0.6615000029325712
+    },
+    {
+      "edge_id": "FJ1694:e0",
+      "interval_index": 117,
+      "fraction": 0.8673419537609136
+    },
+    {
+      "edge_id": "FJ1660M:e0",
+      "interval_index": 14,
+      "fraction": 0.07440186629500113
+    },
+    {
+      "edge_id": "FJ1694M:e0",
+      "interval_index": 13,
+      "fraction": 0.11806163501295192
+    }
+  ],
+  "mca_source_coverage": {
+    "parts": 46,
+    "extraction_edges": 120
+  },
+  "annotation_regression": {
+    "status": "PASS",
+    "output": "................................                                         [100%]\n32 passed in 0.88s",
+    "command": "PYTHONPATH=src python -m pytest -q -p no:cacheprovider tests/test_atlas_annotations.py tests/test_segment_materialization.py"
+  },
+  "anatomical_boundary_approval": "UNKNOWN",
+  "limitation": "Hashes and group coverage do not prove anatomy or lumen continuity."
+}

@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "parent_revision": "4ffe329b1d12886832348f16e3110988cdc7afe35ceb6448a95ee23c081d176a",
+  "parameters": {
+    "edge_id": "FJ2074:e0",
+    "sigma_mm": 0.5,
+    "max_displacement_mm": 0.3
+  },
+  "scope": "Single registered centerline edit; fixed surface; not anatomy acceptance",
+  "revision": "002e2f47266abca5b0ca1f47a422dff4f16920d83a87c73f4d92dee428d69563",
+  "file": "exports/saved-bend-smoothing/case.snapshot.json",
+  "metrics": [
+    {
+      "edge_id": "FJ2074:e0",
+      "max_displacement_mm": 0.0687668967226641,
+      "original_length_mm": 361.5914543384761,
+      "modified_length_mm": 360.6043155511699,
+      "endpoint_chords_unchanged": true,
+      "radii_unchanged": true
+    }
+  ],
+  "inspection": {
+    "parent_case_revision": "587051678c854c2f8b2dd37a7e0619ac0742f7f5b8c9953ee6f3467894bc399e",
+    "checked_paths": [
+      {
+        "edge_id": "FJ2074:e0",
+        "part_id": "access-union",
+        "geometry_sha256": "43151841c063db03c2313d9252ae162de0eba043301be1ac58ee333f245f2938",
+        "containment": {
+          "status": "PASS",
+          "method": "interior-midpoint-ball-cover/1",
+          "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+          "tolerance_mm": 1e-06,
+          "max_depth": 16,
+          "max_cells": 100000,
+          "query_batch_size": 128,
+          "indexing": {
+            "method": "exact-coordinate-index-copy/1",
+            "coordinate_tolerance_mm": 0,
+            "original_vertices": 25094,
+            "normalized_vertices": 25094,
+            "faces": 50188,
+            "triangle_coordinate_bytes_preserved": true,
+            "triangle_sha256": "bf91fcc5fd389b3614ec70f5b5062c236191d9a17c0f35bce83949512d5e9bf1",
+            "original_watertight": true,
+            "normalized_watertight": true,
+            "normalized_winding_consistent": true,
+            "zero_area_faces": 0,
+            "usable_for_sampled_containment": true,
+            "original_modified": false,
+            "faces_added_or_removed": false,
+            "self_intersection": "NOT RUN",
+            "anatomical_validity": "NOT RUN"
+          },
+          "segment_count": 1427,
+          "processed_cells": 1427,
+          "covered_cells": 1427,
+          "unresolved_segments": [],
+          "outside_witnesses": [],
+          "maximum_depth_used": 0,
+          "minimum_cover_margin_mm": 4.198577846031061,
+          "surface_self_intersection": "NOT RUN",
+          "anatomical_validation": "NOT RUN"
+        }
+      }
+    ],
+    "scope": "Changed centerlines only; registered triangles unchanged",
+    "radius_surface_consistency": "NOT RUN",
+    "anatomical_acceptance": "UNKNOWN",
+    "accepted_for_generation": false,
+    "inherited_inspections_role": "Historical parent evidence; not revalidation of edited paths"
+  },
+  "parent_context_status": "FAIL",
+  "elapsed_seconds": 2.9853204560058657
+}

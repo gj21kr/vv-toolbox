@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "Synthetic split-source edit using isolated Docker request handler and controlled browser transport; not live Atlas acceptance",
+  "affected_edges": [
+    "e",
+    "e2"
+  ],
+  "nodes_preserved": true,
+  "undo_redo": true,
+  "download_match": true,
+  "browser_errors": [],
+  "visual_review": "NOT RUN"
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "vv-toolbox.validation/1",
+  "date": "2026-10-20",
+  "environment": "Docker vv-annotation-ui",
+  "command": "PYTHONPATH=src pytest -q -p no:cacheprovider tests/test_batch_distribution.py tests/test_batch.py tests/test_fusiform_dilation.py",
+  "result": "PASS",
+  "passed": 19,
+  "warnings": 60,
+  "scope": ["candidate pool and attempted/accepted/rejected/unattempted counts", "measurement definition and region separation", "multi-lesion operation weighting", "malformed candidate reporting", "saved report distribution", "deterministic batch replay"],
+  "limitations": ["requested parameters, not measured output distribution", "no inferred population distribution", "whole anatomical model not tested"]
+}

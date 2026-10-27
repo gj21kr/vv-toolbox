@@ -1,0 +1,117 @@
+{
+  "scope": "engineering mesh quality; not anatomical or clinical acceptance",
+  "candidates": [
+    {
+      "candidate": "mca-explicit-neck",
+      "artifact_sha256": "bfd4bf543e94cb9604e67424476b6c1b8442bbe522aa5f7243ca482d2c95a2ad",
+      "angles": {
+        "design_seam": {
+          "edge_count": 125,
+          "p95_deg": 160.4953472260189,
+          "max_deg": 161.20439261598185,
+          "worst_edge_vertex_ids": [
+            26656,
+            26657
+          ],
+          "worst_adjacent_face_ids": [
+            53164,
+            53333
+          ]
+        },
+        "strip_outer_join": {
+          "edge_count": 84,
+          "p95_deg": 64.64624543060005,
+          "max_deg": 108.81259629050605,
+          "worst_edge_vertex_ids": [
+            22805,
+            23155
+          ],
+          "worst_adjacent_face_ids": [
+            46217,
+            53152
+          ]
+        },
+        "strip_interior": {
+          "edge_count": 334,
+          "p95_deg": 33.94701009342714,
+          "max_deg": 98.12398341254878,
+          "worst_edge_vertex_ids": [
+            23305,
+            26601
+          ],
+          "worst_adjacent_face_ids": [
+            53089,
+            53090
+          ]
+        }
+      },
+      "design_ring_edge_length_mm": {
+        "minimum": 9.20710865984711e-05,
+        "median": 0.03840205354368031,
+        "maximum": 0.09810278915085983
+      },
+      "strip_triangle_quality": {
+        "minimum": 0.0009955219922266334,
+        "p05": 0.0020911496843939986,
+        "definition": "4 sqrt(3) area / sum squared edge lengths; 1 equilateral, tends to 0 degenerate"
+      },
+      "input_unchanged": true
+    },
+    {
+      "candidate": "mca-neck-fairing",
+      "artifact_sha256": "c39ba55a42a8735ca26510da6af9a33214692938e68d828a639892df2e8b0b21",
+      "angles": {
+        "design_seam": {
+          "edge_count": 125,
+          "p95_deg": 104.04093804562645,
+          "max_deg": 119.43114749953948,
+          "worst_edge_vertex_ids": [
+            26566,
+            26567
+          ],
+          "worst_adjacent_face_ids": [
+            53044,
+            53207
+          ]
+        },
+        "strip_outer_join": {
+          "edge_count": 84,
+          "p95_deg": 54.097100322757,
+          "max_deg": 66.14745678740833,
+          "worst_edge_vertex_ids": [
+            23245,
+            23258
+          ],
+          "worst_adjacent_face_ids": [
+            46602,
+            53288
+          ]
+        },
+        "strip_interior": {
+          "edge_count": 334,
+          "p95_deg": 16.19364735815016,
+          "max_deg": 50.286618166708216,
+          "worst_edge_vertex_ids": [
+            23201,
+            26643
+          ],
+          "worst_adjacent_face_ids": [
+            53310,
+            53311
+          ]
+        }
+      },
+      "design_ring_edge_length_mm": {
+        "minimum": 9.20710865984711e-05,
+        "median": 0.03840205354368031,
+        "maximum": 0.09810278915085983
+      },
+      "strip_triangle_quality": {
+        "minimum": 0.0015162838256364487,
+        "p05": 0.009527741319384561,
+        "definition": "4 sqrt(3) area / sum squared edge lengths; 1 equilateral, tends to 0 degenerate"
+      },
+      "input_unchanged": true
+    }
+  ]
+}

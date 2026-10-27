@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "comparisons": 807,
+      "status": "PASS",
+      "different_fields": []
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "comparisons": 807,
+      "status": "PASS",
+      "different_fields": []
+    }
+  ],
+  "comparisons": 1614,
+  "files": [
+    {
+      "path": "docs/evidence/carotid-radius-context.json",
+      "sha256": "8ac6eb7793da713a935d8adfca0906693907f3b03ce0c95e99a7dd4d83ab4b9b"
+    },
+    {
+      "path": "docs/evidence/carotid-radius-context-broadphase.json",
+      "sha256": "2134505ae703e29c257a30e3ef76f6a0a4a6aea7952116d2643332c7422d1053"
+    }
+  ],
+  "scope": "Exact candidate identities and complete per-neighbor contact/containment results",
+  "scope_exclusions": [
+    "Additional context hash metadata absent from original run"
+  ],
+  "optimized_elapsed_seconds": 475.02340632999403,
+  "original_elapsed_seconds": "NOT RECORDED",
+  "speedup": "NOT CLAIMED"
+}

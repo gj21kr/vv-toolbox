@@ -1,0 +1,167 @@
+{
+  "schema": "vv-toolbox.synthetic-iliofemoral-case/1",
+  "parent_case_revision": "2b77c5e97f7d7b6c51625b82bb5c8ef7165fb12eb3979a64c2a15646d9c264ae",
+  "case_revision": "69cca3347e668d85ce9bd28af8ecb3d2eea95ff7812c6ad7a01cd14914c3444f",
+  "cuts": [
+    {
+      "cut_plane_z_mm": 834.0,
+      "specification": {
+        "schema": "vv-toolbox.synthetic-terminal-trim/1",
+        "parent_case_sha256": "2b77c5e97f7d7b6c51625b82bb5c8ef7165fb12eb3979a64c2a15646d9c264ae",
+        "source_hashes": {
+          "bp3d": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+          "bp3d-preview": "1f099284deca459fcf34850d2c84223e98f78d6f576d9faa72aa0ee66a0cc8f9"
+        },
+        "edge_id": "FJ3466:e0",
+        "remove_endpoint": "end",
+        "interval_index": 96,
+        "fraction": 0.500000000000071,
+        "node_id": "FJ3466:e0-synthetic-cut",
+        "child_edge_ids": [
+          "FJ3466:e0-trim-first",
+          "FJ3466:e0-trim-second"
+        ],
+        "rationale": "Synthetic overlap removal: endpoint Z envelope plus fixed 10 mm margin; not anatomical boundary",
+        "evidence_refs": [
+          "docs/ILIOFEMORAL_GAPS.md"
+        ]
+      }
+    },
+    {
+      "cut_plane_z_mm": 805.2,
+      "specification": {
+        "schema": "vv-toolbox.synthetic-terminal-trim/1",
+        "parent_case_sha256": "767862f77c89117cb58be9c55cfc00effb54a225b441bec809848d47c0b364ec",
+        "source_hashes": {
+          "bp3d": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+          "bp3d-preview": "1f099284deca459fcf34850d2c84223e98f78d6f576d9faa72aa0ee66a0cc8f9"
+        },
+        "edge_id": "FJ2074:e0",
+        "remove_endpoint": "start",
+        "interval_index": 23,
+        "fraction": 0.5,
+        "node_id": "FJ2074:e0-synthetic-cut",
+        "child_edge_ids": [
+          "FJ2074:e0-trim-first",
+          "FJ2074:e0-trim-second"
+        ],
+        "rationale": "Synthetic overlap removal: endpoint Z envelope plus fixed 10 mm margin; not anatomical boundary",
+        "evidence_refs": [
+          "docs/ILIOFEMORAL_GAPS.md"
+        ]
+      }
+    },
+    {
+      "cut_plane_z_mm": 834.8000000000001,
+      "specification": {
+        "schema": "vv-toolbox.synthetic-terminal-trim/1",
+        "parent_case_sha256": "c669124c84491b83e874760317af290efc6cd65c140545a7f398685223b256d1",
+        "source_hashes": {
+          "bp3d": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+          "bp3d-preview": "1f099284deca459fcf34850d2c84223e98f78d6f576d9faa72aa0ee66a0cc8f9"
+        },
+        "edge_id": "FJ3567:e0",
+        "remove_endpoint": "start",
+        "interval_index": 43,
+        "fraction": 0.5,
+        "node_id": "FJ3567:e0-synthetic-cut",
+        "child_edge_ids": [
+          "FJ3567:e0-trim-first",
+          "FJ3567:e0-trim-second"
+        ],
+        "rationale": "Synthetic overlap removal: endpoint Z envelope plus fixed 10 mm margin; not anatomical boundary",
+        "evidence_refs": [
+          "docs/ILIOFEMORAL_GAPS.md"
+        ]
+      }
+    },
+    {
+      "cut_plane_z_mm": 798.8000000000001,
+      "specification": {
+        "schema": "vv-toolbox.synthetic-terminal-trim/1",
+        "parent_case_sha256": "a46b490d74b41e42ecd30622853452946aa6c29c6ec04a30c95f48f158701266",
+        "source_hashes": {
+          "bp3d": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+          "bp3d-preview": "1f099284deca459fcf34850d2c84223e98f78d6f576d9faa72aa0ee66a0cc8f9"
+        },
+        "edge_id": "FJ2143:e0",
+        "remove_endpoint": "end",
+        "interval_index": 400,
+        "fraction": 0.5,
+        "node_id": "FJ2143:e0-synthetic-cut",
+        "child_edge_ids": [
+          "FJ2143:e0-trim-first",
+          "FJ2143:e0-trim-second"
+        ],
+        "rationale": "Synthetic overlap removal: endpoint Z envelope plus fixed 10 mm margin; not anatomical boundary",
+        "evidence_refs": [
+          "docs/ILIOFEMORAL_GAPS.md"
+        ]
+      }
+    }
+  ],
+  "bridge_ids": [
+    "estimated_L_iliofemoral",
+    "estimated_R_iliofemoral"
+  ],
+  "attachments": [
+    {
+      "bridge_id": "estimated_L_iliofemoral",
+      "attachment": "start",
+      "source_edge_id": "FJ3466:e0-trim-first",
+      "source_endpoint": "end",
+      "reference": "parent endpoint chord/radius",
+      "parent_radius_difference_mm": 0.0,
+      "shared_node": true,
+      "position_gap_mm": 0.0,
+      "radius_jump_mm": 0.0,
+      "sampled_tangent_angle_deg": 0.577837142862401,
+      "status": "PASS"
+    },
+    {
+      "bridge_id": "estimated_L_iliofemoral",
+      "attachment": "end",
+      "source_edge_id": "FJ2074:e0-trim-second",
+      "source_endpoint": "start",
+      "reference": "parent endpoint chord/radius",
+      "parent_radius_difference_mm": 0.0,
+      "shared_node": true,
+      "position_gap_mm": 0.0,
+      "radius_jump_mm": 0.0,
+      "sampled_tangent_angle_deg": 0.5420937782705229,
+      "status": "PASS"
+    },
+    {
+      "bridge_id": "estimated_R_iliofemoral",
+      "attachment": "start",
+      "source_edge_id": "FJ3567:e0-trim-second",
+      "source_endpoint": "start",
+      "reference": "parent endpoint chord/radius",
+      "parent_radius_difference_mm": 0.0,
+      "shared_node": true,
+      "position_gap_mm": 0.0,
+      "radius_jump_mm": 0.0,
+      "sampled_tangent_angle_deg": 0.1780123216312059,
+      "status": "PASS"
+    },
+    {
+      "bridge_id": "estimated_R_iliofemoral",
+      "attachment": "end",
+      "source_edge_id": "FJ2143:e0-trim-first",
+      "source_endpoint": "end",
+      "reference": "parent endpoint chord/radius",
+      "parent_radius_difference_mm": 0.0,
+      "shared_node": true,
+      "position_gap_mm": 0.0,
+      "radius_jump_mm": 0.0,
+      "sampled_tangent_angle_deg": 0.37867598411974357,
+      "status": "PASS"
+    }
+  ],
+  "source_unchanged": true,
+  "unrelated_edges_unchanged": true,
+  "collision_check": "NOT RUN",
+  "surface_check": "NOT RUN",
+  "anatomical_acceptance": "UNKNOWN",
+  "default_app_applied": false
+}

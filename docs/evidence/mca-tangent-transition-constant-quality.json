@@ -1,0 +1,66 @@
+{
+  "schema": "vv-toolbox.tangent-transition/1",
+  "case_revision": "90aa67f11b698178168d7491e1da7d23bd621f252dfea6dd47029af93b9a9da4",
+  "frame": {
+    "axes": "LPS",
+    "evidence_ref": "docs/CEREBRAL_LANDMARK_INSPECTION.md",
+    "id": "bodyparts3d_native_LPS",
+    "origin": "unchanged BodyParts3D native origin",
+    "units": "mm"
+  },
+  "parent_artifact_sha256": "e556b6f7b39fda923bac2945b155e6ac7c96b7c3377fc2968782ebcc0ba286db",
+  "status": "CANDIDATE",
+  "parameterization": "provisional normalized arc length; anatomical correspondence NOT VERIFIED",
+  "cross_rim_tangent": "constant declared neck normal",
+  "original_cross_rim_normal_alignment": {
+    "minimum": 0.8251281320627181,
+    "maximum": 0.9968713489914766,
+    "negative_count": 0
+  },
+  "sampling_intervals": 8,
+  "band_width_mm": 1.0,
+  "outer_triangulation": "minimum inverse quality",
+  "angles": {
+    "neck": {
+      "count": 125,
+      "maximum_deg": 28.089283051124973,
+      "p95_deg": 26.48181778175813,
+      "above_90_deg": 0
+    },
+    "outer_join": {
+      "count": 185,
+      "maximum_deg": 177.98318765112145,
+      "p95_deg": 35.41558012246026,
+      "above_90_deg": 8
+    },
+    "transition_interior": {
+      "count": 5685,
+      "maximum_deg": 179.23518469454754,
+      "p95_deg": 27.221379422200698,
+      "above_90_deg": 28
+    }
+  },
+  "minimum_triangle_quality": 0.0013892464740829613,
+  "crease_strip_pairs": {
+    "-1,7": 2,
+    "-1,15": 6,
+    "7,7": 8,
+    "6,7": 2,
+    "15,15": 16,
+    "14,15": 2
+  },
+  "strip_index_definition": "0..7 parent neck-to-outer, 8..15 sac neck-to-outer; -1 retained source",
+  "minimum_triangle_area_mm2": 4.830953175923164e-06,
+  "closed_volume": "PASS",
+  "component_count": 1,
+  "original_vertices_unchanged": true,
+  "design_curve_exact": true,
+  "self_intersection": "NOT RUN",
+  "context_collision": "NOT RUN",
+  "smooth_junction": "UNKNOWN",
+  "crease_screen": "FAIL",
+  "crease_screen_definition": "Reject any measured transition or interface face-normal angle above 90 degrees; passing is not smoothness acceptance.",
+  "app_applied": false,
+  "artifact_sha256": "4cb3dd31583e03293797df64d4479e02c549f3ea32e30199d5942bf3dc841121",
+  "input_unchanged": true
+}

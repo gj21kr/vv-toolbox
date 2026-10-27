@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "Actual demo HTTP split-source editing with synthetic fixture; not anatomical acceptance",
+  "affected_edges": [
+    "e",
+    "e2"
+  ],
+  "nodes_preserved": true,
+  "undo_redo": true,
+  "download_match": true,
+  "browser_errors": [],
+  "visual_review": "NOT RUN"
+}

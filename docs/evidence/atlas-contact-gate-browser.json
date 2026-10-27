@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "url": "http://127.0.0.1:8093/",
+  "title": "VV Toolbox",
+  "viewport": null,
+  "browser_path": "Playwright over existing CDP; Browser plugin not available",
+  "initial_load": "Already loaded tab; cold-load timing not validated",
+  "failed_parameters": {
+    "radius_scale": 2,
+    "tortuosity": 1,
+    "torsion_deg": 180
+  },
+  "rejection": {
+    "error": "Atlas self-contact check FAIL: 36 contact pairs; all distinct triangle pairs",
+    "code": "atlas_edit_checks_failed"
+  },
+  "rejected_edit_preserves_generation_graph_surfaces_and_snapshot": true,
+  "normal_radius_edit_save_reset_reload": true,
+  "original_geometry_restored": true,
+  "page_errors": [],
+  "scope": "Live UI/HTTP edit rejection and successful self-contact-screened save/reload. Does not validate surrounding collision or radius accuracy."
+}

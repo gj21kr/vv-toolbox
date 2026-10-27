@@ -1,0 +1,62 @@
+{
+  "source_case_revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+  "rows": [
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "input_sha256": "404b9b86c511fd0d0904ef63f46ac20701ec545d531ab3191a5b4857ce8431d7",
+      "output_sha256": "a8359d0dfa1794e056bdf2fcc5748baea82623685c06676ba2fcbc182296d102",
+      "status": "CANDIDATE",
+      "source_name": "estimated_left_carotid_neck",
+      "scale": 0.9,
+      "transition_mm": 5.0,
+      "maximum_displacement_mm": 0.36725958443081863,
+      "displacement_bound_mm": 0.5,
+      "moved_vertices": 11468,
+      "shared_vertices_fixed": true,
+      "other_source_vertices_fixed": true,
+      "faces_unchanged": true,
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 191490,
+        "adjacent_pairs_checked": 149976,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "neighbor_contact": "NOT RUN",
+      "scope": "Radial displacement about supplied polyline, tapered at source interfaces and path ends",
+      "anatomical_validation": "NOT RUN"
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "input_sha256": "626742a716bc38a5e8f83e2eba5c1d63bcc0933f8d8f368725d149687bcd0ee0",
+      "output_sha256": "7565484ec4434f94ac09660177519bd3679def409785e64dbf2e03df17216fa3",
+      "status": "CANDIDATE",
+      "source_name": "estimated_right_carotid_neck",
+      "scale": 0.9,
+      "transition_mm": 5.0,
+      "maximum_displacement_mm": 0.3885678483222697,
+      "displacement_bound_mm": 0.5,
+      "moved_vertices": 14664,
+      "shared_vertices_fixed": true,
+      "other_source_vertices_fixed": true,
+      "faces_unchanged": true,
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 276994,
+        "adjacent_pairs_checked": 192420,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "neighbor_contact": "NOT RUN",
+      "scope": "Radial displacement about supplied polyline, tapered at source interfaces and path ends",
+      "anatomical_validation": "NOT RUN"
+    }
+  ],
+  "live_scene_changed": false
+}

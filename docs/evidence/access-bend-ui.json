@@ -1,0 +1,401 @@
+{
+  "status": "PASS",
+  "scope": "Actual read-only bend candidate surface/centerline viewer",
+  "candidate": {
+    "id": "access-femoral-bend-inspection",
+    "title": "대퇴 굴곡 0.25 mm · 검사 후보",
+    "revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+    "surface_sha256": "50a8721bc327be5dee7ff863db96342344f3f444a91173aa715eea734add4780",
+    "vertices": 25094,
+    "triangles": 50188,
+    "read_only": true,
+    "edge_ids": [
+      "FJ1931",
+      "FJ1932",
+      "FJ2074",
+      "FJ2143",
+      "FJ3411",
+      "FJ3464",
+      "FJ3466",
+      "FJ3565",
+      "FJ3567",
+      "FJ3417",
+      "FJ3579",
+      "FJ1654",
+      "FJ1692",
+      "FJ1692M",
+      "FJ1655",
+      "FJ1654M",
+      "FJ1682M",
+      "FJ3483",
+      "estimated_left_carotid_neck",
+      "FJ1682",
+      "FJ3564",
+      "estimated_right_carotid_neck"
+    ],
+    "centerlines_available": true,
+    "selected_source": null,
+    "selectable_sources": [
+      {
+        "id": "FJ1931",
+        "label": "FJ1931"
+      },
+      {
+        "id": "FJ1932",
+        "label": "FJ1932"
+      },
+      {
+        "id": "FJ2074",
+        "label": "FJ2074"
+      },
+      {
+        "id": "FJ2143",
+        "label": "FJ2143"
+      },
+      {
+        "id": "FJ3411",
+        "label": "FJ3411"
+      },
+      {
+        "id": "FJ3464",
+        "label": "FJ3464"
+      },
+      {
+        "id": "FJ3466",
+        "label": "FJ3466"
+      },
+      {
+        "id": "FJ3565",
+        "label": "FJ3565"
+      },
+      {
+        "id": "FJ3567",
+        "label": "FJ3567"
+      },
+      {
+        "id": "FJ3417",
+        "label": "FJ3417"
+      },
+      {
+        "id": "FJ3579",
+        "label": "FJ3579"
+      },
+      {
+        "id": "FJ1654",
+        "label": "FJ1654"
+      },
+      {
+        "id": "FJ1692",
+        "label": "FJ1692"
+      },
+      {
+        "id": "FJ1692M",
+        "label": "FJ1692M"
+      },
+      {
+        "id": "FJ1655",
+        "label": "FJ1655"
+      },
+      {
+        "id": "FJ1654M",
+        "label": "FJ1654M"
+      },
+      {
+        "id": "FJ1682M",
+        "label": "FJ1682M"
+      },
+      {
+        "id": "FJ3483",
+        "label": "FJ3483"
+      },
+      {
+        "id": "estimated_left_carotid_neck",
+        "label": "estimated_left_carotid_neck"
+      },
+      {
+        "id": "FJ1682",
+        "label": "FJ1682"
+      },
+      {
+        "id": "FJ3564",
+        "label": "FJ3564"
+      },
+      {
+        "id": "estimated_right_carotid_neck",
+        "label": "estimated_right_carotid_neck"
+      }
+    ],
+    "scope": "굴곡 검사 후보 · 적용 불가 · 반경 보존과 해부학적 수용 미확인",
+    "access_union": {
+      "self_contact": "NO_CONTACT_DETECTED",
+      "lineage_faces": "NOT RUN",
+      "source_count": 22,
+      "centerline_status": "PASS",
+      "checked_paths": 65,
+      "checked_segments": 9477,
+      "context_status": "RUNNING",
+      "context_neighbors": 788,
+      "contacts": [
+        "FJ1658",
+        "FJ1658M",
+        "FJ1660",
+        "FJ1660M",
+        "FJ1662",
+        "FJ1662M",
+        "FJ1663",
+        "FJ1663M",
+        "FJ1676",
+        "FJ1676M",
+        "FJ1690",
+        "FJ1690M",
+        "FJ1694",
+        "FJ1694M",
+        "FJ1695",
+        "FJ1695M",
+        "FJ1699",
+        "FJ1699M",
+        "FJ1713",
+        "FJ1713M",
+        "FJ1718",
+        "FJ1718M",
+        "FJ1846",
+        "FJ1928",
+        "FJ1934",
+        "FJ1935",
+        "FJ1937",
+        "FJ1967",
+        "FJ1977",
+        "FJ1981",
+        "FJ2011",
+        "FJ2013",
+        "FJ2038",
+        "FJ2046",
+        "FJ2069",
+        "FJ2086",
+        "FJ2099",
+        "FJ2102",
+        "FJ2135",
+        "FJ2137",
+        "FJ2144",
+        "FJ2170",
+        "FJ2268",
+        "FJ2276",
+        "FJ2303",
+        "FJ2307",
+        "FJ3418",
+        "FJ3421",
+        "FJ3427",
+        "FJ3430",
+        "FJ3431",
+        "FJ3434",
+        "FJ3442",
+        "FJ3444",
+        "FJ3465",
+        "FJ3468",
+        "FJ3472",
+        "FJ3476",
+        "FJ3477",
+        "FJ3479",
+        "FJ3482",
+        "FJ3484",
+        "FJ3514",
+        "FJ3529",
+        "FJ3532",
+        "FJ3533",
+        "FJ3568",
+        "FJ3569",
+        "FJ3576",
+        "FJ3586",
+        "FJ3604",
+        "FJ3614",
+        "FJ3617",
+        "FJ3619",
+        "FJ3632",
+        "FJ3636",
+        "FJ3641",
+        "FJ3644",
+        "FJ3645"
+      ],
+      "unknown": [
+        "FJ1683",
+        "FJ1683M",
+        "FJ1688",
+        "FJ1688M",
+        "FJ2404",
+        "FJ2405",
+        "FJ3467",
+        "FJ3473",
+        "FJ3553",
+        "FJ3639"
+      ],
+      "four_access_routes": "NOT RUN",
+      "context_completed": 780
+    },
+    "access_graph": {
+      "revision": "3235bfc27f583b0b1592607c22d7d67fa3545cd77459a5a549cd80533ef3fac6",
+      "nodes": 65,
+      "edges": 65,
+      "routes": [
+        {
+          "femoral_side": "L",
+          "carotid_side": "L",
+          "target": "FJ1654M",
+          "status": "UNKNOWN",
+          "edge_count": 21,
+          "unresolved_edges": 19
+        },
+        {
+          "femoral_side": "L",
+          "carotid_side": "L",
+          "target": "FJ1692M",
+          "status": "UNKNOWN",
+          "edge_count": 21,
+          "unresolved_edges": 19
+        },
+        {
+          "femoral_side": "L",
+          "carotid_side": "R",
+          "target": "FJ1654",
+          "status": "UNKNOWN",
+          "edge_count": 24,
+          "unresolved_edges": 21
+        },
+        {
+          "femoral_side": "L",
+          "carotid_side": "R",
+          "target": "FJ1692",
+          "status": "UNKNOWN",
+          "edge_count": 24,
+          "unresolved_edges": 21
+        },
+        {
+          "femoral_side": "R",
+          "carotid_side": "L",
+          "target": "FJ1654M",
+          "status": "UNKNOWN",
+          "edge_count": 23,
+          "unresolved_edges": 20
+        },
+        {
+          "femoral_side": "R",
+          "carotid_side": "L",
+          "target": "FJ1692M",
+          "status": "UNKNOWN",
+          "edge_count": 23,
+          "unresolved_edges": 20
+        },
+        {
+          "femoral_side": "R",
+          "carotid_side": "R",
+          "target": "FJ1654",
+          "status": "UNKNOWN",
+          "edge_count": 26,
+          "unresolved_edges": 22
+        },
+        {
+          "femoral_side": "R",
+          "carotid_side": "R",
+          "target": "FJ1692",
+          "status": "UNKNOWN",
+          "edge_count": 26,
+          "unresolved_edges": 22
+        }
+      ],
+      "scope": "Four femoral/carotid pairs to registered ACA and proximal MCA paths; not A3/M3 coverage",
+      "status": "UNKNOWN"
+    },
+    "anatomy": "UNKNOWN",
+    "smoothness": "UNKNOWN",
+    "radius_path_sources": [],
+    "radius_path_unavailable": {},
+    "geometry_sha256": "86e8f107d0333bb24b553f37c46daf759dbd2e0316acd255faf36f50eaf3416f",
+    "shape_edit": {
+      "status": "CANDIDATE",
+      "source_name": "FJ2074",
+      "bend_mm": 0.25,
+      "twist_deg": 0,
+      "collar_mm": 1,
+      "transition_mm": 10,
+      "maximum_displacement_mm": 0.2500000000000039,
+      "displacement_measurements": {
+        "maximum_displacement_mm": 0.2500000000000039,
+        "displacement_bound_mm": 1,
+        "surface_maximum_mm": 0.2500000000000039,
+        "surface_peak_vertex": 9252,
+        "surface_peak_position_mm": [
+          42.14649963378906,
+          -140.23199462890625,
+          704.8259887695312
+        ],
+        "surface_peak_chord_distance_mm": 32.1858556087745,
+        "path_maximum_mm": 0.2500000000000039,
+        "path_peak_station": 50,
+        "path_peak_position_mm": [
+          48.80191189936379,
+          -125.32107212569777,
+          813.8045347662114
+        ],
+        "chord_length_mm": 348.5623043302302,
+        "surface_displacement_percentiles_mm": [
+          0,
+          0.2500000000000039,
+          0.2500000000000039,
+          0.2500000000000039
+        ]
+      },
+      "fixed_vertices_unchanged": true,
+      "path_endpoints_fixed": true,
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 383674,
+        "adjacent_pairs_checked": 312942,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-8,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "centerline_containment": {
+        "status": "PASS",
+        "method": "interior-midpoint-ball-cover/1",
+        "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+        "tolerance_mm": 0.000001,
+        "max_depth": 16,
+        "max_cells": 100000,
+        "query_batch_size": 128,
+        "indexing": {
+          "method": "exact-coordinate-index-copy/1",
+          "coordinate_tolerance_mm": 0,
+          "original_vertices": 25094,
+          "normalized_vertices": 25094,
+          "faces": 50188,
+          "triangle_coordinate_bytes_preserved": true,
+          "triangle_sha256": "bf91fcc5fd389b3614ec70f5b5062c236191d9a17c0f35bce83949512d5e9bf1",
+          "original_watertight": true,
+          "normalized_watertight": true,
+          "normalized_winding_consistent": true,
+          "zero_area_faces": 0,
+          "usable_for_sampled_containment": true,
+          "original_modified": false,
+          "faces_added_or_removed": false,
+          "self_intersection": "NOT RUN",
+          "anatomical_validity": "NOT RUN"
+        },
+        "segment_count": 1427,
+        "processed_cells": 1427,
+        "covered_cells": 1427,
+        "unresolved_segments": [],
+        "outside_witnesses": [],
+        "maximum_depth_used": 0,
+        "minimum_cover_margin_mm": 4.1808749115905215,
+        "surface_self_intersection": "NOT RUN",
+        "anatomical_validation": "NOT RUN"
+      },
+      "neighboring_vessels": "NOT RUN",
+      "radius_surface_consistency": "NOT RUN",
+      "anatomical_validation": "NOT RUN"
+    }
+  },
+  "browser_errors": [],
+  "atlas_restored": true
+}

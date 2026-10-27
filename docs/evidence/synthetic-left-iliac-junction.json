@@ -1,0 +1,35 @@
+{
+  "schema": "vv-toolbox.synthetic-left-iliac-junction/1",
+  "parent_revision": "363551e43ad9b7d6a33e4853a9fa61e12ae76024f31d7c9b61cf34e14e8263df",
+  "case_revision": "ba73dd6b5eae4f2dd96e58ce5af1ae457af9b66b814a2a10e8561ba3a8174524",
+  "specification": {
+    "schema": "vv-toolbox.synthetic-node-coalescence/1",
+    "parent_case_sha256": "363551e43ad9b7d6a33e4853a9fa61e12ae76024f31d7c9b61cf34e14e8263df",
+    "source_hashes": {
+      "bp3d": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+      "bp3d-preview": "1f099284deca459fcf34850d2c84223e98f78d6f576d9faa72aa0ee66a0cc8f9"
+    },
+    "node_ids": [
+      "FJ3464:n1",
+      "FJ3466:n0"
+    ],
+    "node_id": "synthetic_L_common_external_iliac",
+    "rationale": "Explicit synthetic continuation at identical source endpoint coordinates; no source ostium approval",
+    "evidence_refs": [
+      "docs/evidence/access-route-endpoints.json"
+    ]
+  },
+  "position_mm": [
+    31.200000000000003,
+    -96.80000000000001,
+    907.2
+  ],
+  "position_gap_mm": 0.0,
+  "radius_jump_mm": 0.33588108514475845,
+  "sampled_tangent_angle_deg": 59.9999999999992,
+  "original_snapshot_unchanged": true,
+  "all_centerlines_and_radii_unchanged": true,
+  "graph_connection": "PRESENT",
+  "anatomical_acceptance": "UNKNOWN",
+  "surface_check": "NOT RUN"
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "Snapshot collection split isolation by declared base ID and referenced source SHA256",
+  "environment": "Docker vv-annotation-ui",
+  "command": "PYTHONPATH=src python -m pytest -q --tb=short -p no:cacheprovider tests/test_case_contract.py tests/test_case_io.py --junitxml=exports/collection-isolation.xml",
+  "status": "PASS",
+  "passed": 26,
+  "seconds": 0.84,
+  "independent_anatomy": "UNKNOWN",
+  "external_source_bytes_revalidated": "NOT RUN",
+  "full_regression_after_change": "NOT RUN"
+}

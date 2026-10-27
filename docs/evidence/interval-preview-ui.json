@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "browser": "Playwright CDP; Browser plugin not available",
+  "actual_http_rejection": true,
+  "success_rendering": "synthetic intercepted response",
+  "comparison_toggle": true,
+  "keyboard_rotation": true,
+  "mobile_no_overflow": true,
+  "main_viser_frame": "not loaded in this focused test",
+  "selection_invalidates_result": true,
+  "active_modifications_unchanged": true,
+  "errors": []
+}

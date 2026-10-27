@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "Observe actual running request; no model mutation",
+  "progress": {
+    "phase": "geometry",
+    "completed": 0,
+    "total": 1
+  },
+  "text": "형상 계산과 자기 접촉 검사 · 0/1 · 현재 모델 유지",
+  "generation": 3,
+  "surface_sha256": "c1981693aff26b3a21e6dda40fca292c64e04c33471cae517f6120125352602c",
+  "running_parameters": {
+    "source_name": "FJ2074",
+    "scale": 1.05,
+    "transition_mm": 10,
+    "max_displacement_mm": 1
+  },
+  "parameter_inputs_locked": true,
+  "viewer_visual": "PASS: actual running parameters 1.05, 10 mm, 1 mm match server; inputs and conflicting actions disabled",
+  "browser_errors": [],
+  "roundtrip_completion": "NOT CHECKED",
+  "screenshot_sha256": "d6af51bc24737d5bb8e84e15afac6a02252406824d47a3951377dc2d1559f0e1"
+}

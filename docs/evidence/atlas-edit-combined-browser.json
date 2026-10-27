@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "part_id": "FJ1692",
+  "parameters": {
+    "radius_scale": 1.3,
+    "tortuosity": 0.3,
+    "torsion_deg": 35
+  },
+  "endpoint_positions_and_radii_preserved": true,
+  "save_restore_reload": true,
+  "restored_surface_sha256": "8adf7b9402f1f524c2dd4dbde0d0e39e6d9edff61218a9c0c291aed3813537ac",
+  "restored_centerline_sha256": "428d01b4a4b357348bf864aa54d0535073cfe122a22a1d37de0a9607f717444b",
+  "stale_generation_rejected": true,
+  "original_geometry_restored_at_end": true,
+  "page_errors": [],
+  "scope": "Atlas parameter persistence and derived geometry replay; anatomical and collision validity not assessed"
+}

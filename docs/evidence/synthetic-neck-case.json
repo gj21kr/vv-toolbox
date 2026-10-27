@@ -1,0 +1,248 @@
+{
+  "schema": "vv-toolbox.synthetic-neck-case-inspection/1",
+  "status": "PASS",
+  "scope": "source preservation and synthetic snapshot generation only",
+  "source_case_sha256": "ac39f2d88883cf9f2389618a7ad6f0770dd3b5efef17278fbcefa02bf677aa24",
+  "synthetic_case_sha256": "165cebe813b506cf1a12bd299de0b05c96890def6214e4233d85d33e3eea55b3",
+  "snapshot_path": "exports/synthetic-neck-case/case.snapshot.json",
+  "source_edge_count": 1081,
+  "synthetic_edge_count": 1083,
+  "source_nodes_unchanged": true,
+  "source_edges_unchanged": true,
+  "source_input_bytes_unchanged": true,
+  "snapshot_roundtrip": "PASS",
+  "source_evidence_status_preserved": true,
+  "specification": {
+    "schema": "vv-toolbox.synthetic-routes/1",
+    "source_case_sha256": "ac39f2d88883cf9f2389618a7ad6f0770dd3b5efef17278fbcefa02bf677aa24",
+    "bridges": [
+      {
+        "id": "estimated_L_carotid_gap",
+        "from": {
+          "edge_id": "FJ3483:e0",
+          "endpoint": "end"
+        },
+        "to": {
+          "edge_id": "FJ1682M:e0",
+          "endpoint": "end"
+        },
+        "handle_lengths_mm": [
+          69.99697459886833,
+          69.99697459886833
+        ],
+        "samples": 96,
+        "rationale": "Existing atlas_neck carotid source pair; superior CCA and inferior ICA extraction endpoints. Handles equal endpoint chord length as existing Hermite display policy. Bifurcation omitted; synthetic continuation only.",
+        "evidence_refs": [
+          "src/vv_toolbox/atlas_neck.py::_repair",
+          "docs/ACCESS_ROUTE_ENDPOINTS.md",
+          "docs/evidence/access-route-endpoints.json"
+        ]
+      },
+      {
+        "id": "estimated_R_carotid_gap",
+        "from": {
+          "edge_id": "FJ3564:e0",
+          "endpoint": "start"
+        },
+        "to": {
+          "edge_id": "FJ1682:e0",
+          "endpoint": "start"
+        },
+        "handle_lengths_mm": [
+          70.0530916061193,
+          70.0530916061193
+        ],
+        "samples": 96,
+        "rationale": "Existing atlas_neck carotid source pair; superior CCA and inferior ICA extraction endpoints. Handles equal endpoint chord length as existing Hermite display policy. Bifurcation omitted; synthetic continuation only.",
+        "evidence_refs": [
+          "src/vv_toolbox/atlas_neck.py::_repair",
+          "docs/ACCESS_ROUTE_ENDPOINTS.md",
+          "docs/evidence/access-route-endpoints.json"
+        ]
+      }
+    ]
+  },
+  "anchor_comparisons": [
+    {
+      "side": "L",
+      "source_part_ids": [
+        "FJ3483",
+        "FJ1682M"
+      ],
+      "extraction_endpoint_positions_mm": [
+        [
+          19.200000000000003,
+          -108.0,
+          1368.8000000000002
+        ],
+        [
+          35.497960300416175,
+          -105.36696152663214,
+          1436.8222026358928
+        ]
+      ],
+      "existing_display_section_centers_mm": [
+        [
+          18.739318478982685,
+          -108.19906929588872,
+          1372.1800537109375
+        ],
+        [
+          35.4880827626409,
+          -105.51026889285825,
+          1436.0400390625
+        ]
+      ],
+      "endpoint_to_section_center_distance_mm": [
+        3.4171068372518874,
+        0.7952448821022472
+      ],
+      "existing_display_section_radii_mm": [
+        3.275483984776573,
+        1.846729779499626
+      ],
+      "handle_lengths_mm": [
+        69.99697459886833,
+        69.99697459886833
+      ],
+      "selection_status": "explicit synthetic choice, not anatomical approval"
+    },
+    {
+      "side": "R",
+      "source_part_ids": [
+        "FJ3564",
+        "FJ1682"
+      ],
+      "extraction_endpoint_positions_mm": [
+        [
+          -16.8,
+          -111.2,
+          1369.6000000000001
+        ],
+        [
+          -35.49887344673566,
+          -105.36967197681852,
+          1436.8591633202527
+        ]
+      ],
+      "existing_display_section_centers_mm": [
+        [
+          -16.628530192319882,
+          -111.28552512687082,
+          1371.8800048828125
+        ],
+        [
+          -35.48810445411533,
+          -105.5105674636868,
+          1436.0400390625
+        ]
+      ],
+      "endpoint_to_section_center_distance_mm": [
+        2.2880425494121273,
+        0.8312232305830052
+      ],
+      "existing_display_section_radii_mm": [
+        3.8667646552671093,
+        1.8465484118153976
+      ],
+      "handle_lengths_mm": [
+        70.0530916061193,
+        70.0530916061193
+      ],
+      "selection_status": "explicit synthetic choice, not anatomical approval"
+    }
+  ],
+  "bilateral_bridge_minimum_centerline_distance_mm": 36.14686390381728,
+  "bilateral_bridge_minimum_capsule_clearance_mm": 28.946863903817277,
+  "six_edge_nonincident_capsule_screen": {
+    "status": "PASS",
+    "scope": "nonincident edge conservative capsule envelopes only",
+    "margin_mm": 0.0,
+    "checked_segment_pairs": 0,
+    "bbox_separated_pairs": 11,
+    "potential_contacts": [],
+    "shared_node_pairs_not_checked": [
+      [
+        "estimated_L_carotid_gap",
+        "FJ3483:e0"
+      ],
+      [
+        "estimated_L_carotid_gap",
+        "FJ1682M:e0"
+      ],
+      [
+        "estimated_R_carotid_gap",
+        "FJ3564:e0"
+      ],
+      [
+        "estimated_R_carotid_gap",
+        "FJ1682:e0"
+      ]
+    ],
+    "within_edge_self_intersection": "NOT RUN",
+    "final_surface_collision": "NOT RUN"
+  },
+  "sampled_bridge_continuity": {
+    "status": "PASS",
+    "scope": "sampled centerline endpoint position, tangent and radius continuity",
+    "max_angle_deg": 5.0,
+    "max_radius_jump_mm": 1e-06,
+    "attachments": [
+      {
+        "bridge_id": "estimated_L_carotid_gap",
+        "attachment": "start",
+        "source_edge_id": "FJ3483:e0",
+        "source_endpoint": "end",
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.4241185056594775,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "estimated_L_carotid_gap",
+        "attachment": "end",
+        "source_edge_id": "FJ1682M:e0",
+        "source_endpoint": "end",
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.4241185056594775,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "estimated_R_carotid_gap",
+        "attachment": "start",
+        "source_edge_id": "FJ3564:e0",
+        "source_endpoint": "start",
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.5029550254136171,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "estimated_R_carotid_gap",
+        "attachment": "end",
+        "source_edge_id": "FJ1682:e0",
+        "source_endpoint": "start",
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.5029550254150664,
+        "status": "PASS"
+      }
+    ],
+    "surface_smoothness": "NOT RUN",
+    "anatomical_connection": "UNKNOWN"
+  },
+  "whole_atlas_collision": "NOT RUN",
+  "junction_surface_smoothness": "NOT RUN",
+  "anatomical_bifurcation": "OMITTED",
+  "anatomical_acceptance": "UNKNOWN",
+  "four_access_routes": "NOT RUN",
+  "figure": {
+    "path": "exports/synthetic-neck-case/carotid-gaps.png",
+    "sha256": "e939b32da8013f2443977ed61fc0021abfd787de21c23ae30fde377717b14e64"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "case_revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+  "candidate_sha256": "cb472598fde0a167ef445360918ace20fdf7fadd2ff4d1cb95ed8333cfc0543d",
+  "rows": [
+    {
+      "offset_mm": 0.0,
+      "point_mm": [
+        -16.628530192319882,
+        -111.28552512687082,
+        1371.8800048828125
+      ],
+      "inside_source": true,
+      "inside_bridge": true,
+      "source_boundary_distance_mm": 0.208986879757361,
+      "bridge_boundary_distance_mm": 3.552713678800501e-15
+    },
+    {
+      "offset_mm": 0.01,
+      "point_mm": [
+        -16.628122186808554,
+        -111.28498927631482,
+        1371.8899821768186
+      ],
+      "inside_source": true,
+      "inside_bridge": true,
+      "source_boundary_distance_mm": 0.19960646537609006,
+      "bridge_boundary_distance_mm": 0.010000000000038417
+    },
+    {
+      "offset_mm": 0.05,
+      "point_mm": [
+        -16.626490164763247,
+        -111.2828458740908,
+        1371.929891352843
+      ],
+      "inside_source": true,
+      "inside_bridge": true,
+      "source_boundary_distance_mm": 0.1622810541792325,
+      "bridge_boundary_distance_mm": 0.049999999999965516
+    },
+    {
+      "offset_mm": 0.1,
+      "point_mm": [
+        -16.624450137206612,
+        -111.28016662131076,
+        1371.9797778228735
+      ],
+      "inside_source": true,
+      "inside_bridge": true,
+      "source_boundary_distance_mm": 0.11641955549687101,
+      "bridge_boundary_distance_mm": 0.09999999999993195
+    },
+    {
+      "offset_mm": 0.25,
+      "point_mm": [
+        -16.618330054536706,
+        -111.27212886297066,
+        1372.1294372329653
+      ],
+      "inside_source": false,
+      "inside_bridge": true,
+      "source_boundary_distance_mm": 0.017940914410362992,
+      "bridge_boundary_distance_mm": 0.250000000000057
+    },
+    {
+      "offset_mm": 0.5,
+      "point_mm": [
+        -16.60812991675353,
+        -111.25873259907051,
+        1372.378869583118
+      ],
+      "inside_source": false,
+      "inside_bridge": true,
+      "source_boundary_distance_mm": 0.24183519761932526,
+      "bridge_boundary_distance_mm": 0.500000000000114
+    },
+    {
+      "offset_mm": 1.0,
+      "point_mm": [
+        -16.58772964118718,
+        -111.2319400712702,
+        1372.8777342834235
+      ],
+      "inside_source": false,
+      "inside_bridge": true,
+      "source_boundary_distance_mm": 0.6896237640369955,
+      "bridge_boundary_distance_mm": 1.0000000000000009
+    }
+  ],
+  "fixed_025mm_witness_unchanged": true,
+  "scope": "Diagnostic line samples only, not full overlap volume or union",
+  "live_scene_changed": false
+}

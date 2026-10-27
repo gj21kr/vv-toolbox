@@ -188,6 +188,8 @@ def build_atlas_centerlines(atlas,estimated_parts=(),*,cache_dir=None,progress=N
     result['edges']=[smooth_edge(edge) for edge in result['edges']]
     result['smoothing']=SMOOTHING_VERSION
     result['links']=proximity_links(result['nodes'],result['edges'])
+    from .atlas_topology import build_reference_topology
+    result['reference_topology']=build_reference_topology([*parts,*estimated_parts],result['links'])
     result['summary']=dict(source_parts=len(parts),extracted=sum(p['status']=='EXTRACTED' for p in result['parts']),unresolved=sum(p['status']=='UNRESOLVED' for p in result['parts']),
                            authored_parts=len(estimated_parts),nodes=len(result['nodes']),edges=len(result['edges']),candidate_links=len(result['links']))
     return result

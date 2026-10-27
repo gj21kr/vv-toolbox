@@ -1,0 +1,19 @@
+{
+  "schema": "vv-toolbox.atlas-edit-session-validation/1",
+  "date": "2026-10-20",
+  "browser_session": "2026-10-20-02-37-15-d3e4",
+  "status": "PASS",
+  "scope": "Atlas parameter persistence and derived geometry replay",
+  "part_id": "FJ1692",
+  "radius_scale": 1.3,
+  "save_restore_reload": true,
+  "surface_sha256": "e29bf0a1b2dae89ed2b04b66ff5be4552ed50b93aaaba1f64155623b132ab6a8",
+  "centerline_sha256": "8d503147a6e70b5afd9382016aa141dde1ef63caaa3aab4ac86d60a55dd809a6",
+  "stale_generation_http_status": 409,
+  "original_geometry_restored_at_end": true,
+  "javascript_page_errors": 0,
+  "console_limitations": ["resource 404", "THREE.Clock deprecation", "WebGL precision warning", "inspection tool cross-origin iframe warning"],
+  "full_suite": {"passed": 371, "skipped": 3, "warnings": 296, "seconds": 45.55, "environment": "Docker vv-annotation-ui"},
+  "anatomical_validation": "NOT RUN",
+  "collision_validation": "NOT RUN"
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "vv-toolbox.validation/1",
+  "date": "2026-10-20",
+  "environment": "Docker vv-annotation-ui",
+  "command": "PYTHONPATH=src pytest -q -p no:cacheprovider tests/test_synthetic_route_cli.py tests/test_synthetic_routes.py tests/test_access_routes.py tests/test_case_io.py",
+  "result": "PASS",
+  "passed": 36,
+  "seconds": 0.83,
+  "scope": ["CLI snapshot roundtrip", "source and specification preservation", "hard-link source overwrite rejection", "optimistic revision updates", "duplicate JSON key rejection", "UNKNOWN graph status exit code"],
+  "actual_atlas_connections": "NOT RUN"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "CANDIDATE",
+  "parent_sha256": "faf790c5d00d63fccc94c5cf42bf2b4dae6631ae219baf6d0ad6abd6bbcedddd",
+  "source_case_revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+  "patch_sha256": "1655747431b193a60b60e1d6e97f227668cc5dbb52da59efdaf4141acb3e6acb",
+  "artifact": "exports/resampled-access-union/protected-candidate.npz",
+  "output_sha256": "c1981693aff26b3a21e6dda40fca292c64e04c33471cae517f6120125352602c",
+  "restoration": {
+    "status": "PASS",
+    "protected_vertices": 767,
+    "protected_faces": 1333,
+    "maximum_restoration_mm": 4.389039503255242e-13,
+    "roundoff_bound_mm": 1e-08,
+    "oriented_topology_bijection": true,
+    "protected_positions_exact": true,
+    "source_modified": false,
+    "self_contact": "NOT RUN"
+  },
+  "closed_positive_volume": true,
+  "faces_unchanged": true,
+  "live_scene_changed": false,
+  "source_modified": false,
+  "centerline_containment": "NOT RUN",
+  "whole_context": "NOT RUN",
+  "self_contact": {
+    "status": "NO_CONTACT_DETECTED",
+    "coverage": "all distinct triangle pairs",
+    "checked_pairs": 383689,
+    "adjacent_pairs_checked": 312942,
+    "contact_pairs": [],
+    "tolerance_mm": 1e-08,
+    "max_pairs": 2000000,
+    "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+  }
+}

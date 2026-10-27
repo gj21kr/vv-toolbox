@@ -1,0 +1,4769 @@
+{
+  "status": "UNKNOWN",
+  "graph_revision": "55225c191c26dac632355661c941e338941964d3e043d07618c07f3d0c4cd2e0",
+  "surface_sha256": "bad61c62ca40b1aade54c6e52e3ded05829240b23f6dbd915991d8688ae313d9",
+  "rows": [
+    {
+      "collar_mm": 5,
+      "endpoint_radii_mm": [
+        5.624800941209341,
+        4.156921938165306
+      ],
+      "artifact": "exports/access-collar-candidates/collar-5mm-radius.npz",
+      "artifact_sha256": "25f2c4c611b95b29249e794ec6c8a2b60f741592be65e6145d87b95a72ab73b4",
+      "envelope": {
+        "status": "FAIL",
+        "method": "linear-radius-ball-envelope/1",
+        "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+        "tolerance_mm": 1e-06,
+        "max_depth": 16,
+        "max_cells": 100000,
+        "query_batch_size": 128,
+        "indexing": {
+          "method": "exact-coordinate-index-copy/1",
+          "coordinate_tolerance_mm": 0,
+          "original_vertices": 33564,
+          "normalized_vertices": 33564,
+          "faces": 67128,
+          "triangle_coordinate_bytes_preserved": true,
+          "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+          "original_watertight": true,
+          "normalized_watertight": true,
+          "normalized_winding_consistent": true,
+          "zero_area_faces": 0,
+          "usable_for_sampled_containment": true,
+          "original_modified": false,
+          "faces_added_or_removed": false,
+          "self_intersection": "NOT RUN",
+          "anatomical_validity": "NOT RUN"
+        },
+        "segment_count": 128,
+        "processed_cells": 128,
+        "covered_cells": 0,
+        "unresolved_segments": [],
+        "outside_witnesses": [],
+        "maximum_depth_used": 0,
+        "minimum_cover_margin_mm": null,
+        "surface_self_intersection": "NOT RUN",
+        "anatomical_validation": "NOT RUN",
+        "radius_exceedance_witnesses": [
+          {
+            "segment_index": 0,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.612921918321948,
+              -110.4884062022968,
+              1331.8889415572494
+            ],
+            "radius_mm": 5.61923187791855,
+            "distance_to_surface_mm": 5.0359739999900075,
+            "excess_mm": 0.5832578779285429
+          },
+          {
+            "segment_index": 1,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.67301939449794,
+              -110.47897614289184,
+              1331.9233192128459
+            ],
+            "radius_mm": 5.6081008064150755,
+            "distance_to_surface_mm": 5.035391083545352,
+            "excess_mm": 0.5727097228697238
+          },
+          {
+            "segment_index": 2,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.732728580919089,
+              -110.4699937144012,
+              1331.9583169943094
+            ],
+            "radius_mm": 5.596983128132372,
+            "distance_to_surface_mm": 5.034984078293861,
+            "excess_mm": 0.5619990498385112
+          },
+          {
+            "segment_index": 3,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.792050990929447,
+              -110.46145572895166,
+              1331.993928558073
+            ],
+            "radius_mm": 5.585877427050895,
+            "distance_to_surface_mm": 5.034765670889123,
+            "excess_mm": 0.551111756161772
+          },
+          {
+            "segment_index": 4,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.85098813787307,
+              -110.45335899867007,
+              1332.0301475605702
+            ],
+            "radius_mm": 5.574782323014512,
+            "distance_to_surface_mm": 5.034748585708203,
+            "excess_mm": 0.5400337373063087
+          },
+          {
+            "segment_index": 5,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.909541535094021,
+              -110.44570033568323,
+              1332.0669676582343
+            ],
+            "radius_mm": 5.563696472030323,
+            "distance_to_surface_mm": 5.034945572542777,
+            "excess_mm": 0.5287508994875454
+          },
+          {
+            "segment_index": 6,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.967712695936353,
+              -110.43847655211795,
+              1332.1043825074987
+            ],
+            "radius_mm": 5.55261856652554,
+            "distance_to_surface_mm": 5.035369394028761,
+            "excess_mm": 0.5172491724967792
+          },
+          {
+            "segment_index": 7,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.025503133744124,
+              -110.43168446010108,
+              1332.1423857647972
+            ],
+            "radius_mm": 5.5415473355617655,
+            "distance_to_surface_mm": 5.036032812823459,
+            "excess_mm": 0.5055145227383067
+          },
+          {
+            "segment_index": 8,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.082914361861391,
+              -110.4253208717594,
+              1332.1809710865627
+            ],
+            "radius_mm": 5.530481545007377,
+            "distance_to_surface_mm": 5.036948578540954,
+            "excess_mm": 0.4935329664664234
+          },
+          {
+            "segment_index": 9,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.139947893632211,
+              -110.41938259921976,
+              1332.2201321292291
+            ],
+            "radius_mm": 5.519419997668789,
+            "distance_to_surface_mm": 5.038129414460345,
+            "excess_mm": 0.48129058320844464
+          },
+          {
+            "segment_index": 10,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.19660524240064,
+              -110.41386645460896,
+              1332.2598625492296
+            ],
+            "radius_mm": 5.508361533381386,
+            "distance_to_surface_mm": 5.039588004021876,
+            "excess_mm": 0.46877352935950967
+          },
+          {
+            "segment_index": 11,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.252887921510737,
+              -110.40876925005384,
+              1332.3001560029975
+            ],
+            "radius_mm": 5.497305029061261,
+            "distance_to_surface_mm": 5.041336977127681,
+            "excess_mm": 0.4559680519335796
+          },
+          {
+            "segment_index": 12,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.308797444306556,
+              -110.4040877976812,
+              1332.3410061469663
+            ],
+            "radius_mm": 5.486249398718621,
+            "distance_to_surface_mm": 5.043388896268996,
+            "excess_mm": 0.4428605024496246
+          },
+          {
+            "segment_index": 13,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.364335324132158,
+              -110.39981890961786,
+              1332.3824066375694
+            ],
+            "radius_mm": 5.475193593434289,
+            "distance_to_surface_mm": 5.045756242500945,
+            "excess_mm": 0.4294373509333447
+          },
+          {
+            "segment_index": 14,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.419503074331598,
+              -110.39595939799065,
+              1332.4243511312402
+            ],
+            "radius_mm": 5.46413660130027,
+            "distance_to_surface_mm": 5.048451401287643,
+            "excess_mm": 0.41568520001262677
+          },
+          {
+            "segment_index": 15,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.474302208248929,
+              -110.39250607492639,
+              1332.4668332844121
+            ],
+            "radius_mm": 5.453077447325894,
+            "distance_to_surface_mm": 5.051486648247745,
+            "excess_mm": 0.4015907990781491
+          },
+          {
+            "segment_index": 16,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.528734239228214,
+              -110.38945575255188,
+              1332.5098467535186
+            ],
+            "radius_mm": 5.442015193310954,
+            "distance_to_surface_mm": 5.054728989593973,
+            "excess_mm": 0.3872862037169815
+          },
+          {
+            "segment_index": 17,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.582800680613508,
+              -110.38680524299397,
+              1332.5533851949933
+            ],
+            "radius_mm": 5.430948937686985,
+            "distance_to_surface_mm": 5.057558968747627,
+            "excess_mm": 0.3733899689393576
+          },
+          {
+            "segment_index": 18,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.636503045748867,
+              -110.38455135837945,
+              1332.5974422652694
+            ],
+            "radius_mm": 5.4198778153284906,
+            "distance_to_surface_mm": 5.059908702771054,
+            "excess_mm": 0.3599691125574367
+          },
+          {
+            "segment_index": 19,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.689842847978348,
+              -110.38269091083515,
+              1332.64201162078
+            ],
+            "radius_mm": 5.408800997335369,
+            "distance_to_surface_mm": 5.061782691967478,
+            "excess_mm": 0.34701830536789124
+          },
+          {
+            "segment_index": 20,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.742821600646009,
+              -110.3812207124879,
+              1332.6870869179588
+            ],
+            "radius_mm": 5.3977176907880535,
+            "distance_to_surface_mm": 5.063185436640484,
+            "excess_mm": 0.33453225414756993
+          },
+          {
+            "segment_index": 21,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.795440817095907,
+              -110.38013757546449,
+              1332.7326618132397
+            ],
+            "radius_mm": 5.386627138477133,
+            "distance_to_surface_mm": 5.064121437093046,
+            "excess_mm": 0.3225057013840864
+          },
+          {
+            "segment_index": 22,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.847702010672098,
+              -110.37943831189176,
+              1332.7787299630554
+            ],
+            "radius_mm": 5.375528618608786,
+            "distance_to_surface_mm": 5.064595193629153,
+            "excess_mm": 0.3109334249796323
+          },
+          {
+            "segment_index": 23,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.89960669471864,
+              -110.37911973389654,
+              1332.8252850238393
+            ],
+            "radius_mm": 5.364421444487449,
+            "distance_to_surface_mm": 5.064611206552036,
+            "excess_mm": 0.2998102379354126
+          },
+          {
+            "segment_index": 24,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.95115638257959,
+              -110.37917865360562,
+              1332.8723206520253
+            ],
+            "radius_mm": 5.353304964177481,
+            "distance_to_surface_mm": 5.0641739761650895,
+            "excess_mm": 0.2891309880123911
+          },
+          {
+            "segment_index": 25,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.002352587599004,
+              -110.37961188314584,
+              1332.9198305040468
+            ],
+            "radius_mm": 5.342178560145304,
+            "distance_to_surface_mm": 5.063288002771731,
+            "excess_mm": 0.2788905573735727
+          },
+          {
+            "segment_index": 26,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.053196823120938,
+              -110.38041623464403,
+              1332.967808236337
+            ],
+            "radius_mm": 5.331041648883296,
+            "distance_to_surface_mm": 5.061957786675196,
+            "excess_mm": 0.26908386220810065
+          },
+          {
+            "segment_index": 27,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.103690602489452,
+              -110.38158852022698,
+              1333.016247505329
+            ],
+            "radius_mm": 5.319893680517062,
+            "distance_to_surface_mm": 5.060187828179604,
+            "excess_mm": 0.2597058523374578
+          },
+          {
+            "segment_index": 28,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.153835439048603,
+              -110.38312555202151,
+              1333.0651419674568
+            ],
+            "radius_mm": 5.308734138397448,
+            "distance_to_surface_mm": 5.05798262758764,
+            "excess_mm": 0.25075151080980795
+          },
+          {
+            "segment_index": 29,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.203632846142444,
+              -110.38502414215446,
+              1333.1144852791535
+            ],
+            "radius_mm": 5.297562538678777,
+            "distance_to_surface_mm": 5.05534668520343,
+            "excess_mm": 0.24221585347534713
+          },
+          {
+            "segment_index": 30,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.253084337115036,
+              -110.38728110275264,
+              1333.1642710968526
+            ],
+            "radius_mm": 5.2863784298845555,
+            "distance_to_surface_mm": 5.052284501329812,
+            "excess_mm": 0.23409392855474387
+          },
+          {
+            "segment_index": 31,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.302191425310433,
+              -110.38989324594287,
+              1333.2144930769875
+            ],
+            "radius_mm": 5.275181392461952,
+            "distance_to_surface_mm": 5.048800576270669,
+            "excess_mm": 0.22638081619128236
+          },
+          {
+            "segment_index": 32,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.350955624072693,
+              -110.39285738385198,
+              1333.2651448759914
+            ],
+            "radius_mm": 5.263971038326323,
+            "distance_to_surface_mm": 5.044899410329323,
+            "excess_mm": 0.21907162799699975
+          },
+          {
+            "segment_index": 33,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.399378446745875,
+              -110.39617032860676,
+              1333.3162201502982
+            ],
+            "radius_mm": 5.252747010397082,
+            "distance_to_surface_mm": 5.0405855038090985,
+            "excess_mm": 0.21216150658798316
+          },
+          {
+            "segment_index": 34,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.447461406674035,
+              -110.39982889233406,
+              1333.3677125563408
+            ],
+            "radius_mm": 5.241508982126143,
+            "distance_to_surface_mm": 5.035863357013481,
+            "excess_mm": 0.2056456251126617
+          },
+          {
+            "segment_index": 35,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.49520601720123,
+              -110.40382988716067,
+              1333.419615750553
+            ],
+            "radius_mm": 5.2302566570197335,
+            "distance_to_surface_mm": 5.030737470245865,
+            "excess_mm": 0.19951918677386882
+          },
+          {
+            "segment_index": 36,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.542613791671513,
+              -110.40817012521342,
+              1333.4719233893682
+            ],
+            "radius_mm": 5.2189897681549455,
+            "distance_to_surface_mm": 5.025212343809973,
+            "excess_mm": 0.19377742434497236
+          },
+          {
+            "segment_index": 37,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.589686243428947,
+              -110.41284641861915,
+              1333.5246291292194
+            ],
+            "radius_mm": 5.207708077692002,
+            "distance_to_surface_mm": 5.019301844056125,
+            "excess_mm": 0.18840623363587738
+          },
+          {
+            "segment_index": 38,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.636424885817586,
+              -110.41785557950466,
+              1333.5777266265404
+            ],
+            "radius_mm": 5.196411376383097,
+            "distance_to_surface_mm": 5.01327895930248,
+            "excess_mm": 0.18313241708061678
+          },
+          {
+            "segment_index": 39,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.682831232181488,
+              -110.42319441999678,
+              1333.6312095377646
+            ],
+            "radius_mm": 5.185099483078841,
+            "distance_to_surface_mm": 5.0072661841294135,
+            "excess_mm": 0.17783329894942757
+          },
+          {
+            "segment_index": 40,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.728906795864708,
+              -110.42885975222231,
+              1333.6850715193254
+            ],
+            "radius_mm": 5.173772244233074,
+            "distance_to_surface_mm": 5.00126105537007,
+            "excess_mm": 0.17251118886300443
+          },
+          {
+            "segment_index": 41,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.774653090211304,
+              -110.43484838830808,
+              1333.739306227656
+            ],
+            "radius_mm": 5.162429533406976,
+            "distance_to_surface_mm": 4.995261262381586,
+            "excess_mm": 0.1671682710253899
+          },
+          {
+            "segment_index": 42,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.820071628565334,
+              -110.44115714038091,
+              1333.7939073191899
+            ],
+            "radius_mm": 5.151071250773116,
+            "distance_to_surface_mm": 4.989264643845828,
+            "excess_mm": 0.16180660692728832
+          },
+          {
+            "segment_index": 43,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.865163924270853,
+              -110.44778282056762,
+              1333.8488684503604
+            ],
+            "radius_mm": 5.139697322620199,
+            "distance_to_surface_mm": 4.9832691845789725,
+            "excess_mm": 0.15642813804122646
+          },
+          {
+            "segment_index": 44,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.90993149067192,
+              -110.45472224099501,
+              1333.9041832776015
+            ],
+            "radius_mm": 5.128307700859294,
+            "distance_to_surface_mm": 4.977273012351237,
+            "excess_mm": 0.1510346885080569
+          },
+          {
+            "segment_index": 45,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.954375841112594,
+              -110.46197221378993,
+              1333.959845457346
+            ],
+            "radius_mm": 5.11690236253204,
+            "distance_to_surface_mm": 4.971274394719052,
+            "excess_mm": 0.14562796781298726
+          },
+          {
+            "segment_index": 46,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.998498488936924,
+              -110.46952955107919,
+              1334.0158486460277
+            ],
+            "radius_mm": 5.105481309321379,
+            "distance_to_surface_mm": 4.965271735869776,
+            "excess_mm": 0.14020957345160312
+          },
+          {
+            "segment_index": 47,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.042300947488975,
+              -110.4773910649896,
+              1334.0721865000796
+            ],
+            "radius_mm": 5.094044567065469,
+            "distance_to_surface_mm": 4.959263573484245,
+            "excess_mm": 0.13478099358122364
+          },
+          {
+            "segment_index": 48,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.085784730112803,
+              -110.485553567648,
+              1334.1288526759354
+            ],
+            "radius_mm": 5.082592185275187,
+            "distance_to_surface_mm": 4.9532485756154845,
+            "excess_mm": 0.1293436096597027
+          },
+          {
+            "segment_index": 49,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.128951350152459,
+              -110.49401387118118,
+              1334.1858408300284
+            ],
+            "radius_mm": 5.071124236655734,
+            "distance_to_surface_mm": 4.947225537587394,
+            "excess_mm": 0.12389869906834061
+          },
+          {
+            "segment_index": 50,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.171802320952008,
+              -110.50276878771597,
+              1334.243144618792
+            ],
+            "radius_mm": 5.059640816632749,
+            "distance_to_surface_mm": 4.941193378913606,
+            "excess_mm": 0.11844743771914246
+          },
+          {
+            "segment_index": 51,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.214339155855502,
+              -110.51181512937917,
+              1334.3007576986597
+            ],
+            "radius_mm": 5.048142042883142,
+            "distance_to_surface_mm": 4.935151140236822,
+            "excess_mm": 0.11299090264631939
+          },
+          {
+            "segment_index": 52,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.256563368206999,
+              -110.52114970829764,
+              1334.3586737260653
+            ],
+            "radius_mm": 5.036628054871308,
+            "distance_to_surface_mm": 4.929097980292041,
+            "excess_mm": 0.10753007457926689
+          },
+          {
+            "segment_index": 53,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.298476471350554,
+              -110.53076933659818,
+              1334.4168863574414
+            ],
+            "radius_mm": 5.025099013390803,
+            "distance_to_surface_mm": 4.923033172892614,
+            "excess_mm": 0.1020658404981889
+          },
+          {
+            "segment_index": 54,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.340079978630229,
+              -110.54067082640759,
+              1334.475389249222
+            ],
+            "radius_mm": 5.013555100111715,
+            "distance_to_surface_mm": 4.9169561039395875,
+            "excess_mm": 0.0965989961721272
+          },
+          {
+            "segment_index": 55,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.381375403390077,
+              -110.55085098985273,
+              1334.5341760578403
+            ],
+            "radius_mm": 5.001996517134114,
+            "distance_to_surface_mm": 4.910866268457137,
+            "excess_mm": 0.09113024867697739
+          },
+          {
+            "segment_index": 56,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.422364258974156,
+              -110.5613066390604,
+              1334.59324043973
+            ],
+            "radius_mm": 4.990423486547883,
+            "distance_to_surface_mm": 4.904719535966426,
+            "excess_mm": 0.08570395058145674
+          },
+          {
+            "segment_index": 57,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.463048058726525,
+              -110.5720345861574,
+              1334.6525760513239
+            ],
+            "radius_mm": 4.978836249998834,
+            "distance_to_surface_mm": 4.898264538604133,
+            "excess_mm": 0.08057171139470132
+          },
+          {
+            "segment_index": 58,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.503428315991236,
+              -110.58303164327056,
+              1334.712176549056
+            ],
+            "radius_mm": 4.967235068261388,
+            "distance_to_surface_mm": 4.8914650894986345,
+            "excess_mm": 0.07576997876275371
+          },
+          {
+            "segment_index": 59,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.54350654411235,
+              -110.59429462252672,
+              1334.7720355893593
+            ],
+            "radius_mm": 4.955620220818222,
+            "distance_to_surface_mm": 4.884325813015379,
+            "excess_mm": 0.07129440780284302
+          },
+          {
+            "segment_index": 60,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.583284256433924,
+              -110.60582033605266,
+              1334.8321468286676
+            ],
+            "radius_mm": 4.9439920054465505,
+            "distance_to_surface_mm": 4.876851333519614,
+            "excess_mm": 0.06714067192693651
+          },
+          {
+            "segment_index": 61,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.622762966300012,
+              -110.61760559597525,
+              1334.892503923414
+            ],
+            "radius_mm": 4.9323507378115075,
+            "distance_to_surface_mm": 4.869046275376701,
+            "excess_mm": 0.06330446243480647
+          },
+          {
+            "segment_index": 62,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.661944187054676,
+              -110.62964721442125,
+              1334.9531005300323
+            ],
+            "radius_mm": 4.920696751066502,
+            "distance_to_surface_mm": 4.86091526295211,
+            "excess_mm": 0.05978148811439166
+          },
+          {
+            "segment_index": 63,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.700829432041965,
+              -110.64194200351753,
+              1335.0139303049557
+            ],
+            "radius_mm": 4.909030395460679,
+            "distance_to_surface_mm": 4.852462920611122,
+            "excess_mm": 0.056567474849557264
+          },
+          {
+            "segment_index": 64,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.739420214605946,
+              -110.6544867753909,
+              1335.0749869046172
+            ],
+            "radius_mm": 4.897352037953536,
+            "distance_to_surface_mm": 4.843693872719474,
+            "excess_mm": 0.053658165234062416
+          },
+          {
+            "segment_index": 65,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.77771804809067,
+              -110.66727834216813,
+              1335.136263985451
+            ],
+            "radius_mm": 4.885662061836609,
+            "distance_to_surface_mm": 4.834612743642089,
+            "excess_mm": 0.05104931819451952
+          },
+          {
+            "segment_index": 66,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.815724445840193,
+              -110.68031351597611,
+              1335.19775520389
+            ],
+            "radius_mm": 4.873960866362507,
+            "distance_to_surface_mm": 4.825224157744797,
+            "excess_mm": 0.04873670861771018
+          },
+          {
+            "segment_index": 67,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.853440921198576,
+              -110.69358910894161,
+              1335.2594542163677
+            ],
+            "radius_mm": 4.862248866381005,
+            "distance_to_surface_mm": 4.815532739392782,
+            "excess_mm": 0.04671612698822347
+          },
+          {
+            "segment_index": 68,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.890868987509872,
+              -110.70710193319147,
+              1335.3213546793174
+            ],
+            "radius_mm": 4.85052649198222,
+            "distance_to_surface_mm": 4.805543112951464,
+            "excess_mm": 0.044983379030755444
+          },
+          {
+            "segment_index": 69,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.928010158118141,
+              -110.72084880085251,
+              1335.3834502491727
+            ],
+            "radius_mm": 4.83879418814704,
+            "distance_to_surface_mm": 4.795259902786408,
+            "excess_mm": 0.0435342853606322
+          },
+          {
+            "segment_index": 70,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.96486594636744,
+              -110.73482652405153,
+              1335.445734582367
+            ],
+            "radius_mm": 4.827052414404633,
+            "distance_to_surface_mm": 4.784687733262653,
+            "excess_mm": 0.04236468114198022
+          },
+          {
+            "segment_index": 71,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.001437865601822,
+              -110.74903191491536,
+              1335.5082013353338
+            ],
+            "radius_mm": 4.815301644496898,
+            "distance_to_surface_mm": 4.773831228745844,
+            "excess_mm": 0.04147041575105437
+          },
+          {
+            "segment_index": 72,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.037727429165347,
+              -110.76346178557083,
+              1335.5708441645063
+            ],
+            "radius_mm": 4.803542366050004,
+            "distance_to_surface_mm": 4.7626950136013315,
+            "excess_mm": 0.040847352448672325
+          },
+          {
+            "segment_index": 73,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.073736150402073,
+              -110.77811294814475,
+              1335.633656726318
+            ],
+            "radius_mm": 4.79177508025285,
+            "distance_to_surface_mm": 4.75128371219446,
+            "excess_mm": 0.040491368058390265
+          },
+          {
+            "segment_index": 74,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.109465542656057,
+              -110.79298221476394,
+              1335.6966326772024
+            ],
+            "radius_mm": 4.78000030154229,
+            "distance_to_surface_mm": 4.739601948890628,
+            "excess_mm": 0.04039835265166225
+          },
+          {
+            "segment_index": 75,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.144917119271351,
+              -110.80806639755522,
+              1335.759765673593
+            ],
+            "radius_mm": 4.7682185572952385,
+            "distance_to_surface_mm": 4.727654348055192,
+            "excess_mm": 0.040564209240046445
+          },
+          {
+            "segment_index": 76,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.180092393592021,
+              -110.82336230864539,
+              1335.8230493719227
+            ],
+            "radius_mm": 4.7564303875274145,
+            "distance_to_surface_mm": 4.715445534053806,
+            "excess_mm": 0.04098485347360814
+          },
+          {
+            "segment_index": 77,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.214992878962116,
+              -110.8388667601613,
+              1335.8864774286253
+            ],
+            "radius_mm": 4.744636344598701,
+            "distance_to_surface_mm": 4.702980131251804,
+            "excess_mm": 0.041656213346897175
+          },
+          {
+            "segment_index": 78,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.249620088725695,
+              -110.85457656422977,
+              1335.9500435001346
+            ],
+            "radius_mm": 4.732836992925012,
+            "distance_to_surface_mm": 4.6902627640139904,
+            "excess_mm": 0.042574228911021805
+          },
+          {
+            "segment_index": 79,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.283975536226816,
+              -110.87048853297759,
+              1336.0137412428833
+            ],
+            "radius_mm": 4.721032908696618,
+            "distance_to_surface_mm": 4.677298056706632,
+            "excess_mm": 0.043734851989985835
+          },
+          {
+            "segment_index": 80,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.318060734809539,
+              -110.8865994785316,
+              1336.0775643133052
+            ],
+            "radius_mm": 4.709224679602753,
+            "distance_to_surface_mm": 4.664090633694677,
+            "excess_mm": 0.04513404590807557
+          },
+          {
+            "segment_index": 81,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.351877197817913,
+              -110.90290621301861,
+              1336.1415063678332
+            ],
+            "radius_mm": 4.697412904562408,
+            "distance_to_surface_mm": 4.6506451193437215,
+            "excess_mm": 0.04676778521868652
+          },
+          {
+            "segment_index": 82,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.385426438596003,
+              -110.91940554856544,
+              1336.2055610629018
+            ],
+            "radius_mm": 4.685598193461296,
+            "distance_to_surface_mm": 4.636966138018691,
+            "excess_mm": 0.04863205544260474
+          },
+          {
+            "segment_index": 83,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.41870997048786,
+              -110.93609429729892,
+              1336.2697220549435
+            ],
+            "radius_mm": 4.673781166894807,
+            "distance_to_surface_mm": 4.623058314085413,
+            "excess_mm": 0.05072285280939415
+          },
+          {
+            "segment_index": 84,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.451729306837546,
+              -110.95296927134584,
+              1336.333983000392
+            ],
+            "radius_mm": 4.661962455916833,
+            "distance_to_surface_mm": 4.608926271909218,
+            "excess_mm": 0.053036184007615006
+          },
+          {
+            "segment_index": 85,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.484485960989115,
+              -110.97002728283306,
+              1336.3983375556804
+            ],
+            "radius_mm": 4.650142701794378,
+            "distance_to_surface_mm": 4.594574635855614,
+            "excess_mm": 0.055568065938763844
+          },
+          {
+            "segment_index": 86,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.516981446286625,
+              -110.98726514388736,
+              1336.462779377243
+            ],
+            "radius_mm": 4.638322555767852,
+            "distance_to_surface_mm": 4.580008030289608,
+            "excess_mm": 0.05831452547824423
+          },
+          {
+            "segment_index": 87,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.549217276074131,
+              -111.00467966663558,
+              1336.527302121512
+            ],
+            "radius_mm": 4.626502678816879,
+            "distance_to_surface_mm": 4.564189385458589,
+            "excess_mm": 0.06231329335828928
+          },
+          {
+            "segment_index": 88,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.581194963695692,
+              -111.02226766320454,
+              1336.591899444922
+            ],
+            "radius_mm": 4.6146837414316675,
+            "distance_to_surface_mm": 4.5476190839136414,
+            "excess_mm": 0.06706465751802604
+          },
+          {
+            "segment_index": 89,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.612916022495364,
+              -111.04002594572107,
+              1336.6565650039056
+            ],
+            "radius_mm": 4.6028664233895995,
+            "distance_to_surface_mm": 4.530909367728457,
+            "excess_mm": 0.07195705566114263
+          },
+          {
+            "segment_index": 90,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.644381965817207,
+              -111.05795132631197,
+              1336.7212924548965
+            ],
+            "radius_mm": 4.59105141353697,
+            "distance_to_surface_mm": 4.514064199891342,
+            "excess_mm": 0.07698721364562822
+          },
+          {
+            "segment_index": 91,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.675594307005273,
+              -111.07604061710406,
+              1336.786075454328
+            ],
+            "radius_mm": 4.579239409576059,
+            "distance_to_surface_mm": 4.497087543390619,
+            "excess_mm": 0.08215186618543946
+          },
+          {
+            "segment_index": 92,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.706554559403624,
+              -111.09429063022415,
+              1336.8509076586338
+            ],
+            "radius_mm": 4.567431117857025,
+            "distance_to_surface_mm": 4.479983361214449,
+            "excess_mm": 0.08744775664257531
+          },
+          {
+            "segment_index": 93,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.737264236356314,
+              -111.11269817779909,
+              1336.915782724247
+            ],
+            "radius_mm": 4.555627253174656,
+            "distance_to_surface_mm": 4.462755616351335,
+            "excess_mm": 0.09287163682332089
+          },
+          {
+            "segment_index": 94,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.767724851207397,
+              -111.13126007195567,
+              1336.980694307601
+            ],
+            "radius_mm": 4.543828538570031,
+            "distance_to_surface_mm": 4.445408271789959,
+            "excess_mm": 0.09842026678007176
+          },
+          {
+            "segment_index": 95,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.797937917300938,
+              -111.14997312482072,
+              1337.0456360651294
+            ],
+            "radius_mm": 4.5320357051367095,
+            "distance_to_surface_mm": 4.4279452905185,
+            "excess_mm": 0.10409041461820934
+          },
+          {
+            "segment_index": 96,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.827904947980986,
+              -111.16883414852107,
+              1337.1106016532653
+            ],
+            "radius_mm": 4.520249491831464,
+            "distance_to_surface_mm": 4.410370635525282,
+            "excess_mm": 0.10987885630618255
+          },
+          {
+            "segment_index": 97,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.857627456591604,
+              -111.18783995518353,
+              1337.1755847284428
+            ],
+            "radius_mm": 4.508470645289504,
+            "distance_to_surface_mm": 4.392688269798533,
+            "excess_mm": 0.11578237549097015
+          },
+          {
+            "segment_index": 98,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.887106956476845,
+              -111.2069873569349,
+              1337.240578947095
+            ],
+            "radius_mm": 4.496699919644053,
+            "distance_to_surface_mm": 4.358111218954993,
+            "excess_mm": 0.13858870068906004
+          },
+          {
+            "segment_index": 99,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.91634496098077,
+              -111.22627316590203,
+              1337.3055779656547
+            ],
+            "radius_mm": 4.4849380763500974,
+            "distance_to_surface_mm": 4.323417201930188,
+            "excess_mm": 0.16152087441990925
+          },
+          {
+            "segment_index": 100,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.945342983447432,
+              -111.24569419421171,
+              1337.370575440556
+            ],
+            "radius_mm": 4.47318588401215,
+            "distance_to_surface_mm": 4.28997755326171,
+            "excess_mm": 0.18320833075043996
+          },
+          {
+            "segment_index": 101,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.974102537220887,
+              -111.2652472539908,
+              1337.4355650282323
+            ],
+            "radius_mm": 4.461444118216198,
+            "distance_to_surface_mm": 4.25781761223655,
+            "excess_mm": 0.20362650597964826
+          },
+          {
+            "segment_index": 102,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.002625135645197,
+              -111.28492915736607,
+              1337.500540385117
+            ],
+            "radius_mm": 4.449713561365501,
+            "distance_to_surface_mm": 4.226961987403536,
+            "excess_mm": 0.22275157396196477
+          },
+          {
+            "segment_index": 103,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.030912292064414,
+              -111.30473671646436,
+              1337.565495167643
+            ],
+            "radius_mm": 4.437995002520072,
+            "distance_to_surface_mm": 4.197434451172693,
+            "excess_mm": 0.24056055134737875
+          },
+          {
+            "segment_index": 104,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.0589655198226,
+              -111.32466674341251,
+              1337.6304230322444
+            ],
+            "radius_mm": 4.426289237239987,
+            "distance_to_surface_mm": 4.169257832285362,
+            "excess_mm": 0.25703140495462495
+          },
+          {
+            "segment_index": 105,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.08678633226381,
+              -111.34471605033733,
+              1337.695317635354
+            ],
+            "radius_mm": 4.414597067432296,
+            "distance_to_surface_mm": 4.1391314065761495,
+            "excess_mm": 0.2754656608561463
+          },
+          {
+            "segment_index": 106,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.114376242732098,
+              -111.36488144936561,
+              1337.7601726334055
+            ],
+            "radius_mm": 4.40291930120134,
+            "distance_to_surface_mm": 4.107306443231748,
+            "excess_mm": 0.29561285796959247
+          },
+          {
+            "segment_index": 107,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.141736764571522,
+              -111.38515975262419,
+              1337.8249816828325
+            ],
+            "radius_mm": 4.391256752702518,
+            "distance_to_surface_mm": 4.076735673461707,
+            "excess_mm": 0.3145210792408113
+          },
+          {
+            "segment_index": 108,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.168869411126142,
+              -111.40554777223988,
+              1337.889738440068
+            ],
+            "radius_mm": 4.379610241999451,
+            "distance_to_surface_mm": 4.04729625208292,
+            "excess_mm": 0.33231398991653105
+          },
+          {
+            "segment_index": 109,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.195775695740014,
+              -111.42604232033952,
+              1337.9544365615457
+            ],
+            "radius_mm": 4.367980594924225,
+            "distance_to_surface_mm": 4.018904543172286,
+            "excess_mm": 0.3490760517519389
+          },
+          {
+            "segment_index": 110,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.222457131757194,
+              -111.44664020904992,
+              1338.0190697036992
+            ],
+            "radius_mm": 4.356368642940794,
+            "distance_to_surface_mm": 3.9916183686270013,
+            "excess_mm": 0.3647502743137925
+          },
+          {
+            "segment_index": 111,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.248915232521739,
+              -111.4673382504979,
+              1338.0836315229615
+            ],
+            "radius_mm": 4.344775223011528,
+            "distance_to_surface_mm": 3.9654757066854085,
+            "excess_mm": 0.37929951632611925
+          },
+          {
+            "segment_index": 112,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.275151511377707,
+              -111.48813325681024,
+              1338.1481156757663
+            ],
+            "radius_mm": 4.3332011774665435,
+            "distance_to_surface_mm": 3.9404294097354144,
+            "excess_mm": 0.3927717677311291
+          },
+          {
+            "segment_index": 113,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.301167481669154,
+              -111.50902204011382,
+              1338.2125158185468
+            ],
+            "radius_mm": 4.3216473538759725,
+            "distance_to_surface_mm": 3.916497918770037,
+            "excess_mm": 0.4051494351059355
+          },
+          {
+            "segment_index": 114,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.326964656740136,
+              -111.53000141253544,
+              1338.2768256077366
+            ],
+            "radius_mm": 4.310114604924985,
+            "distance_to_surface_mm": 3.893698755579841,
+            "excess_mm": 0.4164158493451442
+          },
+          {
+            "segment_index": 115,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.352544549934713,
+              -111.55106818620189,
+              1338.341038699769
+            ],
+            "radius_mm": 4.298603788291455,
+            "distance_to_surface_mm": 3.87204844341364,
+            "excess_mm": 0.4265553448778152
+          },
+          {
+            "segment_index": 116,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.377908674596938,
+              -111.57221917324003,
+              1338.4051487510774
+            ],
+            "radius_mm": 4.287115766526334,
+            "distance_to_surface_mm": 3.8515624285404653,
+            "excess_mm": 0.4355533379858687
+          },
+          {
+            "segment_index": 117,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.403058544070872,
+              -111.59345118577666,
+              1338.4691494180952
+            ],
+            "radius_mm": 4.275651406936387,
+            "distance_to_surface_mm": 3.8322550033954528,
+            "excess_mm": 0.4433964035409339
+          },
+          {
+            "segment_index": 118,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.427995671700568,
+              -111.61476103593859,
+              1338.5330343572564
+            ],
+            "radius_mm": 4.26421158146942,
+            "distance_to_surface_mm": 3.814139232019941,
+            "excess_mm": 0.4500723494494787
+          },
+          {
+            "segment_index": 119,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.452721570830088,
+              -111.63614553585265,
+              1338.5967972249935
+            ],
+            "radius_mm": 4.252797166601942,
+            "distance_to_surface_mm": 3.797226878523087,
+            "excess_mm": 0.45557028807885525
+          },
+          {
+            "segment_index": 120,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.477237754803484,
+              -111.65760149764566,
+              1338.6604316777402
+            ],
+            "radius_mm": 4.2414090432289235,
+            "distance_to_surface_mm": 3.781528339292156,
+            "excess_mm": 0.4598807039367676
+          },
+          {
+            "segment_index": 121,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.501545736964815,
+              -111.67912573344444,
+              1338.7239313719301
+            ],
+            "radius_mm": 4.230048096555817,
+            "distance_to_surface_mm": 3.767052579679506,
+            "excess_mm": 0.4629955168763109
+          },
+          {
+            "segment_index": 122,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.525647030658138,
+              -111.70071505537578,
+              1338.7872899639967
+            ],
+            "radius_mm": 4.218715215992779,
+            "distance_to_surface_mm": 3.7538070758672433,
+            "excess_mm": 0.4649081401255355
+          },
+          {
+            "segment_index": 123,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.549543149227512,
+              -111.72236627556654,
+              1338.850501110373
+            ],
+            "radius_mm": 4.207411295050765,
+            "distance_to_surface_mm": 3.74179776258266,
+            "excess_mm": 0.46561353246810455
+          },
+          {
+            "segment_index": 124,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.573235606016992,
+              -111.74407620614352,
+              1338.913558467493
+            ],
+            "radius_mm": 4.196137231239627,
+            "distance_to_surface_mm": 3.7310289872873628,
+            "excess_mm": 0.465108243952264
+          },
+          {
+            "segment_index": 125,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.596725914370634,
+              -111.76584165923356,
+              1338.9764556917896
+            ],
+            "radius_mm": 4.184893925968183,
+            "distance_to_surface_mm": 3.72150347141095,
+            "excess_mm": 0.4633904545572327
+          },
+          {
+            "segment_index": 126,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.620015587632494,
+              -111.78765944696345,
+              1339.0391864396966
+            ],
+            "radius_mm": 4.173682284445912,
+            "distance_to_surface_mm": 3.7132192616611945,
+            "excess_mm": 0.46046302278471707
+          },
+          {
+            "segment_index": 127,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.643106139146633,
+              -111.80952638146002,
+              1339.101744367647
+            ],
+            "radius_mm": 4.162503215586526,
+            "distance_to_surface_mm": 3.7055630625130282,
+            "excess_mm": 0.45694015307349733
+          }
+        ],
+        "tube_wall_containment": "NOT RUN"
+      },
+      "radius_slope_continuity": "NOT ENFORCED",
+      "branch_reattachment": "NOT RUN"
+    },
+    {
+      "collar_mm": 10,
+      "endpoint_radii_mm": [
+        5.654373935766065,
+        3.9620501003258073
+      ],
+      "artifact": "exports/access-collar-candidates/collar-10mm-radius.npz",
+      "artifact_sha256": "54e8b281f81b46b1065fb19996b2f69c0f19a37a91c7df20071acfb74e758eea",
+      "envelope": {
+        "status": "FAIL",
+        "method": "linear-radius-ball-envelope/1",
+        "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+        "tolerance_mm": 1e-06,
+        "max_depth": 16,
+        "max_cells": 100000,
+        "query_batch_size": 128,
+        "indexing": {
+          "method": "exact-coordinate-index-copy/1",
+          "coordinate_tolerance_mm": 0,
+          "original_vertices": 33564,
+          "normalized_vertices": 33564,
+          "faces": 67128,
+          "triangle_coordinate_bytes_preserved": true,
+          "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+          "original_watertight": true,
+          "normalized_watertight": true,
+          "normalized_winding_consistent": true,
+          "zero_area_faces": 0,
+          "usable_for_sampled_containment": true,
+          "original_modified": false,
+          "faces_added_or_removed": false,
+          "self_intersection": "NOT RUN",
+          "anatomical_validity": "NOT RUN"
+        },
+        "segment_count": 128,
+        "processed_cells": 128,
+        "covered_cells": 0,
+        "unresolved_segments": [],
+        "outside_witnesses": [],
+        "maximum_depth_used": 0,
+        "minimum_cover_margin_mm": null,
+        "surface_self_intersection": "NOT RUN",
+        "anatomical_validation": "NOT RUN",
+        "radius_exceedance_witnesses": [
+          {
+            "segment_index": 0,
+            "fraction": 0.5,
+            "position_mm": [
+              -5.357516252042861,
+              -111.56945726021559,
+              1329.6411266315922
+            ],
+            "radius_mm": 5.647940966454267,
+            "distance_to_surface_mm": 5.06866048661831,
+            "excess_mm": 0.5792804798359574
+          },
+          {
+            "segment_index": 1,
+            "fraction": 0.5,
+            "position_mm": [
+              -5.472269311467853,
+              -111.52854443335995,
+              1329.7078603203186
+            ],
+            "radius_mm": 5.635088246722592,
+            "distance_to_surface_mm": 5.0589747669031775,
+            "excess_mm": 0.5761134798194147
+          },
+          {
+            "segment_index": 2,
+            "fraction": 0.5,
+            "position_mm": [
+              -5.586668866466798,
+              -111.48927274069524,
+              1329.7756132605018
+            ],
+            "radius_mm": 5.622260709376981,
+            "distance_to_surface_mm": 5.048604648932756,
+            "excess_mm": 0.5736560604442253
+          },
+          {
+            "segment_index": 3,
+            "fraction": 0.5,
+            "position_mm": [
+              -5.700712502029187,
+              -111.45162176185954,
+              1329.84437713633
+            ],
+            "radius_mm": 5.609455877617528,
+            "distance_to_surface_mm": 5.037551641467633,
+            "excess_mm": 0.5719042361498943
+          },
+          {
+            "segment_index": 4,
+            "fraction": 0.5,
+            "position_mm": [
+              -5.814397803144512,
+              -111.41557107649096,
+              1329.914143631991
+            ],
+            "radius_mm": 5.596671343083663,
+            "distance_to_surface_mm": 5.0258172532685865,
+            "excess_mm": 0.5708540898150769
+          },
+          {
+            "segment_index": 5,
+            "fraction": 0.5,
+            "position_mm": [
+              -5.927722354802267,
+              -111.38110026422757,
+              1329.9849044316736
+            ],
+            "radius_mm": 5.583904766688872,
+            "distance_to_surface_mm": 5.013402993096043,
+            "excess_mm": 0.570501773592829
+          },
+          {
+            "segment_index": 6,
+            "fraction": 0.5,
+            "position_mm": [
+              -6.040683741991945,
+              -111.34818890470748,
+              1330.0566512195655
+            ],
+            "radius_mm": 5.5711538793332664,
+            "distance_to_surface_mm": 5.000415618739928,
+            "excess_mm": 0.5707382605933384
+          },
+          {
+            "segment_index": 7,
+            "fraction": 0.5,
+            "position_mm": [
+              -6.153279549703037,
+              -111.31681657756877,
+              1330.1293756798545
+            ],
+            "radius_mm": 5.558416482494592,
+            "distance_to_surface_mm": 4.98707709220109,
+            "excess_mm": 0.5713393902935024
+          },
+          {
+            "segment_index": 8,
+            "fraction": 0.5,
+            "position_mm": [
+              -6.265507362925037,
+              -111.28696286244953,
+              1330.2030694967293
+            ],
+            "radius_mm": 5.545690448698994,
+            "distance_to_surface_mm": 4.9734345175913734,
+            "excess_mm": 0.5722559311076205
+          },
+          {
+            "segment_index": 9,
+            "fraction": 0.5,
+            "position_mm": [
+              -6.377364766647439,
+              -111.25860733898784,
+              1330.2777243543774
+            ],
+            "radius_mm": 5.532973721873548,
+            "distance_to_surface_mm": 4.959531995942622,
+            "excess_mm": 0.5734417259309259
+          },
+          {
+            "segment_index": 10,
+            "fraction": 0.5,
+            "position_mm": [
+              -6.488849345859732,
+              -111.23172958682181,
+              1330.3533319369872
+            ],
+            "radius_mm": 5.520264317582875,
+            "distance_to_surface_mm": 4.9453218241283965,
+            "excess_mm": 0.5749424934544782
+          },
+          {
+            "segment_index": 11,
+            "fraction": 0.5,
+            "position_mm": [
+              -6.599958685551413,
+              -111.20630918558953,
+              1330.4298839287464
+            ],
+            "radius_mm": 5.507560323152719,
+            "distance_to_surface_mm": 4.930518067363941,
+            "excess_mm": 0.5770422557887773
+          },
+          {
+            "segment_index": 12,
+            "fraction": 0.5,
+            "position_mm": [
+              -6.710690370711973,
+              -111.18232571492908,
+              1330.5073720138435
+            ],
+            "radius_mm": 5.4948598976837815,
+            "distance_to_surface_mm": 4.915097345003451,
+            "excess_mm": 0.5797625526803305
+          },
+          {
+            "segment_index": 13,
+            "fraction": 0.5,
+            "position_mm": [
+              -6.821041986330904,
+              -111.15975875447856,
+              1330.5857878764666
+            ],
+            "radius_mm": 5.482161271959591,
+            "distance_to_surface_mm": 4.899060406317089,
+            "excess_mm": 0.5831008656425025
+          },
+          {
+            "segment_index": 14,
+            "fraction": 0.5,
+            "position_mm": [
+              -6.9310111173977,
+              -111.13858788387606,
+              1330.6651232008037
+            ],
+            "radius_mm": 5.46946274825232,
+            "distance_to_surface_mm": 4.882408000574246,
+            "excess_mm": 0.5870547476780734
+          },
+          {
+            "segment_index": 15,
+            "fraction": 0.5,
+            "position_mm": [
+              -7.040595348901854,
+              -111.11879268275965,
+              1330.7453696710427
+            ],
+            "radius_mm": 5.4567627000309,
+            "distance_to_surface_mm": 4.8651408770448175,
+            "excess_mm": 0.5916218229860828
+          },
+          {
+            "segment_index": 16,
+            "fraction": 0.5,
+            "position_mm": [
+              -7.149792265832856,
+              -111.10035273076745,
+              1330.8265189713718
+            ],
+            "radius_mm": 5.444059571575984,
+            "distance_to_surface_mm": 4.847259784998076,
+            "excess_mm": 0.5967997865779084
+          },
+          {
+            "segment_index": 17,
+            "fraction": 0.5,
+            "position_mm": [
+              -7.258599453180202,
+              -111.08324760753754,
+              1330.9085627859788
+            ],
+            "radius_mm": 5.431351877506435,
+            "distance_to_surface_mm": 4.8287654737041725,
+            "excess_mm": 0.6025864038022624
+          },
+          {
+            "segment_index": 18,
+            "fraction": 0.5,
+            "position_mm": [
+              -7.367014495933384,
+              -111.06745689270801,
+              1330.9914927990521
+            ],
+            "radius_mm": 5.418638202222279,
+            "distance_to_surface_mm": 4.809658692432499,
+            "excess_mm": 0.6089795097897808
+          },
+          {
+            "segment_index": 19,
+            "fraction": 0.5,
+            "position_mm": [
+              -7.475034979081894,
+              -111.05296016591694,
+              1331.0753006947803
+            ],
+            "radius_mm": 5.405917199269133,
+            "distance_to_surface_mm": 4.789940190451904,
+            "excess_mm": 0.6159770088172296
+          },
+          {
+            "segment_index": 20,
+            "fraction": 0.5,
+            "position_mm": [
+              -7.582658487615224,
+              -111.03973700680244,
+              1331.1599781573502
+            ],
+            "radius_mm": 5.39318759062902,
+            "distance_to_surface_mm": 4.769610717033265,
+            "excess_mm": 0.6235768735957548
+          },
+          {
+            "segment_index": 21,
+            "fraction": 0.5,
+            "position_mm": [
+              -7.689882606522868,
+              -111.0277669950026,
+              1331.2455168709507
+            ],
+            "radius_mm": 5.380448165942697,
+            "distance_to_surface_mm": 4.748671021445743,
+            "excess_mm": 0.6317771444969544
+          },
+          {
+            "segment_index": 22,
+            "fraction": 0.5,
+            "position_mm": [
+              -7.796704920794318,
+              -111.01702971015548,
+              1331.3319085197704
+            ],
+            "radius_mm": 5.367697781668624,
+            "distance_to_surface_mm": 4.72712185295811,
+            "excess_mm": 0.6405759287105139
+          },
+          {
+            "segment_index": 23,
+            "fraction": 0.5,
+            "position_mm": [
+              -7.903123015419069,
+              -111.00750473189922,
+              1331.4191447879962
+            ],
+            "radius_mm": 5.354935360183534,
+            "distance_to_surface_mm": 4.704963960841511,
+            "excess_mm": 0.6499713993420233
+          },
+          {
+            "segment_index": 24,
+            "fraction": 0.5,
+            "position_mm": [
+              -8.009134475386611,
+              -110.99917163987186,
+              1331.5072173598169
+            ],
+            "radius_mm": 5.342159888829419,
+            "distance_to_surface_mm": 4.682198094364464,
+            "excess_mm": 0.6599617944649543
+          },
+          {
+            "segment_index": 25,
+            "fraction": 0.5,
+            "position_mm": [
+              -8.114736885686439,
+              -110.99201001371154,
+              1331.5961179194203
+            ],
+            "radius_mm": 5.329370418911967,
+            "distance_to_surface_mm": 4.658825002797124,
+            "excess_mm": 0.6705454161148436
+          },
+          {
+            "segment_index": 26,
+            "fraction": 0.5,
+            "position_mm": [
+              -8.219927831308045,
+              -110.98599943305629,
+              1331.6858381509946
+            ],
+            "radius_mm": 5.316566064655074,
+            "distance_to_surface_mm": 4.634845435408942,
+            "excess_mm": 0.681720629246132
+          },
+          {
+            "segment_index": 27,
+            "fraction": 0.5,
+            "position_mm": [
+              -8.324704897240919,
+              -110.98111947754424,
+              1331.7763697387281
+            ],
+            "radius_mm": 5.303746002115982,
+            "distance_to_surface_mm": 4.610260141469389,
+            "excess_mm": 0.693485860646593
+          },
+          {
+            "segment_index": 28,
+            "fraction": 0.5,
+            "position_mm": [
+              -8.429065668474557,
+              -110.97734972681349,
+              1331.8677043668083
+            ],
+            "radius_mm": 5.290909468065528,
+            "distance_to_surface_mm": 4.585069870248478,
+            "excess_mm": 0.7058395978170502
+          },
+          {
+            "segment_index": 29,
+            "fraction": 0.5,
+            "position_mm": [
+              -8.533007729998452,
+              -110.97466976050211,
+              1331.9598337194238
+            ],
+            "radius_mm": 5.278055758837628,
+            "distance_to_surface_mm": 4.5592753710157385,
+            "excess_mm": 0.718780387821889
+          },
+          {
+            "segment_index": 30,
+            "fraction": 0.5,
+            "position_mm": [
+              -8.636528666802095,
+              -110.97305915824822,
+              1332.052749480763
+            ],
+            "radius_mm": 5.2651842291522835,
+            "distance_to_surface_mm": 4.532877393040069,
+            "excess_mm": 0.7323068361122145
+          },
+          {
+            "segment_index": 31,
+            "fraction": 0.5,
+            "position_mm": [
+              -8.739626063874978,
+              -110.97249749968987,
+              1332.146443335013
+            ],
+            "radius_mm": 5.252294290915708,
+            "distance_to_surface_mm": 4.498576403777081,
+            "excess_mm": 0.7537178871386274
+          },
+          {
+            "segment_index": 32,
+            "fraction": 0.5,
+            "position_mm": [
+              -8.842297506206595,
+              -110.97296436446516,
+              1332.2409069663624
+            ],
+            "radius_mm": 5.239385412001426,
+            "distance_to_surface_mm": 4.462540716230751,
+            "excess_mm": 0.7768446957706754
+          },
+          {
+            "segment_index": 33,
+            "fraction": 0.5,
+            "position_mm": [
+              -8.944540578786441,
+              -110.9744393322122,
+              1332.3361320589993
+            ],
+            "radius_mm": 5.226457115015791,
+            "distance_to_surface_mm": 4.425569930833316,
+            "excess_mm": 0.800887184182475
+          },
+          {
+            "segment_index": 34,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.046352866604007,
+              -110.97690198256909,
+              1332.4321102971116
+            ],
+            "radius_mm": 5.213508976051088,
+            "distance_to_surface_mm": 4.388681560508488,
+            "excess_mm": 0.8248274155426003
+          },
+          {
+            "segment_index": 35,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.147731954648785,
+              -110.98033189517388,
+              1332.5288333648878
+            ],
+            "radius_mm": 5.200540623429411,
+            "distance_to_surface_mm": 4.354023126803679,
+            "excess_mm": 0.8465174966257321
+          },
+          {
+            "segment_index": 36,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.248675427910268,
+              -110.98470864966467,
+              1332.6262929465156
+            ],
+            "radius_mm": 5.187551736440084,
+            "distance_to_surface_mm": 4.321710858398144,
+            "excess_mm": 0.86584087804194
+          },
+          {
+            "segment_index": 37,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.349180871377946,
+              -110.99001182567957,
+              1332.7244807261832
+            ],
+            "radius_mm": 5.1745420440732675,
+            "distance_to_surface_mm": 4.29179296688043,
+            "excess_mm": 0.8827490771928375
+          },
+          {
+            "segment_index": 38,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.449245870041317,
+              -110.99622100285669,
+              1332.8233883880785
+            ],
+            "radius_mm": 5.161511323752236,
+            "distance_to_surface_mm": 4.264315944513166,
+            "excess_mm": 0.8971953792390694
+          },
+          {
+            "segment_index": 39,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.548868008889873,
+              -111.00331576083407,
+              1332.92300761639
+            ],
+            "radius_mm": 5.148459400066534,
+            "distance_to_surface_mm": 4.239324217958578,
+            "excess_mm": 0.9091351821079554
+          },
+          {
+            "segment_index": 40,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.648044872913104,
+              -111.01127567924982,
+              1333.0233300953055
+            ],
+            "radius_mm": 5.135386143508198,
+            "distance_to_surface_mm": 4.21685980109942,
+            "excess_mm": 0.9185263424087777
+          },
+          {
+            "segment_index": 41,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.746774047100505,
+              -111.02008033774206,
+              1333.124347509013
+            ],
+            "radius_mm": 5.1222914692127475,
+            "distance_to_surface_mm": 4.196961952013026,
+            "excess_mm": 0.9253295171997218
+          },
+          {
+            "segment_index": 42,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.845053116441566,
+              -111.02970931594882,
+              1333.2260515417006
+            ],
+            "radius_mm": 5.109175335706714,
+            "distance_to_surface_mm": 4.179666839497167,
+            "excess_mm": 0.9295084962095466
+          },
+          {
+            "segment_index": 43,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.942879665925783,
+              -111.04014219350825,
+              1333.3284338775568
+            ],
+            "radius_mm": 5.096037743663349,
+            "distance_to_surface_mm": 4.165007224749386,
+            "excess_mm": 0.9310305189139623
+          },
+          {
+            "segment_index": 44,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.040251280542648,
+              -111.05135855005844,
+              1333.431486200769
+            ],
+            "radius_mm": 5.0828787346677515,
+            "distance_to_surface_mm": 4.153012163844921,
+            "excess_mm": 0.9298665708228304
+          },
+          {
+            "segment_index": 45,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.13716554528165,
+              -111.06333796523742,
+              1333.535200195526
+            ],
+            "radius_mm": 5.069698389992624,
+            "distance_to_surface_mm": 4.143706736547214,
+            "excess_mm": 0.9259916534454096
+          },
+          {
+            "segment_index": 46,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.233620045132287,
+              -111.07606001868334,
+              1333.6395675460153
+            ],
+            "radius_mm": 5.056496829385878,
+            "distance_to_surface_mm": 4.137111806687975,
+            "excess_mm": 0.9193850226979032
+          },
+          {
+            "segment_index": 47,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.32961236508405,
+              -111.08950429003426,
+              1333.7445799364252
+            ],
+            "radius_mm": 5.043274209870847,
+            "distance_to_surface_mm": 4.133243818874259,
+            "excess_mm": 0.9100303909965879
+          },
+          {
+            "segment_index": 48,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.42514009012643,
+              -111.10365035892829,
+              1333.8502290509439
+            ],
+            "radius_mm": 5.030030724559978,
+            "distance_to_surface_mm": 4.131020130619514,
+            "excess_mm": 0.8990105939404645
+          },
+          {
+            "segment_index": 49,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.52020080524892,
+              -111.1184778050035,
+              1333.9565065737593
+            ],
+            "radius_mm": 5.016766601482736,
+            "distance_to_surface_mm": 4.127980642128215,
+            "excess_mm": 0.8887859593545215
+          },
+          {
+            "segment_index": 50,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.614792095441018,
+              -111.133966207898,
+              1334.0634041890594
+            ],
+            "radius_mm": 5.003482102428158,
+            "distance_to_surface_mm": 4.1240402628141695,
+            "excess_mm": 0.8794418396139889
+          },
+          {
+            "segment_index": 51,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.70891154569221,
+              -111.15009514724986,
+              1334.1709135810324
+            ],
+            "radius_mm": 4.990177521802634,
+            "distance_to_surface_mm": 4.119207574884002,
+            "excess_mm": 0.870969946918632
+          },
+          {
+            "segment_index": 52,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.80255674099199,
+              -111.1668442026972,
+              1334.2790264338666
+            ],
+            "radius_mm": 4.976853185503147,
+            "distance_to_surface_mm": 4.11349116054433,
+            "excess_mm": 0.8633620249588176
+          },
+          {
+            "segment_index": 53,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.895725266329855,
+              -111.18419295387808,
+              1334.3877344317498
+            ],
+            "radius_mm": 4.963509449806361,
+            "distance_to_surface_mm": 4.106899602002238,
+            "excess_mm": 0.8566098478041235
+          },
+          {
+            "segment_index": 54,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.988414706695293,
+              -111.2021209804306,
+              1334.4970292588703
+            ],
+            "radius_mm": 4.950146700273616,
+            "distance_to_surface_mm": 4.099441481464266,
+            "excess_mm": 0.8507052188093498
+          },
+          {
+            "segment_index": 55,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.0806226470778,
+              -111.22060786199287,
+              1334.606902599416
+            ],
+            "radius_mm": 4.936765350671952,
+            "distance_to_surface_mm": 4.091125381137345,
+            "excess_mm": 0.8456399695346075
+          },
+          {
+            "segment_index": 56,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.172346672466865,
+              -111.23963317820298,
+              1334.7173461375749
+            ],
+            "radius_mm": 4.923365841911211,
+            "distance_to_surface_mm": 4.081959883227952,
+            "excess_mm": 0.8414059586832598
+          },
+          {
+            "segment_index": 57,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.263584367851987,
+              -111.25917650869899,
+              1334.8283515575351
+            ],
+            "radius_mm": 4.909948640997131,
+            "distance_to_surface_mm": 4.0719535699432345,
+            "excess_mm": 0.8379950710538964
+          },
+          {
+            "segment_index": 58,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.354333318222654,
+              -111.27921743311902,
+              1334.939910543485
+            ],
+            "radius_mm": 4.896514240000286,
+            "distance_to_surface_mm": 4.061115023489663,
+            "excess_mm": 0.8353992165106234
+          },
+          {
+            "segment_index": 59,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.444591108568357,
+              -111.29973553110113,
+              1335.0520147796124
+            ],
+            "radius_mm": 4.8830631550407855,
+            "distance_to_surface_mm": 4.048779086762908,
+            "excess_mm": 0.8342840682778778
+          },
+          {
+            "segment_index": 60,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.534355323878593,
+              -111.32071038228344,
+              1335.1646559501055
+            ],
+            "radius_mm": 4.8695959252884204,
+            "distance_to_surface_mm": 4.035472488435807,
+            "excess_mm": 0.8341234368526136
+          },
+          {
+            "segment_index": 61,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.623623549142852,
+              -111.34212156630402,
+              1335.2778257391524
+            ],
+            "radius_mm": 4.856113111977963,
+            "distance_to_surface_mm": 4.021361254210015,
+            "excess_mm": 0.834751857767948
+          },
+          {
+            "segment_index": 62,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.712393369350629,
+              -111.36394866280096,
+              1335.391515830941
+            ],
+            "radius_mm": 4.842615297439405,
+            "distance_to_surface_mm": 4.00645384728467,
+            "excess_mm": 0.8361614501547354
+          },
+          {
+            "segment_index": 63,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.800662369491418,
+              -111.38617125141239,
+              1335.5057179096593
+            ],
+            "radius_mm": 4.829103084142681,
+            "distance_to_surface_mm": 3.9907587308581784,
+            "excess_mm": 0.8383443532845027
+          },
+          {
+            "segment_index": 64,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.888428134554708,
+              -111.40876891177636,
+              1335.6204236594958
+            ],
+            "radius_mm": 4.815577093756471,
+            "distance_to_surface_mm": 3.9742843681289135,
+            "excess_mm": 0.8412927256275577
+          },
+          {
+            "segment_index": 65,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.975688249529991,
+              -111.43172122353099,
+              1335.735624764638
+            ],
+            "radius_mm": 4.802037966220715,
+            "distance_to_surface_mm": 3.957039222296194,
+            "excess_mm": 0.8449987439245215
+          },
+          {
+            "segment_index": 66,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.062440299406763,
+              -111.45500776631432,
+              1335.8513129092748
+            ],
+            "radius_mm": 4.788486358832316,
+            "distance_to_surface_mm": 3.9390317565579296,
+            "excess_mm": 0.8494546022743861
+          },
+          {
+            "segment_index": 67,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.148681869174517,
+              -111.47860811976449,
+              1335.9674797775938
+            ],
+            "radius_mm": 4.77492294534359,
+            "distance_to_surface_mm": 3.9202704341129913,
+            "excess_mm": 0.8546525112305989
+          },
+          {
+            "segment_index": 68,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.234410543822746,
+              -111.50250186351958,
+              1336.084117053783
+            ],
+            "radius_mm": 4.76134841507289,
+            "distance_to_surface_mm": 3.900763718160287,
+            "excess_mm": 0.8605846969126025
+          },
+          {
+            "segment_index": 69,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.31962390834094,
+              -111.52666857721768,
+              1336.2012164220305
+            ],
+            "radius_mm": 4.747763472026924,
+            "distance_to_surface_mm": 3.880520071898302,
+            "excess_mm": 0.867243400128622
+          },
+          {
+            "segment_index": 70,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.404319547718593,
+              -111.55108784049686,
+              1336.3187695665247
+            ],
+            "radius_mm": 4.734168834034135,
+            "distance_to_surface_mm": 3.85954795852548,
+            "excess_mm": 0.8746208755086546
+          },
+          {
+            "segment_index": 71,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.488495046945197,
+              -111.57573923299523,
+              1336.4367681714532
+            ],
+            "radius_mm": 4.720565231888665,
+            "distance_to_surface_mm": 3.838982977359651,
+            "excess_mm": 0.8815822545290142
+          },
+          {
+            "segment_index": 72,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.572147991010246,
+              -111.60060233435088,
+              1336.5552039210042
+            ],
+            "radius_mm": 4.706953408504278,
+            "distance_to_surface_mm": 3.822574032036722,
+            "excess_mm": 0.8843793764675558
+          },
+          {
+            "segment_index": 73,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.655275964903232,
+              -111.6256567242019,
+              1336.6740684993663
+            ],
+            "radius_mm": 4.69333411807753,
+            "distance_to_surface_mm": 3.8106861157385463,
+            "excess_mm": 0.8826480023389838
+          },
+          {
+            "segment_index": 74,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.73787655361365,
+              -111.65088198218638,
+              1336.7933535907268
+            ],
+            "radius_mm": 4.679708125259765,
+            "distance_to_surface_mm": 3.803378724166603,
+            "excess_mm": 0.8763294010931619
+          },
+          {
+            "segment_index": 75,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.81994734213099,
+              -111.67625768794241,
+              1336.9130508792741
+            ],
+            "radius_mm": 4.666076204337113,
+            "distance_to_surface_mm": 3.8006934011225444,
+            "excess_mm": 0.8653828032145685
+          },
+          {
+            "segment_index": 76,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.901485915444745,
+              -111.70176342110807,
+              1337.0331520491968
+            ],
+            "radius_mm": 4.652439138417941,
+            "distance_to_surface_mm": 3.8021586429929655,
+            "excess_mm": 0.8502804954249759
+          },
+          {
+            "segment_index": 77,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.982489858544408,
+              -111.72737876132148,
+              1337.1536487846824
+            ],
+            "radius_mm": 4.638797718627236,
+            "distance_to_surface_mm": 3.8038144336707953,
+            "excess_mm": 0.8349832849564409
+          },
+          {
+            "segment_index": 78,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.062956756419473,
+              -111.7530832882207,
+              1337.2745327699188
+            ],
+            "radius_mm": 4.625152743306961,
+            "distance_to_surface_mm": 3.8048040343895333,
+            "excess_mm": 0.8203487089174275
+          },
+          {
+            "segment_index": 79,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.142884194059432,
+              -111.77885658144385,
+              1337.3957956890945
+            ],
+            "radius_mm": 4.6115050172218846,
+            "distance_to_surface_mm": 3.8051329194955263,
+            "excess_mm": 0.8063720977263582
+          },
+          {
+            "segment_index": 80,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.222269756453777,
+              -111.80467822062899,
+              1337.5174292263978
+            ],
+            "radius_mm": 4.5978553507703985,
+            "distance_to_surface_mm": 3.804806563335649,
+            "excess_mm": 0.7930487874347496
+          },
+          {
+            "segment_index": 81,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.301111028592002,
+              -111.8305277854142,
+              1337.639425066016
+            ],
+            "radius_mm": 4.584204559199273,
+            "distance_to_surface_mm": 3.803830440257002,
+            "excess_mm": 0.7803741189422713
+          },
+          {
+            "segment_index": 82,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.379405595463599,
+              -111.85638485543762,
+              1337.761774892138
+            ],
+            "radius_mm": 4.5705534618219135,
+            "distance_to_surface_mm": 3.801222964033041,
+            "excess_mm": 0.7693304977888724
+          },
+          {
+            "segment_index": 83,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.457151042058062,
+              -111.88222901033731,
+              1337.8844703889513
+            ],
+            "radius_mm": 4.55690288123944,
+            "distance_to_surface_mm": 3.784787672334177,
+            "excess_mm": 0.7721152089052628
+          },
+          {
+            "segment_index": 84,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.534344953364881,
+              -111.90803982975139,
+              1338.007503240644
+            ],
+            "radius_mm": 4.5432536425637196,
+            "distance_to_surface_mm": 3.7681213916451286,
+            "excess_mm": 0.775132250918591
+          },
+          {
+            "segment_index": 85,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.610984914373553,
+              -111.9337968933179,
+              1338.1308651314048
+            ],
+            "radius_mm": 4.529606572641823,
+            "distance_to_surface_mm": 3.7508240790599374,
+            "excess_mm": 0.7787824935818857
+          },
+          {
+            "segment_index": 86,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.687068510073566,
+              -111.95947978067497,
+              1338.2545477454212
+            ],
+            "radius_mm": 4.515962499281205,
+            "distance_to_surface_mm": 3.732895013202606,
+            "excess_mm": 0.7830674860785987
+          },
+          {
+            "segment_index": 87,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.762593325454414,
+              -111.98506807146067,
+              1338.3785427668813
+            ],
+            "radius_mm": 4.502322250474732,
+            "distance_to_surface_mm": 3.7143334726961843,
+            "excess_mm": 0.7879887777785477
+          },
+          {
+            "segment_index": 88,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.837556945505595,
+              -112.0105413453131,
+              1338.5028418799734
+            ],
+            "radius_mm": 4.488686653625005,
+            "distance_to_surface_mm": 3.695138736163441,
+            "excess_mm": 0.7935479174615643
+          },
+          {
+            "segment_index": 89,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.911956955216596,
+              -112.03587918187034,
+              1338.6274367688857
+            ],
+            "radius_mm": 4.475056534767358,
+            "distance_to_surface_mm": 3.675310082227477,
+            "excess_mm": 0.799746452539881
+          },
+          {
+            "segment_index": 90,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.985790939576908,
+              -112.06106116077052,
+              1338.7523191178057
+            ],
+            "radius_mm": 4.461432717790566,
+            "distance_to_surface_mm": 3.654846789511663,
+            "excess_mm": 0.8065859282789027
+          },
+          {
+            "segment_index": 91,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.05905648357603,
+              -112.08606686165167,
+              1338.8774806109218
+            ],
+            "radius_mm": 4.447816023654651,
+            "distance_to_surface_mm": 3.6337481366390123,
+            "excess_mm": 0.8140678870156388
+          },
+          {
+            "segment_index": 92,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.131751172203451,
+              -112.11087586415192,
+              1339.0029129324225
+            ],
+            "radius_mm": 4.434207269605235,
+            "distance_to_surface_mm": 3.612013402232255,
+            "excess_mm": 0.8221938673729796
+          },
+          {
+            "segment_index": 93,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.203872590448665,
+              -112.13546774790937,
+              1339.1286077664954
+            ],
+            "radius_mm": 4.420607268383613,
+            "distance_to_surface_mm": 3.5896418649149098,
+            "excess_mm": 0.8309654034687028
+          },
+          {
+            "segment_index": 94,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.275418323301164,
+              -112.15982209256208,
+              1339.2545567973289
+            ],
+            "radius_mm": 4.40701682743166,
+            "distance_to_surface_mm": 3.56663280330998,
+            "excess_mm": 0.8403840241216796
+          },
+          {
+            "segment_index": 95,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.346385955750442,
+              -112.18391847774816,
+              1339.3807517091104
+            ],
+            "radius_mm": 4.393436748091107,
+            "distance_to_surface_mm": 3.544989601963788,
+            "excess_mm": 0.8484471461273189
+          },
+          {
+            "segment_index": 96,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.41677307278599,
+              -112.20773648310569,
+              1339.507184186029
+            ],
+            "radius_mm": 4.379867824796431,
+            "distance_to_surface_mm": 3.527770981296522,
+            "excess_mm": 0.852096843499909
+          },
+          {
+            "segment_index": 97,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.486577259397302,
+              -112.23125568827277,
+              1339.6338459122721
+            ],
+            "radius_mm": 4.366310844260543,
+            "distance_to_surface_mm": 3.5150649958586864,
+            "excess_mm": 0.8512458484018564
+          },
+          {
+            "segment_index": 98,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.555796100573872,
+              -112.25445567288747,
+              1339.7607285720278
+            ],
+            "radius_mm": 4.352766584652582,
+            "distance_to_surface_mm": 3.5069130568690934,
+            "excess_mm": 0.8458535277834889
+          },
+          {
+            "segment_index": 99,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.62442718130519,
+              -112.27731601658792,
+              1339.8878238494844
+            ],
+            "radius_mm": 4.3392358147672345,
+            "distance_to_surface_mm": 3.503339116843751,
+            "excess_mm": 0.8358966979234834
+          },
+          {
+            "segment_index": 100,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.692468086580748,
+              -112.29981629901218,
+              1340.0151234288296
+            ],
+            "radius_mm": 4.325719293184711,
+            "distance_to_surface_mm": 3.5043491583600948,
+            "excess_mm": 0.8213701348246158
+          },
+          {
+            "segment_index": 101,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.759916401390042,
+              -112.32193609979834,
+              1340.142618994252
+            ],
+            "radius_mm": 4.31221776742075,
+            "distance_to_surface_mm": 3.5099310280004854,
+            "excess_mm": 0.8022867394202642
+          },
+          {
+            "segment_index": 102,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.826769710722564,
+              -112.3436549985845,
+              1340.2703022299393
+            ],
+            "radius_mm": 4.2987319730660385,
+            "distance_to_surface_mm": 3.519817107532144,
+            "excess_mm": 0.7789148655338947
+          },
+          {
+            "segment_index": 103,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.893025599567807,
+              -112.36495257500874,
+              1340.39816482008
+            ],
+            "radius_mm": 4.285262632914197,
+            "distance_to_surface_mm": 3.53029204765679,
+            "excess_mm": 0.7549705852574071
+          },
+          {
+            "segment_index": 104,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.95868165291526,
+              -112.3858084087092,
+              1340.5261984488616
+            ],
+            "radius_mm": 4.27181045607777,
+            "distance_to_surface_mm": 3.5400913241263154,
+            "excess_mm": 0.7317191319514542
+          },
+          {
+            "segment_index": 105,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.02373545575442,
+              -112.40620207932389,
+              1340.6543948004728
+            ],
+            "radius_mm": 4.258376137091492,
+            "distance_to_surface_mm": 3.538844612421326,
+            "excess_mm": 0.7195315246701659
+          },
+          {
+            "segment_index": 106,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.088184593074779,
+              -112.42611316649096,
+              1340.7827455591014
+            ],
+            "radius_mm": 4.244960355002254,
+            "distance_to_surface_mm": 3.533061119568662,
+            "excess_mm": 0.711899235433592
+          },
+          {
+            "segment_index": 107,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.15202664986583,
+              -112.4455212498485,
+              1340.9112424089353
+            ],
+            "radius_mm": 4.231563772445,
+            "distance_to_surface_mm": 3.5265134472222606,
+            "excess_mm": 0.7050503252227394
+          },
+          {
+            "segment_index": 108,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.215259211117065,
+              -112.46440590903455,
+              1341.0398770341626
+            ],
+            "radius_mm": 4.218187034704057,
+            "distance_to_surface_mm": 3.5191922244600966,
+            "excess_mm": 0.6989948102439603
+          },
+          {
+            "segment_index": 109,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.277879861817976,
+              -112.48274672368726,
+              1341.1686411189717
+            ],
+            "radius_mm": 4.204830768759176,
+            "distance_to_surface_mm": 3.5110880803591495,
+            "excess_mm": 0.6937426884000262
+          },
+          {
+            "segment_index": 110,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.339886186958056,
+              -112.50052327344468,
+              1341.2975263475505
+            ],
+            "radius_mm": 4.191495582315795,
+            "distance_to_surface_mm": 3.5021916439974157,
+            "excess_mm": 0.6893039383183797
+          },
+          {
+            "segment_index": 111,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.401275771526798,
+              -112.51771513794492,
+              1341.426524404087
+            ],
+            "radius_mm": 4.178182062818969,
+            "distance_to_surface_mm": 3.491484815776605,
+            "excess_mm": 0.686697247042364
+          },
+          {
+            "segment_index": 112,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.462046200513695,
+              -112.53430189682607,
+              1341.5556269727692
+            ],
+            "radius_mm": 4.164890776450177,
+            "distance_to_surface_mm": 3.4757477382204574,
+            "excess_mm": 0.6891430382297195
+          },
+          {
+            "segment_index": 113,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.522195058908242,
+              -112.5502631297262,
+              1341.6848257377856
+            ],
+            "radius_mm": 4.15162226710695,
+            "distance_to_surface_mm": 3.4591924493085084,
+            "excess_mm": 0.6924298177984411
+          },
+          {
+            "segment_index": 114,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.58171993169993,
+              -112.56557841628342,
+              1341.8141123833238
+            ],
+            "radius_mm": 4.138377055364501,
+            "distance_to_surface_mm": 3.4418069028510283,
+            "excess_mm": 0.6965701525134724
+          },
+          {
+            "segment_index": 115,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.64061840387825,
+              -112.58022733613583,
+              1341.9434785935723
+            ],
+            "radius_mm": 4.1251556374189855,
+            "distance_to_surface_mm": 3.4192310375119876,
+            "excess_mm": 0.7059245999069979
+          },
+          {
+            "segment_index": 116,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.698888060432694,
+              -112.59418946892151,
+              1342.072916052719
+            ],
+            "radius_mm": 4.111958484012185,
+            "distance_to_surface_mm": 3.3907329927101544,
+            "excess_mm": 0.7212254913020302
+          },
+          {
+            "segment_index": 117,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.756526486352758,
+              -112.60744439427855,
+              1342.2024164449517
+            ],
+            "radius_mm": 4.0987860393370035,
+            "distance_to_surface_mm": 3.3614928463891838,
+            "excess_mm": 0.7372931929478197
+          },
+          {
+            "segment_index": 118,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.813531266627937,
+              -112.61997169184502,
+              1342.331971454459
+            ],
+            "radius_mm": 4.085638719923713,
+            "distance_to_surface_mm": 3.3314945117170343,
+            "excess_mm": 0.7541442082066787
+          },
+          {
+            "segment_index": 119,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.869899986247717,
+              -112.63175094125907,
+              1342.4615727654289
+            ],
+            "radius_mm": 4.072516913506754,
+            "distance_to_surface_mm": 3.300721901861463,
+            "excess_mm": 0.771795011645291
+          },
+          {
+            "segment_index": 120,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.925630230201593,
+              -112.64276172215872,
+              1342.591212062049
+            ],
+            "radius_mm": 4.059420977871627,
+            "distance_to_surface_mm": 3.2712217831764567,
+            "excess_mm": 0.7881991946951699
+          },
+          {
+            "segment_index": 121,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.98071958347906,
+              -112.65298361418209,
+              1342.7208810285078
+            ],
+            "radius_mm": 4.046351239682175,
+            "distance_to_surface_mm": 3.2466310320465057,
+            "excess_mm": 0.7997202076356693
+          },
+          {
+            "segment_index": 122,
+            "fraction": 0.5,
+            "position_mm": [
+              -16.03516563106961,
+              -112.66239619696731,
+              1342.8505713489933
+            ],
+            "radius_mm": 4.033307993288048,
+            "distance_to_surface_mm": 3.2270694380318914,
+            "excess_mm": 0.8062385552561566
+          },
+          {
+            "segment_index": 123,
+            "fraction": 0.5,
+            "position_mm": [
+              -16.08896595796274,
+              -112.67097905015241,
+              1342.9802747076933
+            ],
+            "radius_mm": 4.020291499512494,
+            "distance_to_surface_mm": 3.212568341638331,
+            "excess_mm": 0.8077231578741628
+          },
+          {
+            "segment_index": 124,
+            "fraction": 0.5,
+            "position_mm": [
+              -16.142118149147933,
+              -112.6787117533755,
+              1343.109982788796
+            ],
+            "radius_mm": 4.0073019844205655,
+            "distance_to_surface_mm": 3.2031351307382225,
+            "excess_mm": 0.804166853682343
+          },
+          {
+            "segment_index": 125,
+            "fraction": 0.5,
+            "position_mm": [
+              -16.194619789614684,
+              -112.68557388627468,
+              1343.2396872764903
+            ],
+            "radius_mm": 3.9943396380681597,
+            "distance_to_surface_mm": 3.197950606168622,
+            "excess_mm": 0.7963890318995377
+          },
+          {
+            "segment_index": 126,
+            "fraction": 0.5,
+            "position_mm": [
+              -16.246468464352493,
+              -112.69154502848804,
+              1343.369379854963
+            ],
+            "radius_mm": 3.9814046132323684,
+            "distance_to_surface_mm": 3.192474116699478,
+            "excess_mm": 0.7889304965328905
+          },
+          {
+            "segment_index": 127,
+            "fraction": 0.5,
+            "position_mm": [
+              -16.29766175835085,
+              -112.69660475965367,
+              1343.499052208403
+            ],
+            "radius_mm": 3.9684970241233337,
+            "distance_to_surface_mm": 3.1859818967499374,
+            "excess_mm": 0.7825151273733963
+          }
+        ],
+        "tube_wall_containment": "NOT RUN"
+      },
+      "radius_slope_continuity": "NOT ENFORCED",
+      "branch_reattachment": "NOT RUN"
+    },
+    {
+      "collar_mm": 20,
+      "endpoint_radii_mm": [
+        5.433469648902189,
+        4.0
+      ],
+      "artifact": "exports/access-collar-candidates/collar-20mm-radius.npz",
+      "artifact_sha256": "23954e1d6679eb26992d8d528374e9c420be241ef7dba11fee2acdde1166c114",
+      "envelope": {
+        "status": "FAIL",
+        "method": "linear-radius-ball-envelope/1",
+        "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+        "tolerance_mm": 1e-06,
+        "max_depth": 16,
+        "max_cells": 100000,
+        "query_batch_size": 128,
+        "indexing": {
+          "method": "exact-coordinate-index-copy/1",
+          "coordinate_tolerance_mm": 0,
+          "original_vertices": 33564,
+          "normalized_vertices": 33564,
+          "faces": 67128,
+          "triangle_coordinate_bytes_preserved": true,
+          "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+          "original_watertight": true,
+          "normalized_watertight": true,
+          "normalized_winding_consistent": true,
+          "zero_area_faces": 0,
+          "usable_for_sampled_containment": true,
+          "original_modified": false,
+          "faces_added_or_removed": false,
+          "self_intersection": "NOT RUN",
+          "anatomical_validity": "NOT RUN"
+        },
+        "segment_count": 128,
+        "processed_cells": 128,
+        "covered_cells": 0,
+        "unresolved_segments": [],
+        "outside_witnesses": [],
+        "maximum_depth_used": 0,
+        "minimum_cover_margin_mm": null,
+        "surface_self_intersection": "NOT RUN",
+        "anatomical_validation": "NOT RUN",
+        "radius_exceedance_witnesses": [
+          {
+            "segment_index": 0,
+            "fraction": 0.5,
+            "position_mm": [
+              3.14990729958134,
+              -113.0916386236998,
+              1325.125352412826
+            ],
+            "radius_mm": 5.428026642865026,
+            "distance_to_surface_mm": 5.059277685369012,
+            "excess_mm": 0.3687489574960141
+          },
+          {
+            "segment_index": 1,
+            "fraction": 0.5,
+            "position_mm": [
+              2.933703621821258,
+              -113.01656992822012,
+              1325.2722789709233
+            ],
+            "radius_mm": 5.417136023026962,
+            "distance_to_surface_mm": 5.06151759918279,
+            "excess_mm": 0.35561842384417197
+          },
+          {
+            "segment_index": 2,
+            "fraction": 0.5,
+            "position_mm": [
+              2.7176571404281074,
+              -112.94341909412304,
+              1325.420829241301
+            ],
+            "radius_mm": 5.406236019014514,
+            "distance_to_surface_mm": 5.024686078642752,
+            "excess_mm": 0.3815499403717624
+          },
+          {
+            "segment_index": 3,
+            "fraction": 0.5,
+            "position_mm": [
+              2.501786200923014,
+              -112.87216508322447,
+              1325.570992483567
+            ],
+            "radius_mm": 5.39532630597692,
+            "distance_to_surface_mm": 4.986807781749614,
+            "excess_mm": 0.40851852422730595
+          },
+          {
+            "segment_index": 4,
+            "fraction": 0.5,
+            "position_mm": [
+              2.2861091488271033,
+              -112.80278685734035,
+              1325.7227579573287
+            ],
+            "radius_mm": 5.384406583721805,
+            "distance_to_surface_mm": 4.947878414455489,
+            "excess_mm": 0.43652816926631655
+          },
+          {
+            "segment_index": 5,
+            "fraction": 0.5,
+            "position_mm": [
+              2.070644329661501,
+              -112.73526337828662,
+              1325.8761149221932
+            ],
+            "radius_mm": 5.373476576257383,
+            "distance_to_surface_mm": 4.907893682713152,
+            "excess_mm": 0.465582893544231
+          },
+          {
+            "segment_index": 6,
+            "fraction": 0.5,
+            "position_mm": [
+              1.8554100889473328,
+              -112.66957360787919,
+              1326.0310526377687
+            ],
+            "radius_mm": 5.3625360313303325,
+            "distance_to_surface_mm": 4.8668492924747335,
+            "excess_mm": 0.495686738855599
+          },
+          {
+            "segment_index": 7,
+            "fraction": 0.5,
+            "position_mm": [
+              1.640424772205725,
+              -112.60569650793398,
+              1326.1875603636622
+            ],
+            "radius_mm": 5.351584719960169,
+            "distance_to_surface_mm": 4.82474094969239,
+            "excess_mm": 0.5268437702677788
+          },
+          {
+            "segment_index": 8,
+            "fraction": 0.5,
+            "position_mm": [
+              1.4257067249578035,
+              -112.54361104026695,
+              1326.345627359481
+            ],
+            "radius_mm": 5.340622435970682,
+            "distance_to_surface_mm": 4.781564360318851,
+            "excess_mm": 0.5590580756518317
+          },
+          {
+            "segment_index": 9,
+            "fraction": 0.5,
+            "position_mm": [
+              1.2112742927246938,
+              -112.48329616669403,
+              1326.5052428848333
+            ],
+            "radius_mm": 5.329648995519168,
+            "distance_to_surface_mm": 4.737315230306497,
+            "excess_mm": 0.592333765212671
+          },
+          {
+            "segment_index": 10,
+            "fraction": 0.5,
+            "position_mm": [
+              0.9971458210275221,
+              -112.42473084903112,
+              1326.666396199326
+            ],
+            "radius_mm": 5.318664236624063,
+            "distance_to_surface_mm": 4.69198926560723,
+            "excess_mm": 0.6266749710168327
+          },
+          {
+            "segment_index": 11,
+            "fraction": 0.5,
+            "position_mm": [
+              0.7833396553874145,
+              -112.36789404909416,
+              1326.829076562567
+            ],
+            "radius_mm": 5.30766801869148,
+            "distance_to_surface_mm": 4.645582172173922,
+            "excess_mm": 0.6620858465175576
+          },
+          {
+            "segment_index": 12,
+            "fraction": 0.5,
+            "position_mm": [
+              0.5698741413254961,
+              -112.31276472869911,
+              1326.9932732341636
+            ],
+            "radius_mm": 5.2966602220412735,
+            "distance_to_surface_mm": 4.598089655958483,
+            "excess_mm": 0.6985705660827906
+          },
+          {
+            "segment_index": 13,
+            "fraction": 0.5,
+            "position_mm": [
+              0.3567676243628932,
+              -112.25932184966189,
+              1327.1589754737233
+            ],
+            "radius_mm": 5.285640747433074,
+            "distance_to_surface_mm": 4.5495074229133365,
+            "excess_mm": 0.7361333245197379
+          },
+          {
+            "segment_index": 14,
+            "fraction": 0.5,
+            "position_mm": [
+              0.1440384500207315,
+              -112.20754437379838,
+              1327.3261725408538
+            ],
+            "radius_mm": 5.274609515592777,
+            "distance_to_surface_mm": 4.499831178991166,
+            "excess_mm": 0.774778336601611
+          },
+          {
+            "segment_index": 15,
+            "fraction": 0.5,
+            "position_mm": [
+              -0.06829503617986321,
+              -112.15741126292457,
+              1327.4948536951624
+            ],
+            "radius_mm": 5.263566466739917,
+            "distance_to_surface_mm": 4.449056630144066,
+            "excess_mm": 0.8145098365958505
+          },
+          {
+            "segment_index": 16,
+            "fraction": 0.5,
+            "position_mm": [
+              -0.2802144887177649,
+              -112.10890147885637,
+              1327.6650081962566
+            ],
+            "radius_mm": 5.252511560116315,
+            "distance_to_surface_mm": 4.397179482324723,
+            "excess_mm": 0.8553320777915925
+          },
+          {
+            "segment_index": 17,
+            "fraction": 0.5,
+            "position_mm": [
+              -0.4917015620718477,
+              -112.06199398340969,
+              1327.8366253037439
+            ],
+            "radius_mm": 5.241444773516392,
+            "distance_to_surface_mm": 4.344195441485031,
+            "excess_mm": 0.897249332031361
+          },
+          {
+            "segment_index": 18,
+            "fraction": 0.5,
+            "position_mm": [
+              -0.7027379107209857,
+              -112.0166677384005,
+              1328.0096942772323
+            ],
+            "radius_mm": 5.230366102819441,
+            "distance_to_surface_mm": 4.2901002135773245,
+            "excess_mm": 0.9402658892421165
+          },
+          {
+            "segment_index": 19,
+            "fraction": 0.5,
+            "position_mm": [
+              -0.9133051891440535,
+              -111.9729017056447,
+              1328.1842043763286
+            ],
+            "radius_mm": 5.219275561524201,
+            "distance_to_surface_mm": 4.234889504554246,
+            "excess_mm": 0.9843860569699547
+          },
+          {
+            "segment_index": 20,
+            "fraction": 0.5,
+            "position_mm": [
+              -1.1233850518199247,
+              -111.93067484695823,
+              1328.3601448606407
+            ],
+            "radius_mm": 5.208173180285972,
+            "distance_to_surface_mm": 4.178559020367977,
+            "excess_mm": 1.0296141599179949
+          },
+          {
+            "segment_index": 21,
+            "fraction": 0.5,
+            "position_mm": [
+              -1.3329591532274736,
+              -111.88996612415701,
+              1328.537504989776
+            ],
+            "radius_mm": 5.197059006456554,
+            "distance_to_surface_mm": 4.121104466971061,
+            "excess_mm": 1.075954539485493
+          },
+          {
+            "segment_index": 22,
+            "fraction": 0.5,
+            "position_mm": [
+              -1.5420091478455746,
+              -111.85075449905699,
+              1328.7162740233416
+            ],
+            "radius_mm": 5.185933103627207,
+            "distance_to_surface_mm": 4.062521550316167,
+            "excess_mm": 1.1234115533110396
+          },
+          {
+            "segment_index": 23,
+            "fraction": 0.5,
+            "position_mm": [
+              -1.750516690153102,
+              -111.8130189334741,
+              1328.8964412209457
+            ],
+            "radius_mm": 5.174795551174825,
+            "distance_to_surface_mm": 4.002805976354912,
+            "excess_mm": 1.1719895748199134
+          },
+          {
+            "segment_index": 24,
+            "fraction": 0.5,
+            "position_mm": [
+              -1.9584634346289294,
+              -111.77673838922425,
+              1329.0779958421958
+            ],
+            "radius_mm": 5.1636464438115315,
+            "distance_to_surface_mm": 3.941953451039719,
+            "excess_mm": 1.2216929927718123
+          },
+          {
+            "segment_index": 25,
+            "fraction": 0.5,
+            "position_mm": [
+              -2.165831035751931,
+              -111.74189182812336,
+              1329.260927146699
+            ],
+            "radius_mm": 5.152485891137799,
+            "distance_to_surface_mm": 3.87995968032338,
+            "excess_mm": 1.2725262108144189
+          },
+          {
+            "segment_index": 26,
+            "fraction": 0.5,
+            "position_mm": [
+              -2.372601148000981,
+              -111.70845821198739,
+              1329.4452243940627
+            ],
+            "radius_mm": 5.141314017199226,
+            "distance_to_surface_mm": 3.8168203701583727,
+            "excess_mm": 1.3244936470408537
+          },
+          {
+            "segment_index": 27,
+            "fraction": 0.5,
+            "position_mm": [
+              -2.578755425854954,
+              -111.67641650263226,
+              1329.6308768438948
+            ],
+            "radius_mm": 5.130130960047104,
+            "distance_to_surface_mm": 3.7525312264964974,
+            "excess_mm": 1.377599733550607
+          },
+          {
+            "segment_index": 28,
+            "fraction": 0.5,
+            "position_mm": [
+              -2.784275523792724,
+              -111.64574566187392,
+              1329.8178737558028
+            ],
+            "radius_mm": 5.118936871302837,
+            "distance_to_surface_mm": 3.6870879552902474,
+            "excess_mm": 1.4318489160125893
+          },
+          {
+            "segment_index": 29,
+            "fraction": 0.5,
+            "position_mm": [
+              -2.989143096293165,
+              -111.61642465152826,
+              1330.0062043893938
+            ],
+            "radius_mm": 5.107731915726286,
+            "distance_to_surface_mm": 3.62048626249234,
+            "excess_mm": 1.4872456532339462
+          },
+          {
+            "segment_index": 30,
+            "fraction": 0.5,
+            "position_mm": [
+              -3.1933397978351503,
+              -111.58843243341123,
+              1330.1958580042758
+            ],
+            "radius_mm": 5.096516270788077,
+            "distance_to_surface_mm": 3.552721854054586,
+            "excess_mm": 1.5437944167334905
+          },
+          {
+            "segment_index": 31,
+            "fraction": 0.5,
+            "position_mm": [
+              -3.3968472828975553,
+              -111.56174796933877,
+              1330.386823860056
+            ],
+            "radius_mm": 5.085290126245937,
+            "distance_to_surface_mm": 3.4837904359299032,
+            "excess_mm": 1.6014996903160337
+          },
+          {
+            "segment_index": 32,
+            "fraction": 0.5,
+            "position_mm": [
+              -3.5996472059592537,
+              -111.53635022112678,
+              1330.5790912163418
+            ],
+            "radius_mm": 5.074053683725021,
+            "distance_to_surface_mm": 3.4136877140703943,
+            "excess_mm": 1.6603659696546265
+          },
+          {
+            "segment_index": 33,
+            "fraction": 0.5,
+            "position_mm": [
+              -3.8017212214991196,
+              -111.51221815059122,
+              1330.7726493327411
+            ],
+            "radius_mm": 5.062807156302254,
+            "distance_to_surface_mm": 3.3424093944280484,
+            "excess_mm": 1.7203977618742057
+          },
+          {
+            "segment_index": 34,
+            "fraction": 0.5,
+            "position_mm": [
+              -4.003050983996028,
+              -111.48933071954801,
+              1330.967487468861
+            ],
+            "radius_mm": 5.051550768094749,
+            "distance_to_surface_mm": 3.2699511829560364,
+            "excess_mm": 1.781599585138713
+          },
+          {
+            "segment_index": 35,
+            "fraction": 0.5,
+            "position_mm": [
+              -4.203618147928852,
+              -111.46766688981307,
+              1331.163594884309
+            ],
+            "radius_mm": 5.040284753852102,
+            "distance_to_surface_mm": 3.1963087856062105,
+            "excess_mm": 1.8439759682458918
+          },
+          {
+            "segment_index": 36,
+            "fraction": 0.5,
+            "position_mm": [
+              -4.4034043677764645,
+              -111.44720562320236,
+              1331.3609608386932
+            ],
+            "radius_mm": 5.029009358552699,
+            "distance_to_surface_mm": 3.1229948328029193,
+            "excess_mm": 1.9060145257497796
+          },
+          {
+            "segment_index": 37,
+            "fraction": 0.5,
+            "position_mm": [
+              -4.602391298017743,
+              -111.42792588153179,
+              1331.5595745916207
+            ],
+            "radius_mm": 5.017724837003929,
+            "distance_to_surface_mm": 3.051609614809812,
+            "excess_mm": 1.9661152221941167
+          },
+          {
+            "segment_index": 38,
+            "fraction": 0.5,
+            "position_mm": [
+              -4.800560593131559,
+              -111.4098066266173,
+              1331.759425402699
+            ],
+            "radius_mm": 5.006431453446174,
+            "distance_to_surface_mm": 2.979096421176501,
+            "excess_mm": 2.027335032269673
+          },
+          {
+            "segment_index": 39,
+            "fraction": 0.5,
+            "position_mm": [
+              -4.997893907596787,
+              -111.39282682027479,
+              1331.9605025315354
+            ],
+            "radius_mm": 4.995129481160605,
+            "distance_to_surface_mm": 2.9054243776591036,
+            "excess_mm": 2.0897051035015015
+          },
+          {
+            "segment_index": 40,
+            "fraction": 0.5,
+            "position_mm": [
+              -5.194372895892302,
+              -111.37696542432022,
+              1332.1627952377376
+            ],
+            "radius_mm": 4.983819202080629,
+            "distance_to_surface_mm": 2.8305881928995307,
+            "excess_mm": 2.1532310091810984
+          },
+          {
+            "segment_index": 41,
+            "fraction": 0.5,
+            "position_mm": [
+              -5.3899792124969785,
+              -111.36220140056952,
+              1332.3662927809135
+            ],
+            "radius_mm": 4.972500906406956,
+            "distance_to_surface_mm": 2.754582575540274,
+            "excess_mm": 2.2179183308666817
+          },
+          {
+            "segment_index": 42,
+            "fraction": 0.5,
+            "position_mm": [
+              -5.584694511889689,
+              -111.3485137108386,
+              1332.57098442067
+            ],
+            "radius_mm": 4.96117489222617,
+            "distance_to_surface_mm": 2.6774022342236075,
+            "excess_mm": 2.2837726580025626
+          },
+          {
+            "segment_index": 43,
+            "fraction": 0.5,
+            "position_mm": [
+              -5.778500448549309,
+              -111.33588131694339,
+              1332.7768594166148
+            ],
+            "radius_mm": 4.9498414651326605,
+            "distance_to_surface_mm": 2.5990418775915036,
+            "excess_mm": 2.350799587541157
+          },
+          {
+            "segment_index": 44,
+            "fraction": 0.5,
+            "position_mm": [
+              -5.971378676954712,
+              -111.32428318069984,
+              1332.9839070283556
+            ],
+            "radius_mm": 4.938500937853851,
+            "distance_to_surface_mm": 2.519496214286079,
+            "excess_mm": 2.419004723567772
+          },
+          {
+            "segment_index": 45,
+            "fraction": 0.5,
+            "position_mm": [
+              -6.163310851584773,
+              -111.31369826392388,
+              1333.1921165154995
+            ],
+            "radius_mm": 4.927153629878616,
+            "distance_to_surface_mm": 2.4151077079259133,
+            "excess_mm": 2.5120459219527023
+          },
+          {
+            "segment_index": 46,
+            "fraction": 0.5,
+            "position_mm": [
+              -6.354278626918365,
+              -111.30410552843145,
+              1333.4014771376544
+            ],
+            "radius_mm": 4.915799867088708,
+            "distance_to_surface_mm": 2.29820341220823,
+            "excess_mm": 2.617596454880478
+          },
+          {
+            "segment_index": 47,
+            "fraction": 0.5,
+            "position_mm": [
+              -6.544263657434363,
+              -111.29548393603842,
+              1333.6119781544276
+            ],
+            "radius_mm": 4.904439981393123,
+            "distance_to_surface_mm": 2.1797723363850916,
+            "excess_mm": 2.7246676450080316
+          },
+          {
+            "segment_index": 48,
+            "fraction": 0.5,
+            "position_mm": [
+              -6.733247597611641,
+              -111.28781244856077,
+              1333.8236088254268
+            ],
+            "radius_mm": 4.89307431036523,
+            "distance_to_surface_mm": 2.0679070963024264,
+            "excess_mm": 2.8251672140628035
+          },
+          {
+            "segment_index": 49,
+            "fraction": 0.5,
+            "position_mm": [
+              -6.921212101929072,
+              -111.28107002781445,
+              1334.0363584102595
+            ],
+            "radius_mm": 4.881703196882553,
+            "distance_to_surface_mm": 1.966443442226621,
+            "excess_mm": 2.915259754655932
+          },
+          {
+            "segment_index": 50,
+            "fraction": 0.5,
+            "position_mm": [
+              -7.108138824865532,
+              -111.27523563561533,
+              1334.250216168533
+            ],
+            "radius_mm": 4.8703269887690634,
+            "distance_to_surface_mm": 1.8642315790777553,
+            "excess_mm": 3.006095409691308
+          },
+          {
+            "segment_index": 51,
+            "fraction": 0.5,
+            "position_mm": [
+              -7.294009420899894,
+              -111.27028823377938,
+              1334.4651713598546
+            ],
+            "radius_mm": 4.858946038439798,
+            "distance_to_surface_mm": 1.7605046428629372,
+            "excess_mm": 3.0984413955768613
+          },
+          {
+            "segment_index": 52,
+            "fraction": 0.5,
+            "position_mm": [
+              -7.478805544511031,
+              -111.26620678412253,
+              1334.6812132438322
+            ],
+            "radius_mm": 4.847560702547718,
+            "distance_to_surface_mm": 1.6552649657342744,
+            "excess_mm": 3.1922957368134437
+          },
+          {
+            "segment_index": 53,
+            "fraction": 0.5,
+            "position_mm": [
+              -7.6625088501778205,
+              -111.2629702484607,
+              1334.8983310800731
+            ],
+            "radius_mm": 4.836171341632591,
+            "distance_to_surface_mm": 1.5485148798441237,
+            "excess_mm": 3.287656461788467
+          },
+          {
+            "segment_index": 54,
+            "fraction": 0.5,
+            "position_mm": [
+              -7.845100992379132,
+              -111.26055758860983,
+              1335.1165141281854
+            ],
+            "radius_mm": 4.824778319771786,
+            "distance_to_surface_mm": 1.4549590672457986,
+            "excess_mm": 3.3698192525259874
+          },
+          {
+            "segment_index": 55,
+            "fraction": 0.5,
+            "position_mm": [
+              -8.026563625593845,
+              -111.25894776638583,
+              1335.3357516477759
+            ],
+            "radius_mm": 4.813382004232835,
+            "distance_to_surface_mm": 1.4017327708261638,
+            "excess_mm": 3.4116492334066715
+          },
+          {
+            "segment_index": 56,
+            "fraction": 0.5,
+            "position_mm": [
+              -8.20687840430083,
+              -111.25811974360465,
+              1335.556032898452
+            ],
+            "radius_mm": 4.801982765127519,
+            "distance_to_surface_mm": 1.38627834987207,
+            "excess_mm": 3.4157044152554494
+          },
+          {
+            "segment_index": 57,
+            "fraction": 0.5,
+            "position_mm": [
+              -8.386026982978962,
+              -111.2580524820822,
+              1335.7773471398218
+            ],
+            "radius_mm": 4.790580975067406,
+            "distance_to_surface_mm": 1.3738550316358513,
+            "excess_mm": 3.4167259434315547
+          },
+          {
+            "segment_index": 58,
+            "fraction": 0.5,
+            "position_mm": [
+              -8.563991016107117,
+              -111.25872494363446,
+              1335.9996836314926
+            ],
+            "radius_mm": 4.779177008820654,
+            "distance_to_surface_mm": 1.3597339874440486,
+            "excess_mm": 3.4194430213766056
+          },
+          {
+            "segment_index": 59,
+            "fraction": 0.5,
+            "position_mm": [
+              -8.740752158164167,
+              -111.2601160900773,
+              1336.2230316330717
+            ],
+            "radius_mm": 4.767771242969884,
+            "distance_to_surface_mm": 1.343197663358917,
+            "excess_mm": 3.424573579610967
+          },
+          {
+            "segment_index": 60,
+            "fraction": 0.5,
+            "position_mm": [
+              -8.916292063628983,
+              -111.26220488322667,
+              1336.4473804041668
+            ],
+            "radius_mm": 4.756364055570973,
+            "distance_to_surface_mm": 1.3236827185581486,
+            "excess_mm": 3.4326813370128244
+          },
+          {
+            "segment_index": 61,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.090592386980447,
+              -111.26497028489851,
+              1336.6727192043857
+            ],
+            "radius_mm": 4.744955825812628,
+            "distance_to_surface_mm": 1.3024693994861805,
+            "excess_mm": 3.4424864263264476
+          },
+          {
+            "segment_index": 62,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.263634782697427,
+              -111.26839125690873,
+              1336.8990372933351
+            ],
+            "radius_mm": 4.733546933676539,
+            "distance_to_surface_mm": 1.2795563807431438,
+            "excess_mm": 3.453990552933395
+          },
+          {
+            "segment_index": 63,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.435400905258799,
+              -111.27244676107327,
+              1337.1263239306231
+            ],
+            "radius_mm": 4.722137759597915,
+            "distance_to_surface_mm": 1.2549423369275627,
+            "excess_mm": 3.4671954226703523
+          },
+          {
+            "segment_index": 64,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.605872409143437,
+              -111.27711575920807,
+              1337.354568375857
+            ],
+            "radius_mm": 4.710728684126321,
+            "distance_to_surface_mm": 1.2286259426390023,
+            "excess_mm": 3.482102741487319
+          },
+          {
+            "segment_index": 65,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.775030948830215,
+              -111.28237721312905,
+              1337.5837598886446
+            ],
+            "radius_mm": 4.6993200875865835,
+            "distance_to_surface_mm": 1.2006058724765183,
+            "excess_mm": 3.4987142151100654
+          },
+          {
+            "segment_index": 66,
+            "fraction": 0.5,
+            "position_mm": [
+              -9.942858178798009,
+              -111.28821008465215,
+              1337.8138877285928
+            ],
+            "radius_mm": 4.687912349739562,
+            "distance_to_surface_mm": 1.1708808010394085,
+            "excess_mm": 3.517031548700153
+          },
+          {
+            "segment_index": 67,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.109335753525691,
+              -111.2945933355933,
+              1338.04494115531
+            ],
+            "radius_mm": 4.67650584944273,
+            "distance_to_surface_mm": 1.137134460078572,
+            "excess_mm": 3.539371389364158
+          },
+          {
+            "segment_index": 68,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.274445327492135,
+              -111.30150592776843,
+              1338.2769094284026
+            ],
+            "radius_mm": 4.6651009643102785,
+            "distance_to_surface_mm": 1.0809667182347773,
+            "excess_mm": 3.584134246075501
+          },
+          {
+            "segment_index": 69,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.438168555176215,
+              -111.30892682299346,
+              1338.5097818074792
+            ],
+            "radius_mm": 4.65369807037264,
+            "distance_to_surface_mm": 1.0440240683414879,
+            "excess_mm": 3.6096740020311517
+          },
+          {
+            "segment_index": 70,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.60048709105681,
+              -111.3168349830843,
+              1338.7435475521465
+            ],
+            "radius_mm": 4.642297541735241,
+            "distance_to_surface_mm": 1.0135715445253592,
+            "excess_mm": 3.6287259972098815
+          },
+          {
+            "segment_index": 71,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.761382589612786,
+              -111.32520936985694,
+              1338.9781959220127
+            ],
+            "radius_mm": 4.630899750236343,
+            "distance_to_surface_mm": 0.9815861466577296,
+            "excess_mm": 3.649313603578613
+          },
+          {
+            "segment_index": 72,
+            "fraction": 0.5,
+            "position_mm": [
+              -10.920836705323023,
+              -111.33402894512726,
+              1339.2137161766846
+            ],
+            "radius_mm": 4.619505065103764,
+            "distance_to_surface_mm": 0.9480573232579199,
+            "excess_mm": 3.6714477418458444
+          },
+          {
+            "segment_index": 73,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.078831092666395,
+              -111.3432726707112,
+              1339.45009757577
+            ],
+            "radius_mm": 4.608113852610337,
+            "distance_to_surface_mm": 0.912974522844471,
+            "excess_mm": 3.6951393297658663
+          },
+          {
+            "segment_index": 74,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.235347406121772,
+              -111.3529195084247,
+              1339.6873293788767
+            ],
+            "radius_mm": 4.596726475727971,
+            "distance_to_surface_mm": 0.8778459970005225,
+            "excess_mm": 3.7188804787274488
+          },
+          {
+            "segment_index": 75,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.390367300168034,
+              -111.36294842008368,
+              1339.9254008456119
+            ],
+            "radius_mm": 4.58534329378011,
+            "distance_to_surface_mm": 0.8413947662785397,
+            "excess_mm": 3.743948527501571
+          },
+          {
+            "segment_index": 76,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.54387242928405,
+              -111.37333836750409,
+              1340.164301235583
+            ],
+            "radius_mm": 4.573964662092448,
+            "distance_to_surface_mm": 0.8033699544883399,
+            "excess_mm": 3.7705947076041078
+          },
+          {
+            "segment_index": 77,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.695844447948696,
+              -111.38406831250182,
+              1340.4040198083976
+            ],
+            "radius_mm": 4.562590931641745,
+            "distance_to_surface_mm": 0.763760520289567,
+            "excess_mm": 3.7988304113521782
+          },
+          {
+            "segment_index": 78,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.846265010640847,
+              -111.39511721689283,
+              1340.6445458236635
+            ],
+            "radius_mm": 4.551222448702585,
+            "distance_to_surface_mm": 0.7225554223416367,
+            "excess_mm": 3.828667026360949
+          },
+          {
+            "segment_index": 79,
+            "fraction": 0.5,
+            "position_mm": [
+              -11.995115771839377,
+              -111.40646404249304,
+              1340.8858685409878
+            ],
+            "radius_mm": 4.539859554491965,
+            "distance_to_surface_mm": 0.6797436193045818,
+            "excess_mm": 3.860115935187383
+          },
+          {
+            "segment_index": 80,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.142378386023157,
+              -111.4180877511184,
+              1341.1279772199782
+            ],
+            "radius_mm": 4.528502584811484,
+            "distance_to_surface_mm": 0.635674138015983,
+            "excess_mm": 3.892828446795501
+          },
+          {
+            "segment_index": 81,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.288034507671064,
+              -111.42996730458484,
+              1341.3708611202421
+            ],
+            "radius_mm": 4.517151869687059,
+            "distance_to_surface_mm": 0.6481232576536385,
+            "excess_mm": 3.869028612033421
+          },
+          {
+            "segment_index": 82,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.432065791261973,
+              -111.44208166470825,
+              1341.6145095013871
+            ],
+            "radius_mm": 4.505807733006023,
+            "distance_to_surface_mm": 0.6798537229507439,
+            "excess_mm": 3.825954010055279
+          },
+          {
+            "segment_index": 83,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.574453891274757,
+              -111.45440979330459,
+              1341.858911623021
+            ],
+            "radius_mm": 4.494470492151428,
+            "distance_to_surface_mm": 0.7098282724114123,
+            "excess_mm": 3.7846422197400154
+          },
+          {
+            "segment_index": 84,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.71518046218829,
+              -111.4669306521898,
+              1342.1040567447506
+            ],
+            "radius_mm": 4.48314045763346,
+            "distance_to_surface_mm": 0.7380316592797381,
+            "excess_mm": 3.7451087983537215
+          },
+          {
+            "segment_index": 85,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.854227158481446,
+              -111.47962320317978,
+              1342.3499341261838
+            ],
+            "radius_mm": 4.471817932717806,
+            "distance_to_surface_mm": 0.7485625377083909,
+            "excess_mm": 3.723255395009415
+          },
+          {
+            "segment_index": 86,
+            "fraction": 0.5,
+            "position_mm": [
+              -12.9915756346331,
+              -111.49246640809048,
+              1342.5965330269282
+            ],
+            "radius_mm": 4.460503213050919,
+            "distance_to_surface_mm": 0.7360930437891916,
+            "excess_mm": 3.7244101692617275
+          },
+          {
+            "segment_index": 87,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.127207545122126,
+              -111.50543922873783,
+              1342.8438427065912
+            ],
+            "radius_mm": 4.44919658628198,
+            "distance_to_surface_mm": 0.7181376947289997,
+            "excess_mm": 3.7310588915529803
+          },
+          {
+            "segment_index": 88,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.261104544427397,
+              -111.51852062693777,
+              1343.0918524247807
+            ],
+            "radius_mm": 4.437898331681511,
+            "distance_to_surface_mm": 0.6987486015347895,
+            "excess_mm": 3.739149730146722
+          },
+          {
+            "segment_index": 89,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.393248287027788,
+              -111.5316895645062,
+              1343.3405514411033
+            ],
+            "radius_mm": 4.426608719756526,
+            "distance_to_surface_mm": 0.6797196215025485,
+            "excess_mm": 3.7468890982539778
+          },
+          {
+            "segment_index": 90,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.523620427402173,
+              -111.54492500325905,
+              1343.5899290151674
+            ],
+            "radius_mm": 4.415328011862085,
+            "distance_to_surface_mm": 0.7001365954161729,
+            "excess_mm": 3.7151914164459123
+          },
+          {
+            "segment_index": 91,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.652202620029428,
+              -111.5582059050123,
+              1343.83997440658
+            ],
+            "radius_mm": 4.4040564598092455,
+            "distance_to_surface_mm": 0.7217142551252674,
+            "excess_mm": 3.682342204683978
+          },
+          {
+            "segment_index": 92,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.778976519388422,
+              -111.57151123158181,
+              1344.090676874949
+            ],
+            "radius_mm": 4.39279430546927,
+            "distance_to_surface_mm": 0.7417214726645528,
+            "excess_mm": 3.651072832804717
+          },
+          {
+            "segment_index": 93,
+            "fraction": 0.5,
+            "position_mm": [
+              -13.903923779958037,
+              -111.58481994478356,
+              1344.3420256798813
+            ],
+            "radius_mm": 4.381541780374056,
+            "distance_to_surface_mm": 0.7661135126837642,
+            "excess_mm": 3.6154282676902922
+          },
+          {
+            "segment_index": 94,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.027026056217139,
+              -111.5981110064335,
+              1344.5940100809848
+            ],
+            "radius_mm": 4.370299105312698,
+            "distance_to_surface_mm": 0.8052506733559547,
+            "excess_mm": 3.5650484319567437
+          },
+          {
+            "segment_index": 95,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.148265002644607,
+              -111.61136337834748,
+              1344.8466193378672
+            ],
+            "radius_mm": 4.359066489924185,
+            "distance_to_surface_mm": 0.8430199498007913,
+            "excess_mm": 3.516046540123394
+          },
+          {
+            "segment_index": 96,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.267622273719311,
+              -111.6245560223415,
+              1345.0998427101354
+            ],
+            "radius_mm": 4.347844132286177,
+            "distance_to_surface_mm": 0.8792592704840618,
+            "excess_mm": 3.468584861802115
+          },
+          {
+            "segment_index": 97,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.385079523920131,
+              -111.63766790023146,
+              1345.3536694573975
+            ],
+            "radius_mm": 4.336632218499802,
+            "distance_to_surface_mm": 0.9159721689282122,
+            "excess_mm": 3.4206600495715898
+          },
+          {
+            "segment_index": 98,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.50061840772594,
+              -111.65067797383331,
+              1345.6080888392607
+            ],
+            "radius_mm": 4.325430922270559,
+            "distance_to_surface_mm": 0.9922609715077835,
+            "excess_mm": 3.333169950762776
+          },
+          {
+            "segment_index": 99,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.614220579615608,
+              -111.66356520496296,
+              1345.8630901153329
+            ],
+            "radius_mm": 4.314240404485223,
+            "distance_to_surface_mm": 1.0734233827296649,
+            "excess_mm": 3.240817021755558
+          },
+          {
+            "segment_index": 100,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.725867694068011,
+              -111.67630855543635,
+              1346.118662545221
+            ],
+            "radius_mm": 4.303060812784847,
+            "distance_to_surface_mm": 1.1481007988175969,
+            "excess_mm": 3.15496001396725
+          },
+          {
+            "segment_index": 101,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.835541405562026,
+              -111.68888698706941,
+              1346.374795388533
+            ],
+            "radius_mm": 4.291892281133894,
+            "distance_to_surface_mm": 1.2100008257634254,
+            "excess_mm": 3.081891455370468
+          },
+          {
+            "segment_index": 102,
+            "fraction": 0.5,
+            "position_mm": [
+              -14.943223368576522,
+              -111.70127946167806,
+              1346.6314779048757
+            ],
+            "radius_mm": 4.280734929385507,
+            "distance_to_surface_mm": 1.2702680962456034,
+            "excess_mm": 3.010466833139904
+          },
+          {
+            "segment_index": 103,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.048895237590378,
+              -111.71346494107823,
+              1346.8886993538576
+            ],
+            "radius_mm": 4.269588862843026,
+            "distance_to_surface_mm": 1.3288761057367853,
+            "excess_mm": 2.940712757106241
+          },
+          {
+            "segment_index": 104,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.152538667082464,
+              -111.72542238708589,
+              1347.1464489950856
+            ],
+            "radius_mm": 4.258454171817856,
+            "distance_to_surface_mm": 1.385798349709636,
+            "excess_mm": 2.8726558221082206
+          },
+          {
+            "segment_index": 105,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.254135311531659,
+              -111.73713076151691,
+              1347.4047160881673
+            ],
+            "radius_mm": 4.2473309311837815,
+            "distance_to_surface_mm": 1.4456774228132885,
+            "excess_mm": 2.801653508370493
+          },
+          {
+            "segment_index": 106,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.35366682541683,
+              -111.74856902618725,
+              1347.6634898927105
+            ],
+            "radius_mm": 4.236219199927817,
+            "distance_to_surface_mm": 1.5435658103705532,
+            "excess_mm": 2.6926533895572637
+          },
+          {
+            "segment_index": 107,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.45111486321686,
+              -111.75971614291285,
+              1347.9227596683222
+            ],
+            "radius_mm": 4.2251190206978215,
+            "distance_to_surface_mm": 1.6553439484041717,
+            "excess_mm": 2.56977507229365
+          },
+          {
+            "segment_index": 108,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.54646107941062,
+              -111.77055107350961,
+              1348.18251467461
+            ],
+            "radius_mm": 4.214030419347026,
+            "distance_to_surface_mm": 1.7653845949081015,
+            "excess_mm": 2.448645824438924
+          },
+          {
+            "segment_index": 109,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.63968712847698,
+              -111.7810527797935,
+              1348.4427441711819
+            ],
+            "radius_mm": 4.2029534044756245,
+            "distance_to_surface_mm": 1.8736590839375744,
+            "excess_mm": 2.3292943205380503
+          },
+          {
+            "segment_index": 110,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.730774664894817,
+              -111.79120022358042,
+              1348.7034374176446
+            ],
+            "radius_mm": 4.191887966969778,
+            "distance_to_surface_mm": 1.9801387495477627,
+            "excess_mm": 2.2117492174220157
+          },
+          {
+            "segment_index": 111,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.819705343143005,
+              -111.80097236668631,
+              1348.9645836736063
+            ],
+            "radius_mm": 4.18083407953816,
+            "distance_to_surface_mm": 2.084794925793938,
+            "excess_mm": 2.096039153744222
+          },
+          {
+            "segment_index": 112,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.906460817700417,
+              -111.8103481709271,
+              1349.2261721986742
+            ],
+            "radius_mm": 4.16979169624637,
+            "distance_to_surface_mm": 2.1875989467311996,
+            "excess_mm": 1.9821927495151703
+          },
+          {
+            "segment_index": 113,
+            "fraction": 0.5,
+            "position_mm": [
+              -15.991022743045932,
+              -111.81930659811871,
+              1349.488192252456
+            ],
+            "radius_mm": 4.158760752049579,
+            "distance_to_surface_mm": 2.2885221464147882,
+            "excess_mm": 1.8702386056347908
+          },
+          {
+            "segment_index": 114,
+            "fraction": 0.5,
+            "position_mm": [
+              -16.07337277365842,
+              -111.82782661007707,
+              1349.7506330945594
+            ],
+            "radius_mm": 4.147741162323665,
+            "distance_to_surface_mm": 2.3875358588999513,
+            "excess_mm": 1.7602053034237133
+          },
+          {
+            "segment_index": 115,
+            "fraction": 0.5,
+            "position_mm": [
+              -16.15349256401675,
+              -111.83588716861814,
+              1350.0134839845914
+            ],
+            "radius_mm": 4.136732822395274,
+            "distance_to_surface_mm": 2.4846114182418444,
+            "excess_mm": 1.6521214041534296
+          },
+          {
+            "segment_index": 116,
+            "fraction": 0.5,
+            "position_mm": [
+              -16.23136376859981,
+              -111.84346723555782,
+              1350.2767341821593
+            ],
+            "radius_mm": 4.125735607071189,
+            "distance_to_surface_mm": 2.579720158495557,
+            "excess_mm": 1.5460154485756314
+          },
+          {
+            "segment_index": 117,
+            "fraction": 0.5,
+            "position_mm": [
+              -16.306968041886464,
+              -111.85054577271205,
+              1350.5403729468712
+            ],
+            "radius_mm": 4.11474937016739,
+            "distance_to_surface_mm": 2.672833413716459,
+            "excess_mm": 1.4419159564509307
+          },
+          {
+            "segment_index": 118,
+            "fraction": 0.5,
+            "position_mm": [
+              -16.380287038355583,
+              -111.85710174189677,
+              1350.8043895383344
+            ],
+            "radius_mm": 4.103773944038393,
+            "distance_to_surface_mm": 2.7639225179596103,
+            "excess_mm": 1.3398514260787824
+          },
+          {
+            "segment_index": 119,
+            "fraction": 0.5,
+            "position_mm": [
+              -16.45130241248605,
+              -111.86311410492789,
+              1351.0687732161566
+            ],
+            "radius_mm": 4.092809139107314,
+            "distance_to_surface_mm": 2.852958805280296,
+            "excess_mm": 1.2398503338270181
+          },
+          {
+            "segment_index": 120,
+            "fraction": 0.5,
+            "position_mm": [
+              -16.519995818756737,
+              -111.86856182362135,
+              1351.3335132399452
+            ],
+            "radius_mm": 4.0818547433971375,
+            "distance_to_surface_mm": 2.9399136097337286,
+            "excess_mm": 1.1419411336634089
+          },
+          {
+            "segment_index": 121,
+            "fraction": 0.5,
+            "position_mm": [
+              -16.586348911646517,
+              -111.87342385979309,
+              1351.5985988693074
+            ],
+            "radius_mm": 4.070910522063877,
+            "distance_to_surface_mm": 3.0210020522805503,
+            "excess_mm": 1.0499084697833267
+          },
+          {
+            "segment_index": 122,
+            "fraction": 0.5,
+            "position_mm": [
+              -16.650343345634262,
+              -111.87767917525902,
+              1351.864019363851
+            ],
+            "radius_mm": 4.059976216932167,
+            "distance_to_surface_mm": 3.094660527646956,
+            "excess_mm": 0.965315689285211
+          },
+          {
+            "segment_index": 123,
+            "fraction": 0.5,
+            "position_mm": [
+              -16.711960775198847,
+              -111.88130673183508,
+              1352.1297639831835
+            ],
+            "radius_mm": 4.049051546033983,
+            "distance_to_surface_mm": 3.166021630220433,
+            "excess_mm": 0.88302991581355
+          },
+          {
+            "segment_index": 124,
+            "fraction": 0.5,
+            "position_mm": [
+              -16.77118285481915,
+              -111.88428549133721,
+              1352.3958219869123
+            ],
+            "radius_mm": 4.038136203151159,
+            "distance_to_surface_mm": 3.2350577437806063,
+            "excess_mm": 0.8030784593705524
+          },
+          {
+            "segment_index": 125,
+            "fraction": 0.5,
+            "position_mm": [
+              -16.82799123897404,
+              -111.88659441558133,
+              1352.6621826346448
+            ],
+            "radius_mm": 4.027229857362409,
+            "distance_to_surface_mm": 3.301741252107163,
+            "excess_mm": 0.7254886052552458
+          },
+          {
+            "segment_index": 126,
+            "fraction": 0.5,
+            "position_mm": [
+              -16.882367582142393,
+              -111.88821246638335,
+              1352.9288351859886
+            ],
+            "radius_mm": 4.01633215259566,
+            "distance_to_surface_mm": 3.366044538979755,
+            "excess_mm": 0.6502876136159048
+          },
+          {
+            "segment_index": 127,
+            "fraction": 0.5,
+            "position_mm": [
+              -16.934293538803082,
+              -111.88911860555923,
+              1353.1957689005515
+            ],
+            "radius_mm": 4.005442707186477,
+            "distance_to_surface_mm": 3.427939988178106,
+            "excess_mm": 0.577502719008371
+          }
+        ],
+        "tube_wall_containment": "NOT RUN"
+      },
+      "radius_slope_continuity": "NOT ENFORCED",
+      "branch_reattachment": "NOT RUN"
+    }
+  ],
+  "graph_modified": false,
+  "live_scene_changed": false,
+  "scope": "Radius continuity and conservative ball envelope; not tube-wall acceptance",
+  "inspection_status": "COMPLETE"
+}

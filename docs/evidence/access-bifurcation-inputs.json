@@ -1,0 +1,1304 @@
+{
+  "node_count": 65,
+  "edge_count": 65,
+  "degree_histogram": {
+    "1": 20,
+    "2": 25,
+    "3": 20
+  },
+  "junction_count": 20,
+  "structural_pass_count": 20,
+  "junctions": [
+    {
+      "node_id": "FJ1931:n2",
+      "node_evidence_status": "unresolved",
+      "incident_edge_count": 3,
+      "structural_status": "PASS",
+      "reasons": [],
+      "branches": [
+        {
+          "edge_id": "FJ1931:e0",
+          "anatomy": {
+            "artery": "descending thoracic aorta",
+            "branch_id": "FJ1931:e0",
+            "segment": "unresolved",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 5.5455864697608535,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ1931:e1",
+          "anatomy": {
+            "artery": "descending thoracic aorta",
+            "branch_id": "FJ1931:e1",
+            "segment": "unresolved",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 1.1313708498984443,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ1931:e2",
+          "anatomy": {
+            "artery": "descending thoracic aorta",
+            "branch_id": "FJ1931:e2",
+            "segment": "unresolved",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 93.85962625835148,
+          "endpoint_gap_mm": 0.0
+        }
+      ],
+      "anatomical_acceptance": "UNKNOWN",
+      "manual_design_status": "NOT PROVIDED",
+      "geometry_generation": "NOT RUN"
+    },
+    {
+      "node_id": "FJ1931:n4",
+      "node_evidence_status": "unresolved",
+      "incident_edge_count": 3,
+      "structural_status": "PASS",
+      "reasons": [],
+      "branches": [
+        {
+          "edge_id": "FJ1931:e2",
+          "anatomy": {
+            "artery": "descending thoracic aorta",
+            "branch_id": "FJ1931:e2",
+            "segment": "unresolved",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 93.85962625835148,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ1931:e3",
+          "anatomy": {
+            "artery": "descending thoracic aorta",
+            "branch_id": "FJ1931:e3",
+            "segment": "unresolved",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 3.6513147387971276,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ1931:e4::samples:0-237",
+          "anatomy": {
+            "artery": "descending thoracic aorta",
+            "branch_id": "FJ1931:e4",
+            "segment": "unresolved",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 58.76814488684044,
+          "endpoint_gap_mm": 0.0
+        }
+      ],
+      "anatomical_acceptance": "UNKNOWN",
+      "manual_design_status": "NOT PROVIDED",
+      "geometry_generation": "NOT RUN"
+    },
+    {
+      "node_id": "FJ1932:n0",
+      "node_evidence_status": "unresolved",
+      "incident_edge_count": 3,
+      "structural_status": "PASS",
+      "reasons": [],
+      "branches": [
+        {
+          "edge_id": "FJ1932:e0",
+          "anatomy": {
+            "artery": "abdominal aorta",
+            "branch_id": "FJ1932:e0",
+            "segment": "unresolved",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 169.57111395814957,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "declared-link:2",
+          "anatomy": {
+            "artery": "synthetic connection",
+            "branch_id": "declared-link:2",
+            "segment": "unassigned",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "synthetic_estimate",
+          "length_mm": 5.122499389946347,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "declared-link:5",
+          "anatomy": {
+            "artery": "synthetic connection",
+            "branch_id": "declared-link:5",
+            "segment": "unassigned",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "synthetic_estimate",
+          "length_mm": 4.3081318457076,
+          "endpoint_gap_mm": 0.0
+        }
+      ],
+      "anatomical_acceptance": "UNKNOWN",
+      "manual_design_status": "NOT PROVIDED",
+      "geometry_generation": "NOT RUN"
+    },
+    {
+      "node_id": "FJ3565:n2",
+      "node_evidence_status": "unresolved",
+      "incident_edge_count": 3,
+      "structural_status": "PASS",
+      "reasons": [],
+      "branches": [
+        {
+          "edge_id": "FJ3565:e0",
+          "anatomy": {
+            "artery": "right common iliac artery",
+            "branch_id": "FJ3565:e0",
+            "segment": "unresolved",
+            "side": "R"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 21.27795985744473,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ3565:e1",
+          "anatomy": {
+            "artery": "right common iliac artery",
+            "branch_id": "FJ3565:e1",
+            "segment": "unresolved",
+            "side": "R"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 1.3856406460550825,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ3565:e2",
+          "anatomy": {
+            "artery": "right common iliac artery",
+            "branch_id": "FJ3565:e2",
+            "segment": "unresolved",
+            "side": "R"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 42.63773161768354,
+          "endpoint_gap_mm": 0.0
+        }
+      ],
+      "anatomical_acceptance": "UNKNOWN",
+      "manual_design_status": "NOT PROVIDED",
+      "geometry_generation": "NOT RUN"
+    },
+    {
+      "node_id": "sample:FJ1654:e0:77",
+      "node_evidence_status": "synthetic_estimate",
+      "incident_edge_count": 3,
+      "structural_status": "PASS",
+      "reasons": [],
+      "branches": [
+        {
+          "edge_id": "FJ1654:e0::samples:0-77",
+          "anatomy": {
+            "artery": "right anterior cerebral artery",
+            "branch_id": "FJ1654:e0",
+            "segment": "unresolved",
+            "side": "R"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 9.925440841620757,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ1654:e0::samples:77-175",
+          "anatomy": {
+            "artery": "right anterior cerebral artery",
+            "branch_id": "FJ1654:e0",
+            "segment": "unresolved",
+            "side": "R"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 12.648634656707264,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "declared-link:21",
+          "anatomy": {
+            "artery": "synthetic connection",
+            "branch_id": "declared-link:21",
+            "segment": "unassigned",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "synthetic_estimate",
+          "length_mm": 1.647368535383567,
+          "endpoint_gap_mm": 0.0
+        }
+      ],
+      "anatomical_acceptance": "UNKNOWN",
+      "manual_design_status": "NOT PROVIDED",
+      "geometry_generation": "NOT RUN"
+    },
+    {
+      "node_id": "sample:FJ1654M:e0:91",
+      "node_evidence_status": "synthetic_estimate",
+      "incident_edge_count": 3,
+      "structural_status": "PASS",
+      "reasons": [],
+      "branches": [
+        {
+          "edge_id": "FJ1654M:e0::samples:0-91",
+          "anatomy": {
+            "artery": "left anterior cerebral artery",
+            "branch_id": "FJ1654M:e0",
+            "segment": "unresolved",
+            "side": "L"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 11.401094046128247,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ1654M:e0::samples:91-188",
+          "anatomy": {
+            "artery": "left anterior cerebral artery",
+            "branch_id": "FJ1654M:e0",
+            "segment": "unresolved",
+            "side": "L"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 12.671894728635266,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "declared-link:16",
+          "anatomy": {
+            "artery": "synthetic connection",
+            "branch_id": "declared-link:16",
+            "segment": "unassigned",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "synthetic_estimate",
+          "length_mm": 2.1168388254076556,
+          "endpoint_gap_mm": 0.0
+        }
+      ],
+      "anatomical_acceptance": "UNKNOWN",
+      "manual_design_status": "NOT PROVIDED",
+      "geometry_generation": "NOT RUN"
+    },
+    {
+      "node_id": "sample:FJ1682:e0:653",
+      "node_evidence_status": "synthetic_estimate",
+      "incident_edge_count": 3,
+      "structural_status": "PASS",
+      "reasons": [],
+      "branches": [
+        {
+          "edge_id": "FJ1682:e0::samples:0-653",
+          "anatomy": {
+            "artery": "right internal carotid artery",
+            "branch_id": "FJ1682:e0",
+            "segment": "unresolved",
+            "side": "R"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 116.91156952687791,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ1682:e0::samples:653-664",
+          "anatomy": {
+            "artery": "right internal carotid artery",
+            "branch_id": "FJ1682:e0",
+            "segment": "unresolved",
+            "side": "R"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 1.8303176026632715,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "declared-link:19",
+          "anatomy": {
+            "artery": "synthetic connection",
+            "branch_id": "declared-link:19",
+            "segment": "unassigned",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "synthetic_estimate",
+          "length_mm": 2.1077918470831953,
+          "endpoint_gap_mm": 0.0
+        }
+      ],
+      "anatomical_acceptance": "UNKNOWN",
+      "manual_design_status": "NOT PROVIDED",
+      "geometry_generation": "NOT RUN"
+    },
+    {
+      "node_id": "sample:FJ1682:e0:664",
+      "node_evidence_status": "synthetic_estimate",
+      "incident_edge_count": 3,
+      "structural_status": "PASS",
+      "reasons": [],
+      "branches": [
+        {
+          "edge_id": "FJ1682:e0::samples:653-664",
+          "anatomy": {
+            "artery": "right internal carotid artery",
+            "branch_id": "FJ1682:e0",
+            "segment": "unresolved",
+            "side": "R"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 1.8303176026632715,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ1682:e0::samples:664-668",
+          "anatomy": {
+            "artery": "right internal carotid artery",
+            "branch_id": "FJ1682:e0",
+            "segment": "unresolved",
+            "side": "R"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 0.47265241003373293,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "declared-link:20",
+          "anatomy": {
+            "artery": "synthetic connection",
+            "branch_id": "declared-link:20",
+            "segment": "unassigned",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "synthetic_estimate",
+          "length_mm": 0.24483589665837105,
+          "endpoint_gap_mm": 0.0
+        }
+      ],
+      "anatomical_acceptance": "UNKNOWN",
+      "manual_design_status": "NOT PROVIDED",
+      "geometry_generation": "NOT RUN"
+    },
+    {
+      "node_id": "sample:FJ1682M:e0:10",
+      "node_evidence_status": "synthetic_estimate",
+      "incident_edge_count": 3,
+      "structural_status": "PASS",
+      "reasons": [],
+      "branches": [
+        {
+          "edge_id": "FJ1682M:e0::samples:10-668",
+          "anatomy": {
+            "artery": "left internal carotid artery",
+            "branch_id": "FJ1682M:e0",
+            "segment": "unresolved",
+            "side": "L"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 117.67740742951807,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ1682M:e0::samples:3-10",
+          "anatomy": {
+            "artery": "left internal carotid artery",
+            "branch_id": "FJ1682M:e0",
+            "segment": "unresolved",
+            "side": "L"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 1.2028356304761543,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "declared-link:14",
+          "anatomy": {
+            "artery": "synthetic connection",
+            "branch_id": "declared-link:14",
+            "segment": "unassigned",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "synthetic_estimate",
+          "length_mm": 0.5691776555926553,
+          "endpoint_gap_mm": 0.0
+        }
+      ],
+      "anatomical_acceptance": "UNKNOWN",
+      "manual_design_status": "NOT PROVIDED",
+      "geometry_generation": "NOT RUN"
+    },
+    {
+      "node_id": "sample:FJ1682M:e0:3",
+      "node_evidence_status": "synthetic_estimate",
+      "incident_edge_count": 3,
+      "structural_status": "PASS",
+      "reasons": [],
+      "branches": [
+        {
+          "edge_id": "FJ1682M:e0::samples:0-3",
+          "anatomy": {
+            "artery": "left internal carotid artery",
+            "branch_id": "FJ1682M:e0",
+            "segment": "unresolved",
+            "side": "L"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 0.3673539107959412,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ1682M:e0::samples:3-10",
+          "anatomy": {
+            "artery": "left internal carotid artery",
+            "branch_id": "FJ1682M:e0",
+            "segment": "unresolved",
+            "side": "L"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 1.2028356304761543,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "declared-link:15",
+          "anatomy": {
+            "artery": "synthetic connection",
+            "branch_id": "declared-link:15",
+            "segment": "unassigned",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "synthetic_estimate",
+          "length_mm": 0.06806389353599934,
+          "endpoint_gap_mm": 0.0
+        }
+      ],
+      "anatomical_acceptance": "UNKNOWN",
+      "manual_design_status": "NOT PROVIDED",
+      "geometry_generation": "NOT RUN"
+    },
+    {
+      "node_id": "sample:FJ1931:e4:237",
+      "node_evidence_status": "synthetic_estimate",
+      "incident_edge_count": 3,
+      "structural_status": "PASS",
+      "reasons": [],
+      "branches": [
+        {
+          "edge_id": "FJ1931:e4::samples:0-237",
+          "anatomy": {
+            "artery": "descending thoracic aorta",
+            "branch_id": "FJ1931:e4",
+            "segment": "unresolved",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 58.76814488684044,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ1931:e4::samples:237-250",
+          "anatomy": {
+            "artery": "descending thoracic aorta",
+            "branch_id": "FJ1931:e4",
+            "segment": "unresolved",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 2.4549546273302267,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "declared-link:7",
+          "anatomy": {
+            "artery": "synthetic connection",
+            "branch_id": "declared-link:7",
+            "segment": "unassigned",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "synthetic_estimate",
+          "length_mm": 2.7913114406193626,
+          "endpoint_gap_mm": 0.0
+        }
+      ],
+      "anatomical_acceptance": "UNKNOWN",
+      "manual_design_status": "NOT PROVIDED",
+      "geometry_generation": "NOT RUN"
+    },
+    {
+      "node_id": "sample:FJ2143:e0:1380",
+      "node_evidence_status": "synthetic_estimate",
+      "incident_edge_count": 3,
+      "structural_status": "PASS",
+      "reasons": [],
+      "branches": [
+        {
+          "edge_id": "FJ2143:e0::samples:0-1380",
+          "anatomy": {
+            "artery": "right femoral artery",
+            "branch_id": "FJ2143:e0",
+            "segment": "unresolved",
+            "side": "R"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 350.1418542876802,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ2143:e0::samples:1380-1429",
+          "anatomy": {
+            "artery": "right femoral artery",
+            "branch_id": "FJ2143:e0",
+            "segment": "unresolved",
+            "side": "R"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 10.882953762293091,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "declared-link:3",
+          "anatomy": {
+            "artery": "synthetic connection",
+            "branch_id": "declared-link:3",
+            "segment": "unassigned",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "synthetic_estimate",
+          "length_mm": 4.74350219319326,
+          "endpoint_gap_mm": 0.0
+        }
+      ],
+      "anatomical_acceptance": "UNKNOWN",
+      "manual_design_status": "NOT PROVIDED",
+      "geometry_generation": "NOT RUN"
+    },
+    {
+      "node_id": "sample:FJ3411:e0:133",
+      "node_evidence_status": "synthetic_estimate",
+      "incident_edge_count": 3,
+      "structural_status": "PASS",
+      "reasons": [],
+      "branches": [
+        {
+          "edge_id": "FJ3411:e0::samples:133-308",
+          "anatomy": {
+            "artery": "arch of aorta",
+            "branch_id": "FJ3411:e0",
+            "segment": "unresolved",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 42.50063320416187,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ3411:e0::samples:88-133",
+          "anatomy": {
+            "artery": "arch of aorta",
+            "branch_id": "FJ3411:e0",
+            "segment": "unresolved",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 10.677282715832199,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "declared-link:8",
+          "anatomy": {
+            "artery": "synthetic connection",
+            "branch_id": "declared-link:8",
+            "segment": "unassigned",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "synthetic_estimate",
+          "length_mm": 5.930337473761145,
+          "endpoint_gap_mm": 0.0
+        }
+      ],
+      "anatomical_acceptance": "UNKNOWN",
+      "manual_design_status": "NOT PROVIDED",
+      "geometry_generation": "NOT RUN"
+    },
+    {
+      "node_id": "sample:FJ3411:e0:308",
+      "node_evidence_status": "synthetic_estimate",
+      "incident_edge_count": 3,
+      "structural_status": "PASS",
+      "reasons": [],
+      "branches": [
+        {
+          "edge_id": "FJ3411:e0::samples:133-308",
+          "anatomy": {
+            "artery": "arch of aorta",
+            "branch_id": "FJ3411:e0",
+            "segment": "unresolved",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 42.50063320416187,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ3411:e0::samples:308-309",
+          "anatomy": {
+            "artery": "arch of aorta",
+            "branch_id": "FJ3411:e0",
+            "segment": "unresolved",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 0.14710571696256852,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "declared-link:7",
+          "anatomy": {
+            "artery": "synthetic connection",
+            "branch_id": "declared-link:7",
+            "segment": "unassigned",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "synthetic_estimate",
+          "length_mm": 2.7913114406193626,
+          "endpoint_gap_mm": 0.0
+        }
+      ],
+      "anatomical_acceptance": "UNKNOWN",
+      "manual_design_status": "NOT PROVIDED",
+      "geometry_generation": "NOT RUN"
+    },
+    {
+      "node_id": "sample:FJ3411:e0:88",
+      "node_evidence_status": "synthetic_estimate",
+      "incident_edge_count": 3,
+      "structural_status": "PASS",
+      "reasons": [],
+      "branches": [
+        {
+          "edge_id": "FJ3411:e0::samples:0-88",
+          "anatomy": {
+            "artery": "arch of aorta",
+            "branch_id": "FJ3411:e0",
+            "segment": "unresolved",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 21.668148034921245,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ3411:e0::samples:88-133",
+          "anatomy": {
+            "artery": "arch of aorta",
+            "branch_id": "FJ3411:e0",
+            "segment": "unresolved",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 10.677282715832199,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "declared-link:9",
+          "anatomy": {
+            "artery": "synthetic connection",
+            "branch_id": "declared-link:9",
+            "segment": "unassigned",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "synthetic_estimate",
+          "length_mm": 7.739026719491962,
+          "endpoint_gap_mm": 0.0
+        }
+      ],
+      "anatomical_acceptance": "UNKNOWN",
+      "manual_design_status": "NOT PROVIDED",
+      "geometry_generation": "NOT RUN"
+    },
+    {
+      "node_id": "sample:FJ3417:e0:2",
+      "node_evidence_status": "synthetic_estimate",
+      "incident_edge_count": 3,
+      "structural_status": "PASS",
+      "reasons": [],
+      "branches": [
+        {
+          "edge_id": "FJ3417:e0::samples:0-2",
+          "anatomy": {
+            "artery": "brachiocephalic artery",
+            "branch_id": "FJ3417:e0",
+            "segment": "unresolved",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 0.3381152429527722,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ3417:e0::samples:2-155",
+          "anatomy": {
+            "artery": "brachiocephalic artery",
+            "branch_id": "FJ3417:e0",
+            "segment": "unresolved",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 37.47125946155643,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "declared-link:10",
+          "anatomy": {
+            "artery": "synthetic connection",
+            "branch_id": "declared-link:10",
+            "segment": "unassigned",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "synthetic_estimate",
+          "length_mm": 0.09299286920220166,
+          "endpoint_gap_mm": 0.0
+        }
+      ],
+      "anatomical_acceptance": "UNKNOWN",
+      "manual_design_status": "NOT PROVIDED",
+      "geometry_generation": "NOT RUN"
+    },
+    {
+      "node_id": "sample:FJ3466:e0:452",
+      "node_evidence_status": "synthetic_estimate",
+      "incident_edge_count": 3,
+      "structural_status": "PASS",
+      "reasons": [],
+      "branches": [
+        {
+          "edge_id": "FJ3466:e0::samples:0-452",
+          "anatomy": {
+            "artery": "left external iliac artery",
+            "branch_id": "FJ3466:e0",
+            "segment": "unresolved",
+            "side": "L"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 110.18475216067357,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ3466:e0::samples:452-583",
+          "anatomy": {
+            "artery": "left external iliac artery",
+            "branch_id": "FJ3466:e0",
+            "segment": "unresolved",
+            "side": "L"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 30.62707874852201,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "declared-link:0",
+          "anatomy": {
+            "artery": "synthetic connection",
+            "branch_id": "declared-link:0",
+            "segment": "unassigned",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "synthetic_estimate",
+          "length_mm": 9.242130557566655,
+          "endpoint_gap_mm": 0.0
+        }
+      ],
+      "anatomical_acceptance": "UNKNOWN",
+      "manual_design_status": "NOT PROVIDED",
+      "geometry_generation": "NOT RUN"
+    },
+    {
+      "node_id": "sample:FJ3564:e0:144",
+      "node_evidence_status": "synthetic_estimate",
+      "incident_edge_count": 3,
+      "structural_status": "PASS",
+      "reasons": [],
+      "branches": [
+        {
+          "edge_id": "FJ3564:e0::samples:0-144",
+          "anatomy": {
+            "artery": "right common carotid artery",
+            "branch_id": "FJ3564:e0",
+            "segment": "unresolved",
+            "side": "R"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 36.49004529751721,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ3564:e0::samples:144-152",
+          "anatomy": {
+            "artery": "right common carotid artery",
+            "branch_id": "FJ3564:e0",
+            "segment": "unresolved",
+            "side": "R"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 1.6088792687471707,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "declared-link:10",
+          "anatomy": {
+            "artery": "synthetic connection",
+            "branch_id": "declared-link:10",
+            "segment": "unassigned",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "synthetic_estimate",
+          "length_mm": 0.09299286920220166,
+          "endpoint_gap_mm": 0.0
+        }
+      ],
+      "anatomical_acceptance": "UNKNOWN",
+      "manual_design_status": "NOT PROVIDED",
+      "geometry_generation": "NOT RUN"
+    },
+    {
+      "node_id": "sample:FJ3567:e0:548",
+      "node_evidence_status": "synthetic_estimate",
+      "incident_edge_count": 3,
+      "structural_status": "PASS",
+      "reasons": [],
+      "branches": [
+        {
+          "edge_id": "FJ3567:e0::samples:548-552",
+          "anatomy": {
+            "artery": "right external iliac artery",
+            "branch_id": "FJ3567:e0",
+            "segment": "unresolved",
+            "side": "R"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 0.6893212954141175,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ3567:e0::samples:56-548",
+          "anatomy": {
+            "artery": "right external iliac artery",
+            "branch_id": "FJ3567:e0",
+            "segment": "unresolved",
+            "side": "R"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 126.2742418362605,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "declared-link:4",
+          "anatomy": {
+            "artery": "synthetic connection",
+            "branch_id": "declared-link:4",
+            "segment": "unassigned",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "synthetic_estimate",
+          "length_mm": 0.4148850692117587,
+          "endpoint_gap_mm": 0.0
+        }
+      ],
+      "anatomical_acceptance": "UNKNOWN",
+      "manual_design_status": "NOT PROVIDED",
+      "geometry_generation": "NOT RUN"
+    },
+    {
+      "node_id": "sample:FJ3567:e0:56",
+      "node_evidence_status": "synthetic_estimate",
+      "incident_edge_count": 3,
+      "structural_status": "PASS",
+      "reasons": [],
+      "branches": [
+        {
+          "edge_id": "FJ3567:e0::samples:0-56",
+          "anatomy": {
+            "artery": "right external iliac artery",
+            "branch_id": "FJ3567:e0",
+            "segment": "unresolved",
+            "side": "R"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 13.866772180171017,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "FJ3567:e0::samples:56-548",
+          "anatomy": {
+            "artery": "right external iliac artery",
+            "branch_id": "FJ3567:e0",
+            "segment": "unresolved",
+            "side": "R"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "unresolved",
+          "length_mm": 126.2742418362605,
+          "endpoint_gap_mm": 0.0
+        },
+        {
+          "edge_id": "declared-link:3",
+          "anatomy": {
+            "artery": "synthetic connection",
+            "branch_id": "declared-link:3",
+            "segment": "unassigned",
+            "side": "unknown"
+          },
+          "source_ids": [
+            "bp3d",
+            "bp3d-preview"
+          ],
+          "evidence_status": "synthetic_estimate",
+          "length_mm": 4.74350219319326,
+          "endpoint_gap_mm": 0.0
+        }
+      ],
+      "anatomical_acceptance": "UNKNOWN",
+      "manual_design_status": "NOT PROVIDED",
+      "geometry_generation": "NOT RUN"
+    }
+  ],
+  "cerebral_target_sources": [
+    {
+      "source_part_id": "FJ1654",
+      "edge_ids": [
+        "FJ1654:e0::samples:0-77",
+        "FJ1654:e0::samples:77-175"
+      ],
+      "nodes": [
+        {
+          "node_id": "FJ1654:n0",
+          "incident_edge_count": 2
+        },
+        {
+          "node_id": "FJ1654:n1",
+          "incident_edge_count": 1
+        },
+        {
+          "node_id": "sample:FJ1654:e0:77",
+          "incident_edge_count": 3
+        }
+      ],
+      "bifurcation_node_count": 1
+    },
+    {
+      "source_part_id": "FJ1654M",
+      "edge_ids": [
+        "FJ1654M:e0::samples:0-91",
+        "FJ1654M:e0::samples:91-188"
+      ],
+      "nodes": [
+        {
+          "node_id": "FJ1654M:n0",
+          "incident_edge_count": 1
+        },
+        {
+          "node_id": "FJ1654M:n1",
+          "incident_edge_count": 2
+        },
+        {
+          "node_id": "sample:FJ1654M:e0:91",
+          "incident_edge_count": 3
+        }
+      ],
+      "bifurcation_node_count": 1
+    },
+    {
+      "source_part_id": "FJ1692",
+      "edge_ids": [
+        "FJ1692:e0"
+      ],
+      "nodes": [
+        {
+          "node_id": "FJ1692:n0",
+          "incident_edge_count": 1
+        },
+        {
+          "node_id": "FJ1692:n1",
+          "incident_edge_count": 2
+        }
+      ],
+      "bifurcation_node_count": 0
+    },
+    {
+      "source_part_id": "FJ1692M",
+      "edge_ids": [
+        "FJ1692M:e0"
+      ],
+      "nodes": [
+        {
+          "node_id": "FJ1692M:n0",
+          "incident_edge_count": 2
+        },
+        {
+          "node_id": "FJ1692M:n1",
+          "incident_edge_count": 1
+        }
+      ],
+      "bifurcation_node_count": 0
+    }
+  ],
+  "node_evidence_counts": {
+    "unresolved": 4,
+    "synthetic_estimate": 16
+  },
+  "scope": "All degree >= 3 nodes; structural inputs only, not anatomical bifurcation approval",
+  "status": "INSPECTED",
+  "accepted_for_generation": false,
+  "schema": "vv-toolbox.atlas-bifurcation-inputs/1",
+  "case_revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+  "input_sha256": "f2e8af8c7d5430ef1af7927a68e1346c9ebe6d7e5e6847565beca7258abed65d",
+  "input_unchanged": true
+}

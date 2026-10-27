@@ -1,0 +1,11 @@
+{
+  "status": "REJECTED",
+  "stage": "oriented outer triangulation",
+  "side": 1,
+  "reason": "no nondegenerate bounded triangulation path",
+  "case_revision": "90aa67f11b698178168d7491e1da7d23bd621f252dfea6dd47029af93b9a9da4",
+  "artifact_sha256": "e556b6f7b39fda923bac2945b155e6ac7c96b7c3377fc2968782ebcc0ba286db",
+  "input_unchanged": true,
+  "geometry_generated": false,
+  "app_applied": false
+}

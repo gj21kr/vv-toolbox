@@ -1,0 +1,24 @@
+{
+  "scope": "Single-parent candidate masks, sac labels, CLI archive and same-grid ROI correspondence",
+  "environment": "Docker vv-annotation-ui, PYTHONPATH=src",
+  "full_regression": {
+    "passed": 620,
+    "skipped": 3,
+    "warnings": 326,
+    "seconds": 55.68,
+    "scope_note": "Before final added-neck support bound and coverage metadata refinement",
+    "junit_sha256": "2c6baeb829293a0c9227e21a9f988368bda22b794d0eacdfc8890cd5b2caa22d"
+  },
+  "final_focused": {
+    "passed": 40,
+    "warnings": 55,
+    "seconds": 7.76,
+    "tests": ["test_saccular_masks.py", "test_saccular_surface.py", "test_saccular_spec.py", "test_volume_cli.py"],
+    "junit_sha256": "d5c103392131120f3fa5c4f63c262e9c4a7646bcd8b3cef6db1f5980a91e0562"
+  },
+  "fixture_evidence": "docs/evidence/saccular-mask-inspection.json",
+  "same_grid_roi_crop_equality": "PASS",
+  "atlas_anatomical_segment_labels": "UNKNOWN",
+  "whole_target_arterial_network": "NOT RUN",
+  "clinical_validity": "NOT RUN"
+}

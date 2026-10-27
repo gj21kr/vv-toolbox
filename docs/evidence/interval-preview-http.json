@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "scope": "HTTP rejection and state preservation, not accepted-edit rendering",
+  "results": [
+    {
+      "name": "missing_generation",
+      "status": 409,
+      "response": {
+        "error": "Anatomy changed or revision is missing; refresh controls before applying edits",
+        "code": "generation_conflict",
+        "current_generation": 1
+      }
+    },
+    {
+      "name": "invalid_input",
+      "status": 400,
+      "response": {
+        "error": "Invalid controls"
+      }
+    },
+    {
+      "name": "foreign_origin",
+      "status": 403,
+      "response": {
+        "error": "Origin rejected"
+      }
+    },
+    {
+      "name": "actual_atlas_displacement_rejection",
+      "status": 422,
+      "response": {
+        "error": "Projection exceeds declared displacement bound",
+        "code": "atlas_edit_checks_failed"
+      }
+    }
+  ],
+  "generation": 1,
+  "saved_atlas_sha256": "082a9178daee4d52c79aaa709cba91fbdc56cfb5767fef4801fd4b9bb22d1964",
+  "accepted_preview": "NOT RUN",
+  "browser_rendering": "NOT RUN"
+}

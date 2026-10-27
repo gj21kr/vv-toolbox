@@ -1,0 +1,1081 @@
+{
+  "schema": "vv_toolbox.aca_boundary_review/1",
+  "review_date": "2026-10-20",
+  "coordinate_frame_id": "bodyparts3d_native_LPS",
+  "units": "mm",
+  "source_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "centerline_sha256": "1f099284deca459fcf34850d2c84223e98f78d6f576d9faa72aa0ee66a0cc8f9",
+  "obj_sha256": {
+    "FJ1742": "3f46359c2a23499ac130bd27646309f7974d216f9d55320b503e3b0844da9a70",
+    "FJ1654": "7f146e7551bb53d1ad7f5d98a77a16d8c7ea4e8ab86012bfd3c92b782df2a5dd",
+    "FJ1654M": "b5bbd053a3b23de2490f00262adc37044f2a1f09f6548468b9595add93806dcc",
+    "FJ1655": "9e93878f7df5385e705674367796c02b86082fb2df1d3e35c9c801658e3f4914",
+    "FJ1699": "56ef6e1b97a44969452123f30fd86871e654a034cf06af498aabde6d56f16c9a",
+    "FJ1699M": "26cf1f0bc067fa0444535138cced1dec8ce0b9da946bad785972779bb58c128c",
+    "FJ1676": "ef91dfc288beb91672ff9aa18b06405022eb6aa45e9549a82819d76a5ac7d1e9",
+    "FJ1676M": "0e5d4f84475f3b5ae441d5a5ba90a6f1734e14cd9e008183762d2bed4890646e"
+  },
+  "review_method": "Manual inspection of exact X=0,-3,+3 callosal sections, oblique source surface renderings, and axial ACom sections. Centerlines are derived voxel-lee-1, not source annotations.",
+  "boundaries": [
+    {
+      "boundary_id": "B.R.ACA.A2_A3",
+      "evidence_status": "landmark_reviewed",
+      "localization_scope": "region_only",
+      "position": null,
+      "region_bounds_mm": [
+        [
+          -3.3373176881872215,
+          -126.81807215111442,
+          1553.2432740438028
+        ],
+        [
+          -2.5029882661404157,
+          -123.4807544629272,
+          1556.3024819246411
+        ]
+      ],
+      "sample_count": 13,
+      "centerline_samples": [
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 19,
+          "position": [
+            -2.5029882661404157,
+            -123.4807544629272,
+            1553.2432740438028
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 20,
+          "position": [
+            -2.5029882661404157,
+            -123.75886427027613,
+            1553.5213838511518
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 21,
+          "position": [
+            -2.5029882661404157,
+            -124.03697407762506,
+            1553.7994936585008
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 22,
+          "position": [
+            -2.5029882661404157,
+            -124.315083884974,
+            1554.0776034658497
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 23,
+          "position": [
+            -2.5029882661404157,
+            -124.59319369232294,
+            1554.3557132731985
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 24,
+          "position": [
+            -2.781098073489351,
+            -124.87130349967187,
+            1554.6338230805475
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 25,
+          "position": [
+            -2.781098073489351,
+            -125.14941330702081,
+            1554.9119328878965
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 26,
+          "position": [
+            -3.059207880838286,
+            -125.42752311436975,
+            1555.1900426952454
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 27,
+          "position": [
+            -3.059207880838286,
+            -125.70563292171867,
+            1555.4681525025942
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 28,
+          "position": [
+            -3.059207880838286,
+            -125.98374272906761,
+            1555.7462623099432
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 29,
+          "position": [
+            -3.3373176881872215,
+            -126.26185253641655,
+            1555.7462623099432
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 30,
+          "position": [
+            -3.3373176881872215,
+            -126.53996234376548,
+            1556.0243721172922
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 31,
+          "position": [
+            -3.3373176881872215,
+            -126.81807215111442,
+            1556.3024819246411
+          ]
+        }
+      ],
+      "region_selection_yz_mm": [
+        -127,
+        -119,
+        1553,
+        1557
+      ],
+      "region_definition": "Manual visual bracket of rostrum-genu transition",
+      "exact_boundary_plane_approved": false,
+      "uncertainty": "Reviewer-selected transition region, not a calibrated confidence interval; no unique sharp boundary on smooth callosal mesh."
+    },
+    {
+      "boundary_id": "B.R.ACA.A3_A4",
+      "evidence_status": "landmark_reviewed",
+      "localization_scope": "region_only",
+      "position": null,
+      "region_bounds_mm": [
+        [
+          -3.8935373028850915,
+          -119.86532696739104,
+          1576.6044978611135
+        ],
+        [
+          -3.3373176881872215,
+          -110.13148371017832,
+          1580.4980351639986
+        ]
+      ],
+      "sample_count": 36,
+      "centerline_samples": [
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 110,
+          "position": [
+            -3.8935373028850915,
+            -119.86532696739104,
+            1576.6044978611135
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 111,
+          "position": [
+            -3.8935373028850915,
+            -119.5872171600421,
+            1576.8826076684622
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 112,
+          "position": [
+            -3.8935373028850915,
+            -119.30910735269318,
+            1576.8826076684622
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 113,
+          "position": [
+            -3.8935373028850915,
+            -119.03099754534423,
+            1577.1607174758112
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 114,
+          "position": [
+            -3.8935373028850915,
+            -118.7528877379953,
+            1577.1607174758112
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 115,
+          "position": [
+            -3.8935373028850915,
+            -118.47477793064637,
+            1577.4388272831602
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 116,
+          "position": [
+            -3.8935373028850915,
+            -118.19666812329743,
+            1577.4388272831602
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 117,
+          "position": [
+            -3.8935373028850915,
+            -117.9185583159485,
+            1577.7169370905092
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 118,
+          "position": [
+            -3.8935373028850915,
+            -117.64044850859956,
+            1577.995046897858
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 119,
+          "position": [
+            -3.8935373028850915,
+            -117.36233870125062,
+            1577.995046897858
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 120,
+          "position": [
+            -3.8935373028850915,
+            -117.0842288939017,
+            1578.273156705207
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 121,
+          "position": [
+            -3.8935373028850915,
+            -116.80611908655275,
+            1578.273156705207
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 122,
+          "position": [
+            -3.8935373028850915,
+            -116.52800927920381,
+            1578.273156705207
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 123,
+          "position": [
+            -3.8935373028850915,
+            -116.24989947185489,
+            1578.551266512556
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 124,
+          "position": [
+            -3.8935373028850915,
+            -115.97178966450595,
+            1578.551266512556
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 125,
+          "position": [
+            -3.8935373028850915,
+            -115.69367985715701,
+            1578.829376319905
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 126,
+          "position": [
+            -3.6154274955361565,
+            -115.41557004980808,
+            1578.829376319905
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 127,
+          "position": [
+            -3.6154274955361565,
+            -115.13746024245914,
+            1578.829376319905
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 128,
+          "position": [
+            -3.8935373028850915,
+            -114.8593504351102,
+            1579.1074861272539
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 129,
+          "position": [
+            -3.6154274955361565,
+            -114.58124062776128,
+            1579.1074861272539
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 130,
+          "position": [
+            -3.8935373028850915,
+            -114.30313082041233,
+            1579.3855959346026
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 131,
+          "position": [
+            -3.6154274955361565,
+            -114.0250210130634,
+            1579.3855959346026
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 132,
+          "position": [
+            -3.6154274955361565,
+            -113.74691120571447,
+            1579.3855959346026
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 133,
+          "position": [
+            -3.6154274955361565,
+            -113.46880139836553,
+            1579.6637057419516
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 134,
+          "position": [
+            -3.6154274955361565,
+            -113.19069159101659,
+            1579.6637057419516
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 135,
+          "position": [
+            -3.6154274955361565,
+            -112.91258178366766,
+            1579.6637057419516
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 136,
+          "position": [
+            -3.6154274955361565,
+            -112.63447197631872,
+            1579.9418155493006
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 137,
+          "position": [
+            -3.6154274955361565,
+            -112.3563621689698,
+            1579.9418155493006
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 138,
+          "position": [
+            -3.3373176881872215,
+            -112.07825236162086,
+            1579.9418155493006
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 139,
+          "position": [
+            -3.6154274955361565,
+            -111.80014255427193,
+            1580.2199253566496
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 140,
+          "position": [
+            -3.6154274955361565,
+            -111.52203274692299,
+            1580.2199253566496
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 141,
+          "position": [
+            -3.3373176881872215,
+            -111.24392293957405,
+            1580.2199253566496
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 142,
+          "position": [
+            -3.3373176881872215,
+            -110.96581313222512,
+            1580.2199253566496
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 143,
+          "position": [
+            -3.3373176881872215,
+            -110.68770332487618,
+            1580.4980351639986
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 144,
+          "position": [
+            -3.3373176881872215,
+            -110.40959351752724,
+            1580.4980351639986
+          ]
+        },
+        {
+          "edge_id": "FJ1699:e1",
+          "point_index": 145,
+          "position": [
+            -3.3373176881872215,
+            -110.13148371017832,
+            1580.4980351639986
+          ]
+        }
+      ],
+      "region_selection_yz_mm": [
+        -120,
+        -110,
+        1576,
+        1581
+      ],
+      "region_definition": "Manual visual bracket of superior genu to posterior supracallosal course",
+      "exact_boundary_plane_approved": false,
+      "uncertainty": "Reviewer-selected transition region, not a calibrated confidence interval; no unique sharp boundary on smooth callosal mesh."
+    },
+    {
+      "boundary_id": "B.R.ACA.A1_A2",
+      "evidence_status": "candidate",
+      "position": null,
+      "candidate_position": [
+        -4.085875516296511,
+        -112.77016424978369,
+        1537.9235443340065
+      ],
+      "edge_id": "FJ1654:e0",
+      "point_index": 21,
+      "acom_point_index": 0,
+      "centerline_distance_mm": 1.535174326825013,
+      "exact_boundary_plane_approved": false,
+      "reason": "ACom side attachment neighborhood identified by crossing closed surface-section contours at Z=1537.5 and 1538 mm. Separate overlapping surfaces do not provide an explicit shared ostial plane. Nearest derived centerline samples are inspection anchors, not a proven lumen junction."
+    },
+    {
+      "boundary_id": "B.L.ACA.A2_A3",
+      "evidence_status": "landmark_reviewed",
+      "localization_scope": "region_only",
+      "position": null,
+      "region_bounds_mm": [
+        [
+          2.5027788682645755,
+          -126.80746265873847,
+          1553.1133310286282
+        ],
+        [
+          3.61512503193772,
+          -123.47042416771905,
+          1556.1722829787293
+        ]
+      ],
+      "sample_count": 14,
+      "centerline_samples": [
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 226,
+          "position": [
+            3.61512503193772,
+            -126.80746265873847,
+            1556.1722829787293
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 227,
+          "position": [
+            3.337038491019434,
+            -126.52937611782019,
+            1556.1722829787293
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 228,
+          "position": [
+            3.337038491019434,
+            -126.2512895769019,
+            1555.894196437811
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 229,
+          "position": [
+            3.058951950101148,
+            -125.97320303598362,
+            1555.6161098968928
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 230,
+          "position": [
+            3.058951950101148,
+            -125.69511649506534,
+            1555.3380233559744
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 231,
+          "position": [
+            3.058951950101148,
+            -125.41702995414704,
+            1555.059936815056
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 232,
+          "position": [
+            3.058951950101148,
+            -125.13894341322876,
+            1554.781850274138
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 233,
+          "position": [
+            2.7808654091828617,
+            -124.86085687231046,
+            1554.5037637332196
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 234,
+          "position": [
+            2.7808654091828617,
+            -124.58277033139218,
+            1554.2256771923012
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 235,
+          "position": [
+            2.5027788682645755,
+            -124.3046837904739,
+            1554.2256771923012
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 236,
+          "position": [
+            2.5027788682645755,
+            -124.0265972495556,
+            1553.947590651383
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 237,
+          "position": [
+            2.5027788682645755,
+            -123.74851070863733,
+            1553.6695041104647
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 238,
+          "position": [
+            2.5027788682645755,
+            -123.74851070863733,
+            1553.3914175695465
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 239,
+          "position": [
+            2.5027788682645755,
+            -123.47042416771905,
+            1553.1133310286282
+          ]
+        }
+      ],
+      "region_selection_yz_mm": [
+        -127,
+        -119,
+        1553,
+        1557
+      ],
+      "region_definition": "Manual visual bracket of rostrum-genu transition",
+      "exact_boundary_plane_approved": false,
+      "uncertainty": "Reviewer-selected transition region, not a calibrated confidence interval; no unique sharp boundary on smooth callosal mesh."
+    },
+    {
+      "boundary_id": "B.L.ACA.A3_A4",
+      "evidence_status": "landmark_reviewed",
+      "localization_scope": "region_only",
+      "position": null,
+      "region_bounds_mm": [
+        [
+          3.337038491019434,
+          -119.85529913578132,
+          1576.7506870066825
+        ],
+        [
+          4.171298113774292,
+          -110.1222702036413,
+          1580.6438985795385
+        ]
+      ],
+      "sample_count": 36,
+      "centerline_samples": [
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 111,
+          "position": [
+            3.337038491019434,
+            -110.1222702036413,
+            1580.6438985795385
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 112,
+          "position": [
+            3.337038491019434,
+            -110.40035674455959,
+            1580.6438985795385
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 113,
+          "position": [
+            3.61512503193772,
+            -110.67844328547787,
+            1580.36581203862
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 114,
+          "position": [
+            3.337038491019434,
+            -110.95652982639616,
+            1580.36581203862
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 115,
+          "position": [
+            3.61512503193772,
+            -111.23461636731444,
+            1580.087725497702
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 116,
+          "position": [
+            3.61512503193772,
+            -111.51270290823274,
+            1580.087725497702
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 117,
+          "position": [
+            3.61512503193772,
+            -111.79078944915102,
+            1580.087725497702
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 118,
+          "position": [
+            3.61512503193772,
+            -112.0688759900693,
+            1580.087725497702
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 119,
+          "position": [
+            3.61512503193772,
+            -112.3469625309876,
+            1579.8096389567836
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 120,
+          "position": [
+            3.893211572856006,
+            -112.62504907190588,
+            1579.8096389567836
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 121,
+          "position": [
+            3.61512503193772,
+            -112.90313561282417,
+            1579.8096389567836
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 122,
+          "position": [
+            3.893211572856006,
+            -113.18122215374245,
+            1579.5315524158655
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 123,
+          "position": [
+            3.893211572856006,
+            -113.45930869466073,
+            1579.5315524158655
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 124,
+          "position": [
+            3.61512503193772,
+            -113.73739523557902,
+            1579.5315524158655
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 125,
+          "position": [
+            3.893211572856006,
+            -114.01548177649731,
+            1579.253465874947
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 126,
+          "position": [
+            3.893211572856006,
+            -114.29356831741559,
+            1579.253465874947
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 127,
+          "position": [
+            3.893211572856006,
+            -114.57165485833389,
+            1579.253465874947
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 128,
+          "position": [
+            3.893211572856006,
+            -114.84974139925217,
+            1578.9753793340287
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 129,
+          "position": [
+            3.893211572856006,
+            -115.12782794017045,
+            1578.9753793340287
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 130,
+          "position": [
+            3.893211572856006,
+            -115.40591448108874,
+            1578.9753793340287
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 131,
+          "position": [
+            3.893211572856006,
+            -115.68400102200702,
+            1578.6972927931106
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 132,
+          "position": [
+            3.893211572856006,
+            -115.96208756292532,
+            1578.6972927931106
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 133,
+          "position": [
+            3.893211572856006,
+            -116.2401741038436,
+            1578.4192062521922
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 134,
+          "position": [
+            3.893211572856006,
+            -116.51826064476188,
+            1578.4192062521922
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 135,
+          "position": [
+            3.893211572856006,
+            -116.79634718568018,
+            1578.4192062521922
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 136,
+          "position": [
+            4.171298113774292,
+            -117.07443372659846,
+            1578.1411197112739
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 137,
+          "position": [
+            3.893211572856006,
+            -117.35252026751675,
+            1578.1411197112739
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 138,
+          "position": [
+            3.893211572856006,
+            -117.63060680843503,
+            1577.8630331703557
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 139,
+          "position": [
+            3.893211572856006,
+            -117.90869334935331,
+            1577.5849466294374
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 140,
+          "position": [
+            3.893211572856006,
+            -118.1867798902716,
+            1577.5849466294374
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 141,
+          "position": [
+            3.893211572856006,
+            -118.46486643118989,
+            1577.5849466294374
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 142,
+          "position": [
+            3.893211572856006,
+            -118.74295297210817,
+            1577.306860088519
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 143,
+          "position": [
+            3.893211572856006,
+            -119.02103951302647,
+            1577.306860088519
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 144,
+          "position": [
+            3.893211572856006,
+            -119.29912605394475,
+            1577.0287735476008
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 145,
+          "position": [
+            3.893211572856006,
+            -119.57721259486303,
+            1576.7506870066825
+          ]
+        },
+        {
+          "edge_id": "FJ1699M:e0",
+          "point_index": 146,
+          "position": [
+            3.893211572856006,
+            -119.85529913578132,
+            1576.7506870066825
+          ]
+        }
+      ],
+      "region_selection_yz_mm": [
+        -120,
+        -110,
+        1576,
+        1581
+      ],
+      "region_definition": "Manual visual bracket of superior genu to posterior supracallosal course",
+      "exact_boundary_plane_approved": false,
+      "uncertainty": "Reviewer-selected transition region, not a calibrated confidence interval; no unique sharp boundary on smooth callosal mesh."
+    },
+    {
+      "boundary_id": "B.L.ACA.A1_A2",
+      "evidence_status": "candidate",
+      "position": null,
+      "candidate_position": [
+        3.269241131517566,
+        -113.60612932023541,
+        1538.1779523790146
+      ],
+      "edge_id": "FJ1654M:e0",
+      "point_index": 23,
+      "acom_point_index": 23,
+      "centerline_distance_mm": 1.9259226912001663,
+      "exact_boundary_plane_approved": false,
+      "reason": "ACom side attachment neighborhood identified by crossing closed surface-section contours at Z=1537.5 and 1538 mm. Separate overlapping surfaces do not provide an explicit shared ostial plane. Nearest derived centerline samples are inspection anchors, not a proven lumen junction."
+    }
+  ],
+  "figures": [
+    {
+      "path": "exports/aca-boundary-review/acom-sections.png",
+      "sha256": "8c5d19b2fe6a23c40fb4adca1a6c09f3c5627d885c995084eb91aac0f3880cc1"
+    },
+    {
+      "path": "exports/aca-boundary-review/oblique-surfaces.png",
+      "sha256": "c658d72b984e3391ef87abdfc0588cbf3c4addf6ef66cc7e54074ad1507ed823"
+    },
+    {
+      "path": "exports/aca-boundary-review/sagittal-sections.png",
+      "sha256": "1702861024a1aac9e8c5d0a2fa2584e6b46e1d7ee1eb5dc60cf03abbdbc4c7ba"
+    }
+  ],
+  "clinical_validation": "NOT RUN",
+  "lumen_connectivity": "NOT PROVEN",
+  "approved_exact_coordinates": 0
+}

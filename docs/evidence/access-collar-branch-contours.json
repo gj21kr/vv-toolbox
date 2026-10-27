@@ -1,0 +1,55 @@
+{
+  "status": "UNKNOWN",
+  "surface_sha256": "bad61c62ca40b1aade54c6e52e3ded05829240b23f6dbd915991d8688ae313d9",
+  "rows": [
+    {
+      "collar_mm": 10,
+      "triangle_index": 12974,
+      "maximum_centroid_distance_mm": 2.424487069509022,
+      "source_face_index": 40343,
+      "nearest_source_owner": "FJ3579",
+      "stations": [
+        101,
+        102
+      ],
+      "areas_mm2": [
+        112.37897914222411,
+        50.80676604680581
+      ],
+      "all_contour_counts": [
+        2,
+        3
+      ],
+      "artifact": "exports/access-collar-candidates/collar-10mm-radius-branch-contours.json",
+      "artifact_sha256": "fd66a136cbef19ed5605c78fea20d9b6ad30c91ea14e87e089a3909bf959d11e",
+      "anatomical_identity": "UNKNOWN",
+      "loft_replacement": "NOT RUN"
+    },
+    {
+      "collar_mm": 20,
+      "triangle_index": 10646,
+      "maximum_centroid_distance_mm": 2.4276569831983044,
+      "source_face_index": 40364,
+      "nearest_source_owner": "FJ3579",
+      "stations": [
+        83,
+        84
+      ],
+      "areas_mm2": [
+        108.37432244048122,
+        52.365096287708795
+      ],
+      "all_contour_counts": [
+        3,
+        3
+      ],
+      "artifact": "exports/access-collar-candidates/collar-20mm-radius-branch-contours.json",
+      "artifact_sha256": "d8855e4233fb307ba557417e1ac4593c6e963af74a369c9bfc115778ca2d7463",
+      "anatomical_identity": "UNKNOWN",
+      "loft_replacement": "NOT RUN"
+    }
+  ],
+  "scope": "All contours in planes adjacent to maximum centroid deviation; not anatomical branch adjudication",
+  "source_modified": false,
+  "live_scene_changed": false
+}

@@ -1,0 +1,145 @@
+{
+  "schema": "vv-toolbox.frontobasal-source-junction/1",
+  "source_case_revision": "ac39f2d88883cf9f2389618a7ad6f0770dd3b5efef17278fbcefa02bf677aa24",
+  "atlas_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "path_sha256": "e6e2ba43f99858c34f245f2c1cfe367e5033e9bedfffd5d53f9be6f343273e0f",
+  "junction_id": "FJ1690:n3",
+  "junction_mm": [
+    -1.8883634344590696,
+    -151.66540005181795,
+    1542.1966006579678
+  ],
+  "ports": [
+    {
+      "edge_id": "FJ1690:e0",
+      "distance_from_junction_mm": 3.0,
+      "tangent_window_mm": 0.5,
+      "origin_mm": [
+        -3.8861005742473402,
+        -152.49399164909332,
+        1540.1519637544368
+      ],
+      "outward_normal": [
+        -0.7079351368027647,
+        -0.3452379868152323,
+        -0.6161481757984978
+      ]
+    },
+    {
+      "edge_id": "FJ1690:e1",
+      "distance_from_junction_mm": 3.0,
+      "tangent_window_mm": 0.5,
+      "origin_mm": [
+        -2.0871385328231824,
+        -153.71283405238978,
+        1544.343422207722
+      ],
+      "outward_normal": [
+        0.0,
+        -0.6501307881563608,
+        0.759822320211238
+      ]
+    },
+    {
+      "edge_id": "FJ1690:e2",
+      "distance_from_junction_mm": 3.0,
+      "tangent_window_mm": 0.5,
+      "origin_mm": [
+        -1.490813237730844,
+        -149.39199584407754,
+        1541.215234589594
+      ],
+      "outward_normal": [
+        0.0,
+        0.707106781186718,
+        -0.7071067811863769
+      ]
+    }
+  ],
+  "port_rule": "Fixed 3 mm arc distance with 0.5 mm chord tangent; engineering probe, not an anatomical boundary.",
+  "accepted_for_generation": false,
+  "arm_attachment": "NOT RUN",
+  "surrounding_clearance": "NOT RUN",
+  "status": "CANDIDATE",
+  "patch": {
+    "status": "CANDIDATE",
+    "method": "source-halfspace-junction/1",
+    "source_partition_identity": "PASS",
+    "components": 1,
+    "port_boundary_vertex_ids": [
+      [
+        1,
+        2,
+        5,
+        6,
+        8,
+        9,
+        10,
+        17,
+        52,
+        62,
+        51,
+        32,
+        33,
+        34,
+        28,
+        15,
+        14,
+        13,
+        3
+      ],
+      [
+        57,
+        58,
+        60,
+        59,
+        81,
+        82,
+        75,
+        76,
+        77,
+        80,
+        78,
+        79,
+        74,
+        73,
+        64
+      ],
+      [
+        19,
+        21,
+        36,
+        37,
+        39,
+        40,
+        43,
+        46,
+        47,
+        49,
+        50,
+        27,
+        25,
+        24,
+        22
+      ]
+    ],
+    "self_contact": "NOT RUN",
+    "arm_attachment": "NOT RUN",
+    "anatomical_validation": "NOT RUN",
+    "accepted_for_generation": false
+  },
+  "self_contact": {
+    "status": "NO_CONTACT_DETECTED",
+    "coverage": "all distinct triangle pairs",
+    "checked_pairs": 1068,
+    "adjacent_pairs_checked": 678,
+    "contact_pairs": [],
+    "tolerance_mm": 1e-08,
+    "max_pairs": 2000000,
+    "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+  },
+  "vertices": 83,
+  "faces": 119,
+  "artifact": "exports/frontobasal-source-junction.npz",
+  "sha256": "549a3bf0f9ffe5973414a8e962a9eb7ddbfa6fde5be539852000024596413dcc"
+}

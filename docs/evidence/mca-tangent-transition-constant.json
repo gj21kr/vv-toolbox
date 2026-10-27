@@ -1,0 +1,64 @@
+{
+  "schema": "vv-toolbox.tangent-transition/1",
+  "case_revision": "90aa67f11b698178168d7491e1da7d23bd621f252dfea6dd47029af93b9a9da4",
+  "frame": {
+    "axes": "LPS",
+    "evidence_ref": "docs/CEREBRAL_LANDMARK_INSPECTION.md",
+    "id": "bodyparts3d_native_LPS",
+    "origin": "unchanged BodyParts3D native origin",
+    "units": "mm"
+  },
+  "parent_artifact_sha256": "e556b6f7b39fda923bac2945b155e6ac7c96b7c3377fc2968782ebcc0ba286db",
+  "status": "CANDIDATE",
+  "parameterization": "provisional normalized arc length; anatomical correspondence NOT VERIFIED",
+  "cross_rim_tangent": "constant declared neck normal",
+  "original_cross_rim_normal_alignment": {
+    "minimum": 0.8251281320627181,
+    "maximum": 0.9968713489914766,
+    "negative_count": 0
+  },
+  "sampling_intervals": 8,
+  "band_width_mm": 1.0,
+  "angles": {
+    "neck": {
+      "count": 125,
+      "maximum_deg": 28.089283051124973,
+      "p95_deg": 26.48181778175813,
+      "above_90_deg": 0
+    },
+    "outer_join": {
+      "count": 185,
+      "maximum_deg": 171.89500566461973,
+      "p95_deg": 68.38223170926878,
+      "above_90_deg": 7
+    },
+    "transition_interior": {
+      "count": 5685,
+      "maximum_deg": 177.56373767075223,
+      "p95_deg": 27.53686504023584,
+      "above_90_deg": 14
+    }
+  },
+  "minimum_triangle_quality": 0.001081140783330644,
+  "crease_strip_pairs": {
+    "-1,7": 3,
+    "-1,15": 4,
+    "7,7": 6,
+    "15,15": 7,
+    "14,15": 1
+  },
+  "strip_index_definition": "0..7 parent neck-to-outer, 8..15 sac neck-to-outer; -1 retained source",
+  "minimum_triangle_area_mm2": 4.830953175923164e-06,
+  "closed_volume": "PASS",
+  "component_count": 1,
+  "original_vertices_unchanged": true,
+  "design_curve_exact": true,
+  "self_intersection": "NOT RUN",
+  "context_collision": "NOT RUN",
+  "smooth_junction": "UNKNOWN",
+  "crease_screen": "FAIL",
+  "crease_screen_definition": "Reject any measured transition or interface face-normal angle above 90 degrees; passing is not smoothness acceptance.",
+  "app_applied": false,
+  "artifact_sha256": "22c4b07d04a5d9d805489cc407e88a855d668b8960594ed5f08e7fbfc9f4a413",
+  "input_unchanged": true
+}

@@ -1,0 +1,4130 @@
+{
+  "schema": "vv-toolbox.aca-placement-diagnostic/1",
+  "case_revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+  "input_unchanged": true,
+  "scope": "Separate fixed -1 to +5 mm normal translation scan in 0.05 mm steps; original failure preserved",
+  "attempts": [
+    {
+      "junction_id": "sample:FJ1654:e0:77",
+      "scan": {
+        "schema": "vv-toolbox.bifurcation-placement-scan/1",
+        "case_revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+        "source_specification": {
+          "schema": "vv-toolbox.bifurcation-saccular-spec/1",
+          "mode": "manual_synthetic",
+          "case_revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+          "base_model_id": "bodyparts3d-4.0",
+          "frame": {
+            "axes": "LPS",
+            "id": "bodyparts3d_native_LPS",
+            "origin": "unchanged BodyParts3D native origin",
+            "units": "mm"
+          },
+          "parameters": {
+            "lesion_id": "engineering-sample:FJ1654:e0:77",
+            "junction_id": "sample:FJ1654:e0:77",
+            "region": "aca",
+            "outlet_distances_mm": {
+              "FJ1654:e0::samples:0-77": 4.962720420810379,
+              "FJ1654:e0::samples:77-175": 6.324317328353632,
+              "declared-link:21": 0.8236842676917835
+            },
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.47418399305832,
+              1538.2019759795046
+            ],
+            "outward_normal": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "width_direction": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "neck_width_mm": 2.0,
+            "neck_depth_mm": 1.0,
+            "height_perpendicular_mm": 5.0,
+            "dome_width_mm": 4.0,
+            "dome_depth_mm": 3.0,
+            "blending_extent_mm": 0.5
+          },
+          "junction": {
+            "node_id": "sample:FJ1654:e0:77",
+            "position_mm": [
+              -3.944545908179147,
+              -113.11278851233018,
+              1538.2019759795046
+            ]
+          },
+          "branch_constraints": [
+            {
+              "edge_id": "FJ1654:e0::samples:0-77",
+              "junction_at_edge_end": true,
+              "distance_from_junction_mm": 4.962720420810379,
+              "outlet_center_mm": [
+                -7.954792322774119,
+                -110.40919453305229,
+                1538.6642835800665
+              ],
+              "outlet_radius_mm": 1.47465115219514,
+              "outlet_tangent_away": [
+                -0.9915405374767415,
+                0.12924799102030604,
+                0.01192976770727658
+              ],
+              "must_preserve_patent_path": true,
+              "source_ids": [
+                "bp3d",
+                "bp3d-preview"
+              ]
+            },
+            {
+              "edge_id": "FJ1654:e0::samples:77-175",
+              "junction_at_edge_end": false,
+              "distance_from_junction_mm": 6.324317328353632,
+              "outlet_center_mm": [
+                -2.5301419361315354,
+                -117.03101663904003,
+                1542.4308594199583
+              ],
+              "outlet_radius_mm": 1.5225584971195911,
+              "outlet_tangent_away": [
+                -0.013943912074331754,
+                -0.39743383073297484,
+                0.9175248865861767
+              ],
+              "must_preserve_patent_path": true,
+              "source_ids": [
+                "bp3d",
+                "bp3d-preview"
+              ]
+            },
+            {
+              "edge_id": "declared-link:21",
+              "junction_at_edge_end": false,
+              "distance_from_junction_mm": 0.8236842676917835,
+              "outlet_center_mm": [
+                -3.3189505753053252,
+                -112.63589805393534,
+                1537.9577184452883
+              ],
+              "outlet_radius_mm": 0.999728053445567,
+              "outlet_tangent_away": [
+                0.7595086581256822,
+                0.5789724013198032,
+                -0.2965426727169403
+              ],
+              "must_preserve_patent_path": true,
+              "source_ids": [
+                "bp3d",
+                "bp3d-preview"
+              ]
+            }
+          ],
+          "neck": {
+            "center_mm": [
+              -3.944545908179147,
+              -114.47418399305832,
+              1538.2019759795046
+            ],
+            "normal": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "width_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "depth_axis": [
+              -0.0,
+              0.0,
+              1.0
+            ],
+            "curve_mm": [
+              [
+                -2.944545908179147,
+                -114.47418399305832,
+                1538.2019759795046
+              ],
+              [
+                -2.9493611815069505,
+                -114.47418399305832,
+                1538.2509845496693
+              ],
+              [
+                -2.9637606277759168,
+                -114.47418399305832,
+                1538.2995211405128
+              ],
+              [
+                -2.987605572446938,
+                -114.47418399305832,
+                1538.3471183181318
+              ],
+              [
+                -3.0206663756678607,
+                -114.47418399305832,
+                1538.393317695687
+              ],
+              [
+                -3.0626246438307922,
+                -114.47418399305832,
+                1538.4376743479177
+              ],
+              [
+                -3.113076295876602,
+                -114.47418399305832,
+                1538.4797610960145
+              ],
+              [
+                -3.1715354548164103,
+                -114.47418399305832,
+                1538.5191726215864
+              ],
+              [
+                -3.2374391269925997,
+                -114.47418399305832,
+                1538.555529370098
+              ],
+              [
+                -3.310152624015502,
+                -114.47418399305832,
+                1538.5884812061859
+              ],
+              [
+                -3.388975675159545,
+                -114.47418399305832,
+                1538.6177107856558
+              ],
+              [
+                -3.4731491713531493,
+                -114.47418399305832,
+                1538.6429366116788
+              ],
+              [
+                -3.561862475814057,
+                -114.47418399305832,
+                1538.6639157457603
+              ],
+              [
+                -3.6542612309246847,
+                -114.47418399305832,
+                1538.6804461473707
+              ],
+              [
+                -3.7494555861630188,
+                -114.47418399305832,
+                1538.6923686197063
+              ],
+              [
+                -3.8465287678495863,
+                -114.47418399305832,
+                1538.6995683428406
+              ],
+              [
+                -3.944545908179147,
+                -114.47418399305832,
+                1538.7019759795046
+              ],
+              [
+                -4.042563048508708,
+                -114.47418399305832,
+                1538.6995683428406
+              ],
+              [
+                -4.139636230195276,
+                -114.47418399305832,
+                1538.6923686197063
+              ],
+              [
+                -4.23483058543361,
+                -114.47418399305832,
+                1538.6804461473707
+              ],
+              [
+                -4.327229340544237,
+                -114.47418399305832,
+                1538.6639157457603
+              ],
+              [
+                -4.415942645005145,
+                -114.47418399305832,
+                1538.6429366116788
+              ],
+              [
+                -4.500116141198749,
+                -114.47418399305832,
+                1538.6177107856558
+              ],
+              [
+                -4.5789391923427925,
+                -114.47418399305832,
+                1538.5884812061859
+              ],
+              [
+                -4.651652689365695,
+                -114.47418399305832,
+                1538.555529370098
+              ],
+              [
+                -4.7175563615418845,
+                -114.47418399305832,
+                1538.5191726215864
+              ],
+              [
+                -4.7760155204816925,
+                -114.47418399305832,
+                1538.4797610960145
+              ],
+              [
+                -4.826467172527503,
+                -114.47418399305832,
+                1538.4376743479177
+              ],
+              [
+                -4.868425440690434,
+                -114.47418399305832,
+                1538.393317695687
+              ],
+              [
+                -4.901486243911356,
+                -114.47418399305832,
+                1538.3471183181318
+              ],
+              [
+                -4.925331188582378,
+                -114.47418399305832,
+                1538.2995211405128
+              ],
+              [
+                -4.939730634851344,
+                -114.47418399305832,
+                1538.2509845496693
+              ],
+              [
+                -4.944545908179148,
+                -114.47418399305832,
+                1538.2019759795046
+              ],
+              [
+                -4.939730634851344,
+                -114.47418399305832,
+                1538.15296740934
+              ],
+              [
+                -4.925331188582378,
+                -114.47418399305832,
+                1538.1044308184964
+              ],
+              [
+                -4.901486243911356,
+                -114.47418399305832,
+                1538.0568336408774
+              ],
+              [
+                -4.868425440690434,
+                -114.47418399305832,
+                1538.0106342633221
+              ],
+              [
+                -4.826467172527503,
+                -114.47418399305832,
+                1537.9662776110915
+              ],
+              [
+                -4.7760155204816925,
+                -114.47418399305832,
+                1537.9241908629947
+              ],
+              [
+                -4.7175563615418845,
+                -114.47418399305832,
+                1537.8847793374227
+              ],
+              [
+                -4.651652689365695,
+                -114.47418399305832,
+                1537.8484225889113
+              ],
+              [
+                -4.578939192342793,
+                -114.47418399305832,
+                1537.8154707528233
+              ],
+              [
+                -4.500116141198749,
+                -114.47418399305832,
+                1537.7862411733533
+              ],
+              [
+                -4.415942645005145,
+                -114.47418399305832,
+                1537.7610153473304
+              ],
+              [
+                -4.327229340544237,
+                -114.47418399305832,
+                1537.740036213249
+              ],
+              [
+                -4.23483058543361,
+                -114.47418399305832,
+                1537.7235058116385
+              ],
+              [
+                -4.139636230195276,
+                -114.47418399305832,
+                1537.711583339303
+              ],
+              [
+                -4.042563048508708,
+                -114.47418399305832,
+                1537.7043836161686
+              ],
+              [
+                -3.944545908179147,
+                -114.47418399305832,
+                1537.7019759795046
+              ],
+              [
+                -3.846528767849587,
+                -114.47418399305832,
+                1537.7043836161686
+              ],
+              [
+                -3.7494555861630188,
+                -114.47418399305832,
+                1537.711583339303
+              ],
+              [
+                -3.654261230924685,
+                -114.47418399305832,
+                1537.7235058116385
+              ],
+              [
+                -3.561862475814057,
+                -114.47418399305832,
+                1537.740036213249
+              ],
+              [
+                -3.4731491713531497,
+                -114.47418399305832,
+                1537.7610153473304
+              ],
+              [
+                -3.3889756751595455,
+                -114.47418399305832,
+                1537.7862411733533
+              ],
+              [
+                -3.3101526240155015,
+                -114.47418399305832,
+                1537.8154707528233
+              ],
+              [
+                -3.2374391269925997,
+                -114.47418399305832,
+                1537.8484225889113
+              ],
+              [
+                -3.1715354548164107,
+                -114.47418399305832,
+                1537.8847793374227
+              ],
+              [
+                -3.113076295876602,
+                -114.47418399305832,
+                1537.9241908629947
+              ],
+              [
+                -3.0626246438307922,
+                -114.47418399305832,
+                1537.9662776110915
+              ],
+              [
+                -3.0206663756678607,
+                -114.47418399305832,
+                1538.0106342633221
+              ],
+              [
+                -2.987605572446938,
+                -114.47418399305832,
+                1538.0568336408774
+              ],
+              [
+                -2.9637606277759168,
+                -114.47418399305832,
+                1538.1044308184964
+              ],
+              [
+                -2.9493611815069505,
+                -114.47418399305832,
+                1538.15296740934
+              ]
+            ],
+            "curve_closed": true,
+            "curve_convention": "64 ellipse samples; last connects to first"
+          },
+          "graph_policy": "Preserve every incident edge and outlet; sac is a lesion, not a daughter artery",
+          "geometry_status": "NOT GENERATED",
+          "accepted_for_generation": false,
+          "checks": {
+            "attachment": "NOT RUN",
+            "open_lumen": "NOT RUN",
+            "branch_patency": "NOT RUN",
+            "nonoverlap": "NOT RUN",
+            "anatomical_acceptance": "NOT RUN"
+          }
+        },
+        "burial_margin_mm": 0.15,
+        "tested_count": 121,
+        "passing_offsets_mm": [],
+        "samples": [
+          {
+            "offset_mm": -1.0,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -113.47418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.188102538449749,
+            "maximum_buried_field_mm": -0.5362425173504763
+          },
+          {
+            "offset_mm": -0.95,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -113.52418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.2205258301291446,
+            "maximum_buried_field_mm": -0.5709127679878769
+          },
+          {
+            "offset_mm": -0.9,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -113.57418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.246431004980748,
+            "maximum_buried_field_mm": -0.6032688837222069
+          },
+          {
+            "offset_mm": -0.85,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -113.62418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.2633751147688286,
+            "maximum_buried_field_mm": -0.6359168472181187
+          },
+          {
+            "offset_mm": -0.8,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -113.67418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.2801663596630344,
+            "maximum_buried_field_mm": -0.6564611573465333
+          },
+          {
+            "offset_mm": -0.75,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -113.72418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.3026286969827823,
+            "maximum_buried_field_mm": -0.6290497012806946
+          },
+          {
+            "offset_mm": -0.7,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -113.77418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.3161851174567836,
+            "maximum_buried_field_mm": -0.6018572321117711
+          },
+          {
+            "offset_mm": -0.6499999999999999,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -113.82418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.330644087113043,
+            "maximum_buried_field_mm": -0.5761742826592678
+          },
+          {
+            "offset_mm": -0.6,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -113.87418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.341869683854884,
+            "maximum_buried_field_mm": -0.5484936897373086
+          },
+          {
+            "offset_mm": -0.55,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -113.92418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.3630321839676167,
+            "maximum_buried_field_mm": -0.5189897293827448
+          },
+          {
+            "offset_mm": -0.5,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -113.97418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.3746023408373715,
+            "maximum_buried_field_mm": -0.4878265779094487
+          },
+          {
+            "offset_mm": -0.44999999999999996,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.02418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.3412602610349535,
+            "maximum_buried_field_mm": -0.452798346712086
+          },
+          {
+            "offset_mm": -0.3999999999999999,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.07418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.301347790756315,
+            "maximum_buried_field_mm": -0.40976638538234045
+          },
+          {
+            "offset_mm": -0.35,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.12418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 58,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.2609452364010827,
+            "maximum_buried_field_mm": -0.3791767091781557
+          },
+          {
+            "offset_mm": -0.29999999999999993,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.17418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 54,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.2350151257764215,
+            "maximum_buried_field_mm": -0.34945555190974553
+          },
+          {
+            "offset_mm": -0.25,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.22418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 53,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.2215050994447259,
+            "maximum_buried_field_mm": -0.3120473560705337
+          },
+          {
+            "offset_mm": -0.19999999999999996,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.27418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 51,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.1991558562280435,
+            "maximum_buried_field_mm": -0.2737193587842959
+          },
+          {
+            "offset_mm": -0.1499999999999999,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.32418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 51,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.1771359263893382,
+            "maximum_buried_field_mm": -0.23455711059942574
+          },
+          {
+            "offset_mm": -0.09999999999999998,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.37418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 49,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.1606440149870973,
+            "maximum_buried_field_mm": -0.19463741418623615
+          },
+          {
+            "offset_mm": -0.04999999999999993,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.42418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 49,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.1359869396634346,
+            "maximum_buried_field_mm": -0.15402915847122656
+          },
+          {
+            "offset_mm": 0.0,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.47418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 47,
+            "insufficient_burial_samples": 10,
+            "minimum_rim_field_mm": -1.1119186408620134,
+            "maximum_buried_field_mm": -0.11279411303603193
+          },
+          {
+            "offset_mm": 0.050000000000000044,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.52418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 46,
+            "insufficient_burial_samples": 13,
+            "minimum_rim_field_mm": -1.0920558984126334,
+            "maximum_buried_field_mm": -0.07098766900281461
+          },
+          {
+            "offset_mm": 0.10000000000000009,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.57418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 44,
+            "insufficient_burial_samples": 15,
+            "minimum_rim_field_mm": -1.0665435270055188,
+            "maximum_buried_field_mm": -0.02865951961168034
+          },
+          {
+            "offset_mm": 0.15000000000000013,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.62418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 44,
+            "insufficient_burial_samples": 16,
+            "minimum_rim_field_mm": -1.046388743239682,
+            "maximum_buried_field_mm": 0.014145721545618217
+          },
+          {
+            "offset_mm": 0.20000000000000018,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.67418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 42,
+            "insufficient_burial_samples": 17,
+            "minimum_rim_field_mm": -1.0244574096580725,
+            "maximum_buried_field_mm": 0.057387963562876676
+          },
+          {
+            "offset_mm": 0.25,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.72418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 41,
+            "insufficient_burial_samples": 18,
+            "minimum_rim_field_mm": -0.9982372809768499,
+            "maximum_buried_field_mm": 0.10049557852572999
+          },
+          {
+            "offset_mm": 0.30000000000000004,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.77418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 39,
+            "insufficient_burial_samples": 19,
+            "minimum_rim_field_mm": -0.9683989382882283,
+            "maximum_buried_field_mm": 0.12963378173808104
+          },
+          {
+            "offset_mm": 0.3500000000000001,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.82418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 38,
+            "insufficient_burial_samples": 20,
+            "minimum_rim_field_mm": -0.9355467536267353,
+            "maximum_buried_field_mm": 0.14907286230654782
+          },
+          {
+            "offset_mm": 0.40000000000000013,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.87418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 36,
+            "insufficient_burial_samples": 21,
+            "minimum_rim_field_mm": -0.9002007384539623,
+            "maximum_buried_field_mm": 0.16980504408850527
+          },
+          {
+            "offset_mm": 0.4500000000000002,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.92418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 35,
+            "insufficient_burial_samples": 22,
+            "minimum_rim_field_mm": -0.8627954218380782,
+            "maximum_buried_field_mm": 0.19178198687214976
+          },
+          {
+            "offset_mm": 0.5,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -114.97418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 35,
+            "insufficient_burial_samples": 22,
+            "minimum_rim_field_mm": -0.8236876180680915,
+            "maximum_buried_field_mm": 0.21495504130578702
+          },
+          {
+            "offset_mm": 0.55,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -115.02418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 33,
+            "insufficient_burial_samples": 24,
+            "minimum_rim_field_mm": -0.7831675966355276,
+            "maximum_buried_field_mm": 0.2392756156689666
+          },
+          {
+            "offset_mm": 0.6000000000000001,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -115.07418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 33,
+            "insufficient_burial_samples": 25,
+            "minimum_rim_field_mm": -0.7414705872494134,
+            "maximum_buried_field_mm": 0.2653856777670405
+          },
+          {
+            "offset_mm": 0.6500000000000001,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -115.12418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 32,
+            "insufficient_burial_samples": 27,
+            "minimum_rim_field_mm": -0.6987871907674128,
+            "maximum_buried_field_mm": 0.3002115507916942
+          },
+          {
+            "offset_mm": 0.7000000000000002,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -115.17418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 32,
+            "insufficient_burial_samples": 28,
+            "minimum_rim_field_mm": -0.6552722042886924,
+            "maximum_buried_field_mm": 0.33517338479779557
+          },
+          {
+            "offset_mm": 0.75,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -115.22418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 30,
+            "insufficient_burial_samples": 30,
+            "minimum_rim_field_mm": -0.6134639038179797,
+            "maximum_buried_field_mm": 0.3703385024405814
+          },
+          {
+            "offset_mm": 0.8,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -115.27418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 30,
+            "insufficient_burial_samples": 31,
+            "minimum_rim_field_mm": -0.5722487822884351,
+            "maximum_buried_field_mm": 0.39901273789218683
+          },
+          {
+            "offset_mm": 0.8500000000000001,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -115.32418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 29,
+            "insufficient_burial_samples": 32,
+            "minimum_rim_field_mm": -0.5301518197786605,
+            "maximum_buried_field_mm": 0.4233738272339716
+          },
+          {
+            "offset_mm": 0.9000000000000001,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -115.37418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 28,
+            "insufficient_burial_samples": 33,
+            "minimum_rim_field_mm": -0.48728999457168254,
+            "maximum_buried_field_mm": 0.4428921273031243
+          },
+          {
+            "offset_mm": 0.9500000000000002,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -115.42418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 27,
+            "insufficient_burial_samples": 34,
+            "minimum_rim_field_mm": -0.4437620952390551,
+            "maximum_buried_field_mm": 0.4695568554704559
+          },
+          {
+            "offset_mm": 1.0,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -115.47418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 25,
+            "insufficient_burial_samples": 34,
+            "minimum_rim_field_mm": -0.3996517817777343,
+            "maximum_buried_field_mm": 0.5021557022890388
+          },
+          {
+            "offset_mm": 1.0500000000000003,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -115.52418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 24,
+            "insufficient_burial_samples": 35,
+            "minimum_rim_field_mm": -0.35503013484954526,
+            "maximum_buried_field_mm": 0.5354706770684345
+          },
+          {
+            "offset_mm": 1.1,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -115.57418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 22,
+            "insufficient_burial_samples": 36,
+            "minimum_rim_field_mm": -0.3112619544492672,
+            "maximum_buried_field_mm": 0.569466719517097
+          },
+          {
+            "offset_mm": 1.15,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -115.62418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 20,
+            "insufficient_burial_samples": 37,
+            "minimum_rim_field_mm": -0.26834541772762166,
+            "maximum_buried_field_mm": 0.6041103719447187
+          },
+          {
+            "offset_mm": 1.2000000000000002,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -115.67418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 18,
+            "insufficient_burial_samples": 37,
+            "minimum_rim_field_mm": -0.22487000439407345,
+            "maximum_buried_field_mm": 0.6393697556419295
+          },
+          {
+            "offset_mm": 1.25,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -115.72418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 16,
+            "insufficient_burial_samples": 38,
+            "minimum_rim_field_mm": -0.1808953667140638,
+            "maximum_buried_field_mm": 0.6752145373998577
+          },
+          {
+            "offset_mm": 1.3000000000000003,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -115.77418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 13,
+            "insufficient_burial_samples": 40,
+            "minimum_rim_field_mm": -0.1364735113315403,
+            "maximum_buried_field_mm": 0.7116158882647323
+          },
+          {
+            "offset_mm": 1.35,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -115.82418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 11,
+            "insufficient_burial_samples": 40,
+            "minimum_rim_field_mm": -0.09164989216704966,
+            "maximum_buried_field_mm": 0.7468602569315472
+          },
+          {
+            "offset_mm": 1.4000000000000004,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -115.87418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 8,
+            "insufficient_burial_samples": 42,
+            "minimum_rim_field_mm": -0.04712890303850403,
+            "maximum_buried_field_mm": 0.7825307432724646
+          },
+          {
+            "offset_mm": 1.4500000000000002,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -115.92418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 2,
+            "insufficient_burial_samples": 43,
+            "minimum_rim_field_mm": -0.003723394561079507,
+            "maximum_buried_field_mm": 0.8187441055637665
+          },
+          {
+            "offset_mm": 1.5,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -115.97418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 46,
+            "minimum_rim_field_mm": 0.037919564195112665,
+            "maximum_buried_field_mm": 0.8452968942364381
+          },
+          {
+            "offset_mm": 1.5500000000000003,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -116.02418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 48,
+            "minimum_rim_field_mm": 0.07045281512801593,
+            "maximum_buried_field_mm": 0.869976176843843
+          },
+          {
+            "offset_mm": 1.6,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -116.07418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 49,
+            "minimum_rim_field_mm": 0.10127084490036853,
+            "maximum_buried_field_mm": 0.8943620794001614
+          },
+          {
+            "offset_mm": 1.6500000000000004,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -116.12418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 52,
+            "minimum_rim_field_mm": 0.13233130282736916,
+            "maximum_buried_field_mm": 0.9183603169121459
+          },
+          {
+            "offset_mm": 1.7000000000000002,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -116.17418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 54,
+            "minimum_rim_field_mm": 0.16441387764906867,
+            "maximum_buried_field_mm": 0.9431556384868152
+          },
+          {
+            "offset_mm": 1.75,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -116.22418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 58,
+            "minimum_rim_field_mm": 0.19745450600934134,
+            "maximum_buried_field_mm": 0.9687237430137803
+          },
+          {
+            "offset_mm": 1.8000000000000003,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -116.27418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.22914603553422852,
+            "maximum_buried_field_mm": 0.9950405952194112
+          },
+          {
+            "offset_mm": 1.85,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -116.32418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.2576908252669141,
+            "maximum_buried_field_mm": 1.022082485388285
+          },
+          {
+            "offset_mm": 1.9000000000000004,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -116.37418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.2872457746988164,
+            "maximum_buried_field_mm": 1.0498260816903835
+          },
+          {
+            "offset_mm": 1.9500000000000002,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -116.42418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.31775817613442503,
+            "maximum_buried_field_mm": 1.0782484754440127
+          },
+          {
+            "offset_mm": 2.0,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -116.47418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.34677737374428164,
+            "maximum_buried_field_mm": 1.1073272196959365
+          },
+          {
+            "offset_mm": 2.0500000000000003,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -116.52418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.3762396931902634,
+            "maximum_buried_field_mm": 1.1370403615367797
+          },
+          {
+            "offset_mm": 2.1,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -116.57418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.40660029902041916,
+            "maximum_buried_field_mm": 1.1673664685938767
+          },
+          {
+            "offset_mm": 2.1500000000000004,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -116.62418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.43781492837105107,
+            "maximum_buried_field_mm": 1.1982846501562283
+          },
+          {
+            "offset_mm": 2.2,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -116.67418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.4688982927033456,
+            "maximum_buried_field_mm": 1.2297745733892305
+          },
+          {
+            "offset_mm": 2.25,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -116.72418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.49915025092508514,
+            "maximum_buried_field_mm": 1.2618164750921126
+          },
+          {
+            "offset_mm": 2.3000000000000003,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -116.77418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.530206882292148,
+            "maximum_buried_field_mm": 1.2943911694393238
+          },
+          {
+            "offset_mm": 2.35,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -116.82418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.5620307341797088,
+            "maximum_buried_field_mm": 1.3274800521309797
+          },
+          {
+            "offset_mm": 2.4000000000000004,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -116.87418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.594585800551134,
+            "maximum_buried_field_mm": 1.3610651013570438
+          },
+          {
+            "offset_mm": 2.45,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -116.92418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.6259492424015038,
+            "maximum_buried_field_mm": 1.39512887595689
+          },
+          {
+            "offset_mm": 2.5,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -116.97418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.6576084246998521,
+            "maximum_buried_field_mm": 1.4296545111312946
+          },
+          {
+            "offset_mm": 2.5500000000000003,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -117.02418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.6899614880883937,
+            "maximum_buried_field_mm": 1.4646257120377297
+          },
+          {
+            "offset_mm": 2.6,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -117.07418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.7229777056906286,
+            "maximum_buried_field_mm": 1.5000267455739869
+          },
+          {
+            "offset_mm": 2.6500000000000004,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -117.12418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.7566275624874221,
+            "maximum_buried_field_mm": 1.5358424306289644
+          },
+          {
+            "offset_mm": 2.7,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -117.17418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.790882751554755,
+            "maximum_buried_field_mm": 1.5720581270540095
+          },
+          {
+            "offset_mm": 2.75,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -117.22418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.8257161619773237,
+            "maximum_buried_field_mm": 1.6086597235839177
+          },
+          {
+            "offset_mm": 2.8000000000000003,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -117.27418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.8611018598567475,
+            "maximum_buried_field_mm": 1.6456336249129595
+          },
+          {
+            "offset_mm": 2.85,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -117.32418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.8970150636892076,
+            "maximum_buried_field_mm": 1.682966738109619
+          },
+          {
+            "offset_mm": 2.9000000000000004,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -117.37418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.9334321152452205,
+            "maximum_buried_field_mm": 1.7206464585328927
+          },
+          {
+            "offset_mm": 2.95,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -117.42418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.9703304469479732,
+            "maximum_buried_field_mm": 1.758660655393846
+          },
+          {
+            "offset_mm": 3.0,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -117.47418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.0076885466185093,
+            "maximum_buried_field_mm": 1.7969976570886617
+          },
+          {
+            "offset_mm": 3.05,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -117.52418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.0454859203367535,
+            "maximum_buried_field_mm": 1.8356462364128772
+          },
+          {
+            "offset_mm": 3.1000000000000005,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -117.57418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.0837030540589867,
+            "maximum_buried_field_mm": 1.8745955957521117
+          },
+          {
+            "offset_mm": 3.1500000000000004,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -117.62418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.1223213745338996,
+            "maximum_buried_field_mm": 1.9138353523310359
+          },
+          {
+            "offset_mm": 3.2,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -117.67418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.1613232099714705,
+            "maximum_buried_field_mm": 1.9533555235902555
+          },
+          {
+            "offset_mm": 3.25,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -117.72418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.2006917508412653,
+            "maximum_buried_field_mm": 1.9931465127502237
+          },
+          {
+            "offset_mm": 3.3,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -117.77418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.240411011107948,
+            "maximum_buried_field_mm": 2.027339032842888
+          },
+          {
+            "offset_mm": 3.3500000000000005,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -117.82418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.277325883300353,
+            "maximum_buried_field_mm": 2.055677851559812
+          },
+          {
+            "offset_mm": 3.4000000000000004,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -117.87418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.3066051840858932,
+            "maximum_buried_field_mm": 2.080225612122522
+          },
+          {
+            "offset_mm": 3.45,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -117.92418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.3364380443583797,
+            "maximum_buried_field_mm": 2.105304285658801
+          },
+          {
+            "offset_mm": 3.5,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -117.97418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.3668079400382884,
+            "maximum_buried_field_mm": 2.1309027758336914
+          },
+          {
+            "offset_mm": 3.55,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -118.02418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.3976987181451246,
+            "maximum_buried_field_mm": 2.1570100728884096
+          },
+          {
+            "offset_mm": 3.6000000000000005,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -118.07418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.4290946063126897,
+            "maximum_buried_field_mm": 2.18361526611098
+          },
+          {
+            "offset_mm": 3.6500000000000004,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -118.12418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.4609802199532422,
+            "maximum_buried_field_mm": 2.210707555249515
+          },
+          {
+            "offset_mm": 3.7,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -118.17418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.4933405672762008,
+            "maximum_buried_field_mm": 2.2382762608984015
+          },
+          {
+            "offset_mm": 3.75,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -118.22418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.5261610523606304,
+            "maximum_buried_field_mm": 2.2663108338916373
+          },
+          {
+            "offset_mm": 3.8000000000000007,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -118.27418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.5594274764724305,
+            "maximum_buried_field_mm": 2.2948008637403445
+          },
+          {
+            "offset_mm": 3.8500000000000005,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -118.32418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.5931260378083703,
+            "maximum_buried_field_mm": 2.3237360861542626
+          },
+          {
+            "offset_mm": 3.9000000000000004,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -118.37418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.6272433298390296,
+            "maximum_buried_field_mm": 2.353106389688697
+          },
+          {
+            "offset_mm": 3.95,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -118.42418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.6617663384123522,
+            "maximum_buried_field_mm": 2.382901821559763
+          },
+          {
+            "offset_mm": 4.0,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -118.47418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.6966824377690297,
+            "maximum_buried_field_mm": 2.4131125926717525
+          },
+          {
+            "offset_mm": 4.050000000000001,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -118.52418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.7319793856098757,
+            "maximum_buried_field_mm": 2.44372908190058
+          },
+          {
+            "offset_mm": 4.1000000000000005,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -118.57418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.7676453173450495,
+            "maximum_buried_field_mm": 2.4747418396775505
+          },
+          {
+            "offset_mm": 4.15,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -118.62418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.8036687396443345,
+            "maximum_buried_field_mm": 2.506141590917233
+          },
+          {
+            "offset_mm": 4.2,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -118.67418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.840038523397599,
+            "maximum_buried_field_mm": 2.537919237332561
+          },
+          {
+            "offset_mm": 4.25,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -118.72418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.8767438961850178,
+            "maximum_buried_field_mm": 2.57006585917963
+          },
+          {
+            "offset_mm": 4.300000000000001,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -118.77418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.9137744343470267,
+            "maximum_buried_field_mm": 2.6025727164732197
+          },
+          {
+            "offset_mm": 4.3500000000000005,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -118.82418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.9511200547355954,
+            "maximum_buried_field_mm": 2.634028239924519
+          },
+          {
+            "offset_mm": 4.4,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -118.87418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.9887710062199113,
+            "maximum_buried_field_mm": 2.6630900263904467
+          },
+          {
+            "offset_mm": 4.45,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -118.92418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.026717861011912,
+            "maximum_buried_field_mm": 2.6909752908896305
+          },
+          {
+            "offset_mm": 4.5,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -118.97418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.064951505870103,
+            "maximum_buried_field_mm": 2.7176362565641616
+          },
+          {
+            "offset_mm": 4.550000000000001,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -119.02418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.1034631332331193,
+            "maximum_buried_field_mm": 2.7447060962074374
+          },
+          {
+            "offset_mm": 4.6000000000000005,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -119.07418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.142244232328724,
+            "maximum_buried_field_mm": 2.7721772694911744
+          },
+          {
+            "offset_mm": 4.65,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -119.12418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.181286580298128,
+            "maximum_buried_field_mm": 2.800042312642585
+          },
+          {
+            "offset_mm": 4.7,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -119.17418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.2205822333703766,
+            "maximum_buried_field_mm": 2.8282938427414166
+          },
+          {
+            "offset_mm": 4.75,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -119.22418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.2601235181170907,
+            "maximum_buried_field_mm": 2.8569245616289676
+          },
+          {
+            "offset_mm": 4.800000000000001,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -119.27418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.2999030228132336,
+            "maximum_buried_field_mm": 2.8859272594433305
+          },
+          {
+            "offset_mm": 4.8500000000000005,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -119.32418399305831,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.339913588926122,
+            "maximum_buried_field_mm": 2.9152948177958313
+          },
+          {
+            "offset_mm": 4.9,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -119.37418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.38014830275123,
+            "maximum_buried_field_mm": 2.9450202126038043
+          },
+          {
+            "offset_mm": 4.95,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -119.42418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.420600487210224,
+            "maximum_buried_field_mm": 2.975096516595076
+          },
+          {
+            "offset_mm": 5.0,
+            "neck_center_mm": [
+              -3.944545908179147,
+              -119.47418399305832,
+              1538.2019759795046
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.4612636938241237,
+            "maximum_buried_field_mm": 3.005516901499786
+          }
+        ],
+        "accepted_for_generation": false,
+        "geometry_status": "NOT GENERATED",
+        "limitation": "Discrete sampled attachment only, not a continuous feasible interval. Direction and dimensions unchanged. Outlet and surrounding clearance must be rechecked. No anatomical placement or automatic application."
+      }
+    },
+    {
+      "junction_id": "sample:FJ1654M:e0:91",
+      "scan": {
+        "schema": "vv-toolbox.bifurcation-placement-scan/1",
+        "case_revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+        "source_specification": {
+          "schema": "vv-toolbox.bifurcation-saccular-spec/1",
+          "mode": "manual_synthetic",
+          "case_revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+          "base_model_id": "bodyparts3d-4.0",
+          "frame": {
+            "axes": "LPS",
+            "id": "bodyparts3d_native_LPS",
+            "origin": "unchanged BodyParts3D native origin",
+            "units": "mm"
+          },
+          "parameters": {
+            "lesion_id": "engineering-sample:FJ1654M:e0:91",
+            "junction_id": "sample:FJ1654M:e0:91",
+            "region": "aca",
+            "outlet_distances_mm": {
+              "FJ1654M:e0::samples:0-91": 5.700547023064123,
+              "FJ1654M:e0::samples:91-188": 6.335947364317633,
+              "declared-link:16": 1.0584194127038278
+            },
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.03848868358986,
+              1538.3764426866348
+            ],
+            "outward_normal": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "width_direction": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "neck_width_mm": 2.0,
+            "neck_depth_mm": 1.0,
+            "height_perpendicular_mm": 5.0,
+            "dome_width_mm": 4.0,
+            "dome_depth_mm": 3.0,
+            "blending_extent_mm": 0.5
+          },
+          "junction": {
+            "node_id": "sample:FJ1654M:e0:91",
+            "position_mm": [
+              3.3852325535962424,
+              -113.68676902217729,
+              1538.3764426866348
+            ]
+          },
+          "branch_constraints": [
+            {
+              "edge_id": "FJ1654M:e0::samples:0-91",
+              "junction_at_edge_end": true,
+              "distance_from_junction_mm": 5.700547023064123,
+              "outlet_center_mm": [
+                2.58912921295318,
+                -117.03649469948606,
+                1542.6704362015735
+              ],
+              "outlet_radius_mm": 1.4720595053416239,
+              "outlet_tangent_away": [
+                0.18398809437356398,
+                -0.44646464326133967,
+                0.8756812796025213
+              ],
+              "must_preserve_patent_path": true,
+              "source_ids": [
+                "bp3d",
+                "bp3d-preview"
+              ]
+            },
+            {
+              "edge_id": "FJ1654M:e0::samples:91-188",
+              "junction_at_edge_end": false,
+              "distance_from_junction_mm": 6.335947364317633,
+              "outlet_center_mm": [
+                8.49282369112959,
+                -110.38299571141756,
+                1538.5902543156292
+              ],
+              "outlet_radius_mm": 1.4734270664428117,
+              "outlet_tangent_away": [
+                0.9997443653501491,
+                0.009526506432051482,
+                0.020504868344558433
+              ],
+              "must_preserve_patent_path": true,
+              "source_ids": [
+                "bp3d",
+                "bp3d-preview"
+              ]
+            },
+            {
+              "edge_id": "declared-link:16",
+              "junction_at_edge_end": false,
+              "distance_from_junction_mm": 1.0584194127038278,
+              "outlet_center_mm": [
+                2.5583376047225332,
+                -113.11527082617542,
+                1538.0449517988536
+              ],
+              "outlet_radius_mm": 0.9800432990648074,
+              "outlet_tangent_away": [
+                -0.7812545187179927,
+                0.5399543783328128,
+                -0.31319426288159147
+              ],
+              "must_preserve_patent_path": true,
+              "source_ids": [
+                "bp3d",
+                "bp3d-preview"
+              ]
+            }
+          ],
+          "neck": {
+            "center_mm": [
+              3.3852325535962424,
+              -115.03848868358986,
+              1538.3764426866348
+            ],
+            "normal": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "width_axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "depth_axis": [
+              -0.0,
+              0.0,
+              1.0
+            ],
+            "curve_mm": [
+              [
+                4.385232553596243,
+                -115.03848868358986,
+                1538.3764426866348
+              ],
+              [
+                4.380417280268439,
+                -115.03848868358986,
+                1538.4254512567995
+              ],
+              [
+                4.366017833999473,
+                -115.03848868358986,
+                1538.473987847643
+              ],
+              [
+                4.3421728893284515,
+                -115.03848868358986,
+                1538.521585025262
+              ],
+              [
+                4.309112086107529,
+                -115.03848868358986,
+                1538.5677844028173
+              ],
+              [
+                4.267153817944598,
+                -115.03848868358986,
+                1538.612141055048
+              ],
+              [
+                4.216702165898788,
+                -115.03848868358986,
+                1538.6542278031447
+              ],
+              [
+                4.15824300695898,
+                -115.03848868358986,
+                1538.6936393287167
+              ],
+              [
+                4.09233933478279,
+                -115.03848868358986,
+                1538.7299960772282
+              ],
+              [
+                4.019625837759888,
+                -115.03848868358986,
+                1538.762947913316
+              ],
+              [
+                3.9408027866158446,
+                -115.03848868358986,
+                1538.792177492786
+              ],
+              [
+                3.8566292904222403,
+                -115.03848868358986,
+                1538.817403318809
+              ],
+              [
+                3.7679159859613325,
+                -115.03848868358986,
+                1538.8383824528905
+              ],
+              [
+                3.675517230850705,
+                -115.03848868358986,
+                1538.854912854501
+              ],
+              [
+                3.580322875612371,
+                -115.03848868358986,
+                1538.8668353268365
+              ],
+              [
+                3.4832496939258033,
+                -115.03848868358986,
+                1538.8740350499709
+              ],
+              [
+                3.3852325535962424,
+                -115.03848868358986,
+                1538.8764426866348
+              ],
+              [
+                3.287215413266682,
+                -115.03848868358986,
+                1538.8740350499709
+              ],
+              [
+                3.190142231580114,
+                -115.03848868358986,
+                1538.8668353268365
+              ],
+              [
+                3.0949478763417804,
+                -115.03848868358986,
+                1538.854912854501
+              ],
+              [
+                3.002549121231153,
+                -115.03848868358986,
+                1538.8383824528905
+              ],
+              [
+                2.913835816770245,
+                -115.03848868358986,
+                1538.817403318809
+              ],
+              [
+                2.8296623205766407,
+                -115.03848868358986,
+                1538.792177492786
+              ],
+              [
+                2.750839269432597,
+                -115.03848868358986,
+                1538.762947913316
+              ],
+              [
+                2.678125772409695,
+                -115.03848868358986,
+                1538.7299960772282
+              ],
+              [
+                2.6122221002335055,
+                -115.03848868358986,
+                1538.6936393287167
+              ],
+              [
+                2.553762941293697,
+                -115.03848868358986,
+                1538.6542278031447
+              ],
+              [
+                2.5033112892478875,
+                -115.03848868358986,
+                1538.612141055048
+              ],
+              [
+                2.461353021084956,
+                -115.03848868358986,
+                1538.5677844028173
+              ],
+              [
+                2.4282922178640334,
+                -115.03848868358986,
+                1538.521585025262
+              ],
+              [
+                2.404447273193012,
+                -115.03848868358986,
+                1538.473987847643
+              ],
+              [
+                2.3900478269240457,
+                -115.03848868358986,
+                1538.4254512567995
+              ],
+              [
+                2.3852325535962424,
+                -115.03848868358986,
+                1538.3764426866348
+              ],
+              [
+                2.3900478269240457,
+                -115.03848868358986,
+                1538.3274341164702
+              ],
+              [
+                2.404447273193012,
+                -115.03848868358986,
+                1538.2788975256267
+              ],
+              [
+                2.4282922178640334,
+                -115.03848868358986,
+                1538.2313003480076
+              ],
+              [
+                2.4613530210849555,
+                -115.03848868358986,
+                1538.1851009704524
+              ],
+              [
+                2.5033112892478875,
+                -115.03848868358986,
+                1538.1407443182218
+              ],
+              [
+                2.553762941293697,
+                -115.03848868358986,
+                1538.098657570125
+              ],
+              [
+                2.612222100233505,
+                -115.03848868358986,
+                1538.059246044553
+              ],
+              [
+                2.678125772409695,
+                -115.03848868358986,
+                1538.0228892960415
+              ],
+              [
+                2.7508392694325963,
+                -115.03848868358986,
+                1537.9899374599536
+              ],
+              [
+                2.8296623205766402,
+                -115.03848868358986,
+                1537.9607078804836
+              ],
+              [
+                2.9138358167702445,
+                -115.03848868358986,
+                1537.9354820544606
+              ],
+              [
+                3.002549121231152,
+                -115.03848868358986,
+                1537.9145029203792
+              ],
+              [
+                3.09494787634178,
+                -115.03848868358986,
+                1537.8979725187687
+              ],
+              [
+                3.1901422315801136,
+                -115.03848868358986,
+                1537.8860500464332
+              ],
+              [
+                3.287215413266682,
+                -115.03848868358986,
+                1537.8788503232988
+              ],
+              [
+                3.3852325535962424,
+                -115.03848868358986,
+                1537.8764426866348
+              ],
+              [
+                3.4832496939258024,
+                -115.03848868358986,
+                1537.8788503232988
+              ],
+              [
+                3.580322875612371,
+                -115.03848868358986,
+                1537.8860500464332
+              ],
+              [
+                3.6755172308507045,
+                -115.03848868358986,
+                1537.8979725187687
+              ],
+              [
+                3.7679159859613325,
+                -115.03848868358986,
+                1537.9145029203792
+              ],
+              [
+                3.85662929042224,
+                -115.03848868358986,
+                1537.9354820544606
+              ],
+              [
+                3.940802786615844,
+                -115.03848868358986,
+                1537.9607078804836
+              ],
+              [
+                4.019625837759888,
+                -115.03848868358986,
+                1537.9899374599536
+              ],
+              [
+                4.09233933478279,
+                -115.03848868358986,
+                1538.0228892960415
+              ],
+              [
+                4.158243006958979,
+                -115.03848868358986,
+                1538.059246044553
+              ],
+              [
+                4.216702165898788,
+                -115.03848868358986,
+                1538.098657570125
+              ],
+              [
+                4.267153817944597,
+                -115.03848868358986,
+                1538.1407443182218
+              ],
+              [
+                4.309112086107529,
+                -115.03848868358986,
+                1538.1851009704524
+              ],
+              [
+                4.3421728893284515,
+                -115.03848868358986,
+                1538.2313003480076
+              ],
+              [
+                4.366017833999472,
+                -115.03848868358986,
+                1538.2788975256267
+              ],
+              [
+                4.380417280268439,
+                -115.03848868358986,
+                1538.3274341164702
+              ]
+            ],
+            "curve_closed": true,
+            "curve_convention": "64 ellipse samples; last connects to first"
+          },
+          "graph_policy": "Preserve every incident edge and outlet; sac is a lesion, not a daughter artery",
+          "geometry_status": "NOT GENERATED",
+          "accepted_for_generation": false,
+          "checks": {
+            "attachment": "NOT RUN",
+            "open_lumen": "NOT RUN",
+            "branch_patency": "NOT RUN",
+            "nonoverlap": "NOT RUN",
+            "anatomical_acceptance": "NOT RUN"
+          }
+        },
+        "burial_margin_mm": 0.15,
+        "tested_count": 121,
+        "passing_offsets_mm": [],
+        "samples": [
+          {
+            "offset_mm": -1.0,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -114.03848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.1439166796440858,
+            "maximum_buried_field_mm": -0.4880355865680629
+          },
+          {
+            "offset_mm": -0.95,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -114.08848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.1924734222458002,
+            "maximum_buried_field_mm": -0.4755943163591183
+          },
+          {
+            "offset_mm": -0.9,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -114.13848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.2404297382484186,
+            "maximum_buried_field_mm": -0.4656858092102081
+          },
+          {
+            "offset_mm": -0.85,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -114.18848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.2853220627103894,
+            "maximum_buried_field_mm": -0.46892280009829435
+          },
+          {
+            "offset_mm": -0.8,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -114.23848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.3230386516276444,
+            "maximum_buried_field_mm": -0.4752336676866059
+          },
+          {
+            "offset_mm": -0.75,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -114.28848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.3390629947077606,
+            "maximum_buried_field_mm": -0.4873147896978869
+          },
+          {
+            "offset_mm": -0.7,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -114.33848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.3231126188602682,
+            "maximum_buried_field_mm": -0.49650939321984733
+          },
+          {
+            "offset_mm": -0.6499999999999999,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -114.38848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.3045650048138488,
+            "maximum_buried_field_mm": -0.5066862362367492
+          },
+          {
+            "offset_mm": -0.6,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -114.43848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.282165398719908,
+            "maximum_buried_field_mm": -0.5141472427725662
+          },
+          {
+            "offset_mm": -0.55,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -114.48848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.2677900560283648,
+            "maximum_buried_field_mm": -0.5199893715318573
+          },
+          {
+            "offset_mm": -0.5,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -114.53848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.2457063579969063,
+            "maximum_buried_field_mm": -0.48684823481030626
+          },
+          {
+            "offset_mm": -0.44999999999999996,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -114.58848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 64,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.2145885061310002,
+            "maximum_buried_field_mm": -0.44867921890866014
+          },
+          {
+            "offset_mm": -0.3999999999999999,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -114.63848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 62,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.1827533059467055,
+            "maximum_buried_field_mm": -0.4095204111538846
+          },
+          {
+            "offset_mm": -0.35,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -114.68848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 55,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.1533866047307586,
+            "maximum_buried_field_mm": -0.3694780517315559
+          },
+          {
+            "offset_mm": -0.29999999999999993,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -114.73848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 52,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.1241613566385853,
+            "maximum_buried_field_mm": -0.32864562994010593
+          },
+          {
+            "offset_mm": -0.25,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -114.78848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 50,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.0904865056974948,
+            "maximum_buried_field_mm": -0.28710538368090366
+          },
+          {
+            "offset_mm": -0.19999999999999996,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -114.83848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 49,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.0534592550965485,
+            "maximum_buried_field_mm": -0.2450282744507013
+          },
+          {
+            "offset_mm": -0.1499999999999999,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -114.88848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 48,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -1.013908775535039,
+            "maximum_buried_field_mm": -0.2046046170065079
+          },
+          {
+            "offset_mm": -0.09999999999999998,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -114.93848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 46,
+            "insufficient_burial_samples": 0,
+            "minimum_rim_field_mm": -0.9724454760074304,
+            "maximum_buried_field_mm": -0.16411247370459137
+          },
+          {
+            "offset_mm": -0.04999999999999993,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -114.98848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 45,
+            "insufficient_burial_samples": 7,
+            "minimum_rim_field_mm": -0.9295155019993746,
+            "maximum_buried_field_mm": -0.1229642417943928
+          },
+          {
+            "offset_mm": 0.0,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.03848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 44,
+            "insufficient_burial_samples": 12,
+            "minimum_rim_field_mm": -0.8854460406869232,
+            "maximum_buried_field_mm": -0.08121975967010342
+          },
+          {
+            "offset_mm": 0.050000000000000044,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.08848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 42,
+            "insufficient_burial_samples": 15,
+            "minimum_rim_field_mm": -0.8404791977717266,
+            "maximum_buried_field_mm": -0.03897416281334687
+          },
+          {
+            "offset_mm": 0.10000000000000009,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.13848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 42,
+            "insufficient_burial_samples": 17,
+            "minimum_rim_field_mm": -0.7947962236862459,
+            "maximum_buried_field_mm": 0.0012678929490135271
+          },
+          {
+            "offset_mm": 0.15000000000000013,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.18848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 41,
+            "insufficient_burial_samples": 18,
+            "minimum_rim_field_mm": -0.748534549424484,
+            "maximum_buried_field_mm": 0.042118387110372746
+          },
+          {
+            "offset_mm": 0.20000000000000018,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.23848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 39,
+            "insufficient_burial_samples": 19,
+            "minimum_rim_field_mm": -0.705634712394751,
+            "maximum_buried_field_mm": 0.08352724281933921
+          },
+          {
+            "offset_mm": 0.25,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.28848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 38,
+            "insufficient_burial_samples": 21,
+            "minimum_rim_field_mm": -0.6619968490511683,
+            "maximum_buried_field_mm": 0.12544915214313712
+          },
+          {
+            "offset_mm": 0.30000000000000004,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.33848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 37,
+            "insufficient_burial_samples": 22,
+            "minimum_rim_field_mm": -0.6176216989628033,
+            "maximum_buried_field_mm": 0.1674523770744536
+          },
+          {
+            "offset_mm": 0.3500000000000001,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.38848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 35,
+            "insufficient_burial_samples": 24,
+            "minimum_rim_field_mm": -0.5726242697279802,
+            "maximum_buried_field_mm": 0.20850991391462848
+          },
+          {
+            "offset_mm": 0.40000000000000013,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.43848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 34,
+            "insufficient_burial_samples": 25,
+            "minimum_rim_field_mm": -0.5270980067472972,
+            "maximum_buried_field_mm": 0.24389176824014425
+          },
+          {
+            "offset_mm": 0.4500000000000002,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.48848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 31,
+            "insufficient_burial_samples": 26,
+            "minimum_rim_field_mm": -0.4811193475435024,
+            "maximum_buried_field_mm": 0.2751894120691276
+          },
+          {
+            "offset_mm": 0.5,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.53848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 29,
+            "insufficient_burial_samples": 27,
+            "minimum_rim_field_mm": -0.43749536427957825,
+            "maximum_buried_field_mm": 0.294283703905756
+          },
+          {
+            "offset_mm": 0.55,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.58848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 26,
+            "insufficient_burial_samples": 28,
+            "minimum_rim_field_mm": -0.3935157221055019,
+            "maximum_buried_field_mm": 0.3123836516680054
+          },
+          {
+            "offset_mm": 0.6000000000000001,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.63848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 24,
+            "insufficient_burial_samples": 29,
+            "minimum_rim_field_mm": -0.34899212088888754,
+            "maximum_buried_field_mm": 0.33170889968460004
+          },
+          {
+            "offset_mm": 0.6500000000000001,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.68848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 21,
+            "insufficient_burial_samples": 30,
+            "minimum_rim_field_mm": -0.3039914984114498,
+            "maximum_buried_field_mm": 0.3522198525646587
+          },
+          {
+            "offset_mm": 0.7000000000000002,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.73848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 18,
+            "insufficient_burial_samples": 33,
+            "minimum_rim_field_mm": -0.25857080152796486,
+            "maximum_buried_field_mm": 0.3738763285978617
+          },
+          {
+            "offset_mm": 0.75,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.78848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 16,
+            "insufficient_burial_samples": 34,
+            "minimum_rim_field_mm": -0.21277867720335664,
+            "maximum_buried_field_mm": 0.3966378471513523
+          },
+          {
+            "offset_mm": 0.8,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.83848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 14,
+            "insufficient_burial_samples": 37,
+            "minimum_rim_field_mm": -0.1685986210269097,
+            "maximum_buried_field_mm": 0.4204638906175542
+          },
+          {
+            "offset_mm": 0.8500000000000001,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.88848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 12,
+            "insufficient_burial_samples": 39,
+            "minimum_rim_field_mm": -0.12837093043031134,
+            "maximum_buried_field_mm": 0.4453141395441629
+          },
+          {
+            "offset_mm": 0.9000000000000001,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.93848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 9,
+            "insufficient_burial_samples": 41,
+            "minimum_rim_field_mm": -0.09801621513594383,
+            "maximum_buried_field_mm": 0.4711486804314424
+          },
+          {
+            "offset_mm": 0.9500000000000002,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -115.98848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 8,
+            "insufficient_burial_samples": 43,
+            "minimum_rim_field_mm": -0.06641051273486864,
+            "maximum_buried_field_mm": 0.49792818640835357
+          },
+          {
+            "offset_mm": 1.0,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -116.03848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 6,
+            "insufficient_burial_samples": 46,
+            "minimum_rim_field_mm": -0.03364539567793079,
+            "maximum_buried_field_mm": 0.5255440519667518
+          },
+          {
+            "offset_mm": 1.0500000000000003,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -116.08848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 2,
+            "insufficient_burial_samples": 47,
+            "minimum_rim_field_mm": -0.0021496946330283873,
+            "maximum_buried_field_mm": 0.552249156419905
+          },
+          {
+            "offset_mm": 1.1,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -116.13848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 49,
+            "minimum_rim_field_mm": 0.02878671453659165,
+            "maximum_buried_field_mm": 0.5791014824720204
+          },
+          {
+            "offset_mm": 1.15,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -116.18848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 51,
+            "minimum_rim_field_mm": 0.06019066085760416,
+            "maximum_buried_field_mm": 0.6068136255134131
+          },
+          {
+            "offset_mm": 1.2000000000000002,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -116.23848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 54,
+            "minimum_rim_field_mm": 0.08946182857966312,
+            "maximum_buried_field_mm": 0.6353515135810974
+          },
+          {
+            "offset_mm": 1.25,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -116.28848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 56,
+            "minimum_rim_field_mm": 0.11607216111292229,
+            "maximum_buried_field_mm": 0.6646819144540068
+          },
+          {
+            "offset_mm": 1.3000000000000003,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -116.33848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 60,
+            "minimum_rim_field_mm": 0.14382453381872295,
+            "maximum_buried_field_mm": 0.6947725048150228
+          },
+          {
+            "offset_mm": 1.35,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -116.38848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.17268175806510944,
+            "maximum_buried_field_mm": 0.7255919240837467
+          },
+          {
+            "offset_mm": 1.4000000000000004,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -116.43848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.2016236394989832,
+            "maximum_buried_field_mm": 0.7571098144156776
+          },
+          {
+            "offset_mm": 1.4500000000000002,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -116.48848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.22909881595025672,
+            "maximum_buried_field_mm": 0.7892968483597886
+          },
+          {
+            "offset_mm": 1.5,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -116.53848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.25761285649705523,
+            "maximum_buried_field_mm": 0.8221247456287066
+          },
+          {
+            "offset_mm": 1.5500000000000003,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -116.58848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.2871137885750774,
+            "maximum_buried_field_mm": 0.8555662803714157
+          },
+          {
+            "offset_mm": 1.6,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -116.63848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.31671453290136253,
+            "maximum_buried_field_mm": 0.8895952802563232
+          },
+          {
+            "offset_mm": 1.6500000000000004,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -116.68848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.344953595442133,
+            "maximum_buried_field_mm": 0.9241866185776673
+          },
+          {
+            "offset_mm": 1.7000000000000002,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -116.73848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.3741252506448447,
+            "maximum_buried_field_mm": 0.959316200496674
+          },
+          {
+            "offset_mm": 1.75,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -116.78848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.4041855283511777,
+            "maximum_buried_field_mm": 0.994960944424722
+          },
+          {
+            "offset_mm": 1.8000000000000003,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -116.83848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.4350919623351388,
+            "maximum_buried_field_mm": 1.0310987594516872
+          },
+          {
+            "offset_mm": 1.85,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -116.88848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.46680366463428435,
+            "maximum_buried_field_mm": 1.0677085196222535
+          },
+          {
+            "offset_mm": 1.9000000000000004,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -116.93848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.4992813737484234,
+            "maximum_buried_field_mm": 1.1047700357669263
+          },
+          {
+            "offset_mm": 1.9500000000000002,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -116.98848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.5323441126235777,
+            "maximum_buried_field_mm": 1.1422640255046546
+          },
+          {
+            "offset_mm": 2.0,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -117.03848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.5636739654294374,
+            "maximum_buried_field_mm": 1.1801720819511645
+          },
+          {
+            "offset_mm": 2.0500000000000003,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -117.08848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.595737790531274,
+            "maximum_buried_field_mm": 1.2184766415908903
+          },
+          {
+            "offset_mm": 2.1,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -117.13848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.6285019991105893,
+            "maximum_buried_field_mm": 1.2571609517021345
+          },
+          {
+            "offset_mm": 2.1500000000000004,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -117.18848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.6619343521231045,
+            "maximum_buried_field_mm": 1.2962090376634123
+          },
+          {
+            "offset_mm": 2.2,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -117.23848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.6960039601587367,
+            "maximum_buried_field_mm": 1.3356056704142538
+          },
+          {
+            "offset_mm": 2.25,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -117.28848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.7306812726510392,
+            "maximum_buried_field_mm": 1.3753363342957516
+          },
+          {
+            "offset_mm": 2.3000000000000003,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -117.33848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.7659380582621029,
+            "maximum_buried_field_mm": 1.4153871954535096
+          },
+          {
+            "offset_mm": 2.35,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -117.38848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.8017473780836433,
+            "maximum_buried_field_mm": 1.4557450709492976
+          },
+          {
+            "offset_mm": 2.4000000000000004,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -117.43848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.8380835531105393,
+            "maximum_buried_field_mm": 1.496397398695742
+          },
+          {
+            "offset_mm": 2.45,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -117.48848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.8749221272652963,
+            "maximum_buried_field_mm": 1.537332208301098
+          },
+          {
+            "offset_mm": 2.5,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -117.53848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.9122398270842638,
+            "maximum_buried_field_mm": 1.5785380928881618
+          },
+          {
+            "offset_mm": 2.5500000000000003,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -117.58848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.9500145190204585,
+            "maximum_buried_field_mm": 1.61714574760107
+          },
+          {
+            "offset_mm": 2.6,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -117.63848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 0.9882251651760927,
+            "maximum_buried_field_mm": 1.6467508092439476
+          },
+          {
+            "offset_mm": 2.6500000000000004,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -117.68848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.026828361993004,
+            "maximum_buried_field_mm": 1.6719249634123374
+          },
+          {
+            "offset_mm": 2.7,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -117.73848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.0655277163760548,
+            "maximum_buried_field_mm": 1.6967454649764797
+          },
+          {
+            "offset_mm": 2.75,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -117.78848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.104238364754472,
+            "maximum_buried_field_mm": 1.7221595551142934
+          },
+          {
+            "offset_mm": 2.8000000000000003,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -117.83848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.1429598058287191,
+            "maximum_buried_field_mm": 1.748153091671352
+          },
+          {
+            "offset_mm": 2.85,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -117.88848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.1816915674066761,
+            "maximum_buried_field_mm": 1.7747120708882222
+          },
+          {
+            "offset_mm": 2.9000000000000004,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -117.93848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.2205790839245965,
+            "maximum_buried_field_mm": 1.8018226465125797
+          },
+          {
+            "offset_mm": 2.95,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -117.98848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.2598261821540966,
+            "maximum_buried_field_mm": 1.8294711469955922
+          },
+          {
+            "offset_mm": 3.0,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -118.03848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.2994111437890554,
+            "maximum_buried_field_mm": 1.8576440908435459
+          },
+          {
+            "offset_mm": 3.05,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -118.08848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.3391042198138208,
+            "maximum_buried_field_mm": 1.8856604317760883
+          },
+          {
+            "offset_mm": 3.1000000000000005,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -118.13848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.3788065025630702,
+            "maximum_buried_field_mm": 1.9133311788371952
+          },
+          {
+            "offset_mm": 3.1500000000000004,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -118.18848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.4185176128511863,
+            "maximum_buried_field_mm": 1.9415098294974005
+          },
+          {
+            "offset_mm": 3.2,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -118.23848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.4582371919556083,
+            "maximum_buried_field_mm": 1.9701839154387613
+          },
+          {
+            "offset_mm": 3.25,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -118.28848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.498025207991922,
+            "maximum_buried_field_mm": 1.9993411644958692
+          },
+          {
+            "offset_mm": 3.3,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -118.33848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.5380974752223149,
+            "maximum_buried_field_mm": 2.028969509774476
+          },
+          {
+            "offset_mm": 3.3500000000000005,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -118.38848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.5784627596910465,
+            "maximum_buried_field_mm": 2.0590570974820857
+          },
+          {
+            "offset_mm": 3.4000000000000004,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -118.43848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.6190842049381615,
+            "maximum_buried_field_mm": 2.089592293546949
+          },
+          {
+            "offset_mm": 3.45,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -118.48848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.6597558865222264,
+            "maximum_buried_field_mm": 2.1205636891022612
+          },
+          {
+            "offset_mm": 3.5,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -118.53848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.7004347365755148,
+            "maximum_buried_field_mm": 2.151960104912139
+          },
+          {
+            "offset_mm": 3.55,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -118.58848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.7411204829554627,
+            "maximum_buried_field_mm": 2.183770594814596
+          },
+          {
+            "offset_mm": 3.6000000000000005,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -118.63848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.7817537634123823,
+            "maximum_buried_field_mm": 2.2159844482554676
+          },
+          {
+            "offset_mm": 3.6500000000000004,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -118.68848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.8223192206795211,
+            "maximum_buried_field_mm": 2.2485911919849895
+          },
+          {
+            "offset_mm": 3.7,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -118.73848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.860911031512357,
+            "maximum_buried_field_mm": 2.281580590986334
+          },
+          {
+            "offset_mm": 3.75,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -118.78848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.8998003688899043,
+            "maximum_buried_field_mm": 2.3149426487028895
+          },
+          {
+            "offset_mm": 3.8000000000000007,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -118.83848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.9389771311363342,
+            "maximum_buried_field_mm": 2.3486676066277967
+          },
+          {
+            "offset_mm": 3.8500000000000005,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -118.88848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 1.9784315990190549,
+            "maximum_buried_field_mm": 2.382745943316517
+          },
+          {
+            "offset_mm": 3.9000000000000004,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -118.93848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.0181544222559613,
+            "maximum_buried_field_mm": 2.4171683728798117
+          },
+          {
+            "offset_mm": 3.95,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -118.98848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.0581251126027853,
+            "maximum_buried_field_mm": 2.451925843011266
+          },
+          {
+            "offset_mm": 4.0,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -119.03848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.097259972804739,
+            "maximum_buried_field_mm": 2.487009532600429
+          },
+          {
+            "offset_mm": 4.050000000000001,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -119.08848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.136659928750386,
+            "maximum_buried_field_mm": 2.5224108489790327
+          },
+          {
+            "offset_mm": 4.1000000000000005,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -119.13848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.1763164957768844,
+            "maximum_buried_field_mm": 2.5580804648093722
+          },
+          {
+            "offset_mm": 4.15,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -119.18848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.216221495658959,
+            "maximum_buried_field_mm": 2.593833488995401
+          },
+          {
+            "offset_mm": 4.2,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -119.23848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.256367045981775,
+            "maximum_buried_field_mm": 2.6296470714833595
+          },
+          {
+            "offset_mm": 4.25,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -119.28848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.296745549720571,
+            "maximum_buried_field_mm": 2.6655196402723482
+          },
+          {
+            "offset_mm": 4.300000000000001,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -119.33848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.3373496850465427,
+            "maximum_buried_field_mm": 2.701451778021712
+          },
+          {
+            "offset_mm": 4.3500000000000005,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -119.38848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.3781723953749863,
+            "maximum_buried_field_mm": 2.7375843974106844
+          },
+          {
+            "offset_mm": 4.4,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -119.43848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.4192068796680584,
+            "maximum_buried_field_mm": 2.7739982397225327
+          },
+          {
+            "offset_mm": 4.45,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -119.48848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.460446583001456,
+            "maximum_buried_field_mm": 2.8106861339992464
+          },
+          {
+            "offset_mm": 4.5,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -119.53848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.501885187401907,
+            "maximum_buried_field_mm": 2.8476226972261167
+          },
+          {
+            "offset_mm": 4.550000000000001,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -119.58848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.5435166029596434,
+            "maximum_buried_field_mm": 2.884648327693395
+          },
+          {
+            "offset_mm": 4.6000000000000005,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -119.63848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.5853349592184145,
+            "maximum_buried_field_mm": 2.921726494217921
+          },
+          {
+            "offset_mm": 4.65,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -119.68848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.6273345968436317,
+            "maximum_buried_field_mm": 2.9588558783321726
+          },
+          {
+            "offset_mm": 4.7,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -119.73848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.6695100595677506,
+            "maximum_buried_field_mm": 2.9960676085253204
+          },
+          {
+            "offset_mm": 4.75,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -119.78848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.711856086410945,
+            "maximum_buried_field_mm": 3.0334996562380243
+          },
+          {
+            "offset_mm": 4.800000000000001,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -119.83848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.7543676041736527,
+            "maximum_buried_field_mm": 3.071039375475738
+          },
+          {
+            "offset_mm": 4.8500000000000005,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -119.88848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.7970397201970645,
+            "maximum_buried_field_mm": 3.1088132903621255
+          },
+          {
+            "offset_mm": 4.9,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -119.93848868358987,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.8398677153866654,
+            "maximum_buried_field_mm": 3.1468194782060697
+          },
+          {
+            "offset_mm": 4.95,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -119.98848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.8824608278021384,
+            "maximum_buried_field_mm": 3.1850522540165938
+          },
+          {
+            "offset_mm": 5.0,
+            "neck_center_mm": [
+              3.3852325535962424,
+              -120.03848868358986,
+              1538.3764426866348
+            ],
+            "status": "FAIL",
+            "interior_rim_samples": 0,
+            "insufficient_burial_samples": 64,
+            "minimum_rim_field_mm": 2.9248190004935197,
+            "maximum_buried_field_mm": 3.2234995620670515
+          }
+        ],
+        "accepted_for_generation": false,
+        "geometry_status": "NOT GENERATED",
+        "limitation": "Discrete sampled attachment only, not a continuous feasible interval. Direction and dimensions unchanged. Outlet and surrounding clearance must be rechecked. No anatomical placement or automatic application."
+      }
+    }
+  ],
+  "accepted_for_generation": false,
+  "app_applied": false
+}

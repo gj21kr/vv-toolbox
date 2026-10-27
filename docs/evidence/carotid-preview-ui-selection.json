@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "side": "left",
+      "selected": [
+        {
+          "source": "FJ1682M",
+          "faces": 1318,
+          "exclusive_vertices": 599,
+          "shared_vertices": 122
+        },
+        {
+          "source": "FJ3483",
+          "faces": 266,
+          "exclusive_vertices": 73,
+          "shared_vertices": 122
+        },
+        {
+          "source": "estimated_left_carotid_neck",
+          "faces": 23180,
+          "exclusive_vertices": 11468,
+          "shared_vertices": 244
+        }
+      ],
+      "viewer_visual": "NOT RUN",
+      "summary": {
+        "id": "left-carotid-solid-union",
+        "title": "좌측 경동맥 · 내강 결합 후보",
+        "revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+        "surface_sha256": "404b9b86c511fd0d0904ef63f46ac20701ec545d531ab3191a5b4857ce8431d7",
+        "vertices": 12384,
+        "triangles": 24764,
+        "read_only": true,
+        "edge_ids": [
+          "FJ1682M",
+          "FJ3483",
+          "estimated_left_carotid_neck"
+        ],
+        "centerlines_available": false,
+        "selectable_sources": [
+          {
+            "id": "FJ1682M",
+            "label": "좌측 내경동맥 · FJ1682M"
+          },
+          {
+            "id": "FJ3483",
+            "label": "좌측 총경동맥 · FJ3483"
+          },
+          {
+            "id": "estimated_left_carotid_neck",
+            "label": "추정 목 연결부 · estimated_left_carotid_neck"
+          }
+        ],
+        "selected_source": null,
+        "scope": "원본 경동맥 두 부분과 추정 목 연결부를 결합한 합성 표면",
+        "carotid_union": {
+          "self_contact": "NO_CONTACT_DETECTED",
+          "path_segments": 95,
+          "lineage_faces": 24764,
+          "new_contacting_neighbors": 0
+        },
+        "anatomy": "UNKNOWN",
+        "smoothness": "NOT RUN",
+        "source_selection": null
+      }
+    },
+    {
+      "side": "right",
+      "selected": [
+        {
+          "source": "FJ1682",
+          "faces": 1352,
+          "exclusive_vertices": 599,
+          "shared_vertices": 156
+        },
+        {
+          "source": "FJ3564",
+          "faces": 820,
+          "exclusive_vertices": 333,
+          "shared_vertices": 156
+        },
+        {
+          "source": "estimated_right_carotid_neck",
+          "faces": 29640,
+          "exclusive_vertices": 14664,
+          "shared_vertices": 312
+        }
+      ],
+      "viewer_visual": "NOT RUN",
+      "summary": {
+        "id": "right-carotid-solid-union",
+        "title": "우측 경동맥 · 내강 결합 후보",
+        "revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+        "surface_sha256": "626742a716bc38a5e8f83e2eba5c1d63bcc0933f8d8f368725d149687bcd0ee0",
+        "vertices": 15908,
+        "triangles": 31812,
+        "read_only": true,
+        "edge_ids": [
+          "FJ1682",
+          "FJ3564",
+          "estimated_right_carotid_neck"
+        ],
+        "centerlines_available": false,
+        "selectable_sources": [
+          {
+            "id": "FJ1682",
+            "label": "우측 내경동맥 · FJ1682"
+          },
+          {
+            "id": "FJ3564",
+            "label": "우측 총경동맥 · FJ3564"
+          },
+          {
+            "id": "estimated_right_carotid_neck",
+            "label": "추정 목 연결부 · estimated_right_carotid_neck"
+          }
+        ],
+        "selected_source": null,
+        "scope": "원본 경동맥 두 부분과 추정 목 연결부를 결합한 합성 표면",
+        "carotid_union": {
+          "self_contact": "NO_CONTACT_DETECTED",
+          "path_segments": 95,
+          "lineage_faces": 31812,
+          "new_contacting_neighbors": 0
+        },
+        "anatomy": "UNKNOWN",
+        "smoothness": "NOT RUN",
+        "source_selection": null
+      }
+    }
+  ],
+  "browser_errors": [],
+  "atlas_restored": true,
+  "scope": "Browser candidate selection and audit text; viewer requests blocked for focused controls test",
+  "viewer_visual": "NOT RUN"
+}

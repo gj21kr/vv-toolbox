@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "browser": "Playwright; Browser plugin not available",
+  "rows": [
+    {
+      "side": "left",
+      "edit": {
+        "status": "CANDIDATE",
+        "source_name": "estimated_left_carotid_neck",
+        "scale": 0.9,
+        "transition_mm": 5,
+        "maximum_displacement_mm": 0.36725958443081863,
+        "displacement_bound_mm": 0.5,
+        "moved_vertices": 11468,
+        "shared_vertices_fixed": true,
+        "other_source_vertices_fixed": true,
+        "faces_unchanged": true,
+        "self_contact": {
+          "status": "NO_CONTACT_DETECTED",
+          "coverage": "all distinct triangle pairs",
+          "checked_pairs": 191490,
+          "adjacent_pairs_checked": 149976,
+          "contact_pairs": [],
+          "tolerance_mm": 1e-8,
+          "max_pairs": 2000000,
+          "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+        },
+        "neighbor_contact": "NOT RUN",
+        "scope": "Radial displacement about supplied polyline, tapered at source interfaces and path ends",
+        "anatomical_validation": "NOT RUN"
+      },
+      "reloaded_geometry_sha256": "a8954a6bf4878c0251afec74cd344b510a3ab74cc411dc98bb89ad494a212b70"
+    }
+  ],
+  "original_restored": true,
+  "controls": "PASS",
+  "viser_visual": "NOT RUN",
+  "page_errors": []
+}

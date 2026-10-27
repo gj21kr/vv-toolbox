@@ -1,0 +1,70 @@
+{
+  "source_case_revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+  "rows": [
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "union_sha256": "404b9b86c511fd0d0904ef63f46ac20701ec545d531ab3191a5b4857ce8431d7",
+      "status": "PASS",
+      "rows": [
+        {
+          "source": "FJ1682M",
+          "faces": 1318,
+          "maximum_vertex_distance_mm": 9.65501826127765e-13,
+          "mismatched_faces": 0,
+          "opposite_or_degenerate_normals": 0
+        },
+        {
+          "source": "FJ3483",
+          "faces": 266,
+          "maximum_vertex_distance_mm": 2.3447910280083306e-13,
+          "mismatched_faces": 0,
+          "opposite_or_degenerate_normals": 0
+        },
+        {
+          "source": "estimated_left_carotid_neck",
+          "faces": 23180,
+          "maximum_vertex_distance_mm": 7.717789466286348e-12,
+          "mismatched_faces": 0,
+          "opposite_or_degenerate_normals": 0
+        }
+      ],
+      "tolerance_mm": 1e-06,
+      "faces": 24764,
+      "scope": "Every output triangle vertex against its declared input triangle, plus normal orientation",
+      "anatomical_labels": "NOT ASSIGNED"
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "union_sha256": "626742a716bc38a5e8f83e2eba5c1d63bcc0933f8d8f368725d149687bcd0ee0",
+      "status": "PASS",
+      "rows": [
+        {
+          "source": "FJ1682",
+          "faces": 1352,
+          "maximum_vertex_distance_mm": 2.2881241346943593e-13,
+          "mismatched_faces": 0,
+          "opposite_or_degenerate_normals": 0
+        },
+        {
+          "source": "FJ3564",
+          "faces": 820,
+          "maximum_vertex_distance_mm": 3.5952690092104947e-13,
+          "mismatched_faces": 0,
+          "opposite_or_degenerate_normals": 0
+        },
+        {
+          "source": "estimated_right_carotid_neck",
+          "faces": 29640,
+          "maximum_vertex_distance_mm": 1.234205368856172e-11,
+          "mismatched_faces": 0,
+          "opposite_or_degenerate_normals": 0
+        }
+      ],
+      "tolerance_mm": 1e-06,
+      "faces": 31812,
+      "scope": "Every output triangle vertex against its declared input triangle, plus normal orientation",
+      "anatomical_labels": "NOT ASSIGNED"
+    }
+  ],
+  "live_scene_changed": false
+}

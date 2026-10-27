@@ -1,0 +1,2356 @@
+{
+  "scope": "Fixed single-edge centerline smoothing and source-surface sampled containment only",
+  "parameters": {
+    "edge_id": "FJ1692M:e0",
+    "sigma_mm": 0.5,
+    "max_displacement_mm": 0.3
+  },
+  "source_file": "exports/atlas-case-inspection/all-arterial.snapshot.json",
+  "source_file_sha256": "fa2b9856bb47469b189af136c1e621f19381dd9470fca09f53e874061b9ff1cd",
+  "source_case_revision": "ac39f2d88883cf9f2389618a7ad6f0770dd3b5efef17278fbcefa02bf677aa24",
+  "atlas_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "surface_triangle_sha256": "a97bf4dd7dcaa7d5ec027492c180ff39c20687f4bfd816bf5c08a9fcae6e3246",
+  "surface_watertight": true,
+  "clinical_validation": "NOT RUN",
+  "complete_route_acceptance": "NOT RUN",
+  "new_surface_generation": "NOT RUN",
+  "status": "PASS",
+  "checks": {
+    "nodes_unchanged": true,
+    "endpoint_chords_unchanged": true,
+    "radii_unchanged": true,
+    "other_edges_unchanged": true,
+    "source_unchanged": true
+  },
+  "measurements": {
+    "source": {
+      "stations": {
+        "status": "MEASURED",
+        "point_count": 62,
+        "inside_count": 62,
+        "outside_indices": [],
+        "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+      },
+      "sampled_intervals": {
+        "status": "MEASURED",
+        "point_count": 397,
+        "inside_count": 397,
+        "outside_indices": [],
+        "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+      },
+      "cross_sections": [
+        {
+          "index": 1,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.298572276215144,
+            "area_equivalent_radius_mm": 1.5242072400255198,
+            "centroid_uv_mm": [
+              -0.0402571532149039,
+              0.32368673879998877
+            ],
+            "centroid_offset_mm": 0.3261805378313372,
+            "minimum_centroid_boundary_distance_mm": 1.4727732120658967,
+            "maximum_centroid_vertex_distance_mm": 1.549458317738785
+          }
+        },
+        {
+          "index": 2,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.271262702455374,
+            "area_equivalent_radius_mm": 1.521352951563513,
+            "centroid_uv_mm": [
+              0.16868375493028728,
+              -0.18520884105227894
+            ],
+            "centroid_offset_mm": 0.2505125226037803,
+            "minimum_centroid_boundary_distance_mm": 1.4927468324434998,
+            "maximum_centroid_vertex_distance_mm": 1.546420069945887
+          }
+        },
+        {
+          "index": 3,
+          "stored_radius_mm": 1.6948711623750818,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.502955626182664,
+            "area_equivalent_radius_mm": 1.545401226676178,
+            "centroid_uv_mm": [
+              -0.1985570984535324,
+              -0.00428422963186792
+            ],
+            "centroid_offset_mm": 0.19860331308874063,
+            "minimum_centroid_boundary_distance_mm": 1.5042860694568865,
+            "maximum_centroid_vertex_distance_mm": 1.61895368387671
+          }
+        },
+        {
+          "index": 4,
+          "stored_radius_mm": 1.6948711623750818,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.713191376391089,
+            "area_equivalent_radius_mm": 1.5669030184197243,
+            "centroid_uv_mm": [
+              -0.1361880676717845,
+              0.13134447080354697
+            ],
+            "centroid_offset_mm": 0.1892050733644274,
+            "minimum_centroid_boundary_distance_mm": 1.486840681168199,
+            "maximum_centroid_vertex_distance_mm": 1.672034407880055
+          }
+        },
+        {
+          "index": 5,
+          "stored_radius_mm": 1.502342714076853,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.133122678101556,
+            "area_equivalent_radius_mm": 1.5068322626628097,
+            "centroid_uv_mm": [
+              0.3173607075117458,
+              0.10221553128842377
+            ],
+            "centroid_offset_mm": 0.33341540682597526,
+            "minimum_centroid_boundary_distance_mm": 1.4479576134021481,
+            "maximum_centroid_vertex_distance_mm": 1.5586882256607115
+          }
+        },
+        {
+          "index": 6,
+          "stored_radius_mm": 1.8118934869516747,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.217616821377955,
+            "area_equivalent_radius_mm": 1.5157304473193873,
+            "centroid_uv_mm": [
+              0.01556956828437931,
+              0.044694121858846275
+            ],
+            "centroid_offset_mm": 0.047328384562494316,
+            "minimum_centroid_boundary_distance_mm": 1.4804338456882054,
+            "maximum_centroid_vertex_distance_mm": 1.552830319889606
+          }
+        },
+        {
+          "index": 7,
+          "stored_radius_mm": 1.6948711623750818,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.297261678811752,
+            "area_equivalent_radius_mm": 1.5240703836883343,
+            "centroid_uv_mm": [
+              -0.006510579120224088,
+              0.13891557606921734
+            ],
+            "centroid_offset_mm": 0.1390680585724961,
+            "minimum_centroid_boundary_distance_mm": 1.4829597754527406,
+            "maximum_centroid_vertex_distance_mm": 1.5879713282283359
+          }
+        },
+        {
+          "index": 8,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.1745051954150485,
+            "area_equivalent_radius_mm": 1.511196854211118,
+            "centroid_uv_mm": [
+              0.030414719544406322,
+              0.25467989960598436
+            ],
+            "centroid_offset_mm": 0.2564895834693471,
+            "minimum_centroid_boundary_distance_mm": 1.4451388475723788,
+            "maximum_centroid_vertex_distance_mm": 1.574074312383393
+          }
+        },
+        {
+          "index": 9,
+          "stored_radius_mm": 1.432427574097967,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.042568680409881,
+            "area_equivalent_radius_mm": 1.4972372006809067,
+            "centroid_uv_mm": [
+              0.06341593630351755,
+              0.354364698047176
+            ],
+            "centroid_offset_mm": 0.3599943335655688,
+            "minimum_centroid_boundary_distance_mm": 1.4290842985566223,
+            "maximum_centroid_vertex_distance_mm": 1.5503524969960825
+          }
+        },
+        {
+          "index": 10,
+          "stored_radius_mm": 1.358920115213756,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.3433144442172535,
+            "area_equivalent_radius_mm": 1.5288719975689855,
+            "centroid_uv_mm": [
+              0.4333442308124773,
+              -0.07094799376403543
+            ],
+            "centroid_offset_mm": 0.4391136984854825,
+            "minimum_centroid_boundary_distance_mm": 1.444227919145696,
+            "maximum_centroid_vertex_distance_mm": 1.5945438854564735
+          }
+        },
+        {
+          "index": 11,
+          "stored_radius_mm": 1.8118934869516747,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.441891427222428,
+            "area_equivalent_radius_mm": 1.5390996111984756,
+            "centroid_uv_mm": [
+              0.01656732134848956,
+              -0.09347715779558109
+            ],
+            "centroid_offset_mm": 0.09493395159901481,
+            "minimum_centroid_boundary_distance_mm": 1.4712483769251479,
+            "maximum_centroid_vertex_distance_mm": 1.624515828724675
+          }
+        },
+        {
+          "index": 12,
+          "stored_radius_mm": 1.6948711623750818,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.944440245626794,
+            "area_equivalent_radius_mm": 1.4867696473211982,
+            "centroid_uv_mm": [
+              0.11345226865181059,
+              0.05336210828508848
+            ],
+            "centroid_offset_mm": 0.12537516445800626,
+            "minimum_centroid_boundary_distance_mm": 1.464673003019318,
+            "maximum_centroid_vertex_distance_mm": 1.530334190530685
+          }
+        },
+        {
+          "index": 13,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.83390781678383,
+            "area_equivalent_radius_mm": 1.4748899685573085,
+            "centroid_uv_mm": [
+              0.1278316587215042,
+              0.07404116625678726
+            ],
+            "centroid_offset_mm": 0.14772619020389152,
+            "minimum_centroid_boundary_distance_mm": 1.435170806703323,
+            "maximum_centroid_vertex_distance_mm": 1.5140316215196172
+          }
+        },
+        {
+          "index": 14,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.836246796881508,
+            "area_equivalent_radius_mm": 1.4751423456194512,
+            "centroid_uv_mm": [
+              0.14335549696811867,
+              0.061101737904536435
+            ],
+            "centroid_offset_mm": 0.155833952930454,
+            "minimum_centroid_boundary_distance_mm": 1.4429724866496445,
+            "maximum_centroid_vertex_distance_mm": 1.5149829536971604
+          }
+        },
+        {
+          "index": 15,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.3460467039052535,
+            "area_equivalent_radius_mm": 1.5291563982212193,
+            "centroid_uv_mm": [
+              0.02552328020233291,
+              -0.15613716547883918
+            ],
+            "centroid_offset_mm": 0.1582095201814771,
+            "minimum_centroid_boundary_distance_mm": 1.4334463396084702,
+            "maximum_centroid_vertex_distance_mm": 1.6209361482500397
+          }
+        },
+        {
+          "index": 16,
+          "stored_radius_mm": 1.358920115213756,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.2339456651148435,
+            "area_equivalent_radius_mm": 1.5174440422376148,
+            "centroid_uv_mm": [
+              0.4607034935753626,
+              -0.1704017719241719
+            ],
+            "centroid_offset_mm": 0.49120715881127147,
+            "minimum_centroid_boundary_distance_mm": 1.436591228726824,
+            "maximum_centroid_vertex_distance_mm": 1.5909130549328472
+          }
+        },
+        {
+          "index": 17,
+          "stored_radius_mm": 1.358920115213756,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.807516861152137,
+            "area_equivalent_radius_mm": 1.4720393735452773,
+            "centroid_uv_mm": [
+              0.17499006932814254,
+              0.3975382251877543
+            ],
+            "centroid_offset_mm": 0.4343479766833244,
+            "minimum_centroid_boundary_distance_mm": 1.4372087818965202,
+            "maximum_centroid_vertex_distance_mm": 1.5013119707635574
+          }
+        },
+        {
+          "index": 18,
+          "stored_radius_mm": 1.432427574097967,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.486477631556832,
+            "area_equivalent_radius_mm": 1.543703288465225,
+            "centroid_uv_mm": [
+              0.21414459919271592,
+              0.3378488192784368
+            ],
+            "centroid_offset_mm": 0.39999966756391536,
+            "minimum_centroid_boundary_distance_mm": 1.449065163580558,
+            "maximum_centroid_vertex_distance_mm": 1.642193700656521
+          }
+        },
+        {
+          "index": 19,
+          "stored_radius_mm": 1.432427574097967,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.470238222235619,
+            "area_equivalent_radius_mm": 1.5420281055433531,
+            "centroid_uv_mm": [
+              -0.25866217543636055,
+              0.21910720137443906
+            ],
+            "centroid_offset_mm": 0.3389898032325007,
+            "minimum_centroid_boundary_distance_mm": 1.4401076576948115,
+            "maximum_centroid_vertex_distance_mm": 1.634803406576862
+          }
+        },
+        {
+          "index": 20,
+          "stored_radius_mm": 1.502342714076853,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.8462819309552225,
+            "area_equivalent_radius_mm": 1.4762246516789035,
+            "centroid_uv_mm": [
+              -0.2208906356531432,
+              0.1553489214585308
+            ],
+            "centroid_offset_mm": 0.2700480703829939,
+            "minimum_centroid_boundary_distance_mm": 1.4358194695263935,
+            "maximum_centroid_vertex_distance_mm": 1.5263082172156959
+          }
+        },
+        {
+          "index": 21,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.876197955485057,
+            "area_equivalent_radius_mm": 1.4794464466778319,
+            "centroid_uv_mm": [
+              -0.18139605456123403,
+              0.04070499654924945
+            ],
+            "centroid_offset_mm": 0.18590703417153587,
+            "minimum_centroid_boundary_distance_mm": 1.4373943384542511,
+            "maximum_centroid_vertex_distance_mm": 1.5429208965192187
+          }
+        },
+        {
+          "index": 22,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.754185438077053,
+            "area_equivalent_radius_mm": 1.466261913185541,
+            "centroid_uv_mm": [
+              -0.08447587824382304,
+              0.14425936892938515
+            ],
+            "centroid_offset_mm": 0.16717338164004958,
+            "minimum_centroid_boundary_distance_mm": 1.422022952645039,
+            "maximum_centroid_vertex_distance_mm": 1.5145390379162902
+          }
+        },
+        {
+          "index": 23,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.706433688860177,
+            "area_equivalent_radius_mm": 1.4610695206595143,
+            "centroid_uv_mm": [
+              0.22578838822547756,
+              0.07265311488464124
+            ],
+            "centroid_offset_mm": 0.23718952624409842,
+            "minimum_centroid_boundary_distance_mm": 1.427651038303146,
+            "maximum_centroid_vertex_distance_mm": 1.500736857819152
+          }
+        },
+        {
+          "index": 24,
+          "stored_radius_mm": 1.6948711623750818,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.232619462389458,
+            "area_equivalent_radius_mm": 1.5173049389901352,
+            "centroid_uv_mm": [
+              -0.017235417552549488,
+              0.09538908700400554
+            ],
+            "centroid_offset_mm": 0.0969336759731543,
+            "minimum_centroid_boundary_distance_mm": 1.4313555671054838,
+            "maximum_centroid_vertex_distance_mm": 1.6176225498266448
+          }
+        },
+        {
+          "index": 25,
+          "stored_radius_mm": 1.358920115213756,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.639923904504144,
+            "area_equivalent_radius_mm": 1.4538065285008681,
+            "centroid_uv_mm": [
+              -0.04804375639495087,
+              0.41966117441670564
+            ],
+            "centroid_offset_mm": 0.422402300942296,
+            "minimum_centroid_boundary_distance_mm": 1.4177989732720702,
+            "maximum_centroid_vertex_distance_mm": 1.4977829683647632
+          }
+        },
+        {
+          "index": 26,
+          "stored_radius_mm": 1.502342714076853,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.602285579714331,
+            "area_equivalent_radius_mm": 1.44968023075151,
+            "centroid_uv_mm": [
+              0.2414539094225805,
+              -0.1360211014498432
+            ],
+            "centroid_offset_mm": 0.277131251242216,
+            "minimum_centroid_boundary_distance_mm": 1.3939490451531291,
+            "maximum_centroid_vertex_distance_mm": 1.486685900821352
+          }
+        },
+        {
+          "index": 27,
+          "stored_radius_mm": 1.502342714076853,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.997131737378032,
+            "area_equivalent_radius_mm": 1.4923994796761995,
+            "centroid_uv_mm": [
+              -0.24008017671998544,
+              0.06119866709950892
+            ],
+            "centroid_offset_mm": 0.24775747841115905,
+            "minimum_centroid_boundary_distance_mm": 1.4084994433056492,
+            "maximum_centroid_vertex_distance_mm": 1.5693262810982653
+          }
+        },
+        {
+          "index": 28,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.620573100845015,
+            "area_equivalent_radius_mm": 1.4516865605913154,
+            "centroid_uv_mm": [
+              -0.0650892999728204,
+              0.1422102826690109
+            ],
+            "centroid_offset_mm": 0.1563981504614162,
+            "minimum_centroid_boundary_distance_mm": 1.4017417515910606,
+            "maximum_centroid_vertex_distance_mm": 1.5007204900592699
+          }
+        },
+        {
+          "index": 29,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.620986571293777,
+            "area_equivalent_radius_mm": 1.451731890513165,
+            "centroid_uv_mm": [
+              0.19735557888710903,
+              -0.009250872241690557
+            ],
+            "centroid_offset_mm": 0.1975722732447496,
+            "minimum_centroid_boundary_distance_mm": 1.4122755208691822,
+            "maximum_centroid_vertex_distance_mm": 1.508717608356528
+          }
+        },
+        {
+          "index": 30,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.801956863524021,
+            "area_equivalent_radius_mm": 1.471438111187618,
+            "centroid_uv_mm": [
+              0.13096496010470468,
+              0.07167151866599808
+            ],
+            "centroid_offset_mm": 0.149293761969874,
+            "minimum_centroid_boundary_distance_mm": 1.3813871982369688,
+            "maximum_centroid_vertex_distance_mm": 1.5444125098972135
+          }
+        },
+        {
+          "index": 31,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.364845582961502,
+            "area_equivalent_radius_mm": 1.4233739048787843,
+            "centroid_uv_mm": [
+              -0.1427189608085277,
+              -0.14763927633737095
+            ],
+            "centroid_offset_mm": 0.2053437549371508,
+            "minimum_centroid_boundary_distance_mm": 1.3921416542433716,
+            "maximum_centroid_vertex_distance_mm": 1.4754793273184736
+          }
+        },
+        {
+          "index": 32,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.331324736029842,
+            "area_equivalent_radius_mm": 1.419620814202961,
+            "centroid_uv_mm": [
+              0.011966601945338615,
+              0.1426996759562924
+            ],
+            "centroid_offset_mm": 0.14320054846315722,
+            "minimum_centroid_boundary_distance_mm": 1.3867232050302425,
+            "maximum_centroid_vertex_distance_mm": 1.4687102101687426
+          }
+        },
+        {
+          "index": 33,
+          "stored_radius_mm": 1.502342714076853,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.701577070212072,
+            "area_equivalent_radius_mm": 1.4605403912494532,
+            "centroid_uv_mm": [
+              -0.23295953844370024,
+              -0.07014018956181808
+            ],
+            "centroid_offset_mm": 0.2432895245251419,
+            "minimum_centroid_boundary_distance_mm": 1.403497766948198,
+            "maximum_centroid_vertex_distance_mm": 1.5243989059418854
+          }
+        },
+        {
+          "index": 34,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.810723739953402,
+            "area_equivalent_radius_mm": 1.4723860562005497,
+            "centroid_uv_mm": [
+              -0.19186407933527586,
+              0.08946952942358967
+            ],
+            "centroid_offset_mm": 0.21169936616450133,
+            "minimum_centroid_boundary_distance_mm": 1.3921047903281296,
+            "maximum_centroid_vertex_distance_mm": 1.5764642479046163
+          }
+        },
+        {
+          "index": 35,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.24324324001499,
+            "area_equivalent_radius_mm": 1.409711333978305,
+            "centroid_uv_mm": [
+              0.14714738339714578,
+              0.0822015203845614
+            ],
+            "centroid_offset_mm": 0.16855100828580077,
+            "minimum_centroid_boundary_distance_mm": 1.384445469027138,
+            "maximum_centroid_vertex_distance_mm": 1.4514717852361014
+          }
+        },
+        {
+          "index": 36,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.212138400187714,
+            "area_equivalent_radius_mm": 1.406195245021724,
+            "centroid_uv_mm": [
+              -0.048305806181313894,
+              -0.12138648716269376
+            ],
+            "centroid_offset_mm": 0.13064505416021488,
+            "minimum_centroid_boundary_distance_mm": 1.3829364671191375,
+            "maximum_centroid_vertex_distance_mm": 1.4495113952235874
+          }
+        },
+        {
+          "index": 37,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.167202085800474,
+            "area_equivalent_radius_mm": 1.4011000656639716,
+            "centroid_uv_mm": [
+              0.17125581647185745,
+              0.17026139785927802
+            ],
+            "centroid_offset_mm": 0.2414901618626272,
+            "minimum_centroid_boundary_distance_mm": 1.3738163789535067,
+            "maximum_centroid_vertex_distance_mm": 1.4425764161582866
+          }
+        },
+        {
+          "index": 38,
+          "stored_radius_mm": 1.6948711623750818,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.25781234170949,
+            "area_equivalent_radius_mm": 1.411355211932513,
+            "centroid_uv_mm": [
+              0.006236403601573289,
+              -0.03472645134328008
+            ],
+            "centroid_offset_mm": 0.035281994739228044,
+            "minimum_centroid_boundary_distance_mm": 1.3673496701110346,
+            "maximum_centroid_vertex_distance_mm": 1.461138601026773
+          }
+        },
+        {
+          "index": 39,
+          "stored_radius_mm": 1.502342714076853,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.951020037459577,
+            "area_equivalent_radius_mm": 1.3763242753076819,
+            "centroid_uv_mm": [
+              -0.1741747234388636,
+              0.1810821231194449
+            ],
+            "centroid_offset_mm": 0.25125200416802734,
+            "minimum_centroid_boundary_distance_mm": 1.3403177863241384,
+            "maximum_centroid_vertex_distance_mm": 1.4216778443225913
+          }
+        },
+        {
+          "index": 40,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.9402060012185975,
+            "area_equivalent_radius_mm": 1.375073196653968,
+            "centroid_uv_mm": [
+              0.05875326578608888,
+              0.038316968593382454
+            ],
+            "centroid_offset_mm": 0.07014368341281388,
+            "minimum_centroid_boundary_distance_mm": 1.3248207220156558,
+            "maximum_centroid_vertex_distance_mm": 1.4216812945574413
+          }
+        },
+        {
+          "index": 41,
+          "stored_radius_mm": 1.432427574097967,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.961959964849615,
+            "area_equivalent_radius_mm": 1.3775887622376997,
+            "centroid_uv_mm": [
+              -0.0676313321148847,
+              0.26121106612999667
+            ],
+            "centroid_offset_mm": 0.26982442097112586,
+            "minimum_centroid_boundary_distance_mm": 1.344791199057932,
+            "maximum_centroid_vertex_distance_mm": 1.4139535771658311
+          }
+        },
+        {
+          "index": 42,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.2809035522355545,
+            "area_equivalent_radius_mm": 1.4139567514048885,
+            "centroid_uv_mm": [
+              0.16979860171169295,
+              0.13720424120956012
+            ],
+            "centroid_offset_mm": 0.21830384547491896,
+            "minimum_centroid_boundary_distance_mm": 1.3439332749243302,
+            "maximum_centroid_vertex_distance_mm": 1.4861366902315443
+          }
+        },
+        {
+          "index": 43,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.971434341650203,
+            "area_equivalent_radius_mm": 1.3786829170061747,
+            "centroid_uv_mm": [
+              0.05155227035497409,
+              -0.06664352209191454
+            ],
+            "centroid_offset_mm": 0.08425553759586275,
+            "minimum_centroid_boundary_distance_mm": 1.3412534338816797,
+            "maximum_centroid_vertex_distance_mm": 1.4125227212631475
+          }
+        },
+        {
+          "index": 44,
+          "stored_radius_mm": 1.5691457886517186,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.921955629283789,
+            "area_equivalent_radius_mm": 1.3729592209322101,
+            "centroid_uv_mm": [
+              -0.09035766119332052,
+              0.1496981138506232
+            ],
+            "centroid_offset_mm": 0.17485431715219688,
+            "minimum_centroid_boundary_distance_mm": 1.3333730894813203,
+            "maximum_centroid_vertex_distance_mm": 1.4008059359356952
+          }
+        },
+        {
+          "index": 45,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.887968477982534,
+            "area_equivalent_radius_mm": 1.369013723846612,
+            "centroid_uv_mm": [
+              -0.19099453249310522,
+              -0.06347108898260981
+            ],
+            "centroid_offset_mm": 0.2012647276074429,
+            "minimum_centroid_boundary_distance_mm": 1.331437002558015,
+            "maximum_centroid_vertex_distance_mm": 1.40499193508468
+          }
+        },
+        {
+          "index": 46,
+          "stored_radius_mm": 1.358920115213756,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.863326880617038,
+            "area_equivalent_radius_mm": 1.3661460068483053,
+            "centroid_uv_mm": [
+              -0.28085791184360664,
+              0.17607210716039798
+            ],
+            "centroid_offset_mm": 0.3314853745869549,
+            "minimum_centroid_boundary_distance_mm": 1.3281250812889722,
+            "maximum_centroid_vertex_distance_mm": 1.3960275957269388
+          }
+        },
+        {
+          "index": 47,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.253174357845558,
+            "area_equivalent_radius_mm": 1.410832101326454,
+            "centroid_uv_mm": [
+              -0.011712899517862307,
+              0.036182601204119216
+            ],
+            "centroid_offset_mm": 0.03803120619980214,
+            "minimum_centroid_boundary_distance_mm": 1.3354283038064714,
+            "maximum_centroid_vertex_distance_mm": 1.50869871709484
+          }
+        },
+        {
+          "index": 48,
+          "stored_radius_mm": 1.502342714076853,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.723421135708227,
+            "area_equivalent_radius_mm": 1.34974869153083,
+            "centroid_uv_mm": [
+              -0.08078301749881196,
+              -0.1999618992706343
+            ],
+            "centroid_offset_mm": 0.21566329561641373,
+            "minimum_centroid_boundary_distance_mm": 1.3162870340082309,
+            "maximum_centroid_vertex_distance_mm": 1.385197138011617
+          }
+        },
+        {
+          "index": 49,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.731306678235351,
+            "area_equivalent_radius_mm": 1.3506781912926165,
+            "centroid_uv_mm": [
+              0.10472591353431021,
+              -0.09007436247015976
+            ],
+            "centroid_offset_mm": 0.13813365896841198,
+            "minimum_centroid_boundary_distance_mm": 1.3166213554609483,
+            "maximum_centroid_vertex_distance_mm": 1.4023118456088681
+          }
+        },
+        {
+          "index": 50,
+          "stored_radius_mm": 1.5691457886517186,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.578630263069943,
+            "area_equivalent_radius_mm": 1.3325663826238616,
+            "centroid_uv_mm": [
+              -0.008166809089019445,
+              -0.1838155524660504
+            ],
+            "centroid_offset_mm": 0.18399688611249873,
+            "minimum_centroid_boundary_distance_mm": 1.290828048683374,
+            "maximum_centroid_vertex_distance_mm": 1.379660032119778
+          }
+        },
+        {
+          "index": 51,
+          "stored_radius_mm": 1.502342714076853,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.540476179932647,
+            "area_equivalent_radius_mm": 1.328001634877896,
+            "centroid_uv_mm": [
+              -0.10277462716099733,
+              -0.21436219332815334
+            ],
+            "centroid_offset_mm": 0.23772625836566436,
+            "minimum_centroid_boundary_distance_mm": 1.2830058962710484,
+            "maximum_centroid_vertex_distance_mm": 1.3877921580670716
+          }
+        },
+        {
+          "index": 52,
+          "stored_radius_mm": 1.432427574097967,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.570531142875427,
+            "area_equivalent_radius_mm": 1.3315987136040417,
+            "centroid_uv_mm": [
+              -0.0839837357163251,
+              0.27473159983231576
+            ],
+            "centroid_offset_mm": 0.287281603677112,
+            "minimum_centroid_boundary_distance_mm": 1.2737795379648051,
+            "maximum_centroid_vertex_distance_mm": 1.4007204821761352
+          }
+        },
+        {
+          "index": 53,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.544207781505466,
+            "area_equivalent_radius_mm": 1.3284487750418874,
+            "centroid_uv_mm": [
+              -0.03288477725687567,
+              -0.05190619465096163
+            ],
+            "centroid_offset_mm": 0.0614464125753314,
+            "minimum_centroid_boundary_distance_mm": 1.2731049700507355,
+            "maximum_centroid_vertex_distance_mm": 1.389300541491822
+          }
+        },
+        {
+          "index": 54,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.57977572243636,
+            "area_equivalent_radius_mm": 1.3327031834357552,
+            "centroid_uv_mm": [
+              -0.025780069044391198,
+              0.025674785544479203
+            ],
+            "centroid_offset_mm": 0.0363841527685966,
+            "minimum_centroid_boundary_distance_mm": 1.2660455638591646,
+            "maximum_centroid_vertex_distance_mm": 1.398311122727142
+          }
+        },
+        {
+          "index": 55,
+          "stored_radius_mm": 1.2812021714112685,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.445826468262517,
+            "area_equivalent_radius_mm": 1.3166094346043995,
+            "centroid_uv_mm": [
+              -0.2812049272764662,
+              0.20664748885677484
+            ],
+            "centroid_offset_mm": 0.3489690470161695,
+            "minimum_centroid_boundary_distance_mm": 1.2618843954311831,
+            "maximum_centroid_vertex_distance_mm": 1.3659113233194635
+          }
+        },
+        {
+          "index": 56,
+          "stored_radius_mm": 1.502342714076853,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.325863319654639,
+            "area_equivalent_radius_mm": 1.3020272451487693,
+            "centroid_uv_mm": [
+              -0.20796370035867912,
+              -0.058511746818181706
+            ],
+            "centroid_offset_mm": 0.21603824935087182,
+            "minimum_centroid_boundary_distance_mm": 1.2597935053443596,
+            "maximum_centroid_vertex_distance_mm": 1.3537052208006126
+          }
+        },
+        {
+          "index": 57,
+          "stored_radius_mm": 1.502342714076853,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.492923065911791,
+            "area_equivalent_radius_mm": 1.322290329665426,
+            "centroid_uv_mm": [
+              -0.19965658231050779,
+              0.11509801640925035
+            ],
+            "centroid_offset_mm": 0.23045672965061495,
+            "minimum_centroid_boundary_distance_mm": 1.2753725285307675,
+            "maximum_centroid_vertex_distance_mm": 1.3742923350844807
+          }
+        },
+        {
+          "index": 58,
+          "stored_radius_mm": 1.5691457886517186,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.441761323743363,
+            "area_equivalent_radius_mm": 1.3161179383323154,
+            "centroid_uv_mm": [
+              0.10984789760557995,
+              -0.03257060066773723
+            ],
+            "centroid_offset_mm": 0.11457488658612401,
+            "minimum_centroid_boundary_distance_mm": 1.2566648653789005,
+            "maximum_centroid_vertex_distance_mm": 1.3706003981121926
+          }
+        },
+        {
+          "index": 59,
+          "stored_radius_mm": 1.432427574097967,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.3121604055338745,
+            "area_equivalent_radius_mm": 1.300351173366459,
+            "centroid_uv_mm": [
+              0.03597678817366203,
+              0.22579362288242957
+            ],
+            "centroid_offset_mm": 0.22864183655154927,
+            "minimum_centroid_boundary_distance_mm": 1.2601176925624986,
+            "maximum_centroid_vertex_distance_mm": 1.3404263041327957
+          }
+        },
+        {
+          "index": 60,
+          "stored_radius_mm": 1.5691457886517186,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.300066276954235,
+            "area_equivalent_radius_mm": 1.2988700833354543,
+            "centroid_uv_mm": [
+              -0.04576794807111131,
+              0.044903452914055696
+            ],
+            "centroid_offset_mm": 0.06411727656602983,
+            "minimum_centroid_boundary_distance_mm": 1.254435295591522,
+            "maximum_centroid_vertex_distance_mm": 1.3353013840422776
+          }
+        }
+      ]
+    },
+    "smoothed": {
+      "stations": {
+        "status": "MEASURED",
+        "point_count": 62,
+        "inside_count": 62,
+        "outside_indices": [],
+        "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+      },
+      "sampled_intervals": {
+        "status": "MEASURED",
+        "point_count": 370,
+        "inside_count": 370,
+        "outside_indices": [],
+        "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+      },
+      "cross_sections": [
+        {
+          "index": 1,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.234281621584095,
+            "area_equivalent_radius_mm": 1.5174792781411948,
+            "centroid_uv_mm": [
+              -0.04012974312793026,
+              0.3192327060929859
+            ],
+            "centroid_offset_mm": 0.3217451117312653,
+            "minimum_centroid_boundary_distance_mm": 1.4693875490181163,
+            "maximum_centroid_vertex_distance_mm": 1.5433237292796236
+          }
+        },
+        {
+          "index": 2,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.450292824230643,
+            "area_equivalent_radius_mm": 1.5399681363316478,
+            "centroid_uv_mm": [
+              0.1329108025758665,
+              -0.09920891178327669
+            ],
+            "centroid_offset_mm": 0.16585442296961192,
+            "minimum_centroid_boundary_distance_mm": 1.4941707011148195,
+            "maximum_centroid_vertex_distance_mm": 1.5858690967647522
+          }
+        },
+        {
+          "index": 3,
+          "stored_radius_mm": 1.6948711623750818,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.295685796650105,
+            "area_equivalent_radius_mm": 1.5239058092823168,
+            "centroid_uv_mm": [
+              0.08799955542740294,
+              0.08300736798122822
+            ],
+            "centroid_offset_mm": 0.12097166980161757,
+            "minimum_centroid_boundary_distance_mm": 1.4782590979065813,
+            "maximum_centroid_vertex_distance_mm": 1.573933368720204
+          }
+        },
+        {
+          "index": 4,
+          "stored_radius_mm": 1.6948711623750818,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.133894190307133,
+            "area_equivalent_radius_mm": 1.506913749278262,
+            "centroid_uv_mm": [
+              0.14343818624023824,
+              0.10888460436555027
+            ],
+            "centroid_offset_mm": 0.1800843422947472,
+            "minimum_centroid_boundary_distance_mm": 1.4590097824403239,
+            "maximum_centroid_vertex_distance_mm": 1.5551067342960219
+          }
+        },
+        {
+          "index": 5,
+          "stored_radius_mm": 1.502342714076853,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.065979029911779,
+            "area_equivalent_radius_mm": 1.4997236348035161,
+            "centroid_uv_mm": [
+              0.18474589191365876,
+              0.09470712222378468
+            ],
+            "centroid_offset_mm": 0.2076065595757614,
+            "minimum_centroid_boundary_distance_mm": 1.4438398863471742,
+            "maximum_centroid_vertex_distance_mm": 1.5439175248515775
+          }
+        },
+        {
+          "index": 6,
+          "stored_radius_mm": 1.8118934869516747,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.105185452657015,
+            "area_equivalent_radius_mm": 1.503878576464862,
+            "centroid_uv_mm": [
+              0.15373756385537074,
+              0.04396466509805748
+            ],
+            "centroid_offset_mm": 0.15990037622647593,
+            "minimum_centroid_boundary_distance_mm": 1.4676054013827866,
+            "maximum_centroid_vertex_distance_mm": 1.53656985982802
+          }
+        },
+        {
+          "index": 7,
+          "stored_radius_mm": 1.6948711623750818,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.106903756319492,
+            "area_equivalent_radius_mm": 1.5040604129466384,
+            "centroid_uv_mm": [
+              0.17447040536869743,
+              0.0061989692851612994
+            ],
+            "centroid_offset_mm": 0.17458049596021882,
+            "minimum_centroid_boundary_distance_mm": 1.4715776883998737,
+            "maximum_centroid_vertex_distance_mm": 1.5465833487005791
+          }
+        },
+        {
+          "index": 8,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.065906538521519,
+            "area_equivalent_radius_mm": 1.4997159417910069,
+            "centroid_uv_mm": [
+              0.2539352650091541,
+              -0.030333235477054993
+            ],
+            "centroid_offset_mm": 0.25574054037202587,
+            "minimum_centroid_boundary_distance_mm": 1.441609199068714,
+            "maximum_centroid_vertex_distance_mm": 1.5519422694144134
+          }
+        },
+        {
+          "index": 9,
+          "stored_radius_mm": 1.432427574097967,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.933718452291608,
+            "area_equivalent_radius_mm": 1.4856214630178817,
+            "centroid_uv_mm": [
+              0.3197469704150191,
+              -0.06123206115938847
+            ],
+            "centroid_offset_mm": 0.32555719989490356,
+            "minimum_centroid_boundary_distance_mm": 1.4269081331705502,
+            "maximum_centroid_vertex_distance_mm": 1.5326918515763113
+          }
+        },
+        {
+          "index": 10,
+          "stored_radius_mm": 1.358920115213756,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.0486846782843475,
+            "area_equivalent_radius_mm": 1.497887184567022,
+            "centroid_uv_mm": [
+              0.2924368148514494,
+              -0.07358625165722518
+            ],
+            "centroid_offset_mm": 0.30155302537600476,
+            "minimum_centroid_boundary_distance_mm": 1.4456226928089786,
+            "maximum_centroid_vertex_distance_mm": 1.5385222986321003
+          }
+        },
+        {
+          "index": 11,
+          "stored_radius_mm": 1.8118934869516747,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.101471631618376,
+            "area_equivalent_radius_mm": 1.5034854927128043,
+            "centroid_uv_mm": [
+              0.1490191259608635,
+              -0.0956182414386621
+            ],
+            "centroid_offset_mm": 0.17705803567746362,
+            "minimum_centroid_boundary_distance_mm": 1.469479835144147,
+            "maximum_centroid_vertex_distance_mm": 1.5529010824947471
+          }
+        },
+        {
+          "index": 12,
+          "stored_radius_mm": 1.6948711623750818,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.93889466103773,
+            "area_equivalent_radius_mm": 1.4861758879070246,
+            "centroid_uv_mm": [
+              0.09442024751962075,
+              -0.1131430691749021
+            ],
+            "centroid_offset_mm": 0.14736531900003857,
+            "minimum_centroid_boundary_distance_mm": 1.4631244693226673,
+            "maximum_centroid_vertex_distance_mm": 1.5306925592142995
+          }
+        },
+        {
+          "index": 13,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.833912004813439,
+            "area_equivalent_radius_mm": 1.4748904204862836,
+            "centroid_uv_mm": [
+              0.08370556277199943,
+              -0.12783010753040577
+            ],
+            "centroid_offset_mm": 0.1527977670982539,
+            "minimum_centroid_boundary_distance_mm": 1.4351738414960773,
+            "maximum_centroid_vertex_distance_mm": 1.514032534851862
+          }
+        },
+        {
+          "index": 14,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.84399632013208,
+            "area_equivalent_radius_mm": 1.4759782145084406,
+            "centroid_uv_mm": [
+              0.09713566460544296,
+              -0.1433517616669778
+            ],
+            "centroid_offset_mm": 0.1731619615024244,
+            "minimum_centroid_boundary_distance_mm": 1.4467106091018234,
+            "maximum_centroid_vertex_distance_mm": 1.5194372855885092
+          }
+        },
+        {
+          "index": 15,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.974346497500586,
+            "area_equivalent_radius_mm": 1.4899675969046209,
+            "centroid_uv_mm": [
+              0.16003323825934032,
+              -0.15566209170843415
+            ],
+            "centroid_offset_mm": 0.22325170580046136,
+            "minimum_centroid_boundary_distance_mm": 1.4340638368785752,
+            "maximum_centroid_vertex_distance_mm": 1.5392159057718118
+          }
+        },
+        {
+          "index": 16,
+          "stored_radius_mm": 1.358920115213756,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.919283464862422,
+            "area_equivalent_radius_mm": 1.4840742340508923,
+            "centroid_uv_mm": [
+              0.3139398840569836,
+              -0.1623746047393786
+            ],
+            "centroid_offset_mm": 0.35344555884319967,
+            "minimum_centroid_boundary_distance_mm": 1.4347818974434872,
+            "maximum_centroid_vertex_distance_mm": 1.5231241234971014
+          }
+        },
+        {
+          "index": 17,
+          "stored_radius_mm": 1.358920115213756,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.785992286070018,
+            "area_equivalent_radius_mm": 1.469710322554424,
+            "centroid_uv_mm": [
+              0.3592806098283643,
+              -0.14616616369044225
+            ],
+            "centroid_offset_mm": 0.38787511393053115,
+            "minimum_centroid_boundary_distance_mm": 1.4395906671375958,
+            "maximum_centroid_vertex_distance_mm": 1.500251449664933
+          }
+        },
+        {
+          "index": 18,
+          "stored_radius_mm": 1.432427574097967,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.019186740599163,
+            "area_equivalent_radius_mm": 1.4947496554617072,
+            "centroid_uv_mm": [
+              0.06586479160283869,
+              0.3301397247130274
+            ],
+            "centroid_offset_mm": 0.33664582071738075,
+            "minimum_centroid_boundary_distance_mm": 1.448060130483391,
+            "maximum_centroid_vertex_distance_mm": 1.5441887847885667
+          }
+        },
+        {
+          "index": 19,
+          "stored_radius_mm": 1.432427574097967,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 7.040942564150648,
+            "area_equivalent_radius_mm": 1.497064336032824,
+            "centroid_uv_mm": [
+              -0.11839269969102538,
+              0.2271329864265403
+            ],
+            "centroid_offset_mm": 0.25613712121277593,
+            "minimum_centroid_boundary_distance_mm": 1.4458882743134513,
+            "maximum_centroid_vertex_distance_mm": 1.560609203729566
+          }
+        },
+        {
+          "index": 20,
+          "stored_radius_mm": 1.502342714076853,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.794177334189243,
+            "area_equivalent_radius_mm": 1.4705964143701251,
+            "centroid_uv_mm": [
+              -0.1854840397304137,
+              0.15015296440792522
+            ],
+            "centroid_offset_mm": 0.23864249771405205,
+            "minimum_centroid_boundary_distance_mm": 1.420345464097532,
+            "maximum_centroid_vertex_distance_mm": 1.5227662942444784
+          }
+        },
+        {
+          "index": 21,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.67037093805015,
+            "area_equivalent_radius_mm": 1.4571358941754224,
+            "centroid_uv_mm": [
+              0.07705346817132157,
+              0.17909425950322516
+            ],
+            "centroid_offset_mm": 0.19496664008039277,
+            "minimum_centroid_boundary_distance_mm": 1.4233799739106603,
+            "maximum_centroid_vertex_distance_mm": 1.5054922291016797
+          }
+        },
+        {
+          "index": 22,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.6210980340333006,
+            "area_equivalent_radius_mm": 1.4517441102428692,
+            "centroid_uv_mm": [
+              0.05476960221515334,
+              0.14355344632356004
+            ],
+            "centroid_offset_mm": 0.15364667675604757,
+            "minimum_centroid_boundary_distance_mm": 1.4006070976128198,
+            "maximum_centroid_vertex_distance_mm": 1.498253663492164
+          }
+        },
+        {
+          "index": 23,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.569210427271998,
+            "area_equivalent_radius_mm": 1.4460444749115846,
+            "centroid_uv_mm": [
+              0.09722155400732826,
+              0.10655282299238948
+            ],
+            "centroid_offset_mm": 0.14424123769313452,
+            "minimum_centroid_boundary_distance_mm": 1.414805494428351,
+            "maximum_centroid_vertex_distance_mm": 1.485381742729347
+          }
+        },
+        {
+          "index": 24,
+          "stored_radius_mm": 1.6948711623750818,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.572067915533218,
+            "area_equivalent_radius_mm": 1.4463589423740986,
+            "centroid_uv_mm": [
+              0.08600990530102601,
+              0.13739595296444956
+            ],
+            "centroid_offset_mm": 0.16209673562691107,
+            "minimum_centroid_boundary_distance_mm": 1.4054231999343831,
+            "maximum_centroid_vertex_distance_mm": 1.4822612666624277
+          }
+        },
+        {
+          "index": 25,
+          "stored_radius_mm": 1.358920115213756,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.503852876038957,
+            "area_equivalent_radius_mm": 1.4388330927276034,
+            "centroid_uv_mm": [
+              0.06656381417911814,
+              0.1890155110154037
+            ],
+            "centroid_offset_mm": 0.20039362455548923,
+            "minimum_centroid_boundary_distance_mm": 1.3955207358194799,
+            "maximum_centroid_vertex_distance_mm": 1.4770700286984224
+          }
+        },
+        {
+          "index": 26,
+          "stored_radius_mm": 1.502342714076853,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.44956487433821,
+            "area_equivalent_radius_mm": 1.4328155014116681,
+            "centroid_uv_mm": [
+              0.130562648631388,
+              0.09434100083273074
+            ],
+            "centroid_offset_mm": 0.1610801963487895,
+            "minimum_centroid_boundary_distance_mm": 1.3965859736204849,
+            "maximum_centroid_vertex_distance_mm": 1.473238499654485
+          }
+        },
+        {
+          "index": 27,
+          "stored_radius_mm": 1.502342714076853,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.4280342731925035,
+            "area_equivalent_radius_mm": 1.4304219160392544,
+            "centroid_uv_mm": [
+              0.09285783537407154,
+              0.11454514361553728
+            ],
+            "centroid_offset_mm": 0.147455645928741,
+            "minimum_centroid_boundary_distance_mm": 1.403454669099148,
+            "maximum_centroid_vertex_distance_mm": 1.47271383963129
+          }
+        },
+        {
+          "index": 28,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.438362814382719,
+            "area_equivalent_radius_mm": 1.4315706530437518,
+            "centroid_uv_mm": [
+              0.06411147399323454,
+              0.10647731039518989
+            ],
+            "centroid_offset_mm": 0.12428877152252653,
+            "minimum_centroid_boundary_distance_mm": 1.4026797157433328,
+            "maximum_centroid_vertex_distance_mm": 1.4718840378947768
+          }
+        },
+        {
+          "index": 29,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.391190755222621,
+            "area_equivalent_radius_mm": 1.4263166555410505,
+            "centroid_uv_mm": [
+              0.0713347033614968,
+              0.027797148612253925
+            ],
+            "centroid_offset_mm": 0.07655926707227854,
+            "minimum_centroid_boundary_distance_mm": 1.4008337644813351,
+            "maximum_centroid_vertex_distance_mm": 1.4745217525726118
+          }
+        },
+        {
+          "index": 30,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.3389174455514175,
+            "area_equivalent_radius_mm": 1.4204717845215782,
+            "centroid_uv_mm": [
+              -0.011817827554573525,
+              0.03813599084180997
+            ],
+            "centroid_offset_mm": 0.03992511547379984,
+            "minimum_centroid_boundary_distance_mm": 1.3862782672403597,
+            "maximum_centroid_vertex_distance_mm": 1.4717031654859205
+          }
+        },
+        {
+          "index": 31,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.330275034247856,
+            "area_equivalent_radius_mm": 1.4195031263310156,
+            "centroid_uv_mm": [
+              -0.049115413644099444,
+              -0.011194567280126404
+            ],
+            "centroid_offset_mm": 0.05037501557339974,
+            "minimum_centroid_boundary_distance_mm": 1.3915405440228574,
+            "maximum_centroid_vertex_distance_mm": 1.4628363409593477
+          }
+        },
+        {
+          "index": 32,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.305562049037825,
+            "area_equivalent_radius_mm": 1.4167295924607701,
+            "centroid_uv_mm": [
+              -0.08218309546063811,
+              0.010899340119002364
+            ],
+            "centroid_offset_mm": 0.08290269473619087,
+            "minimum_centroid_boundary_distance_mm": 1.385080461209008,
+            "maximum_centroid_vertex_distance_mm": 1.4662793456729781
+          }
+        },
+        {
+          "index": 33,
+          "stored_radius_mm": 1.502342714076853,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.295865917551694,
+            "area_equivalent_radius_mm": 1.4156399131291428,
+            "centroid_uv_mm": [
+              -0.10501945052805414,
+              -0.04204628592241274
+            ],
+            "centroid_offset_mm": 0.11312371612126122,
+            "minimum_centroid_boundary_distance_mm": 1.378603354770331,
+            "maximum_centroid_vertex_distance_mm": 1.4638903089159616
+          }
+        },
+        {
+          "index": 34,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.321612292942724,
+            "area_equivalent_radius_mm": 1.4185315257211066,
+            "centroid_uv_mm": [
+              -0.06309851288832932,
+              0.06544033395565615
+            ],
+            "centroid_offset_mm": 0.09090577339721866,
+            "minimum_centroid_boundary_distance_mm": 1.381671813603422,
+            "maximum_centroid_vertex_distance_mm": 1.4603803164593399
+          }
+        },
+        {
+          "index": 35,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.26406062991667,
+            "area_equivalent_radius_mm": 1.4120596397309637,
+            "centroid_uv_mm": [
+              -0.0418467399666308,
+              -0.025130957631728453
+            ],
+            "centroid_offset_mm": 0.04881305847129993,
+            "minimum_centroid_boundary_distance_mm": 1.3874962437685432,
+            "maximum_centroid_vertex_distance_mm": 1.4576263144914086
+          }
+        },
+        {
+          "index": 36,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.211177915503652,
+            "area_equivalent_radius_mm": 1.4060865319571345,
+            "centroid_uv_mm": [
+              0.048010538362066646,
+              -0.0022475854401532145
+            ],
+            "centroid_offset_mm": 0.048063119271706256,
+            "minimum_centroid_boundary_distance_mm": 1.3831107000643645,
+            "maximum_centroid_vertex_distance_mm": 1.4494149858999692
+          }
+        },
+        {
+          "index": 37,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.159670812272623,
+            "area_equivalent_radius_mm": 1.400244305535329,
+            "centroid_uv_mm": [
+              0.061416069861176634,
+              0.049750039348818505
+            ],
+            "centroid_offset_mm": 0.07903796589236035,
+            "minimum_centroid_boundary_distance_mm": 1.3721679938549063,
+            "maximum_centroid_vertex_distance_mm": 1.4379470704302924
+          }
+        },
+        {
+          "index": 38,
+          "stored_radius_mm": 1.6948711623750818,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 6.087130705517677,
+            "area_equivalent_radius_mm": 1.3919748137301873,
+            "centroid_uv_mm": [
+              -0.0010132707223716754,
+              0.060309096077263195
+            ],
+            "centroid_offset_mm": 0.06031760760518755,
+            "minimum_centroid_boundary_distance_mm": 1.362120505962759,
+            "maximum_centroid_vertex_distance_mm": 1.4277242585175358
+          }
+        },
+        {
+          "index": 39,
+          "stored_radius_mm": 1.502342714076853,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.942386507025401,
+            "area_equivalent_radius_mm": 1.3753255515372893,
+            "centroid_uv_mm": [
+              -0.06826060003502449,
+              0.09773871637581345
+            ],
+            "centroid_offset_mm": 0.11921562899189557,
+            "minimum_centroid_boundary_distance_mm": 1.3385340333900888,
+            "maximum_centroid_vertex_distance_mm": 1.4162961611563223
+          }
+        },
+        {
+          "index": 40,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.926424771752208,
+            "area_equivalent_radius_mm": 1.3734771911368762,
+            "centroid_uv_mm": [
+              -0.03740003258855936,
+              0.11837650213941757
+            ],
+            "centroid_offset_mm": 0.12414410455752152,
+            "minimum_centroid_boundary_distance_mm": 1.3206300998487819,
+            "maximum_centroid_vertex_distance_mm": 1.4189703384340329
+          }
+        },
+        {
+          "index": 41,
+          "stored_radius_mm": 1.432427574097967,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.930839761870535,
+            "area_equivalent_radius_mm": 1.3739886933942762,
+            "centroid_uv_mm": [
+              0.02264192767138019,
+              0.1507138934836793
+            ],
+            "centroid_offset_mm": 0.152405165849737,
+            "minimum_centroid_boundary_distance_mm": 1.3361368202137724,
+            "maximum_centroid_vertex_distance_mm": 1.4098123204853201
+          }
+        },
+        {
+          "index": 42,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.930672616120165,
+            "area_equivalent_radius_mm": 1.3739693320560449,
+            "centroid_uv_mm": [
+              0.056289877430812825,
+              0.1122238670535443
+            ],
+            "centroid_offset_mm": 0.1255497775291837,
+            "minimum_centroid_boundary_distance_mm": 1.3384277145438905,
+            "maximum_centroid_vertex_distance_mm": 1.4142152247317863
+          }
+        },
+        {
+          "index": 43,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.906889422262678,
+            "area_equivalent_radius_mm": 1.3712116174028974,
+            "centroid_uv_mm": [
+              0.0348317839509587,
+              0.042123801721850714
+            ],
+            "centroid_offset_mm": 0.05465956315877449,
+            "minimum_centroid_boundary_distance_mm": 1.3360645245192437,
+            "maximum_centroid_vertex_distance_mm": 1.3958910220357308
+          }
+        },
+        {
+          "index": 44,
+          "stored_radius_mm": 1.5691457886517186,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.904537805522648,
+            "area_equivalent_radius_mm": 1.3709386408019153,
+            "centroid_uv_mm": [
+              -0.0893315761884049,
+              0.05072257787262321
+            ],
+            "centroid_offset_mm": 0.10272735959981213,
+            "minimum_centroid_boundary_distance_mm": 1.3319899714991565,
+            "maximum_centroid_vertex_distance_mm": 1.3966581879984685
+          }
+        },
+        {
+          "index": 45,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.8400426623686075,
+            "area_equivalent_radius_mm": 1.3634307152059593,
+            "centroid_uv_mm": [
+              -0.18095659217058205,
+              0.042488726996067726
+            ],
+            "centroid_offset_mm": 0.18587786358718655,
+            "minimum_centroid_boundary_distance_mm": 1.3274177430665353,
+            "maximum_centroid_vertex_distance_mm": 1.3900536630794702
+          }
+        },
+        {
+          "index": 46,
+          "stored_radius_mm": 1.358920115213756,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.778355881803274,
+            "area_equivalent_radius_mm": 1.356210825449435,
+            "centroid_uv_mm": [
+              -0.18054709163091423,
+              0.06105119528772406
+            ],
+            "centroid_offset_mm": 0.19058987576060163,
+            "minimum_centroid_boundary_distance_mm": 1.3295656341675994,
+            "maximum_centroid_vertex_distance_mm": 1.3838518613046251
+          }
+        },
+        {
+          "index": 47,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.792209883314955,
+            "area_equivalent_radius_mm": 1.3578356560020843,
+            "centroid_uv_mm": [
+              -0.12652734760268114,
+              0.012816430676115178
+            ],
+            "centroid_offset_mm": 0.12717480326953673,
+            "minimum_centroid_boundary_distance_mm": 1.3233061091363905,
+            "maximum_centroid_vertex_distance_mm": 1.3956550249362178
+          }
+        },
+        {
+          "index": 48,
+          "stored_radius_mm": 1.502342714076853,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.695082800604265,
+            "area_equivalent_radius_mm": 1.3464030444364004,
+            "centroid_uv_mm": [
+              -0.10081258051083135,
+              -0.0798029680976784
+            ],
+            "centroid_offset_mm": 0.12857562018692317,
+            "minimum_centroid_boundary_distance_mm": 1.3090722616671955,
+            "maximum_centroid_vertex_distance_mm": 1.3848402563349789
+          }
+        },
+        {
+          "index": 49,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.663072892050487,
+            "area_equivalent_radius_mm": 1.3426139012087954,
+            "centroid_uv_mm": [
+              -0.1317219544314789,
+              -0.03413710304560285
+            ],
+            "centroid_offset_mm": 0.13607356496981593,
+            "minimum_centroid_boundary_distance_mm": 1.3108536145952985,
+            "maximum_centroid_vertex_distance_mm": 1.3841654546305435
+          }
+        },
+        {
+          "index": 50,
+          "stored_radius_mm": 1.5691457886517186,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.570604199988782,
+            "area_equivalent_radius_mm": 1.3316074454858593,
+            "centroid_uv_mm": [
+              -0.15515894333329408,
+              0.09906838355470336
+            ],
+            "centroid_offset_mm": 0.18408922379228554,
+            "minimum_centroid_boundary_distance_mm": 1.2907827452885243,
+            "maximum_centroid_vertex_distance_mm": 1.379612650805742
+          }
+        },
+        {
+          "index": 51,
+          "stored_radius_mm": 1.502342714076853,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.51730130093599,
+            "area_equivalent_radius_mm": 1.3252213208149857,
+            "centroid_uv_mm": [
+              -0.1351431240074286,
+              0.18770653751589647
+            ],
+            "centroid_offset_mm": 0.23129506737648745,
+            "minimum_centroid_boundary_distance_mm": 1.278589910865494,
+            "maximum_centroid_vertex_distance_mm": 1.383767833969712
+          }
+        },
+        {
+          "index": 52,
+          "stored_radius_mm": 1.432427574097967,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.500326811577599,
+            "area_equivalent_radius_mm": 1.3231811672506972,
+            "centroid_uv_mm": [
+              -0.08311959754530936,
+              0.16532977311766545
+            ],
+            "centroid_offset_mm": 0.18504810557050547,
+            "minimum_centroid_boundary_distance_mm": 1.271360925988842,
+            "maximum_centroid_vertex_distance_mm": 1.3832145284340496
+          }
+        },
+        {
+          "index": 53,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.4474721217172135,
+            "area_equivalent_radius_mm": 1.316808350160789,
+            "centroid_uv_mm": [
+              -0.039126000872441946,
+              0.05345578967729763
+            ],
+            "centroid_offset_mm": 0.06624473861593695,
+            "minimum_centroid_boundary_distance_mm": 1.2714110802026173,
+            "maximum_centroid_vertex_distance_mm": 1.366410294269891
+          }
+        },
+        {
+          "index": 54,
+          "stored_radius_mm": 1.6332187182208764,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.400842930847684,
+            "area_equivalent_radius_mm": 1.3111604396925103,
+            "centroid_uv_mm": [
+              -0.02608330114171911,
+              -0.07601723145113758
+            ],
+            "centroid_offset_mm": 0.08036764321507398,
+            "minimum_centroid_boundary_distance_mm": 1.2680337190956366,
+            "maximum_centroid_vertex_distance_mm": 1.350870243675756
+          }
+        },
+        {
+          "index": 55,
+          "stored_radius_mm": 1.2812021714112685,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.342350032460325,
+            "area_equivalent_radius_mm": 1.3040409620814895,
+            "centroid_uv_mm": [
+              -0.16554868637872605,
+              0.07757140129895301
+            ],
+            "centroid_offset_mm": 0.1828214699131505,
+            "minimum_centroid_boundary_distance_mm": 1.2626803307627523,
+            "maximum_centroid_vertex_distance_mm": 1.3450028986216729
+          }
+        },
+        {
+          "index": 56,
+          "stored_radius_mm": 1.502342714076853,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.298890084492182,
+            "area_equivalent_radius_mm": 1.2987259524992651,
+            "centroid_uv_mm": [
+              -0.1879429731484788,
+              0.03706869074254732
+            ],
+            "centroid_offset_mm": 0.19156369434017617,
+            "minimum_centroid_boundary_distance_mm": 1.261180184028465,
+            "maximum_centroid_vertex_distance_mm": 1.341209389979254
+          }
+        },
+        {
+          "index": 57,
+          "stored_radius_mm": 1.502342714076853,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.3434195394869715,
+            "area_equivalent_radius_mm": 1.3041714862112042,
+            "centroid_uv_mm": [
+              -0.09506556003091665,
+              0.028245215135269567
+            ],
+            "centroid_offset_mm": 0.09917284347052613,
+            "minimum_centroid_boundary_distance_mm": 1.2647511996019967,
+            "maximum_centroid_vertex_distance_mm": 1.343777016795224
+          }
+        },
+        {
+          "index": 58,
+          "stored_radius_mm": 1.5691457886517186,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.34113630900222,
+            "area_equivalent_radius_mm": 1.3038928217497818,
+            "centroid_uv_mm": [
+              0.008449969983930408,
+              0.04730819472944819
+            ],
+            "centroid_offset_mm": 0.048056917101377966,
+            "minimum_centroid_boundary_distance_mm": 1.2492134911168373,
+            "maximum_centroid_vertex_distance_mm": 1.3466349036403946
+          }
+        },
+        {
+          "index": 59,
+          "stored_radius_mm": 1.432427574097967,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.263149483697991,
+            "area_equivalent_radius_mm": 1.2943386392765166,
+            "centroid_uv_mm": [
+              0.03828511052881995,
+              0.18479668355898243
+            ],
+            "centroid_offset_mm": 0.18872086249962575,
+            "minimum_centroid_boundary_distance_mm": 1.2601421444191494,
+            "maximum_centroid_vertex_distance_mm": 1.3351224461497158
+          }
+        },
+        {
+          "index": 60,
+          "stored_radius_mm": 1.5691457886517186,
+          "status": "MEASURED",
+          "contours": 1,
+          "closed_contours": 1,
+          "enclosing_contours": 1,
+          "metrics": {
+            "area_mm2": 5.308386277062868,
+            "area_equivalent_radius_mm": 1.2998891613024082,
+            "centroid_uv_mm": [
+              -0.04595478889380689,
+              0.04483861495735835
+            ],
+            "centroid_offset_mm": 0.0642054827376027,
+            "minimum_centroid_boundary_distance_mm": 1.2544843765586016,
+            "maximum_centroid_vertex_distance_mm": 1.3357778981970876
+          }
+        }
+      ]
+    }
+  },
+  "centerline_metrics": [
+    {
+      "edge_id": "FJ1692M:e0",
+      "max_displacement_mm": 0.25113154732368315,
+      "original_length_mm": 36.9208059360896,
+      "modified_length_mm": 33.67102257832929,
+      "endpoint_chords_unchanged": true,
+      "radii_unchanged": true
+    }
+  ],
+  "result_case_revision": "218de320b33935fa06862a7420555dfa241af49a70e5388dc74e8c74ef85eaa0",
+  "result_file": "exports/cerebral-workbench-smoothing/FJ1692M-e0/218de320b33935fa/case.snapshot.json",
+  "interpretation": "PASS is limited to fixed endpoints/radii and sampled containment, not continuous containment or anatomical validity."
+}

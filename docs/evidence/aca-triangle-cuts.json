@@ -1,0 +1,156 @@
+{
+  "schema": "vv-toolbox.aca-triangle-cuts/1",
+  "case_revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+  "atlas_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "rows": [
+    {
+      "part_id": "FJ1654",
+      "status": "PASS",
+      "faces": [
+        {
+          "source_face_id": 178,
+          "source_area_mm2": 0.5289423704914122,
+          "area_residual_mm2": 9.237055564881302e-14,
+          "plane_deviation_mm": 1.2525650043327963e-14,
+          "outside_piece_count": 16
+        },
+        {
+          "source_face_id": 179,
+          "source_area_mm2": 0.5745647828982352,
+          "area_residual_mm2": 2.986499936241671e-14,
+          "plane_deviation_mm": 7.352416716724077e-14,
+          "outside_piece_count": 14
+        },
+        {
+          "source_face_id": 180,
+          "source_area_mm2": 1.1650602238068262,
+          "area_residual_mm2": 3.952393967665557e-14,
+          "plane_deviation_mm": 1.211420183347498e-13,
+          "outside_piece_count": 28
+        },
+        {
+          "source_face_id": 195,
+          "source_area_mm2": 2.0021990780207126,
+          "area_residual_mm2": 7.682743330406083e-14,
+          "plane_deviation_mm": 3.712536357548616e-13,
+          "outside_piece_count": 32
+        },
+        {
+          "source_face_id": 268,
+          "source_area_mm2": 1.4971815939742694,
+          "area_residual_mm2": 5.728750807065808e-14,
+          "plane_deviation_mm": 1.1202244697749499e-13,
+          "outside_piece_count": 18
+        },
+        {
+          "source_face_id": 284,
+          "source_area_mm2": 0.6103525629821193,
+          "area_residual_mm2": 4.884981308350689e-14,
+          "plane_deviation_mm": 1.942079055825803e-13,
+          "outside_piece_count": 15
+        },
+        {
+          "source_face_id": 285,
+          "source_area_mm2": 1.4061537780035582,
+          "area_residual_mm2": 7.924771949774367e-13,
+          "plane_deviation_mm": 2.420476871908528e-13,
+          "outside_piece_count": 30
+        },
+        {
+          "source_face_id": 286,
+          "source_area_mm2": 1.7849479670361381,
+          "area_residual_mm2": 4.0545344859310717e-13,
+          "plane_deviation_mm": 9.900590236211281e-14,
+          "outside_piece_count": 33
+        },
+        {
+          "source_face_id": 289,
+          "source_area_mm2": 1.0245696396914399,
+          "area_residual_mm2": 1.0502709812953981e-13,
+          "plane_deviation_mm": 2.6625884912564865e-13,
+          "outside_piece_count": 28
+        }
+      ]
+    },
+    {
+      "part_id": "FJ1654M",
+      "status": "PASS",
+      "faces": [
+        {
+          "source_face_id": 272,
+          "source_area_mm2": 0.5196571279017044,
+          "area_residual_mm2": 3.8413716652030416e-14,
+          "plane_deviation_mm": 9.93124333593771e-14,
+          "outside_piece_count": 22
+        },
+        {
+          "source_face_id": 275,
+          "source_area_mm2": 0.44605486051773796,
+          "area_residual_mm2": 6.966649479522857e-14,
+          "plane_deviation_mm": 1.2334569728234486e-13,
+          "outside_piece_count": 16
+        },
+        {
+          "source_face_id": 290,
+          "source_area_mm2": 0.42627968104849384,
+          "area_residual_mm2": 4.674038933671909e-14,
+          "plane_deviation_mm": 1.6622196787082338e-13,
+          "outside_piece_count": 12
+        },
+        {
+          "source_face_id": 291,
+          "source_area_mm2": 0.33759204271061843,
+          "area_residual_mm2": 2.475797344914099e-14,
+          "plane_deviation_mm": 1.600289348022553e-13,
+          "outside_piece_count": 10
+        },
+        {
+          "source_face_id": 292,
+          "source_area_mm2": 0.6277998937811212,
+          "area_residual_mm2": 1.7985612998927536e-14,
+          "plane_deviation_mm": 2.398256916582713e-13,
+          "outside_piece_count": 13
+        },
+        {
+          "source_face_id": 391,
+          "source_area_mm2": 0.6049440108450271,
+          "area_residual_mm2": 1.2989609388114332e-14,
+          "plane_deviation_mm": 3.007104303157849e-13,
+          "outside_piece_count": 15
+        },
+        {
+          "source_face_id": 394,
+          "source_area_mm2": 0.6492735019003008,
+          "area_residual_mm2": 2.4980018054066022e-14,
+          "plane_deviation_mm": 1.6892335882624985e-13,
+          "outside_piece_count": 23
+        },
+        {
+          "source_face_id": 395,
+          "source_area_mm2": 0.29341592270839495,
+          "area_residual_mm2": 4.707345624410664e-14,
+          "plane_deviation_mm": 1.6720163103384612e-13,
+          "outside_piece_count": 15
+        },
+        {
+          "source_face_id": 396,
+          "source_area_mm2": 0.5743779123572569,
+          "area_residual_mm2": 2.453592884421596e-14,
+          "plane_deviation_mm": 1.4086651847894522e-13,
+          "outside_piece_count": 26
+        },
+        {
+          "source_face_id": 399,
+          "source_area_mm2": 1.2632378779809685,
+          "area_residual_mm2": 2.708944180085382e-14,
+          "plane_deviation_mm": 2.1618941734575946e-13,
+          "outside_piece_count": 33
+        }
+      ]
+    }
+  ],
+  "scope": "Individual source-face partitions only",
+  "stitched_opening": "NOT RUN",
+  "closed_union": "NOT RUN",
+  "accepted_for_generation": false
+}

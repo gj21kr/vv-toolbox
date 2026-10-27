@@ -1,0 +1,120 @@
+{
+  "schema": "vv-toolbox.full-iliac-surface/1",
+  "case_revision": "b6417e63a06dd58c4df6bd127d54ad84190499a09746c7509b2715a86357ac20",
+  "edge_ids": [
+    "R-EIA-retained",
+    "FJ3617:e0"
+  ],
+  "spacing_mm": 0.15,
+  "max_grid_voxels": 1000000000,
+  "grid_bound": 661743360,
+  "surface": {
+    "status": "PASS",
+    "vertices": 322565,
+    "triangles": 645122,
+    "metadata": {
+      "schema": "vv-toolbox.case-surface/1",
+      "case_id": "R-iliac-full-source-profile-candidate",
+      "case_revision": "b6417e63a06dd58c4df6bd127d54ad84190499a09746c7509b2715a86357ac20",
+      "frame": {
+        "axes": "LPS",
+        "evidence_ref": "docs/CEREBRAL_LANDMARK_INSPECTION.md",
+        "id": "bodyparts3d_native_LPS",
+        "origin": "unchanged BodyParts3D native origin",
+        "units": "mm"
+      },
+      "edge_ids": [
+        "R-EIA-retained",
+        "FJ3617:e0"
+      ],
+      "provenance": "estimated",
+      "method": "implicit-radius-profile-union",
+      "spacing_mm": 0.15,
+      "grid_voxel_bound": 661743360,
+      "winding_reversed": false,
+      "graph_components": [
+        {
+          "edge_ids": [
+            "R-EIA-retained"
+          ],
+          "winding_reversed": false
+        },
+        {
+          "edge_ids": [
+            "FJ3617:e0"
+          ],
+          "winding_reversed": false
+        }
+      ],
+      "graph_component_count": 2,
+      "component_policy": "Separate graph components remain separate; no inferred connecting geometry",
+      "nonincident_clearance_screen": {
+        "status": "PASS",
+        "scope": "nonincident edge conservative capsule envelopes only",
+        "coverage": {
+          "selected_edge_ids": [
+            "R-EIA-retained",
+            "FJ3617:e0"
+          ],
+          "focus_edge_ids": [
+            "FJ3617:e0",
+            "R-EIA-retained"
+          ],
+          "pair_policy": "at least one focus edge"
+        },
+        "margin_mm": 0.3,
+        "checked_segment_pairs": 25056,
+        "bbox_separated_pairs": 0,
+        "potential_contacts": [],
+        "shared_node_pairs_not_checked": [],
+        "within_edge_self_intersection": "NOT RUN",
+        "final_surface_collision": "NOT RUN"
+      },
+      "junction_clearance_screen": {
+        "status": "PASS",
+        "scope": "incident-edge capsules outside explicit shared-node arc collars",
+        "collars_mm": {},
+        "margin_mm": 0.3,
+        "checked_segment_pairs": 0,
+        "exempt_segment_pairs": 0,
+        "potential_contacts": [],
+        "collar_consumed_edge_pairs": [],
+        "inside_junction_collars": "NOT CHECKED",
+        "within_edge_self_intersection": "NOT RUN",
+        "final_surface_collision": "NOT RUN"
+      },
+      "self_clearance_screen": {
+        "status": "PASS",
+        "scope": "within-edge capsules at arc separations at least the explicit local window",
+        "local_windows_mm": {
+          "R-EIA-retained": 18.68260046892169,
+          "FJ3617:e0": 6.615084672065122
+        },
+        "margin_mm": 0.3,
+        "examined_segment_pairs": 45069,
+        "checked_segment_pairs": 42719,
+        "locally_exempt_segment_pairs": 2350,
+        "potential_contacts": [],
+        "local_folding": "NOT CHECKED",
+        "final_surface_collision": "NOT RUN"
+      },
+      "self_clearance_local_window_policy": "4 * maximum edge radius + 2 * grid spacing; arc length mm",
+      "junction_collar_policy": "3 * maximum incident endpoint radius + 2 * grid spacing; arc length mm",
+      "terminal_policy": "closed caps; not anatomical terminal assertion",
+      "checks": {
+        "watertight": "PASS",
+        "oriented_positive_volume": "PASS",
+        "anatomical_connectivity": "UNKNOWN",
+        "self_intersection": "NOT RUN",
+        "clinical_validity": "NOT RUN"
+      },
+      "limitations": "Selected edge subset only; nearby swept paths may merge. No automatic segment or lesion face labels."
+    },
+    "sha256": "fe6c783befdf3b0d9e57ef934e0df3fc7ffce47dee627809a3efc4989f7476fc"
+  },
+  "input_unchanged": true,
+  "scope": "Complete two selected paths; not the whole arterial atlas",
+  "final_mesh_collision": "NOT RUN",
+  "visual_review": "NOT RUN",
+  "default_app_applied": false
+}

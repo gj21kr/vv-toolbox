@@ -1,0 +1,21 @@
+{
+  "case_revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+  "atlas_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "rows": [
+    {
+      "part_id": "FJ1654",
+      "vertices": 680,
+      "faces": 1280,
+      "rim_vertices": 76,
+      "status": "PASS"
+    },
+    {
+      "part_id": "FJ1654M",
+      "vertices": 621,
+      "faces": 1162,
+      "rim_vertices": 76,
+      "status": "PASS"
+    }
+  ],
+  "closed_union": "NOT RUN"
+}

@@ -1,0 +1,100 @@
+{
+  "scope": "Rendered initial pages including hidden UI nodes; not every interaction or error branch",
+  "rows": [
+    {
+      "path": "/",
+      "untranslated": [],
+      "english_in_korean": [
+        {
+          "text": "Estimated right carotid neck connector · Arterial (estimated_right_carotid_neck) · ESTIMATED",
+          "element": "BUTTON"
+        },
+        {
+          "text": "Estimated right vertebral neck connector · Arterial (estimated_right_vertebral_neck) · ESTIMATED",
+          "element": "BUTTON"
+        },
+        {
+          "text": "Estimated left carotid neck connector · Arterial (estimated_left_carotid_neck) · ESTIMATED",
+          "element": "BUTTON"
+        },
+        {
+          "text": "Estimated left vertebral neck connector · Arterial (estimated_left_vertebral_neck) · ESTIMATED",
+          "element": "BUTTON"
+        },
+        {
+          "text": "Estimated jugular and cerebral venous network · Systemic Venous (estimated_cerebral_venous_network) · ESTIMATED",
+          "element": "BUTTON"
+        },
+        {
+          "text": "Estimated left carotid neck connector · estimated_left_carotid_neck",
+          "element": "OPTION"
+        },
+        {
+          "text": "Estimated left vertebral neck connector · estimated_left_vertebral_neck",
+          "element": "OPTION"
+        },
+        {
+          "text": "Estimated right carotid neck connector · estimated_right_carotid_neck",
+          "element": "OPTION"
+        },
+        {
+          "text": "Estimated right vertebral neck connector · estimated_right_vertebral_neck",
+          "element": "OPTION"
+        },
+        {
+          "text": "Estimated jugular and cerebral venous network · estimated_cerebral_venous_network",
+          "element": "OPTION"
+        },
+        {
+          "text": "Right Internal Jugular Extension · ESTIMATED",
+          "element": "LI"
+        },
+        {
+          "text": "Right Sigmoid Lower · ESTIMATED",
+          "element": "LI"
+        },
+        {
+          "text": "Right Sigmoid Upper · ESTIMATED",
+          "element": "LI"
+        },
+        {
+          "text": "Right Transverse Sinus · ESTIMATED",
+          "element": "LI"
+        },
+        {
+          "text": "Left Internal Jugular Extension · ESTIMATED",
+          "element": "LI"
+        },
+        {
+          "text": "Left Sigmoid Lower · ESTIMATED",
+          "element": "LI"
+        },
+        {
+          "text": "Left Sigmoid Upper · ESTIMATED",
+          "element": "LI"
+        },
+        {
+          "text": "Left Transverse Sinus · ESTIMATED",
+          "element": "LI"
+        },
+        {
+          "text": "Superior Sagittal Anterior · ESTIMATED",
+          "element": "LI"
+        },
+        {
+          "text": "Superior Sagittal Posterior · ESTIMATED",
+          "element": "LI"
+        },
+        {
+          "text": "Straight Sinus · ESTIMATED",
+          "element": "LI"
+        }
+      ]
+    },
+    {
+      "path": "/case-labels",
+      "untranslated": [],
+      "english_in_korean": []
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "vv-toolbox.regression-evidence/1",
+  "environment": "Docker vv-annotation-ui, /workspace, PYTHONPATH=src",
+  "command": "python -m pytest -q -p no:cacheprovider",
+  "exit_code": 0,
+  "passed": 531,
+  "skipped": 3,
+  "warnings": 318,
+  "seconds": 80.69,
+  "scope": "Complete collected Python test suite in the current working tree after right iliac continuation construction",
+  "skip_reasons_emitted": false,
+  "warning_summary": "NumPy 2.5 shape assignment deprecation in skimage marching cubes",
+  "anatomical_acceptance": "UNKNOWN",
+  "browser_validation_this_run": "NOT RUN",
+  "candidate_revision": "ac6663b2ad015ed1031d35ff61ba84bcb35be5838656397e59d79107d2cdf8f5"
+}
