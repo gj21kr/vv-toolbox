@@ -10,7 +10,7 @@ requires-python = ">=3.11"
 dependencies = ["numpy>=2,<3", "viser>=1.1,<2", "scipy>=1.15,<2", "scikit-image>=0.25,<1", "trimesh>=5,<6", "rtree==1.4.1"]
 
 [project.optional-dependencies]
-dev = ["pytest>=8,<10"]
+dev = ["pytest>=8,<10", "matplotlib>=3.9,<4"]
 remesh = ["mapbox-earcut==1.0.3"]
 solid = ["manifold3d==3.5.4"]
 
