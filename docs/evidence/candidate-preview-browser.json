@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "browser": "Playwright Chromium",
+  "fallback_reason": "Browser plugin not available",
+  "title": "VV Toolbox",
+  "url": "http://127.0.0.1:8093/",
+  "candidate_edges": [
+    "R-EIA-retained",
+    "FJ3617:e0"
+  ],
+  "atlas_selection": "FJ1692",
+  "atlas_selection_preserved": true,
+  "atlas_modifications_preserved": true,
+  "pageerrors": [],
+  "console_messages": [
+    {
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x4ec4001bd600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x4ec4001bd600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x4ec4001bd600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x4ec4001bd600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    }
+  ],
+  "screenshots": [
+    "exports/candidate-preview-desktop.png",
+    "exports/candidate-preview-mobile.png"
+  ],
+  "limitation": "Existing Atlas modifications compared; no new edit applied by browser test. Surface visual review is separate. Software WebGL rendering warning observed; GPU performance not tested."
+}

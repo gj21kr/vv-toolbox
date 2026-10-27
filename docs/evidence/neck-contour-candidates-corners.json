@@ -1,0 +1,53 @@
+{
+  "case_revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+  "candidates": [
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "method": "measured-contour-hermite-bridge/1",
+      "status": "CANDIDATE",
+      "stations": 96,
+      "perimeter_samples": 122,
+      "endpoint_derivative_error": 3.6415315207705135e-14,
+      "source_modified": false,
+      "endpoint_policy": "all source corners retained with shared perimeter stations",
+      "self_intersection": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 174620,
+        "adjacent_pairs_checked": 138104,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "source_union": "NOT RUN",
+      "neighboring_vessels": "NOT RUN",
+      "anatomical_validation": "NOT RUN"
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "method": "measured-contour-hermite-bridge/1",
+      "status": "CANDIDATE",
+      "stations": 96,
+      "perimeter_samples": 156,
+      "endpoint_derivative_error": 1.865174681370263e-14,
+      "source_modified": false,
+      "endpoint_policy": "all source corners retained with shared perimeter stations",
+      "self_intersection": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 244371,
+        "adjacent_pairs_checked": 176592,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "source_union": "NOT RUN",
+      "neighboring_vessels": "NOT RUN",
+      "anatomical_validation": "NOT RUN"
+    }
+  ],
+  "live_scene_changed": false,
+  "source_geometry_changed": false
+}

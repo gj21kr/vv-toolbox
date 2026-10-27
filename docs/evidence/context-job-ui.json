@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "Controlled job transport with real synthetic numerical result; not full Atlas asynchronous completion",
+  "browser_path": "Playwright: Browser plugin not available",
+  "progress": true,
+  "inputs_locked": true,
+  "completed_applied": true,
+  "resume_without_duplicate": true,
+  "wrong_revision_rejected": true,
+  "browser_errors": [],
+  "visual_review": "NOT RUN"
+}

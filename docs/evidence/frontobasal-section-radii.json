@@ -1,0 +1,377 @@
+{
+  "schema": "vv-toolbox.frontobasal-section-radii/1",
+  "parent_artifact_sha256": "7e57512e2902a988531bcf5838ffe92fa08c5dfaddd713cc751c0872101a58df",
+  "source_case_revision": "ac39f2d88883cf9f2389618a7ad6f0770dd3b5efef17278fbcefa02bf677aa24",
+  "atlas_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "profile": {
+    "schema": "vv-toolbox.section-radius-profile/1",
+    "stations": [
+      {
+        "index": 0,
+        "status": "NOT MEASURED",
+        "reason": "endpoint section not measured",
+        "area_equivalent_radius_mm": null,
+        "center_boundary_distance_mm": null
+      },
+      {
+        "index": 1,
+        "status": "MEASURED",
+        "area_mm2": 0.03288898822200065,
+        "area_equivalent_radius_mm": 0.10231759427217324,
+        "center_boundary_distance_mm": 0.01707060089927989
+      },
+      {
+        "index": 2,
+        "status": "MEASURED",
+        "area_mm2": 0.044340038987326115,
+        "area_equivalent_radius_mm": 0.11880182138098985,
+        "center_boundary_distance_mm": 0.026776083045570862
+      },
+      {
+        "index": 3,
+        "status": "MEASURED",
+        "area_mm2": 0.051015234412981614,
+        "area_equivalent_radius_mm": 0.1274309752753842,
+        "center_boundary_distance_mm": 0.02492105909124133
+      },
+      {
+        "index": 4,
+        "status": "MEASURED",
+        "area_mm2": 0.053116516384113625,
+        "area_equivalent_radius_mm": 0.13002889019255168,
+        "center_boundary_distance_mm": 0.008137281279652957
+      },
+      {
+        "index": 5,
+        "status": "MEASURED",
+        "area_mm2": 0.061734567012255215,
+        "area_equivalent_radius_mm": 0.14018103651805602,
+        "center_boundary_distance_mm": 0.03803881207183128
+      },
+      {
+        "index": 6,
+        "status": "MEASURED",
+        "area_mm2": 0.07819713598238813,
+        "area_equivalent_radius_mm": 0.1577685692856862,
+        "center_boundary_distance_mm": 0.041593248149093674
+      },
+      {
+        "index": 7,
+        "status": "MEASURED",
+        "area_mm2": 0.08482476956514808,
+        "area_equivalent_radius_mm": 0.1643184796237129,
+        "center_boundary_distance_mm": 0.04878053535519891
+      },
+      {
+        "index": 8,
+        "status": "MEASURED",
+        "area_mm2": 0.10248428312825313,
+        "area_equivalent_radius_mm": 0.18061495092649898,
+        "center_boundary_distance_mm": 0.09390057230851208
+      },
+      {
+        "index": 9,
+        "status": "MEASURED",
+        "area_mm2": 0.12659497695204275,
+        "area_equivalent_radius_mm": 0.20073971382126737,
+        "center_boundary_distance_mm": 0.12831225234107324
+      },
+      {
+        "index": 10,
+        "status": "MEASURED",
+        "area_mm2": 0.15098998128549618,
+        "area_equivalent_radius_mm": 0.21922956862129472,
+        "center_boundary_distance_mm": 0.12031048461872337
+      },
+      {
+        "index": 11,
+        "status": "MEASURED",
+        "area_mm2": 0.16250413046992784,
+        "area_equivalent_radius_mm": 0.22743498252089234,
+        "center_boundary_distance_mm": 0.09533377673415132
+      },
+      {
+        "index": 12,
+        "status": "MEASURED",
+        "area_mm2": 0.1589190124988605,
+        "area_equivalent_radius_mm": 0.22491218904486412,
+        "center_boundary_distance_mm": 0.06504591485737603
+      },
+      {
+        "index": 13,
+        "status": "MEASURED",
+        "area_mm2": 0.19799170119146106,
+        "area_equivalent_radius_mm": 0.2510432549812663,
+        "center_boundary_distance_mm": 0.08930980641189559
+      },
+      {
+        "index": 14,
+        "status": "MEASURED",
+        "area_mm2": 0.2288474715444587,
+        "area_equivalent_radius_mm": 0.26989704077808063,
+        "center_boundary_distance_mm": 0.1301430189454222
+      },
+      {
+        "index": 15,
+        "status": "MEASURED",
+        "area_mm2": 0.24834528921509588,
+        "area_equivalent_radius_mm": 0.2811596712623234,
+        "center_boundary_distance_mm": 0.14181536847864343
+      },
+      {
+        "index": 16,
+        "status": "MEASURED",
+        "area_mm2": 0.25909989113083276,
+        "area_equivalent_radius_mm": 0.28718296755916417,
+        "center_boundary_distance_mm": 0.1394734723789168
+      },
+      {
+        "index": 17,
+        "status": "MEASURED",
+        "area_mm2": 0.29569994977359965,
+        "area_equivalent_radius_mm": 0.30679670362796785,
+        "center_boundary_distance_mm": 0.19475956397822633
+      },
+      {
+        "index": 18,
+        "status": "MEASURED",
+        "area_mm2": 0.33564808988146744,
+        "area_equivalent_radius_mm": 0.3268640471021196,
+        "center_boundary_distance_mm": 0.24455695106546735
+      },
+      {
+        "index": 19,
+        "status": "MEASURED",
+        "area_mm2": 0.37025311485099305,
+        "area_equivalent_radius_mm": 0.34330049060176654,
+        "center_boundary_distance_mm": 0.26979878746506886
+      },
+      {
+        "index": 20,
+        "status": "MEASURED",
+        "area_mm2": 0.39373510776521004,
+        "area_equivalent_radius_mm": 0.3540194589839753,
+        "center_boundary_distance_mm": 0.28067586248300846
+      },
+      {
+        "index": 21,
+        "status": "MEASURED",
+        "area_mm2": 0.4137571592776099,
+        "area_equivalent_radius_mm": 0.36290907163831626,
+        "center_boundary_distance_mm": 0.282872324446684
+      },
+      {
+        "index": 22,
+        "status": "MEASURED",
+        "area_mm2": 0.42719540463861533,
+        "area_equivalent_radius_mm": 0.3687553669151895,
+        "center_boundary_distance_mm": 0.2790141098090464
+      },
+      {
+        "index": 23,
+        "status": "MEASURED",
+        "area_mm2": 0.44050557544995755,
+        "area_equivalent_radius_mm": 0.37445597816672815,
+        "center_boundary_distance_mm": 0.28534034421849414
+      },
+      {
+        "index": 24,
+        "status": "MEASURED",
+        "area_mm2": 0.46876643330992135,
+        "area_equivalent_radius_mm": 0.38628097291176866,
+        "center_boundary_distance_mm": 0.31879551102638237
+      },
+      {
+        "index": 25,
+        "status": "MEASURED",
+        "area_mm2": 0.48874841152986875,
+        "area_equivalent_radius_mm": 0.39442800514996523,
+        "center_boundary_distance_mm": 0.3512556228464086
+      },
+      {
+        "index": 26,
+        "status": "MEASURED",
+        "area_mm2": 0.5194654751100383,
+        "area_equivalent_radius_mm": 0.4066337372362075,
+        "center_boundary_distance_mm": 0.37451349250571275
+      },
+      {
+        "index": 27,
+        "status": "MEASURED",
+        "area_mm2": 0.5506521633296243,
+        "area_equivalent_radius_mm": 0.41866218773172104,
+        "center_boundary_distance_mm": 0.3729744080828739
+      },
+      {
+        "index": 28,
+        "status": "MEASURED",
+        "area_mm2": 0.5775723695613659,
+        "area_equivalent_radius_mm": 0.42877382758043975,
+        "center_boundary_distance_mm": 0.3694091362751354
+      },
+      {
+        "index": 29,
+        "status": "MEASURED",
+        "area_mm2": 0.6178903368864987,
+        "area_equivalent_radius_mm": 0.4434868688116994,
+        "center_boundary_distance_mm": 0.34941829712593137
+      },
+      {
+        "index": 30,
+        "status": "MEASURED",
+        "area_mm2": 0.6813007284145994,
+        "area_equivalent_radius_mm": 0.46568740300612044,
+        "center_boundary_distance_mm": 0.31996010068906544
+      },
+      {
+        "index": 31,
+        "status": "MEASURED",
+        "area_mm2": 0.7325318011103171,
+        "area_equivalent_radius_mm": 0.48287898508573784,
+        "center_boundary_distance_mm": 0.27904313603739656
+      },
+      {
+        "index": 32,
+        "status": "MEASURED",
+        "area_mm2": 0.7968374675849019,
+        "area_equivalent_radius_mm": 0.5036280806447653,
+        "center_boundary_distance_mm": 0.3082316936310524
+      },
+      {
+        "index": 33,
+        "status": "MEASURED",
+        "area_mm2": 0.8291203607184799,
+        "area_equivalent_radius_mm": 0.5137287296355566,
+        "center_boundary_distance_mm": 0.3107421021014525
+      },
+      {
+        "index": 34,
+        "status": "MEASURED",
+        "area_mm2": 0.8467056871884974,
+        "area_equivalent_radius_mm": 0.519148139667416,
+        "center_boundary_distance_mm": 0.2591759460399293
+      },
+      {
+        "index": 35,
+        "status": "MEASURED",
+        "area_mm2": 0.936190005825522,
+        "area_equivalent_radius_mm": 0.5458924199883383,
+        "center_boundary_distance_mm": 0.2827558358487935
+      },
+      {
+        "index": 36,
+        "status": "MEASURED",
+        "area_mm2": 0.9804165806058468,
+        "area_equivalent_radius_mm": 0.5586378882472512,
+        "center_boundary_distance_mm": 0.28567389259419457
+      },
+      {
+        "index": 37,
+        "status": "MEASURED",
+        "area_mm2": 1.033910969316346,
+        "area_equivalent_radius_mm": 0.5736759389823307,
+        "center_boundary_distance_mm": 0.30749243689377537
+      },
+      {
+        "index": 38,
+        "status": "MEASURED",
+        "area_mm2": 1.1142293216304062,
+        "area_equivalent_radius_mm": 0.5955419452488775,
+        "center_boundary_distance_mm": 0.3427039390615604
+      },
+      {
+        "index": 39,
+        "status": "MEASURED",
+        "area_mm2": 1.1651182493912238,
+        "area_equivalent_radius_mm": 0.608989866380696,
+        "center_boundary_distance_mm": 0.4147153301181445
+      },
+      {
+        "index": 40,
+        "status": "MEASURED",
+        "area_mm2": 1.1951546239043946,
+        "area_equivalent_radius_mm": 0.6167896986064529,
+        "center_boundary_distance_mm": 0.45082574972004413
+      },
+      {
+        "index": 41,
+        "status": "MEASURED",
+        "area_mm2": 1.2176132369643602,
+        "area_equivalent_radius_mm": 0.6225578935922365,
+        "center_boundary_distance_mm": 0.45439121832437934
+      },
+      {
+        "index": 42,
+        "status": "MEASURED",
+        "area_mm2": 1.3176264761471372,
+        "area_equivalent_radius_mm": 0.6476214431711974,
+        "center_boundary_distance_mm": 0.5380517228573188
+      },
+      {
+        "index": 43,
+        "status": "MEASURED",
+        "area_mm2": 1.394481566131691,
+        "area_equivalent_radius_mm": 0.6662411489849398,
+        "center_boundary_distance_mm": 0.6056716549577124
+      },
+      {
+        "index": 44,
+        "status": "MEASURED",
+        "area_mm2": 1.4653635895760513,
+        "area_equivalent_radius_mm": 0.6829639210205938,
+        "center_boundary_distance_mm": 0.6377535829912203
+      },
+      {
+        "index": 45,
+        "status": "MEASURED",
+        "area_mm2": 1.5350037100134941,
+        "area_equivalent_radius_mm": 0.6990041889903749,
+        "center_boundary_distance_mm": 0.6501453386023142
+      },
+      {
+        "index": 46,
+        "status": "MEASURED",
+        "area_mm2": 1.6051009257123574,
+        "area_equivalent_radius_mm": 0.7147863267977345,
+        "center_boundary_distance_mm": 0.6456087532325002
+      },
+      {
+        "index": 47,
+        "status": "MEASURED",
+        "area_mm2": 1.6742765266318846,
+        "area_equivalent_radius_mm": 0.7300265547446803,
+        "center_boundary_distance_mm": 0.6264182703335349
+      },
+      {
+        "index": 48,
+        "status": "MEASURED",
+        "area_mm2": 1.8076784132280037,
+        "area_equivalent_radius_mm": 0.7585525096995601,
+        "center_boundary_distance_mm": 0.5987223287547555
+      },
+      {
+        "index": 49,
+        "status": "NOT MEASURED",
+        "reason": "endpoint section not measured",
+        "area_equivalent_radius_mm": null,
+        "center_boundary_distance_mm": null
+      }
+    ],
+    "measured_count": 48,
+    "endpoint_policy": "not inferred",
+    "radius_selection": "UNSELECTED",
+    "limitation": "Equivalent-area radius does not preserve a noncircular wall. Center-to-wall distance is a planar inscribed radius, not a 3D clearance bound.",
+    "accepted_for_generation": false
+  },
+  "measurement_ranges": {
+    "area_equivalent_radius_mm": [
+      0.10231759427217324,
+      0.7585525096995601
+    ],
+    "center_boundary_distance_mm": [
+      0.008137281279652957,
+      0.6501453386023142
+    ]
+  },
+  "app_applied": false
+}

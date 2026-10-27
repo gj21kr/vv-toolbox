@@ -1,0 +1,10 @@
+{
+  "status": "FAIL",
+  "case_revision": "ac39f2d88883cf9f2389618a7ad6f0770dd3b5efef17278fbcefa02bf677aa24",
+  "edge_id": "FJ1692:e0",
+  "reason": "temporary cap escapes parent at sampled locations: max_field_mm=0.00282396044499, outside_samples=2/897, probe_indices=[301, 652], cap_triangle_count=192, witness_mm=[-31.289769930293815, -111.43673337566224, 1537.0185122891885]",
+  "source_unchanged": true,
+  "spacing_mm": 0.15,
+  "surface_published": false,
+  "app_applied": false
+}

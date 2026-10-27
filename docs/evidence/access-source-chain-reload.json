@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "Saved-case structure, provenance and reported complete path checks; not independent anatomical validation",
+  "input_revision": "d61f5fa1780f2edf21efa8d3a6511d396ceb6d6618814dabe052215b751c22c6",
+  "output_revision": "b31f1d2228bd61c92817a7c3e4935e8d7ccc1a86c8ee185e385cd1d444df879b",
+  "checked_paths": 66,
+  "graph_nodes_preserved": true,
+  "surface_topology_lineage_preserved": true,
+  "unselected_edges_preserved": true,
+  "output_sha256": "ee55c3bc33de21f28fb371baec8a507c0917d63408f5506a78cecb88aed95fa7",
+  "accepted_for_generation": false,
+  "neighboring_vessels": "NOT RUN"
+}

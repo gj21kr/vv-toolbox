@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "scope": "Actual base candidate case conversion, save, load and exact surface reconstruction; not live download verification",
+  "revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+  "artifact": "exports/access-inspection-case/case.snapshot.json",
+  "faces": 50188,
+  "edges": 65,
+  "accepted_for_generation": false,
+  "live_download": "NOT RUN"
+}

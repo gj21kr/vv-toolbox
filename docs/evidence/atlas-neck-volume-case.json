@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "parent_revision": "ce5726c1f980dffee4196638647fe5b6804aee4138f378c364224ba61cc2fee9",
+  "derived_revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+  "topology_ready_parts": 521,
+  "original_source_parts_preserved": 517,
+  "graph_unchanged": true,
+  "derived_case_file": "exports/atlas-neck-volume-case/f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d.snapshot.json",
+  "source_lumen_union": "NOT RUN",
+  "all_surface_self_contact": "NOT RUN",
+  "whole_case_masks": "NOT RUN",
+  "active_scene_changed": false
+}

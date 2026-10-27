@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scope": "Actual demo HTTP display of full saved 788-neighbor result; no new measurements",
+  "displayed_rows": 91,
+  "changed_neighbors": [
+    "FJ2069",
+    "FJ2086",
+    "FJ2099",
+    "FJ2102",
+    "FJ3484"
+  ],
+  "all_displayed_values_match": true,
+  "saved_case_unchanged": true,
+  "visual_review": "NOT RUN"
+}

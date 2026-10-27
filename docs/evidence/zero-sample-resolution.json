@@ -1,0 +1,217 @@
+{
+  "schema": "vv-toolbox.zero-sample-resolution/1",
+  "status": "PASS",
+  "case_revision": "c79686c7a00b77bf172d925eed9968873b8ea3f54d1a673be138386fb3a43b83",
+  "lattice_anchor_xyz_mm": [
+    -325.4259948730469,
+    -230.06199645996094,
+    -70.2959976196289
+  ],
+  "parts": [
+    {
+      "part_id": "FJ1707M",
+      "geometry_sha256": "a5774a9ac847601ca48ac68b09ef8cd1a7b5e1418f8b6c41a5517dbafbda4eed",
+      "bounds_mm": [
+        [
+          9.840279579162598,
+          -38.368900299072266,
+          1490.6600341796875
+        ],
+        [
+          16.310100555419922,
+          -35.15829849243164,
+          1496.25
+        ]
+      ],
+      "samples": [
+        {
+          "spacing_mm": 1.0,
+          "origin_xyz_mm": [
+            8.574005126953125,
+            -40.06199645996094,
+            1488.704002380371
+          ],
+          "shape_zyx": [
+            10,
+            7,
+            10
+          ],
+          "foreground_voxels": 0,
+          "sampled_volume_mm3": 0.0,
+          "elapsed_seconds": 0.0036575209960574284
+        },
+        {
+          "spacing_mm": 0.5,
+          "origin_xyz_mm": [
+            9.074005126953125,
+            -39.06199645996094,
+            1489.704002380371
+          ],
+          "shape_zyx": [
+            16,
+            10,
+            17
+          ],
+          "foreground_voxels": 9,
+          "sampled_volume_mm3": 1.125,
+          "elapsed_seconds": 0.01599537700531073
+        },
+        {
+          "spacing_mm": 0.25,
+          "origin_xyz_mm": [
+            9.574005126953125,
+            -38.81199645996094,
+            1490.204002380371
+          ],
+          "shape_zyx": [
+            27,
+            17,
+            29
+          ],
+          "foreground_voxels": 78,
+          "sampled_volume_mm3": 1.21875,
+          "elapsed_seconds": 0.09333535098994616
+        }
+      ],
+      "interpretation": "coarse_lattice_missed_source"
+    },
+    {
+      "part_id": "FJ1708M",
+      "geometry_sha256": "59a6bd3ce83d38a0b493610f555f9d9aaa58b960fdaab58d4cdd06e1aefbf39b",
+      "bounds_mm": [
+        [
+          27.53510093688965,
+          -61.84700012207031,
+          1495.949951171875
+        ],
+        [
+          30.592899322509766,
+          -56.556400299072266,
+          1498.9200439453125
+        ]
+      ],
+      "samples": [
+        {
+          "spacing_mm": 1.0,
+          "origin_xyz_mm": [
+            25.574005126953125,
+            -63.06199645996094,
+            1494.704002380371
+          ],
+          "shape_zyx": [
+            7,
+            9,
+            8
+          ],
+          "foreground_voxels": 0,
+          "sampled_volume_mm3": 0.0,
+          "elapsed_seconds": 0.0020127949974266812
+        },
+        {
+          "spacing_mm": 0.5,
+          "origin_xyz_mm": [
+            26.574005126953125,
+            -62.56199645996094,
+            1495.204002380371
+          ],
+          "shape_zyx": [
+            10,
+            15,
+            11
+          ],
+          "foreground_voxels": 5,
+          "sampled_volume_mm3": 0.625,
+          "elapsed_seconds": 0.007337916002143174
+        },
+        {
+          "spacing_mm": 0.25,
+          "origin_xyz_mm": [
+            27.074005126953125,
+            -62.31199645996094,
+            1495.454002380371
+          ],
+          "shape_zyx": [
+            16,
+            26,
+            17
+          ],
+          "foreground_voxels": 34,
+          "sampled_volume_mm3": 0.53125,
+          "elapsed_seconds": 0.0435548889945494
+        }
+      ],
+      "interpretation": "coarse_lattice_missed_source"
+    },
+    {
+      "part_id": "FJ3420",
+      "geometry_sha256": "58131866b4849192f3a5188e67ba7144863f26c965457516a40ebe73a25b0a8e",
+      "bounds_mm": [
+        [
+          44.057899475097656,
+          -108.56400299072266,
+          1066.8900146484375
+        ],
+        [
+          50.83639907836914,
+          -103.26300048828125,
+          1075.8699951171875
+        ]
+      ],
+      "samples": [
+        {
+          "spacing_mm": 1.0,
+          "origin_xyz_mm": [
+            42.574005126953125,
+            -110.06199645996094,
+            1065.704002380371
+          ],
+          "shape_zyx": [
+            13,
+            9,
+            11
+          ],
+          "foreground_voxels": 0,
+          "sampled_volume_mm3": 0.0,
+          "elapsed_seconds": 0.024863261001883075
+        },
+        {
+          "spacing_mm": 0.5,
+          "origin_xyz_mm": [
+            43.074005126953125,
+            -109.56199645996094,
+            1066.204002380371
+          ],
+          "shape_zyx": [
+            22,
+            15,
+            18
+          ],
+          "foreground_voxels": 11,
+          "sampled_volume_mm3": 1.375,
+          "elapsed_seconds": 0.17054812400601804
+        },
+        {
+          "spacing_mm": 0.25,
+          "origin_xyz_mm": [
+            43.574005126953125,
+            -109.06199645996094,
+            1066.454002380371
+          ],
+          "shape_zyx": [
+            40,
+            26,
+            32
+          ],
+          "foreground_voxels": 86,
+          "sampled_volume_mm3": 1.34375,
+          "elapsed_seconds": 1.4303202619921649
+        }
+      ],
+      "interpretation": "coarse_lattice_missed_source"
+    }
+  ],
+  "scope": "All zero-sampled parts from the saved 1 mm source mask; identical source geometry and nested lattice",
+  "anatomy": "NOT RUN",
+  "geometric_accuracy": "NOT RUN",
+  "limitation": "Positive fine-grid membership does not prove converged volume or complete thin-vessel representation."
+}

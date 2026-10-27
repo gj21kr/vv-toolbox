@@ -1,0 +1,2593 @@
+{
+  "schema": "vv-toolbox.neck-surface-bulge-inspection/1",
+  "case_revision": "165cebe813b506cf1a12bd299de0b05c96890def6214e4233d85d33e3eea55b3",
+  "snapshot_file_sha256": "4d77c838d77e26aebee30f00f655597314abbf80bc457ef7ffff1947bf9346f5",
+  "surface_file_sha256": "9c3d1d42ebf03be564d17b90c8f1033ce795b12dabef5890c12b9b521dec622d",
+  "spacing_mm": 0.6,
+  "scope": "31 local cross sections per attachment, source side offsets -15..0 and bridge side 0..15 mm",
+  "station_count": 124,
+  "attachments": [
+    {
+      "bridge_id": "estimated_L_carotid_gap",
+      "source_edge_id": "FJ3483:e0",
+      "attachment": "start",
+      "source_geometry_kind": "source",
+      "source_derivation": {
+        "algorithm": "voxel-lee-1",
+        "branch_identity_status": "extraction_edge_not_anatomical_branch",
+        "pitch_mm": 0.8,
+        "radius_status": "voxel_estimate"
+      },
+      "source_side_profile_min_max_mm": [
+        3.6874357261981086,
+        4.079215610874228
+      ],
+      "source_side_surface_min_max_equivalent_radius_mm": [
+        3.9715085307266493,
+        4.580933753297746
+      ],
+      "source_side_profile_total_variation_mm": 0.83235151649653,
+      "source_side_surface_total_variation_mm": 2.238453894499143,
+      "stations": [
+        {
+          "offset_from_attachment_mm": -15.0,
+          "center_mm": [
+            18.4,
+            -106.39999999999999,
+            1354.7170114959538
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 3.951208252855709,
+          "section": {
+            "centroid_distance_mm": 0.2524863539833507,
+            "area_mm2": 51.69844201433832,
+            "equivalent_radius_mm": 4.05661499201777
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -14.0,
+          "center_mm": [
+            18.4,
+            -106.39999999999999,
+            1355.7170114959538
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 4.0,
+          "section": {
+            "centroid_distance_mm": 0.13097930772946667,
+            "area_mm2": 50.29833438722428,
+            "equivalent_radius_mm": 4.0013069232479035
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -13.0,
+          "center_mm": [
+            18.4,
+            -106.39999999999999,
+            1356.7170114959538
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 3.927567129823927,
+          "section": {
+            "centroid_distance_mm": 0.24327721455864468,
+            "area_mm2": 52.237650918599684,
+            "equivalent_radius_mm": 4.077715134534051
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -12.0,
+          "center_mm": [
+            18.467556618687127,
+            -106.46755661868713,
+            1357.6675566186873
+          ],
+          "normal": [
+            0.4429055642366803,
+            -0.44290556423668687,
+            0.7795314761678133
+          ],
+          "profile_radius_mm": 3.6874357261981086,
+          "section": {
+            "centroid_distance_mm": 0.6869559200938217,
+            "area_mm2": 52.63963048184618,
+            "equivalent_radius_mm": 4.093374498800868
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -11.0,
+          "center_mm": [
+            19.044906887876763,
+            -107.04490688787676,
+            1358.2449068878768
+          ],
+          "normal": [
+            0.5589957819726504,
+            -0.5589957819726443,
+            0.61241116210727
+          ],
+          "profile_radius_mm": 3.87011153987971,
+          "section": {
+            "centroid_distance_mm": 0.4657167399278567,
+            "area_mm2": 65.92617748600482,
+            "equivalent_radius_mm": 4.580933753297746
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -10.0,
+          "center_mm": [
+            19.200000000000003,
+            -107.2,
+            1359.1313708498988
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 3.9930670479516146,
+          "section": {
+            "centroid_distance_mm": 0.10090748546431023,
+            "area_mm2": 51.38722287173694,
+            "equivalent_radius_mm": 4.044386364283668
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -9.0,
+          "center_mm": [
+            19.200000000000003,
+            -107.2,
+            1360.1313708498988
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 4.0,
+          "section": {
+            "centroid_distance_mm": 0.10162078221425824,
+            "area_mm2": 49.78883309078694,
+            "equivalent_radius_mm": 3.980989549641162
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -8.0,
+          "center_mm": [
+            19.200000000000003,
+            -107.2,
+            1361.1313708498988
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 4.0,
+          "section": {
+            "centroid_distance_mm": 0.2243951406258094,
+            "area_mm2": 51.26066114723018,
+            "equivalent_radius_mm": 4.03940282906777
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -7.0,
+          "center_mm": [
+            19.200000000000003,
+            -107.2,
+            1362.1313708498988
+          ],
+          "normal": [
+            0.0,
+            -0.037519436852750256,
+            0.9992958980493478
+          ],
+          "profile_radius_mm": 4.0,
+          "section": {
+            "centroid_distance_mm": 0.526444767895273,
+            "area_mm2": 54.426944826175976,
+            "equivalent_radius_mm": 4.1622871853046775
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -6.0,
+          "center_mm": [
+            19.200000000000003,
+            -107.71715728752547,
+            1362.9171572875255
+          ],
+          "normal": [
+            0.0,
+            -0.7071067811866066,
+            0.7071067811864883
+          ],
+          "profile_radius_mm": 4.051208663061736,
+          "section": {
+            "centroid_distance_mm": 0.14310380460593988,
+            "area_mm2": 62.99776159737175,
+            "equivalent_radius_mm": 4.478036436195331
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -5.0,
+          "center_mm": [
+            19.200000000000003,
+            -108.0,
+            1363.8000000000002
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 4.079215610874228,
+          "section": {
+            "centroid_distance_mm": 0.38873435027549524,
+            "area_mm2": 54.213540329444115,
+            "equivalent_radius_mm": 4.154119142716745
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -4.0,
+          "center_mm": [
+            19.200000000000003,
+            -108.0,
+            1364.8000000000002
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 4.079215610874228,
+          "section": {
+            "centroid_distance_mm": 0.06460470884502192,
+            "area_mm2": 51.94696946602699,
+            "equivalent_radius_mm": 4.06635388749232
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -3.0,
+          "center_mm": [
+            19.200000000000003,
+            -108.0,
+            1365.8000000000002
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 4.079215610874228,
+          "section": {
+            "centroid_distance_mm": 0.016258324565228452,
+            "area_mm2": 51.534468325964596,
+            "equivalent_radius_mm": 4.050176631627312
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -2.0,
+          "center_mm": [
+            19.200000000000003,
+            -108.0,
+            1366.8000000000002
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 4.039607805437103,
+          "section": {
+            "centroid_distance_mm": 0.05090345630492154,
+            "area_mm2": 50.86121704935226,
+            "equivalent_radius_mm": 4.02363370725373
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -1.0,
+          "center_mm": [
+            19.200000000000003,
+            -108.0,
+            1367.8000000000002
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 4.0,
+          "section": {
+            "centroid_distance_mm": 0.016321933723998188,
+            "area_mm2": 49.657289091135446,
+            "equivalent_radius_mm": 3.9757271081897603
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 0.0,
+          "center_mm": [
+            19.200000000000003,
+            -108.0,
+            1368.8000000000002
+          ],
+          "normal": [
+            0.00365374862675577,
+            0.0005902861787050155,
+            0.9999931508181441
+          ],
+          "profile_radius_mm": 4.0,
+          "section": {
+            "centroid_distance_mm": 0.01568050772828369,
+            "area_mm2": 49.5519639642212,
+            "equivalent_radius_mm": 3.9715085307266493
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 1.0,
+          "center_mm": [
+            19.211117455169553,
+            -107.99820390486614,
+            1369.7999157981903
+          ],
+          "normal": [
+            0.02087839626940705,
+            0.0033730368479101608,
+            0.9997763325822633
+          ],
+          "profile_radius_mm": 3.9988088773646284,
+          "section": {
+            "centroid_distance_mm": 0.008080004594428472,
+            "area_mm2": 49.52652994300211,
+            "equivalent_radius_mm": 3.9704891523885446
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 2.0,
+          "center_mm": [
+            19.2403573388059,
+            -107.99348001689782,
+            1370.7994513697238
+          ],
+          "normal": [
+            0.038106169339905474,
+            0.006156292449832764,
+            0.9992547322487448
+          ],
+          "profile_radius_mm": 3.9956761202071926,
+          "section": {
+            "centroid_distance_mm": 0.03509408871696607,
+            "area_mm2": 49.45157667996501,
+            "equivalent_radius_mm": 3.967483553161709
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 3.0,
+          "center_mm": [
+            19.28813689609002,
+            -107.98576092749948,
+            1371.798255345041
+          ],
+          "normal": [
+            0.05797928260033507,
+            0.009366919475246963,
+            0.9982738419936159
+          ],
+          "profile_radius_mm": 3.9905570249357303,
+          "section": {
+            "centroid_distance_mm": 0.021671122398434238,
+            "area_mm2": 49.30815306497549,
+            "equivalent_radius_mm": 3.9617259609979687
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 4.0,
+          "center_mm": [
+            19.355883345576263,
+            -107.97481606049506,
+            1372.7958777644653
+          ],
+          "normal": [
+            0.07666274651752224,
+            0.012385351131907123,
+            0.9969801534502728
+          ],
+          "profile_radius_mm": 3.9832986795483682,
+          "section": {
+            "centroid_distance_mm": 0.13594559101770456,
+            "area_mm2": 49.13510783231055,
+            "equivalent_radius_mm": 3.954768081914672
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 5.0,
+          "center_mm": [
+            19.440281607341294,
+            -107.96118098799418,
+            1373.7921955733088
+          ],
+          "normal": [
+            0.09310351994125322,
+            0.0150414619677919,
+            0.9955428112323549
+          ],
+          "profile_radius_mm": 3.9742562612573846,
+          "section": {
+            "centroid_distance_mm": 0.13851237102017225,
+            "area_mm2": 48.917722175142615,
+            "equivalent_radius_mm": 3.9460099566448057
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 6.0,
+          "center_mm": [
+            19.542489652693984,
+            -107.94466863241466,
+            1374.7867997326834
+          ],
+          "normal": [
+            0.11117915695794099,
+            0.01796169534782311,
+            0.9936380490693549
+          ],
+          "profile_radius_mm": 3.9633057051741813,
+          "section": {
+            "centroid_distance_mm": 0.12847015966608233,
+            "area_mm2": 48.64903053739795,
+            "equivalent_radius_mm": 3.9351578587536866
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 7.0,
+          "center_mm": [
+            19.661915680840103,
+            -107.9253746029144,
+            1375.779437196135
+          ],
+          "normal": [
+            0.12661007732724106,
+            0.02045465804146879,
+            0.9917416474483647
+          ],
+          "profile_radius_mm": 3.9505104167553933,
+          "section": {
+            "centroid_distance_mm": 0.09965945344578997,
+            "area_mm2": 48.322876561074594,
+            "equivalent_radius_mm": 3.921944586328193
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 8.0,
+          "center_mm": [
+            19.796338007719985,
+            -107.90365782659207,
+            1376.7701074535025
+          ],
+          "normal": [
+            0.14277086330824698,
+            0.02306553513676153,
+            0.9894869689283798
+          ],
+          "profile_radius_mm": 3.936108426929119,
+          "section": {
+            "centroid_distance_mm": 0.05200615421960945,
+            "area_mm2": 47.96166265030237,
+            "equivalent_radius_mm": 3.907258806299259
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 9.0,
+          "center_mm": [
+            19.947504322359087,
+            -107.87923595324195,
+            1377.7582978930393
+          ],
+          "normal": [
+            0.15887661208706108,
+            0.025667520624199372,
+            0.9869647412733364
+          ],
+          "profile_radius_mm": 3.9199124885307817,
+          "section": {
+            "centroid_distance_mm": 0.14798010586477614,
+            "area_mm2": 47.57208818366378,
+            "equivalent_radius_mm": 3.8913578575180248
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 10.0,
+          "center_mm": [
+            20.11314878701948,
+            -107.85247504326846,
+            1378.744105121017
+          ],
+          "normal": [
+            0.17195525720767102,
+            0.02778045838744402,
+            0.9847129712004544
+          ],
+          "profile_radius_mm": 3.9021653631075672,
+          "section": {
+            "centroid_distance_mm": 0.03374682695672951,
+            "area_mm2": 47.13521697771378,
+            "equivalent_radius_mm": 3.8734487929265766
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 11.0,
+          "center_mm": [
+            20.292117567115138,
+            -107.82356150594,
+            1379.7275232945178
+          ],
+          "normal": [
+            0.1866801472199926,
+            0.03015935741555031,
+            0.981957705705395
+          ],
+          "profile_radius_mm": 3.8829906723401497,
+          "section": {
+            "centroid_distance_mm": 0.06815312087832634,
+            "area_mm2": 46.6676855352929,
+            "equivalent_radius_mm": 3.854190663576468
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 12.0,
+          "center_mm": [
+            20.486291506307797,
+            -107.79219147907801,
+            1380.7079786459058
+          ],
+          "normal": [
+            0.200748144866808,
+            0.03243213133103981,
+            0.9791058876290456
+          ],
+          "profile_radius_mm": 3.862186902894326,
+          "section": {
+            "centroid_distance_mm": 0.07807206181761134,
+            "area_mm2": 46.16316524905404,
+            "equivalent_radius_mm": 3.8333003895220514
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 13.0,
+          "center_mm": [
+            20.692470442478818,
+            -107.75888196909457,
+            1381.68591408562
+          ],
+          "normal": [
+            0.21201826833228232,
+            0.034252890992860364,
+            0.9766652411916846
+          ],
+          "profile_radius_mm": 3.8400969197044015,
+          "section": {
+            "centroid_distance_mm": 0.10041023046879363,
+            "area_mm2": 45.632246438908496,
+            "equivalent_radius_mm": 3.8111934049952976
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 14.0,
+          "center_mm": [
+            20.910722495629084,
+            -107.72362197077311,
+            1382.6611585743867
+          ],
+          "normal": [
+            0.22470501689887945,
+            0.036302515391343805,
+            0.9737503698365078
+          ],
+          "profile_radius_mm": 3.8167134244027436,
+          "section": {
+            "centroid_distance_mm": 0.1770390496462899,
+            "area_mm2": 45.06717230932132,
+            "equivalent_radius_mm": 3.787522473650203
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 15.0,
+          "center_mm": [
+            21.141494025155716,
+            -107.68633937193243,
+            1383.633443508596
+          ],
+          "normal": [
+            0.23629489040061405,
+            0.0381749326919854,
+            0.970931202137682
+          ],
+          "profile_radius_mm": 3.791988594104231,
+          "section": {
+            "centroid_distance_mm": 0.18081130641678841,
+            "area_mm2": 44.482461571111315,
+            "equivalent_radius_mm": 3.7628722114729443
+          },
+          "section_loop_count": 2
+        }
+      ]
+    },
+    {
+      "bridge_id": "estimated_L_carotid_gap",
+      "source_edge_id": "FJ1682M:e0",
+      "attachment": "end",
+      "source_geometry_kind": "source",
+      "source_derivation": {
+        "algorithm": "voxel-lee-1",
+        "branch_identity_status": "extraction_edge_not_anatomical_branch",
+        "pitch_mm": 0.5634596873081933,
+        "radius_status": "voxel_estimate"
+      },
+      "source_side_profile_min_max_mm": [
+        1.898199515807799,
+        2.253838749232773
+      ],
+      "source_side_surface_min_max_equivalent_radius_mm": [
+        2.1221216125084896,
+        2.399071386044129
+      ],
+      "source_side_profile_total_variation_mm": 1.3200085927199687,
+      "source_side_surface_total_variation_mm": 0.7683160125930808,
+      "stations": [
+        {
+          "offset_from_attachment_mm": -15.0,
+          "center_mm": [
+            33.8075812384916,
+            -105.36696152663214,
+            1451.1220247028923
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.253838749232773,
+          "section": {
+            "centroid_distance_mm": 0.12186977389587461,
+            "area_mm2": 15.212402370750006,
+            "equivalent_radius_mm": 2.200513137251278
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -14.0,
+          "center_mm": [
+            33.96541484604279,
+            -105.36696152663214,
+            1450.1874015237381
+          ],
+          "normal": [
+            0.6378103721906412,
+            0.0,
+            -0.770193436174339
+          ],
+          "profile_radius_mm": 2.0867909826082234,
+          "section": {
+            "centroid_distance_mm": 0.2767316991361475,
+            "area_mm2": 16.263347679015116,
+            "equivalent_radius_mm": 2.275254787639116
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -13.0,
+          "center_mm": [
+            34.37104092579979,
+            -105.36696152663214,
+            1449.3554173472257
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.0896127368214947,
+          "section": {
+            "centroid_distance_mm": 0.23441486650369842,
+            "area_mm2": 14.671511147107106,
+            "equivalent_radius_mm": 2.161038417839877
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -12.0,
+          "center_mm": [
+            34.37104092579979,
+            -105.36696152663214,
+            1448.3554173472257
+          ],
+          "normal": [
+            0.04311958690812014,
+            0.0,
+            -0.9990699180862533
+          ],
+          "profile_radius_mm": 2.253838749232773,
+          "section": {
+            "centroid_distance_mm": 0.05223930080723096,
+            "area_mm2": 15.128437155720603,
+            "equivalent_radius_mm": 2.1944318419983007
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -11.0,
+          "center_mm": [
+            34.891456692139826,
+            -105.36696152663214,
+            1447.5709806157165
+          ],
+          "normal": [
+            0.45871673617984027,
+            0.0,
+            -0.8885825543800164
+          ],
+          "profile_radius_mm": 1.898199515807799,
+          "section": {
+            "centroid_distance_mm": 0.3795299457432666,
+            "area_mm2": 14.360095068939136,
+            "equivalent_radius_mm": 2.137980408465529
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -10.0,
+          "center_mm": [
+            34.934500613107986,
+            -105.36696152663214,
+            1446.5888099915594
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.082713370925569,
+          "section": {
+            "centroid_distance_mm": 0.11370320236673594,
+            "area_mm2": 14.147848790581984,
+            "equivalent_radius_mm": 2.1221216125084896
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -9.0,
+          "center_mm": [
+            34.934500613107986,
+            -105.36696152663214,
+            1445.5888099915594
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.253838749232773,
+          "section": {
+            "centroid_distance_mm": 0.07748856871931876,
+            "area_mm2": 15.112755972321544,
+            "equivalent_radius_mm": 2.1932942423380117
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -8.0,
+          "center_mm": [
+            34.934500613107986,
+            -105.36696152663214,
+            1444.5888099915594
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.253838749232773,
+          "section": {
+            "centroid_distance_mm": 0.07160313201062453,
+            "area_mm2": 15.238143469743248,
+            "equivalent_radius_mm": 2.2023741084353143
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -7.0,
+          "center_mm": [
+            34.934500613107986,
+            -105.36696152663214,
+            1443.5888099915594
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.253838749232773,
+          "section": {
+            "centroid_distance_mm": 0.11364300168513314,
+            "area_mm2": 15.238251318944512,
+            "equivalent_radius_mm": 2.2023819021625712
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -6.0,
+          "center_mm": [
+            34.934500613107986,
+            -105.36696152663214,
+            1442.5888099915594
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.142377034210181,
+          "section": {
+            "centroid_distance_mm": 0.15840528031697307,
+            "area_mm2": 15.25346153339114,
+            "equivalent_radius_mm": 2.2034807928826075
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -5.0,
+          "center_mm": [
+            35.149835721050415,
+            -105.36696152663214,
+            1441.678004713724
+          ],
+          "normal": [
+            0.7071067811865652,
+            0.0,
+            -0.7071067811865297
+          ],
+          "profile_radius_mm": 2.1165214529223126,
+          "section": {
+            "centroid_distance_mm": 0.19909927419289739,
+            "area_mm2": 18.081573225194997,
+            "equivalent_radius_mm": 2.399071386044129
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -4.0,
+          "center_mm": [
+            35.497960300416175,
+            -105.36696152663214,
+            1440.8222026358928
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.253838749232773,
+          "section": {
+            "centroid_distance_mm": 0.06761910281838676,
+            "area_mm2": 15.452925254512317,
+            "equivalent_radius_mm": 2.217841040059102
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -3.0,
+          "center_mm": [
+            35.497960300416175,
+            -105.36696152663214,
+            1439.8222026358928
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.253838749232773,
+          "section": {
+            "centroid_distance_mm": 0.06405877797657357,
+            "area_mm2": 15.243678061277869,
+            "equivalent_radius_mm": 2.2027740303325953
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -2.0,
+          "center_mm": [
+            35.497960300416175,
+            -105.36696152663214,
+            1438.8222026358928
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.253838749232773,
+          "section": {
+            "centroid_distance_mm": 0.062049324931346114,
+            "area_mm2": 15.241360060218502,
+            "equivalent_radius_mm": 2.202606543632867
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -1.0,
+          "center_mm": [
+            35.497960300416175,
+            -105.36696152663214,
+            1437.8222026358928
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.253838749232773,
+          "section": {
+            "centroid_distance_mm": 0.05420086833143413,
+            "area_mm2": 15.241380268917995,
+            "equivalent_radius_mm": 2.202608003863411
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 0.0,
+          "center_mm": [
+            35.497960300416175,
+            -105.36696152663214,
+            1436.8222026358928
+          ],
+          "normal": [
+            -0.0036537486267498487,
+            -0.0005902861787050155,
+            -0.9999931508181441
+          ],
+          "profile_radius_mm": 2.253838749232773,
+          "section": {
+            "centroid_distance_mm": 0.06433326076392037,
+            "area_mm2": 15.244677857046739,
+            "equivalent_radius_mm": 2.2028462664437347
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 1.0,
+          "center_mm": [
+            35.48684284524663,
+            -105.368757621766,
+            1435.8222868377027
+          ],
+          "normal": [
+            -0.020878396269407046,
+            -0.003373036847933845,
+            -0.9997763325822631
+          ],
+          "profile_radius_mm": 2.2550298718681447,
+          "section": {
+            "centroid_distance_mm": 0.05782742287413257,
+            "area_mm2": 15.264454973150801,
+            "equivalent_radius_mm": 2.204274693671646
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 2.0,
+          "center_mm": [
+            35.45760296161027,
+            -105.37348150973432,
+            1434.8227512661692
+          ],
+          "normal": [
+            -0.0381061693399173,
+            -0.006156292449809077,
+            -0.9992547322487444
+          ],
+          "profile_radius_mm": 2.2581626290255814,
+          "section": {
+            "centroid_distance_mm": 0.0420561440836627,
+            "area_mm2": 15.314971680103225,
+            "equivalent_radius_mm": 2.20791913176222
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 3.0,
+          "center_mm": [
+            35.409823404326154,
+            -105.38120059913265,
+            1433.8239472908517
+          ],
+          "normal": [
+            -0.05797928260032328,
+            -0.00936691947524697,
+            -0.9982738419936166
+          ],
+          "profile_radius_mm": 2.263281724297043,
+          "section": {
+            "centroid_distance_mm": 0.05219900452687327,
+            "area_mm2": 15.38385159475009,
+            "equivalent_radius_mm": 2.212878679501709
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 4.0,
+          "center_mm": [
+            35.342076954839904,
+            -105.39214546613708,
+            1432.8263248714277
+          ],
+          "normal": [
+            -0.07666274651754579,
+            -0.012385351131883418,
+            -0.9969801534502711
+          ],
+          "profile_radius_mm": 2.270540069684406,
+          "section": {
+            "centroid_distance_mm": 0.0408161418029182,
+            "area_mm2": 15.487168210597051,
+            "equivalent_radius_mm": 2.220296995994988
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 5.0,
+          "center_mm": [
+            35.257678693074865,
+            -105.40578053863796,
+            1431.8300070625842
+          ],
+          "normal": [
+            -0.09310351994124148,
+            -0.015041461967791917,
+            -0.995542811232356
+          ],
+          "profile_radius_mm": 2.2795824879753908,
+          "section": {
+            "centroid_distance_mm": 0.01327182009508749,
+            "area_mm2": 15.619125920099364,
+            "equivalent_radius_mm": 2.229735902280161
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 6.0,
+          "center_mm": [
+            35.15547064772221,
+            -105.42229289421748,
+            1430.8354029032096
+          ],
+          "normal": [
+            -0.11117915695795268,
+            -0.017961695347823083,
+            -0.9936380490693534
+          ],
+          "profile_radius_mm": 2.2905330440585896,
+          "section": {
+            "centroid_distance_mm": 0.09802484814675114,
+            "area_mm2": 15.768947342592705,
+            "equivalent_radius_mm": 2.240404390697999
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 7.0,
+          "center_mm": [
+            35.036044619576074,
+            -105.44158692371774,
+            1429.842765439758
+          ],
+          "normal": [
+            -0.12661007732723523,
+            -0.020454658041468808,
+            -0.9917416474483655
+          ],
+          "profile_radius_mm": 2.30332833247738,
+          "section": {
+            "centroid_distance_mm": 0.08689480102767642,
+            "area_mm2": 15.955367218287698,
+            "equivalent_radius_mm": 2.2536084671641037
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 8.0,
+          "center_mm": [
+            34.901622292696224,
+            -105.46330370004006,
+            1428.8520951823905
+          ],
+          "normal": [
+            -0.14277086330824706,
+            -0.02306553513673786,
+            -0.9894869689283804
+          ],
+          "profile_radius_mm": 2.3177303223036514,
+          "section": {
+            "centroid_distance_mm": 0.050116741099725984,
+            "area_mm2": 16.173737739620726,
+            "equivalent_radius_mm": 2.268977879809575
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 9.0,
+          "center_mm": [
+            34.75045597805709,
+            -105.48772557339018,
+            1427.8639047428537
+          ],
+          "normal": [
+            -0.15887661208706677,
+            -0.025667520624223016,
+            -0.986964741273335
+          ],
+          "profile_radius_mm": 2.3339262607019915,
+          "section": {
+            "centroid_distance_mm": 0.05210585244360386,
+            "area_mm2": 16.407757568945176,
+            "equivalent_radius_mm": 2.2853339896615044
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 10.0,
+          "center_mm": [
+            34.58481151339673,
+            -105.51448648336368,
+            1426.8780975148761
+          ],
+          "normal": [
+            -0.17195525720761945,
+            -0.027780458387420614,
+            -0.9847129712004643
+          ],
+          "profile_radius_mm": 2.351673386125203,
+          "section": {
+            "centroid_distance_mm": 0.019641552469537256,
+            "area_mm2": 16.66976652422164,
+            "equivalent_radius_mm": 2.303508516380036
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 11.0,
+          "center_mm": [
+            34.405842733301036,
+            -105.54340002069215,
+            1425.8946793413752
+          ],
+          "normal": [
+            -0.18668014721995185,
+            -0.030159357415515255,
+            -0.9819577057054039
+          ],
+          "profile_radius_mm": 2.3708480768926226,
+          "section": {
+            "centroid_distance_mm": 0.11896558092773979,
+            "area_mm2": 16.95604373613598,
+            "equivalent_radius_mm": 2.3232038980203225
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 12.0,
+          "center_mm": [
+            34.21166879410839,
+            -105.57477004755411,
+            1424.9142239899872
+          ],
+          "normal": [
+            -0.20074814486689935,
+            -0.03243213133107538,
+            -0.9791058876290256
+          ],
+          "profile_radius_mm": 2.3916518463384464,
+          "section": {
+            "centroid_distance_mm": 0.016017764347519337,
+            "area_mm2": 17.27479587549349,
+            "equivalent_radius_mm": 2.3449388710532624
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 13.0,
+          "center_mm": [
+            34.00548985793737,
+            -105.60807955753756,
+            1423.936288550273
+          ],
+          "normal": [
+            -0.21201826833222082,
+            -0.03425289099284756,
+            -0.9766652411916986
+          ],
+          "profile_radius_mm": 2.4137418295283704,
+          "section": {
+            "centroid_distance_mm": 0.08684227328548327,
+            "area_mm2": 17.595574990023433,
+            "equivalent_radius_mm": 2.3666105451494786
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 14.0,
+          "center_mm": [
+            33.78723780478706,
+            -105.64333955585904,
+            1422.9610440615063
+          ],
+          "normal": [
+            -0.22470501689887926,
+            -0.03630251539136745,
+            -0.9737503698365069
+          ],
+          "profile_radius_mm": 2.4371253248300335,
+          "section": {
+            "centroid_distance_mm": 0.11145372596756921,
+            "area_mm2": 17.95377327063389,
+            "equivalent_radius_mm": 2.3905780736769624
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 15.0,
+          "center_mm": [
+            33.55646627526047,
+            -105.6806221546997,
+            1421.988759127297
+          ],
+          "normal": [
+            -0.23629489040054388,
+            -0.03817493269197119,
+            -0.9709312021376997
+          ],
+          "profile_radius_mm": 2.4618501551285417,
+          "section": {
+            "centroid_distance_mm": 0.14333389929938425,
+            "area_mm2": 18.345809611193168,
+            "equivalent_radius_mm": 2.416537309724059
+          },
+          "section_loop_count": 2
+        }
+      ]
+    },
+    {
+      "bridge_id": "estimated_R_carotid_gap",
+      "source_edge_id": "FJ3564:e0",
+      "attachment": "start",
+      "source_geometry_kind": "source",
+      "source_derivation": {
+        "algorithm": "voxel-lee-1",
+        "branch_identity_status": "extraction_edge_not_anatomical_branch",
+        "pitch_mm": 0.8,
+        "radius_status": "voxel_estimate"
+      },
+      "source_side_profile_min_max_mm": [
+        3.2,
+        4.308131845707603
+      ],
+      "source_side_surface_min_max_equivalent_radius_mm": [
+        3.9503983559437694,
+        4.595195356597857
+      ],
+      "source_side_profile_total_variation_mm": 1.9605330861623003,
+      "source_side_surface_total_variation_mm": 2.1306221489457267,
+      "stations": [
+        {
+          "offset_from_attachment_mm": -15.0,
+          "center_mm": [
+            -17.6,
+            -112.0,
+            1355.262741699797
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 4.079215610874228,
+          "section": {
+            "centroid_distance_mm": 0.11679560199256456,
+            "area_mm2": 53.398698671900505,
+            "equivalent_radius_mm": 4.122782276159533
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -14.0,
+          "center_mm": [
+            -17.6,
+            -112.0,
+            1356.262741699797
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 4.05319905555981,
+          "section": {
+            "centroid_distance_mm": 0.12846926867290048,
+            "area_mm2": 51.24675574965929,
+            "equivalent_radius_mm": 4.0388549107343
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -13.0,
+          "center_mm": [
+            -17.6,
+            -112.0,
+            1357.262741699797
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 4.0,
+          "section": {
+            "centroid_distance_mm": 0.27725649236174454,
+            "area_mm2": 51.8033951598462,
+            "equivalent_radius_mm": 4.06073057678844
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -12.0,
+          "center_mm": [
+            -17.6,
+            -112.0,
+            1358.262741699797
+          ],
+          "normal": [
+            0.20396472449811032,
+            0.0,
+            0.9789782383487439
+          ],
+          "profile_radius_mm": 4.0,
+          "section": {
+            "centroid_distance_mm": 0.31998208172033765,
+            "area_mm2": 53.36265804350045,
+            "equivalent_radius_mm": 4.121390737153075
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -11.0,
+          "center_mm": [
+            -16.98994949366128,
+            -112.0,
+            1359.010050506339
+          ],
+          "normal": [
+            0.6800786576977866,
+            0.0,
+            0.7331391541474079
+          ],
+          "profile_radius_mm": 4.060406904404693,
+          "section": {
+            "centroid_distance_mm": 0.45003969508765357,
+            "area_mm2": 65.86254290543653,
+            "equivalent_radius_mm": 4.578722369395695
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -10.0,
+          "center_mm": [
+            -16.8,
+            -112.0,
+            1359.9313708498985
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 4.15025578916592,
+          "section": {
+            "centroid_distance_mm": 0.1730881684703311,
+            "area_mm2": 56.52347538537135,
+            "equivalent_radius_mm": 4.241695535588316
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -9.0,
+          "center_mm": [
+            -16.8,
+            -112.0,
+            1360.9313708498985
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 4.308131845707603,
+          "section": {
+            "centroid_distance_mm": 0.04034869931948691,
+            "area_mm2": 57.47062777210218,
+            "equivalent_radius_mm": 4.277086506612749
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -8.0,
+          "center_mm": [
+            -16.8,
+            -112.0,
+            1361.9313708498985
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 4.308131845707603,
+          "section": {
+            "centroid_distance_mm": 0.07275315787012399,
+            "area_mm2": 57.60383939617068,
+            "equivalent_radius_mm": 4.282040583874053
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -7.0,
+          "center_mm": [
+            -16.8,
+            -112.0,
+            1362.9313708498985
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 4.308131845707603,
+          "section": {
+            "centroid_distance_mm": 0.05046615778351483,
+            "area_mm2": 57.60285977835413,
+            "equivalent_radius_mm": 4.282004173270824
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -6.0,
+          "center_mm": [
+            -16.8,
+            -112.0,
+            1363.9313708498985
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 4.308131845707603,
+          "section": {
+            "centroid_distance_mm": 0.059657497840955934,
+            "area_mm2": 57.333545702421844,
+            "equivalent_radius_mm": 4.2719824914260895
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -5.0,
+          "center_mm": [
+            -16.8,
+            -112.0,
+            1364.9313708498985
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 4.06620733321702,
+          "section": {
+            "centroid_distance_mm": 0.06789946448932216,
+            "area_mm2": 55.3198000778633,
+            "equivalent_radius_mm": 4.196288749180009
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -4.0,
+          "center_mm": [
+            -16.8,
+            -112.0,
+            1365.9313708498985
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 4.0,
+          "section": {
+            "centroid_distance_mm": 0.34597307399262595,
+            "area_mm2": 55.563827639549764,
+            "equivalent_radius_mm": 4.205533931842763
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -3.0,
+          "center_mm": [
+            -16.8,
+            -111.62426406871198,
+            1366.7757359312882
+          ],
+          "normal": [
+            0.0,
+            0.7071067811863699,
+            0.7071067811867252
+          ],
+          "profile_radius_mm": 4.073701513220079,
+          "section": {
+            "centroid_distance_mm": 0.43716141383436197,
+            "area_mm2": 66.33730613414355,
+            "equivalent_radius_mm": 4.595195356597857
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -2.0,
+          "center_mm": [
+            -16.8,
+            -111.2,
+            1367.6000000000001
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 4.232526891936433,
+          "section": {
+            "centroid_distance_mm": 0.1788655940247029,
+            "area_mm2": 58.238051024191996,
+            "equivalent_radius_mm": 4.305548442774318
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -1.0,
+          "center_mm": [
+            -16.8,
+            -111.2,
+            1368.6000000000001
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "profile_radius_mm": 4.077032961426923,
+          "section": {
+            "centroid_distance_mm": 0.07828778843142623,
+            "area_mm2": 56.085815686675915,
+            "equivalent_radius_mm": 4.2252419584860315
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 0.0,
+          "center_mm": [
+            -16.8,
+            -111.2,
+            1369.6000000000001
+          ],
+          "normal": [
+            -0.0041901376956178385,
+            0.0013064892544125508,
+            0.9999903678695709
+          ],
+          "profile_radius_mm": 3.2,
+          "section": {
+            "centroid_distance_mm": 0.11771917489688792,
+            "area_mm2": 49.02658650580714,
+            "equivalent_radius_mm": 3.9503983559437694
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 1.0,
+          "center_mm": [
+            -16.81274826389609,
+            -111.19602507817105,
+            1370.5998815665314
+          ],
+          "normal": [
+            -0.02394929707875448,
+            0.007467415525950463,
+            0.9996852849146057
+          ],
+          "profile_radius_mm": 3.1993549785641173,
+          "section": {
+            "centroid_distance_mm": 0.1328747815115669,
+            "area_mm2": 39.083617159503135,
+            "equivalent_radius_mm": 3.5271378949074688
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 2.0,
+          "center_mm": [
+            -16.846310670302483,
+            -111.1855602852436,
+            1371.5992271088717
+          ],
+          "normal": [
+            -0.043765174103074164,
+            0.013646026416492254,
+            0.9989486450757957
+          ],
+          "profile_radius_mm": 3.197656827996449,
+          "section": {
+            "centroid_distance_mm": 0.13426411368943486,
+            "area_mm2": 32.07856667791931,
+            "equivalent_radius_mm": 3.1954537875218345
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 3.0,
+          "center_mm": [
+            -16.901215615151948,
+            -111.16844086682094,
+            1372.597537605822
+          ],
+          "normal": [
+            -0.06664655776520806,
+            0.020780465437882242,
+            0.9975602280535416
+          ],
+          "profile_radius_mm": 3.1948788131504644,
+          "section": {
+            "centroid_distance_mm": 0.17175849088369594,
+            "area_mm2": 31.358672273405883,
+            "equivalent_radius_mm": 3.159394784167154
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 4.0,
+          "center_mm": [
+            -16.97910493071566,
+            -111.14415489790784,
+            1373.5941750901413
+          ],
+          "normal": [
+            -0.08811529557854088,
+            0.027474440026872656,
+            0.9957313140753967
+          ],
+          "profile_radius_mm": 3.1909378625571656,
+          "section": {
+            "centroid_distance_mm": 0.1645443094298328,
+            "area_mm2": 31.273983761933952,
+            "equivalent_radius_mm": 3.155125704591643
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 5.0,
+          "center_mm": [
+            -17.07617775136542,
+            -111.11388749232667,
+            1374.5889622469404
+          ],
+          "normal": [
+            -0.10716153509642087,
+            0.03341307714924354,
+            0.9936800147286838
+          ],
+          "profile_radius_mm": 3.1860262878775814,
+          "section": {
+            "centroid_distance_mm": 0.03927951575043829,
+            "area_mm2": 31.174035933520827,
+            "equivalent_radius_mm": 3.1500799719829997
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 6.0,
+          "center_mm": [
+            -17.19385922735923,
+            -111.07719428675732,
+            1375.581304250719
+          ],
+          "normal": [
+            -0.1279906086234795,
+            0.03990760375418919,
+            0.9909721425281287
+          ],
+          "profile_radius_mm": 3.1800719810605087,
+          "section": {
+            "centroid_distance_mm": 0.12524519483645213,
+            "area_mm2": 31.053892355992637,
+            "equivalent_radius_mm": 3.144003966505084
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 7.0,
+          "center_mm": [
+            -17.3312880814935,
+            -111.03434382832006,
+            1376.5708625249993
+          ],
+          "normal": [
+            -0.14557377386121886,
+            0.045390052807220645,
+            0.9883056305971146
+          ],
+          "profile_radius_mm": 3.1731185199815775,
+          "section": {
+            "centroid_distance_mm": 0.04480261803506891,
+            "area_mm2": 30.91533919228159,
+            "equivalent_radius_mm": 3.1369823237672914
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 8.0,
+          "center_mm": [
+            -17.48596746835448,
+            -110.98611463598967,
+            1377.557627033239
+          ],
+          "normal": [
+            -0.16437992444525362,
+            0.05125382995247788,
+            0.9850646097361204
+          ],
+          "profile_radius_mm": 3.165292237043935,
+          "section": {
+            "centroid_distance_mm": 0.04557713920058662,
+            "area_mm2": 30.749484502757088,
+            "equivalent_radius_mm": 3.12855636233117
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 9.0,
+          "center_mm": [
+            -17.660041024033372,
+            -110.93183832182238,
+            1378.5408402780977
+          ],
+          "normal": [
+            -0.182874023571045,
+            0.05702030913122797,
+            0.9814814190036998
+          ],
+          "profile_radius_mm": 3.1564846711080237,
+          "section": {
+            "centroid_distance_mm": 0.07987897451301666,
+            "area_mm2": 30.59000375173265,
+            "equivalent_radius_mm": 3.120432760463803
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 10.0,
+          "center_mm": [
+            -17.85057015839638,
+            -110.87243114125219,
+            1379.5207009562191
+          ],
+          "normal": [
+            -0.19788160465714258,
+            0.06169968838984621,
+            0.9782821775903465
+          ],
+          "profile_radius_mm": 3.1468445054489163,
+          "section": {
+            "centroid_distance_mm": 0.04088519102808408,
+            "area_mm2": 30.390172773989548,
+            "equivalent_radius_mm": 3.11022385637985
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 11.0,
+          "center_mm": [
+            -18.056535412386257,
+            -110.80821096266449,
+            1380.4971329018374
+          ],
+          "normal": [
+            -0.21472030753313168,
+            0.06695001331083002,
+            0.9743782044209307
+          ],
+          "profile_radius_mm": 3.136423321438814,
+          "section": {
+            "centroid_distance_mm": 0.18035679136853397,
+            "area_mm2": 30.176386593597865,
+            "equivalent_radius_mm": 3.099264780886945
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 12.0,
+          "center_mm": [
+            -18.279686997839498,
+            -110.73863206820371,
+            1381.4694153998119
+          ],
+          "normal": [
+            -0.2307704069280164,
+            0.07195445085318147,
+            0.9703440504731787
+          ],
+          "profile_radius_mm": 3.12513256394887,
+          "section": {
+            "centroid_distance_mm": 0.06908068962079454,
+            "area_mm2": 29.96749735629508,
+            "equivalent_radius_mm": 3.088519171495514
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 13.0,
+          "center_mm": [
+            -18.51651656188318,
+            -110.66478836591358,
+            1382.4381396138722
+          ],
+          "normal": [
+            -0.24358828624547516,
+            0.07595107884234059,
+            0.9669002949770349
+          ],
+          "profile_radius_mm": 3.113149744428967,
+          "section": {
+            "centroid_distance_mm": 0.10186639198061194,
+            "area_mm2": 29.734165795185728,
+            "equivalent_radius_mm": 3.0764718315036674
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 14.0,
+          "center_mm": [
+            -18.767239235625112,
+            -110.58661277769279,
+            1383.4030211682416
+          ],
+          "normal": [
+            -0.2579850200659443,
+            0.0804399952936029,
+            0.9627944414976333
+          ],
+          "profile_radius_mm": 3.1004639779321677,
+          "section": {
+            "centroid_distance_mm": 0.10796622004294765,
+            "area_mm2": 29.48031905852505,
+            "equivalent_radius_mm": 3.0633114442023266
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 15.0,
+          "center_mm": [
+            -19.031978634125625,
+            -110.50406676023809,
+            1384.3637893155765
+          ],
+          "normal": [
+            -0.27083817321540044,
+            0.0844476216999421,
+            0.9589135952308572
+          ],
+          "profile_radius_mm": 3.0870690099312377,
+          "section": {
+            "centroid_distance_mm": 0.09308503151033516,
+            "area_mm2": 29.20713388835049,
+            "equivalent_radius_mm": 3.049085020748943
+          },
+          "section_loop_count": 2
+        }
+      ]
+    },
+    {
+      "bridge_id": "estimated_R_carotid_gap",
+      "source_edge_id": "FJ1682:e0",
+      "attachment": "end",
+      "source_geometry_kind": "source",
+      "source_derivation": {
+        "algorithm": "voxel-lee-1",
+        "branch_identity_status": "extraction_edge_not_anatomical_branch",
+        "pitch_mm": 0.5634741816942167,
+        "radius_status": "voxel_estimate"
+      },
+      "source_side_profile_min_max_mm": [
+        2.044425754544396,
+        2.253896726776867
+      ],
+      "source_side_surface_min_max_equivalent_radius_mm": [
+        2.1265603727695264,
+        2.4018221561442483
+      ],
+      "source_side_profile_total_variation_mm": 1.0841327755904002,
+      "source_side_surface_total_variation_mm": 0.6680099335346683,
+      "stations": [
+        {
+          "offset_from_attachment_mm": -15.0,
+          "center_mm": [
+            -33.808450901653,
+            -105.36967197681852,
+            1451.1589673759381
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.253896726776867,
+          "section": {
+            "centroid_distance_mm": 0.07256816329409455,
+            "area_mm2": 15.382131578083051,
+            "equivalent_radius_mm": 2.2127549687852266
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -14.0,
+          "center_mm": [
+            -33.808450901653,
+            -105.36967197681852,
+            1450.1589673759381
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.077897232741283,
+          "section": {
+            "centroid_distance_mm": 0.11507751042360964,
+            "area_mm2": 14.20709571182635,
+            "equivalent_radius_mm": 2.1265603727695264
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -13.0,
+          "center_mm": [
+            -33.87677717440153,
+            -105.36967197681852,
+            1449.1872690447772
+          ],
+          "normal": [
+            -0.5014995669480934,
+            0.0,
+            -0.8651578956184096
+          ],
+          "profile_radius_mm": 2.0585862656365674,
+          "section": {
+            "centroid_distance_mm": 0.23590944797190452,
+            "area_mm2": 15.025484630423916,
+            "equivalent_radius_mm": 2.1869522863031405
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -12.0,
+          "center_mm": [
+            -34.37192508334722,
+            -105.36967197681852,
+            1448.392366024043
+          ],
+          "normal": [
+            -0.0002886380180429528,
+            0.0,
+            -0.9999999583440464
+          ],
+          "profile_radius_mm": 2.253896726776867,
+          "section": {
+            "centroid_distance_mm": 0.136745351641429,
+            "area_mm2": 15.55888596308087,
+            "equivalent_radius_mm": 2.225431917640899
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -11.0,
+          "center_mm": [
+            -34.37192508334722,
+            -105.36967197681852,
+            1447.392366024043
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.209253379812162,
+          "section": {
+            "centroid_distance_mm": 0.06831468502480166,
+            "area_mm2": 15.211016764375591,
+            "equivalent_radius_mm": 2.2004129192058763
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -10.0,
+          "center_mm": [
+            -34.404351858362986,
+            -105.36967197681852,
+            1446.4057976340387
+          ],
+          "normal": [
+            -0.4402992006451429,
+            0.0,
+            -0.8978511089881486
+          ],
+          "profile_radius_mm": 2.044425754544396,
+          "section": {
+            "centroid_distance_mm": 0.43603850461565213,
+            "area_mm2": 15.046478971269902,
+            "equivalent_radius_mm": 2.1884796112396665
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -9.0,
+          "center_mm": [
+            -34.93539926504144,
+            -105.36967197681852,
+            1445.6257646721479
+          ],
+          "normal": [
+            -0.061539669360958504,
+            0.0,
+            -0.9981046383495791
+          ],
+          "profile_radius_mm": 2.253896726776867,
+          "section": {
+            "centroid_distance_mm": 0.08883178591920429,
+            "area_mm2": 15.471178842093224,
+            "equivalent_radius_mm": 2.219150552881837
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -8.0,
+          "center_mm": [
+            -34.93539926504144,
+            -105.36967197681852,
+            1444.6257646721479
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.253896726776867,
+          "section": {
+            "centroid_distance_mm": 0.08485942201820615,
+            "area_mm2": 15.253154135104293,
+            "equivalent_radius_mm": 2.203458589737702
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -7.0,
+          "center_mm": [
+            -34.93539926504144,
+            -105.36967197681852,
+            1443.6257646721479
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.253896726776867,
+          "section": {
+            "centroid_distance_mm": 0.05014996037565675,
+            "area_mm2": 15.239331692709639,
+            "equivalent_radius_mm": 2.20245997389815
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -6.0,
+          "center_mm": [
+            -34.93539926504144,
+            -105.36967197681852,
+            1442.6257646721479
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.1423922710311043,
+          "section": {
+            "centroid_distance_mm": 0.13185694394672037,
+            "area_mm2": 15.294365433659237,
+            "equivalent_radius_mm": 2.206433257644875
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -5.0,
+          "center_mm": [
+            -35.15083085999915,
+            -105.36967197681852,
+            1441.714999360543
+          ],
+          "normal": [
+            -0.7071067811866305,
+            0.0,
+            -0.7071067811864648
+          ],
+          "profile_radius_mm": 2.116611772354437,
+          "section": {
+            "centroid_distance_mm": 0.1428700829550635,
+            "area_mm2": 18.123061582870715,
+            "equivalent_radius_mm": 2.4018221561442483
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -4.0,
+          "center_mm": [
+            -35.49887344673566,
+            -105.36967197681852,
+            1440.8591633202527
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.253896726776867,
+          "section": {
+            "centroid_distance_mm": 0.06957173820460166,
+            "area_mm2": 15.469515087514797,
+            "equivalent_radius_mm": 2.219031227095569
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -3.0,
+          "center_mm": [
+            -35.49887344673566,
+            -105.36967197681852,
+            1439.8591633202527
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.253896726776867,
+          "section": {
+            "centroid_distance_mm": 0.07166276607474852,
+            "area_mm2": 15.243933598077978,
+            "equivalent_radius_mm": 2.202792493313309
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -2.0,
+          "center_mm": [
+            -35.49887344673566,
+            -105.36967197681852,
+            1438.8591633202527
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.253896726776867,
+          "section": {
+            "centroid_distance_mm": 0.03647705309581029,
+            "area_mm2": 15.24193726030215,
+            "equivalent_radius_mm": 2.202648250299456
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": -1.0,
+          "center_mm": [
+            -35.49887344673566,
+            -105.36967197681852,
+            1437.8591633202527
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "profile_radius_mm": 2.253896726776867,
+          "section": {
+            "centroid_distance_mm": 0.05401754221717495,
+            "area_mm2": 15.241948854297405,
+            "equivalent_radius_mm": 2.202649088037077
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 0.0,
+          "center_mm": [
+            -35.49887344673566,
+            -105.36967197681852,
+            1436.8591633202527
+          ],
+          "normal": [
+            0.00419013769562376,
+            -0.0013064892544125508,
+            -0.9999903678695709
+          ],
+          "profile_radius_mm": 2.253896726776867,
+          "section": {
+            "centroid_distance_mm": 0.07245767575951148,
+            "area_mm2": 15.24323651987163,
+            "equivalent_radius_mm": 2.20274212782907
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 1.0,
+          "center_mm": [
+            -35.486125182839565,
+            -105.37364689864748,
+            1435.8592817537215
+          ],
+          "normal": [
+            0.023949297078754483,
+            -0.007467415525926779,
+            -0.999685284914606
+          ],
+          "profile_radius_mm": 2.2545417482127497,
+          "section": {
+            "centroid_distance_mm": 0.03352573625492828,
+            "area_mm2": 15.257121783970947,
+            "equivalent_radius_mm": 2.20374515281328
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 2.0,
+          "center_mm": [
+            -35.452562776433176,
+            -105.38411169157492,
+            1434.8599362113812
+          ],
+          "normal": [
+            0.043765174103074164,
+            -0.013646026416492254,
+            -0.9989486450757957
+          ],
+          "profile_radius_mm": 2.256239898780418,
+          "section": {
+            "centroid_distance_mm": 0.04774659772312038,
+            "area_mm2": 15.282008187972666,
+            "equivalent_radius_mm": 2.205541721884521
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 3.0,
+          "center_mm": [
+            -35.397657831583714,
+            -105.4012311099976,
+            1433.8616257144308
+          ],
+          "normal": [
+            0.06664655776521394,
+            -0.020780465437882232,
+            -0.997560228053541
+          ],
+          "profile_radius_mm": 2.2590179136264026,
+          "section": {
+            "centroid_distance_mm": 0.09912381644697829,
+            "area_mm2": 15.31125950744375,
+            "equivalent_radius_mm": 2.2076515284675033
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 4.0,
+          "center_mm": [
+            -35.31976851602,
+            -105.42551707891069,
+            1432.8649882301117
+          ],
+          "normal": [
+            0.08811529557854675,
+            -0.02747444002687264,
+            -0.9957313140753962
+          ],
+          "profile_radius_mm": 2.2629588642197014,
+          "section": {
+            "centroid_distance_mm": 0.06092824690105971,
+            "area_mm2": 15.37281323891807,
+            "equivalent_radius_mm": 2.212084635000361
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 5.0,
+          "center_mm": [
+            -35.22269569537022,
+            -105.45578448449187,
+            1431.8702010733125
+          ],
+          "normal": [
+            0.10716153509644419,
+            -0.03341307714926711,
+            -0.9936800147286804
+          ],
+          "profile_radius_mm": 2.2678704388992865,
+          "section": {
+            "centroid_distance_mm": 0.10832676283049499,
+            "area_mm2": 15.436174535748746,
+            "equivalent_radius_mm": 2.2166386623866576
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 6.0,
+          "center_mm": [
+            -35.105014219376436,
+            -105.49247769006121,
+            1430.8778590695338
+          ],
+          "normal": [
+            0.12799060862347378,
+            -0.03990760375416557,
+            -0.9909721425281304
+          ],
+          "profile_radius_mm": 2.2738247457163583,
+          "section": {
+            "centroid_distance_mm": 0.006655112308099552,
+            "area_mm2": 15.522525239131598,
+            "equivalent_radius_mm": 2.2228300074798786
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 7.0,
+          "center_mm": [
+            -34.967585365242165,
+            -105.53532814849846,
+            1429.8883007952536
+          ],
+          "normal": [
+            0.14557377386123624,
+            -0.04539005280722053,
+            -0.9883056305971121
+          ],
+          "profile_radius_mm": 2.2807782067952895,
+          "section": {
+            "centroid_distance_mm": 0.03917763947032875,
+            "area_mm2": 15.616570351575835,
+            "equivalent_radius_mm": 2.229553482469363
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 8.0,
+          "center_mm": [
+            -34.81290597838118,
+            -105.58355734082886,
+            1428.9015362870139
+          ],
+          "normal": [
+            0.16437992444526534,
+            -0.05125382995245416,
+            -0.9850646097361196
+          ],
+          "profile_radius_mm": 2.288604489732932,
+          "section": {
+            "centroid_distance_mm": 0.021930444774608936,
+            "area_mm2": 15.718924678721532,
+            "equivalent_radius_mm": 2.2368480335989367
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 9.0,
+          "center_mm": [
+            -34.6388324227023,
+            -105.63783365499613,
+            1427.9183230421552
+          ],
+          "normal": [
+            0.18287402357100518,
+            -0.057020309131204795,
+            -0.9814814190037084
+          ],
+          "profile_radius_mm": 2.297412055668843,
+          "section": {
+            "centroid_distance_mm": 0.09793042996157852,
+            "area_mm2": 15.852810863739595,
+            "equivalent_radius_mm": 2.2463540285827857
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 10.0,
+          "center_mm": [
+            -34.4483032883393,
+            -105.69724083556632,
+            1426.9384623640337
+          ],
+          "normal": [
+            0.19788160465722193,
+            -0.06169968838986879,
+            -0.9782821775903289
+          ],
+          "profile_radius_mm": 2.30705222132795,
+          "section": {
+            "centroid_distance_mm": 0.09237321468896284,
+            "area_mm2": 15.995822531641277,
+            "equivalent_radius_mm": 2.2564637044417197
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 11.0,
+          "center_mm": [
+            -34.242338034349345,
+            -105.76146101415407,
+            1425.9620304184155
+          ],
+          "normal": [
+            0.21472030753311508,
+            -0.06695001331080669,
+            -0.9743782044209359
+          ],
+          "profile_radius_mm": 2.3174734053380552,
+          "section": {
+            "centroid_distance_mm": 0.055314025389848955,
+            "area_mm2": 16.154020731070545,
+            "equivalent_radius_mm": 2.2675944302978124
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 12.0,
+          "center_mm": [
+            -34.019186448896164,
+            -105.8310399086148,
+            1424.989747920441
+          ],
+          "normal": [
+            0.23077040692822942,
+            -0.0719544508532528,
+            -0.9703440504731228
+          ],
+          "profile_radius_mm": 2.328764162827997,
+          "section": {
+            "centroid_distance_mm": 0.10969988376927742,
+            "area_mm2": 16.321921403680722,
+            "equivalent_radius_mm": 2.2793483595770057
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 13.0,
+          "center_mm": [
+            -33.782356884852454,
+            -105.90488361090495,
+            1424.0210237063807
+          ],
+          "normal": [
+            0.24358828624543613,
+            -0.07595107884234134,
+            -0.9669002949770445
+          ],
+          "profile_radius_mm": 2.3407469823479006,
+          "section": {
+            "centroid_distance_mm": 0.047822768491618727,
+            "area_mm2": 16.49314024443103,
+            "equivalent_radius_mm": 2.291272483581588
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 14.0,
+          "center_mm": [
+            -33.53163421111053,
+            -105.98305919912573,
+            1423.0561421520113
+          ],
+          "normal": [
+            0.25798502006599905,
+            -0.08043999529362521,
+            -0.9627944414976167
+          ],
+          "profile_radius_mm": 2.3534327488447,
+          "section": {
+            "centroid_distance_mm": 0.14752833546530994,
+            "area_mm2": 16.695956145060304,
+            "equivalent_radius_mm": 2.3053173101036886
+          },
+          "section_loop_count": 2
+        },
+        {
+          "offset_from_attachment_mm": 15.0,
+          "center_mm": [
+            -33.26689481260999,
+            -106.06560521658045,
+            1422.0953740046764
+          ],
+          "normal": [
+            0.2708381732153346,
+            -0.08444762169994373,
+            -0.9589135952308756
+          ],
+          "profile_radius_mm": 2.366827716845631,
+          "section": {
+            "centroid_distance_mm": 0.11971874646013037,
+            "area_mm2": 16.87747139968943,
+            "equivalent_radius_mm": 2.317814919337893
+          },
+          "section_loop_count": 2
+        }
+      ]
+    }
+  ],
+  "surface_smoothness_acceptance": "UNKNOWN",
+  "anatomical_acceptance": "UNKNOWN",
+  "figure": {
+    "path": "exports/synthetic-neck-case/neck-surface-radius-profiles.png",
+    "sha256": "7bd6a32bb29661263373a648b0a44cbb07048b7dc25a5bdccb0c3205e93f476d"
+  }
+}

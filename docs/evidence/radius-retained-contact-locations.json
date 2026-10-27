@@ -1,0 +1,195 @@
+{
+  "rows": [
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "neighbor_id": "FJ1654M",
+      "contacting_union_faces": 19,
+      "source_face_counts": {
+        "FJ1682M": 19
+      },
+      "changed_contacting_union_faces": 0,
+      "added_contact_pairs": 0,
+      "removed_contact_pairs": 0
+    },
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "neighbor_id": "FJ1658M",
+      "contacting_union_faces": 16,
+      "source_face_counts": {
+        "FJ1682M": 16
+      },
+      "changed_contacting_union_faces": 0,
+      "added_contact_pairs": 0,
+      "removed_contact_pairs": 0
+    },
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "neighbor_id": "FJ1662M",
+      "contacting_union_faces": 17,
+      "source_face_counts": {
+        "FJ1682M": 17
+      },
+      "changed_contacting_union_faces": 0,
+      "added_contact_pairs": 0,
+      "removed_contact_pairs": 0
+    },
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "neighbor_id": "FJ1663M",
+      "contacting_union_faces": 8,
+      "source_face_counts": {
+        "FJ1682M": 8
+      },
+      "changed_contacting_union_faces": 0,
+      "added_contact_pairs": 0,
+      "removed_contact_pairs": 0
+    },
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "neighbor_id": "FJ1692M",
+      "contacting_union_faces": 43,
+      "source_face_counts": {
+        "FJ1682M": 43
+      },
+      "changed_contacting_union_faces": 0,
+      "added_contact_pairs": 0,
+      "removed_contact_pairs": 0
+    },
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "neighbor_id": "FJ1695M",
+      "contacting_union_faces": 13,
+      "source_face_counts": {
+        "FJ1682M": 13
+      },
+      "changed_contacting_union_faces": 0,
+      "added_contact_pairs": 0,
+      "removed_contact_pairs": 0
+    },
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "neighbor_id": "FJ1713M",
+      "contacting_union_faces": 12,
+      "source_face_counts": {
+        "FJ1682M": 12
+      },
+      "changed_contacting_union_faces": 0,
+      "added_contact_pairs": 0,
+      "removed_contact_pairs": 0
+    },
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "neighbor_id": "FJ3411",
+      "contacting_union_faces": 20,
+      "source_face_counts": {
+        "FJ3483": 20
+      },
+      "changed_contacting_union_faces": 0,
+      "added_contact_pairs": 0,
+      "removed_contact_pairs": 0
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "neighbor_id": "FJ1654",
+      "contacting_union_faces": 19,
+      "source_face_counts": {
+        "FJ1682": 19
+      },
+      "changed_contacting_union_faces": 0,
+      "added_contact_pairs": 0,
+      "removed_contact_pairs": 0
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "neighbor_id": "FJ1658",
+      "contacting_union_faces": 16,
+      "source_face_counts": {
+        "FJ1682": 16
+      },
+      "changed_contacting_union_faces": 0,
+      "added_contact_pairs": 0,
+      "removed_contact_pairs": 0
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "neighbor_id": "FJ1662",
+      "contacting_union_faces": 17,
+      "source_face_counts": {
+        "FJ1682": 17
+      },
+      "changed_contacting_union_faces": 0,
+      "added_contact_pairs": 0,
+      "removed_contact_pairs": 0
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "neighbor_id": "FJ1663",
+      "contacting_union_faces": 8,
+      "source_face_counts": {
+        "FJ1682": 8
+      },
+      "changed_contacting_union_faces": 0,
+      "added_contact_pairs": 0,
+      "removed_contact_pairs": 0
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "neighbor_id": "FJ1692",
+      "contacting_union_faces": 43,
+      "source_face_counts": {
+        "FJ1682": 43
+      },
+      "changed_contacting_union_faces": 0,
+      "added_contact_pairs": 0,
+      "removed_contact_pairs": 0
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "neighbor_id": "FJ1695",
+      "contacting_union_faces": 13,
+      "source_face_counts": {
+        "FJ1682": 13
+      },
+      "changed_contacting_union_faces": 0,
+      "added_contact_pairs": 0,
+      "removed_contact_pairs": 0
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "neighbor_id": "FJ1713",
+      "contacting_union_faces": 12,
+      "source_face_counts": {
+        "FJ1682": 12
+      },
+      "changed_contacting_union_faces": 0,
+      "added_contact_pairs": 0,
+      "removed_contact_pairs": 0
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "neighbor_id": "FJ3417",
+      "contacting_union_faces": 49,
+      "source_face_counts": {
+        "FJ3564": 49
+      },
+      "changed_contacting_union_faces": 0,
+      "added_contact_pairs": 0,
+      "removed_contact_pairs": 0
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "neighbor_id": "FJ3579",
+      "contacting_union_faces": 35,
+      "source_face_counts": {
+        "FJ3564": 35
+      },
+      "changed_contacting_union_faces": 0,
+      "added_contact_pairs": 0,
+      "removed_contact_pairs": 0
+    }
+  ],
+  "source": "carotid-radius-context.json",
+  "scope": "Exact triangle-coordinate comparison and source ownership; not junction approval",
+  "source_junction_union": "NOT RUN",
+  "clearance_status": "NOT GRANTED"
+}

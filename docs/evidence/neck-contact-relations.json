@@ -1,0 +1,1680 @@
+{
+  "schema": "vv-toolbox.neck-contact-relations/1",
+  "status": "PASS",
+  "scope": "17 existing conservative capsule witnesses classified; not anatomical approval",
+  "parent_revision": "165cebe813b506cf1a12bd299de0b05c96890def6214e4233d85d33e3eea55b3",
+  "derived_revision": "7fa40ff00a59f067f6f795a2f26b808b2d274add1b7f35fb90c1db2d827ce2cf",
+  "inputs": {
+    "docs/evidence/centerline-regularized-neck.json": "93f09786203220991d7948bc2b0f2e9dd3a74a511aa4dbee68b401e41eb4b59a",
+    "exports/synthetic-neck-case/case.snapshot.json": "4d77c838d77e26aebee30f00f655597314abbf80bc457ef7ffff1947bf9346f5",
+    "src/vv_toolbox/atlas_topology.py": "b0ff5ddd4e9a5fccac907e807535ff1472204fda3592d80d39975338cd147a22",
+    "scripts/inspect_neck_contact_relations.py": "ddac7d3cfc03ba4f85ec19e79e002be4b9e1b114ea16132d0aed40d42ca710e4"
+  },
+  "witness_policy": "First detected capsule contact per edge pair, not global closest point or anatomical origin. Arc distances are exact for this source polyline witness only.",
+  "counts": {
+    "known_reference_relation": 13,
+    "unknown_direct_relation": 4
+  },
+  "specimen_connections_confirmed": 0,
+  "graph_modified": false,
+  "pairs": [
+    {
+      "edges": [
+        "FJ1654:e0",
+        "FJ1682:e0"
+      ],
+      "before_witness": {
+        "edges": [
+          "FJ1654:e0",
+          "FJ1682:e0"
+        ],
+        "intervals": [
+          0,
+          184
+        ],
+        "clearance_lower_bound_mm": -1.0530446839574295
+      },
+      "after_witness": {
+        "edges": [
+          "FJ1654:e0",
+          "FJ1682:e0"
+        ],
+        "intervals": [
+          0,
+          184
+        ],
+        "clearance_lower_bound_mm": -0.8488675754287593
+      },
+      "locations": [
+        {
+          "edge_id": "FJ1654:e0",
+          "source_part_id": "FJ1654",
+          "source_name": "right anterior cerebral artery",
+          "interval_index": 0,
+          "interval_fraction": 0.0,
+          "position_mm": [
+            -12.666214100519182,
+            -111.13581404326509,
+            1537.9235443340065
+          ],
+          "arc_from_start_mm": 0.0,
+          "arc_to_end_mm": 24.930211794804613,
+          "exact_endpoint": "start",
+          "location": "endpoint",
+          "nearest_endpoint": "start",
+          "identity_refs": [
+            "BodyParts3D element FJ1654; OBJ SHA256 7f146e7551bb53d1ad7f5d98a77a16d8c7ea4e8ab86012bfd3c92b782df2a5dd"
+          ],
+          "geometry_kind": "source"
+        },
+        {
+          "edge_id": "FJ1682:e0",
+          "source_part_id": "FJ1682",
+          "source_name": "right internal carotid artery",
+          "interval_index": 184,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            -12.39643199727277,
+            -109.87746543037225,
+            1536.0306192984349
+          ],
+          "arc_from_start_mm": 127.45202448910409,
+          "arc_to_end_mm": 4.109151664187792,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "end",
+          "identity_refs": [
+            "BodyParts3D element FJ1682; OBJ SHA256 7bb929f419a3b37c8cffe1a1bf59c0374b26e2c1027d061956e5d73b31eb295b"
+          ],
+          "geometry_kind": "source"
+        }
+      ],
+      "centerline_distance_mm": 2.2889711236918293,
+      "reference_relation": {
+        "status": "known_reference_relation",
+        "kind": "curated_junction_members",
+        "junction_ids": [
+          "right_ica_terminal"
+        ],
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/34437363/"
+        ],
+        "note": "Reference member identity only; no specimen lumen connection established."
+      },
+      "specimen_lumen_connection": "UNKNOWN",
+      "exact_surface_collision": "NOT RUN",
+      "followup": {
+        "status": "inspection_candidate_only",
+        "action": "inspect_attachment_then_split_internal_edge_if_confirmed",
+        "proposed_internal_split_edge_ids": [
+          "FJ1682:e0"
+        ],
+        "required": [
+          "source mesh local cross-sections",
+          "anatomical origin adjudication",
+          "explicit attachment coordinates",
+          "retain source unchanged; modify synthetic graph only"
+        ]
+      },
+      "automatic_connectivity_promotion": false
+    },
+    {
+      "edges": [
+        "FJ1654M:e0",
+        "FJ1682M:e0"
+      ],
+      "before_witness": {
+        "edges": [
+          "FJ1654M:e0",
+          "FJ1682M:e0"
+        ],
+        "intervals": [
+          40,
+          4
+        ],
+        "clearance_lower_bound_mm": -0.08156479093259983
+      },
+      "after_witness": {
+        "edges": [
+          "FJ1654M:e0",
+          "FJ1682M:e0"
+        ],
+        "intervals": [
+          41,
+          4
+        ],
+        "clearance_lower_bound_mm": -0.04935588884969477
+      },
+      "locations": [
+        {
+          "edge_id": "FJ1654M:e0",
+          "source_part_id": "FJ1654M",
+          "source_name": "left anterior cerebral artery",
+          "interval_index": 40,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            10.62503367743209,
+            -110.74554333015755,
+            1538.5866075204544
+          ],
+          "arc_from_start_mm": 22.36425094593079,
+          "arc_to_end_mm": 4.524248782546408,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "end",
+          "identity_refs": [
+            "BodyParts3D element FJ1654M; OBJ SHA256 b5bbd053a3b23de2490f00262adc37044f2a1f09f6548468b9595add93806dcc"
+          ],
+          "geometry_kind": "source"
+        },
+        {
+          "edge_id": "FJ1682M:e0",
+          "source_part_id": "FJ1682M",
+          "source_name": "left internal carotid artery",
+          "interval_index": 4,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            12.396113120780253,
+            -109.8746390250977,
+            1535.991107602135
+          ],
+          "arc_from_start_mm": 3.7508690138751923,
+          "arc_to_end_mm": 127.80692295867735,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "start",
+          "identity_refs": [
+            "BodyParts3D element FJ1682M; OBJ SHA256 117074e676e00306d95277cf2c4155a73c3684674bab401be4aec3acdfa11cce"
+          ],
+          "geometry_kind": "source"
+        }
+      ],
+      "centerline_distance_mm": 3.2606466428024676,
+      "reference_relation": {
+        "status": "known_reference_relation",
+        "kind": "curated_junction_members",
+        "junction_ids": [
+          "left_ica_terminal"
+        ],
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/34437363/"
+        ],
+        "note": "Reference member identity only; no specimen lumen connection established."
+      },
+      "specimen_lumen_connection": "UNKNOWN",
+      "exact_surface_collision": "NOT RUN",
+      "followup": {
+        "status": "inspection_candidate_only",
+        "action": "inspect_attachment_then_split_internal_edge_if_confirmed",
+        "proposed_internal_split_edge_ids": [
+          "FJ1654M:e0",
+          "FJ1682M:e0"
+        ],
+        "required": [
+          "source mesh local cross-sections",
+          "anatomical origin adjudication",
+          "explicit attachment coordinates",
+          "retain source unchanged; modify synthetic graph only"
+        ]
+      },
+      "automatic_connectivity_promotion": false
+    },
+    {
+      "edges": [
+        "FJ1658:e0",
+        "FJ1682:e0"
+      ],
+      "before_witness": {
+        "edges": [
+          "FJ1658:e0",
+          "FJ1682:e0"
+        ],
+        "intervals": [
+          211,
+          181
+        ],
+        "clearance_lower_bound_mm": -0.0864909031625849
+      },
+      "after_witness": {
+        "edges": [
+          "FJ1658:e0",
+          "FJ1682:e0"
+        ],
+        "intervals": [
+          213,
+          180
+        ],
+        "clearance_lower_bound_mm": -0.12531170585251483
+      },
+      "locations": [
+        {
+          "edge_id": "FJ1658:e0",
+          "source_part_id": "FJ1658",
+          "source_name": "right anterior choroidal artery",
+          "interval_index": 211,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            -13.081676581619796,
+            -106.7558249607187,
+            1534.5273832975079
+          ],
+          "arc_from_start_mm": 64.00360867386584,
+          "arc_to_end_mm": 1.6518111107414768,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "end",
+          "identity_refs": [
+            "BodyParts3D element FJ1658; OBJ SHA256 19a51b68f4f0f58bb86302bbf3d8eb39f26158e2f7d5cd752f85b3adf94eddaf"
+          ],
+          "geometry_kind": "source"
+        },
+        {
+          "edge_id": "FJ1682:e0",
+          "source_part_id": "FJ1682",
+          "source_name": "right internal carotid artery",
+          "interval_index": 181,
+          "interval_fraction": 0.0,
+          "position_mm": [
+            -11.832957815578556,
+            -108.75051706698382,
+            1533.776722571658
+          ],
+          "arc_from_start_mm": 124.08544008825925,
+          "arc_to_end_mm": 7.475736065032635,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "end",
+          "identity_refs": [
+            "BodyParts3D element FJ1682; OBJ SHA256 7bb929f419a3b37c8cffe1a1bf59c0374b26e2c1027d061956e5d73b31eb295b"
+          ],
+          "geometry_kind": "source"
+        }
+      ],
+      "centerline_distance_mm": 2.4701390002980506,
+      "reference_relation": {
+        "status": "known_reference_relation",
+        "kind": "ICA_branch",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/7277004/"
+        ],
+        "note": "Cadaver study describes this named ICA branch; exact origin and lumen in this atlas remain unknown."
+      },
+      "specimen_lumen_connection": "UNKNOWN",
+      "exact_surface_collision": "NOT RUN",
+      "followup": {
+        "status": "inspection_candidate_only",
+        "action": "inspect_attachment_then_split_internal_edge_if_confirmed",
+        "proposed_internal_split_edge_ids": [
+          "FJ1658:e0",
+          "FJ1682:e0"
+        ],
+        "required": [
+          "source mesh local cross-sections",
+          "anatomical origin adjudication",
+          "explicit attachment coordinates",
+          "retain source unchanged; modify synthetic graph only"
+        ]
+      },
+      "automatic_connectivity_promotion": false
+    },
+    {
+      "edges": [
+        "FJ1658M:e0",
+        "FJ1682M:e0"
+      ],
+      "before_witness": {
+        "edges": [
+          "FJ1658M:e0",
+          "FJ1682M:e0"
+        ],
+        "intervals": [
+          0,
+          6
+        ],
+        "clearance_lower_bound_mm": -0.3996140740176364
+      },
+      "after_witness": {
+        "edges": [
+          "FJ1658M:e0",
+          "FJ1682M:e0"
+        ],
+        "intervals": [
+          0,
+          6
+        ],
+        "clearance_lower_bound_mm": -0.1854675359369653
+      },
+      "locations": [
+        {
+          "edge_id": "FJ1658M:e0",
+          "source_part_id": "FJ1658M",
+          "source_name": "left anterior choroidal artery",
+          "interval_index": 0,
+          "interval_fraction": 0.0,
+          "position_mm": [
+            12.607422560403014,
+            -106.92962097527,
+            1534.3700197586782
+          ],
+          "arc_from_start_mm": 0.0,
+          "arc_to_end_mm": 64.09391225525391,
+          "exact_endpoint": "start",
+          "location": "endpoint",
+          "nearest_endpoint": "start",
+          "identity_refs": [
+            "BodyParts3D element FJ1658M; OBJ SHA256 14087bbb463ac93b83165ac19c577188f0c4b07f89bed60e42a1197041ca7342"
+          ],
+          "geometry_kind": "source"
+        },
+        {
+          "edge_id": "FJ1682M:e0",
+          "source_part_id": "FJ1682M",
+          "source_name": "left internal carotid artery",
+          "interval_index": 6,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            11.269193746163866,
+            -108.7477196504813,
+            1534.8641882275183
+          ],
+          "arc_from_start_mm": 5.70275062674464,
+          "arc_to_end_mm": 125.85504134580789,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "start",
+          "identity_refs": [
+            "BodyParts3D element FJ1682M; OBJ SHA256 117074e676e00306d95277cf2c4155a73c3684674bab401be4aec3acdfa11cce"
+          ],
+          "geometry_kind": "source"
+        }
+      ],
+      "centerline_distance_mm": 2.310961191292667,
+      "reference_relation": {
+        "status": "known_reference_relation",
+        "kind": "ICA_branch",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/7277004/"
+        ],
+        "note": "Cadaver study describes this named ICA branch; exact origin and lumen in this atlas remain unknown."
+      },
+      "specimen_lumen_connection": "UNKNOWN",
+      "exact_surface_collision": "NOT RUN",
+      "followup": {
+        "status": "inspection_candidate_only",
+        "action": "inspect_attachment_then_split_internal_edge_if_confirmed",
+        "proposed_internal_split_edge_ids": [
+          "FJ1682M:e0"
+        ],
+        "required": [
+          "source mesh local cross-sections",
+          "anatomical origin adjudication",
+          "explicit attachment coordinates",
+          "retain source unchanged; modify synthetic graph only"
+        ]
+      },
+      "automatic_connectivity_promotion": false
+    },
+    {
+      "edges": [
+        "FJ1662:e12",
+        "FJ1682:e0"
+      ],
+      "before_witness": {
+        "edges": [
+          "FJ1662:e12",
+          "FJ1682:e0"
+        ],
+        "intervals": [
+          2,
+          185
+        ],
+        "clearance_lower_bound_mm": -0.21640382123000812
+      },
+      "after_witness": {
+        "edges": [
+          "FJ1662:e12",
+          "FJ1682:e0"
+        ],
+        "intervals": [
+          2,
+          185
+        ],
+        "clearance_lower_bound_mm": -0.17742777441163993
+      },
+      "locations": [
+        {
+          "edge_id": "FJ1662:e12",
+          "source_part_id": "FJ1662",
+          "source_name": "anterolateral central branch of right middle cerebral artery",
+          "interval_index": 2,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            -14.332723199999995,
+            -109.58561279999998,
+            1537.7817599999998
+          ],
+          "arc_from_start_mm": 1.3617514138244835,
+          "arc_to_end_mm": 3.721922503121822,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "start",
+          "identity_refs": [
+            "BodyParts3D element FJ1662; OBJ SHA256 ba609f6d5ca0b51ef533d5537f96c950ec7933245f4541861ac8424a060810b5"
+          ],
+          "geometry_kind": "source"
+        },
+        {
+          "edge_id": "FJ1682:e0",
+          "source_part_id": "FJ1682",
+          "source_name": "right internal carotid artery",
+          "interval_index": 185,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            -12.959906178966989,
+            -110.44093961206647,
+            1536.0306192984349
+          ],
+          "arc_from_start_mm": 128.24889731890312,
+          "arc_to_end_mm": 3.3122788343887635,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "end",
+          "identity_refs": [
+            "BodyParts3D element FJ1682; OBJ SHA256 7bb929f419a3b37c8cffe1a1bf59c0374b26e2c1027d061956e5d73b31eb295b"
+          ],
+          "geometry_kind": "source"
+        }
+      ],
+      "centerline_distance_mm": 2.3838423365137222,
+      "reference_relation": {
+        "status": "unknown_direct_relation",
+        "kind": "source_name_parent_mismatch",
+        "sources": [],
+        "note": "Source names this an MCA branch; this witness touches ICA. Verify its MCA origin and full source mesh before any ICA connection."
+      },
+      "specimen_lumen_connection": "UNKNOWN",
+      "exact_surface_collision": "NOT RUN",
+      "followup": {
+        "status": "inspection_candidate_only",
+        "action": "resolve_parent_and_joint_surface_before_any_split",
+        "proposed_internal_split_edge_ids": [],
+        "required": [
+          "source mesh local cross-sections",
+          "anatomical origin adjudication",
+          "explicit attachment coordinates",
+          "retain source unchanged; modify synthetic graph only"
+        ]
+      },
+      "automatic_connectivity_promotion": false
+    },
+    {
+      "edges": [
+        "FJ1662M:e2",
+        "FJ1682M:e0"
+      ],
+      "before_witness": {
+        "edges": [
+          "FJ1662M:e2",
+          "FJ1682M:e0"
+        ],
+        "intervals": [
+          0,
+          3
+        ],
+        "clearance_lower_bound_mm": -0.10203985075484079
+      },
+      "after_witness": {
+        "edges": [
+          "FJ1662M:e2",
+          "FJ1682M:e0"
+        ],
+        "intervals": [
+          0,
+          3
+        ],
+        "clearance_lower_bound_mm": -0.051992456386577235
+      },
+      "locations": [
+        {
+          "edge_id": "FJ1662M:e2",
+          "source_part_id": "FJ1662M",
+          "source_name": "anterolateral central branch of left middle cerebral artery",
+          "interval_index": 0,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            13.436927999999996,
+            -108.68981759999997,
+            1537.4831615999997
+          ],
+          "arc_from_start_mm": 0.6373208840996264,
+          "arc_to_end_mm": 3.3206996276491147,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "start",
+          "identity_refs": [
+            "BodyParts3D element FJ1662M; OBJ SHA256 adeda838c3880d3468d451fa3cb97c9fad49547b9a9eb0dbbf79762efbb0dc77"
+          ],
+          "geometry_kind": "source"
+        },
+        {
+          "edge_id": "FJ1682M:e0",
+          "source_part_id": "FJ1682M",
+          "source_name": "left internal carotid artery",
+          "interval_index": 3,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            12.959572808088446,
+            -110.43809871240589,
+            1535.991107602135
+          ],
+          "arc_from_start_mm": 2.9540166822334406,
+          "arc_to_end_mm": 128.6037752903191,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "start",
+          "identity_refs": [
+            "BodyParts3D element FJ1682M; OBJ SHA256 117074e676e00306d95277cf2c4155a73c3684674bab401be4aec3acdfa11cce"
+          ],
+          "geometry_kind": "source"
+        }
+      ],
+      "centerline_distance_mm": 2.3474624511979925,
+      "reference_relation": {
+        "status": "unknown_direct_relation",
+        "kind": "source_name_parent_mismatch",
+        "sources": [],
+        "note": "Source names this an MCA branch; this witness touches ICA. Verify its MCA origin and full source mesh before any ICA connection."
+      },
+      "specimen_lumen_connection": "UNKNOWN",
+      "exact_surface_collision": "NOT RUN",
+      "followup": {
+        "status": "inspection_candidate_only",
+        "action": "resolve_parent_and_joint_surface_before_any_split",
+        "proposed_internal_split_edge_ids": [],
+        "required": [
+          "source mesh local cross-sections",
+          "anatomical origin adjudication",
+          "explicit attachment coordinates",
+          "retain source unchanged; modify synthetic graph only"
+        ]
+      },
+      "automatic_connectivity_promotion": false
+    },
+    {
+      "edges": [
+        "FJ1663:e1",
+        "FJ1682:e0"
+      ],
+      "before_witness": {
+        "edges": [
+          "FJ1663:e1",
+          "FJ1682:e0"
+        ],
+        "intervals": [
+          32,
+          184
+        ],
+        "clearance_lower_bound_mm": -0.15633255353031528
+      },
+      "after_witness": {
+        "edges": [
+          "FJ1663:e1",
+          "FJ1682:e0"
+        ],
+        "intervals": [
+          33,
+          184
+        ],
+        "clearance_lower_bound_mm": -0.1149525762789807
+      },
+      "locations": [
+        {
+          "edge_id": "FJ1663:e1",
+          "source_part_id": "FJ1663",
+          "source_name": "anterolateral central branch of right middle cerebral artery",
+          "interval_index": 32,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            -12.23424,
+            -107.61983999999997,
+            1537.1596799999995
+          ],
+          "arc_from_start_mm": 10.63653372024254,
+          "arc_to_end_mm": 0.2932513242936068,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "end",
+          "identity_refs": [
+            "BodyParts3D element FJ1663; OBJ SHA256 8ee8a930f84f50040f7cc02d34b71e2ef49355c157260ac088104ae5a35e517d"
+          ],
+          "geometry_kind": "source"
+        },
+        {
+          "edge_id": "FJ1682:e0",
+          "source_part_id": "FJ1682",
+          "source_name": "right internal carotid artery",
+          "interval_index": 184,
+          "interval_fraction": 0.0,
+          "position_mm": [
+            -12.39643199727277,
+            -109.31399124867804,
+            1535.4671451167408
+          ],
+          "arc_from_start_mm": 126.65515165930512,
+          "arc_to_end_mm": 4.906024493986763,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "end",
+          "identity_refs": [
+            "BodyParts3D element FJ1682; OBJ SHA256 7bb929f419a3b37c8cffe1a1bf59c0374b26e2c1027d061956e5d73b31eb295b"
+          ],
+          "geometry_kind": "source"
+        }
+      ],
+      "centerline_distance_mm": 2.4002352027300424,
+      "reference_relation": {
+        "status": "unknown_direct_relation",
+        "kind": "source_name_parent_mismatch",
+        "sources": [],
+        "note": "Source names this an MCA branch; this witness touches ICA. Verify its MCA origin and full source mesh before any ICA connection."
+      },
+      "specimen_lumen_connection": "UNKNOWN",
+      "exact_surface_collision": "NOT RUN",
+      "followup": {
+        "status": "inspection_candidate_only",
+        "action": "resolve_parent_and_joint_surface_before_any_split",
+        "proposed_internal_split_edge_ids": [],
+        "required": [
+          "source mesh local cross-sections",
+          "anatomical origin adjudication",
+          "explicit attachment coordinates",
+          "retain source unchanged; modify synthetic graph only"
+        ]
+      },
+      "automatic_connectivity_promotion": false
+    },
+    {
+      "edges": [
+        "FJ1663M:e1",
+        "FJ1682M:e0"
+      ],
+      "before_witness": {
+        "edges": [
+          "FJ1663M:e1",
+          "FJ1682M:e0"
+        ],
+        "intervals": [
+          0,
+          4
+        ],
+        "clearance_lower_bound_mm": -0.264736768100992
+      },
+      "after_witness": {
+        "edges": [
+          "FJ1663M:e1",
+          "FJ1682M:e0"
+        ],
+        "intervals": [
+          0,
+          4
+        ],
+        "clearance_lower_bound_mm": -0.05803167161119904
+      },
+      "locations": [
+        {
+          "edge_id": "FJ1663M:e1",
+          "source_part_id": "FJ1663M",
+          "source_name": "anterolateral central branch of left middle cerebral artery",
+          "interval_index": 0,
+          "interval_fraction": 0.0,
+          "position_mm": [
+            12.026879999999998,
+            -107.82719999999998,
+            1536.9523199999996
+          ],
+          "arc_from_start_mm": 0.0,
+          "arc_to_end_mm": 11.192443538346227,
+          "exact_endpoint": "start",
+          "location": "endpoint",
+          "nearest_endpoint": "start",
+          "identity_refs": [
+            "BodyParts3D element FJ1663M; OBJ SHA256 3db12429a8055e17f91ca12c90b28ae231970b8ef2f1953e0f8658f12cd9cc08"
+          ],
+          "geometry_kind": "source"
+        },
+        {
+          "edge_id": "FJ1682M:e0",
+          "source_part_id": "FJ1682M",
+          "source_name": "left internal carotid artery",
+          "interval_index": 4,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            12.396113120780253,
+            -109.8746390250977,
+            1535.991107602135
+          ],
+          "arc_from_start_mm": 3.7508690138751923,
+          "arc_to_end_mm": 127.80692295867735,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "start",
+          "identity_refs": [
+            "BodyParts3D element FJ1682M; OBJ SHA256 117074e676e00306d95277cf2c4155a73c3684674bab401be4aec3acdfa11cce"
+          ],
+          "geometry_kind": "source"
+        }
+      ],
+      "centerline_distance_mm": 2.2917829157193594,
+      "reference_relation": {
+        "status": "unknown_direct_relation",
+        "kind": "source_name_parent_mismatch",
+        "sources": [],
+        "note": "Source names this an MCA branch; this witness touches ICA. Verify its MCA origin and full source mesh before any ICA connection."
+      },
+      "specimen_lumen_connection": "UNKNOWN",
+      "exact_surface_collision": "NOT RUN",
+      "followup": {
+        "status": "inspection_candidate_only",
+        "action": "resolve_parent_and_joint_surface_before_any_split",
+        "proposed_internal_split_edge_ids": [],
+        "required": [
+          "source mesh local cross-sections",
+          "anatomical origin adjudication",
+          "explicit attachment coordinates",
+          "retain source unchanged; modify synthetic graph only"
+        ]
+      },
+      "automatic_connectivity_promotion": false
+    },
+    {
+      "edges": [
+        "FJ1682:e0",
+        "FJ1692:e0"
+      ],
+      "before_witness": {
+        "edges": [
+          "FJ1682:e0",
+          "FJ1692:e0"
+        ],
+        "intervals": [
+          184,
+          60
+        ],
+        "clearance_lower_bound_mm": -0.3129095149830736
+      },
+      "after_witness": {
+        "edges": [
+          "FJ1682:e0",
+          "FJ1692:e0"
+        ],
+        "intervals": [
+          184,
+          60
+        ],
+        "clearance_lower_bound_mm": -0.4850750036943283
+      },
+      "locations": [
+        {
+          "edge_id": "FJ1682:e0",
+          "source_part_id": "FJ1682",
+          "source_name": "right internal carotid artery",
+          "interval_index": 184,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            -12.39643199727277,
+            -109.87746543037225,
+            1536.0306192984349
+          ],
+          "arc_from_start_mm": 127.45202448910409,
+          "arc_to_end_mm": 4.109151664187792,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "end",
+          "identity_refs": [
+            "BodyParts3D element FJ1682; OBJ SHA256 7bb929f419a3b37c8cffe1a1bf59c0374b26e2c1027d061956e5d73b31eb295b"
+          ],
+          "geometry_kind": "source"
+        },
+        {
+          "edge_id": "FJ1692:e0",
+          "source_part_id": "FJ1692",
+          "source_name": "sphenoid part of right middle cerebral artery",
+          "interval_index": 60,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            -14.946511989729984,
+            -111.87237762010015,
+            1536.3202627019423
+          ],
+          "arc_from_start_mm": 36.3976597959518,
+          "arc_to_end_mm": 0.0,
+          "exact_endpoint": "end",
+          "location": "endpoint",
+          "nearest_endpoint": "end",
+          "identity_refs": [
+            "BodyParts3D element FJ1692; OBJ SHA256 99bb5115dcc1d28e6e89d6e35d6b013b31b8903e358f9cbd8cec1652c3bb97c2"
+          ],
+          "geometry_kind": "source"
+        }
+      ],
+      "centerline_distance_mm": 3.250611621503081,
+      "reference_relation": {
+        "status": "known_reference_relation",
+        "kind": "curated_junction_members",
+        "junction_ids": [
+          "right_ica_terminal"
+        ],
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/34437363/"
+        ],
+        "note": "Reference member identity only; no specimen lumen connection established."
+      },
+      "specimen_lumen_connection": "UNKNOWN",
+      "exact_surface_collision": "NOT RUN",
+      "followup": {
+        "status": "inspection_candidate_only",
+        "action": "inspect_attachment_then_split_internal_edge_if_confirmed",
+        "proposed_internal_split_edge_ids": [
+          "FJ1682:e0"
+        ],
+        "required": [
+          "source mesh local cross-sections",
+          "anatomical origin adjudication",
+          "explicit attachment coordinates",
+          "retain source unchanged; modify synthetic graph only"
+        ]
+      },
+      "automatic_connectivity_promotion": false
+    },
+    {
+      "edges": [
+        "FJ1682:e0",
+        "FJ1695:e0"
+      ],
+      "before_witness": {
+        "edges": [
+          "FJ1682:e0",
+          "FJ1695:e0"
+        ],
+        "intervals": [
+          169,
+          0
+        ],
+        "clearance_lower_bound_mm": -0.2685014005053685
+      },
+      "after_witness": {
+        "edges": [
+          "FJ1682:e0",
+          "FJ1695:e0"
+        ],
+        "intervals": [
+          169,
+          0
+        ],
+        "clearance_lower_bound_mm": -0.22094464597652674
+      },
+      "locations": [
+        {
+          "edge_id": "FJ1682:e0",
+          "source_part_id": "FJ1682",
+          "source_name": "right internal carotid artery",
+          "interval_index": 169,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            -13.523380360661204,
+            -112.69483633884333,
+            1527.5785065730217
+          ],
+          "arc_from_start_mm": 115.30366257818993,
+          "arc_to_end_mm": 16.257513575101953,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "end",
+          "identity_refs": [
+            "BodyParts3D element FJ1682; OBJ SHA256 7bb929f419a3b37c8cffe1a1bf59c0374b26e2c1027d061956e5d73b31eb295b"
+          ],
+          "geometry_kind": "source"
+        },
+        {
+          "edge_id": "FJ1695:e0",
+          "source_part_id": "FJ1695",
+          "source_name": "right ophthalmic artery",
+          "interval_index": 0,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            -12.664381405110035,
+            -112.39638497035156,
+            1530.0155785048562
+          ],
+          "arc_from_start_mm": 0.26384127927312306,
+          "arc_to_end_mm": 59.769790345286125,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "start",
+          "identity_refs": [
+            "BodyParts3D element FJ1695; OBJ SHA256 3363ca2391df50d44aec0ad6fbfccf7afb566e0ab2bf213b8a5fbbf23b256570"
+          ],
+          "geometry_kind": "source"
+        }
+      ],
+      "centerline_distance_mm": 2.6012058791890964,
+      "reference_relation": {
+        "status": "known_reference_relation",
+        "kind": "ICA_branch",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/7277004/"
+        ],
+        "note": "Cadaver study describes this named ICA branch; exact origin and lumen in this atlas remain unknown."
+      },
+      "specimen_lumen_connection": "UNKNOWN",
+      "exact_surface_collision": "NOT RUN",
+      "followup": {
+        "status": "inspection_candidate_only",
+        "action": "inspect_attachment_then_split_internal_edge_if_confirmed",
+        "proposed_internal_split_edge_ids": [
+          "FJ1682:e0",
+          "FJ1695:e0"
+        ],
+        "required": [
+          "source mesh local cross-sections",
+          "anatomical origin adjudication",
+          "explicit attachment coordinates",
+          "retain source unchanged; modify synthetic graph only"
+        ]
+      },
+      "automatic_connectivity_promotion": false
+    },
+    {
+      "edges": [
+        "FJ1682:e0",
+        "FJ1713:e0"
+      ],
+      "before_witness": {
+        "edges": [
+          "FJ1682:e0",
+          "FJ1713:e0"
+        ],
+        "intervals": [
+          174,
+          0
+        ],
+        "clearance_lower_bound_mm": -0.3660403508290706
+      },
+      "after_witness": {
+        "edges": [
+          "FJ1682:e0",
+          "FJ1713:e0"
+        ],
+        "intervals": [
+          174,
+          0
+        ],
+        "clearance_lower_bound_mm": -0.40252515591062643
+      },
+      "locations": [
+        {
+          "edge_id": "FJ1682:e0",
+          "source_part_id": "FJ1682",
+          "source_name": "right internal carotid artery",
+          "interval_index": 174,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            -12.39643199727277,
+            -111.00441379376069,
+            1530.3958774814928
+          ],
+          "arc_from_start_mm": 119.17941559427267,
+          "arc_to_end_mm": 12.381760559019213,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "end",
+          "identity_refs": [
+            "BodyParts3D element FJ1682; OBJ SHA256 7bb929f419a3b37c8cffe1a1bf59c0374b26e2c1027d061956e5d73b31eb295b"
+          ],
+          "geometry_kind": "source"
+        },
+        {
+          "edge_id": "FJ1713:e0",
+          "source_part_id": "FJ1713",
+          "source_name": "right posterior communicating artery",
+          "interval_index": 0,
+          "interval_fraction": 0.3199790316404245,
+          "position_mm": [
+            -11.794992876483468,
+            -109.48475786428254,
+            1531.9155334109716
+          ],
+          "arc_from_start_mm": 0.10264335923942289,
+          "arc_to_end_mm": 14.876265591254583,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "start",
+          "identity_refs": [
+            "BodyParts3D element FJ1713; OBJ SHA256 a568f857676b6795c9b58c83c011d4d0f0e12cd746dcda95bd9ab65631cb0d86"
+          ],
+          "geometry_kind": "source"
+        }
+      ],
+      "centerline_distance_mm": 2.2316893385984615,
+      "reference_relation": {
+        "status": "known_reference_relation",
+        "kind": "curated_junction_members",
+        "junction_ids": [
+          "right_pcom_origin"
+        ],
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/34437363/"
+        ],
+        "note": "Reference member identity only; no specimen lumen connection established."
+      },
+      "specimen_lumen_connection": "UNKNOWN",
+      "exact_surface_collision": "NOT RUN",
+      "followup": {
+        "status": "inspection_candidate_only",
+        "action": "inspect_attachment_then_split_internal_edge_if_confirmed",
+        "proposed_internal_split_edge_ids": [
+          "FJ1682:e0",
+          "FJ1713:e0"
+        ],
+        "required": [
+          "source mesh local cross-sections",
+          "anatomical origin adjudication",
+          "explicit attachment coordinates",
+          "retain source unchanged; modify synthetic graph only"
+        ]
+      },
+      "automatic_connectivity_promotion": false
+    },
+    {
+      "edges": [
+        "FJ1682M:e0",
+        "FJ1692M:e0"
+      ],
+      "before_witness": {
+        "edges": [
+          "FJ1682M:e0",
+          "FJ1692M:e0"
+        ],
+        "intervals": [
+          0,
+          0
+        ],
+        "clearance_lower_bound_mm": -3.341026998410535
+      },
+      "after_witness": {
+        "edges": [
+          "FJ1682M:e0",
+          "FJ1692M:e0"
+        ],
+        "intervals": [
+          0,
+          0
+        ],
+        "clearance_lower_bound_mm": -3.341026998410535
+      },
+      "locations": [
+        {
+          "edge_id": "FJ1682M:e0",
+          "source_part_id": "FJ1682M",
+          "source_name": "left internal carotid artery",
+          "interval_index": 0,
+          "interval_fraction": 0.4519802006313389,
+          "position_mm": [
+            14.958738934803991,
+            -111.87380515181323,
+            1535.991107602135
+          ],
+          "arc_from_start_mm": 0.3601614767289891,
+          "arc_to_end_mm": 131.19763049582355,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "start",
+          "identity_refs": [
+            "BodyParts3D element FJ1682M; OBJ SHA256 117074e676e00306d95277cf2c4155a73c3684674bab401be4aec3acdfa11cce"
+          ],
+          "geometry_kind": "source"
+        },
+        {
+          "edge_id": "FJ1692M:e0",
+          "source_part_id": "FJ1692M",
+          "source_name": "sphenoid part of left middle cerebral artery",
+          "interval_index": 0,
+          "interval_fraction": 0.0,
+          "position_mm": [
+            14.948121267351317,
+            -111.88442281926591,
+            1536.0327035632822
+          ],
+          "arc_from_start_mm": 0.0,
+          "arc_to_end_mm": 36.920805936089586,
+          "exact_endpoint": "start",
+          "location": "endpoint",
+          "nearest_endpoint": "start",
+          "identity_refs": [
+            "BodyParts3D element FJ1692M; OBJ SHA256 2a40b6986263e9372009ee06b8007ff4e7e417b1f6813b1ce80fdcbd26ee9ba6"
+          ],
+          "geometry_kind": "source"
+        }
+      ],
+      "centerline_distance_mm": 0.044223225889126784,
+      "reference_relation": {
+        "status": "known_reference_relation",
+        "kind": "curated_junction_members",
+        "junction_ids": [
+          "left_ica_terminal"
+        ],
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/34437363/"
+        ],
+        "note": "Reference member identity only; no specimen lumen connection established."
+      },
+      "specimen_lumen_connection": "UNKNOWN",
+      "exact_surface_collision": "NOT RUN",
+      "followup": {
+        "status": "inspection_candidate_only",
+        "action": "inspect_attachment_then_split_internal_edge_if_confirmed",
+        "proposed_internal_split_edge_ids": [
+          "FJ1682M:e0"
+        ],
+        "required": [
+          "source mesh local cross-sections",
+          "anatomical origin adjudication",
+          "explicit attachment coordinates",
+          "retain source unchanged; modify synthetic graph only"
+        ]
+      },
+      "automatic_connectivity_promotion": false
+    },
+    {
+      "edges": [
+        "FJ1682M:e0",
+        "FJ1695M:e0"
+      ],
+      "before_witness": {
+        "edges": [
+          "FJ1682M:e0",
+          "FJ1695M:e0"
+        ],
+        "intervals": [
+          13,
+          193
+        ],
+        "clearance_lower_bound_mm": -0.04511502075294316
+      },
+      "after_witness": {
+        "edges": [
+          "FJ1682M:e0",
+          "FJ1695M:e0"
+        ],
+        "intervals": [
+          12,
+          196
+        ],
+        "clearance_lower_bound_mm": -0.1421849747930668
+      },
+      "locations": [
+        {
+          "edge_id": "FJ1682M:e0",
+          "source_part_id": "FJ1682M",
+          "source_name": "left internal carotid artery",
+          "interval_index": 13,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            11.832653433472059,
+            -110.43809871240589,
+            1530.9199704163611
+          ],
+          "arc_from_start_mm": 10.993020134362567,
+          "arc_to_end_mm": 120.56477183818997,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "start",
+          "identity_refs": [
+            "BodyParts3D element FJ1682M; OBJ SHA256 117074e676e00306d95277cf2c4155a73c3684674bab401be4aec3acdfa11cce"
+          ],
+          "geometry_kind": "source"
+        },
+        {
+          "edge_id": "FJ1695M:e0",
+          "source_part_id": "FJ1695M",
+          "source_name": "left ophthalmic artery",
+          "interval_index": 193,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            12.664279549564966,
+            -112.9231593169543,
+            1530.2671122391002
+          ],
+          "arc_from_start_mm": 61.60481530985805,
+          "arc_to_end_mm": 0.900803229079294,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "end",
+          "identity_refs": [
+            "BodyParts3D element FJ1695M; OBJ SHA256 2d843f8cef0c16096220136894d5ae8b117e9a7f9ca251adf80e7b839ab9243d"
+          ],
+          "geometry_kind": "source"
+        }
+      ],
+      "centerline_distance_mm": 2.7006206703020506,
+      "reference_relation": {
+        "status": "known_reference_relation",
+        "kind": "ICA_branch",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/7277004/"
+        ],
+        "note": "Cadaver study describes this named ICA branch; exact origin and lumen in this atlas remain unknown."
+      },
+      "specimen_lumen_connection": "UNKNOWN",
+      "exact_surface_collision": "NOT RUN",
+      "followup": {
+        "status": "inspection_candidate_only",
+        "action": "inspect_attachment_then_split_internal_edge_if_confirmed",
+        "proposed_internal_split_edge_ids": [
+          "FJ1682M:e0",
+          "FJ1695M:e0"
+        ],
+        "required": [
+          "source mesh local cross-sections",
+          "anatomical origin adjudication",
+          "explicit attachment coordinates",
+          "retain source unchanged; modify synthetic graph only"
+        ]
+      },
+      "automatic_connectivity_promotion": false
+    },
+    {
+      "edges": [
+        "FJ1682M:e0",
+        "FJ1713M:e0"
+      ],
+      "before_witness": {
+        "edges": [
+          "FJ1682M:e0",
+          "FJ1713M:e0"
+        ],
+        "intervals": [
+          7,
+          48
+        ],
+        "clearance_lower_bound_mm": -0.10733316424765993
+      },
+      "after_witness": {
+        "edges": [
+          "FJ1682M:e0",
+          "FJ1713M:e0"
+        ],
+        "intervals": [
+          6,
+          50
+        ],
+        "clearance_lower_bound_mm": -0.14239116506937144
+      },
+      "locations": [
+        {
+          "edge_id": "FJ1682M:e0",
+          "source_part_id": "FJ1682M",
+          "source_name": "left internal carotid artery",
+          "interval_index": 7,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            11.269193746163866,
+            -108.7477196504813,
+            1534.3007285402102
+          ],
+          "arc_from_start_mm": 6.266210314052708,
+          "arc_to_end_mm": 125.29158165849982,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "start",
+          "identity_refs": [
+            "BodyParts3D element FJ1682M; OBJ SHA256 117074e676e00306d95277cf2c4155a73c3684674bab401be4aec3acdfa11cce"
+          ],
+          "geometry_kind": "source"
+        },
+        {
+          "edge_id": "FJ1713M:e0",
+          "source_part_id": "FJ1713M",
+          "source_name": "left posterior communicating artery",
+          "interval_index": 48,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            11.789987393541697,
+            -109.05738339026071,
+            1531.791439053225
+          ],
+          "arc_from_start_mm": 14.403324931834062,
+          "arc_to_end_mm": 0.54737591280192,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "end",
+          "identity_refs": [
+            "BodyParts3D element FJ1713M; OBJ SHA256 5f3bda878361debaa1e0e2e13c31093259a43ab42b9ac8254c876cfd934a42bc"
+          ],
+          "geometry_kind": "source"
+        }
+      ],
+      "centerline_distance_mm": 2.5814049245280155,
+      "reference_relation": {
+        "status": "known_reference_relation",
+        "kind": "curated_junction_members",
+        "junction_ids": [
+          "left_pcom_origin"
+        ],
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/34437363/"
+        ],
+        "note": "Reference member identity only; no specimen lumen connection established."
+      },
+      "specimen_lumen_connection": "UNKNOWN",
+      "exact_surface_collision": "NOT RUN",
+      "followup": {
+        "status": "inspection_candidate_only",
+        "action": "inspect_attachment_then_split_internal_edge_if_confirmed",
+        "proposed_internal_split_edge_ids": [
+          "FJ1682M:e0",
+          "FJ1713M:e0"
+        ],
+        "required": [
+          "source mesh local cross-sections",
+          "anatomical origin adjudication",
+          "explicit attachment coordinates",
+          "retain source unchanged; modify synthetic graph only"
+        ]
+      },
+      "automatic_connectivity_promotion": false
+    },
+    {
+      "edges": [
+        "FJ3411:e0",
+        "FJ3483:e0"
+      ],
+      "before_witness": {
+        "edges": [
+          "FJ3411:e0",
+          "FJ3483:e0"
+        ],
+        "intervals": [
+          17,
+          0
+        ],
+        "clearance_lower_bound_mm": -0.5909117725934259
+      },
+      "after_witness": {
+        "edges": [
+          "FJ3411:e0",
+          "FJ3483:e0"
+        ],
+        "intervals": [
+          17,
+          0
+        ],
+        "clearance_lower_bound_mm": -0.5909117725934259
+      },
+      "locations": [
+        {
+          "edge_id": "FJ3411:e0",
+          "source_part_id": "FJ3411",
+          "source_name": "arch of aorta",
+          "interval_index": 17,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            12.8,
+            -112.00000000000003,
+            1302.4
+          ],
+          "arc_from_start_mm": 21.304653429057193,
+          "arc_to_end_mm": 64.98303722621424,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "start",
+          "identity_refs": [
+            "BodyParts3D element FJ3411; OBJ SHA256 9eeb5e5a627e8145f03961c661c9c66d8fdc55ed1234d04b84212b87a21d902c"
+          ],
+          "geometry_kind": "source"
+        },
+        {
+          "edge_id": "FJ3483:e0",
+          "source_part_id": "FJ3483",
+          "source_name": "left common carotid artery",
+          "interval_index": 0,
+          "interval_fraction": 0.0,
+          "position_mm": [
+            16.8,
+            -100.0,
+            1311.2
+          ],
+          "arc_from_start_mm": 0.0,
+          "arc_to_end_mm": 66.08440662480804,
+          "exact_endpoint": "start",
+          "location": "endpoint",
+          "nearest_endpoint": "start",
+          "identity_refs": [
+            "BodyParts3D element FJ3483; OBJ SHA256 19f38e57365867279705090994fff228177163c1920ad0f8f9b15f830a42bc1d"
+          ],
+          "geometry_kind": "source"
+        }
+      ],
+      "centerline_distance_mm": 15.409088227406574,
+      "reference_relation": {
+        "status": "known_reference_relation",
+        "kind": "curated_junction_members",
+        "junction_ids": [
+          "arch_left_carotid"
+        ],
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC2588331/"
+        ],
+        "note": "Reference member identity only; no specimen lumen connection established."
+      },
+      "specimen_lumen_connection": "UNKNOWN",
+      "exact_surface_collision": "NOT RUN",
+      "followup": {
+        "status": "inspection_candidate_only",
+        "action": "inspect_attachment_then_split_internal_edge_if_confirmed",
+        "proposed_internal_split_edge_ids": [
+          "FJ3411:e0"
+        ],
+        "required": [
+          "source mesh local cross-sections",
+          "anatomical origin adjudication",
+          "explicit attachment coordinates",
+          "retain source unchanged; modify synthetic graph only"
+        ]
+      },
+      "automatic_connectivity_promotion": false
+    },
+    {
+      "edges": [
+        "FJ3417:e0",
+        "FJ3564:e0"
+      ],
+      "before_witness": {
+        "edges": [
+          "FJ3417:e0",
+          "FJ3564:e0"
+        ],
+        "intervals": [
+          0,
+          32
+        ],
+        "clearance_lower_bound_mm": -0.6557280900006335
+      },
+      "after_witness": {
+        "edges": [
+          "FJ3417:e0",
+          "FJ3564:e0"
+        ],
+        "intervals": [
+          0,
+          32
+        ],
+        "clearance_lower_bound_mm": -0.5678912229089361
+      },
+      "locations": [
+        {
+          "edge_id": "FJ3417:e0",
+          "source_part_id": "FJ3417",
+          "source_name": "brachiocephalic artery",
+          "interval_index": 0,
+          "interval_fraction": 0.0,
+          "position_mm": [
+            -13.600000000000003,
+            -109.6,
+            1335.2
+          ],
+          "arc_from_start_mm": 0.0,
+          "arc_to_end_mm": 43.21247447773737,
+          "exact_endpoint": "start",
+          "location": "endpoint",
+          "nearest_endpoint": "start",
+          "identity_refs": [
+            "BodyParts3D element FJ3417; OBJ SHA256 285df2b5ecb7881756e36645ca21e2cd825863f420c813a673eb6514c93f9156"
+          ],
+          "geometry_kind": "source"
+        },
+        {
+          "edge_id": "FJ3564:e0",
+          "source_part_id": "FJ3564",
+          "source_name": "right common carotid artery",
+          "interval_index": 32,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            -16.0,
+            -112.80000000000001,
+            1343.2000000000003
+          ],
+          "arc_from_start_mm": 29.305236595344283,
+          "arc_to_end_mm": 13.167978295141594,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "end",
+          "identity_refs": [
+            "BodyParts3D element FJ3564; OBJ SHA256 423585ec439b07b0f64878f904afca52d4866e1e0dc54c2ace31953d9b6156cf"
+          ],
+          "geometry_kind": "source"
+        }
+      ],
+      "centerline_distance_mm": 8.944271909999367,
+      "reference_relation": {
+        "status": "known_reference_relation",
+        "kind": "brachiocephalic_to_right_CCA",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7505533/"
+        ],
+        "note": "Reference parent/daughter; atlas junction is unverified."
+      },
+      "specimen_lumen_connection": "UNKNOWN",
+      "exact_surface_collision": "NOT RUN",
+      "followup": {
+        "status": "inspection_candidate_only",
+        "action": "inspect_attachment_then_split_internal_edge_if_confirmed",
+        "proposed_internal_split_edge_ids": [
+          "FJ3564:e0"
+        ],
+        "required": [
+          "source mesh local cross-sections",
+          "anatomical origin adjudication",
+          "explicit attachment coordinates",
+          "retain source unchanged; modify synthetic graph only"
+        ]
+      },
+      "automatic_connectivity_promotion": false
+    },
+    {
+      "edges": [
+        "FJ3564:e0",
+        "FJ3579:e0"
+      ],
+      "before_witness": {
+        "edges": [
+          "FJ3564:e0",
+          "FJ3579:e0"
+        ],
+        "intervals": [
+          35,
+          77
+        ],
+        "clearance_lower_bound_mm": -0.4677515072924656
+      },
+      "after_witness": {
+        "edges": [
+          "FJ3564:e0",
+          "FJ3579:e0"
+        ],
+        "intervals": [
+          34,
+          78
+        ],
+        "clearance_lower_bound_mm": -0.13885762258574097
+      },
+      "locations": [
+        {
+          "edge_id": "FJ3564:e0",
+          "source_part_id": "FJ3564",
+          "source_name": "right common carotid artery",
+          "interval_index": 35,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            -15.200000000000003,
+            -112.80000000000001,
+            1340.8000000000002
+          ],
+          "arc_from_start_mm": 32.622248091297976,
+          "arc_to_end_mm": 9.850966799187901,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "end",
+          "identity_refs": [
+            "BodyParts3D element FJ3564; OBJ SHA256 423585ec439b07b0f64878f904afca52d4866e1e0dc54c2ace31953d9b6156cf"
+          ],
+          "geometry_kind": "source"
+        },
+        {
+          "edge_id": "FJ3579:e0",
+          "source_part_id": "FJ3579",
+          "source_name": "right subclavian artery",
+          "interval_index": 77,
+          "interval_fraction": 1.0,
+          "position_mm": [
+            -16.0,
+            -105.6,
+            1337.6000000000001
+          ],
+          "arc_from_start_mm": 81.96564562999248,
+          "arc_to_end_mm": 1.3856406460550659,
+          "exact_endpoint": null,
+          "location": "internal",
+          "nearest_endpoint": "end",
+          "identity_refs": [
+            "BodyParts3D element FJ3579; OBJ SHA256 1fb9231343dce90a8d62061c63e0102eb72d117f131eda7876abfeb0060b6ad3"
+          ],
+          "geometry_kind": "source"
+        }
+      ],
+      "centerline_distance_mm": 7.9195959492893655,
+      "reference_relation": {
+        "status": "known_reference_relation",
+        "kind": "sibling_branches_of_brachiocephalic",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7505533/"
+        ],
+        "note": "Shared reference parent does not justify a direct CCA-to-subclavian edge. Review all three parts jointly."
+      },
+      "specimen_lumen_connection": "UNKNOWN",
+      "exact_surface_collision": "NOT RUN",
+      "followup": {
+        "status": "inspection_candidate_only",
+        "action": "resolve_parent_and_joint_surface_before_any_split",
+        "proposed_internal_split_edge_ids": [],
+        "required": [
+          "source mesh local cross-sections",
+          "anatomical origin adjudication",
+          "explicit attachment coordinates",
+          "retain source unchanged; modify synthetic graph only"
+        ]
+      },
+      "automatic_connectivity_promotion": false
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "scope": "Replay of recorded actual Atlas HTTP candidate; no geometry regeneration",
+  "candidate_sha256": "5c955d3b169095ce974a90ebd99adf26606fcb48da73d3cf558c09c15a091530",
+  "vertices": 402,
+  "faces": 800,
+  "original_candidate_comparison": true,
+  "errors": [],
+  "main_viser_frame": "not loaded"
+}

@@ -1,0 +1,426 @@
+{
+  "schema": "vv-toolbox.synthetic-arch-carotid-case/1",
+  "status": "PASS",
+  "scope": "explicit synthetic graph integration and snapshot preservation only",
+  "parent_revision": "165cebe813b506cf1a12bd299de0b05c96890def6214e4233d85d33e3eea55b3",
+  "source_case_revision": "ac39f2d88883cf9f2389618a7ad6f0770dd3b5efef17278fbcefa02bf677aa24",
+  "source_hashes": {
+    "bp3d": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+    "bp3d-preview": "1f099284deca459fcf34850d2c84223e98f78d6f576d9faa72aa0ee66a0cc8f9"
+  },
+  "anchor_inspection_sha256": "1416174d9feb28455ff7e853a83ed691261e6718e30e57c0386e840743a3ea8c",
+  "split_revision": "871b444a0403187615f5a40c013aa628ab9fd98a5741e4e8fd6a1e00146eefde",
+  "derived_revision": "2b77c5e97f7d7b6c51625b82bb5c8ef7165fb12eb3979a64c2a15646d9c264ae",
+  "parent_snapshot_sha256": "4d77c838d77e26aebee30f00f655597314abbf80bc457ef7ffff1947bf9346f5",
+  "split_specification": {
+    "schema": "vv-toolbox.synthetic-junction/1",
+    "parent_case_sha256": "165cebe813b506cf1a12bd299de0b05c96890def6214e4233d85d33e3eea55b3",
+    "source_hashes": {
+      "bp3d": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+      "bp3d-preview": "1f099284deca459fcf34850d2c84223e98f78d6f576d9faa72aa0ee66a0cc8f9"
+    },
+    "edge_id": "FJ3411:e0",
+    "interval_index": 32,
+    "fraction": 0.3576715787251739,
+    "node_id": "synthetic_arch_LCCA_origin",
+    "child_edge_ids": [
+      "synthetic_arch_before_LCCA",
+      "synthetic_arch_after_LCCA"
+    ],
+    "rationale": "Project the unique planar, transverse, proximal CCA boundary-ring centroid onto source arch polyline after inspecting all boundary paths and both source meshes. Reject nearest nonplanar side hole. This is a synthetic anchor, not an anatomical origin or earlier first capsule witness.",
+    "evidence_refs": [
+      "docs/evidence/arch-carotid-junction.json",
+      "docs/ARCH_CAROTID_JUNCTION.md"
+    ]
+  },
+  "extension_specification": {
+    "schema": "vv-toolbox.synthetic-route-extension/1",
+    "parent_case_sha256": "871b444a0403187615f5a40c013aa628ab9fd98a5741e4e8fd6a1e00146eefde",
+    "bridges": [
+      {
+        "id": "estimated_arch_to_LCCA",
+        "from": {
+          "edge_id": "synthetic_arch_before_LCCA",
+          "endpoint": "end"
+        },
+        "to": {
+          "edge_id": "FJ3483:e0",
+          "endpoint": "start"
+        },
+        "attachment_mode": "side_branch",
+        "from_radius_mm": 4.0,
+        "from_direction_xyz": [
+          -1.0561791737874344,
+          1.0561791737874557,
+          2.092515055338481
+        ],
+        "handle_lengths_mm": [
+          5.630801847495817,
+          5.630801847495817
+        ],
+        "samples": 96,
+        "rationale": "Declared inspected proximal LCCA opening center minus arch anchor direction; source child radius 4 mm, equal endpoint-chord handles, 96 samples. Numerical synthetic branch choice, not anatomical origin approval.",
+        "evidence_refs": [
+          "docs/evidence/arch-carotid-junction.json"
+        ]
+      }
+    ]
+  },
+  "parent_snapshot_unchanged": true,
+  "unrelated_edges_unchanged": true,
+  "parent_arch_archived": true,
+  "node_incident_edges": [
+    "synthetic_arch_before_LCCA",
+    "synthetic_arch_after_LCCA",
+    "estimated_arch_to_LCCA"
+  ],
+  "route": {
+    "status": "UNKNOWN",
+    "scope": "unresolved_graph",
+    "nodes": [
+      "FJ3411:n0",
+      "synthetic_arch_LCCA_origin",
+      "FJ3483:n0",
+      "FJ3483:n1",
+      "FJ1682M:n1",
+      "FJ1682M:n0"
+    ],
+    "edges": [
+      "synthetic_arch_before_LCCA",
+      "estimated_arch_to_LCCA",
+      "FJ3483:e0",
+      "estimated_L_carotid_gap",
+      "FJ1682M:e0"
+    ],
+    "unresolved_edges": [
+      "synthetic_arch_before_LCCA",
+      "estimated_arch_to_LCCA",
+      "FJ3483:e0",
+      "estimated_L_carotid_gap",
+      "FJ1682M:e0"
+    ],
+    "estimated_edges": [],
+    "states_examined": 9
+  },
+  "continuity": {
+    "status": "PASS",
+    "scope": "sampled centerline endpoint position, tangent and radius continuity",
+    "max_angle_deg": 5.0,
+    "max_radius_jump_mm": 1e-06,
+    "attachments": [
+      {
+        "bridge_id": "estimated_L_carotid_gap",
+        "attachment": "start",
+        "source_edge_id": "FJ3483:e0",
+        "source_endpoint": "end",
+        "reference": "parent endpoint chord/radius",
+        "parent_radius_difference_mm": 0.0,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.4241185056594775,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "estimated_L_carotid_gap",
+        "attachment": "end",
+        "source_edge_id": "FJ1682M:e0",
+        "source_endpoint": "end",
+        "reference": "parent endpoint chord/radius",
+        "parent_radius_difference_mm": 0.0,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.4241185056594775,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "estimated_R_carotid_gap",
+        "attachment": "start",
+        "source_edge_id": "FJ3564:e0",
+        "source_endpoint": "start",
+        "reference": "parent endpoint chord/radius",
+        "parent_radius_difference_mm": 0.0,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.5029550254136171,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "estimated_R_carotid_gap",
+        "attachment": "end",
+        "source_edge_id": "FJ1682:e0",
+        "source_endpoint": "start",
+        "reference": "parent endpoint chord/radius",
+        "parent_radius_difference_mm": 0.0,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.5029550254150664,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "estimated_arch_to_LCCA",
+        "attachment": "start",
+        "source_edge_id": "synthetic_arch_before_LCCA",
+        "source_endpoint": "end",
+        "reference": "declared side-branch direction/radius",
+        "parent_radius_difference_mm": 7.604863281413817,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.548102166290332,
+        "status": "PASS"
+      },
+      {
+        "bridge_id": "estimated_arch_to_LCCA",
+        "attachment": "end",
+        "source_edge_id": "FJ3483:e0",
+        "source_endpoint": "start",
+        "reference": "parent endpoint chord/radius",
+        "parent_radius_difference_mm": 0.0,
+        "shared_node": true,
+        "position_gap_mm": 0.0,
+        "radius_jump_mm": 0.0,
+        "sampled_tangent_angle_deg": 0.17366723090455777,
+        "status": "PASS"
+      }
+    ],
+    "surface_smoothness": "NOT RUN",
+    "anatomical_connection": "UNKNOWN"
+  },
+  "selected_clearance": {
+    "status": "UNKNOWN",
+    "scope": "nonincident edge conservative capsule envelopes only",
+    "coverage": {
+      "selected_edge_ids": [
+        "synthetic_arch_before_LCCA",
+        "synthetic_arch_after_LCCA",
+        "estimated_arch_to_LCCA",
+        "FJ3483:e0",
+        "estimated_L_carotid_gap",
+        "FJ1682M:e0"
+      ],
+      "focus_edge_ids": [
+        "FJ1682M:e0",
+        "FJ3483:e0",
+        "estimated_L_carotid_gap",
+        "estimated_arch_to_LCCA",
+        "synthetic_arch_after_LCCA",
+        "synthetic_arch_before_LCCA"
+      ],
+      "pair_policy": "at least one focus edge"
+    },
+    "margin_mm": 0.0,
+    "checked_segment_pairs": 1226,
+    "bbox_separated_pairs": 7,
+    "potential_contacts": [
+      {
+        "edges": [
+          "synthetic_arch_before_LCCA",
+          "FJ3483:e0"
+        ],
+        "intervals": [
+          17,
+          0
+        ],
+        "clearance_lower_bound_mm": -0.5909117725934259,
+        "witness_geometry": [
+          {
+            "edge_id": "synthetic_arch_before_LCCA",
+            "interval_index": 17,
+            "points_mm": [
+              [
+                12.0,
+                -112.80000000000003,
+                1302.4
+              ],
+              [
+                12.8,
+                -112.00000000000003,
+                1302.4
+              ]
+            ],
+            "radii_mm": [
+              12.0,
+              11.48216007552586
+            ],
+            "anatomy": {
+              "artery": "arch of aorta",
+              "branch_id": "FJ3411:e0",
+              "segment": "unresolved",
+              "side": "unknown"
+            },
+            "derivation": {
+              "algorithm": "voxel-lee-1",
+              "branch_identity_status": "extraction_edge_not_anatomical_branch",
+              "pitch_mm": 0.8,
+              "radius_status": "voxel_estimate"
+            }
+          },
+          {
+            "edge_id": "FJ3483:e0",
+            "interval_index": 0,
+            "points_mm": [
+              [
+                16.8,
+                -100.0,
+                1311.2
+              ],
+              [
+                16.8,
+                -100.0,
+                1312.0
+              ]
+            ],
+            "radii_mm": [
+              4.0,
+              4.0
+            ],
+            "anatomy": {
+              "artery": "left common carotid artery",
+              "branch_id": "FJ3483:e0",
+              "segment": "unresolved",
+              "side": "L"
+            },
+            "derivation": {
+              "algorithm": "voxel-lee-1",
+              "branch_identity_status": "extraction_edge_not_anatomical_branch",
+              "pitch_mm": 0.8,
+              "radius_status": "voxel_estimate"
+            }
+          }
+        ]
+      },
+      {
+        "edges": [
+          "synthetic_arch_after_LCCA",
+          "FJ3483:e0"
+        ],
+        "intervals": [
+          0,
+          0
+        ],
+        "clearance_lower_bound_mm": -10.047116703673113,
+        "witness_geometry": [
+          {
+            "edge_id": "synthetic_arch_after_LCCA",
+            "interval_index": 0,
+            "points_mm": [
+              [
+                17.08613726298014,
+                -100.51386273701988,
+                1305.6000000000001
+              ],
+              [
+                17.6,
+                -100.00000000000003,
+                1305.6000000000001
+              ]
+            ],
+            "radii_mm": [
+              11.604863281413817,
+              11.67561561546114
+            ],
+            "anatomy": {
+              "artery": "arch of aorta",
+              "branch_id": "FJ3411:e0",
+              "segment": "unresolved",
+              "side": "unknown"
+            },
+            "derivation": {
+              "algorithm": "voxel-lee-1",
+              "branch_identity_status": "extraction_edge_not_anatomical_branch",
+              "pitch_mm": 0.8,
+              "radius_status": "voxel_estimate"
+            }
+          },
+          {
+            "edge_id": "FJ3483:e0",
+            "interval_index": 0,
+            "points_mm": [
+              [
+                16.8,
+                -100.0,
+                1311.2
+              ],
+              [
+                16.8,
+                -100.0,
+                1312.0
+              ]
+            ],
+            "radii_mm": [
+              4.0,
+              4.0
+            ],
+            "anatomy": {
+              "artery": "left common carotid artery",
+              "branch_id": "FJ3483:e0",
+              "segment": "unresolved",
+              "side": "L"
+            },
+            "derivation": {
+              "algorithm": "voxel-lee-1",
+              "branch_identity_status": "extraction_edge_not_anatomical_branch",
+              "pitch_mm": 0.8,
+              "radius_status": "voxel_estimate"
+            }
+          }
+        ]
+      }
+    ],
+    "shared_node_pairs_not_checked": [
+      [
+        "synthetic_arch_before_LCCA",
+        "synthetic_arch_after_LCCA"
+      ],
+      [
+        "synthetic_arch_before_LCCA",
+        "estimated_arch_to_LCCA"
+      ],
+      [
+        "synthetic_arch_after_LCCA",
+        "estimated_arch_to_LCCA"
+      ],
+      [
+        "estimated_arch_to_LCCA",
+        "FJ3483:e0"
+      ],
+      [
+        "FJ3483:e0",
+        "estimated_L_carotid_gap"
+      ],
+      [
+        "estimated_L_carotid_gap",
+        "FJ1682M:e0"
+      ]
+    ],
+    "within_edge_self_intersection": "NOT RUN",
+    "final_surface_collision": "NOT RUN"
+  },
+  "selected_surface": {
+    "selected_edge_ids": [
+      "synthetic_arch_before_LCCA",
+      "synthetic_arch_after_LCCA",
+      "estimated_arch_to_LCCA",
+      "FJ3483:e0",
+      "estimated_L_carotid_gap",
+      "FJ1682M:e0"
+    ],
+    "spacing_mm": 0.6,
+    "status": "FAIL",
+    "reason": "nonincident vessel clearance unresolved; surface union blocked",
+    "parameters_relaxed": false,
+    "surface_published": false
+  },
+  "default_adoption": "NOT ACCEPTED",
+  "anatomical_acceptance": "UNKNOWN",
+  "whole_case_collision": "NOT RUN",
+  "femoral_access_combinations": "NOT RUN",
+  "figure": {
+    "path": "exports/synthetic-arch-carotid-case/arch-carotid-candidate.png",
+    "sha256": "7a33904cf89ba76fafb0a93ea931fca6619a292ed9ea4e30a617feed0c686372"
+  }
+}

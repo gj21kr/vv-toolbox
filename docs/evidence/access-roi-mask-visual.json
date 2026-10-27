@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "Saved ROI labels and physical-coordinate slice rendering",
+  "source_sha256": "6a56d703e49fbf5c8f38c0c1073e3230a04e03b14258f0e387a75f62f16066d2",
+  "checks": {
+    "anatomical_unknown": true,
+    "estimated_provenance": true,
+    "single_instance": true,
+    "no_declared_lesion": true,
+    "lesion_metadata_none_declared": true,
+    "membership_matches_foreground": true
+  },
+  "case_revision": "51182f6ba84c030716888beb4daa45fd5eb1c34952e23003c3a15559d3c7594b",
+  "image": "exports/access-candidate-roi/orthogonal-slices.png",
+  "image_sha256": "b87387cf65d9fe76a5dc4e64993b477becaf3c60ae6f1fa313ba26f954ab1db8",
+  "interpolation": "nearest",
+  "axes": "LPS increasing; not radiological display convention",
+  "visual_review": "PASS: three orthogonal center slices inspected; physical-axis labels readable; nearest voxel display; no anatomy acceptance implied",
+  "clinical_validity": "NOT RUN"
+}

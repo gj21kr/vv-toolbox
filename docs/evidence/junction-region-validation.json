@@ -1,0 +1,12 @@
+{
+  "schema": "vv-toolbox.junction-region-validation/1",
+  "environment": "Docker vv-annotation-ui",
+  "command": "PYTHONPATH=src pytest -q -p no:cacheprovider tests/test_junction_regions.py tests/test_case_surface.py tests/test_geometry_quality.py",
+  "status": "PASS",
+  "passed": 53,
+  "scope": "Case-bound bounded junction allowances, exact interval clipping, remote crossing rejection, source preservation, synthetic surface generation",
+  "actual_case_evidence": "docs/evidence/arch-junction-surface.json",
+  "inside_junction_region_quality": "NOT RUN",
+  "whole_atlas_collision": "NOT RUN",
+  "anatomical_acceptance": "UNKNOWN"
+}

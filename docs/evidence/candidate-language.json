@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "scope": "Nine production candidate description branches with synthetic audit values; no geometry acceptance",
+  "description_branches": 9,
+  "english_no_untranslated_korean": true,
+  "korean_roundtrip_exact": true,
+  "measurement_and_status_codes_preserved": true
+}

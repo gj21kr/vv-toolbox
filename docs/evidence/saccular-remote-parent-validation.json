@@ -1,0 +1,21 @@
+{
+  "scope": "Conservative sac support versus remote portions of the same parent",
+  "generator_version": "saccular-sidewall-4",
+  "environment": "Docker vv-annotation-ui",
+  "command": "PYTHONPATH=src python -m pytest -q --tb=short -p no:cacheprovider tests/test_saccular_surface.py tests/test_saccular_masks.py tests/test_saccular_spec.py --junitxml=exports/saccular-remote-parent.xml",
+  "result": {"status": "PASS", "passed": 45, "warnings": 58, "seconds": 8.27},
+  "junit_sha256": "54db346ab7cf59aff093aa2ffbf654575dd476513a8fb5d39af494b8542a9d04",
+  "checked": [
+    "Returning parent near the dome is rejected before meshing",
+    "Rejected generation preserves input case",
+    "Sparse and dense straight-parent sampling give the same exclusion and minimum clearance",
+    "Existing surface dimensions, mask generation and specification regression"
+  ],
+  "limitations": {
+    "local_excluded_parent_contact": "NOT RUN",
+    "parent_parent_self_contact": "NOT RUN",
+    "actual_atlas": "NOT RUN",
+    "full_regression_after_this_change": "NOT RUN",
+    "clinical_validity": "NOT RUN"
+  }
+}

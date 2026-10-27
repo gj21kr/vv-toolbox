@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "url": "http://127.0.0.1:8093/case-labels",
+  "checks": [
+    "five neighbors at each endpoint",
+    "uncertainty visible",
+    "coincident distinct node not connected",
+    "neighbor selection and return",
+    "mobile no horizontal overflow, all neighbors retained"
+  ],
+  "page_errors": [],
+  "scope": "synthetic saved-graph incidence UI; not anatomical validation"
+}

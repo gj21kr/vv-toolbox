@@ -1,0 +1,409 @@
+{
+  "status": "CANDIDATE",
+  "fixture": "straight parent engineering fixture, no atlas/patient data",
+  "outputs": {
+    "whole": {
+      "archive": "exports/saccular-mask-final/whole.npz",
+      "sha256": "20ec826fb4b1ee1a59ec0d066bbbde2850d320bc9b2c9754a9f1a143f41c6835",
+      "metadata": {
+        "schema": "vv-toolbox.saccular-labels/1",
+        "status": "CANDIDATE",
+        "case_revision": "aae0c1e09343288373c1d3d4f86116e4742e2330a102de12258bfc3842fc6deb",
+        "specification_sha256": "94e18d0f5eec8fca9c0c9cd2214f3be4a1f0cfbeb9367a20c40d4b28dfb134ea",
+        "coverage": "whole",
+        "grid": {
+          "schema": "vv-toolbox.mask/1",
+          "frame_id": "fixture",
+          "units": "mm",
+          "axes": "LPS",
+          "array_order": "zyx",
+          "sampling": "voxel_centres_surface_inclusive",
+          "surface_tolerance_mm": 1e-08,
+          "checks": {
+            "closed_oriented_nondegenerate_surface": "PASS",
+            "self_intersection": "NOT RUN",
+            "clinical_validity": "NOT RUN"
+          },
+          "shape_zyx": [
+            9,
+            12,
+            27
+          ],
+          "spacing_xyz_mm": [
+            1,
+            1,
+            1
+          ],
+          "voxel_xyz_to_world_mm": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -3.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -3.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -4.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "instance_policy": "lowest_id_owner_with_all_memberships_retained",
+          "anatomical_policy": "0_unknown_or_conflicting_labels; foreground_separate",
+          "provenance_codes": {
+            "background": 0,
+            "source": 1,
+            "estimated": 2,
+            "mixed": 3
+          },
+          "instances": [
+            {
+              "instance_id": 1,
+              "anatomical_label": 0,
+              "provenance": "estimated",
+              "source_ref": "case:aae0c1e09343288373c1d3d4f86116e4742e2330a102de12258bfc3842fc6deb;sac-spec:94e18d0f5eec8fca9c0c9cd2214f3be4a1f0cfbeb9367a20c40d4b28dfb134ea;edge:e"
+            }
+          ],
+          "dtypes": {
+            "foreground": "bool",
+            "anatomical": "uint32",
+            "instance": "uint32",
+            "provenance": "uint8",
+            "overlap_count": "uint32",
+            "membership": "bool"
+          }
+        },
+        "surface": {
+          "schema": "vv-toolbox.saccular-candidate/1",
+          "status": "CANDIDATE",
+          "case_revision": "aae0c1e09343288373c1d3d4f86116e4742e2330a102de12258bfc3842fc6deb",
+          "specification_sha256": "94e18d0f5eec8fca9c0c9cd2214f3be4a1f0cfbeb9367a20c40d4b28dfb134ea",
+          "edge_ids": [
+            "e"
+          ],
+          "frame": {
+            "id": "fixture",
+            "units": "mm",
+            "axes": "LPS",
+            "origin": "arbitrary engineering origin"
+          },
+          "spacing_mm": 0.15,
+          "grid_shape_xyz": [
+            167,
+            35,
+            71
+          ],
+          "grid_origin_mm": [
+            -2.4499999999999993,
+            -2.5,
+            2.55
+          ],
+          "grid_direction_columns": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0
+            ]
+          ],
+          "grid_axis_names": [
+            "neck_width",
+            "neck_depth",
+            "neck_normal"
+          ],
+          "tangent_plane_tie_policy": "parent-only zero-volume contacts treated outside at spacing/1000 field value",
+          "neck_measurement": {
+            "requested_width_depth_mm": [
+              2,
+              1
+            ],
+            "measured_width_depth_mm": [
+              2.0991029739379883,
+              1.0086474418640137
+            ],
+            "tolerance_mm": 0.3,
+            "method": "actual triangle-plane contour spans in declared neck frame",
+            "status": "PASS"
+          },
+          "method": "ellipsoidal-axis loft; buried-only tapered smooth union; neck-aligned grid; selected parent only",
+          "checks": {
+            "single_closed_surface": "PASS",
+            "sampled_lumen_connectivity": "PASS",
+            "context_support_clearance": "PASS",
+            "neck_dimensions": "PASS",
+            "surface_dimensions": "PARTIAL: neck only; dome dimensions not accepted",
+            "remote_parent_self_contact": "NOT RUN",
+            "clinical_validity": "NOT RUN"
+          },
+          "context_clearance": [],
+          "neck_probe_positions_mm": [
+            [
+              10.0,
+              0.0,
+              0.0
+            ],
+            [
+              10.0,
+              2.0,
+              0.0
+            ],
+            [
+              10.0,
+              4.5,
+              0.0
+            ]
+          ],
+          "limitations": "Candidate only. Sampling is not a continuous lumen proof. Neck tolerance is engineering-only. No case lesion, mask labels, bifurcation support or clinical acceptance."
+        },
+        "definition": "foreground intersect sac field strictly above neck plane, plus added lumen outside baseline parent below/on plane within declared sac/blend support",
+        "excluded": "baseline parent lumen; wall/plaque/tissue; inferred anatomical segment labels",
+        "registry": [
+          {
+            "label": 1,
+            "lesion_id": "manual-sac",
+            "edge_id": "e"
+          }
+        ],
+        "voxel_counts": {
+          "foreground": 261,
+          "sac_above_neck": 32,
+          "added_neck": 0,
+          "labelled": 32
+        },
+        "checks": {
+          "surface_bounds_covered": "PASS",
+          "sac_support_covered": "NOT APPLICABLE",
+          "labels_inside_foreground": "PASS",
+          "sampled_lumen_connected": "PASS",
+          "anatomical_segment_labels": "UNKNOWN",
+          "clinical_validity": "NOT RUN"
+        },
+        "budget_scope": "mask arrays and voxelizer workspace; surface generation has separate grid budget",
+        "limitations": "Single-parent candidate only. Centre sampling does not certify fine-neck preservation. Label definition is a simulator convention, not patient ground truth."
+      }
+    },
+    "roi": {
+      "archive": "exports/saccular-mask-final/roi.npz",
+      "sha256": "ef4723db12a0cceeaa9d871302f30d995df96e41896348eb6a3de8c34b04e65b",
+      "metadata": {
+        "schema": "vv-toolbox.saccular-labels/1",
+        "status": "CANDIDATE",
+        "case_revision": "aae0c1e09343288373c1d3d4f86116e4742e2330a102de12258bfc3842fc6deb",
+        "specification_sha256": "94e18d0f5eec8fca9c0c9cd2214f3be4a1f0cfbeb9367a20c40d4b28dfb134ea",
+        "coverage": "sac_roi",
+        "grid": {
+          "schema": "vv-toolbox.mask/1",
+          "frame_id": "fixture",
+          "units": "mm",
+          "axes": "LPS",
+          "array_order": "zyx",
+          "sampling": "voxel_centres_surface_inclusive",
+          "surface_tolerance_mm": 1e-08,
+          "checks": {
+            "closed_oriented_nondegenerate_surface": "PASS",
+            "self_intersection": "NOT RUN",
+            "clinical_validity": "NOT RUN"
+          },
+          "shape_zyx": [
+            11,
+            16,
+            13
+          ],
+          "spacing_xyz_mm": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "voxel_xyz_to_world_mm": [
+            [
+              0.5,
+              0.0,
+              0.0,
+              7.0
+            ],
+            [
+              0.0,
+              0.5,
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              0.0,
+              0.5,
+              -2.5
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "instance_policy": "lowest_id_owner_with_all_memberships_retained",
+          "anatomical_policy": "0_unknown_or_conflicting_labels; foreground_separate",
+          "provenance_codes": {
+            "background": 0,
+            "source": 1,
+            "estimated": 2,
+            "mixed": 3
+          },
+          "instances": [
+            {
+              "instance_id": 1,
+              "anatomical_label": 0,
+              "provenance": "estimated",
+              "source_ref": "case:aae0c1e09343288373c1d3d4f86116e4742e2330a102de12258bfc3842fc6deb;sac-spec:94e18d0f5eec8fca9c0c9cd2214f3be4a1f0cfbeb9367a20c40d4b28dfb134ea;edge:e"
+            }
+          ],
+          "dtypes": {
+            "foreground": "bool",
+            "anatomical": "uint32",
+            "instance": "uint32",
+            "provenance": "uint8",
+            "overlap_count": "uint32",
+            "membership": "bool"
+          }
+        },
+        "surface": {
+          "schema": "vv-toolbox.saccular-candidate/1",
+          "status": "CANDIDATE",
+          "case_revision": "aae0c1e09343288373c1d3d4f86116e4742e2330a102de12258bfc3842fc6deb",
+          "specification_sha256": "94e18d0f5eec8fca9c0c9cd2214f3be4a1f0cfbeb9367a20c40d4b28dfb134ea",
+          "edge_ids": [
+            "e"
+          ],
+          "frame": {
+            "id": "fixture",
+            "units": "mm",
+            "axes": "LPS",
+            "origin": "arbitrary engineering origin"
+          },
+          "spacing_mm": 0.15,
+          "grid_shape_xyz": [
+            167,
+            35,
+            71
+          ],
+          "grid_origin_mm": [
+            -2.4499999999999993,
+            -2.5,
+            2.55
+          ],
+          "grid_direction_columns": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0
+            ]
+          ],
+          "grid_axis_names": [
+            "neck_width",
+            "neck_depth",
+            "neck_normal"
+          ],
+          "tangent_plane_tie_policy": "parent-only zero-volume contacts treated outside at spacing/1000 field value",
+          "neck_measurement": {
+            "requested_width_depth_mm": [
+              2,
+              1
+            ],
+            "measured_width_depth_mm": [
+              2.0991029739379883,
+              1.0086474418640137
+            ],
+            "tolerance_mm": 0.3,
+            "method": "actual triangle-plane contour spans in declared neck frame",
+            "status": "PASS"
+          },
+          "method": "ellipsoidal-axis loft; buried-only tapered smooth union; neck-aligned grid; selected parent only",
+          "checks": {
+            "single_closed_surface": "PASS",
+            "sampled_lumen_connectivity": "PASS",
+            "context_support_clearance": "PASS",
+            "neck_dimensions": "PASS",
+            "surface_dimensions": "PARTIAL: neck only; dome dimensions not accepted",
+            "remote_parent_self_contact": "NOT RUN",
+            "clinical_validity": "NOT RUN"
+          },
+          "context_clearance": [],
+          "neck_probe_positions_mm": [
+            [
+              10.0,
+              0.0,
+              0.0
+            ],
+            [
+              10.0,
+              2.0,
+              0.0
+            ],
+            [
+              10.0,
+              4.5,
+              0.0
+            ]
+          ],
+          "limitations": "Candidate only. Sampling is not a continuous lumen proof. Neck tolerance is engineering-only. No case lesion, mask labels, bifurcation support or clinical acceptance."
+        },
+        "definition": "foreground intersect sac field strictly above neck plane, plus added lumen outside baseline parent below/on plane within declared sac/blend support",
+        "excluded": "baseline parent lumen; wall/plaque/tissue; inferred anatomical segment labels",
+        "registry": [
+          {
+            "label": 1,
+            "lesion_id": "manual-sac",
+            "edge_id": "e"
+          }
+        ],
+        "voxel_counts": {
+          "foreground": 489,
+          "sac_above_neck": 235,
+          "added_neck": 2,
+          "labelled": 237
+        },
+        "checks": {
+          "surface_bounds_covered": "NOT APPLICABLE",
+          "sac_support_covered": "PASS",
+          "labels_inside_foreground": "PASS",
+          "sampled_lumen_connected": "PASS",
+          "anatomical_segment_labels": "UNKNOWN",
+          "clinical_validity": "NOT RUN"
+        },
+        "budget_scope": "mask arrays and voxelizer workspace; surface generation has separate grid budget",
+        "limitations": "Single-parent candidate only. Centre sampling does not certify fine-neck preservation. Label definition is a simulator convention, not patient ground truth."
+      }
+    }
+  },
+  "figure_sha256": "98b89503d1f8e74af5f537c32f4050b24897fa2e203e379f99e50023cfb9b6b8"
+}

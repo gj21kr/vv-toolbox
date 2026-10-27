@@ -1,0 +1,399 @@
+{
+  "scope": "Eight explicit ACA/MCA source edges; not confirmed A1-A3/M1-M3 boundaries",
+  "protocol": {
+    "sigma_mm": 0.5,
+    "max_displacement_mm": 0.3,
+    "containment_sample_spacing_mm": 0.1
+  },
+  "status": "PASS",
+  "rows": [
+    {
+      "edge_id": "FJ1654:e0",
+      "status": "PASS",
+      "parameters": {
+        "edge_id": "FJ1654:e0",
+        "sigma_mm": 0.5,
+        "max_displacement_mm": 0.3
+      },
+      "max_displacement_mm": 0.21226100694112185,
+      "measurements": {
+        "source": {
+          "stations": {
+            "status": "MEASURED",
+            "point_count": 48,
+            "inside_count": 48,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "sampled_intervals": {
+            "status": "MEASURED",
+            "point_count": 276,
+            "inside_count": 276,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "section_count": 46,
+          "measured_sections": 46
+        },
+        "smoothed": {
+          "stations": {
+            "status": "MEASURED",
+            "point_count": 48,
+            "inside_count": 48,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "sampled_intervals": {
+            "status": "MEASURED",
+            "point_count": 254,
+            "inside_count": 254,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "section_count": 46,
+          "measured_sections": 46
+        }
+      }
+    },
+    {
+      "edge_id": "FJ1654M:e0",
+      "status": "PASS",
+      "parameters": {
+        "edge_id": "FJ1654M:e0",
+        "sigma_mm": 0.5,
+        "max_displacement_mm": 0.3
+      },
+      "max_displacement_mm": 0.25073541083784234,
+      "measurements": {
+        "source": {
+          "stations": {
+            "status": "MEASURED",
+            "point_count": 51,
+            "inside_count": 51,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "sampled_intervals": {
+            "status": "MEASURED",
+            "point_count": 299,
+            "inside_count": 299,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "section_count": 49,
+          "measured_sections": 49
+        },
+        "smoothed": {
+          "stations": {
+            "status": "MEASURED",
+            "point_count": 51,
+            "inside_count": 51,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "sampled_intervals": {
+            "status": "MEASURED",
+            "point_count": 269,
+            "inside_count": 269,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "section_count": 49,
+          "measured_sections": 49
+        }
+      }
+    },
+    {
+      "edge_id": "FJ1660:e0",
+      "status": "PASS",
+      "parameters": {
+        "edge_id": "FJ1660:e0",
+        "sigma_mm": 0.5,
+        "max_displacement_mm": 0.3
+      },
+      "max_displacement_mm": 0.23827797704503484,
+      "measurements": {
+        "source": {
+          "stations": {
+            "status": "MEASURED",
+            "point_count": 29,
+            "inside_count": 29,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "sampled_intervals": {
+            "status": "MEASURED",
+            "point_count": 153,
+            "inside_count": 153,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "section_count": 27,
+          "measured_sections": 27
+        },
+        "smoothed": {
+          "stations": {
+            "status": "MEASURED",
+            "point_count": 29,
+            "inside_count": 29,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "sampled_intervals": {
+            "status": "MEASURED",
+            "point_count": 137,
+            "inside_count": 137,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "section_count": 27,
+          "measured_sections": 27
+        }
+      }
+    },
+    {
+      "edge_id": "FJ1660M:e0",
+      "status": "PASS",
+      "parameters": {
+        "edge_id": "FJ1660M:e0",
+        "sigma_mm": 0.5,
+        "max_displacement_mm": 0.3
+      },
+      "max_displacement_mm": 0.22716381490219845,
+      "measurements": {
+        "source": {
+          "stations": {
+            "status": "MEASURED",
+            "point_count": 29,
+            "inside_count": 29,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "sampled_intervals": {
+            "status": "MEASURED",
+            "point_count": 149,
+            "inside_count": 149,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "section_count": 27,
+          "measured_sections": 27
+        },
+        "smoothed": {
+          "stations": {
+            "status": "MEASURED",
+            "point_count": 29,
+            "inside_count": 29,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "sampled_intervals": {
+            "status": "MEASURED",
+            "point_count": 142,
+            "inside_count": 142,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "section_count": 27,
+          "measured_sections": 27
+        }
+      }
+    },
+    {
+      "edge_id": "FJ1692:e0",
+      "status": "PASS",
+      "parameters": {
+        "edge_id": "FJ1692:e0",
+        "sigma_mm": 0.5,
+        "max_displacement_mm": 0.3
+      },
+      "max_displacement_mm": 0.17744202288694638,
+      "measurements": {
+        "source": {
+          "stations": {
+            "status": "MEASURED",
+            "point_count": 62,
+            "inside_count": 62,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "sampled_intervals": {
+            "status": "MEASURED",
+            "point_count": 392,
+            "inside_count": 392,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "section_count": 60,
+          "measured_sections": 60
+        },
+        "smoothed": {
+          "stations": {
+            "status": "MEASURED",
+            "point_count": 62,
+            "inside_count": 62,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "sampled_intervals": {
+            "status": "MEASURED",
+            "point_count": 373,
+            "inside_count": 373,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "section_count": 60,
+          "measured_sections": 60
+        }
+      }
+    },
+    {
+      "edge_id": "FJ1692M:e0",
+      "status": "PASS",
+      "parameters": {
+        "edge_id": "FJ1692M:e0",
+        "sigma_mm": 0.5,
+        "max_displacement_mm": 0.3
+      },
+      "max_displacement_mm": 0.25113154732368315,
+      "measurements": {
+        "source": {
+          "stations": {
+            "status": "MEASURED",
+            "point_count": 62,
+            "inside_count": 62,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "sampled_intervals": {
+            "status": "MEASURED",
+            "point_count": 397,
+            "inside_count": 397,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "section_count": 60,
+          "measured_sections": 60
+        },
+        "smoothed": {
+          "stations": {
+            "status": "MEASURED",
+            "point_count": 62,
+            "inside_count": 62,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "sampled_intervals": {
+            "status": "MEASURED",
+            "point_count": 370,
+            "inside_count": 370,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "section_count": 60,
+          "measured_sections": 60
+        }
+      }
+    },
+    {
+      "edge_id": "FJ1694:e0",
+      "status": "PASS",
+      "parameters": {
+        "edge_id": "FJ1694:e0",
+        "sigma_mm": 0.5,
+        "max_displacement_mm": 0.3
+      },
+      "max_displacement_mm": 0.2425135915991601,
+      "measurements": {
+        "source": {
+          "stations": {
+            "status": "MEASURED",
+            "point_count": 129,
+            "inside_count": 129,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "sampled_intervals": {
+            "status": "MEASURED",
+            "point_count": 729,
+            "inside_count": 729,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "section_count": 127,
+          "measured_sections": 127
+        },
+        "smoothed": {
+          "stations": {
+            "status": "MEASURED",
+            "point_count": 129,
+            "inside_count": 129,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "sampled_intervals": {
+            "status": "MEASURED",
+            "point_count": 678,
+            "inside_count": 678,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "section_count": 127,
+          "measured_sections": 127
+        }
+      }
+    },
+    {
+      "edge_id": "FJ1694M:e0",
+      "status": "PASS",
+      "parameters": {
+        "edge_id": "FJ1694M:e0",
+        "sigma_mm": 0.5,
+        "max_displacement_mm": 0.3
+      },
+      "max_displacement_mm": 0.2408562920052756,
+      "measurements": {
+        "source": {
+          "stations": {
+            "status": "MEASURED",
+            "point_count": 131,
+            "inside_count": 131,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "sampled_intervals": {
+            "status": "MEASURED",
+            "point_count": 722,
+            "inside_count": 722,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "section_count": 129,
+          "measured_sections": 129
+        },
+        "smoothed": {
+          "stations": {
+            "status": "MEASURED",
+            "point_count": 131,
+            "inside_count": 131,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "sampled_intervals": {
+            "status": "MEASURED",
+            "point_count": 677,
+            "inside_count": 677,
+            "outside_indices": [],
+            "limitation": "Finite precision ray test at sampled points only; boundary points may classify outside."
+          },
+          "section_count": 129,
+          "measured_sections": 129
+        }
+      }
+    }
+  ],
+  "anatomical_acceptance": "UNKNOWN",
+  "continuous_containment": "NOT RUN",
+  "full_femoral_cerebral_route": "NOT RUN",
+  "exact_index_copies": true
+}

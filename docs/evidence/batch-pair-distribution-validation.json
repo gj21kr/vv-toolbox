@@ -1,0 +1,15 @@
+{
+  "scope": "Observed requested parameter-pair frequencies before and after batch quality filtering",
+  "environment": "Docker vv-annotation-ui",
+  "command": "PYTHONPATH=src python -m pytest -q --tb=short -p no:cacheprovider tests/test_batch_distribution.py tests/test_batch.py --junitxml=exports/batch-pair-distribution.xml",
+  "result": {"status": "PASS", "passed": 12, "warnings": 58, "seconds": 5.76},
+  "checks": [
+    "Identical marginal distributions with opposite accepted/rejected pair combinations remain distinguishable",
+    "Only complete finite numeric pairs are counted; missing values are not imputed",
+    "Existing region and measurement definition separation",
+    "Batch generation, outcome counts and persisted distribution report regression"
+  ],
+  "population_inference": "NONE",
+  "full_project_regression": "NOT RUN",
+  "literature_based_joint_sampling": "NOT RUN"
+}

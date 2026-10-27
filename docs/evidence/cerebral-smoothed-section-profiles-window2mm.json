@@ -1,0 +1,116 @@
+{
+  "source_case_revision": "ac39f2d88883cf9f2389618a7ad6f0770dd3b5efef17278fbcefa02bf677aa24",
+  "source_file_sha256": "fa2b9856bb47469b189af136c1e621f19381dd9470fca09f53e874061b9ff1cd",
+  "atlas_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "rows": [
+    {
+      "edge_id": "FJ1654:e0",
+      "case_revision": "04b3e144cdf182ee457aa643926b3e9eac6e7fb1036e68c8131be414c577f94a",
+      "counts": {
+        "MEASURED": 46,
+        "UNKNOWN": 0
+      },
+      "artifact": "exports/cerebral-source-sections/1c86dd2c275ff55c1d41798527c09e76294f3db4ad65b7f6955ff22a9f3a1d96/profiles.json",
+      "sha256": "1c86dd2c275ff55c1d41798527c09e76294f3db4ad65b7f6955ff22a9f3a1d96",
+      "original_triangle_sha256": "2605719db704d8bf6a8b669c21a6c7d26d2e69fc7ee31f5db900a278fe263036",
+      "maximum_contour_vertex_surface_residual_mm": 2.3486232123666415e-13,
+      "contour_vertices_checked": 1089
+    },
+    {
+      "edge_id": "FJ1654M:e0",
+      "case_revision": "fd95507ffbea952d85ced1a2b395ff97c9dbddfaeb4446ca5eda59f582d959bc",
+      "counts": {
+        "MEASURED": 49,
+        "UNKNOWN": 0
+      },
+      "artifact": "exports/cerebral-source-sections/e4cd5980f99de1157d3c0ea84ee705c17fb687f81e8e9c738303de3361c6a4be/profiles.json",
+      "sha256": "e4cd5980f99de1157d3c0ea84ee705c17fb687f81e8e9c738303de3361c6a4be",
+      "original_triangle_sha256": "78023052db3d086f566f24d81842d220ea52fac7b9d8357a9b4090f05560cdf6",
+      "maximum_contour_vertex_surface_residual_mm": 2.484424131828397e-13,
+      "contour_vertices_checked": 1179
+    },
+    {
+      "edge_id": "FJ1660:e0",
+      "case_revision": "4b50891375bab39496248d15003a26618e0b33c2a9e360553014b6b572cee115",
+      "counts": {
+        "MEASURED": 27,
+        "UNKNOWN": 0
+      },
+      "artifact": "exports/cerebral-source-sections/442f9023cac9a5fae0c48a14229fa46000646b69eb3561e38764f530cdb76062/profiles.json",
+      "sha256": "442f9023cac9a5fae0c48a14229fa46000646b69eb3561e38764f530cdb76062",
+      "original_triangle_sha256": "ebad8e81aa69a4fa8dc24cbe556e6d97bb86170bce5b02c69a682762b6425949",
+      "maximum_contour_vertex_surface_residual_mm": 2.404323753877496e-13,
+      "contour_vertices_checked": 1329
+    },
+    {
+      "edge_id": "FJ1660M:e0",
+      "case_revision": "99bacd169866af0eab2fbfcb2ddb2fa819497e4655d5e2437c029adb83f500dd",
+      "counts": {
+        "MEASURED": 27,
+        "UNKNOWN": 0
+      },
+      "artifact": "exports/cerebral-source-sections/3124bcc18404c130e0bfe08f3e66e97cd4b06e0d4d591c77475f28bd6ecbae57/profiles.json",
+      "sha256": "3124bcc18404c130e0bfe08f3e66e97cd4b06e0d4d591c77475f28bd6ecbae57",
+      "original_triangle_sha256": "e05c49395bf9b712cec3d3b612df4107b9956e8418f8b3b55fb6b7ec57d997e1",
+      "maximum_contour_vertex_surface_residual_mm": 2.530170748793361e-13,
+      "contour_vertices_checked": 1333
+    },
+    {
+      "edge_id": "FJ1692:e0",
+      "case_revision": "a1877d83b131ef414696449aa7663e34fd95ac2d7915f677a412cf53ca4e7064",
+      "counts": {
+        "MEASURED": 60,
+        "UNKNOWN": 0
+      },
+      "artifact": "exports/cerebral-source-sections/641ba5a6b91fb83607541dcdae47ce46c31fe76f19082fe8a6b24b514ab362a3/profiles.json",
+      "sha256": "641ba5a6b91fb83607541dcdae47ce46c31fe76f19082fe8a6b24b514ab362a3",
+      "original_triangle_sha256": "55528e5d869de026fb04a2a1eb62a7c58bb39e8e3c9be876a4ca46a2695cef41",
+      "maximum_contour_vertex_surface_residual_mm": 2.4706052173987856e-13,
+      "contour_vertices_checked": 2139
+    },
+    {
+      "edge_id": "FJ1692M:e0",
+      "case_revision": "218de320b33935fa06862a7420555dfa241af49a70e5388dc74e8c74ef85eaa0",
+      "counts": {
+        "MEASURED": 60,
+        "UNKNOWN": 0
+      },
+      "artifact": "exports/cerebral-source-sections/3d9c134e87fe62a1f2ab0deeb71f9778a2a494ecea5f1b727f3a733355acf496/profiles.json",
+      "sha256": "3d9c134e87fe62a1f2ab0deeb71f9778a2a494ecea5f1b727f3a733355acf496",
+      "original_triangle_sha256": "a97bf4dd7dcaa7d5ec027492c180ff39c20687f4bfd816bf5c08a9fcae6e3246",
+      "maximum_contour_vertex_surface_residual_mm": 2.4325065010975337e-13,
+      "contour_vertices_checked": 2139
+    },
+    {
+      "edge_id": "FJ1694:e0",
+      "case_revision": "b15bc9c675e804e54c3b9d666bb2e566deb56b759387a07d340c8f6816f8571d",
+      "counts": {
+        "MEASURED": 127,
+        "UNKNOWN": 0
+      },
+      "artifact": "exports/cerebral-source-sections/7b3404ed9ea17cdd99f55629fe8b96eed42a094f4bd317b8f5eedbfdad602312/profiles.json",
+      "sha256": "7b3404ed9ea17cdd99f55629fe8b96eed42a094f4bd317b8f5eedbfdad602312",
+      "original_triangle_sha256": "becf55379e96b887c67ff38ad000155bef87f580d941d5eb0661e9ce9c39b6f7",
+      "maximum_contour_vertex_surface_residual_mm": 2.5431077927142497e-13,
+      "contour_vertices_checked": 7051
+    },
+    {
+      "edge_id": "FJ1694M:e0",
+      "case_revision": "e5a4df1f788bdc6b51a8fe706dcd59e20cc57d608912b814754712be955da119",
+      "counts": {
+        "MEASURED": 129,
+        "UNKNOWN": 0
+      },
+      "artifact": "exports/cerebral-source-sections/4b048a725c19f71f83ad887f7af744a47764512e1ca048fc982451fd3f26747c/profiles.json",
+      "sha256": "4b048a725c19f71f83ad887f7af744a47764512e1ca048fc982451fd3f26747c",
+      "original_triangle_sha256": "18d3b153b482613dbc2f244de8a037bf9eeb74b6aa465b92c116ba89cce0c2ce",
+      "maximum_contour_vertex_surface_residual_mm": 2.482836011048469e-13,
+      "contour_vertices_checked": 7162
+    }
+  ],
+  "centerline_group": "smoothed",
+  "tangent_half_window_mm": 2.0,
+  "source_modified": false,
+  "loft_surface": "NOT RUN",
+  "anatomical_validation": "NOT RUN"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "Saved bend case import, inspection banner, graph search and unchanged download",
+  "browser_path": "Playwright: Browser plugin not available",
+  "revision": "4ffe329b1d12886832348f16e3110988cdc7afe35ceb6448a95ee23c081d176a",
+  "edges": 65,
+  "file_sha256": "d22f659f46956600edce237b9f1569fcd31a6f2fb86ccb1e2181e22f886ee558",
+  "exact_document_roundtrip": true,
+  "atlas_unchanged": true,
+  "browser_errors": [],
+  "visual_review": "NOT RUN"
+}

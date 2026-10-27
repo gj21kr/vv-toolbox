@@ -1,0 +1,13 @@
+{
+  "schema": "vv-toolbox.validation/1",
+  "date": "2026-10-20",
+  "environment": "Docker vv-annotation-ui",
+  "command": "PYTHONPATH=src pytest -q -p no:cacheprovider",
+  "passed": 453,
+  "skipped": 3,
+  "warnings": 316,
+  "seconds": 47.49,
+  "scope": "Current full collected Python suite, including bounded radius and centerline operators, CLI and quality-result invalidation",
+  "clinical_acceptance": "NOT ASSESSED",
+  "browser_ui_changes": "NONE IN THIS TURN"
+}

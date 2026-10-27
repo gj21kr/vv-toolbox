@@ -1,0 +1,106 @@
+{
+  "parent_case_revision": "ce5726c1f980dffee4196638647fe5b6804aee4138f378c364224ba61cc2fee9",
+  "closed_case_revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+  "rows": [
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "neighbor_id": "estimated_left_vertebral_neck",
+      "original_side_triangles_preserved": true,
+      "added_cap_faces": 48,
+      "input_sha256": "404b9b86c511fd0d0904ef63f46ac20701ec545d531ab3191a5b4857ce8431d7",
+      "output_sha256": "a8359d0dfa1794e056bdf2fcc5748baea82623685c06676ba2fcbc182296d102",
+      "status": "PASS",
+      "context_sha256": "c965b1424bc0a23304f5e9a5f1d71d4b419cd45d87c9c185353a6e8f1679a758",
+      "rows": [
+        {
+          "neighbor_id": "estimated_left_vertebral_neck",
+          "before": {
+            "status": "SEPARATED",
+            "complete": true,
+            "contact_pairs": [],
+            "containment": {
+              "status": "NO_CONTAINMENT_DETECTED",
+              "complete": true,
+              "contained_components": [],
+              "tolerance_mm": 1e-06,
+              "scope": "Whole connected boundary components of closed disjoint surfaces"
+            }
+          },
+          "after": {
+            "status": "SEPARATED",
+            "complete": true,
+            "contact_pairs": [],
+            "containment": {
+              "status": "NO_CONTAINMENT_DETECTED",
+              "complete": true,
+              "contained_components": [],
+              "tolerance_mm": 1e-06,
+              "scope": "Whole connected boundary components of closed disjoint surfaces"
+            }
+          },
+          "added_contact_pairs": [],
+          "removed_contact_pairs": []
+        }
+      ],
+      "new_or_extended_contacts": [],
+      "unknown": [],
+      "remaining_contacts": [],
+      "tolerance_mm": 1e-06,
+      "scope": "Fixed-topology edit versus all supplied static neighbors, including disjoint containment",
+      "same_triangle_contact_location_equivalence": "NOT RUN",
+      "anatomical_validation": "NOT RUN"
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "neighbor_id": "estimated_right_vertebral_neck",
+      "original_side_triangles_preserved": true,
+      "added_cap_faces": 48,
+      "input_sha256": "626742a716bc38a5e8f83e2eba5c1d63bcc0933f8d8f368725d149687bcd0ee0",
+      "output_sha256": "7565484ec4434f94ac09660177519bd3679def409785e64dbf2e03df17216fa3",
+      "status": "PASS",
+      "context_sha256": "39e6eb961f698c3a30a71aec8632cd0b0b44d49fd1bd2d1d7ae144748fb27027",
+      "rows": [
+        {
+          "neighbor_id": "estimated_right_vertebral_neck",
+          "before": {
+            "status": "SEPARATED",
+            "complete": true,
+            "contact_pairs": [],
+            "containment": {
+              "status": "NO_CONTAINMENT_DETECTED",
+              "complete": true,
+              "contained_components": [],
+              "tolerance_mm": 1e-06,
+              "scope": "Whole connected boundary components of closed disjoint surfaces"
+            }
+          },
+          "after": {
+            "status": "SEPARATED",
+            "complete": true,
+            "contact_pairs": [],
+            "containment": {
+              "status": "NO_CONTAINMENT_DETECTED",
+              "complete": true,
+              "contained_components": [],
+              "tolerance_mm": 1e-06,
+              "scope": "Whole connected boundary components of closed disjoint surfaces"
+            }
+          },
+          "added_contact_pairs": [],
+          "removed_contact_pairs": []
+        }
+      ],
+      "new_or_extended_contacts": [],
+      "unknown": [],
+      "remaining_contacts": [],
+      "tolerance_mm": 1e-06,
+      "scope": "Fixed-topology edit versus all supplied static neighbors, including disjoint containment",
+      "same_triangle_contact_location_equivalence": "NOT RUN",
+      "anatomical_validation": "NOT RUN"
+    }
+  ],
+  "scope": "Two previously unresolved neighbor pairs with separate derived closed context",
+  "whole_context": "NOT RUN in this diagnostic",
+  "live_scene_changed": false,
+  "original_context_result_preserved": true
+}

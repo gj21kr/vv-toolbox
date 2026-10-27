@@ -1,0 +1,28 @@
+{
+  "schema": "vv-toolbox.self-clearance-validation/1",
+  "date": "2026-10-20",
+  "environment": "Docker vv-annotation-ui",
+  "command": "PYTHONPATH=src pytest -q -p no:cacheprovider tests/test_geometry_quality.py tests/test_case_surface.py tests/test_batch.py",
+  "passed": 29,
+  "warnings": 56,
+  "seconds": 3.78,
+  "scope": "Within-edge conservative capsule clearance at specified nonlocal arc separations",
+  "checks": {
+    "sparse_crossing_blocks_surface": "PASS",
+    "adjacent_coarse_backtracking_blocks_surface": "PASS",
+    "parallel_return_blocks_surface": "PASS",
+    "dense_straight_path": "PASS",
+    "orientation_and_sampling": "PASS",
+    "separated_3d_path": "PASS",
+    "budget_exhaustion_unknown": "PASS"
+  },
+  "initial_lifted_fixture": {
+    "status": "UNKNOWN",
+    "intervals": [1, 2],
+    "clearance_lower_bound_mm": -0.44675899041926703,
+    "reason": "Acute fold remains despite lifting the remote crossing; retained as a regression fixture"
+  },
+  "local_folding": "NOT CHECKED",
+  "final_surface_collision": "NOT RUN",
+  "actual_anatomical_model_validation": "NOT RUN"
+}

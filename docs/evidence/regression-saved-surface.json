@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "command": [
+    "/usr/local/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "--junitxml=/workspace/docs/evidence/regression-saved-surface.xml"
+  ],
+  "python": "3.12.15 (main, Oct  6 2026, 02:02:22) [GCC 14.2.0]",
+  "scope": "Full Python suite; browser and anatomical acceptance are separate",
+  "source_count": 524,
+  "exit_code": 0,
+  "counts": {
+    "PASS": 1242,
+    "FAIL": 0,
+    "ERROR": 0,
+    "SKIP": 0
+  },
+  "elapsed_seconds": 151.11430402299447,
+  "source_files_unchanged": true,
+  "changed_files": [],
+  "hashes": {
+    "xml": "9e3319c29502d72e7dd5510c7e65969d22fb8c30db7f9b4819ae00b95d27e4a7",
+    "log": "05e179cf05ac89c1cc379bff54410b8b71ba34aae6557f4e3bf071b0401b8704",
+    "sources": "86b960649a8c6944495e8f983b3c6ee923042af2fb4021216ddc1290b3c32942"
+  }
+}

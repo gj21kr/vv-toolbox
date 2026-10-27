@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "browser": "Playwright; Browser plugin not available",
+  "rows": [
+    {
+      "side": "left",
+      "audit": {
+        "status": "CANDIDATE",
+        "source_name": "estimated_left_carotid_neck",
+        "scale": 0.9,
+        "transition_mm": 5,
+        "maximum_displacement_mm": 0.36725958443081863,
+        "displacement_bound_mm": 0.5,
+        "moved_vertices": 11468,
+        "shared_vertices_fixed": true,
+        "other_source_vertices_fixed": true,
+        "faces_unchanged": true,
+        "self_contact": {
+          "status": "NO_CONTACT_DETECTED",
+          "coverage": "all distinct triangle pairs",
+          "checked_pairs": 191490,
+          "adjacent_pairs_checked": 149976,
+          "contact_pairs": [],
+          "tolerance_mm": 1e-8,
+          "max_pairs": 2000000,
+          "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+        },
+        "neighbor_contact": "UNKNOWN",
+        "scope": "Radial displacement about supplied polyline, tapered at source interfaces and path ends",
+        "anatomical_validation": "NOT RUN",
+        "neighbor_context": {
+          "status": "UNKNOWN",
+          "context_sha256": "899e34a1fe6fc2315560b9a242aaf468c7f730fb363c8a7759c077388f5c4eab",
+          "neighbors": 807,
+          "new_or_extended_contacts": [],
+          "unknown": [
+            "estimated_left_vertebral_neck"
+          ],
+          "remaining_contacts": [
+            "FJ1654M",
+            "FJ1658M",
+            "FJ1662M",
+            "FJ1663M",
+            "FJ1692M",
+            "FJ1695M",
+            "FJ1713M",
+            "FJ3411"
+          ],
+          "unknown_reasons": {
+            "estimated_left_vertebral_neck": [
+              "Closed consistent nondegenerate surface required"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "original_restored": true,
+  "controls": "PASS",
+  "viser_visual": "NOT RUN",
+  "page_errors": []
+}

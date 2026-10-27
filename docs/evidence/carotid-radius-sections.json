@@ -1,0 +1,1923 @@
+{
+  "source_case_revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+  "rows": [
+    {
+      "part_id": "estimated_left_carotid_neck",
+      "input_sha256": "404b9b86c511fd0d0904ef63f46ac20701ec545d531ab3191a5b4857ce8431d7",
+      "output_sha256": "a8359d0dfa1794e056bdf2fcc5748baea82623685c06676ba2fcbc182296d102",
+      "requested_scale": 0.9,
+      "sections": [
+        {
+          "index": 1,
+          "arclength_mm": 0.6945264836515462,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 33.80289192621447,
+          "after_area_mm2": 33.44381956648914,
+          "equivalent_radius_ratio": 0.9946745529408104
+        },
+        {
+          "index": 2,
+          "arclength_mm": 1.387274842268176,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 33.75509683852758,
+          "after_area_mm2": 32.52575263437289,
+          "equivalent_radius_ratio": 0.9816213559846677
+        },
+        {
+          "index": 3,
+          "arclength_mm": 2.078521548046102,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 33.677231130208945,
+          "after_area_mm2": 31.28142019960058,
+          "equivalent_radius_ratio": 0.9637736366247555
+        },
+        {
+          "index": 4,
+          "arclength_mm": 2.7685290519444696,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 33.57050963057789,
+          "after_area_mm2": 29.917637139247812,
+          "equivalent_radius_ratio": 0.944027570410796
+        },
+        {
+          "index": 5,
+          "arclength_mm": 3.457545719731495,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 33.436217502963984,
+          "after_area_mm2": 28.62476852444908,
+          "equivalent_radius_ratio": 0.9252570883314168
+        },
+        {
+          "index": 6,
+          "arclength_mm": 4.145805819718131,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 33.27569657024495,
+          "after_area_mm2": 27.57549515437946,
+          "equivalent_radius_ratio": 0.9103283793897854
+        },
+        {
+          "index": 7,
+          "arclength_mm": 4.833529559865373,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 33.09033201169213,
+          "after_area_mm2": 26.922892715557786,
+          "equivalent_radius_ratio": 0.9020078101653266
+        },
+        {
+          "index": 8,
+          "arclength_mm": 5.520923171584298,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 32.88153962048751,
+          "after_area_mm2": 26.637979089552623,
+          "equivalent_radius_ratio": 0.9000664312609106
+        },
+        {
+          "index": 9,
+          "arclength_mm": 6.208179037232643,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 32.65075377861653,
+          "after_area_mm2": 26.447228322232768,
+          "equivalent_radius_ratio": 0.9000020037213481
+        },
+        {
+          "index": 10,
+          "arclength_mm": 6.895475858087916,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 32.39941627248142,
+          "after_area_mm2": 26.243599959332414,
+          "equivalent_radius_ratio": 0.9000012479403846
+        },
+        {
+          "index": 11,
+          "arclength_mm": 7.582978859432646,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 32.12896603986373,
+          "after_area_mm2": 26.02449250890713,
+          "equivalent_radius_ratio": 0.9000005190298931
+        },
+        {
+          "index": 12,
+          "arclength_mm": 8.270840029283093,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 31.840829907904386,
+          "after_area_mm2": 25.791138411535947,
+          "equivalent_radius_ratio": 0.90000115480817
+        },
+        {
+          "index": 13,
+          "arclength_mm": 8.959198387288472,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 31.536022212064623,
+          "after_area_mm2": 25.54429526606087,
+          "equivalent_radius_ratio": 0.9000020659646705
+        },
+        {
+          "index": 14,
+          "arclength_mm": 9.648180280339528,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 31.21629545170491,
+          "after_area_mm2": 25.28539781791475,
+          "equivalent_radius_ratio": 0.9000035327283272
+        },
+        {
+          "index": 15,
+          "arclength_mm": 10.33789970152179,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 30.883467451327853,
+          "after_area_mm2": 25.01587895575826,
+          "equivalent_radius_ratio": 0.9000048627141305
+        },
+        {
+          "index": 16,
+          "arclength_mm": 11.028458629152368,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 30.538409685138916,
+          "after_area_mm2": 24.736375876159084,
+          "equivalent_radius_ratio": 0.900004803249684
+        },
+        {
+          "index": 17,
+          "arclength_mm": 11.719947382803348,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 30.18236372968122,
+          "after_area_mm2": 24.44800374577037,
+          "equivalent_radius_ratio": 0.9000053217957267
+        },
+        {
+          "index": 18,
+          "arclength_mm": 12.412444993381257,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 29.81655148993116,
+          "after_area_mm2": 24.15169140402901,
+          "equivalent_radius_ratio": 0.9000053045918671
+        },
+        {
+          "index": 19,
+          "arclength_mm": 13.106019584541293,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 29.442143675551662,
+          "after_area_mm2": 23.848387519647094,
+          "equivalent_radius_ratio": 0.900004738894616
+        },
+        {
+          "index": 20,
+          "arclength_mm": 13.800728762912673,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 29.06025619336097,
+          "after_area_mm2": 23.53906845764415,
+          "equivalent_radius_ratio": 0.9000049884912092
+        },
+        {
+          "index": 21,
+          "arclength_mm": 14.496620014832498,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 28.67195492491843,
+          "after_area_mm2": 23.224510156850563,
+          "equivalent_radius_ratio": 0.9000043919633152
+        },
+        {
+          "index": 22,
+          "arclength_mm": 15.193731107512468,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 28.278250857723545,
+          "after_area_mm2": 22.90557167732373,
+          "equivalent_radius_ratio": 0.9000037029278333
+        },
+        {
+          "index": 23,
+          "arclength_mm": 15.892090492767686,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 27.880100776758933,
+          "after_area_mm2": 22.58305250259445,
+          "equivalent_radius_ratio": 0.9000034049194732
+        },
+        {
+          "index": 24,
+          "arclength_mm": 16.591717711661847,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 27.478407815485706,
+          "after_area_mm2": 22.25768101808321,
+          "equivalent_radius_ratio": 0.9000034509360888
+        },
+        {
+          "index": 25,
+          "arclength_mm": 17.292623798625975,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 27.07402272051961,
+          "after_area_mm2": 21.93010677795996,
+          "equivalent_radius_ratio": 0.900003044617706
+        },
+        {
+          "index": 26,
+          "arclength_mm": 17.994811683805196,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 26.66774510105313,
+          "after_area_mm2": 21.600995587277204,
+          "equivalent_radius_ratio": 0.9000025427149143
+        },
+        {
+          "index": 27,
+          "arclength_mm": 18.69827659257626,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 26.260325243749456,
+          "after_area_mm2": 21.270969277796837,
+          "equivalent_radius_ratio": 0.9000022389125284
+        },
+        {
+          "index": 28,
+          "arclength_mm": 19.403006441351025,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 25.852464509280566,
+          "after_area_mm2": 20.940581399316496,
+          "equivalent_radius_ratio": 0.9000018297570528
+        },
+        {
+          "index": 29,
+          "arclength_mm": 20.108982228950783,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 25.444817875531747,
+          "after_area_mm2": 20.610370077718798,
+          "equivalent_radius_ratio": 0.9000014759277417
+        },
+        {
+          "index": 30,
+          "arclength_mm": 20.816178422976858,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 25.037995870474546,
+          "after_area_mm2": 20.28084047279977,
+          "equivalent_radius_ratio": 0.9000014160182236
+        },
+        {
+          "index": 31,
+          "arclength_mm": 21.524563340749467,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 24.632566434379147,
+          "after_area_mm2": 19.952432193054385,
+          "equivalent_radius_ratio": 0.9000012039430202
+        },
+        {
+          "index": 32,
+          "arclength_mm": 22.234099524506284,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 24.22905696749107,
+          "after_area_mm2": 19.625579476608067,
+          "equivalent_radius_ratio": 0.9000009935938682
+        },
+        {
+          "index": 33,
+          "arclength_mm": 22.9447441106705,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 23.827956203569343,
+          "after_area_mm2": 19.300679513589152,
+          "equivalent_radius_ratio": 0.9000008157710451
+        },
+        {
+          "index": 34,
+          "arclength_mm": 23.656449193093458,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 23.429716191018514,
+          "after_area_mm2": 18.97809825215677,
+          "equivalent_radius_ratio": 0.9000006671826761
+        },
+        {
+          "index": 35,
+          "arclength_mm": 24.369162180276696,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 23.034754256691095,
+          "after_area_mm2": 18.658173521860157,
+          "equivalent_radius_ratio": 0.9000005444414144
+        },
+        {
+          "index": 36,
+          "arclength_mm": 25.082826146651723,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 22.643454941543176,
+          "after_area_mm2": 18.34121935533353,
+          "equivalent_radius_ratio": 0.9000005116189617
+        },
+        {
+          "index": 37,
+          "arclength_mm": 25.797380178071073,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 22.25617189733983,
+          "after_area_mm2": 18.02751916740126,
+          "equivalent_radius_ratio": 0.9000004975037081
+        },
+        {
+          "index": 38,
+          "arclength_mm": 26.512759711729224,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 21.873229742800184,
+          "after_area_mm2": 17.717332753497747,
+          "equivalent_radius_ratio": 0.9000004231917249
+        },
+        {
+          "index": 39,
+          "arclength_mm": 27.228896870780993,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 21.494925833621373,
+          "after_area_mm2": 17.410903768416865,
+          "equivalent_radius_ratio": 0.9000003577893713
+        },
+        {
+          "index": 40,
+          "arclength_mm": 27.94572079398176,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 21.12153198459122,
+          "after_area_mm2": 17.108450967129112,
+          "equivalent_radius_ratio": 0.9000002645959361
+        },
+        {
+          "index": 41,
+          "arclength_mm": 28.663157960706496,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 20.753296123842972,
+          "after_area_mm2": 16.810178194844767,
+          "equivalent_radius_ratio": 0.900000223111304
+        },
+        {
+          "index": 42,
+          "arclength_mm": 29.381132511748287,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 20.390443874963346,
+          "after_area_mm2": 16.516266358153658,
+          "equivalent_radius_ratio": 0.9000001858014328
+        },
+        {
+          "index": 43,
+          "arclength_mm": 30.099566566319204,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 20.033180065610203,
+          "after_area_mm2": 16.226880245135277,
+          "equivalent_radius_ratio": 0.9000001217976793
+        },
+        {
+          "index": 44,
+          "arclength_mm": 30.81838053571214,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 19.681690161888895,
+          "after_area_mm2": 15.942172274550224,
+          "equivalent_radius_ratio": 0.900000091552098
+        },
+        {
+          "index": 45,
+          "arclength_mm": 31.537493434090067,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 19.336141624058595,
+          "after_area_mm2": 15.662276759702598,
+          "equivalent_radius_ratio": 0.900000058733281
+        },
+        {
+          "index": 46,
+          "arclength_mm": 32.25682318690347,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 18.996685194855782,
+          "after_area_mm2": 15.387315682007735,
+          "equivalent_radius_ratio": 0.9000000197161458
+        },
+        {
+          "index": 47,
+          "arclength_mm": 32.97628693742869,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 18.66345611452796,
+          "after_area_mm2": 15.117398950839805,
+          "equivalent_radius_ratio": 0.8999999850591014
+        },
+        {
+          "index": 48,
+          "arclength_mm": 33.69580135195798,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 18.336575307356547,
+          "after_area_mm2": 14.852624266343806,
+          "equivalent_radius_ratio": 0.8999999475057965
+        },
+        {
+          "index": 49,
+          "arclength_mm": 34.41528292414807,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 18.016150466885126,
+          "after_area_mm2": 14.59307870574786,
+          "equivalent_radius_ratio": 0.8999999021732914
+        },
+        {
+          "index": 50,
+          "arclength_mm": 35.13464827906559,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 17.70227700519778,
+          "after_area_mm2": 14.338839981302257,
+          "equivalent_radius_ratio": 0.8999998621361195
+        },
+        {
+          "index": 51,
+          "arclength_mm": 35.85381447745317,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 17.395039113806206,
+          "after_area_mm2": 14.0899757410069,
+          "equivalent_radius_ratio": 0.8999998102531571
+        },
+        {
+          "index": 52,
+          "arclength_mm": 36.57269932074463,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 17.09451060419083,
+          "after_area_mm2": 13.846545593812323,
+          "equivalent_radius_ratio": 0.8999997401510412
+        },
+        {
+          "index": 53,
+          "arclength_mm": 37.29122165735243,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 16.800755625352245,
+          "after_area_mm2": 13.608601700701499,
+          "equivalent_radius_ratio": 0.8999996575605149
+        },
+        {
+          "index": 54,
+          "arclength_mm": 38.00930169074413,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 16.513829556653324,
+          "after_area_mm2": 13.376189924571747,
+          "equivalent_radius_ratio": 0.8999995957489212
+        },
+        {
+          "index": 55,
+          "arclength_mm": 38.72686128981229,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 16.233779778864246,
+          "after_area_mm2": 13.149347103596114,
+          "equivalent_radius_ratio": 0.8999995031865607
+        },
+        {
+          "index": 56,
+          "arclength_mm": 39.44382430203495,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 15.960646220741367,
+          "after_area_mm2": 12.928109767751844,
+          "equivalent_radius_ratio": 0.8999995241402549
+        },
+        {
+          "index": 57,
+          "arclength_mm": 40.16011686989826,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 15.694462002556527,
+          "after_area_mm2": 12.712498130129433,
+          "equivalent_radius_ratio": 0.8999994303742144
+        },
+        {
+          "index": 58,
+          "arclength_mm": 40.875667751038996,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 15.43525414542914,
+          "after_area_mm2": 12.502540125220026,
+          "equivalent_radius_ratio": 0.8999994337428109
+        },
+        {
+          "index": 59,
+          "arclength_mm": 41.59040864253889,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 15.183044328323799,
+          "after_area_mm2": 12.298247044686427,
+          "equivalent_radius_ratio": 0.8999993098564909
+        },
+        {
+          "index": 60,
+          "arclength_mm": 42.304274509766394,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 14.937849177366427,
+          "after_area_mm2": 12.09963943549965,
+          "equivalent_radius_ratio": 0.8999993157510335
+        },
+        {
+          "index": 61,
+          "arclength_mm": 43.0172039201407,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 14.699680875572732,
+          "after_area_mm2": 11.906723127862886,
+          "equivalent_radius_ratio": 0.8999993053001825
+        },
+        {
+          "index": 62,
+          "arclength_mm": 43.72913938213146,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 14.468546170318891,
+          "after_area_mm2": 11.719504558625403,
+          "equivalent_radius_ratio": 0.8999993150145043
+        },
+        {
+          "index": 63,
+          "arclength_mm": 44.440027689784046,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 14.244449199560075,
+          "after_area_mm2": 11.537986294377234,
+          "equivalent_radius_ratio": 0.899999315239187
+        },
+        {
+          "index": 64,
+          "arclength_mm": 45.14982027298484,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 14.027391452097028,
+          "after_area_mm2": 11.362172214561392,
+          "equivalent_radius_ratio": 0.8999994114039065
+        },
+        {
+          "index": 65,
+          "arclength_mm": 45.8584735536326,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 13.817371872953725,
+          "after_area_mm2": 11.192061814632154,
+          "equivalent_radius_ratio": 0.8999996219548669
+        },
+        {
+          "index": 66,
+          "arclength_mm": 46.56594930780845,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 13.614386339306012,
+          "after_area_mm2": 11.027644683342256,
+          "equivalent_radius_ratio": 0.8999996632852209
+        },
+        {
+          "index": 67,
+          "arclength_mm": 47.27221503395124,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 13.41842862502031,
+          "after_area_mm2": 10.868925050829901,
+          "equivalent_radius_ratio": 0.8999999115877327
+        },
+        {
+          "index": 68,
+          "arclength_mm": 47.97724432696418,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 13.229492044635116,
+          "after_area_mm2": 10.715896708776036,
+          "equivalent_radius_ratio": 0.9000003423588254
+        },
+        {
+          "index": 69,
+          "arclength_mm": 48.6810172580735,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 13.047581516073947,
+          "after_area_mm2": 10.568564964227239,
+          "equivalent_radius_ratio": 0.9000010191839326
+        },
+        {
+          "index": 70,
+          "arclength_mm": 49.383520760145956,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 12.872707674374336,
+          "after_area_mm2": 10.426939829633643,
+          "equivalent_radius_ratio": 0.9000020117212112
+        },
+        {
+          "index": 71,
+          "arclength_mm": 50.08474901805603,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 12.704912120953221,
+          "after_area_mm2": 10.291073669993612,
+          "equivalent_radius_ratio": 0.9000041476434922
+        },
+        {
+          "index": 72,
+          "arclength_mm": 50.78470386354916,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 12.544084543261953,
+          "after_area_mm2": 10.160827657712684,
+          "equivalent_radius_ratio": 0.9000052781550197
+        },
+        {
+          "index": 73,
+          "arclength_mm": 51.48339517390573,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 12.390108732992022,
+          "after_area_mm2": 10.036103120130408,
+          "equivalent_radius_ratio": 0.9000051585089922
+        },
+        {
+          "index": 74,
+          "arclength_mm": 52.18084127354588,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 12.24305946460837,
+          "after_area_mm2": 9.916987492601244,
+          "equivalent_radius_ratio": 0.9000049609044696
+        },
+        {
+          "index": 75,
+          "arclength_mm": 52.877069337543446,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 12.102920321285726,
+          "after_area_mm2": 9.803468815490401,
+          "equivalent_radius_ratio": 0.9000047442625327
+        },
+        {
+          "index": 76,
+          "arclength_mm": 53.572115795831984,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 11.969674352569204,
+          "after_area_mm2": 9.695533479973223,
+          "equivalent_radius_ratio": 0.9000045139141456
+        },
+        {
+          "index": 77,
+          "arclength_mm": 54.266026736689426,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 11.843304711048269,
+          "after_area_mm2": 9.593167971051894,
+          "equivalent_radius_ratio": 0.9000042759689724
+        },
+        {
+          "index": 78,
+          "arclength_mm": 54.95885830788295,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 11.723794873483925,
+          "after_area_mm2": 9.496359046604166,
+          "equivalent_radius_ratio": 0.9000040373204907
+        },
+        {
+          "index": 79,
+          "arclength_mm": 55.650677113647134,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 11.61112887012969,
+          "after_area_mm2": 9.405093922914165,
+          "equivalent_radius_ratio": 0.9000038056372872
+        },
+        {
+          "index": 80,
+          "arclength_mm": 56.34156060543887,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 11.50529152571995,
+          "after_area_mm2": 9.319360469468728,
+          "equivalent_radius_ratio": 0.9000035893381548
+        },
+        {
+          "index": 81,
+          "arclength_mm": 57.03159746421017,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 11.406268715716218,
+          "after_area_mm2": 9.239147415896861,
+          "equivalent_radius_ratio": 0.9000033975486441
+        },
+        {
+          "index": 82,
+          "arclength_mm": 57.720887971710184,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 11.314047641477526,
+          "after_area_mm2": 9.16444457399184,
+          "equivalent_radius_ratio": 0.9000032400368484
+        },
+        {
+          "index": 83,
+          "arclength_mm": 58.4095443681215,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 11.228617128034141,
+          "after_area_mm2": 9.09524307776742,
+          "equivalent_radius_ratio": 0.9000031271264424
+        },
+        {
+          "index": 84,
+          "arclength_mm": 59.09769119313908,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 11.149967948071165,
+          "after_area_mm2": 9.031535644442911,
+          "equivalent_radius_ratio": 0.9000030695853167
+        },
+        {
+          "index": 85,
+          "arclength_mm": 59.78546560742078,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 11.078093175564089,
+          "after_area_mm2": 8.973316859124978,
+          "equivalent_radius_ratio": 0.9000030784887348
+        },
+        {
+          "index": 86,
+          "arclength_mm": 60.473017691177645,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 11.012988572220928,
+          "after_area_mm2": 8.920583485726631,
+          "equivalent_radius_ratio": 0.9000031650565725
+        },
+        {
+          "index": 87,
+          "arclength_mm": 61.160510716558576,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 10.9546530094674,
+          "after_area_mm2": 8.874078659159874,
+          "equivalent_radius_ratio": 0.9000410633737522
+        },
+        {
+          "index": 88,
+          "arclength_mm": 61.8481213903871,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 10.903088928146738,
+          "after_area_mm2": 8.858467258624891,
+          "equivalent_radius_ratio": 0.9013729378860796
+        },
+        {
+          "index": 89,
+          "arclength_mm": 62.53604006378442,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 10.85830283738791,
+          "after_area_mm2": 8.978869052113819,
+          "equivalent_radius_ratio": 0.9093474304746295
+        },
+        {
+          "index": 90,
+          "arclength_mm": 63.224470905213934,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 10.820305853583216,
+          "after_area_mm2": 9.24265429589401,
+          "equivalent_radius_ratio": 0.9242268606488884
+        },
+        {
+          "index": 91,
+          "arclength_mm": 63.91363203357613,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 10.789114276511931,
+          "after_area_mm2": 9.59802571747732,
+          "equivalent_radius_ratio": 0.9431875469903539
+        },
+        {
+          "index": 92,
+          "arclength_mm": 64.6037556081123,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 10.764750208591138,
+          "after_area_mm2": 9.988147333169334,
+          "equivalent_radius_ratio": 0.963253269162348
+        },
+        {
+          "index": 93,
+          "arclength_mm": 65.2950878721009,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 10.747242201849826,
+          "after_area_mm2": 10.351829803180557,
+          "equivalent_radius_ratio": 0.9814316138649701
+        },
+        {
+          "index": 94,
+          "arclength_mm": 65.98788914761899,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 10.73662594072282,
+          "after_area_mm2": 10.62315064165466,
+          "equivalent_radius_ratio": 0.9947014674566541
+        }
+      ],
+      "measured_pairs": 94,
+      "total_pairs": 94,
+      "central_measured": 66,
+      "central_ratio_range": [
+        0.8999993053001825,
+        0.9000053217957267
+      ],
+      "central_max_absolute_scale_error": 5.321795726653811e-06
+    },
+    {
+      "part_id": "estimated_right_carotid_neck",
+      "input_sha256": "626742a716bc38a5e8f83e2eba5c1d63bcc0933f8d8f368725d149687bcd0ee0",
+      "output_sha256": "7565484ec4434f94ac09660177519bd3679def409785e64dbf2e03df17216fa3",
+      "requested_scale": 0.9,
+      "sections": [
+        {
+          "index": 1,
+          "arclength_mm": 0.7054297183777325,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 46.96556651043879,
+          "after_area_mm2": 46.452813516216054,
+          "equivalent_radius_ratio": 0.9945262003913339
+        },
+        {
+          "index": 2,
+          "arclength_mm": 1.4088453680649835,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 46.88742961833037,
+          "after_area_mm2": 45.15389465327695,
+          "equivalent_radius_ratio": 0.9813397599740988
+        },
+        {
+          "index": 3,
+          "arclength_mm": 2.110571566342677,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 46.76020220325043,
+          "after_area_mm2": 43.39953652969696,
+          "equivalent_radius_ratio": 0.9633949280540566
+        },
+        {
+          "index": 4,
+          "arclength_mm": 2.8109163847120513,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 46.58589156855924,
+          "after_area_mm2": 41.47983626515124,
+          "equivalent_radius_ratio": 0.9436073410847158
+        },
+        {
+          "index": 5,
+          "arclength_mm": 3.510171215214155,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 46.366639619540706,
+          "after_area_mm2": 39.6615445174598,
+          "equivalent_radius_ratio": 0.9248727853138528
+        },
+        {
+          "index": 6,
+          "arclength_mm": 4.208610706991592,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 46.1046968069229,
+          "after_area_mm2": 38.18652378499426,
+          "equivalent_radius_ratio": 0.9100860918873485
+        },
+        {
+          "index": 7,
+          "arclength_mm": 4.906492770244273,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 45.80239669748701,
+          "after_area_mm2": 37.26709680755123,
+          "equivalent_radius_ratio": 0.9020252169697411
+        },
+        {
+          "index": 8,
+          "arclength_mm": 5.604058644108992,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 45.46213159300196,
+          "after_area_mm2": 36.82673027102098,
+          "equivalent_radius_ratio": 0.9000293729379428
+        },
+        {
+          "index": 9,
+          "arclength_mm": 6.301533024469318,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 45.08632954505087,
+          "after_area_mm2": 36.51984397848007,
+          "equivalent_radius_ratio": 0.8999989778490992
+        },
+        {
+          "index": 10,
+          "arclength_mm": 6.9991242473190365,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 44.677294150604126,
+          "after_area_mm2": 36.18892329285613,
+          "equivalent_radius_ratio": 0.9000039173537847
+        },
+        {
+          "index": 11,
+          "arclength_mm": 7.697024523022286,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 44.23746699903789,
+          "after_area_mm2": 35.8329891420866,
+          "equivalent_radius_ratio": 0.9000080483561391
+        },
+        {
+          "index": 12,
+          "arclength_mm": 8.395410216648234,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 43.76944974555403,
+          "after_area_mm2": 35.454000275862924,
+          "equivalent_radius_ratio": 0.9000094685276353
+        },
+        {
+          "index": 13,
+          "arclength_mm": 9.094442169487868,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 43.27553455732106,
+          "after_area_mm2": 35.053898946703825,
+          "equivalent_radius_ratio": 0.9000091911261859
+        },
+        {
+          "index": 14,
+          "arclength_mm": 9.79426605689743,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 42.75808333391061,
+          "after_area_mm2": 34.63469658883916,
+          "equivalent_radius_ratio": 0.90000843356234
+        },
+        {
+          "index": 15,
+          "arclength_mm": 10.495012777692775,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 42.21941341740629,
+          "after_area_mm2": 34.198238914734986,
+          "equivalent_radius_ratio": 0.9000067641960912
+        },
+        {
+          "index": 16,
+          "arclength_mm": 11.196798870510642,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 41.66173452576075,
+          "after_area_mm2": 33.74640550430049,
+          "equivalent_radius_ratio": 0.900005341128847
+        },
+        {
+          "index": 17,
+          "arclength_mm": 11.8997269527502,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 41.087152088864464,
+          "after_area_mm2": 33.28093521271801,
+          "equivalent_radius_ratio": 0.9000046245851357
+        },
+        {
+          "index": 18,
+          "arclength_mm": 12.603886177984084,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 40.49768232169682,
+          "after_area_mm2": 32.803359303140425,
+          "equivalent_radius_ratio": 0.9000032460312914
+        },
+        {
+          "index": 19,
+          "arclength_mm": 13.30935270801014,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 39.895253959812635,
+          "after_area_mm2": 32.31529644191165,
+          "equivalent_radius_ratio": 0.9000019597751643
+        },
+        {
+          "index": 20,
+          "arclength_mm": 14.016190196026407,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 39.28170482955207,
+          "after_area_mm2": 31.818247406911325,
+          "equivalent_radius_ratio": 0.9000009404284557
+        },
+        {
+          "index": 21,
+          "arclength_mm": 14.724450277739654,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 38.65877788324238,
+          "after_area_mm2": 31.31363461451705,
+          "equivalent_radius_ratio": 0.9000003525013127
+        },
+        {
+          "index": 22,
+          "arclength_mm": 15.434173067528954,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 38.02811880870341,
+          "after_area_mm2": 30.80273081398871,
+          "equivalent_radius_ratio": 0.8999993364401685
+        },
+        {
+          "index": 23,
+          "arclength_mm": 16.145387657121187,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 37.391280951630534,
+          "after_area_mm2": 30.286838609698684,
+          "equivalent_radius_ratio": 0.8999985296452903
+        },
+        {
+          "index": 24,
+          "arclength_mm": 16.85811261453952,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 36.74972494807627,
+          "after_area_mm2": 29.76713245234437,
+          "equivalent_radius_ratio": 0.8999978116877279
+        },
+        {
+          "index": 25,
+          "arclength_mm": 17.572356481387008,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 36.10482071127207,
+          "after_area_mm2": 29.244720432322993,
+          "equivalent_radius_ratio": 0.8999971634428396
+        },
+        {
+          "index": 26,
+          "arclength_mm": 18.288118266819804,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 35.45784887326193,
+          "after_area_mm2": 28.720643267042963,
+          "equivalent_radius_ratio": 0.8999966420113233
+        },
+        {
+          "index": 27,
+          "arclength_mm": 19.005387936823432,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 34.81000429683684,
+          "after_area_mm2": 28.1958766418433,
+          "equivalent_radius_ratio": 0.8999963797276841
+        },
+        {
+          "index": 28,
+          "arclength_mm": 19.7241468976586,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 34.1623992096379,
+          "after_area_mm2": 27.671303174510047,
+          "equivalent_radius_ratio": 0.8999960940516897
+        },
+        {
+          "index": 29,
+          "arclength_mm": 20.444368472576254,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 33.516066530836255,
+          "after_area_mm2": 27.14777852377106,
+          "equivalent_radius_ratio": 0.8999960986088033
+        },
+        {
+          "index": 30,
+          "arclength_mm": 21.166018371103334,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 32.871963282764305,
+          "after_area_mm2": 26.626058653414496,
+          "equivalent_radius_ratio": 0.8999960857199146
+        },
+        {
+          "index": 31,
+          "arclength_mm": 21.889055150397272,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 32.23097442016791,
+          "after_area_mm2": 26.10686652933438,
+          "equivalent_radius_ratio": 0.8999961605001816
+        },
+        {
+          "index": 32,
+          "arclength_mm": 22.613430668335102,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 31.593916782270536,
+          "after_area_mm2": 25.59088543815048,
+          "equivalent_radius_ratio": 0.8999967090037524
+        },
+        {
+          "index": 33,
+          "arclength_mm": 23.339090528159346,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 30.961553860592083,
+          "after_area_mm2": 25.078690290200328,
+          "equivalent_radius_ratio": 0.8999969794589177
+        },
+        {
+          "index": 34,
+          "arclength_mm": 24.06597451463784,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 30.334559011460872,
+          "after_area_mm2": 24.57083957789696,
+          "equivalent_radius_ratio": 0.8999971938565157
+        },
+        {
+          "index": 35,
+          "arclength_mm": 24.794017021810845,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 29.713562409362495,
+          "after_area_mm2": 24.067843675120407,
+          "equivalent_radius_ratio": 0.8999973473267051
+        },
+        {
+          "index": 36,
+          "arclength_mm": 25.523147472514808,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 29.099142251871093,
+          "after_area_mm2": 23.570175402829854,
+          "equivalent_radius_ratio": 0.8999975214740129
+        },
+        {
+          "index": 37,
+          "arclength_mm": 26.253290729955808,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 28.49182709964755,
+          "after_area_mm2": 23.078259060542514,
+          "equivalent_radius_ratio": 0.8999976427873726
+        },
+        {
+          "index": 38,
+          "arclength_mm": 26.9843675016868,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 27.892098492328657,
+          "after_area_mm2": 22.592492188017538,
+          "equivalent_radius_ratio": 0.8999978570016723
+        },
+        {
+          "index": 39,
+          "arclength_mm": 27.716294736423077,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 27.30039363408527,
+          "after_area_mm2": 22.11321542438943,
+          "equivalent_radius_ratio": 0.8999978954446602
+        },
+        {
+          "index": 40,
+          "arclength_mm": 28.448986014167676,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 26.717112652003216,
+          "after_area_mm2": 21.64076532666509,
+          "equivalent_radius_ratio": 0.8999980054073071
+        },
+        {
+          "index": 41,
+          "arclength_mm": 29.18235193019903,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 26.142603768707808,
+          "after_area_mm2": 21.175428747597756,
+          "equivalent_radius_ratio": 0.8999982934384635
+        },
+        {
+          "index": 42,
+          "arclength_mm": 29.91630047348722,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 25.577184919903637,
+          "after_area_mm2": 20.717454870630004,
+          "equivalent_radius_ratio": 0.8999985900076571
+        },
+        {
+          "index": 43,
+          "arclength_mm": 30.650737400163315,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 25.021141461942726,
+          "after_area_mm2": 20.26707446945104,
+          "equivalent_radius_ratio": 0.8999988872797915
+        },
+        {
+          "index": 44,
+          "arclength_mm": 31.385566602682985,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 24.4747278948605,
+          "after_area_mm2": 19.82449350520211,
+          "equivalent_radius_ratio": 0.8999991807955383
+        },
+        {
+          "index": 45,
+          "arclength_mm": 32.12069047535341,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 23.938170062620266,
+          "after_area_mm2": 19.38989308971802,
+          "equivalent_radius_ratio": 0.8999994276687684
+        },
+        {
+          "index": 46,
+          "arclength_mm": 32.856010276920244,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 23.411667341374436,
+          "after_area_mm2": 18.963436994913245,
+          "equivalent_radius_ratio": 0.8999996784223898
+        },
+        {
+          "index": 47,
+          "arclength_mm": 33.59142649091074,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 22.895394676171765,
+          "after_area_mm2": 18.545265386269527,
+          "equivalent_radius_ratio": 0.8999998956260293
+        },
+        {
+          "index": 48,
+          "arclength_mm": 34.326839184455295,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 22.38950447723566,
+          "after_area_mm2": 18.135501975391904,
+          "equivalent_radius_ratio": 0.9000000830952554
+        },
+        {
+          "index": 49,
+          "arclength_mm": 35.06214836631225,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 21.894128437678447,
+          "after_area_mm2": 17.73425346635306,
+          "equivalent_radius_ratio": 0.9000002393293174
+        },
+        {
+          "index": 50,
+          "arclength_mm": 35.79725434481714,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 21.40937919955426,
+          "after_area_mm2": 17.341610391544087,
+          "equivalent_radius_ratio": 0.9000003435644435
+        },
+        {
+          "index": 51,
+          "arclength_mm": 36.5320580864957,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 20.935351942548444,
+          "after_area_mm2": 16.95765025571663,
+          "equivalent_radius_ratio": 0.9000004028870782
+        },
+        {
+          "index": 52,
+          "arclength_mm": 37.26646157605782,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 20.47212583865673,
+          "after_area_mm2": 16.582437243042254,
+          "equivalent_radius_ratio": 0.9000004155712038
+        },
+        {
+          "index": 53,
+          "arclength_mm": 38.00036817849916,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 20.019765418461603,
+          "after_area_mm2": 16.216024807812293,
+          "equivalent_radius_ratio": 0.9000004112284561
+        },
+        {
+          "index": 54,
+          "arclength_mm": 38.73368300402009,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 19.578321849907518,
+          "after_area_mm2": 15.858458531276067,
+          "equivalent_radius_ratio": 0.9000005060258343
+        },
+        {
+          "index": 55,
+          "arclength_mm": 39.466313276456916,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 19.147834097601212,
+          "after_area_mm2": 15.509760834486084,
+          "equivalent_radius_ratio": 0.9000004414605878
+        },
+        {
+          "index": 56,
+          "arclength_mm": 40.19816870590787,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 18.72833012282446,
+          "after_area_mm2": 15.169959353332798,
+          "equivalent_radius_ratio": 0.9000003545977479
+        },
+        {
+          "index": 57,
+          "arclength_mm": 40.929161866212176,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 18.31982818677216,
+          "after_area_mm2": 14.839066336196293,
+          "equivalent_radius_ratio": 0.9000001669384389
+        },
+        {
+          "index": 58,
+          "arclength_mm": 41.65920857790876,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 17.922337396346595,
+          "after_area_mm2": 14.517093778992605,
+          "equivalent_radius_ratio": 0.9000000151255029
+        },
+        {
+          "index": 59,
+          "arclength_mm": 42.388228297275056,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 17.53585882899374,
+          "after_area_mm2": 14.204038131406424,
+          "equivalent_radius_ratio": 0.8999997617554986
+        },
+        {
+          "index": 60,
+          "arclength_mm": 43.116144511993895,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 17.160386256124696,
+          "after_area_mm2": 13.899900131166586,
+          "equivalent_radius_ratio": 0.8999995876712426
+        },
+        {
+          "index": 61,
+          "arclength_mm": 43.84288514396741,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 16.79590679260764,
+          "after_area_mm2": 13.604671093135924,
+          "equivalent_radius_ratio": 0.8999995564766089
+        },
+        {
+          "index": 62,
+          "arclength_mm": 44.56838295971884,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 16.442401350678633,
+          "after_area_mm2": 13.318326330711383,
+          "equivalent_radius_ratio": 0.8999993660244457
+        },
+        {
+          "index": 63,
+          "arclength_mm": 45.29257598877247,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 16.099846157621677,
+          "after_area_mm2": 13.040849745444877,
+          "equivalent_radius_ratio": 0.8999991151661039
+        },
+        {
+          "index": 64,
+          "arclength_mm": 46.01540795032043,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 15.768212304681914,
+          "after_area_mm2": 12.772225289092296,
+          "equivalent_radius_ratio": 0.899999060074032
+        },
+        {
+          "index": 65,
+          "arclength_mm": 46.73682868839088,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 15.447468602980695,
+          "after_area_mm2": 12.51241829948642,
+          "equivalent_radius_ratio": 0.8999988754379158
+        },
+        {
+          "index": 66,
+          "arclength_mm": 47.45679461564085,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 15.137582039413822,
+          "after_area_mm2": 12.261409015528198,
+          "equivalent_radius_ratio": 0.8999988095699547
+        },
+        {
+          "index": 67,
+          "arclength_mm": 48.175269165772995,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 14.838519367646196,
+          "after_area_mm2": 12.019167806989522,
+          "equivalent_radius_ratio": 0.8999987689387791
+        },
+        {
+          "index": 68,
+          "arclength_mm": 48.89222325444215,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 14.550242788114067,
+          "after_area_mm2": 11.785671643198745,
+          "equivalent_radius_ratio": 0.8999990448732526
+        },
+        {
+          "index": 69,
+          "arclength_mm": 49.60763574837831,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 14.272716271477794,
+          "after_area_mm2": 11.560879476535133,
+          "equivalent_radius_ratio": 0.8999991941356753
+        },
+        {
+          "index": 70,
+          "arclength_mm": 50.32149394227288,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 14.00590312623774,
+          "after_area_mm2": 11.34477102736012,
+          "equivalent_radius_ratio": 0.8999995833147881
+        },
+        {
+          "index": 71,
+          "arclength_mm": 51.03379404280134,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 13.749771143189022,
+          "after_area_mm2": 11.137314981037939,
+          "equivalent_radius_ratio": 0.9000000143458886
+        },
+        {
+          "index": 72,
+          "arclength_mm": 51.744541658942246,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 13.504282751292022,
+          "after_area_mm2": 10.938494725023805,
+          "equivalent_radius_ratio": 0.9000010571322138
+        },
+        {
+          "index": 73,
+          "arclength_mm": 52.453752297526876,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 13.269449471778703,
+          "after_area_mm2": 10.74833637379043,
+          "equivalent_radius_ratio": 0.9000034457383691
+        },
+        {
+          "index": 74,
+          "arclength_mm": 53.16145186271821,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 13.045389799653517,
+          "after_area_mm2": 10.566942404897043,
+          "equivalent_radius_ratio": 0.9000075235790823
+        },
+        {
+          "index": 75,
+          "arclength_mm": 53.867677157832816,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 12.831734550705818,
+          "after_area_mm2": 10.39392203325378,
+          "equivalent_radius_ratio": 0.9000093971035507
+        },
+        {
+          "index": 76,
+          "arclength_mm": 54.57247638766171,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 12.628357904664767,
+          "after_area_mm2": 10.22916938458955,
+          "equivalent_radius_ratio": 0.900008775700603
+        },
+        {
+          "index": 77,
+          "arclength_mm": 55.27590965912133,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 12.435403921237944,
+          "after_area_mm2": 10.072857435997532,
+          "equivalent_radius_ratio": 0.9000080531266244
+        },
+        {
+          "index": 78,
+          "arclength_mm": 55.97804947776523,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 12.252841522076054,
+          "after_area_mm2": 9.924963040421371,
+          "equivalent_radius_ratio": 0.9000073183424994
+        },
+        {
+          "index": 79,
+          "arclength_mm": 56.67898123736658,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 12.080641642608057,
+          "after_area_mm2": 9.785462937316009,
+          "equivalent_radius_ratio": 0.9000065856637868
+        },
+        {
+          "index": 80,
+          "arclength_mm": 57.378803699432744,
+          "central_region": true,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 11.918778844833211,
+          "after_area_mm2": 9.654336815395926,
+          "equivalent_radius_ratio": 0.9000058707855463
+        },
+        {
+          "index": 81,
+          "arclength_mm": 58.07762945921083,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 11.76723179916762,
+          "after_area_mm2": 9.531567703063581,
+          "equivalent_radius_ratio": 0.9000051907526213
+        },
+        {
+          "index": 82,
+          "arclength_mm": 58.77558539440266,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 11.625983785345497,
+          "after_area_mm2": 9.417142374070696,
+          "equivalent_radius_ratio": 0.9000045639004477
+        },
+        {
+          "index": 83,
+          "arclength_mm": 59.47281309251343,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 11.495023216025832,
+          "after_area_mm2": 9.311051771326806,
+          "equivalent_radius_ratio": 0.9000040097623847
+        },
+        {
+          "index": 84,
+          "arclength_mm": 60.169469252479686,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 11.374344186652454,
+          "after_area_mm2": 9.213291451687164,
+          "equivalent_radius_ratio": 0.9000035489399175
+        },
+        {
+          "index": 85,
+          "arclength_mm": 60.86572605598452,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 11.263947054909732,
+          "after_area_mm2": 9.123862054388095,
+          "equivalent_radius_ratio": 0.9000032029326912
+        },
+        {
+          "index": 86,
+          "arclength_mm": 61.561771503679594,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 11.163839052784756,
+          "after_area_mm2": 9.042769795458996,
+          "equivalent_radius_ratio": 0.9000029939224606
+        },
+        {
+          "index": 87,
+          "arclength_mm": 62.257809711400824,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 11.074034933792982,
+          "after_area_mm2": 8.970320500156573,
+          "equivalent_radius_ratio": 0.9000176689751764
+        },
+        {
+          "index": 88,
+          "arclength_mm": 62.954061161423994,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 10.994557657189329,
+          "after_area_mm2": 8.927649545351013,
+          "equivalent_radius_ratio": 0.9011138946141615
+        },
+        {
+          "index": 89,
+          "arclength_mm": 63.65076290382871,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 10.925439110272858,
+          "after_area_mm2": 9.0175240217776,
+          "equivalent_radius_ratio": 0.9084984767449901
+        },
+        {
+          "index": 90,
+          "arclength_mm": 64.34816870318666,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 10.866720869109635,
+          "after_area_mm2": 9.259990793144402,
+          "equivalent_radius_ratio": 0.9231154540796103
+        },
+        {
+          "index": 91,
+          "arclength_mm": 65.0465491260241,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 10.818454895688271,
+          "after_area_mm2": 9.602357957887854,
+          "equivalent_radius_ratio": 0.9421202234907204
+        },
+        {
+          "index": 92,
+          "arclength_mm": 65.74619156487562,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 10.78070480768825,
+          "after_area_mm2": 9.985941621987589,
+          "equivalent_radius_ratio": 0.962433949416757
+        },
+        {
+          "index": 93,
+          "arclength_mm": 66.44740019522379,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 10.753546030243301,
+          "after_area_mm2": 10.347847568312865,
+          "equivalent_radius_ratio": 0.980955173760231
+        },
+        {
+          "index": 94,
+          "arclength_mm": 67.15049586222749,
+          "central_region": false,
+          "before_status": "MEASURED",
+          "after_status": "MEASURED",
+          "before_area_mm2": 10.737067202990964,
+          "after_area_mm2": 10.620199601025364,
+          "equivalent_radius_ratio": 0.9945428600916658
+        }
+      ],
+      "measured_pairs": 94,
+      "total_pairs": 94,
+      "central_measured": 66,
+      "central_ratio_range": [
+        0.8999960857199146,
+        0.9000093971035507
+      ],
+      "central_max_absolute_scale_error": 9.397103550634611e-06
+    }
+  ],
+  "central_region_definition": "At least twice the declared transition length from both polyline ends",
+  "scope": "Matched interior chord-normal sections; area-equivalent radius only",
+  "acceptance_threshold": "NOT SET",
+  "continuous_interval_radius_bound": "NOT RUN",
+  "anatomical_validation": "NOT RUN",
+  "live_scene_changed": false
+}

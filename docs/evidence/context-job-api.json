@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "Live HTTP submit/status/error/result boundaries; no successful full-context job",
+  "invalid_snapshot": 400,
+  "submit": 202,
+  "unsupported_parent": "ERROR",
+  "failed_result": 409,
+  "unknown_job": 404,
+  "atlas_unchanged": true,
+  "job_id": "20ad23a533bb492f9051e00df0d89609",
+  "input_and_error_persisted": true
+}

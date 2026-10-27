@@ -1,0 +1,689 @@
+{
+  "schema": "vv-toolbox.surface-context/1",
+  "parent_edge_id": "FJ1692:e0",
+  "context_edge_count": 1080,
+  "aabb_separated_count": 1064,
+  "used_vertex_count": 26582,
+  "unused_vertex_count": 749,
+  "results": [
+    {
+      "edge_id": "FJ1654:e0",
+      "status": "PROFILE_INTERIOR_WITNESS",
+      "lower_bound_mm": -0.3290625460057948,
+      "witness": {
+        "vertex_index": 143,
+        "position_mm": [
+          -13.60793269439258,
+          -111.32591243382427,
+          1537.1258749050323
+        ],
+        "profile_field_mm": -0.043368833927370565
+      },
+      "overlap_vertices": {
+        "vertex_count": 17,
+        "bounds_mm": [
+          [
+            -13.822069899556903,
+            -111.74062964313273,
+            1537.003001315369
+          ],
+          [
+            -13.517759340476054,
+            -111.16935145250326,
+            1537.4107799268745
+          ]
+        ],
+        "baseline_parent_status": "MEASURED",
+        "baseline_inside_count": 7,
+        "baseline_surface_band_count": 0,
+        "baseline_outside_count": 10,
+        "baseline_field_range_mm": [
+          -0.027486641049486282,
+          0.03397781995887872
+        ],
+        "farthest_outside_vertex_index": 54,
+        "farthest_outside_position_mm": [
+          -13.637685433913138,
+          -111.74062964313273,
+          1537.3442615127885
+        ]
+      },
+      "interior_samples": 0,
+      "reason": "bound overlaps; not an original atlas mesh collision verdict"
+    },
+    {
+      "edge_id": "FJ1658:e0",
+      "status": "SEPARATED_PROFILE",
+      "lower_bound_mm": 3.0180342020220836
+    },
+    {
+      "edge_id": "FJ1660:e0",
+      "status": "PROFILE_INTERIOR_WITNESS",
+      "lower_bound_mm": -1.5871854095645932,
+      "witness": {
+        "vertex_index": 7901,
+        "position_mm": [
+          -39.5704063270742,
+          -107.51126151025157,
+          1546.1385529766526
+        ],
+        "profile_field_mm": -1.2260241045475289
+      },
+      "overlap_vertices": {
+        "vertex_count": 646,
+        "bounds_mm": [
+          [
+            -41.04666170095254,
+            -108.74441522269262,
+            1544.4226815002519
+          ],
+          [
+            -37.54830064073394,
+            -106.2891602463965,
+            1547.319918691863
+          ]
+        ],
+        "baseline_parent_status": "MEASURED",
+        "baseline_inside_count": 370,
+        "baseline_surface_band_count": 0,
+        "baseline_outside_count": 276,
+        "baseline_field_range_mm": [
+          -0.050031879821873924,
+          0.059298799874892394
+        ],
+        "farthest_outside_vertex_index": 5795,
+        "farthest_outside_position_mm": [
+          -38.631757402709276,
+          -106.37478223171028,
+          1546.304032559014
+        ]
+      },
+      "interior_samples": 0,
+      "reason": "bound overlaps; not an original atlas mesh collision verdict"
+    },
+    {
+      "edge_id": "FJ1662:e0",
+      "status": "SEPARATED_PROFILE",
+      "lower_bound_mm": 1.9243101466816632
+    },
+    {
+      "edge_id": "FJ1662:e5",
+      "status": "SEPARATED_PROFILE",
+      "lower_bound_mm": 10.712086521973017
+    },
+    {
+      "edge_id": "FJ1662:e8",
+      "status": "SEPARATED_PROFILE",
+      "lower_bound_mm": 1.256151900580703
+    },
+    {
+      "edge_id": "FJ1662:e9",
+      "status": "SEPARATED_PROFILE",
+      "lower_bound_mm": 11.525200699421465
+    },
+    {
+      "edge_id": "FJ1662:e12",
+      "status": "UNKNOWN",
+      "lower_bound_mm": -0.024467260437187804,
+      "witness": null,
+      "overlap_vertices": null,
+      "interior_samples": 255,
+      "reason": "bound overlaps; not an original atlas mesh collision verdict"
+    },
+    {
+      "edge_id": "FJ1662:e13",
+      "status": "SEPARATED_PROFILE",
+      "lower_bound_mm": 1.3198792982194982
+    },
+    {
+      "edge_id": "FJ1663:e1",
+      "status": "SEPARATED_PROFILE",
+      "lower_bound_mm": 2.488616105978564
+    },
+    {
+      "edge_id": "FJ1682:e0",
+      "status": "PROFILE_INTERIOR_WITNESS",
+      "lower_bound_mm": -1.9273247411537244,
+      "witness": {
+        "vertex_index": 978,
+        "position_mm": [
+          -13.538609450395597,
+          -111.06579888437099,
+          1536.0517594449204
+        ],
+        "profile_field_mm": -1.8229954734035565
+      },
+      "overlap_vertices": {
+        "vertex_count": 1378,
+        "bounds_mm": [
+          [
+            -16.18243230483416,
+            -113.82044982571448,
+            1534.6187202725425
+          ],
+          [
+            -13.299267584515327,
+            -110.2187994466839,
+            1537.964921437146
+          ]
+        ],
+        "baseline_parent_status": "MEASURED",
+        "baseline_inside_count": 635,
+        "baseline_surface_band_count": 0,
+        "baseline_outside_count": 743,
+        "baseline_field_range_mm": [
+          -0.05456334837877108,
+          0.046229249883633416
+        ],
+        "farthest_outside_vertex_index": 427,
+        "farthest_outside_position_mm": [
+          -13.339205090355282,
+          -112.10985806401125,
+          1536.7446711014816
+        ]
+      },
+      "interior_samples": 0,
+      "reason": "bound overlaps; not an original atlas mesh collision verdict"
+    },
+    {
+      "edge_id": "FJ1685:e0",
+      "status": "SEPARATED_PROFILE",
+      "lower_bound_mm": 9.679265255867898
+    },
+    {
+      "edge_id": "FJ1694:e0",
+      "status": "PROFILE_INTERIOR_WITNESS",
+      "lower_bound_mm": -1.6900082643328425,
+      "witness": {
+        "vertex_index": 4857,
+        "position_mm": [
+          -43.34007072601581,
+          -103.53837283874269,
+          1548.7755981947612
+        ],
+        "profile_field_mm": -1.491625329181221
+      },
+      "overlap_vertices": {
+        "vertex_count": 547,
+        "bounds_mm": [
+          [
+            -44.075109776362915,
+            -105.03792705900999,
+            1547.0988213259043
+          ],
+          [
+            -41.776845244407355,
+            -103.09685527425499,
+            1549.6085642606718
+          ]
+        ],
+        "baseline_parent_status": "MEASURED",
+        "baseline_inside_count": 197,
+        "baseline_surface_band_count": 0,
+        "baseline_outside_count": 350,
+        "baseline_field_range_mm": [
+          -0.04873519880770316,
+          0.04270574477596001
+        ],
+        "farthest_outside_vertex_index": 8566,
+        "farthest_outside_position_mm": [
+          -43.5762450861627,
+          -103.5469968756193,
+          1547.6265590290009
+        ]
+      },
+      "interior_samples": 0,
+      "reason": "bound overlaps; not an original atlas mesh collision verdict"
+    },
+    {
+      "edge_id": "FJ1695:e0",
+      "status": "SEPARATED_PROFILE",
+      "lower_bound_mm": 2.889560255542401
+    },
+    {
+      "edge_id": "FJ1712:e0",
+      "status": "SEPARATED_PROFILE",
+      "lower_bound_mm": 2.833229226850921
+    },
+    {
+      "edge_id": "FJ1718:e0",
+      "status": "PROFILE_INTERIOR_WITNESS",
+      "lower_bound_mm": -1.1083590463066872,
+      "witness": {
+        "vertex_index": 10733,
+        "position_mm": [
+          -43.6849778799759,
+          -104.70446477850045,
+          1547.1012654294964
+        ],
+        "profile_field_mm": -0.9138092986211357
+      },
+      "overlap_vertices": {
+        "vertex_count": 468,
+        "bounds_mm": [
+          [
+            -44.075109776362915,
+            -106.2352815456965,
+            1545.7375099246658
+          ],
+          [
+            -42.058838353798016,
+            -103.76258417766806,
+            1548.202612295023
+          ]
+        ],
+        "baseline_parent_status": "MEASURED",
+        "baseline_inside_count": 169,
+        "baseline_surface_band_count": 1,
+        "baseline_outside_count": 298,
+        "baseline_field_range_mm": [
+          -0.03411867350818416,
+          0.04312298204569972
+        ],
+        "farthest_outside_vertex_index": 13586,
+        "farthest_outside_position_mm": [
+          -42.478512776079,
+          -105.0741196891696,
+          1545.83160065649
+        ]
+      },
+      "interior_samples": 0,
+      "reason": "bound overlaps; not an original atlas mesh collision verdict"
+    }
+  ],
+  "status": "REVIEW_REQUIRED",
+  "scope": "candidate triangles versus declared centerline/radius profiles; parent excluded",
+  "original_mesh_collision": "NOT RUN",
+  "anatomical_connection": "UNKNOWN",
+  "interior_sampling": {
+    "max_depth": 3,
+    "max_samples_per_edge": 100000,
+    "negative_result": "UNKNOWN; finite samples do not prove separation"
+  },
+  "limitation": "A negative lower bound is inconclusive. Vertex counts depend on tessellation and are not overlap volume. Baseline exterior points can reflect meshing error as well as added geometry; intended junctions are not classified.",
+  "case_revision": "90aa67f11b698178168d7491e1da7d23bd621f252dfea6dd47029af93b9a9da4",
+  "artifact_sha256": "cd83cdceb58b76019d61993107c069ff270f7927c65b084ce567de6a9031634a",
+  "provenance_scope": "declared metadata and exact bytes; not independent geometry authenticity",
+  "refinements": [
+    {
+      "edge_id": "FJ1662:e12",
+      "status": "SEPARATED_PROFILE",
+      "checked_cells": 53172,
+      "unresolved_cells": 0,
+      "lower_bound_mm": 0.002352959719447073,
+      "max_depth": 8,
+      "max_cells": 100000
+    }
+  ],
+  "new_transition_only": {
+    "schema": "vv-toolbox.surface-context/1",
+    "parent_edge_id": "FJ1692:e0",
+    "context_edge_count": 1080,
+    "aabb_separated_count": 1078,
+    "used_vertex_count": 950,
+    "unused_vertex_count": 26381,
+    "results": [
+      {
+        "edge_id": "FJ1682:e0",
+        "status": "SEPARATED_PROFILE",
+        "lower_bound_mm": 12.52475084983283
+      },
+      {
+        "edge_id": "FJ1712:e0",
+        "status": "SEPARATED_PROFILE",
+        "lower_bound_mm": 16.148434665220712
+      }
+    ],
+    "status": "SEPARATED_PROFILES",
+    "scope": "candidate triangles versus declared centerline/radius profiles; parent excluded",
+    "original_mesh_collision": "NOT RUN",
+    "anatomical_connection": "UNKNOWN",
+    "interior_sampling": {
+      "max_depth": 3,
+      "max_samples_per_edge": 100000,
+      "negative_result": "UNKNOWN; finite samples do not prove separation"
+    },
+    "limitation": "A negative lower bound is inconclusive. Vertex counts depend on tessellation and are not overlap volume. Baseline exterior points can reflect meshing error as well as added geometry; intended junctions are not classified."
+  },
+  "retained_regions": {
+    "retained_parent": {
+      "schema": "vv-toolbox.surface-context/1",
+      "parent_edge_id": "FJ1692:e0",
+      "context_edge_count": 1080,
+      "aabb_separated_count": 1064,
+      "used_vertex_count": 22914,
+      "unused_vertex_count": 4417,
+      "results": [
+        {
+          "edge_id": "FJ1654:e0",
+          "status": "PROFILE_INTERIOR_WITNESS",
+          "lower_bound_mm": -0.3290625460057948,
+          "witness": {
+            "vertex_index": 143,
+            "position_mm": [
+              -13.60793269439258,
+              -111.32591243382427,
+              1537.1258749050323
+            ],
+            "profile_field_mm": -0.043368833927370565
+          },
+          "overlap_vertices": {
+            "vertex_count": 17,
+            "bounds_mm": [
+              [
+                -13.822069899556903,
+                -111.74062964313273,
+                1537.003001315369
+              ],
+              [
+                -13.517759340476054,
+                -111.16935145250326,
+                1537.4107799268745
+              ]
+            ],
+            "baseline_parent_status": "MEASURED",
+            "baseline_inside_count": 7,
+            "baseline_surface_band_count": 0,
+            "baseline_outside_count": 10,
+            "baseline_field_range_mm": [
+              -0.027486641049486282,
+              0.03397781995887872
+            ],
+            "farthest_outside_vertex_index": 54,
+            "farthest_outside_position_mm": [
+              -13.637685433913138,
+              -111.74062964313273,
+              1537.3442615127885
+            ]
+          },
+          "interior_samples": 0,
+          "reason": "bound overlaps; not an original atlas mesh collision verdict"
+        },
+        {
+          "edge_id": "FJ1658:e0",
+          "status": "SEPARATED_PROFILE",
+          "lower_bound_mm": 3.0180342020220836
+        },
+        {
+          "edge_id": "FJ1660:e0",
+          "status": "PROFILE_INTERIOR_WITNESS",
+          "lower_bound_mm": -1.5871854095645932,
+          "witness": {
+            "vertex_index": 7901,
+            "position_mm": [
+              -39.5704063270742,
+              -107.51126151025157,
+              1546.1385529766526
+            ],
+            "profile_field_mm": -1.2260241045475289
+          },
+          "overlap_vertices": {
+            "vertex_count": 646,
+            "bounds_mm": [
+              [
+                -41.04666170095254,
+                -108.74441522269262,
+                1544.4226815002519
+              ],
+              [
+                -37.54830064073394,
+                -106.2891602463965,
+                1547.319918691863
+              ]
+            ],
+            "baseline_parent_status": "MEASURED",
+            "baseline_inside_count": 370,
+            "baseline_surface_band_count": 0,
+            "baseline_outside_count": 276,
+            "baseline_field_range_mm": [
+              -0.050031879821873924,
+              0.059298799874892394
+            ],
+            "farthest_outside_vertex_index": 5795,
+            "farthest_outside_position_mm": [
+              -38.631757402709276,
+              -106.37478223171028,
+              1546.304032559014
+            ]
+          },
+          "interior_samples": 0,
+          "reason": "bound overlaps; not an original atlas mesh collision verdict"
+        },
+        {
+          "edge_id": "FJ1662:e0",
+          "status": "SEPARATED_PROFILE",
+          "lower_bound_mm": 1.9243101466816632
+        },
+        {
+          "edge_id": "FJ1662:e5",
+          "status": "SEPARATED_PROFILE",
+          "lower_bound_mm": 10.712086521973017
+        },
+        {
+          "edge_id": "FJ1662:e8",
+          "status": "SEPARATED_PROFILE",
+          "lower_bound_mm": 1.256151900580703
+        },
+        {
+          "edge_id": "FJ1662:e9",
+          "status": "SEPARATED_PROFILE",
+          "lower_bound_mm": 11.525200699421465
+        },
+        {
+          "edge_id": "FJ1662:e12",
+          "status": "UNKNOWN",
+          "lower_bound_mm": -0.024467260437187804,
+          "witness": null,
+          "overlap_vertices": null,
+          "interior_samples": 255,
+          "reason": "bound overlaps; not an original atlas mesh collision verdict"
+        },
+        {
+          "edge_id": "FJ1662:e13",
+          "status": "SEPARATED_PROFILE",
+          "lower_bound_mm": 1.3198792982194982
+        },
+        {
+          "edge_id": "FJ1663:e1",
+          "status": "SEPARATED_PROFILE",
+          "lower_bound_mm": 2.488616105978564
+        },
+        {
+          "edge_id": "FJ1682:e0",
+          "status": "PROFILE_INTERIOR_WITNESS",
+          "lower_bound_mm": -1.9273247411537244,
+          "witness": {
+            "vertex_index": 978,
+            "position_mm": [
+              -13.538609450395597,
+              -111.06579888437099,
+              1536.0517594449204
+            ],
+            "profile_field_mm": -1.8229954734035565
+          },
+          "overlap_vertices": {
+            "vertex_count": 1378,
+            "bounds_mm": [
+              [
+                -16.18243230483416,
+                -113.82044982571448,
+                1534.6187202725425
+              ],
+              [
+                -13.299267584515327,
+                -110.2187994466839,
+                1537.964921437146
+              ]
+            ],
+            "baseline_parent_status": "MEASURED",
+            "baseline_inside_count": 635,
+            "baseline_surface_band_count": 0,
+            "baseline_outside_count": 743,
+            "baseline_field_range_mm": [
+              -0.05456334837877108,
+              0.046229249883633416
+            ],
+            "farthest_outside_vertex_index": 427,
+            "farthest_outside_position_mm": [
+              -13.339205090355282,
+              -112.10985806401125,
+              1536.7446711014816
+            ]
+          },
+          "interior_samples": 0,
+          "reason": "bound overlaps; not an original atlas mesh collision verdict"
+        },
+        {
+          "edge_id": "FJ1685:e0",
+          "status": "SEPARATED_PROFILE",
+          "lower_bound_mm": 9.679265255867898
+        },
+        {
+          "edge_id": "FJ1694:e0",
+          "status": "PROFILE_INTERIOR_WITNESS",
+          "lower_bound_mm": -1.6900082643328425,
+          "witness": {
+            "vertex_index": 4857,
+            "position_mm": [
+              -43.34007072601581,
+              -103.53837283874269,
+              1548.7755981947612
+            ],
+            "profile_field_mm": -1.491625329181221
+          },
+          "overlap_vertices": {
+            "vertex_count": 547,
+            "bounds_mm": [
+              [
+                -44.075109776362915,
+                -105.03792705900999,
+                1547.0988213259043
+              ],
+              [
+                -41.776845244407355,
+                -103.09685527425499,
+                1549.6085642606718
+              ]
+            ],
+            "baseline_parent_status": "MEASURED",
+            "baseline_inside_count": 197,
+            "baseline_surface_band_count": 0,
+            "baseline_outside_count": 350,
+            "baseline_field_range_mm": [
+              -0.04873519880770316,
+              0.04270574477596001
+            ],
+            "farthest_outside_vertex_index": 8566,
+            "farthest_outside_position_mm": [
+              -43.5762450861627,
+              -103.5469968756193,
+              1547.6265590290009
+            ]
+          },
+          "interior_samples": 0,
+          "reason": "bound overlaps; not an original atlas mesh collision verdict"
+        },
+        {
+          "edge_id": "FJ1695:e0",
+          "status": "SEPARATED_PROFILE",
+          "lower_bound_mm": 2.889560255542401
+        },
+        {
+          "edge_id": "FJ1712:e0",
+          "status": "SEPARATED_PROFILE",
+          "lower_bound_mm": 2.833229226850921
+        },
+        {
+          "edge_id": "FJ1718:e0",
+          "status": "PROFILE_INTERIOR_WITNESS",
+          "lower_bound_mm": -1.1083590463066872,
+          "witness": {
+            "vertex_index": 10733,
+            "position_mm": [
+              -43.6849778799759,
+              -104.70446477850045,
+              1547.1012654294964
+            ],
+            "profile_field_mm": -0.9138092986211357
+          },
+          "overlap_vertices": {
+            "vertex_count": 468,
+            "bounds_mm": [
+              [
+                -44.075109776362915,
+                -106.2352815456965,
+                1545.7375099246658
+              ],
+              [
+                -42.058838353798016,
+                -103.76258417766806,
+                1548.202612295023
+              ]
+            ],
+            "baseline_parent_status": "MEASURED",
+            "baseline_inside_count": 169,
+            "baseline_surface_band_count": 1,
+            "baseline_outside_count": 298,
+            "baseline_field_range_mm": [
+              -0.03411867350818416,
+              0.04312298204569972
+            ],
+            "farthest_outside_vertex_index": 13586,
+            "farthest_outside_position_mm": [
+              -42.478512776079,
+              -105.0741196891696,
+              1545.83160065649
+            ]
+          },
+          "interior_samples": 0,
+          "reason": "bound overlaps; not an original atlas mesh collision verdict"
+        }
+      ],
+      "status": "REVIEW_REQUIRED",
+      "scope": "candidate triangles versus declared centerline/radius profiles; parent excluded",
+      "original_mesh_collision": "NOT RUN",
+      "anatomical_connection": "UNKNOWN",
+      "interior_sampling": {
+        "max_depth": 3,
+        "max_samples_per_edge": 100000,
+        "negative_result": "UNKNOWN; finite samples do not prove separation"
+      },
+      "limitation": "A negative lower bound is inconclusive. Vertex counts depend on tessellation and are not overlap volume. Baseline exterior points can reflect meshing error as well as added geometry; intended junctions are not classified."
+    },
+    "retained_sac": {
+      "schema": "vv-toolbox.surface-context/1",
+      "parent_edge_id": "FJ1692:e0",
+      "context_edge_count": 1080,
+      "aabb_separated_count": 1078,
+      "used_vertex_count": 2903,
+      "unused_vertex_count": 24428,
+      "results": [
+        {
+          "edge_id": "FJ1682:e0",
+          "status": "SEPARATED_PROFILE",
+          "lower_bound_mm": 13.197954799672589
+        },
+        {
+          "edge_id": "FJ1712:e0",
+          "status": "SEPARATED_PROFILE",
+          "lower_bound_mm": 14.636033308109047
+        }
+      ],
+      "status": "SEPARATED_PROFILES",
+      "scope": "candidate triangles versus declared centerline/radius profiles; parent excluded",
+      "original_mesh_collision": "NOT RUN",
+      "anatomical_connection": "UNKNOWN",
+      "interior_sampling": {
+        "max_depth": 3,
+        "max_samples_per_edge": 100000,
+        "negative_result": "UNKNOWN; finite samples do not prove separation"
+      },
+      "limitation": "A negative lower bound is inconclusive. Vertex counts depend on tessellation and are not overlap volume. Baseline exterior points can reflect meshing error as well as added geometry; intended junctions are not classified."
+    }
+  },
+  "prior_context_evidence_sha256": "b46ad40f1725ac4f96480dcb131b183a39a6236647e4c9734e4b7828ea027d41",
+  "witness_edge_set_unchanged": true,
+  "input_unchanged": true,
+  "app_applied": false,
+  "case_snapshot_revision": "90aa67f11b698178168d7491e1da7d23bd621f252dfea6dd47029af93b9a9da4"
+}

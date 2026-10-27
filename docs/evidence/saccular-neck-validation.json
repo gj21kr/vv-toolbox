@@ -1,0 +1,21 @@
+{
+  "scope": "Single-parent synthetic sac neck preservation; unchanged target and measurement plane",
+  "environment": "Docker vv-annotation-ui, PYTHONPATH=src",
+  "command": "python -m pytest -q -p no:cacheprovider --junitxml=exports/regression-saccular-neck.xml",
+  "full_regression": {
+    "passed": 613,
+    "skipped": 3,
+    "warnings": 323,
+    "seconds": 51.54,
+    "junit_sha256": "16d60e5276a48b3c3858068e3dbdb422fae06fde13bbed5d21d173b5a81582d9"
+  },
+  "fixture_evidence": "docs/evidence/saccular-neck-preservation.json",
+  "prior_failure_evidence_preserved": "docs/evidence/saccular-surface-fixture.json",
+  "engineering_tolerance": "two grid spacings per neck axis; fixed before refinement tests",
+  "spacing_tests_mm": [0.15, 0.10],
+  "rigid_transform_tests": "axis rotation, translation and oblique neck frame",
+  "neck_dimension_check": "PASS",
+  "global_surface_smoothness": "NOT RUN",
+  "actual_atlas_validation": "NOT RUN",
+  "accepted_case_integration": "NOT IMPLEMENTED"
+}

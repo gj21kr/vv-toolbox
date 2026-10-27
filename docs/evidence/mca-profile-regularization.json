@@ -1,0 +1,58 @@
+{
+  "source_case_revision": "ac39f2d88883cf9f2389618a7ad6f0770dd3b5efef17278fbcefa02bf677aa24",
+  "edge_id": "FJ1692:e0",
+  "configuration": {
+    "sigma_mm": 0.6,
+    "sample_spacing_mm": 0.1,
+    "max_displacement_mm": 0.3,
+    "max_radius_change_mm": 0.3
+  },
+  "app_applied": false,
+  "anatomy": "UNKNOWN",
+  "junction_continuity": "NOT RUN",
+  "surface_collision": "NOT RUN",
+  "status": "CANDIDATE",
+  "case_revision": "90aa67f11b698178168d7491e1da7d23bd621f252dfea6dd47029af93b9a9da4",
+  "before": {
+    "length_mm": 36.3976597959518,
+    "turn_p95_deg": 59.99999999999767,
+    "radius_total_variation_mm": 6.442737996094995,
+    "radius_range_mm": [
+      1.35877381724818,
+      1.8116984229975734
+    ]
+  },
+  "after": {
+    "length_mm": 33.77622293668113,
+    "turn_p95_deg": 24.873163892819896,
+    "radius_total_variation_mm": 1.9275356517538036,
+    "radius_range_mm": [
+      1.4026409756088651,
+      1.6889328322315187
+    ]
+  },
+  "centerline_metrics": [
+    {
+      "edge_id": "FJ1692:e0",
+      "max_displacement_mm": 0.19958923843957083,
+      "original_length_mm": 36.3976597959518,
+      "modified_length_mm": 33.77622293668113,
+      "endpoint_chords_unchanged": true,
+      "radii_unchanged": true
+    }
+  ],
+  "radius_metrics": [
+    {
+      "edge_id": "FJ1692:e0",
+      "max_change_mm": 0.17563095379878213,
+      "endpoint_radius_change_mm": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "other_edges_and_nodes_unchanged": true,
+  "artifact_sha256": "55a66dde51babf782b96d85ed621488abdc7916ed97720c54ff2312ea7efb2a4",
+  "sac_regeneration": "NOT RUN; old neck/specification belongs to original revision",
+  "source_unchanged": true
+}

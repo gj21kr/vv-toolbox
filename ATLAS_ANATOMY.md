@@ -57,3 +57,38 @@ Radius changes taper toward fixed endpoint/junction collars, so the requested mu
 
 The original surface topology is retained and displaced using a blended centerline field. Graph edges and proximity candidates update with the display. This is approximate deformation: surface containment of the centerline, inter-part junction continuity, self-intersections, and collisions with other vessels are not guaranteed. It is not anatomical or clinical validation. Estimated vessels retain their source labels.
 
+# Literature reference relationships
+
+The default relationship view is now **Selected vessel · both ends**. It shows
+the selected vessel between centerline end regions, plus internal junction
+regions for branched source meshes. Candidate attachments are assigned by
+distance along the within-part centerline graph, not by world Z or flow direction.
+Both source-endpoint and target-path candidate links are included. A neighbor
+can appear at both ends if supported by distinct attachments. Empty end regions
+mean no connection was identified, not a confirmed anatomical terminal. The
+literature reference and spatial candidate views remain available separately.
+
+Mapping now preserves the pinned source IS-A/PART-OF concept memberships rather
+than relying only on the displayed label. Audited M2, basilar and splenic concept
+members form one group with selectable elements. Profunda PART-OF elements and
+bilateral MCA superior-division elements are review evidence only, not recovered
+trunks or direct junction members. Unresolved slots are omitted from the diagram
+and listed under Needs review. Portal outflow uses the pre-hepatic concept
+FMA71904, not an alias combining it with the distinct hepatic portal concept.
+
+The relationship panel defaults to **Literature reference · junctions**. This is
+a curated standard-anatomy reference, matched to source part names, not a claim
+that this specimen's geometry or variant has been validated. Each junction has
+roles, a source link, mapping status and a null (unannotated) spatial position.
+Ambiguous name matches remain alternatives; missing branches are not generated.
+Arch and celiac origins are separate rather than one fabricated common origin.
+ICA daughter vessels share a junction rather than a direct parent/child edge.
+
+**Spatial candidates · unverified** retains the original distance-based graph.
+Unreviewed pairs remain unreviewed; PCom/ophthalmic candidates require review.
+The API's `reference_topology` is separate from voxel `nodes`, `edges` and
+proximity `links`; it is rebuilt after shape edits without adding synthetic
+connections to the 3D surface. The reference covers selected cerebral, arch,
+celiac, femoral, jugular and portal relationships, not every branch. It does not
+resolve M3/A1–A3/P2–P3 boundaries or synthesize missing profunda geometry.
+

@@ -1,0 +1,14 @@
+{
+  "schema": "vv-toolbox.regression-record/1",
+  "scope": "Full test suite after full-profile surface changes, before candidate_preview loader addition",
+  "command": "docker exec -e PYTHONPATH=src vv-annotation-ui python -m pytest -q -p no:cacheprovider --junitxml=exports/regression-full-profile.xml",
+  "passed": 569,
+  "skipped": 3,
+  "warnings": 319,
+  "duration_seconds": 50.62,
+  "junit_sha256": "9aef7fa01d02bb69cc82acb8ab4588b7279e044559703b9b8d34ccd409a0f294",
+  "skip_reason": "Node unavailable in container for three UI logic tests",
+  "subsequent_candidate_loader_tests": {"passed": 9, "duration_seconds": 0.82},
+  "browser_validation": "NOT RUN",
+  "anatomical_acceptance": "UNKNOWN"
+}

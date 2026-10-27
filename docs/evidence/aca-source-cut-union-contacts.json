@@ -1,0 +1,49 @@
+{
+  "schema": "vv-toolbox.aca-union-contact-diagnosis/1",
+  "case_revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+  "atlas_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "rows": [
+    {
+      "part_id": "FJ1654",
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 52408,
+        "adjacent_pairs_checked": 41922,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "region_pair_counts": {},
+      "single_closed_volume": true,
+      "face_counts": {
+        "opening": 1280,
+        "dome": 5092
+      },
+      "pairs": []
+    },
+    {
+      "part_id": "FJ1654M",
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 51235,
+        "adjacent_pairs_checked": 40872,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "region_pair_counts": {},
+      "single_closed_volume": true,
+      "face_counts": {
+        "opening": 1162,
+        "dome": 5092
+      },
+      "pairs": []
+    }
+  ],
+  "accepted_for_generation": false,
+  "app_applied": false
+}

@@ -1,0 +1,3176 @@
+{
+  "status": "UNKNOWN",
+  "graph_revision": "55225c191c26dac632355661c941e338941964d3e043d07618c07f3d0c4cd2e0",
+  "surface_sha256": "bad61c62ca40b1aade54c6e52e3ded05829240b23f6dbd915991d8688ae313d9",
+  "route_measurements": [
+    {
+      "femoral_side": "L",
+      "carotid_side": "L",
+      "target": "FJ1654M",
+      "measurement_status": "PASS",
+      "acceptance_status": "UNKNOWN",
+      "rows": [
+        {
+          "node_id": "FJ2074:n0",
+          "incoming_edge": "FJ2074:e0",
+          "outgoing_edge": "declared-link:0",
+          "turn_angle_deg": 89.36164060708539,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3466:e0:452",
+          "incoming_edge": "declared-link:0",
+          "outgoing_edge": "FJ3466:e0::samples:0-452",
+          "turn_angle_deg": 90.44264005967565,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3466:n0",
+          "incoming_edge": "FJ3466:e0::samples:0-452",
+          "outgoing_edge": "FJ3464:e0",
+          "turn_angle_deg": 38.445764551144705,
+          "radius_jump_mm": 0.33588108514475845,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3464:n0",
+          "incoming_edge": "FJ3464:e0",
+          "outgoing_edge": "declared-link:2",
+          "turn_angle_deg": 21.893194185129985,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1932:n0",
+          "incoming_edge": "declared-link:2",
+          "outgoing_edge": "FJ1932:e0",
+          "turn_angle_deg": 20.466332787156123,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1932:n1",
+          "incoming_edge": "FJ1932:e0",
+          "outgoing_edge": "declared-link:6",
+          "turn_angle_deg": 1.7097600264999406,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n0",
+          "incoming_edge": "declared-link:6",
+          "outgoing_edge": "FJ1931:e0",
+          "turn_angle_deg": 38.65413866588989,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n2",
+          "incoming_edge": "FJ1931:e0",
+          "outgoing_edge": "FJ1931:e2",
+          "turn_angle_deg": 57.311358147220886,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n4",
+          "incoming_edge": "FJ1931:e2",
+          "outgoing_edge": "FJ1931:e4::samples:0-237",
+          "turn_angle_deg": 40.87654499340177,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1931:e4:237",
+          "incoming_edge": "FJ1931:e4::samples:0-237",
+          "outgoing_edge": "declared-link:7",
+          "turn_angle_deg": 88.4973115770703,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3411:e0:308",
+          "incoming_edge": "declared-link:7",
+          "outgoing_edge": "FJ3411:e0::samples:133-308",
+          "turn_angle_deg": 88.79061471534826,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3411:e0:133",
+          "incoming_edge": "FJ3411:e0::samples:133-308",
+          "outgoing_edge": "declared-link:8",
+          "turn_angle_deg": 86.53508387662421,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3483:n0",
+          "incoming_edge": "declared-link:8",
+          "outgoing_edge": "FJ3483:e0",
+          "turn_angle_deg": 5.254465362725468,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3483:n1",
+          "incoming_edge": "FJ3483:e0",
+          "outgoing_edge": "declared-link:12",
+          "turn_angle_deg": 8.445329654347708,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "estimated_left_carotid_neck:0",
+          "incoming_edge": "declared-link:12",
+          "outgoing_edge": "estimated_left_carotid_neck:e0",
+          "turn_angle_deg": 6.0196314331865155,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "estimated_left_carotid_neck:1",
+          "incoming_edge": "estimated_left_carotid_neck:e0",
+          "outgoing_edge": "declared-link:13",
+          "turn_angle_deg": 10.477762848726018,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1682M:n1",
+          "incoming_edge": "declared-link:13",
+          "outgoing_edge": "FJ1682M:e0::samples:10-668",
+          "turn_angle_deg": 10.548709843781774,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1682M:e0:10",
+          "incoming_edge": "FJ1682M:e0::samples:10-668",
+          "outgoing_edge": "declared-link:14",
+          "turn_angle_deg": 96.96555299347497,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1654M:n1",
+          "incoming_edge": "declared-link:14",
+          "outgoing_edge": "FJ1654M:e0::samples:91-188",
+          "turn_angle_deg": 61.66458299395507,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1654M:e0:91",
+          "incoming_edge": "FJ1654M:e0::samples:91-188",
+          "outgoing_edge": "FJ1654M:e0::samples:0-91",
+          "turn_angle_deg": 8.135082788662157,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        }
+      ],
+      "scope": "Adjacent source polyline segments along the supplied traversal",
+      "anatomical_validation": "NOT RUN",
+      "acceptance_limits": "NOT SET"
+    },
+    {
+      "femoral_side": "L",
+      "carotid_side": "L",
+      "target": "FJ1692M",
+      "measurement_status": "PASS",
+      "acceptance_status": "UNKNOWN",
+      "rows": [
+        {
+          "node_id": "FJ2074:n0",
+          "incoming_edge": "FJ2074:e0",
+          "outgoing_edge": "declared-link:0",
+          "turn_angle_deg": 89.36164060708539,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3466:e0:452",
+          "incoming_edge": "declared-link:0",
+          "outgoing_edge": "FJ3466:e0::samples:0-452",
+          "turn_angle_deg": 90.44264005967565,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3466:n0",
+          "incoming_edge": "FJ3466:e0::samples:0-452",
+          "outgoing_edge": "FJ3464:e0",
+          "turn_angle_deg": 38.445764551144705,
+          "radius_jump_mm": 0.33588108514475845,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3464:n0",
+          "incoming_edge": "FJ3464:e0",
+          "outgoing_edge": "declared-link:2",
+          "turn_angle_deg": 21.893194185129985,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1932:n0",
+          "incoming_edge": "declared-link:2",
+          "outgoing_edge": "FJ1932:e0",
+          "turn_angle_deg": 20.466332787156123,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1932:n1",
+          "incoming_edge": "FJ1932:e0",
+          "outgoing_edge": "declared-link:6",
+          "turn_angle_deg": 1.7097600264999406,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n0",
+          "incoming_edge": "declared-link:6",
+          "outgoing_edge": "FJ1931:e0",
+          "turn_angle_deg": 38.65413866588989,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n2",
+          "incoming_edge": "FJ1931:e0",
+          "outgoing_edge": "FJ1931:e2",
+          "turn_angle_deg": 57.311358147220886,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n4",
+          "incoming_edge": "FJ1931:e2",
+          "outgoing_edge": "FJ1931:e4::samples:0-237",
+          "turn_angle_deg": 40.87654499340177,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1931:e4:237",
+          "incoming_edge": "FJ1931:e4::samples:0-237",
+          "outgoing_edge": "declared-link:7",
+          "turn_angle_deg": 88.4973115770703,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3411:e0:308",
+          "incoming_edge": "declared-link:7",
+          "outgoing_edge": "FJ3411:e0::samples:133-308",
+          "turn_angle_deg": 88.79061471534826,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3411:e0:133",
+          "incoming_edge": "FJ3411:e0::samples:133-308",
+          "outgoing_edge": "declared-link:8",
+          "turn_angle_deg": 86.53508387662421,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3483:n0",
+          "incoming_edge": "declared-link:8",
+          "outgoing_edge": "FJ3483:e0",
+          "turn_angle_deg": 5.254465362725468,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3483:n1",
+          "incoming_edge": "FJ3483:e0",
+          "outgoing_edge": "declared-link:12",
+          "turn_angle_deg": 8.445329654347708,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "estimated_left_carotid_neck:0",
+          "incoming_edge": "declared-link:12",
+          "outgoing_edge": "estimated_left_carotid_neck:e0",
+          "turn_angle_deg": 6.0196314331865155,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "estimated_left_carotid_neck:1",
+          "incoming_edge": "estimated_left_carotid_neck:e0",
+          "outgoing_edge": "declared-link:13",
+          "turn_angle_deg": 10.477762848726018,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1682M:n1",
+          "incoming_edge": "declared-link:13",
+          "outgoing_edge": "FJ1682M:e0::samples:10-668",
+          "turn_angle_deg": 10.548709843781774,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1682M:e0:10",
+          "incoming_edge": "FJ1682M:e0::samples:10-668",
+          "outgoing_edge": "FJ1682M:e0::samples:3-10",
+          "turn_angle_deg": 1.5416853678654856,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1682M:e0:3",
+          "incoming_edge": "FJ1682M:e0::samples:3-10",
+          "outgoing_edge": "declared-link:15",
+          "turn_angle_deg": 81.1449656637263,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1692M:n0",
+          "incoming_edge": "declared-link:15",
+          "outgoing_edge": "FJ1692M:e0",
+          "turn_angle_deg": 68.92039432135664,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        }
+      ],
+      "scope": "Adjacent source polyline segments along the supplied traversal",
+      "anatomical_validation": "NOT RUN",
+      "acceptance_limits": "NOT SET"
+    },
+    {
+      "femoral_side": "L",
+      "carotid_side": "R",
+      "target": "FJ1654",
+      "measurement_status": "PASS",
+      "acceptance_status": "UNKNOWN",
+      "rows": [
+        {
+          "node_id": "FJ2074:n0",
+          "incoming_edge": "FJ2074:e0",
+          "outgoing_edge": "declared-link:0",
+          "turn_angle_deg": 89.36164060708539,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3466:e0:452",
+          "incoming_edge": "declared-link:0",
+          "outgoing_edge": "FJ3466:e0::samples:0-452",
+          "turn_angle_deg": 90.44264005967565,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3466:n0",
+          "incoming_edge": "FJ3466:e0::samples:0-452",
+          "outgoing_edge": "FJ3464:e0",
+          "turn_angle_deg": 38.445764551144705,
+          "radius_jump_mm": 0.33588108514475845,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3464:n0",
+          "incoming_edge": "FJ3464:e0",
+          "outgoing_edge": "declared-link:2",
+          "turn_angle_deg": 21.893194185129985,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1932:n0",
+          "incoming_edge": "declared-link:2",
+          "outgoing_edge": "FJ1932:e0",
+          "turn_angle_deg": 20.466332787156123,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1932:n1",
+          "incoming_edge": "FJ1932:e0",
+          "outgoing_edge": "declared-link:6",
+          "turn_angle_deg": 1.7097600264999406,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n0",
+          "incoming_edge": "declared-link:6",
+          "outgoing_edge": "FJ1931:e0",
+          "turn_angle_deg": 38.65413866588989,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n2",
+          "incoming_edge": "FJ1931:e0",
+          "outgoing_edge": "FJ1931:e2",
+          "turn_angle_deg": 57.311358147220886,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n4",
+          "incoming_edge": "FJ1931:e2",
+          "outgoing_edge": "FJ1931:e4::samples:0-237",
+          "turn_angle_deg": 40.87654499340177,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1931:e4:237",
+          "incoming_edge": "FJ1931:e4::samples:0-237",
+          "outgoing_edge": "declared-link:7",
+          "turn_angle_deg": 88.4973115770703,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3411:e0:308",
+          "incoming_edge": "declared-link:7",
+          "outgoing_edge": "FJ3411:e0::samples:133-308",
+          "turn_angle_deg": 88.79061471534826,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3411:e0:133",
+          "incoming_edge": "FJ3411:e0::samples:133-308",
+          "outgoing_edge": "FJ3411:e0::samples:88-133",
+          "turn_angle_deg": 4.246361253449662,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3411:e0:88",
+          "incoming_edge": "FJ3411:e0::samples:88-133",
+          "outgoing_edge": "declared-link:9",
+          "turn_angle_deg": 87.23422869655812,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3417:n1",
+          "incoming_edge": "declared-link:9",
+          "outgoing_edge": "FJ3417:e0::samples:2-155",
+          "turn_angle_deg": 20.99367230570348,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3417:e0:2",
+          "incoming_edge": "FJ3417:e0::samples:2-155",
+          "outgoing_edge": "declared-link:10",
+          "turn_angle_deg": 159.64023840622693,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3564:e0:144",
+          "incoming_edge": "declared-link:10",
+          "outgoing_edge": "FJ3564:e0::samples:0-144",
+          "turn_angle_deg": 141.15311869760293,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3564:n0",
+          "incoming_edge": "FJ3564:e0::samples:0-144",
+          "outgoing_edge": "declared-link:17",
+          "turn_angle_deg": 5.691722278322746,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "estimated_right_carotid_neck:0",
+          "incoming_edge": "declared-link:17",
+          "outgoing_edge": "estimated_right_carotid_neck:e0",
+          "turn_angle_deg": 5.882797861566791,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "estimated_right_carotid_neck:1",
+          "incoming_edge": "estimated_right_carotid_neck:e0",
+          "outgoing_edge": "declared-link:18",
+          "turn_angle_deg": 9.842224736648205,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1682:n0",
+          "incoming_edge": "declared-link:18",
+          "outgoing_edge": "FJ1682:e0::samples:0-653",
+          "turn_angle_deg": 9.831152398505361,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1682:e0:653",
+          "incoming_edge": "FJ1682:e0::samples:0-653",
+          "outgoing_edge": "declared-link:19",
+          "turn_angle_deg": 87.49453814626717,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1654:n0",
+          "incoming_edge": "declared-link:19",
+          "outgoing_edge": "FJ1654:e0::samples:0-77",
+          "turn_angle_deg": 35.29533108735704,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1654:e0:77",
+          "incoming_edge": "FJ1654:e0::samples:0-77",
+          "outgoing_edge": "FJ1654:e0::samples:77-175",
+          "turn_angle_deg": 2.7014984729844786,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        }
+      ],
+      "scope": "Adjacent source polyline segments along the supplied traversal",
+      "anatomical_validation": "NOT RUN",
+      "acceptance_limits": "NOT SET"
+    },
+    {
+      "femoral_side": "L",
+      "carotid_side": "R",
+      "target": "FJ1692",
+      "measurement_status": "PASS",
+      "acceptance_status": "UNKNOWN",
+      "rows": [
+        {
+          "node_id": "FJ2074:n0",
+          "incoming_edge": "FJ2074:e0",
+          "outgoing_edge": "declared-link:0",
+          "turn_angle_deg": 89.36164060708539,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3466:e0:452",
+          "incoming_edge": "declared-link:0",
+          "outgoing_edge": "FJ3466:e0::samples:0-452",
+          "turn_angle_deg": 90.44264005967565,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3466:n0",
+          "incoming_edge": "FJ3466:e0::samples:0-452",
+          "outgoing_edge": "FJ3464:e0",
+          "turn_angle_deg": 38.445764551144705,
+          "radius_jump_mm": 0.33588108514475845,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3464:n0",
+          "incoming_edge": "FJ3464:e0",
+          "outgoing_edge": "declared-link:2",
+          "turn_angle_deg": 21.893194185129985,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1932:n0",
+          "incoming_edge": "declared-link:2",
+          "outgoing_edge": "FJ1932:e0",
+          "turn_angle_deg": 20.466332787156123,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1932:n1",
+          "incoming_edge": "FJ1932:e0",
+          "outgoing_edge": "declared-link:6",
+          "turn_angle_deg": 1.7097600264999406,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n0",
+          "incoming_edge": "declared-link:6",
+          "outgoing_edge": "FJ1931:e0",
+          "turn_angle_deg": 38.65413866588989,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n2",
+          "incoming_edge": "FJ1931:e0",
+          "outgoing_edge": "FJ1931:e2",
+          "turn_angle_deg": 57.311358147220886,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n4",
+          "incoming_edge": "FJ1931:e2",
+          "outgoing_edge": "FJ1931:e4::samples:0-237",
+          "turn_angle_deg": 40.87654499340177,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1931:e4:237",
+          "incoming_edge": "FJ1931:e4::samples:0-237",
+          "outgoing_edge": "declared-link:7",
+          "turn_angle_deg": 88.4973115770703,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3411:e0:308",
+          "incoming_edge": "declared-link:7",
+          "outgoing_edge": "FJ3411:e0::samples:133-308",
+          "turn_angle_deg": 88.79061471534826,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3411:e0:133",
+          "incoming_edge": "FJ3411:e0::samples:133-308",
+          "outgoing_edge": "FJ3411:e0::samples:88-133",
+          "turn_angle_deg": 4.246361253449662,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3411:e0:88",
+          "incoming_edge": "FJ3411:e0::samples:88-133",
+          "outgoing_edge": "declared-link:9",
+          "turn_angle_deg": 87.23422869655812,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3417:n1",
+          "incoming_edge": "declared-link:9",
+          "outgoing_edge": "FJ3417:e0::samples:2-155",
+          "turn_angle_deg": 20.99367230570348,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3417:e0:2",
+          "incoming_edge": "FJ3417:e0::samples:2-155",
+          "outgoing_edge": "declared-link:10",
+          "turn_angle_deg": 159.64023840622693,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3564:e0:144",
+          "incoming_edge": "declared-link:10",
+          "outgoing_edge": "FJ3564:e0::samples:0-144",
+          "turn_angle_deg": 141.15311869760293,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3564:n0",
+          "incoming_edge": "FJ3564:e0::samples:0-144",
+          "outgoing_edge": "declared-link:17",
+          "turn_angle_deg": 5.691722278322746,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "estimated_right_carotid_neck:0",
+          "incoming_edge": "declared-link:17",
+          "outgoing_edge": "estimated_right_carotid_neck:e0",
+          "turn_angle_deg": 5.882797861566791,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "estimated_right_carotid_neck:1",
+          "incoming_edge": "estimated_right_carotid_neck:e0",
+          "outgoing_edge": "declared-link:18",
+          "turn_angle_deg": 9.842224736648205,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1682:n0",
+          "incoming_edge": "declared-link:18",
+          "outgoing_edge": "FJ1682:e0::samples:0-653",
+          "turn_angle_deg": 9.831152398505361,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1682:e0:653",
+          "incoming_edge": "FJ1682:e0::samples:0-653",
+          "outgoing_edge": "FJ1682:e0::samples:653-664",
+          "turn_angle_deg": 0.7367002996260524,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1682:e0:664",
+          "incoming_edge": "FJ1682:e0::samples:653-664",
+          "outgoing_edge": "declared-link:20",
+          "turn_angle_deg": 80.41408449149127,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1692:n1",
+          "incoming_edge": "declared-link:20",
+          "outgoing_edge": "FJ1692:e0",
+          "turn_angle_deg": 68.85672838516169,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        }
+      ],
+      "scope": "Adjacent source polyline segments along the supplied traversal",
+      "anatomical_validation": "NOT RUN",
+      "acceptance_limits": "NOT SET"
+    },
+    {
+      "femoral_side": "R",
+      "carotid_side": "L",
+      "target": "FJ1654M",
+      "measurement_status": "PASS",
+      "acceptance_status": "UNKNOWN",
+      "rows": [
+        {
+          "node_id": "sample:FJ2143:e0:1380",
+          "incoming_edge": "FJ2143:e0::samples:0-1380",
+          "outgoing_edge": "declared-link:3",
+          "turn_angle_deg": 89.45169498431675,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3567:e0:56",
+          "incoming_edge": "declared-link:3",
+          "outgoing_edge": "FJ3567:e0::samples:56-548",
+          "turn_angle_deg": 88.80873341553277,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3567:e0:548",
+          "incoming_edge": "FJ3567:e0::samples:56-548",
+          "outgoing_edge": "declared-link:4",
+          "turn_angle_deg": 81.40060497562158,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3565:n0",
+          "incoming_edge": "declared-link:4",
+          "outgoing_edge": "FJ3565:e0",
+          "turn_angle_deg": 81.70634004183103,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3565:n2",
+          "incoming_edge": "FJ3565:e0",
+          "outgoing_edge": "FJ3565:e2",
+          "turn_angle_deg": 18.540081882589636,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3565:n3",
+          "incoming_edge": "FJ3565:e2",
+          "outgoing_edge": "declared-link:5",
+          "turn_angle_deg": 5.443872994837662,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1932:n0",
+          "incoming_edge": "declared-link:5",
+          "outgoing_edge": "FJ1932:e0",
+          "turn_angle_deg": 21.80148869758034,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1932:n1",
+          "incoming_edge": "FJ1932:e0",
+          "outgoing_edge": "declared-link:6",
+          "turn_angle_deg": 1.7097600264999406,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n0",
+          "incoming_edge": "declared-link:6",
+          "outgoing_edge": "FJ1931:e0",
+          "turn_angle_deg": 38.65413866588989,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n2",
+          "incoming_edge": "FJ1931:e0",
+          "outgoing_edge": "FJ1931:e2",
+          "turn_angle_deg": 57.311358147220886,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n4",
+          "incoming_edge": "FJ1931:e2",
+          "outgoing_edge": "FJ1931:e4::samples:0-237",
+          "turn_angle_deg": 40.87654499340177,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1931:e4:237",
+          "incoming_edge": "FJ1931:e4::samples:0-237",
+          "outgoing_edge": "declared-link:7",
+          "turn_angle_deg": 88.4973115770703,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3411:e0:308",
+          "incoming_edge": "declared-link:7",
+          "outgoing_edge": "FJ3411:e0::samples:133-308",
+          "turn_angle_deg": 88.79061471534826,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3411:e0:133",
+          "incoming_edge": "FJ3411:e0::samples:133-308",
+          "outgoing_edge": "declared-link:8",
+          "turn_angle_deg": 86.53508387662421,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3483:n0",
+          "incoming_edge": "declared-link:8",
+          "outgoing_edge": "FJ3483:e0",
+          "turn_angle_deg": 5.254465362725468,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3483:n1",
+          "incoming_edge": "FJ3483:e0",
+          "outgoing_edge": "declared-link:12",
+          "turn_angle_deg": 8.445329654347708,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "estimated_left_carotid_neck:0",
+          "incoming_edge": "declared-link:12",
+          "outgoing_edge": "estimated_left_carotid_neck:e0",
+          "turn_angle_deg": 6.0196314331865155,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "estimated_left_carotid_neck:1",
+          "incoming_edge": "estimated_left_carotid_neck:e0",
+          "outgoing_edge": "declared-link:13",
+          "turn_angle_deg": 10.477762848726018,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1682M:n1",
+          "incoming_edge": "declared-link:13",
+          "outgoing_edge": "FJ1682M:e0::samples:10-668",
+          "turn_angle_deg": 10.548709843781774,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1682M:e0:10",
+          "incoming_edge": "FJ1682M:e0::samples:10-668",
+          "outgoing_edge": "declared-link:14",
+          "turn_angle_deg": 96.96555299347497,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1654M:n1",
+          "incoming_edge": "declared-link:14",
+          "outgoing_edge": "FJ1654M:e0::samples:91-188",
+          "turn_angle_deg": 61.66458299395507,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1654M:e0:91",
+          "incoming_edge": "FJ1654M:e0::samples:91-188",
+          "outgoing_edge": "FJ1654M:e0::samples:0-91",
+          "turn_angle_deg": 8.135082788662157,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        }
+      ],
+      "scope": "Adjacent source polyline segments along the supplied traversal",
+      "anatomical_validation": "NOT RUN",
+      "acceptance_limits": "NOT SET"
+    },
+    {
+      "femoral_side": "R",
+      "carotid_side": "L",
+      "target": "FJ1692M",
+      "measurement_status": "PASS",
+      "acceptance_status": "UNKNOWN",
+      "rows": [
+        {
+          "node_id": "sample:FJ2143:e0:1380",
+          "incoming_edge": "FJ2143:e0::samples:0-1380",
+          "outgoing_edge": "declared-link:3",
+          "turn_angle_deg": 89.45169498431675,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3567:e0:56",
+          "incoming_edge": "declared-link:3",
+          "outgoing_edge": "FJ3567:e0::samples:56-548",
+          "turn_angle_deg": 88.80873341553277,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3567:e0:548",
+          "incoming_edge": "FJ3567:e0::samples:56-548",
+          "outgoing_edge": "declared-link:4",
+          "turn_angle_deg": 81.40060497562158,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3565:n0",
+          "incoming_edge": "declared-link:4",
+          "outgoing_edge": "FJ3565:e0",
+          "turn_angle_deg": 81.70634004183103,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3565:n2",
+          "incoming_edge": "FJ3565:e0",
+          "outgoing_edge": "FJ3565:e2",
+          "turn_angle_deg": 18.540081882589636,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3565:n3",
+          "incoming_edge": "FJ3565:e2",
+          "outgoing_edge": "declared-link:5",
+          "turn_angle_deg": 5.443872994837662,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1932:n0",
+          "incoming_edge": "declared-link:5",
+          "outgoing_edge": "FJ1932:e0",
+          "turn_angle_deg": 21.80148869758034,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1932:n1",
+          "incoming_edge": "FJ1932:e0",
+          "outgoing_edge": "declared-link:6",
+          "turn_angle_deg": 1.7097600264999406,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n0",
+          "incoming_edge": "declared-link:6",
+          "outgoing_edge": "FJ1931:e0",
+          "turn_angle_deg": 38.65413866588989,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n2",
+          "incoming_edge": "FJ1931:e0",
+          "outgoing_edge": "FJ1931:e2",
+          "turn_angle_deg": 57.311358147220886,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n4",
+          "incoming_edge": "FJ1931:e2",
+          "outgoing_edge": "FJ1931:e4::samples:0-237",
+          "turn_angle_deg": 40.87654499340177,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1931:e4:237",
+          "incoming_edge": "FJ1931:e4::samples:0-237",
+          "outgoing_edge": "declared-link:7",
+          "turn_angle_deg": 88.4973115770703,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3411:e0:308",
+          "incoming_edge": "declared-link:7",
+          "outgoing_edge": "FJ3411:e0::samples:133-308",
+          "turn_angle_deg": 88.79061471534826,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3411:e0:133",
+          "incoming_edge": "FJ3411:e0::samples:133-308",
+          "outgoing_edge": "declared-link:8",
+          "turn_angle_deg": 86.53508387662421,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3483:n0",
+          "incoming_edge": "declared-link:8",
+          "outgoing_edge": "FJ3483:e0",
+          "turn_angle_deg": 5.254465362725468,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3483:n1",
+          "incoming_edge": "FJ3483:e0",
+          "outgoing_edge": "declared-link:12",
+          "turn_angle_deg": 8.445329654347708,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "estimated_left_carotid_neck:0",
+          "incoming_edge": "declared-link:12",
+          "outgoing_edge": "estimated_left_carotid_neck:e0",
+          "turn_angle_deg": 6.0196314331865155,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "estimated_left_carotid_neck:1",
+          "incoming_edge": "estimated_left_carotid_neck:e0",
+          "outgoing_edge": "declared-link:13",
+          "turn_angle_deg": 10.477762848726018,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1682M:n1",
+          "incoming_edge": "declared-link:13",
+          "outgoing_edge": "FJ1682M:e0::samples:10-668",
+          "turn_angle_deg": 10.548709843781774,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1682M:e0:10",
+          "incoming_edge": "FJ1682M:e0::samples:10-668",
+          "outgoing_edge": "FJ1682M:e0::samples:3-10",
+          "turn_angle_deg": 1.5416853678654856,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1682M:e0:3",
+          "incoming_edge": "FJ1682M:e0::samples:3-10",
+          "outgoing_edge": "declared-link:15",
+          "turn_angle_deg": 81.1449656637263,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1692M:n0",
+          "incoming_edge": "declared-link:15",
+          "outgoing_edge": "FJ1692M:e0",
+          "turn_angle_deg": 68.92039432135664,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        }
+      ],
+      "scope": "Adjacent source polyline segments along the supplied traversal",
+      "anatomical_validation": "NOT RUN",
+      "acceptance_limits": "NOT SET"
+    },
+    {
+      "femoral_side": "R",
+      "carotid_side": "R",
+      "target": "FJ1654",
+      "measurement_status": "PASS",
+      "acceptance_status": "UNKNOWN",
+      "rows": [
+        {
+          "node_id": "sample:FJ2143:e0:1380",
+          "incoming_edge": "FJ2143:e0::samples:0-1380",
+          "outgoing_edge": "declared-link:3",
+          "turn_angle_deg": 89.45169498431675,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3567:e0:56",
+          "incoming_edge": "declared-link:3",
+          "outgoing_edge": "FJ3567:e0::samples:56-548",
+          "turn_angle_deg": 88.80873341553277,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3567:e0:548",
+          "incoming_edge": "FJ3567:e0::samples:56-548",
+          "outgoing_edge": "declared-link:4",
+          "turn_angle_deg": 81.40060497562158,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3565:n0",
+          "incoming_edge": "declared-link:4",
+          "outgoing_edge": "FJ3565:e0",
+          "turn_angle_deg": 81.70634004183103,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3565:n2",
+          "incoming_edge": "FJ3565:e0",
+          "outgoing_edge": "FJ3565:e2",
+          "turn_angle_deg": 18.540081882589636,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3565:n3",
+          "incoming_edge": "FJ3565:e2",
+          "outgoing_edge": "declared-link:5",
+          "turn_angle_deg": 5.443872994837662,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1932:n0",
+          "incoming_edge": "declared-link:5",
+          "outgoing_edge": "FJ1932:e0",
+          "turn_angle_deg": 21.80148869758034,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1932:n1",
+          "incoming_edge": "FJ1932:e0",
+          "outgoing_edge": "declared-link:6",
+          "turn_angle_deg": 1.7097600264999406,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n0",
+          "incoming_edge": "declared-link:6",
+          "outgoing_edge": "FJ1931:e0",
+          "turn_angle_deg": 38.65413866588989,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n2",
+          "incoming_edge": "FJ1931:e0",
+          "outgoing_edge": "FJ1931:e2",
+          "turn_angle_deg": 57.311358147220886,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n4",
+          "incoming_edge": "FJ1931:e2",
+          "outgoing_edge": "FJ1931:e4::samples:0-237",
+          "turn_angle_deg": 40.87654499340177,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1931:e4:237",
+          "incoming_edge": "FJ1931:e4::samples:0-237",
+          "outgoing_edge": "declared-link:7",
+          "turn_angle_deg": 88.4973115770703,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3411:e0:308",
+          "incoming_edge": "declared-link:7",
+          "outgoing_edge": "FJ3411:e0::samples:133-308",
+          "turn_angle_deg": 88.79061471534826,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3411:e0:133",
+          "incoming_edge": "FJ3411:e0::samples:133-308",
+          "outgoing_edge": "FJ3411:e0::samples:88-133",
+          "turn_angle_deg": 4.246361253449662,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3411:e0:88",
+          "incoming_edge": "FJ3411:e0::samples:88-133",
+          "outgoing_edge": "declared-link:9",
+          "turn_angle_deg": 87.23422869655812,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3417:n1",
+          "incoming_edge": "declared-link:9",
+          "outgoing_edge": "FJ3417:e0::samples:2-155",
+          "turn_angle_deg": 20.99367230570348,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3417:e0:2",
+          "incoming_edge": "FJ3417:e0::samples:2-155",
+          "outgoing_edge": "declared-link:10",
+          "turn_angle_deg": 159.64023840622693,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3564:e0:144",
+          "incoming_edge": "declared-link:10",
+          "outgoing_edge": "FJ3564:e0::samples:0-144",
+          "turn_angle_deg": 141.15311869760293,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3564:n0",
+          "incoming_edge": "FJ3564:e0::samples:0-144",
+          "outgoing_edge": "declared-link:17",
+          "turn_angle_deg": 5.691722278322746,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "estimated_right_carotid_neck:0",
+          "incoming_edge": "declared-link:17",
+          "outgoing_edge": "estimated_right_carotid_neck:e0",
+          "turn_angle_deg": 5.882797861566791,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "estimated_right_carotid_neck:1",
+          "incoming_edge": "estimated_right_carotid_neck:e0",
+          "outgoing_edge": "declared-link:18",
+          "turn_angle_deg": 9.842224736648205,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1682:n0",
+          "incoming_edge": "declared-link:18",
+          "outgoing_edge": "FJ1682:e0::samples:0-653",
+          "turn_angle_deg": 9.831152398505361,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1682:e0:653",
+          "incoming_edge": "FJ1682:e0::samples:0-653",
+          "outgoing_edge": "declared-link:19",
+          "turn_angle_deg": 87.49453814626717,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1654:n0",
+          "incoming_edge": "declared-link:19",
+          "outgoing_edge": "FJ1654:e0::samples:0-77",
+          "turn_angle_deg": 35.29533108735704,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1654:e0:77",
+          "incoming_edge": "FJ1654:e0::samples:0-77",
+          "outgoing_edge": "FJ1654:e0::samples:77-175",
+          "turn_angle_deg": 2.7014984729844786,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        }
+      ],
+      "scope": "Adjacent source polyline segments along the supplied traversal",
+      "anatomical_validation": "NOT RUN",
+      "acceptance_limits": "NOT SET"
+    },
+    {
+      "femoral_side": "R",
+      "carotid_side": "R",
+      "target": "FJ1692",
+      "measurement_status": "PASS",
+      "acceptance_status": "UNKNOWN",
+      "rows": [
+        {
+          "node_id": "sample:FJ2143:e0:1380",
+          "incoming_edge": "FJ2143:e0::samples:0-1380",
+          "outgoing_edge": "declared-link:3",
+          "turn_angle_deg": 89.45169498431675,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3567:e0:56",
+          "incoming_edge": "declared-link:3",
+          "outgoing_edge": "FJ3567:e0::samples:56-548",
+          "turn_angle_deg": 88.80873341553277,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3567:e0:548",
+          "incoming_edge": "FJ3567:e0::samples:56-548",
+          "outgoing_edge": "declared-link:4",
+          "turn_angle_deg": 81.40060497562158,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3565:n0",
+          "incoming_edge": "declared-link:4",
+          "outgoing_edge": "FJ3565:e0",
+          "turn_angle_deg": 81.70634004183103,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3565:n2",
+          "incoming_edge": "FJ3565:e0",
+          "outgoing_edge": "FJ3565:e2",
+          "turn_angle_deg": 18.540081882589636,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3565:n3",
+          "incoming_edge": "FJ3565:e2",
+          "outgoing_edge": "declared-link:5",
+          "turn_angle_deg": 5.443872994837662,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1932:n0",
+          "incoming_edge": "declared-link:5",
+          "outgoing_edge": "FJ1932:e0",
+          "turn_angle_deg": 21.80148869758034,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1932:n1",
+          "incoming_edge": "FJ1932:e0",
+          "outgoing_edge": "declared-link:6",
+          "turn_angle_deg": 1.7097600264999406,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n0",
+          "incoming_edge": "declared-link:6",
+          "outgoing_edge": "FJ1931:e0",
+          "turn_angle_deg": 38.65413866588989,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n2",
+          "incoming_edge": "FJ1931:e0",
+          "outgoing_edge": "FJ1931:e2",
+          "turn_angle_deg": 57.311358147220886,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1931:n4",
+          "incoming_edge": "FJ1931:e2",
+          "outgoing_edge": "FJ1931:e4::samples:0-237",
+          "turn_angle_deg": 40.87654499340177,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1931:e4:237",
+          "incoming_edge": "FJ1931:e4::samples:0-237",
+          "outgoing_edge": "declared-link:7",
+          "turn_angle_deg": 88.4973115770703,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3411:e0:308",
+          "incoming_edge": "declared-link:7",
+          "outgoing_edge": "FJ3411:e0::samples:133-308",
+          "turn_angle_deg": 88.79061471534826,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3411:e0:133",
+          "incoming_edge": "FJ3411:e0::samples:133-308",
+          "outgoing_edge": "FJ3411:e0::samples:88-133",
+          "turn_angle_deg": 4.246361253449662,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3411:e0:88",
+          "incoming_edge": "FJ3411:e0::samples:88-133",
+          "outgoing_edge": "declared-link:9",
+          "turn_angle_deg": 87.23422869655812,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3417:n1",
+          "incoming_edge": "declared-link:9",
+          "outgoing_edge": "FJ3417:e0::samples:2-155",
+          "turn_angle_deg": 20.99367230570348,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3417:e0:2",
+          "incoming_edge": "FJ3417:e0::samples:2-155",
+          "outgoing_edge": "declared-link:10",
+          "turn_angle_deg": 159.64023840622693,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ3564:e0:144",
+          "incoming_edge": "declared-link:10",
+          "outgoing_edge": "FJ3564:e0::samples:0-144",
+          "turn_angle_deg": 141.15311869760293,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ3564:n0",
+          "incoming_edge": "FJ3564:e0::samples:0-144",
+          "outgoing_edge": "declared-link:17",
+          "turn_angle_deg": 5.691722278322746,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "estimated_right_carotid_neck:0",
+          "incoming_edge": "declared-link:17",
+          "outgoing_edge": "estimated_right_carotid_neck:e0",
+          "turn_angle_deg": 5.882797861566791,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "estimated_right_carotid_neck:1",
+          "incoming_edge": "estimated_right_carotid_neck:e0",
+          "outgoing_edge": "declared-link:18",
+          "turn_angle_deg": 9.842224736648205,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1682:n0",
+          "incoming_edge": "declared-link:18",
+          "outgoing_edge": "FJ1682:e0::samples:0-653",
+          "turn_angle_deg": 9.831152398505361,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1682:e0:653",
+          "incoming_edge": "FJ1682:e0::samples:0-653",
+          "outgoing_edge": "FJ1682:e0::samples:653-664",
+          "turn_angle_deg": 0.7367002996260524,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "sample:FJ1682:e0:664",
+          "incoming_edge": "FJ1682:e0::samples:653-664",
+          "outgoing_edge": "declared-link:20",
+          "turn_angle_deg": 80.41408449149127,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "FJ1692:n1",
+          "incoming_edge": "declared-link:20",
+          "outgoing_edge": "FJ1692:e0",
+          "turn_angle_deg": 68.85672838516169,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        }
+      ],
+      "scope": "Adjacent source polyline segments along the supplied traversal",
+      "anatomical_validation": "NOT RUN",
+      "acceptance_limits": "NOT SET"
+    }
+  ],
+  "new_transitions": [
+    {
+      "node_id": "FJ2074:n0",
+      "incoming_edge": "FJ2074:e0",
+      "outgoing_edge": "declared-link:0",
+      "turn_angle_deg": 89.36164060708539,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "node_id": "sample:FJ3466:e0:452",
+      "incoming_edge": "declared-link:0",
+      "outgoing_edge": "FJ3466:e0::samples:0-452",
+      "turn_angle_deg": 90.44264005967565,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "node_id": "FJ3466:n0",
+      "incoming_edge": "FJ3466:e0::samples:0-452",
+      "outgoing_edge": "FJ3464:e0",
+      "turn_angle_deg": 38.445764551144705,
+      "radius_jump_mm": 0.33588108514475845,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "node_id": "FJ3464:n0",
+      "incoming_edge": "FJ3464:e0",
+      "outgoing_edge": "declared-link:2",
+      "turn_angle_deg": 21.893194185129985,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "node_id": "FJ1932:n0",
+      "incoming_edge": "declared-link:2",
+      "outgoing_edge": "FJ1932:e0",
+      "turn_angle_deg": 20.466332787156123,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "node_id": "FJ1932:n1",
+      "incoming_edge": "FJ1932:e0",
+      "outgoing_edge": "declared-link:6",
+      "turn_angle_deg": 1.7097600264999406,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "node_id": "FJ1931:n0",
+      "incoming_edge": "declared-link:6",
+      "outgoing_edge": "FJ1931:e0",
+      "turn_angle_deg": 38.65413866588989,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "node_id": "sample:FJ1931:e4:237",
+      "incoming_edge": "FJ1931:e4::samples:0-237",
+      "outgoing_edge": "declared-link:7",
+      "turn_angle_deg": 88.4973115770703,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "node_id": "sample:FJ3411:e0:308",
+      "incoming_edge": "declared-link:7",
+      "outgoing_edge": "FJ3411:e0::samples:133-308",
+      "turn_angle_deg": 88.79061471534826,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "node_id": "sample:FJ3411:e0:133",
+      "incoming_edge": "FJ3411:e0::samples:133-308",
+      "outgoing_edge": "declared-link:8",
+      "turn_angle_deg": 86.53508387662421,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        0,
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "node_id": "FJ3483:n0",
+      "incoming_edge": "declared-link:8",
+      "outgoing_edge": "FJ3483:e0",
+      "turn_angle_deg": 5.254465362725468,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        0,
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "node_id": "FJ3483:n1",
+      "incoming_edge": "FJ3483:e0",
+      "outgoing_edge": "declared-link:12",
+      "turn_angle_deg": 8.445329654347708,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        0,
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "node_id": "estimated_left_carotid_neck:0",
+      "incoming_edge": "declared-link:12",
+      "outgoing_edge": "estimated_left_carotid_neck:e0",
+      "turn_angle_deg": 6.0196314331865155,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        0,
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "node_id": "estimated_left_carotid_neck:1",
+      "incoming_edge": "estimated_left_carotid_neck:e0",
+      "outgoing_edge": "declared-link:13",
+      "turn_angle_deg": 10.477762848726018,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        0,
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "node_id": "FJ1682M:n1",
+      "incoming_edge": "declared-link:13",
+      "outgoing_edge": "FJ1682M:e0::samples:10-668",
+      "turn_angle_deg": 10.548709843781774,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        0,
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "node_id": "sample:FJ1682M:e0:10",
+      "incoming_edge": "FJ1682M:e0::samples:10-668",
+      "outgoing_edge": "declared-link:14",
+      "turn_angle_deg": 96.96555299347497,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        0,
+        4
+      ]
+    },
+    {
+      "node_id": "FJ1654M:n1",
+      "incoming_edge": "declared-link:14",
+      "outgoing_edge": "FJ1654M:e0::samples:91-188",
+      "turn_angle_deg": 61.66458299395507,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        0,
+        4
+      ]
+    },
+    {
+      "node_id": "sample:FJ1682M:e0:3",
+      "incoming_edge": "FJ1682M:e0::samples:3-10",
+      "outgoing_edge": "declared-link:15",
+      "turn_angle_deg": 81.1449656637263,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        1,
+        5
+      ]
+    },
+    {
+      "node_id": "FJ1692M:n0",
+      "incoming_edge": "declared-link:15",
+      "outgoing_edge": "FJ1692M:e0",
+      "turn_angle_deg": 68.92039432135664,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        1,
+        5
+      ]
+    },
+    {
+      "node_id": "sample:FJ3411:e0:88",
+      "incoming_edge": "FJ3411:e0::samples:88-133",
+      "outgoing_edge": "declared-link:9",
+      "turn_angle_deg": 87.23422869655812,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        2,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "node_id": "FJ3417:n1",
+      "incoming_edge": "declared-link:9",
+      "outgoing_edge": "FJ3417:e0::samples:2-155",
+      "turn_angle_deg": 20.99367230570348,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        2,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "node_id": "sample:FJ3417:e0:2",
+      "incoming_edge": "FJ3417:e0::samples:2-155",
+      "outgoing_edge": "declared-link:10",
+      "turn_angle_deg": 159.64023840622693,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        2,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "node_id": "sample:FJ3564:e0:144",
+      "incoming_edge": "declared-link:10",
+      "outgoing_edge": "FJ3564:e0::samples:0-144",
+      "turn_angle_deg": 141.15311869760293,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        2,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "node_id": "FJ3564:n0",
+      "incoming_edge": "FJ3564:e0::samples:0-144",
+      "outgoing_edge": "declared-link:17",
+      "turn_angle_deg": 5.691722278322746,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        2,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "node_id": "estimated_right_carotid_neck:0",
+      "incoming_edge": "declared-link:17",
+      "outgoing_edge": "estimated_right_carotid_neck:e0",
+      "turn_angle_deg": 5.882797861566791,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        2,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "node_id": "estimated_right_carotid_neck:1",
+      "incoming_edge": "estimated_right_carotid_neck:e0",
+      "outgoing_edge": "declared-link:18",
+      "turn_angle_deg": 9.842224736648205,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        2,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "node_id": "FJ1682:n0",
+      "incoming_edge": "declared-link:18",
+      "outgoing_edge": "FJ1682:e0::samples:0-653",
+      "turn_angle_deg": 9.831152398505361,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        2,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "node_id": "sample:FJ1682:e0:653",
+      "incoming_edge": "FJ1682:e0::samples:0-653",
+      "outgoing_edge": "declared-link:19",
+      "turn_angle_deg": 87.49453814626717,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        2,
+        6
+      ]
+    },
+    {
+      "node_id": "FJ1654:n0",
+      "incoming_edge": "declared-link:19",
+      "outgoing_edge": "FJ1654:e0::samples:0-77",
+      "turn_angle_deg": 35.29533108735704,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        2,
+        6
+      ]
+    },
+    {
+      "node_id": "sample:FJ1682:e0:664",
+      "incoming_edge": "FJ1682:e0::samples:653-664",
+      "outgoing_edge": "declared-link:20",
+      "turn_angle_deg": 80.41408449149127,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        3,
+        7
+      ]
+    },
+    {
+      "node_id": "FJ1692:n1",
+      "incoming_edge": "declared-link:20",
+      "outgoing_edge": "FJ1692:e0",
+      "turn_angle_deg": 68.85672838516169,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        3,
+        7
+      ]
+    },
+    {
+      "node_id": "sample:FJ2143:e0:1380",
+      "incoming_edge": "FJ2143:e0::samples:0-1380",
+      "outgoing_edge": "declared-link:3",
+      "turn_angle_deg": 89.45169498431675,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "node_id": "sample:FJ3567:e0:56",
+      "incoming_edge": "declared-link:3",
+      "outgoing_edge": "FJ3567:e0::samples:56-548",
+      "turn_angle_deg": 88.80873341553277,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "node_id": "sample:FJ3567:e0:548",
+      "incoming_edge": "FJ3567:e0::samples:56-548",
+      "outgoing_edge": "declared-link:4",
+      "turn_angle_deg": 81.40060497562158,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "node_id": "FJ3565:n0",
+      "incoming_edge": "declared-link:4",
+      "outgoing_edge": "FJ3565:e0",
+      "turn_angle_deg": 81.70634004183103,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "node_id": "FJ3565:n3",
+      "incoming_edge": "FJ3565:e2",
+      "outgoing_edge": "declared-link:5",
+      "turn_angle_deg": 5.443872994837662,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "node_id": "FJ1932:n0",
+      "incoming_edge": "declared-link:5",
+      "outgoing_edge": "FJ1932:e0",
+      "turn_angle_deg": 21.80148869758034,
+      "radius_jump_mm": 0.0,
+      "position_gap_mm": 0.0,
+      "route_indices": [
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "envelopes": [
+    {
+      "edge_id": "declared-link:0",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 1,
+      "covered_cells": 0,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 0,
+      "minimum_cover_margin_mm": null,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.5,
+          "position_mm": [
+            51.53226180239213,
+            -121.17776351248807,
+            826.2284125198915
+          ],
+          "radius_mm": 4.727246128695605,
+          "distance_to_surface_mm": 1.341013541996656,
+          "excess_mm": 3.3862325866989496
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    },
+    {
+      "edge_id": "declared-link:10",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 3,
+      "covered_cells": 1,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 1,
+      "minimum_cover_margin_mm": 0.07081149658158306,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.25,
+          "position_mm": [
+            -13.345384060682946,
+            -109.6095753195151,
+            1334.9455037710698
+          ],
+          "radius_mm": 5.070541472174767,
+          "distance_to_surface_mm": 4.762200815004755,
+          "excess_mm": 0.308340657170012
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    },
+    {
+      "edge_id": "declared-link:11",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 1,
+      "covered_cells": 0,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 0,
+      "minimum_cover_margin_mm": null,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.5,
+          "position_mm": [
+            -14.400000000000002,
+            -108.0,
+            1336.0
+          ],
+          "radius_mm": 4.65329983228432,
+          "distance_to_surface_mm": 4.175018211106728,
+          "excess_mm": 0.478281621177592
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    },
+    {
+      "edge_id": "declared-link:12",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 1,
+      "covered_cells": 0,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 0,
+      "minimum_cover_margin_mm": null,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.5,
+          "position_mm": [
+            18.969659239491342,
+            -108.09953464794435,
+            1370.4900268554688
+          ],
+          "radius_mm": 3.6377419923882863,
+          "distance_to_surface_mm": 3.238426088294578,
+          "excess_mm": 0.39931590409370843
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    },
+    {
+      "edge_id": "declared-link:13",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 1,
+      "covered_cells": 0,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 0,
+      "minimum_cover_margin_mm": null,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.5,
+          "position_mm": [
+            35.49302153152854,
+            -105.4386152097452,
+            1436.4311208491963
+          ],
+          "radius_mm": 2.0502842643661996,
+          "distance_to_surface_mm": 1.7442840391649659,
+          "excess_mm": 0.3060002252012337
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    },
+    {
+      "edge_id": "declared-link:14",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 1,
+      "covered_cells": 0,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 0,
+      "minimum_cover_margin_mm": null,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.5,
+          "position_mm": [
+            13.902182455479245,
+            -111.20541977495297,
+            1536.2635021362819
+          ],
+          "radius_mm": 1.5370485030339296,
+          "distance_to_surface_mm": 1.4457290393049846,
+          "excess_mm": 0.09131946372894495
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    },
+    {
+      "edge_id": "declared-link:15",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 1,
+      "covered_cells": 0,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 0,
+      "minimum_cover_margin_mm": null,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.5,
+          "position_mm": [
+            14.929161706926307,
+            -111.90275522241527,
+            1536.0111946938541
+          ],
+          "radius_mm": 1.680127665494092,
+          "distance_to_surface_mm": 1.3642199915856041,
+          "excess_mm": 0.31590767390848784
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    },
+    {
+      "edge_id": "declared-link:16",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 1,
+      "covered_cells": 0,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 0,
+      "minimum_cover_margin_mm": null,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.5,
+          "position_mm": [
+            2.5583376047225332,
+            -113.11527082617542,
+            1538.0449517988536
+          ],
+          "radius_mm": 0.9800432990648074,
+          "distance_to_surface_mm": 0.35784045463208947,
+          "excess_mm": 0.6222028444327179
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    },
+    {
+      "edge_id": "declared-link:17",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 21,
+      "covered_cells": 10,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 6,
+      "minimum_cover_margin_mm": 0.001787024388917009,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.9375,
+          "position_mm": [
+            -16.63924705529989,
+            -111.2801798064414,
+            1371.7375045776366
+          ],
+          "radius_mm": 3.825091864312915,
+          "distance_to_surface_mm": 3.804126060079092,
+          "excess_mm": 0.020965804233822993
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    },
+    {
+      "edge_id": "declared-link:18",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 1,
+      "covered_cells": 0,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 0,
+      "minimum_cover_margin_mm": null,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.5,
+          "position_mm": [
+            -35.493488950425494,
+            -105.44011972025265,
+            1436.4496011913764
+          ],
+          "radius_mm": 2.0502225692961322,
+          "distance_to_surface_mm": 1.7497630483126194,
+          "excess_mm": 0.3004595209835128
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    },
+    {
+      "edge_id": "declared-link:19",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 1,
+      "covered_cells": 0,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 0,
+      "minimum_cover_margin_mm": null,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.5,
+          "position_mm": [
+            -13.069905962113456,
+            -110.93898564335424,
+            1536.9701356705632
+          ],
+          "radius_mm": 1.580449863236801,
+          "distance_to_surface_mm": 0.9688325012316632,
+          "excess_mm": 0.6116173620051377
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    },
+    {
+      "edge_id": "declared-link:2",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 1,
+      "covered_cells": 0,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 0,
+      "minimum_cover_margin_mm": null,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.5,
+          "position_mm": [
+            6.4,
+            -123.60000000000002,
+            959.2
+          ],
+          "radius_mm": 6.377708763999664,
+          "distance_to_surface_mm": 5.906445243756875,
+          "excess_mm": 0.47126352024278884
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    },
+    {
+      "edge_id": "declared-link:20",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 1,
+      "covered_cells": 0,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 0,
+      "minimum_cover_margin_mm": null,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.5,
+          "position_mm": [
+            -14.871558081650129,
+            -111.90765291474119,
+            1536.2301310242442
+          ],
+          "radius_mm": 1.6617327175157,
+          "distance_to_surface_mm": 1.3544107137675405,
+          "excess_mm": 0.30732200374815943
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    },
+    {
+      "edge_id": "declared-link:21",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 1,
+      "covered_cells": 0,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 0,
+      "minimum_cover_margin_mm": null,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.5,
+          "position_mm": [
+            -3.3189505753053252,
+            -112.63589805393534,
+            1537.9577184452883
+          ],
+          "radius_mm": 0.999728053445567,
+          "distance_to_surface_mm": 0.6490694109125674,
+          "excess_mm": 0.3506586425329996
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    },
+    {
+      "edge_id": "declared-link:3",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 1,
+      "covered_cells": 0,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 0,
+      "minimum_cover_margin_mm": null,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.5,
+          "position_mm": [
+            -50.93442772147101,
+            -125.21448962942871,
+            816.5301433301131
+          ],
+          "radius_mm": 5.048444014717472,
+          "distance_to_surface_mm": 4.312594900409741,
+          "excess_mm": 0.7358491143077304
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    },
+    {
+      "edge_id": "declared-link:4",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 1,
+      "covered_cells": 0,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 0,
+      "minimum_cover_margin_mm": null,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.5,
+          "position_mm": [
+            -32.91026341108552,
+            -109.45997913824807,
+            908.906153396619
+          ],
+          "radius_mm": 4.104322408668904,
+          "distance_to_surface_mm": 3.6116727165454687,
+          "excess_mm": 0.4926496921234351
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    },
+    {
+      "edge_id": "declared-link:5",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 1,
+      "covered_cells": 0,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 0,
+      "minimum_cover_margin_mm": null,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.5,
+          "position_mm": [
+            4.800000000000003,
+            -124.00000000000003,
+            959.6000000000001
+          ],
+          "radius_mm": 6.377708763999664,
+          "distance_to_surface_mm": 5.789133684773734,
+          "excess_mm": 0.5885750792259294
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    },
+    {
+      "edge_id": "declared-link:6",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 129,
+      "covered_cells": 63,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 12,
+      "minimum_cover_margin_mm": 0.00020887145190076717,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.625,
+          "position_mm": [
+            11.200000000000001,
+            -91.10000000000001,
+            1134.1000000000001
+          ],
+          "radius_mm": 7.948089450309004,
+          "distance_to_surface_mm": 7.933485550325733,
+          "excess_mm": 0.014603899983271162
+        },
+        {
+          "segment_index": 0,
+          "fraction": 0.0625,
+          "position_mm": [
+            11.200000000000001,
+            -93.35000000000002,
+            1126.45
+          ],
+          "radius_mm": 8.549446267304585,
+          "distance_to_surface_mm": 8.436665403089586,
+          "excess_mm": 0.112780864214999
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    },
+    {
+      "edge_id": "declared-link:7",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 9,
+      "covered_cells": 4,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 4,
+      "minimum_cover_margin_mm": 0.04279230344500476,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.03125,
+          "position_mm": [
+            20.610893233397686,
+            -64.77970518677076,
+            1288.1428583992047
+          ],
+          "radius_mm": 7.88685747006812,
+          "distance_to_surface_mm": 7.875534927279226,
+          "excess_mm": 0.011322542788894552
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    },
+    {
+      "edge_id": "declared-link:8",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 29,
+      "covered_cells": 14,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 7,
+      "minimum_cover_margin_mm": 0.024041560096727782,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.0625,
+          "position_mm": [
+            17.25365305191994,
+            -99.77253843452563,
+            1305.6635184093216
+          ],
+          "radius_mm": 11.19004867430189,
+          "distance_to_surface_mm": 10.97559764110001,
+          "excess_mm": 0.21445103320188075
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    },
+    {
+      "edge_id": "declared-link:9",
+      "status": "FAIL",
+      "method": "linear-radius-ball-envelope/1",
+      "scope": "union of linearly interpolated radius balls under floating-point closed-solid assumptions",
+      "tolerance_mm": 1e-06,
+      "max_depth": 16,
+      "max_cells": 100000,
+      "query_batch_size": 128,
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 33564,
+        "normalized_vertices": 33564,
+        "faces": 67128,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      },
+      "segment_count": 1,
+      "processed_cells": 153,
+      "covered_cells": 76,
+      "unresolved_segments": [],
+      "outside_witnesses": [],
+      "maximum_depth_used": 7,
+      "minimum_cover_margin_mm": 0.0007997802647558293,
+      "surface_self_intersection": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "radius_exceedance_witnesses": [
+        {
+          "segment_index": 0,
+          "fraction": 0.0625,
+          "position_mm": [
+            13.423983801070266,
+            -109.63472298684783,
+            1303.9116039222965
+          ],
+          "radius_mm": 11.271338402302689,
+          "distance_to_surface_mm": 10.871614620803278,
+          "excess_mm": 0.3997237814994108
+        }
+      ],
+      "tube_wall_containment": "NOT RUN"
+    }
+  ],
+  "acceptance_limits": "NOT SET",
+  "anatomical_validation": "NOT RUN",
+  "live_scene_changed": false,
+  "tube_wall_containment": "NOT RUN",
+  "measurement_status": "PASS",
+  "envelope_status": "FAIL",
+  "scope": "Polyline transitions and radius-ball envelope only; envelope failure is not tube-wall exit proof"
+}

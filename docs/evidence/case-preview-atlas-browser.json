@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "url": "http://127.0.0.1:8093/case-labels",
+  "source_file": "exports/atlas-case-inspection/all-arterial.snapshot.json",
+  "source_sha256": "fa2b9856bb47469b189af136c1e621f19381dd9470fca09f53e874061b9ff1cd",
+  "source_bytes": 8523589,
+  "edge_count": 1081,
+  "selected_edge": "FJ1692:e0",
+  "errors": [],
+  "screenshot": "exports/label-workbench/atlas-preview.png",
+  "scope": "Full saved arterial case load, searchable selection and centerline display; no anatomical approval or source edit"
+}

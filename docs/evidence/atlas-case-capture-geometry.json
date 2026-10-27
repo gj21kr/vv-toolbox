@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "Exact source array comparison for all captured arterial parts",
+  "archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "case_revision": "c79686c7a00b77bf172d925eed9968873b8ea3f54d1a673be138386fb3a43b83",
+  "file_sha256": "aa993de0b810431df928dacb144f8461db411a72a38e40929f3487e6c9e77cf3",
+  "source_arterial_parts": 518,
+  "captured_parts": 517,
+  "vertices": 433267,
+  "triangles": 774984,
+  "missing_source_parts": [
+    "FJ3553"
+  ],
+  "all_declared_omissions": [
+    "FJ3553",
+    "estimated_left_carotid_neck",
+    "estimated_left_vertebral_neck",
+    "estimated_right_carotid_neck",
+    "estimated_right_vertebral_neck"
+  ],
+  "anatomical_validation": "NOT RUN",
+  "masks": "NOT RUN"
+}

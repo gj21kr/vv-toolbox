@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "case_revision": "c79686c7a00b77bf172d925eed9968873b8ea3f54d1a673be138386fb3a43b83",
+  "surface_parts": 517,
+  "spacing_mm": 1.0,
+  "tile_shape_zyx": [
+    32,
+    32,
+    32
+  ],
+  "max_algorithm_bytes": 268435456,
+  "scope": "All 517 captured original arterial surfaces; estimated neck connectors excluded",
+  "anatomical_validation": "NOT RUN",
+  "tiles_written": 1025,
+  "elapsed_seconds": 33788.286,
+  "peak_process_rss_bytes": 576905216,
+  "last_start_zyx": [
+    1696,
+    128,
+    320
+  ],
+  "foreground_voxels": 453552,
+  "manifest_sha256": "c80333a1b97b8c34e52be2315d0856c9a009ac9f0b8073afe857092cca324330",
+  "file_integrity": "PASS"
+}

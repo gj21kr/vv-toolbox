@@ -1,0 +1,12 @@
+{
+  "schema": "vv-toolbox.validation/1",
+  "environment": "Docker vv-annotation-ui",
+  "date": "2026-10-20",
+  "focused_command": "PYTHONPATH=src pytest -q -p no:cacheprovider tests/test_synthetic_routes.py tests/test_access_routes.py",
+  "focused_passed": 24,
+  "full_suite": {"passed": 407, "skipped": 3, "warnings": 304, "seconds": 48.61},
+  "scope": "source preservation, explicit endpoint bridge generation and four declared graph routes on synthetic fixtures",
+  "actual_atlas_routes": "NOT RUN",
+  "anatomical_acceptance": "UNKNOWN",
+  "note": "Final input validation regressions were checked in the focused suite after full-suite collection."
+}

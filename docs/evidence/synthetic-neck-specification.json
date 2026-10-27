@@ -1,0 +1,50 @@
+{
+  "schema": "vv-toolbox.synthetic-routes/1",
+  "source_case_sha256": "ac39f2d88883cf9f2389618a7ad6f0770dd3b5efef17278fbcefa02bf677aa24",
+  "bridges": [
+    {
+      "id": "estimated_L_carotid_gap",
+      "from": {
+        "edge_id": "FJ3483:e0",
+        "endpoint": "end"
+      },
+      "to": {
+        "edge_id": "FJ1682M:e0",
+        "endpoint": "end"
+      },
+      "handle_lengths_mm": [
+        69.99697459886833,
+        69.99697459886833
+      ],
+      "samples": 96,
+      "rationale": "Existing atlas_neck carotid source pair; superior CCA and inferior ICA extraction endpoints. Handles equal endpoint chord length as existing Hermite display policy. Bifurcation omitted; synthetic continuation only.",
+      "evidence_refs": [
+        "src/vv_toolbox/atlas_neck.py::_repair",
+        "docs/ACCESS_ROUTE_ENDPOINTS.md",
+        "docs/evidence/access-route-endpoints.json"
+      ]
+    },
+    {
+      "id": "estimated_R_carotid_gap",
+      "from": {
+        "edge_id": "FJ3564:e0",
+        "endpoint": "start"
+      },
+      "to": {
+        "edge_id": "FJ1682:e0",
+        "endpoint": "start"
+      },
+      "handle_lengths_mm": [
+        70.0530916061193,
+        70.0530916061193
+      ],
+      "samples": 96,
+      "rationale": "Existing atlas_neck carotid source pair; superior CCA and inferior ICA extraction endpoints. Handles equal endpoint chord length as existing Hermite display policy. Bifurcation omitted; synthetic continuation only.",
+      "evidence_refs": [
+        "src/vv_toolbox/atlas_neck.py::_repair",
+        "docs/ACCESS_ROUTE_ENDPOINTS.md",
+        "docs/evidence/access-route-endpoints.json"
+      ]
+    }
+  ]
+}

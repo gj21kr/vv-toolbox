@@ -1,0 +1,309 @@
+{
+  "status": "CANDIDATE",
+  "method": "selected-near-planar-min-quality-flips/1",
+  "flips": 9,
+  "history": [
+    {
+      "sweep": 0,
+      "face_ids": [
+        16767,
+        16773
+      ],
+      "old_faces": [
+        [
+          5114,
+          5115,
+          5118
+        ],
+        [
+          5115,
+          5119,
+          5118
+        ]
+      ],
+      "new_faces": [
+        [
+          5115,
+          5119,
+          5114
+        ],
+        [
+          5118,
+          5114,
+          5119
+        ]
+      ],
+      "plane_offset_mm": 5.02669061236416e-09
+    },
+    {
+      "sweep": 0,
+      "face_ids": [
+        18762,
+        18763
+      ],
+      "old_faces": [
+        [
+          6115,
+          6117,
+          6148
+        ],
+        [
+          6115,
+          6116,
+          6117
+        ]
+      ],
+      "new_faces": [
+        [
+          6115,
+          6116,
+          6148
+        ],
+        [
+          6117,
+          6148,
+          6116
+        ]
+      ],
+      "plane_offset_mm": 1.6778093649185148e-09
+    },
+    {
+      "sweep": 0,
+      "face_ids": [
+        18765,
+        18828
+      ],
+      "old_faces": [
+        [
+          6112,
+          6115,
+          6148
+        ],
+        [
+          6112,
+          6148,
+          6147
+        ]
+      ],
+      "new_faces": [
+        [
+          6115,
+          6147,
+          6112
+        ],
+        [
+          6147,
+          6115,
+          6148
+        ]
+      ],
+      "plane_offset_mm": 4.3976806744783214e-10
+    },
+    {
+      "sweep": 0,
+      "face_ids": [
+        18829,
+        18830
+      ],
+      "old_faces": [
+        [
+          6147,
+          6148,
+          6155
+        ],
+        [
+          6147,
+          6155,
+          6154
+        ]
+      ],
+      "new_faces": [
+        [
+          6148,
+          6154,
+          6147
+        ],
+        [
+          6154,
+          6148,
+          6155
+        ]
+      ],
+      "plane_offset_mm": 9.338170743611318e-09
+    },
+    {
+      "sweep": 0,
+      "face_ids": [
+        21004,
+        21005
+      ],
+      "old_faces": [
+        [
+          7231,
+          7251,
+          7252
+        ],
+        [
+          7230,
+          7251,
+          7231
+        ]
+      ],
+      "new_faces": [
+        [
+          7231,
+          7230,
+          7252
+        ],
+        [
+          7251,
+          7252,
+          7230
+        ]
+      ],
+      "plane_offset_mm": 6.568753311197908e-09
+    },
+    {
+      "sweep": 0,
+      "face_ids": [
+        21049,
+        21060
+      ],
+      "old_faces": [
+        [
+          7241,
+          7250,
+          7249
+        ],
+        [
+          7241,
+          7254,
+          7250
+        ]
+      ],
+      "new_faces": [
+        [
+          7241,
+          7254,
+          7249
+        ],
+        [
+          7250,
+          7249,
+          7254
+        ]
+      ],
+      "plane_offset_mm": 8.904754732116113e-09
+    },
+    {
+      "sweep": 0,
+      "face_ids": [
+        36897,
+        36899
+      ],
+      "old_faces": [
+        [
+          15236,
+          15237,
+          15392
+        ],
+        [
+          15236,
+          15392,
+          15238
+        ]
+      ],
+      "new_faces": [
+        [
+          15237,
+          15238,
+          15236
+        ],
+        [
+          15238,
+          15237,
+          15392
+        ]
+      ],
+      "plane_offset_mm": 8.82104494309699e-09
+    },
+    {
+      "sweep": 0,
+      "face_ids": [
+        37325,
+        37326
+      ],
+      "old_faces": [
+        [
+          15445,
+          15449,
+          15446
+        ],
+        [
+          15446,
+          15449,
+          15447
+        ]
+      ],
+      "new_faces": [
+        [
+          15445,
+          15447,
+          15446
+        ],
+        [
+          15447,
+          15445,
+          15449
+        ]
+      ],
+      "plane_offset_mm": 1.78781824761165e-09
+    },
+    {
+      "sweep": 0,
+      "face_ids": [
+        37330,
+        37331
+      ],
+      "old_faces": [
+        [
+          15445,
+          15448,
+          15458
+        ],
+        [
+          15445,
+          15458,
+          15449
+        ]
+      ],
+      "new_faces": [
+        [
+          15448,
+          15449,
+          15445
+        ],
+        [
+          15449,
+          15448,
+          15458
+        ]
+      ],
+      "plane_offset_mm": 6.813545535069854e-09
+    }
+  ],
+  "plane_tolerance_mm": 1e-08,
+  "vertices_unchanged": true,
+  "unselected_faces_unchanged": true,
+  "minimum_quality_before": 0.00034852996660096516,
+  "minimum_quality_after": 0.00034852996660096516,
+  "self_contact": "NOT RUN",
+  "anatomical_validation": "NOT RUN",
+  "source_surface_sha256": "bad61c62ca40b1aade54c6e52e3ded05829240b23f6dbd915991d8688ae313d9",
+  "artifact": "exports/brachiocephalic-source-patch/neck-planar-flips.npz",
+  "artifact_sha256": "2b7d67e58f8aadceeccfa99c468f7bd668a7530ed06a57b40521a565545815d5",
+  "closed_positive_volume": true,
+  "source_modified": false,
+  "live_scene_changed": false,
+  "source_face_lineage": "Changed faces are derived from recorded face pairs; old one-face ownership cannot be copied"
+}

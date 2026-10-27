@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "Saved bend centerline smoothing, fixed surface, undo/redo and edited download",
+  "browser_path": "Playwright: Browser plugin not available",
+  "smoothing": true,
+  "undo_redo": true,
+  "changed_revision": "002e2f47266abca5b0ca1f47a422dff4f16920d83a87c73f4d92dee428d69563",
+  "revision": "002e2f47266abca5b0ca1f47a422dff4f16920d83a87c73f4d92dee428d69563",
+  "edges": 65,
+  "file_sha256": "bedb20c3a97897325ed0448efdf188d1e0c6b8a6053781ce7fe3e6245aca07b5",
+  "exact_document_roundtrip": false,
+  "edited_document_download": true,
+  "atlas_unchanged": true,
+  "browser_errors": [],
+  "visual_review": "NOT RUN"
+}

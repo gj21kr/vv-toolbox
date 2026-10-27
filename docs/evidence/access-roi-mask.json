@@ -1,0 +1,814 @@
+{
+  "status": "PASS",
+  "phase": "complete",
+  "case_revision": "51182f6ba84c030716888beb4daa45fd5eb1c34952e23003c3a15559d3c7594b",
+  "source_edge": "FJ2074:e0",
+  "center_lps_mm": [
+    44.12087791100192,
+    -131.20213431351877,
+    649.3368456014107
+  ],
+  "grid": {
+    "shape_zyx": [
+      33,
+      33,
+      33
+    ],
+    "spacing_xyz_mm": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "origin_xyz_mm": [
+      36.12087791100192,
+      -139.20213431351877,
+      641.3368456014107
+    ],
+    "frame_id": "bodyparts3d_native_LPS"
+  },
+  "scope": "33 cubed ROI; not whole-model masks or anatomical segment approval",
+  "accepted_for_generation": false,
+  "anatomical_validation": "NOT RUN",
+  "live_scene_changed": false,
+  "elapsed_seconds": 269.6185725779942,
+  "quality": {
+    "scope": "Exact registered surfaces and center-sampled memberships",
+    "coverage": "roi",
+    "surface_bounds_covered": "NOT APPLICABLE",
+    "source_bounds_mm": [
+      [
+        -82.1760025024414,
+        -152.94400024414062,
+        470.4219970703125
+      ],
+      [
+        65.9103012084961,
+        -49.84489822387695,
+        1549.6500244140625
+      ]
+    ],
+    "sampled_bounds_mm": [
+      [
+        35.87087791100192,
+        -139.45213431351877,
+        641.0868456014107
+      ],
+      [
+        52.37087791100192,
+        -122.95213431351877,
+        657.5868456014107
+      ]
+    ],
+    "surface_membership_equality": "PASS",
+    "lesion_sampling": "NOT APPLICABLE",
+    "selected_edges": [
+      "FJ1931:e0",
+      "FJ1931:e1",
+      "FJ1931:e2",
+      "FJ1931:e3",
+      "FJ1931:e4::samples:0-237",
+      "FJ1931:e4::samples:237-250",
+      "FJ1932:e0",
+      "FJ2074:e0",
+      "FJ2143:e0::samples:0-1380",
+      "FJ2143:e0::samples:1380-1429",
+      "FJ3411:e0::samples:0-88",
+      "FJ3411:e0::samples:88-133",
+      "FJ3411:e0::samples:133-308",
+      "FJ3411:e0::samples:308-309",
+      "FJ3464:e0",
+      "FJ3466:e0::samples:0-452",
+      "FJ3466:e0::samples:452-583",
+      "FJ3565:e0",
+      "FJ3565:e1",
+      "FJ3565:e2",
+      "FJ3567:e0::samples:0-56",
+      "FJ3567:e0::samples:56-548",
+      "FJ3567:e0::samples:548-552",
+      "FJ3417:e0::samples:0-2",
+      "FJ3417:e0::samples:2-155",
+      "FJ3579:e0",
+      "FJ1654:e0::samples:0-77",
+      "FJ1654:e0::samples:77-175",
+      "FJ1692:e0",
+      "FJ1692M:e0",
+      "FJ1655:e0",
+      "FJ1654M:e0::samples:0-91",
+      "FJ1654M:e0::samples:91-188",
+      "FJ1682M:e0::samples:0-3",
+      "FJ1682M:e0::samples:3-10",
+      "FJ1682M:e0::samples:10-668",
+      "FJ3483:e0",
+      "estimated_left_carotid_neck:e0",
+      "FJ1682:e0::samples:0-653",
+      "FJ1682:e0::samples:653-664",
+      "FJ1682:e0::samples:664-668",
+      "FJ3564:e0::samples:0-144",
+      "FJ3564:e0::samples:144-152",
+      "estimated_right_carotid_neck:e0",
+      "declared-link:0",
+      "declared-link:2",
+      "declared-link:3",
+      "declared-link:4",
+      "declared-link:5",
+      "declared-link:6",
+      "declared-link:7",
+      "declared-link:8",
+      "declared-link:9",
+      "declared-link:10",
+      "declared-link:11",
+      "declared-link:12",
+      "declared-link:13",
+      "declared-link:14",
+      "declared-link:15",
+      "declared-link:16",
+      "declared-link:17",
+      "declared-link:18",
+      "declared-link:19",
+      "declared-link:20",
+      "declared-link:21"
+    ],
+    "anatomical_label_registry": {
+      "FJ1931:e0": 0,
+      "FJ1931:e1": 0,
+      "FJ1931:e2": 0,
+      "FJ1931:e3": 0,
+      "FJ1931:e4::samples:0-237": 0,
+      "FJ1931:e4::samples:237-250": 0,
+      "FJ1932:e0": 0,
+      "FJ2074:e0": 0,
+      "FJ2143:e0::samples:0-1380": 0,
+      "FJ2143:e0::samples:1380-1429": 0,
+      "FJ3411:e0::samples:0-88": 0,
+      "FJ3411:e0::samples:88-133": 0,
+      "FJ3411:e0::samples:133-308": 0,
+      "FJ3411:e0::samples:308-309": 0,
+      "FJ3464:e0": 0,
+      "FJ3466:e0::samples:0-452": 0,
+      "FJ3466:e0::samples:452-583": 0,
+      "FJ3565:e0": 0,
+      "FJ3565:e1": 0,
+      "FJ3565:e2": 0,
+      "FJ3567:e0::samples:0-56": 0,
+      "FJ3567:e0::samples:56-548": 0,
+      "FJ3567:e0::samples:548-552": 0,
+      "FJ3417:e0::samples:0-2": 0,
+      "FJ3417:e0::samples:2-155": 0,
+      "FJ3579:e0": 0,
+      "FJ1654:e0::samples:0-77": 0,
+      "FJ1654:e0::samples:77-175": 0,
+      "FJ1692:e0": 0,
+      "FJ1692M:e0": 0,
+      "FJ1655:e0": 0,
+      "FJ1654M:e0::samples:0-91": 0,
+      "FJ1654M:e0::samples:91-188": 0,
+      "FJ1682M:e0::samples:0-3": 0,
+      "FJ1682M:e0::samples:3-10": 0,
+      "FJ1682M:e0::samples:10-668": 0,
+      "FJ3483:e0": 0,
+      "estimated_left_carotid_neck:e0": 0,
+      "FJ1682:e0::samples:0-653": 0,
+      "FJ1682:e0::samples:653-664": 0,
+      "FJ1682:e0::samples:664-668": 0,
+      "FJ3564:e0::samples:0-144": 0,
+      "FJ3564:e0::samples:144-152": 0,
+      "estimated_right_carotid_neck:e0": 0,
+      "declared-link:0": 0,
+      "declared-link:2": 0,
+      "declared-link:3": 0,
+      "declared-link:4": 0,
+      "declared-link:5": 0,
+      "declared-link:6": 0,
+      "declared-link:7": 0,
+      "declared-link:8": 0,
+      "declared-link:9": 0,
+      "declared-link:10": 0,
+      "declared-link:11": 0,
+      "declared-link:12": 0,
+      "declared-link:13": 0,
+      "declared-link:14": 0,
+      "declared-link:15": 0,
+      "declared-link:16": 0,
+      "declared-link:17": 0,
+      "declared-link:18": 0,
+      "declared-link:19": 0,
+      "declared-link:20": 0,
+      "declared-link:21": 0
+    },
+    "segment_label_registry": {
+      "schema": "vv-toolbox.segment-label-registry/2",
+      "unknown": 0,
+      "labels": [
+        {
+          "id": 1,
+          "side": "L",
+          "artery": "ACA",
+          "segment": "A1"
+        },
+        {
+          "id": 2,
+          "side": "L",
+          "artery": "ACA",
+          "segment": "A2"
+        },
+        {
+          "id": 3,
+          "side": "L",
+          "artery": "ACA",
+          "segment": "A3"
+        },
+        {
+          "id": 4,
+          "side": "L",
+          "artery": "MCA",
+          "segment": "M1"
+        },
+        {
+          "id": 5,
+          "side": "L",
+          "artery": "MCA",
+          "segment": "M2"
+        },
+        {
+          "id": 6,
+          "side": "L",
+          "artery": "MCA",
+          "segment": "M3"
+        },
+        {
+          "id": 7,
+          "side": "R",
+          "artery": "ACA",
+          "segment": "A1"
+        },
+        {
+          "id": 8,
+          "side": "R",
+          "artery": "ACA",
+          "segment": "A2"
+        },
+        {
+          "id": 9,
+          "side": "R",
+          "artery": "ACA",
+          "segment": "A3"
+        },
+        {
+          "id": 10,
+          "side": "R",
+          "artery": "MCA",
+          "segment": "M1"
+        },
+        {
+          "id": 11,
+          "side": "R",
+          "artery": "MCA",
+          "segment": "M2"
+        },
+        {
+          "id": 12,
+          "side": "R",
+          "artery": "MCA",
+          "segment": "M3"
+        },
+        {
+          "id": 13,
+          "side": "L",
+          "artery": "femoral",
+          "segment": "whole"
+        },
+        {
+          "id": 14,
+          "side": "L",
+          "artery": "external_iliac",
+          "segment": "whole"
+        },
+        {
+          "id": 15,
+          "side": "L",
+          "artery": "common_iliac",
+          "segment": "whole"
+        },
+        {
+          "id": 16,
+          "side": "L",
+          "artery": "common_carotid",
+          "segment": "whole"
+        },
+        {
+          "id": 17,
+          "side": "L",
+          "artery": "internal_carotid",
+          "segment": "whole"
+        },
+        {
+          "id": 18,
+          "side": "R",
+          "artery": "femoral",
+          "segment": "whole"
+        },
+        {
+          "id": 19,
+          "side": "R",
+          "artery": "external_iliac",
+          "segment": "whole"
+        },
+        {
+          "id": 20,
+          "side": "R",
+          "artery": "common_iliac",
+          "segment": "whole"
+        },
+        {
+          "id": 21,
+          "side": "R",
+          "artery": "common_carotid",
+          "segment": "whole"
+        },
+        {
+          "id": 22,
+          "side": "R",
+          "artery": "internal_carotid",
+          "segment": "whole"
+        },
+        {
+          "id": 23,
+          "side": "midline",
+          "artery": "abdominal_aorta",
+          "segment": "whole"
+        },
+        {
+          "id": 24,
+          "side": "midline",
+          "artery": "descending_thoracic_aorta",
+          "segment": "whole"
+        },
+        {
+          "id": 25,
+          "side": "midline",
+          "artery": "aortic_arch",
+          "segment": "whole"
+        },
+        {
+          "id": 26,
+          "side": "R",
+          "artery": "brachiocephalic",
+          "segment": "whole"
+        }
+      ],
+      "sha256": "c3f9f92672123099c35c3a6d2af2af3d3ee130471c3e8049d7abfa149b244a7e",
+      "evidence_scope": "Explicit segment or full-edge extent references; not independent anatomical validation"
+    },
+    "case_revision": "51182f6ba84c030716888beb4daa45fd5eb1c34952e23003c3a15559d3c7594b",
+    "grid": {
+      "schema": "vv-toolbox.mask/1",
+      "frame_id": "bodyparts3d_native_LPS",
+      "units": "mm",
+      "axes": "LPS",
+      "array_order": "zyx",
+      "sampling": "voxel_centres_surface_inclusive",
+      "surface_tolerance_mm": 1e-08,
+      "checks": {
+        "closed_oriented_nondegenerate_surface": "PASS",
+        "self_intersection": "NOT RUN",
+        "clinical_validity": "NOT RUN"
+      },
+      "shape_zyx": [
+        33,
+        33,
+        33
+      ],
+      "spacing_xyz_mm": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "voxel_xyz_to_world_mm": [
+        [
+          0.5,
+          0.0,
+          0.0,
+          36.12087791100192
+        ],
+        [
+          0.0,
+          0.5,
+          0.0,
+          -139.20213431351877
+        ],
+        [
+          0.0,
+          0.0,
+          0.5,
+          641.3368456014107
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "instance_policy": "lowest_id_owner_with_all_memberships_retained",
+      "anatomical_policy": "0_unknown_or_conflicting_labels; foreground_separate",
+      "provenance_codes": {
+        "background": 0,
+        "source": 1,
+        "estimated": 2,
+        "mixed": 3
+      },
+      "instances": [
+        {
+          "instance_id": 1,
+          "anatomical_label": 0,
+          "provenance": "estimated",
+          "source_ref": "case:51182f6ba84c030716888beb4daa45fd5eb1c34952e23003c3a15559d3c7594b;part:access-union"
+        }
+      ],
+      "anatomical_registry": {
+        "schema": "vv-toolbox.segment-label-registry/2",
+        "unknown": 0,
+        "labels": [
+          {
+            "id": 1,
+            "side": "L",
+            "artery": "ACA",
+            "segment": "A1"
+          },
+          {
+            "id": 2,
+            "side": "L",
+            "artery": "ACA",
+            "segment": "A2"
+          },
+          {
+            "id": 3,
+            "side": "L",
+            "artery": "ACA",
+            "segment": "A3"
+          },
+          {
+            "id": 4,
+            "side": "L",
+            "artery": "MCA",
+            "segment": "M1"
+          },
+          {
+            "id": 5,
+            "side": "L",
+            "artery": "MCA",
+            "segment": "M2"
+          },
+          {
+            "id": 6,
+            "side": "L",
+            "artery": "MCA",
+            "segment": "M3"
+          },
+          {
+            "id": 7,
+            "side": "R",
+            "artery": "ACA",
+            "segment": "A1"
+          },
+          {
+            "id": 8,
+            "side": "R",
+            "artery": "ACA",
+            "segment": "A2"
+          },
+          {
+            "id": 9,
+            "side": "R",
+            "artery": "ACA",
+            "segment": "A3"
+          },
+          {
+            "id": 10,
+            "side": "R",
+            "artery": "MCA",
+            "segment": "M1"
+          },
+          {
+            "id": 11,
+            "side": "R",
+            "artery": "MCA",
+            "segment": "M2"
+          },
+          {
+            "id": 12,
+            "side": "R",
+            "artery": "MCA",
+            "segment": "M3"
+          },
+          {
+            "id": 13,
+            "side": "L",
+            "artery": "femoral",
+            "segment": "whole"
+          },
+          {
+            "id": 14,
+            "side": "L",
+            "artery": "external_iliac",
+            "segment": "whole"
+          },
+          {
+            "id": 15,
+            "side": "L",
+            "artery": "common_iliac",
+            "segment": "whole"
+          },
+          {
+            "id": 16,
+            "side": "L",
+            "artery": "common_carotid",
+            "segment": "whole"
+          },
+          {
+            "id": 17,
+            "side": "L",
+            "artery": "internal_carotid",
+            "segment": "whole"
+          },
+          {
+            "id": 18,
+            "side": "R",
+            "artery": "femoral",
+            "segment": "whole"
+          },
+          {
+            "id": 19,
+            "side": "R",
+            "artery": "external_iliac",
+            "segment": "whole"
+          },
+          {
+            "id": 20,
+            "side": "R",
+            "artery": "common_iliac",
+            "segment": "whole"
+          },
+          {
+            "id": 21,
+            "side": "R",
+            "artery": "common_carotid",
+            "segment": "whole"
+          },
+          {
+            "id": 22,
+            "side": "R",
+            "artery": "internal_carotid",
+            "segment": "whole"
+          },
+          {
+            "id": 23,
+            "side": "midline",
+            "artery": "abdominal_aorta",
+            "segment": "whole"
+          },
+          {
+            "id": 24,
+            "side": "midline",
+            "artery": "descending_thoracic_aorta",
+            "segment": "whole"
+          },
+          {
+            "id": 25,
+            "side": "midline",
+            "artery": "aortic_arch",
+            "segment": "whole"
+          },
+          {
+            "id": 26,
+            "side": "R",
+            "artery": "brachiocephalic",
+            "segment": "whole"
+          }
+        ],
+        "sha256": "c3f9f92672123099c35c3a6d2af2af3d3ee130471c3e8049d7abfa149b244a7e",
+        "evidence_scope": "Explicit segment or full-edge extent references; not independent anatomical validation"
+      },
+      "dtypes": {
+        "foreground": "bool",
+        "anatomical": "uint32",
+        "instance": "uint32",
+        "provenance": "uint8",
+        "overlap_count": "uint32",
+        "membership": "bool"
+      }
+    },
+    "instance_policy": "One instance per registered surface part; multiple edges may share a part",
+    "part_instances": {
+      "access-union": 1
+    },
+    "edge_instances": {
+      "FJ1931:e0": [
+        1
+      ],
+      "FJ1931:e1": [
+        1
+      ],
+      "FJ1931:e2": [
+        1
+      ],
+      "FJ1931:e3": [
+        1
+      ],
+      "FJ1931:e4::samples:0-237": [
+        1
+      ],
+      "FJ1931:e4::samples:237-250": [
+        1
+      ],
+      "FJ1932:e0": [
+        1
+      ],
+      "FJ2074:e0": [
+        1
+      ],
+      "FJ2143:e0::samples:0-1380": [
+        1
+      ],
+      "FJ2143:e0::samples:1380-1429": [
+        1
+      ],
+      "FJ3411:e0::samples:0-88": [
+        1
+      ],
+      "FJ3411:e0::samples:88-133": [
+        1
+      ],
+      "FJ3411:e0::samples:133-308": [
+        1
+      ],
+      "FJ3411:e0::samples:308-309": [
+        1
+      ],
+      "FJ3464:e0": [
+        1
+      ],
+      "FJ3466:e0::samples:0-452": [
+        1
+      ],
+      "FJ3466:e0::samples:452-583": [
+        1
+      ],
+      "FJ3565:e0": [
+        1
+      ],
+      "FJ3565:e1": [
+        1
+      ],
+      "FJ3565:e2": [
+        1
+      ],
+      "FJ3567:e0::samples:0-56": [
+        1
+      ],
+      "FJ3567:e0::samples:56-548": [
+        1
+      ],
+      "FJ3567:e0::samples:548-552": [
+        1
+      ],
+      "FJ3417:e0::samples:0-2": [
+        1
+      ],
+      "FJ3417:e0::samples:2-155": [
+        1
+      ],
+      "FJ3579:e0": [
+        1
+      ],
+      "FJ1654:e0::samples:0-77": [
+        1
+      ],
+      "FJ1654:e0::samples:77-175": [
+        1
+      ],
+      "FJ1692:e0": [
+        1
+      ],
+      "FJ1692M:e0": [
+        1
+      ],
+      "FJ1655:e0": [
+        1
+      ],
+      "FJ1654M:e0::samples:0-91": [
+        1
+      ],
+      "FJ1654M:e0::samples:91-188": [
+        1
+      ],
+      "FJ1682M:e0::samples:0-3": [
+        1
+      ],
+      "FJ1682M:e0::samples:3-10": [
+        1
+      ],
+      "FJ1682M:e0::samples:10-668": [
+        1
+      ],
+      "FJ3483:e0": [
+        1
+      ],
+      "estimated_left_carotid_neck:e0": [
+        1
+      ],
+      "FJ1682:e0::samples:0-653": [
+        1
+      ],
+      "FJ1682:e0::samples:653-664": [
+        1
+      ],
+      "FJ1682:e0::samples:664-668": [
+        1
+      ],
+      "FJ3564:e0::samples:0-144": [
+        1
+      ],
+      "FJ3564:e0::samples:144-152": [
+        1
+      ],
+      "estimated_right_carotid_neck:e0": [
+        1
+      ],
+      "declared-link:0": [
+        1
+      ],
+      "declared-link:2": [
+        1
+      ],
+      "declared-link:3": [
+        1
+      ],
+      "declared-link:4": [
+        1
+      ],
+      "declared-link:5": [
+        1
+      ],
+      "declared-link:6": [
+        1
+      ],
+      "declared-link:7": [
+        1
+      ],
+      "declared-link:8": [
+        1
+      ],
+      "declared-link:9": [
+        1
+      ],
+      "declared-link:10": [
+        1
+      ],
+      "declared-link:11": [
+        1
+      ],
+      "declared-link:12": [
+        1
+      ],
+      "declared-link:13": [
+        1
+      ],
+      "declared-link:14": [
+        1
+      ],
+      "declared-link:15": [
+        1
+      ],
+      "declared-link:16": [
+        1
+      ],
+      "declared-link:17": [
+        1
+      ],
+      "declared-link:18": [
+        1
+      ],
+      "declared-link:19": [
+        1
+      ],
+      "declared-link:20": [
+        1
+      ],
+      "declared-link:21": [
+        1
+      ]
+    },
+    "anatomical_validation": "NOT RUN"
+  },
+  "foreground_voxels": 11691,
+  "sampled_voxels": 35937,
+  "independent_ray_disagreements": 0,
+  "disagreement_indices_zyx": [],
+  "anatomical_labels_unknown": true,
+  "estimated_foreground": true,
+  "artifact": "exports/access-candidate-roi/femoral-05mm.npz",
+  "artifact_sha256": "6a56d703e49fbf5c8f38c0c1073e3230a04e03b14258f0e387a75f62f16066d2",
+  "archive_roundtrip": "PASS",
+  "affine_center_check": "PASS"
+}

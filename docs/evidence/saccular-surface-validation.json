@@ -1,0 +1,23 @@
+{
+  "scope": "Experimental single-parent saccular union; synthetic fixture only",
+  "environment": "Docker vv-annotation-ui, PYTHONPATH=src",
+  "full_regression": {
+    "passed": 609,
+    "skipped": 3,
+    "warnings": 321,
+    "seconds": 53.51,
+    "scope_note": "Before final below-neck derivative and buried-rim refinement",
+    "junit_sha256": "adabd98846732d7fb488e1bb1d6634b69ff342424cfa2d36751fe0d1c70a82f0"
+  },
+  "final_focused": {
+    "passed": 45,
+    "warnings": 56,
+    "seconds": 4.60,
+    "tests": ["test_saccular_surface.py", "test_saccular_spec.py", "test_case_surface.py", "test_fusiform_dilation.py"],
+    "junit_sha256": "8337f8b475c27e45dfe60ad5da3a68fdcdb68f191f3fe27a5d47e211ef08e1c5"
+  },
+  "fixture_evidence": "docs/evidence/saccular-surface-fixture.json",
+  "requested_neck_dimensions_preserved": "FAIL",
+  "anatomical_acceptance": "UNKNOWN",
+  "accepted_case_integration": "NOT IMPLEMENTED"
+}

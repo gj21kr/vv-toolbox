@@ -1,0 +1,222 @@
+{
+  "status": "UNKNOWN",
+  "graph_revision": "55225c191c26dac632355661c941e338941964d3e043d07618c07f3d0c4cd2e0",
+  "surface_sha256": "bad61c62ca40b1aade54c6e52e3ded05829240b23f6dbd915991d8688ae313d9",
+  "replaced_link": "declared-link:10",
+  "oriented_source_bindings": [
+    {
+      "edge_id": "FJ3417:e0::samples:2-155",
+      "reversed": true,
+      "source_points_sha256": "c8082d79cd9711932faa9601f11c195d88ae2c2ebd5795f6e19e8582313d2cc1"
+    },
+    {
+      "edge_id": "FJ3564:e0::samples:0-144",
+      "reversed": true,
+      "source_points_sha256": "de4d26f1c9bd4ff022a493f3a881fa2fbf3b80067d93c7cdbf5a8a7ac4fa7a1c"
+    }
+  ],
+  "fixed_collars_mm": [
+    5,
+    10,
+    20
+  ],
+  "samples": 129,
+  "candidates": [
+    {
+      "method": "fixed-collar-hermite/1",
+      "collar_mm": 5,
+      "samples": 129,
+      "derivative_length_mm": 8.9558990680116,
+      "incoming_anchor": {
+        "interval_index": 133,
+        "fraction": 0.2155889395046411,
+        "station_mm": 32.47125946155646,
+        "path_length_mm": 37.47125946155646
+      },
+      "outgoing_anchor": {
+        "interval_index": 20,
+        "fraction": 0.08309335427377428,
+        "station_mm": 5.0,
+        "path_length_mm": 36.49004529751723
+      },
+      "analytic_endpoint_tangent_alignment": "BY CONSTRUCTION",
+      "sampled_start_angle_deg": 0.35245967470585476,
+      "sampled_end_angle_deg": 0.06957613882430196,
+      "source_modified": false,
+      "surface_containment": "PASS",
+      "radius_envelope": "NOT RUN",
+      "self_contact": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "artifact": "exports/access-collar-candidates/collar-5mm.npz",
+      "artifact_sha256": "0b226e10c3fcf7dc372729aca5b0a6bec692cf7e1801abef1ae171a8aa40be60",
+      "containment": {
+        "status": "PASS",
+        "method": "interior-midpoint-ball-cover/1",
+        "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+        "tolerance_mm": 1e-06,
+        "max_depth": 16,
+        "max_cells": 100000,
+        "query_batch_size": 128,
+        "indexing": {
+          "method": "exact-coordinate-index-copy/1",
+          "coordinate_tolerance_mm": 0,
+          "original_vertices": 33564,
+          "normalized_vertices": 33564,
+          "faces": 67128,
+          "triangle_coordinate_bytes_preserved": true,
+          "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+          "original_watertight": true,
+          "normalized_watertight": true,
+          "normalized_winding_consistent": true,
+          "zero_area_faces": 0,
+          "usable_for_sampled_containment": true,
+          "original_modified": false,
+          "faces_added_or_removed": false,
+          "self_intersection": "NOT RUN",
+          "anatomical_validity": "NOT RUN"
+        },
+        "segment_count": 128,
+        "processed_cells": 128,
+        "covered_cells": 128,
+        "unresolved_segments": [],
+        "outside_witnesses": [],
+        "maximum_depth_used": 0,
+        "minimum_cover_margin_mm": 3.6705253007985554,
+        "surface_self_intersection": "NOT RUN",
+        "anatomical_validation": "NOT RUN"
+      }
+    },
+    {
+      "method": "fixed-collar-hermite/1",
+      "collar_mm": 10,
+      "samples": 129,
+      "derivative_length_mm": 17.818603392889376,
+      "incoming_anchor": {
+        "interval_index": 111,
+        "fraction": 0.031491537892945176,
+        "station_mm": 27.471259461556457,
+        "path_length_mm": 37.47125946155646
+      },
+      "outgoing_anchor": {
+        "interval_index": 41,
+        "fraction": 0.27217998083740286,
+        "station_mm": 10.0,
+        "path_length_mm": 36.49004529751723
+      },
+      "analytic_endpoint_tangent_alignment": "BY CONSTRUCTION",
+      "sampled_start_angle_deg": 0.40453370586698817,
+      "sampled_end_angle_deg": 0.22725085378842483,
+      "source_modified": false,
+      "surface_containment": "PASS",
+      "radius_envelope": "NOT RUN",
+      "self_contact": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "artifact": "exports/access-collar-candidates/collar-10mm.npz",
+      "artifact_sha256": "d0827750eba471fe3d7e611d1b573fd2b2f1029039f49fd4be0bbf85c96585e1",
+      "containment": {
+        "status": "PASS",
+        "method": "interior-midpoint-ball-cover/1",
+        "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+        "tolerance_mm": 1e-06,
+        "max_depth": 16,
+        "max_cells": 100000,
+        "query_batch_size": 128,
+        "indexing": {
+          "method": "exact-coordinate-index-copy/1",
+          "coordinate_tolerance_mm": 0,
+          "original_vertices": 33564,
+          "normalized_vertices": 33564,
+          "faces": 67128,
+          "triangle_coordinate_bytes_preserved": true,
+          "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+          "original_watertight": true,
+          "normalized_watertight": true,
+          "normalized_winding_consistent": true,
+          "zero_area_faces": 0,
+          "usable_for_sampled_containment": true,
+          "original_modified": false,
+          "faces_added_or_removed": false,
+          "self_intersection": "NOT RUN",
+          "anatomical_validity": "NOT RUN"
+        },
+        "segment_count": 128,
+        "processed_cells": 128,
+        "covered_cells": 128,
+        "unresolved_segments": [],
+        "outside_witnesses": [],
+        "maximum_depth_used": 0,
+        "minimum_cover_margin_mm": 3.116302787051003,
+        "surface_self_intersection": "NOT RUN",
+        "anatomical_validation": "NOT RUN"
+      }
+    },
+    {
+      "method": "fixed-collar-hermite/1",
+      "collar_mm": 20,
+      "samples": 129,
+      "derivative_length_mm": 34.78336315129001,
+      "incoming_anchor": {
+        "interval_index": 69,
+        "fraction": 0.9969144934136505,
+        "station_mm": 17.471259461556457,
+        "path_length_mm": 37.47125946155646
+      },
+      "outgoing_anchor": {
+        "interval_index": 81,
+        "fraction": 0.9774342549184024,
+        "station_mm": 20.0,
+        "path_length_mm": 36.49004529751723
+      },
+      "analytic_endpoint_tangent_alignment": "BY CONSTRUCTION",
+      "sampled_start_angle_deg": 0.26704595418183713,
+      "sampled_end_angle_deg": 0.27257054481114185,
+      "source_modified": false,
+      "surface_containment": "PASS",
+      "radius_envelope": "NOT RUN",
+      "self_contact": "NOT RUN",
+      "anatomical_validation": "NOT RUN",
+      "artifact": "exports/access-collar-candidates/collar-20mm.npz",
+      "artifact_sha256": "c40593e3128ae32c4463c2303f7e00ae78cdcc623e293682b99cbbffbdee1746",
+      "containment": {
+        "status": "PASS",
+        "method": "interior-midpoint-ball-cover/1",
+        "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+        "tolerance_mm": 1e-06,
+        "max_depth": 16,
+        "max_cells": 100000,
+        "query_batch_size": 128,
+        "indexing": {
+          "method": "exact-coordinate-index-copy/1",
+          "coordinate_tolerance_mm": 0,
+          "original_vertices": 33564,
+          "normalized_vertices": 33564,
+          "faces": 67128,
+          "triangle_coordinate_bytes_preserved": true,
+          "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+          "original_watertight": true,
+          "normalized_watertight": true,
+          "normalized_winding_consistent": true,
+          "zero_area_faces": 0,
+          "usable_for_sampled_containment": true,
+          "original_modified": false,
+          "faces_added_or_removed": false,
+          "self_intersection": "NOT RUN",
+          "anatomical_validity": "NOT RUN"
+        },
+        "segment_count": 128,
+        "processed_cells": 128,
+        "covered_cells": 128,
+        "unresolved_segments": [],
+        "outside_witnesses": [],
+        "maximum_depth_used": 0,
+        "minimum_cover_margin_mm": 0.4939024894958465,
+        "surface_self_intersection": "NOT RUN",
+        "anatomical_validation": "NOT RUN"
+      }
+    }
+  ],
+  "graph_modified": false,
+  "live_scene_changed": false,
+  "scope": "Sampled collar curves only; retained branches, radius and continuous cubic not approved",
+  "inspection_status": "COMPLETE"
+}

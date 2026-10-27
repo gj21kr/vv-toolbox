@@ -1,0 +1,640 @@
+{
+  "scope": "Original triangle/index topology; no anatomical opening classification",
+  "atlas_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "source_modified": false,
+  "capping_performed": false,
+  "rows": [
+    {
+      "part_id": "FJ1654",
+      "vertices": 213,
+      "faces": 400,
+      "watertight": false,
+      "winding_consistent": true,
+      "boundary_edges": 30,
+      "nonmanifold_edges": 0,
+      "maximum_edge_incidence": 2,
+      "boundary_components": [
+        {
+          "vertex_count": 4,
+          "edge_count": 4,
+          "simple_closed_loop": true,
+          "vertex_degree_counts": {
+            "2": 4
+          },
+          "centroid_mm": [
+            -14.268850326538086,
+            -110.07550048828125,
+            1535.6400146484375
+          ],
+          "bounds_mm": [
+            [
+              -14.86460018157959,
+              -110.27300262451172,
+              1535.260009765625
+            ],
+            [
+              -13.682000160217285,
+              -109.97899627685547,
+              1536.1800537109375
+            ]
+          ],
+          "perimeter_mm": 3.109226942062378
+        },
+        {
+          "vertex_count": 6,
+          "edge_count": 6,
+          "simple_closed_loop": true,
+          "vertex_degree_counts": {
+            "2": 6
+          },
+          "centroid_mm": [
+            -5.325638771057129,
+            -113.677001953125,
+            1538.0699462890625
+          ],
+          "bounds_mm": [
+            [
+              -7.398280143737793,
+              -115.65899658203125,
+              1537.760009765625
+            ],
+            [
+              -3.4649500846862793,
+              -111.93299865722656,
+              1538.4100341796875
+            ]
+          ],
+          "perimeter_mm": 11.398296356201172
+        },
+        {
+          "vertex_count": 6,
+          "edge_count": 6,
+          "simple_closed_loop": true,
+          "vertex_degree_counts": {
+            "2": 6
+          },
+          "centroid_mm": [
+            -5.473194599151611,
+            -113.16799926757812,
+            1539.125
+          ],
+          "bounds_mm": [
+            [
+              -7.492420196533203,
+              -114.69000244140625,
+              1538.8499755859375
+            ],
+            [
+              -4.092909812927246,
+              -111.41999816894531,
+              1539.5999755859375
+            ]
+          ],
+          "perimeter_mm": 9.801304817199707
+        },
+        {
+          "vertex_count": 14,
+          "edge_count": 14,
+          "simple_closed_loop": true,
+          "vertex_degree_counts": {
+            "2": 14
+          },
+          "centroid_mm": [
+            -4.171796798706055,
+            -112.760498046875,
+            1539.6600341796875
+          ],
+          "bounds_mm": [
+            [
+              -7.546619892120361,
+              -114.50199890136719,
+              1538.9200439453125
+            ],
+            [
+              -2.5987799167633057,
+              -109.90399932861328,
+              1540.6400146484375
+            ]
+          ],
+          "perimeter_mm": 23.309221267700195
+        }
+      ],
+      "duplicate_face_excess": 0,
+      "zero_area_faces": 0,
+      "exact_vertex_merge_diagnostic": {
+        "duplicate_vertex_excess": 11,
+        "watertight": true,
+        "winding_consistent": true,
+        "triangle_positions_unchanged": true
+      },
+      "triangle_sha256": "2605719db704d8bf6a8b669c21a6c7d26d2e69fc7ee31f5db900a278fe263036"
+    },
+    {
+      "part_id": "FJ1654M",
+      "vertices": 213,
+      "faces": 400,
+      "watertight": false,
+      "winding_consistent": true,
+      "boundary_edges": 30,
+      "nonmanifold_edges": 0,
+      "maximum_edge_incidence": 2,
+      "boundary_components": [
+        {
+          "vertex_count": 4,
+          "edge_count": 4,
+          "simple_closed_loop": true,
+          "vertex_degree_counts": {
+            "2": 4
+          },
+          "centroid_mm": [
+            14.268850326538086,
+            -110.07550048828125,
+            1535.635009765625
+          ],
+          "bounds_mm": [
+            [
+              13.682000160217285,
+              -110.27300262451172,
+              1535.25
+            ],
+            [
+              14.86460018157959,
+              -109.97899627685547,
+              1536.1700439453125
+            ]
+          ],
+          "perimeter_mm": 3.1047275066375732
+        },
+        {
+          "vertex_count": 6,
+          "edge_count": 6,
+          "simple_closed_loop": true,
+          "vertex_degree_counts": {
+            "2": 6
+          },
+          "centroid_mm": [
+            5.325641632080078,
+            -113.677001953125,
+            1538.0665283203125
+          ],
+          "bounds_mm": [
+            [
+              3.4649500846862793,
+              -115.65899658203125,
+              1537.760009765625
+            ],
+            [
+              7.398280143737793,
+              -111.93299865722656,
+              1538.4000244140625
+            ]
+          ],
+          "perimeter_mm": 11.393874168395996
+        },
+        {
+          "vertex_count": 6,
+          "edge_count": 6,
+          "simple_closed_loop": true,
+          "vertex_degree_counts": {
+            "2": 6
+          },
+          "centroid_mm": [
+            5.473194599151611,
+            -113.16815948486328,
+            1539.125
+          ],
+          "bounds_mm": [
+            [
+              4.092909812927246,
+              -114.69000244140625,
+              1538.8499755859375
+            ],
+            [
+              7.492420196533203,
+              -111.4209976196289,
+              1539.5999755859375
+            ]
+          ],
+          "perimeter_mm": 9.800202369689941
+        },
+        {
+          "vertex_count": 14,
+          "edge_count": 14,
+          "simple_closed_loop": true,
+          "vertex_degree_counts": {
+            "2": 14
+          },
+          "centroid_mm": [
+            4.171796798706055,
+            -112.76070404052734,
+            1539.657958984375
+          ],
+          "bounds_mm": [
+            [
+              2.5987799167633057,
+              -114.50299835205078,
+              1538.9200439453125
+            ],
+            [
+              7.546619892120361,
+              -109.90399932861328,
+              1540.6400146484375
+            ]
+          ],
+          "perimeter_mm": 23.314638137817383
+        }
+      ],
+      "duplicate_face_excess": 0,
+      "zero_area_faces": 0,
+      "exact_vertex_merge_diagnostic": {
+        "duplicate_vertex_excess": 11,
+        "watertight": true,
+        "winding_consistent": true,
+        "triangle_positions_unchanged": true
+      },
+      "triangle_sha256": "78023052db3d086f566f24d81842d220ea52fac7b9d8357a9b4090f05560cdf6"
+    },
+    {
+      "part_id": "FJ1660",
+      "vertices": 579,
+      "faces": 1154,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "maximum_edge_incidence": 2,
+      "boundary_components": [],
+      "duplicate_face_excess": 0,
+      "zero_area_faces": 0,
+      "exact_vertex_merge_diagnostic": {
+        "duplicate_vertex_excess": 0,
+        "watertight": true,
+        "winding_consistent": true,
+        "triangle_positions_unchanged": true
+      },
+      "triangle_sha256": "ebad8e81aa69a4fa8dc24cbe556e6d97bb86170bce5b02c69a682762b6425949"
+    },
+    {
+      "part_id": "FJ1660M",
+      "vertices": 579,
+      "faces": 1154,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "maximum_edge_incidence": 2,
+      "boundary_components": [],
+      "duplicate_face_excess": 0,
+      "zero_area_faces": 0,
+      "exact_vertex_merge_diagnostic": {
+        "duplicate_vertex_excess": 0,
+        "watertight": true,
+        "winding_consistent": true,
+        "triangle_positions_unchanged": true
+      },
+      "triangle_sha256": "e05c49395bf9b712cec3d3b612df4107b9956e8418f8b3b55fb6b7ec57d997e1"
+    },
+    {
+      "part_id": "FJ1692",
+      "vertices": 402,
+      "faces": 800,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "maximum_edge_incidence": 2,
+      "boundary_components": [],
+      "duplicate_face_excess": 0,
+      "zero_area_faces": 0,
+      "exact_vertex_merge_diagnostic": {
+        "duplicate_vertex_excess": 0,
+        "watertight": true,
+        "winding_consistent": true,
+        "triangle_positions_unchanged": true
+      },
+      "triangle_sha256": "55528e5d869de026fb04a2a1eb62a7c58bb39e8e3c9be876a4ca46a2695cef41"
+    },
+    {
+      "part_id": "FJ1692M",
+      "vertices": 402,
+      "faces": 800,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "maximum_edge_incidence": 2,
+      "boundary_components": [],
+      "duplicate_face_excess": 0,
+      "zero_area_faces": 0,
+      "exact_vertex_merge_diagnostic": {
+        "duplicate_vertex_excess": 0,
+        "watertight": true,
+        "winding_consistent": true,
+        "triangle_positions_unchanged": true
+      },
+      "triangle_sha256": "a97bf4dd7dcaa7d5ec027492c180ff39c20687f4bfd816bf5c08a9fcae6e3246"
+    },
+    {
+      "part_id": "FJ1694",
+      "vertices": 2361,
+      "faces": 4706,
+      "watertight": false,
+      "winding_consistent": true,
+      "boundary_edges": 22,
+      "nonmanifold_edges": 0,
+      "maximum_edge_incidence": 2,
+      "boundary_components": [
+        {
+          "vertex_count": 6,
+          "edge_count": 6,
+          "simple_closed_loop": true,
+          "vertex_degree_counts": {
+            "2": 6
+          },
+          "centroid_mm": [
+            -48.50618362426758,
+            -76.48029327392578,
+            1565.79833984375
+          ],
+          "bounds_mm": [
+            [
+              -48.512298583984375,
+              -76.68579864501953,
+              1565.489990234375
+            ],
+            [
+              -48.500099182128906,
+              -76.35240173339844,
+              1566.0999755859375
+            ]
+          ],
+          "perimeter_mm": 1.4157724380493164
+        },
+        {
+          "vertex_count": 4,
+          "edge_count": 4,
+          "simple_closed_loop": true,
+          "vertex_degree_counts": {
+            "2": 4
+          },
+          "centroid_mm": [
+            -48.388946533203125,
+            -76.35969543457031,
+            1565.510009765625
+          ],
+          "bounds_mm": [
+            [
+              -48.395301818847656,
+              -76.4303970336914,
+              1565.2099609375
+            ],
+            [
+              -48.38119888305664,
+              -76.32540130615234,
+              1565.81005859375
+            ]
+          ],
+          "perimeter_mm": 1.2279030084609985
+        },
+        {
+          "vertex_count": 4,
+          "edge_count": 4,
+          "simple_closed_loop": true,
+          "vertex_degree_counts": {
+            "2": 4
+          },
+          "centroid_mm": [
+            -48.39054870605469,
+            -76.7270278930664,
+            1566.12255859375
+          ],
+          "bounds_mm": [
+            [
+              -48.400299072265625,
+              -76.90640258789062,
+              1566.0
+            ],
+            [
+              -48.374298095703125,
+              -76.58650207519531,
+              1566.25
+            ]
+          ],
+          "perimeter_mm": 0.8178793787956238
+        },
+        {
+          "vertex_count": 4,
+          "edge_count": 4,
+          "simple_closed_loop": true,
+          "vertex_degree_counts": {
+            "2": 4
+          },
+          "centroid_mm": [
+            -38.982627868652344,
+            -72.2936019897461,
+            1568.21240234375
+          ],
+          "bounds_mm": [
+            [
+              -39.00630187988281,
+              -72.58350372314453,
+              1568.0699462890625
+            ],
+            [
+              -38.920799255371094,
+              -72.00630187988281,
+              1568.4000244140625
+            ]
+          ],
+          "perimeter_mm": 1.3565210103988647
+        },
+        {
+          "vertex_count": 4,
+          "edge_count": 4,
+          "simple_closed_loop": true,
+          "vertex_degree_counts": {
+            "2": 4
+          },
+          "centroid_mm": [
+            -38.906776428222656,
+            -72.10662078857422,
+            1568.0174560546875
+          ],
+          "bounds_mm": [
+            [
+              -38.9182014465332,
+              -72.40360260009766,
+              1567.9599609375
+            ],
+            [
+              -38.88650131225586,
+              -71.80590057373047,
+              1568.1099853515625
+            ]
+          ],
+          "perimeter_mm": 1.2441625595092773
+        }
+      ],
+      "duplicate_face_excess": 0,
+      "zero_area_faces": 0,
+      "exact_vertex_merge_diagnostic": {
+        "duplicate_vertex_excess": 6,
+        "watertight": true,
+        "winding_consistent": true,
+        "triangle_positions_unchanged": true
+      },
+      "triangle_sha256": "becf55379e96b887c67ff38ad000155bef87f580d941d5eb0661e9ce9c39b6f7"
+    },
+    {
+      "part_id": "FJ1694M",
+      "vertices": 2362,
+      "faces": 4706,
+      "watertight": false,
+      "winding_consistent": true,
+      "boundary_edges": 24,
+      "nonmanifold_edges": 0,
+      "maximum_edge_incidence": 2,
+      "boundary_components": [
+        {
+          "vertex_count": 8,
+          "edge_count": 8,
+          "simple_closed_loop": true,
+          "vertex_degree_counts": {
+            "2": 8
+          },
+          "centroid_mm": [
+            48.507164001464844,
+            -76.55801391601562,
+            1565.8912353515625
+          ],
+          "bounds_mm": [
+            [
+              48.500099182128906,
+              -76.89669799804688,
+              1565.489990234375
+            ],
+            [
+              48.515201568603516,
+              -76.35240173339844,
+              1566.239990234375
+            ]
+          ],
+          "perimeter_mm": 1.922516942024231
+        },
+        {
+          "vertex_count": 4,
+          "edge_count": 4,
+          "simple_closed_loop": true,
+          "vertex_degree_counts": {
+            "2": 4
+          },
+          "centroid_mm": [
+            48.388946533203125,
+            -76.35969543457031,
+            1565.510009765625
+          ],
+          "bounds_mm": [
+            [
+              48.38119888305664,
+              -76.4303970336914,
+              1565.2099609375
+            ],
+            [
+              48.395301818847656,
+              -76.32540130615234,
+              1565.81005859375
+            ]
+          ],
+          "perimeter_mm": 1.2279030084609985
+        },
+        {
+          "vertex_count": 4,
+          "edge_count": 4,
+          "simple_closed_loop": true,
+          "vertex_degree_counts": {
+            "2": 4
+          },
+          "centroid_mm": [
+            48.39054870605469,
+            -76.7270278930664,
+            1566.12255859375
+          ],
+          "bounds_mm": [
+            [
+              48.374298095703125,
+              -76.90640258789062,
+              1566.0
+            ],
+            [
+              48.400299072265625,
+              -76.58650207519531,
+              1566.25
+            ]
+          ],
+          "perimeter_mm": 0.8178793787956238
+        },
+        {
+          "vertex_count": 4,
+          "edge_count": 4,
+          "simple_closed_loop": true,
+          "vertex_degree_counts": {
+            "2": 4
+          },
+          "centroid_mm": [
+            38.98267364501953,
+            -72.2936019897461,
+            1568.2099609375
+          ],
+          "bounds_mm": [
+            [
+              38.920799255371094,
+              -72.58350372314453,
+              1568.06005859375
+            ],
+            [
+              39.00630187988281,
+              -72.00630187988281,
+              1568.4000244140625
+            ]
+          ],
+          "perimeter_mm": 1.3644766807556152
+        },
+        {
+          "vertex_count": 4,
+          "edge_count": 4,
+          "simple_closed_loop": true,
+          "vertex_degree_counts": {
+            "2": 4
+          },
+          "centroid_mm": [
+            38.90682601928711,
+            -72.10662078857422,
+            1568.0174560546875
+          ],
+          "bounds_mm": [
+            [
+              38.88650131225586,
+              -72.40360260009766,
+              1567.9599609375
+            ],
+            [
+              38.91830062866211,
+              -71.80590057373047,
+              1568.1099853515625
+            ]
+          ],
+          "perimeter_mm": 1.2441915273666382
+        }
+      ],
+      "duplicate_face_excess": 0,
+      "zero_area_faces": 0,
+      "exact_vertex_merge_diagnostic": {
+        "duplicate_vertex_excess": 7,
+        "watertight": true,
+        "winding_consistent": true,
+        "triangle_positions_unchanged": true
+      },
+      "triangle_sha256": "18d3b153b482613dbc2f244de8a037bf9eeb74b6aa465b92c116ba89cce0c2ce"
+    }
+  ]
+}

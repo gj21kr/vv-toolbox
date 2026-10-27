@@ -1,0 +1,365 @@
+{
+  "status": "MEASURED",
+  "context_status": "FAIL",
+  "context_completed": 788,
+  "context_total": 788,
+  "context_report_sha256": "af5ce17dc45c20cb4951f7965779e698219b35d911e5162a49f8261d2feeffc3",
+  "before_sha256": "c1981693aff26b3a21e6dda40fca292c64e04c33471cae517f6120125352602c",
+  "after_sha256": "50a8721bc327be5dee7ff863db96342344f3f444a91173aa715eea734add4780",
+  "anatomical_contact_classification": "UNKNOWN",
+  "rows": [
+    {
+      "neighbor_id": "FJ2069",
+      "name": "left descending genicular artery",
+      "layer": "arterial",
+      "before_status": "SURFACE_CONTACT",
+      "after_status": "SURFACE_CONTACT",
+      "added": {
+        "pairs": 16,
+        "union_faces": [
+          9487,
+          9488,
+          9492,
+          9496,
+          9514,
+          9515,
+          9517
+        ],
+        "owner_counts": {
+          "FJ2074": 7
+        },
+        "bounds_lps_mm": [
+          [
+            53.209429918728425,
+            -101.1747415736104,
+            473.20424281952404
+          ],
+          [
+            61.84987391831134,
+            -91.79203240085057,
+            487.7071489063237
+          ]
+        ],
+        "maximum_vertex_displacement_mm": 0.2500000000000039
+      },
+      "removed": {
+        "pairs": 16,
+        "union_faces": [
+          9483,
+          9488,
+          9496,
+          9497,
+          9514,
+          9517,
+          9518
+        ],
+        "owner_counts": {
+          "FJ2074": 7
+        },
+        "bounds_lps_mm": [
+          [
+            54.05350112915039,
+            -101.17400360107422,
+            473.20001220703125
+          ],
+          [
+            62.69559860229492,
+            -91.79170227050781,
+            487.697998046875
+          ]
+        ],
+        "maximum_vertex_displacement_mm": 0.2500000000000039
+      }
+    },
+    {
+      "neighbor_id": "FJ2086",
+      "name": "left popliteal artery",
+      "layer": "arterial",
+      "before_status": "SURFACE_CONTACT",
+      "after_status": "SURFACE_CONTACT",
+      "added": {
+        "pairs": 54,
+        "union_faces": [
+          9503,
+          9505,
+          9531,
+          9532,
+          9535,
+          9536,
+          9541,
+          9553,
+          9559,
+          9566,
+          9569,
+          9578,
+          9584,
+          9587,
+          9588,
+          9598,
+          9610,
+          9615,
+          9619
+        ],
+        "owner_counts": {
+          "FJ2074": 19
+        },
+        "bounds_lps_mm": [
+          [
+            55.6437109256977,
+            -95.49841558205132,
+            471.4088709627219
+          ],
+          [
+            66.02484381169384,
+            -85.4083627440756,
+            478.79114934405084
+          ]
+        ],
+        "maximum_vertex_displacement_mm": 0.13330068969169187
+      },
+      "removed": {
+        "pairs": 62,
+        "union_faces": [
+          9503,
+          9531,
+          9532,
+          9533,
+          9536,
+          9541,
+          9542,
+          9544,
+          9553,
+          9554,
+          9559,
+          9561,
+          9567,
+          9569,
+          9584,
+          9587,
+          9588,
+          9592,
+          9602,
+          9613,
+          9619,
+          9621
+        ],
+        "owner_counts": {
+          "FJ2074": 22
+        },
+        "bounds_lps_mm": [
+          [
+            55.535400390625,
+            -95.49810028076172,
+            471.2650146484375
+          ],
+          [
+            65.9103012084961,
+            -85.40799713134766,
+            478.7879943847656
+          ]
+        ],
+        "maximum_vertex_displacement_mm": 0.14202376016017607
+      }
+    },
+    {
+      "neighbor_id": "FJ2099",
+      "name": "left deep femoral vein",
+      "layer": "systemic_venous",
+      "before_status": "SURFACE_CONTACT",
+      "after_status": "SURFACE_CONTACT",
+      "added": {
+        "pairs": 15,
+        "union_faces": [
+          9007,
+          9014,
+          9015,
+          9017,
+          9022,
+          9024,
+          9027,
+          9029,
+          9092,
+          9093,
+          9096,
+          9103
+        ],
+        "owner_counts": {
+          "FJ2074": 12
+        },
+        "bounds_lps_mm": [
+          [
+            44.813929735622956,
+            -138.99074346570023,
+            766.6381791797612
+          ],
+          [
+            51.86313170095499,
+            -128.91274053601273,
+            799.9671586719487
+          ]
+        ],
+        "maximum_vertex_displacement_mm": 0.2500000000000039
+      },
+      "removed": {
+        "pairs": 17,
+        "union_faces": [
+          9007,
+          9010,
+          9014,
+          9015,
+          9016,
+          9022,
+          9024,
+          9025,
+          9027,
+          9094,
+          9095,
+          9097,
+          9098,
+          9103
+        ],
+        "owner_counts": {
+          "FJ2074": 14
+        },
+        "bounds_lps_mm": [
+          [
+            44.5640983581543,
+            -139.21499633789062,
+            766.6290283203125
+          ],
+          [
+            52.832401275634766,
+            -128.91200256347656,
+            799.9580078125
+          ]
+        ],
+        "maximum_vertex_displacement_mm": 0.2500000000000039
+      }
+    },
+    {
+      "neighbor_id": "FJ2102",
+      "name": "left femoral vein",
+      "layer": "systemic_venous",
+      "before_status": "SURFACE_CONTACT",
+      "after_status": "SURFACE_CONTACT",
+      "added": {
+        "pairs": 6,
+        "union_faces": [
+          8913,
+          8932,
+          8941,
+          9175,
+          9182,
+          9183
+        ],
+        "owner_counts": {
+          "FJ2074": 6
+        },
+        "bounds_lps_mm": [
+          [
+            39.80393141408975,
+            -135.33173162487992,
+            591.9351762500737
+          ],
+          [
+            45.30093306203897,
+            -114.22473699597369,
+            713.04412400398
+          ]
+        ],
+        "maximum_vertex_displacement_mm": 0.2500000000000039
+      },
+      "removed": {
+        "pairs": 10,
+        "union_faces": [
+          8887,
+          8914,
+          8931,
+          8932,
+          8953,
+          9169,
+          9177,
+          9180
+        ],
+        "owner_counts": {
+          "FJ2074": 8
+        },
+        "bounds_lps_mm": [
+          [
+            38.87540054321289,
+            -142.11199951171875,
+            583.8920288085938
+          ],
+          [
+            47.18069839477539,
+            -112.86799621582031,
+            730.9669799804688
+          ]
+        ],
+        "maximum_vertex_displacement_mm": 0.2500000000000039
+      }
+    },
+    {
+      "neighbor_id": "FJ3484",
+      "name": "left external iliac vein",
+      "layer": "systemic_venous",
+      "before_status": "SURFACE_CONTACT",
+      "after_status": "SURFACE_CONTACT",
+      "added": {
+        "pairs": 9,
+        "union_faces": [
+          9023,
+          9035,
+          9036,
+          9332,
+          9371
+        ],
+        "owner_counts": {
+          "FJ2074": 5
+        },
+        "bounds_lps_mm": [
+          [
+            43.524501388372194,
+            -135.7707422449971,
+            793.0621293750737
+          ],
+          [
+            47.99368162653375,
+            -113.26437290417412,
+            823.7196516240638
+          ]
+        ],
+        "maximum_vertex_displacement_mm": 0.2500000000000039
+      },
+      "removed": {
+        "pairs": 9,
+        "union_faces": [
+          9023,
+          9026,
+          9035,
+          9036,
+          9332,
+          9337,
+          9350,
+          9465
+        ],
+        "owner_counts": {
+          "FJ2074": 8
+        },
+        "bounds_lps_mm": [
+          [
+            42.78620147705078,
+            -135.77000427246094,
+            793.052978515625
+          ],
+          [
+            49.302101135253906,
+            -113.26399993896484,
+            824.8079833984375
+          ]
+        ],
+        "maximum_vertex_displacement_mm": 0.2500000000000039
+      }
+    }
+  ]
+}

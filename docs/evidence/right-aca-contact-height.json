@@ -1,0 +1,47 @@
+{
+  "schema": "vv-toolbox.contact-face-height/1",
+  "artifact_sha256": "5822c6aa061c00c2f1427e155d83ea49f752730ea6dce4a12d71d558471cf8eb",
+  "part_id": "FJ1654",
+  "other_part_id": "FJ1690",
+  "contact_face_count": 49,
+  "contact_face_height_range_mm": [
+    -0.6846635844079703,
+    -0.24276642411482602
+  ],
+  "rim_height_range_mm": [
+    -0.9599084429209906,
+    -0.26785254320300034
+  ],
+  "requested_dome_height_mm": 5.0,
+  "atlas_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "rim_samples_inside_or_on_neighbor": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "rim_sample_count": 76,
+  "rim_containment_tolerance_mm": 1e-08,
+  "interpretation": "All vertices of contacting dome faces are below the design neck plane, in the warped rim region.",
+  "limitation": "Face-vertex height bounds, not exact intersection points or clinical lesion location."
+}

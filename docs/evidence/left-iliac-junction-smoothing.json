@@ -1,0 +1,27 @@
+{
+  "schema": "vv-toolbox.left-iliac-junction-smoothing/1",
+  "parent_revision": "ba73dd6b5eae4f2dd96e58ce5af1ae457af9b66b814a2a10e8561ba3a8174524",
+  "case_revision": "23b547d31386462dbae203c4f60f67c0c363962878db538af88fe657570f5621",
+  "parameters": {
+    "sigma_mm": 2.0,
+    "support_mm": 6.0,
+    "sample_spacing_mm": 0.25,
+    "max_displacement_mm": 1.0,
+    "max_radius_change_mm": 1.0
+  },
+  "before": {
+    "angle_deg": 59.9999999999992,
+    "radius_jump_mm": 0.33588108514475845
+  },
+  "after": {
+    "angle_deg": 2.15553664808035,
+    "radius_jump_mm": 0.0
+  },
+  "max_displacement_mm": 0.42130757952235925,
+  "max_radius_change_mm": 0.49266776694622827,
+  "source_unchanged": true,
+  "unrelated_edges_unchanged": true,
+  "surface_check": "NOT RUN",
+  "surrounding_check": "NOT RUN",
+  "anatomical_acceptance": "UNKNOWN"
+}

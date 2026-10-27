@@ -1,0 +1,84 @@
+{
+  "status": "UNKNOWN",
+  "graph_revision": "55225c191c26dac632355661c941e338941964d3e043d07618c07f3d0c4cd2e0",
+  "surface_sha256": "bad61c62ca40b1aade54c6e52e3ded05829240b23f6dbd915991d8688ae313d9",
+  "graph_modified": false,
+  "live_scene_changed": false,
+  "branch_inventory": [
+    {
+      "side": "incoming",
+      "edge_id": "FJ3417:e0::samples:2-155",
+      "old_attachment_node": "sample:FJ3417:e0:2",
+      "incident_edges": [
+        "FJ3417:e0::samples:0-2",
+        "FJ3417:e0::samples:2-155",
+        "declared-link:10"
+      ],
+      "other_edges_requiring_reattachment": [
+        "FJ3417:e0::samples:0-2"
+      ]
+    },
+    {
+      "side": "outgoing",
+      "edge_id": "FJ3564:e0::samples:0-144",
+      "old_attachment_node": "sample:FJ3564:e0:144",
+      "incident_edges": [
+        "FJ3564:e0::samples:0-144",
+        "FJ3564:e0::samples:144-152",
+        "declared-link:10"
+      ],
+      "other_edges_requiring_reattachment": [
+        "FJ3564:e0::samples:144-152"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "collar_mm": 5,
+      "artifact": "exports/access-collar-candidates/collar-5mm-attachments.json",
+      "artifact_sha256": "ffef7d274167ce9c19426835eb472ccac1aed8eaef6a0a1bdaac5b80b3d5634a",
+      "endpoint_statuses": [
+        "MEASURED",
+        "MEASURED"
+      ],
+      "endpoint_areas_mm2": [
+        98.88085852717721,
+        133.44504498865084
+      ],
+      "branch_preservation": "NOT RUN",
+      "contour_correspondence": "NOT RUN"
+    },
+    {
+      "collar_mm": 10,
+      "artifact": "exports/access-collar-candidates/collar-10mm-attachments.json",
+      "artifact_sha256": "cf42ff050a20e0b055880c2b433dfb3d2b3661589603cfd60fbe63ef71a0bebc",
+      "endpoint_statuses": [
+        "MEASURED",
+        "MEASURED"
+      ],
+      "endpoint_areas_mm2": [
+        101.11786346085667,
+        49.88393052069258
+      ],
+      "branch_preservation": "NOT RUN",
+      "contour_correspondence": "NOT RUN"
+    },
+    {
+      "collar_mm": 20,
+      "artifact": "exports/access-collar-candidates/collar-20mm-attachments.json",
+      "artifact_sha256": "1a18dff76469893ea84e46492c7d61d6e011e48b6d16fb17d8a1a2dba7188ecf",
+      "endpoint_statuses": [
+        "MEASURED",
+        "MEASURED"
+      ],
+      "endpoint_areas_mm2": [
+        101.9840889544094,
+        50.720038692675224
+      ],
+      "branch_preservation": "NOT RUN",
+      "contour_correspondence": "NOT RUN"
+    }
+  ],
+  "scope": "Endpoint plane sections and graph incidences; no branch relocation",
+  "inspection_status": "COMPLETE"
+}

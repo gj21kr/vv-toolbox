@@ -1,0 +1,32 @@
+{
+  "scope": "Full Python suite after nonplanar neck, bounded surface regularization, surface-context screening and CLI integration",
+  "environment": "Docker vv-annotation-ui",
+  "command": "PYTHONPATH=src python -m pytest -q -p no:cacheprovider",
+  "exit_code": 0,
+  "python_executed_tests": "PASS",
+  "passed": 667,
+  "skipped": 3,
+  "warnings": 330,
+  "seconds": 71.31,
+  "warning_category": "NumPy shape assignment deprecation in scikit-image marching cubes",
+  "skipped_scope": {
+    "status": "NOT RUN",
+    "reason": "Node unavailable in container",
+    "files": [
+      "tests/test_endpoint_neighborhood.py",
+      "tests/test_relationship_ui.py"
+    ],
+    "host_node_replay_this_run": "NOT RUN"
+  },
+  "selected_changed_file_sha256_raw_bytes": {
+    "src/vv_toolbox/surface_context.py": "619beffaf99aae6cb6c89543b47952caf293b7d4c8bdb602d7495f133bf35f8a",
+    "src/vv_toolbox/case_cli.py": "06f62a94bbdeb9189782817dee72cdcff6817780cce56f7a54c947a8f08213a5",
+    "tests/test_surface_context.py": "8fca28bbf8d5c917a825ec16e62b544b0dee1f9aa151346ebde4a79c1e6f2771",
+    "tests/test_surface_context_cli.py": "cc456e4c7cb89129ecb34265a9ca0c407bf1f88528036edc9677e7cd33a3d4a7"
+  },
+  "fingerprint_scope": "Selected changed files only; not an immutable full-worktree snapshot",
+  "browser_visual_verification_this_run": "NOT RUN",
+  "anatomical_acceptance": "UNKNOWN",
+  "clinical_validation": "NOT RUN",
+  "plan_completion": "NOT ACHIEVED"
+}

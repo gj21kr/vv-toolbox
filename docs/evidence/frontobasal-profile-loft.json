@@ -1,0 +1,218 @@
+{
+  "schema": "vv-toolbox.frontobasal-profile-loft/1",
+  "parent_path_sha256": "e6e2ba43f99858c34f245f2c1cfe367e5033e9bedfffd5d53f9be6f343273e0f",
+  "atlas_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "artifact": "exports/frontobasal-profile-loft.npz",
+  "sha256": "d97a3bb401763d6c63f9ed5af21976281fc41a017c72aa5090b9055e221f44e9",
+  "loft": {
+    "method": "perimeter-cyclic-open-loft/1",
+    "status": "CANDIDATE",
+    "profiles": 50,
+    "samples_per_profile": 64,
+    "cyclic_shifts": [
+      0,
+      41,
+      44,
+      32,
+      21,
+      49,
+      49,
+      3,
+      7,
+      20,
+      31,
+      55,
+      21,
+      4,
+      14,
+      1,
+      10,
+      10,
+      17,
+      49,
+      56,
+      23,
+      13,
+      30,
+      28,
+      42,
+      55,
+      7,
+      25,
+      17,
+      16,
+      15,
+      42,
+      48,
+      15,
+      0,
+      32,
+      15,
+      34,
+      57,
+      2,
+      0,
+      44,
+      34,
+      40,
+      12,
+      48,
+      53,
+      31,
+      23
+    ],
+    "boundary_edges": 128,
+    "watertight": false,
+    "winding_consistent": true,
+    "endpoints": "open at first and last supplied measured sections",
+    "self_intersection": "NOT RUN",
+    "junctions": "NOT RUN",
+    "smoothness_acceptance": "NOT RUN",
+    "anatomical_validation": "NOT RUN"
+  },
+  "self_contact": {
+    "status": "CONTACT_DETECTED",
+    "coverage": "all distinct triangle pairs",
+    "checked_pairs": 78872,
+    "adjacent_pairs_checked": 37120,
+    "contact_pairs": [
+      [
+        6144,
+        6270
+      ],
+      [
+        6144,
+        6264
+      ],
+      [
+        6144,
+        6265
+      ],
+      [
+        6144,
+        6267
+      ],
+      [
+        6145,
+        6271
+      ],
+      [
+        6145,
+        6268
+      ],
+      [
+        6145,
+        6266
+      ],
+      [
+        6145,
+        6264
+      ],
+      [
+        6145,
+        6265
+      ],
+      [
+        6145,
+        6267
+      ],
+      [
+        6145,
+        6269
+      ],
+      [
+        6146,
+        6270
+      ],
+      [
+        6146,
+        6268
+      ],
+      [
+        6146,
+        6266
+      ],
+      [
+        6146,
+        6271
+      ],
+      [
+        6146,
+        6267
+      ],
+      [
+        6146,
+        6269
+      ],
+      [
+        6147,
+        6270
+      ],
+      [
+        6147,
+        6268
+      ],
+      [
+        6147,
+        6271
+      ],
+      [
+        6147,
+        6267
+      ],
+      [
+        6149,
+        6270
+      ],
+      [
+        6149,
+        6268
+      ],
+      [
+        6149,
+        6266
+      ],
+      [
+        6149,
+        6271
+      ],
+      [
+        6149,
+        6267
+      ],
+      [
+        6149,
+        6269
+      ],
+      [
+        6268,
+        6270
+      ],
+      [
+        6269,
+        6271
+      ],
+      [
+        6269,
+        6270
+      ]
+    ],
+    "tolerance_mm": 1e-08,
+    "max_pairs": 2000000,
+    "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+  },
+  "sampled_source_distance": {
+    "vertices": {
+      "count": 3200,
+      "maximum_surface_distance_mm": 2.6378749539683456e-13,
+      "median_surface_distance_mm": 2.8916994303251375e-14
+    },
+    "face_centroids": {
+      "count": 6272,
+      "maximum_surface_distance_mm": 1.3237239860057193,
+      "median_surface_distance_mm": 0.000278189385551432
+    }
+  },
+  "accepted_for_generation": false,
+  "limitation": "Open lateral diagnostic surface. Sampled distances are not a whole-surface bound; no cap, branch seam or surrounding clearance acceptance."
+}

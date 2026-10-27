@@ -1,0 +1,24 @@
+{
+  "requirement": "VV-REQ-005 editing inspection",
+  "scope": "Basic invariants computed for each deformed atlas part and recomputed during saved-edit regeneration",
+  "export_field": "edit_checks keyed by atlas part ID",
+  "checks": [
+    "Unchanged triangle connectivity",
+    "Finite edited geometry and centerline values",
+    "Preserved endpoint node IDs, positions and radii",
+    "Positive centerline radii",
+    "Newly degenerate triangles separated from inherited source defects"
+  ],
+  "triangle_area_tolerance_mm2": 1e-12,
+  "policy": "Non-default deformations with FAIL basic invariants are rejected before publication, including regeneration from saved edits. This is not a complete geometry acceptance gate. Restoring the exact original remains available and inherited source defects are reported separately.",
+  "command": "PYTHONPATH=src python -m pytest tests/test_atlas_edit_checks.py tests/test_atlas_modification.py tests/test_atlas_edit_session.py tests/test_atlas_workspace.py -q",
+  "environment": "vv-annotation-ui Docker",
+  "passed": 47,
+  "failed": 0,
+  "self_intersection": "NOT RUN",
+  "surrounding_collision": "NOT RUN",
+  "junction_smoothness": "NOT RUN",
+  "real_atlas_inspection_this_change": "PASS for FJ1692 combined edit basic invariants; see atlas-mca-edit-invariants.json",
+  "browser_presentation": "NOT RUN",
+  "limitations": "Passing basic invariants does not mean a closed, collision-free, smooth or anatomically valid vessel. Existing degenerate triangles can remain even when no new degenerate triangles are introduced."
+}

@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "browser_path": "Browser plugin not available; Playwright CDP",
+  "checks": [
+    "eight surfaces loaded",
+    "read-only modification rejected",
+    "source/candidate toggle both directions",
+    "surface-only controls",
+    "mobile no horizontal overflow",
+    "Atlas return preserves modifications",
+    "snapshot unchanged"
+  ],
+  "candidate": {
+    "id": "cerebral-protected-fit",
+    "title": "뇌혈관 8개 · 끝단 보존 보정 후보",
+    "revision": "c99c7f25f5bde45afe670404474a4707935f08470b7d09cf4dd1008f0bb56cce",
+    "edge_ids": [
+      "FJ1654:e0",
+      "FJ1654M:e0",
+      "FJ1660:e0",
+      "FJ1660M:e0",
+      "FJ1692:e0",
+      "FJ1692M:e0",
+      "FJ1694:e0",
+      "FJ1694M:e0"
+    ],
+    "vertices": 7111,
+    "triangles": 14120,
+    "read_only": true,
+    "scope": "원본 끝단과 접촉면을 고정한 8개 합성 표면",
+    "protected_comparison": {
+      "reference": false,
+      "parts": 8,
+      "affected_pairs": 4108,
+      "self_contact": "NO_CONTACT_DETECTED",
+      "gained_contact_pairs": 0,
+      "lost_contact_pairs": 0
+    },
+    "centerlines_available": false,
+    "anatomy": "UNKNOWN",
+    "volume_containment": "NOT RUN"
+  },
+  "page_errors": [],
+  "atlas_snapshot_sha256": "082a9178daee4d52c79aaa709cba91fbdc56cfb5767fef4801fd4b9bb22d1964"
+}

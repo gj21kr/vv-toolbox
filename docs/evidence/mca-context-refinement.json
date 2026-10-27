@@ -1,0 +1,21 @@
+{
+  "case_revision": "90aa67f11b698178168d7491e1da7d23bd621f252dfea6dd47029af93b9a9da4",
+  "artifact_sha256": "a3e7c34c4624353dce25597f8b844cb995073734b5b288c075a306d9d278d68f",
+  "evidence_sha256": "b46ad40f1725ac4f96480dcb131b183a39a6236647e4c9734e4b7828ea027d41",
+  "results": [
+    {
+      "edge_id": "FJ1662:e12",
+      "previous_status": "UNKNOWN",
+      "status": "SEPARATED_PROFILE",
+      "checked_cells": 53140,
+      "unresolved_cells": 0,
+      "lower_bound_mm": 0.002352959719447073,
+      "max_depth": 8,
+      "max_cells": 100000
+    }
+  ],
+  "other_pair_verdicts_unchanged": true,
+  "app_applied": false,
+  "scope": "all triangles of previously unresolved pairs versus enclosing profile capsules",
+  "original_mesh_collision": "NOT RUN"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "FAIL",
+  "source": "FJ2074",
+  "parameters": {
+    "bend_mm": 0.25,
+    "bend_direction": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "twist_deg": 5.0,
+    "collar_mm": 1.0,
+    "transition_mm": 10.0,
+    "max_displacement_mm": 1.0
+  },
+  "scope": "Selected source shape kernel; not complete graph deformation or live editing",
+  "neighboring_vessels": "NOT RUN",
+  "accepted_for_generation": false,
+  "parent_surface_sha256": "c1981693aff26b3a21e6dda40fca292c64e04c33471cae517f6120125352602c",
+  "reason": "Shape change exceeds displacement bound",
+  "elapsed_seconds": 5.410103271002299
+}

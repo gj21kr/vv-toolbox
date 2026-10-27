@@ -1,0 +1,675 @@
+{
+  "candidate_sha256": "90de9ecf1b2800658dec61f62889c15f7c2f40914197ecc6419e3454ffafd306",
+  "context_file_sha256": "090cd043542a891bc66fa7f5182a6d91b23e5307b99b67632c085eddfc4e35d7",
+  "source_case_revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+  "context_status": "UNKNOWN",
+  "inspected_neighbors": 799,
+  "rows": [
+    {
+      "neighbor_id": "FJ1658",
+      "neighbor_name": "right anterior choroidal artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 38,
+      "candidate_face_count": 16,
+      "source_face_counts": {
+        "FJ1682": 16
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          -13.166399955749512,
+          -109.79199981689453,
+          1530.8299560546875
+        ],
+        [
+          -11.100899696350098,
+          -107.01499938964844,
+          1536.52001953125
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1658M",
+      "neighbor_name": "left anterior choroidal artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 38,
+      "candidate_face_count": 16,
+      "source_face_counts": {
+        "FJ1682M": 16
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          11.100899696350098,
+          -109.79199981689453,
+          1530.8299560546875
+        ],
+        [
+          13.166399955749512,
+          -107.01399993896484,
+          1536.52001953125
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1660",
+      "neighbor_name": "insular part of right middle cerebral artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 76,
+      "candidate_face_count": 19,
+      "source_face_counts": {
+        "FJ1692": 19
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          -42.352901458740234,
+          -108.88400268554688,
+          1543.1400146484375
+        ],
+        [
+          -37.45370101928711,
+          -106.0260009765625,
+          1548.1800537109375
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1660M",
+      "neighbor_name": "insular part of left middle cerebral artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 76,
+      "candidate_face_count": 19,
+      "source_face_counts": {
+        "FJ1692M": 19
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          37.45370101928711,
+          -108.88400268554688,
+          1543.1400146484375
+        ],
+        [
+          42.352901458740234,
+          -106.0260009765625,
+          1548.1800537109375
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1662",
+      "neighbor_name": "anterolateral central branch of right middle cerebral artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 68,
+      "candidate_face_count": 26,
+      "source_face_counts": {
+        "FJ1682": 26
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          -15.780799865722656,
+          -110.81889682456787,
+          1536.27001953125
+        ],
+        [
+          -12.022199630737305,
+          -107.97100067138672,
+          1537.719970703125
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1662M",
+      "neighbor_name": "anterolateral central branch of left middle cerebral artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 68,
+      "candidate_face_count": 26,
+      "source_face_counts": {
+        "FJ1682M": 26
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          12.022199630737305,
+          -110.82303182437731,
+          1536.27001953125
+        ],
+        [
+          15.780799865722658,
+          -107.97100067138672,
+          1537.719970703125
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1663",
+      "neighbor_name": "anterolateral central branch of right middle cerebral artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 30,
+      "candidate_face_count": 8,
+      "source_face_counts": {
+        "FJ1682": 8
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          -13.166099548339844,
+          -108.75800323486328,
+          1535.6700439453125
+        ],
+        [
+          -10.820799827575684,
+          -107.43599700927734,
+          1537.22998046875
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1663M",
+      "neighbor_name": "anterolateral central branch of left middle cerebral artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 30,
+      "candidate_face_count": 8,
+      "source_face_counts": {
+        "FJ1682M": 8
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          10.820799827575684,
+          -108.75800323486328,
+          1535.6700439453125
+        ],
+        [
+          13.166099548339844,
+          -107.43499755859375,
+          1537.22998046875
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1676",
+      "neighbor_name": "right callosomarginal artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 71,
+      "candidate_face_count": 34,
+      "source_face_counts": {
+        "FJ1654": 34
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          -4.6598801612854,
+          -121.20700073242188,
+          1543.5
+        ],
+        [
+          -1.377269983291626,
+          -117.12999725341797,
+          1548.8499755859375
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1676M",
+      "neighbor_name": "left callosomarginal artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 71,
+      "candidate_face_count": 34,
+      "source_face_counts": {
+        "FJ1654M": 34
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          1.377269983291626,
+          -121.20700073242188,
+          1543.489990234375
+        ],
+        [
+          4.6598801612854,
+          -117.13099670410156,
+          1548.8499755859375
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1690",
+      "neighbor_name": "right medial frontobasal artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 51,
+      "candidate_face_count": 18,
+      "source_face_counts": {
+        "FJ1654": 18
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          -9.283220291137695,
+          -116.15699768066406,
+          1536.719970703125
+        ],
+        [
+          -2.0119099617004395,
+          -109.00399780273438,
+          1539.4300537109375
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1690M",
+      "neighbor_name": "left medial frontobasal artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 51,
+      "candidate_face_count": 18,
+      "source_face_counts": {
+        "FJ1654M": 18
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          2.0119099617004395,
+          -116.15699768066406,
+          1536.719970703125
+        ],
+        [
+          9.28322982788086,
+          -109.00499725341797,
+          1539.4300537109375
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1694",
+      "neighbor_name": "insular part of right middle cerebral artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 125,
+      "candidate_face_count": 41,
+      "source_face_counts": {
+        "FJ1692": 41
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          -44.30699920654297,
+          -105.87000274658203,
+          1546.510009765625
+        ],
+        [
+          -41.389400482177734,
+          -103.11799621582031,
+          1549.6300048828125
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1694M",
+      "neighbor_name": "insular part of left middle cerebral artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 123,
+      "candidate_face_count": 41,
+      "source_face_counts": {
+        "FJ1692M": 41
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          41.389400482177734,
+          -105.87000274658203,
+          1546.510009765625
+        ],
+        [
+          44.307098388671875,
+          -103.11900329589844,
+          1549.6300048828125
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1695",
+      "neighbor_name": "right ophthalmic artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 73,
+      "candidate_face_count": 13,
+      "source_face_counts": {
+        "FJ1682": 13
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          -14.49209976196289,
+          -113.63500213623047,
+          1528.8499755859375
+        ],
+        [
+          -10.601699829101562,
+          -110.00700378417969,
+          1533.739990234375
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1695M",
+      "neighbor_name": "left ophthalmic artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 73,
+      "candidate_face_count": 13,
+      "source_face_counts": {
+        "FJ1682M": 13
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          10.601699829101562,
+          -113.63500213623047,
+          1528.8499755859375
+        ],
+        [
+          14.492099761962892,
+          -110.00700378417969,
+          1533.739990234375
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1699",
+      "neighbor_name": "right pericallosal artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 45,
+      "candidate_face_count": 21,
+      "source_face_counts": {
+        "FJ1654": 21
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          -4.374770164489746,
+          -121.2020034790039,
+          1547.8599853515625
+        ],
+        [
+          -2.299180030822754,
+          -119.22100067138672,
+          1548.97998046875
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1699M",
+      "neighbor_name": "left pericallosal artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 45,
+      "candidate_face_count": 21,
+      "source_face_counts": {
+        "FJ1654M": 21
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          2.299180030822754,
+          -121.2020034790039,
+          1547.8599853515625
+        ],
+        [
+          4.374780178070068,
+          -119.22200012207031,
+          1548.97998046875
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1713",
+      "neighbor_name": "right posterior communicating artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 35,
+      "candidate_face_count": 12,
+      "source_face_counts": {
+        "FJ1682": 12
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          -13.192099571228027,
+          -111.427001953125,
+          1527.800048828125
+        ],
+        [
+          -10.82919979095459,
+          -107.34100341796875,
+          1533.27001953125
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1713M",
+      "neighbor_name": "left posterior communicating artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 35,
+      "candidate_face_count": 12,
+      "source_face_counts": {
+        "FJ1682M": 12
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          10.82919979095459,
+          -111.427001953125,
+          1527.800048828125
+        ],
+        [
+          13.192099571228027,
+          -107.34100341796875,
+          1533.27001953125
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1718",
+      "neighbor_name": "trunk of inferior terminal branch of right middle cerebral artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 60,
+      "candidate_face_count": 29,
+      "source_face_counts": {
+        "FJ1692": 29
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          -44.30699920654297,
+          -106.25,
+          1545.27001953125
+        ],
+        [
+          -40.38999938964844,
+          -103.25900268554688,
+          1548.5699462890625
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ1718M",
+      "neighbor_name": "trunk of inferior terminal branch of left middle cerebral artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 60,
+      "candidate_face_count": 29,
+      "source_face_counts": {
+        "FJ1692M": 29
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          40.38999938964844,
+          -106.25,
+          1545.27001953125
+        ],
+        [
+          44.307098388671875,
+          -103.25900268554688,
+          1548.5699462890625
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ3411",
+      "neighbor_name": "arch of aorta",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 30,
+      "candidate_face_count": 20,
+      "source_face_counts": {
+        "FJ3483": 20
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          13.116800308227539,
+          -105.01200103759766,
+          1307.780029296875
+        ],
+        [
+          21.072200775146484,
+          -96.04419708251953,
+          1322.010009765625
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ3417",
+      "neighbor_name": "brachiocephalic artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 81,
+      "candidate_face_count": 49,
+      "source_face_counts": {
+        "FJ3564": 49
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          -19.835899353027344,
+          -116.86199951171875,
+          1331.510009765625
+        ],
+        [
+          -8.988840103149414,
+          -105.81800079345703,
+          1344.969970703125
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "FJ3579",
+      "neighbor_name": "right subclavian artery",
+      "status": "SURFACE_CONTACT",
+      "complete": true,
+      "contact_pair_count": 73,
+      "candidate_face_count": 35,
+      "source_face_counts": {
+        "FJ3564": 35
+      },
+      "contacting_candidate_triangle_bounds_mm": [
+        [
+          -19.835899353027344,
+          -112.69999694824219,
+          1330.9100341796875
+        ],
+        [
+          -9.606639862060547,
+          -105.38300323486328,
+          1341.989990234375
+        ]
+      ],
+      "containment": null,
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "estimated_left_vertebral_neck",
+      "neighbor_name": "estimated_left_vertebral_neck",
+      "status": "UNKNOWN",
+      "complete": false,
+      "contact_pair_count": 0,
+      "candidate_face_count": 0,
+      "source_face_counts": {},
+      "contacting_candidate_triangle_bounds_mm": null,
+      "containment": {
+        "status": "UNKNOWN",
+        "complete": false,
+        "contained_components": [],
+        "tolerance_mm": 1e-06,
+        "scope": "Whole connected boundary components of closed disjoint surfaces",
+        "reason": "Closed consistent nondegenerate surface required"
+      },
+      "junction_approval": "UNKNOWN"
+    },
+    {
+      "neighbor_id": "estimated_right_vertebral_neck",
+      "neighbor_name": "estimated_right_vertebral_neck",
+      "status": "UNKNOWN",
+      "complete": false,
+      "contact_pair_count": 0,
+      "candidate_face_count": 0,
+      "source_face_counts": {},
+      "contacting_candidate_triangle_bounds_mm": null,
+      "containment": {
+        "status": "UNKNOWN",
+        "complete": false,
+        "contained_components": [],
+        "tolerance_mm": 1e-06,
+        "scope": "Whole connected boundary components of closed disjoint surfaces",
+        "reason": "Closed consistent nondegenerate surface required"
+      },
+      "junction_approval": "UNKNOWN"
+    }
+  ],
+  "scope": "Source ownership and bounds of contacting triangles, not exact intersection loci",
+  "anatomical_validation": "NOT RUN",
+  "live_scene_changed": false
+}

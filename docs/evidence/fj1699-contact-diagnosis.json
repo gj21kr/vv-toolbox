@@ -1,0 +1,617 @@
+{
+  "schema": "vv-toolbox.source-contact-diagnosis/1",
+  "part_id": "FJ1699",
+  "name": "right pericallosal artery",
+  "atlas_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "indexing": {
+    "method": "exact-coordinate-index-copy/1",
+    "coordinate_tolerance_mm": 0,
+    "original_vertices": 984,
+    "normalized_vertices": 558,
+    "faces": 1080,
+    "triangle_coordinate_bytes_preserved": true,
+    "triangle_sha256": "03a29409c3899ffb18b631d5b34ea2949b41a1e922dff4b17bd10c253a028b65",
+    "original_watertight": false,
+    "normalized_watertight": true,
+    "normalized_winding_consistent": true,
+    "zero_area_faces": 0,
+    "usable_for_sampled_containment": true,
+    "original_modified": false,
+    "faces_added_or_removed": false,
+    "self_intersection": "NOT RUN",
+    "anatomical_validity": "NOT RUN"
+  },
+  "scans": [
+    {
+      "status": "CONTACT_DETECTED",
+      "coverage": "all distinct triangle pairs",
+      "checked_pairs": 8978,
+      "adjacent_pairs_checked": 6611,
+      "contact_pairs": [
+        [
+          0,
+          24
+        ],
+        [
+          32,
+          33
+        ]
+      ],
+      "tolerance_mm": 1e-10,
+      "max_pairs": 2000000,
+      "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+    },
+    {
+      "status": "CONTACT_DETECTED",
+      "coverage": "all distinct triangle pairs",
+      "checked_pairs": 8978,
+      "adjacent_pairs_checked": 6611,
+      "contact_pairs": [
+        [
+          0,
+          24
+        ],
+        [
+          32,
+          33
+        ]
+      ],
+      "tolerance_mm": 1e-08,
+      "max_pairs": 2000000,
+      "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+    },
+    {
+      "status": "CONTACT_DETECTED",
+      "coverage": "all distinct triangle pairs",
+      "checked_pairs": 8978,
+      "adjacent_pairs_checked": 6611,
+      "contact_pairs": [
+        [
+          0,
+          24
+        ],
+        [
+          32,
+          33
+        ]
+      ],
+      "tolerance_mm": 1e-06,
+      "max_pairs": 2000000,
+      "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+    }
+  ],
+  "pairs": [
+    {
+      "face_ids": [
+        0,
+        24
+      ],
+      "shared_vertex_ids": [
+        0,
+        1,
+        2
+      ],
+      "triangles_mm": [
+        [
+          [
+            -6.392910003662109,
+            -59.60169982910156,
+            1588.72998046875
+          ],
+          [
+            -6.32790994644165,
+            -59.60169982910156,
+            1588.75
+          ],
+          [
+            -6.381969928741455,
+            -59.40169906616211,
+            1588.75
+          ]
+        ],
+        [
+          [
+            -6.392910003662109,
+            -59.60169982910156,
+            1588.72998046875
+          ],
+          [
+            -6.381969928741455,
+            -59.40169906616211,
+            1588.75
+          ],
+          [
+            -6.32790994644165,
+            -59.60169982910156,
+            1588.75
+          ]
+        ]
+      ],
+      "exact_check": {
+        "status": "IDENTICAL_TRIANGLE_SUPPORT",
+        "normal_dot": -1.0,
+        "area_mm2": 0.006822833932189586,
+        "incident_faces": [
+          0,
+          24
+        ]
+      }
+    },
+    {
+      "face_ids": [
+        32,
+        33
+      ],
+      "shared_vertex_ids": [
+        7,
+        8,
+        9
+      ],
+      "triangles_mm": [
+        [
+          [
+            -5.992909908294678,
+            -59.801700592041016,
+            1588.449951171875
+          ],
+          [
+            -5.992909908294678,
+            -59.731300354003906,
+            1588.550048828125
+          ],
+          [
+            -5.94419002532959,
+            -59.801700592041016,
+            1588.550048828125
+          ]
+        ],
+        [
+          [
+            -5.94419002532959,
+            -59.801700592041016,
+            1588.550048828125
+          ],
+          [
+            -5.992909908294678,
+            -59.731300354003906,
+            1588.550048828125
+          ],
+          [
+            -5.992909908294678,
+            -59.801700592041016,
+            1588.449951171875
+          ]
+        ]
+      ],
+      "exact_check": {
+        "status": "IDENTICAL_TRIANGLE_SUPPORT",
+        "normal_dot": -0.9999999999999999,
+        "area_mm2": 0.004615343711591205,
+        "incident_faces": [
+          32,
+          33
+        ]
+      }
+    }
+  ],
+  "components": [
+    {
+      "face_count": 2,
+      "face_ids": [
+        0,
+        24
+      ],
+      "volume_mm3": 0.0,
+      "watertight": true
+    },
+    {
+      "face_count": 16,
+      "face_ids": null,
+      "volume_mm3": 0.003237709301880942,
+      "watertight": true
+    },
+    {
+      "face_count": 8,
+      "face_ids": [
+        7,
+        17,
+        8,
+        9,
+        14,
+        11,
+        16,
+        22
+      ],
+      "volume_mm3": 0.003492109660691023,
+      "watertight": true
+    },
+    {
+      "face_count": 8,
+      "face_ids": [
+        437,
+        436,
+        18,
+        15,
+        13,
+        19,
+        21,
+        20
+      ],
+      "volume_mm3": 0.004349782919942591,
+      "watertight": true
+    },
+    {
+      "face_count": 4,
+      "face_ids": [
+        25,
+        27,
+        26,
+        23
+      ],
+      "volume_mm3": 0.0001708673489031476,
+      "watertight": true
+    },
+    {
+      "face_count": 8,
+      "face_ids": [
+        28,
+        29,
+        37,
+        36,
+        38,
+        39,
+        30,
+        31
+      ],
+      "volume_mm3": 0.0010434929267357045,
+      "watertight": true
+    },
+    {
+      "face_count": 2,
+      "face_ids": [
+        32,
+        33
+      ],
+      "volume_mm3": 0.0,
+      "watertight": true
+    },
+    {
+      "face_count": 1024,
+      "face_ids": null,
+      "volume_mm3": 126.6608976492301,
+      "watertight": true
+    },
+    {
+      "face_count": 8,
+      "face_ids": [
+        853,
+        850,
+        851,
+        852,
+        826,
+        817,
+        818,
+        827
+      ],
+      "volume_mm3": 2.047421965301055e-08,
+      "watertight": true
+    }
+  ],
+  "original_modified": false,
+  "repair_applied": false,
+  "anatomical_validation": "NOT RUN",
+  "diagnostic_copy": {
+    "removed_face_ids": [
+      0,
+      24,
+      32,
+      33
+    ],
+    "retained_face_count": 1076,
+    "retained_triangle_coordinates_unchanged": true,
+    "watertight": true,
+    "winding_consistent": true,
+    "self_contact": {
+      "status": "NO_CONTACT_DETECTED",
+      "coverage": "all distinct triangle pairs",
+      "checked_pairs": 8976,
+      "adjacent_pairs_checked": 6609,
+      "contact_pairs": [],
+      "tolerance_mm": 1e-08,
+      "max_pairs": 2000000,
+      "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+    },
+    "accepted_for_generation": false,
+    "candidate_comparisons": [
+      {
+        "edge_id": "FJ1690:e0",
+        "scale": 0.9,
+        "artifact_sha256": "69f6da0df948c7acf2cc8413bcbaef43b9f57a6e325ab678eba0650451913f49",
+        "context": {
+          "status": "PASS",
+          "decision_reason": "CLEAR",
+          "context_sha256": "2c7f4c82a283a7c37e3cade7229c5b200241adbd39e51f8d20f1f24dcc04ce1d",
+          "rows": [
+            {
+              "neighbor_id": "FJ1699-diagnostic-copy",
+              "before": {
+                "status": "SEPARATED",
+                "complete": true,
+                "contact_pairs": [],
+                "containment": {
+                  "status": "NO_CONTAINMENT_DETECTED",
+                  "complete": true,
+                  "contained_components": [],
+                  "tolerance_mm": 1e-06,
+                  "scope": "Whole connected boundary components of closed disjoint surfaces"
+                }
+              },
+              "after": {
+                "status": "SEPARATED",
+                "complete": true,
+                "contact_pairs": [],
+                "containment": {
+                  "status": "NO_CONTAINMENT_DETECTED",
+                  "complete": true,
+                  "contained_components": [],
+                  "tolerance_mm": 1e-06,
+                  "scope": "Whole connected boundary components of closed disjoint surfaces"
+                }
+              },
+              "added_contact_pairs": [],
+              "removed_contact_pairs": []
+            }
+          ],
+          "new_or_extended_contacts": [],
+          "unknown": [],
+          "remaining_contacts": [],
+          "tolerance_mm": 1e-06,
+          "scope": "Fixed-topology edit versus all supplied static neighbors, including disjoint containment",
+          "same_triangle_contact_location_equivalence": "NOT RUN",
+          "anatomical_validation": "NOT RUN"
+        }
+      },
+      {
+        "edge_id": "FJ1690:e0",
+        "scale": 1.1,
+        "artifact_sha256": "a367cbf29e63f3611c0ef47f97d2cfd652cdc8344208e99bc2dca899df6e2373",
+        "context": {
+          "status": "PASS",
+          "decision_reason": "CLEAR",
+          "context_sha256": "2c7f4c82a283a7c37e3cade7229c5b200241adbd39e51f8d20f1f24dcc04ce1d",
+          "rows": [
+            {
+              "neighbor_id": "FJ1699-diagnostic-copy",
+              "before": {
+                "status": "SEPARATED",
+                "complete": true,
+                "contact_pairs": [],
+                "containment": {
+                  "status": "NO_CONTAINMENT_DETECTED",
+                  "complete": true,
+                  "contained_components": [],
+                  "tolerance_mm": 1e-06,
+                  "scope": "Whole connected boundary components of closed disjoint surfaces"
+                }
+              },
+              "after": {
+                "status": "SEPARATED",
+                "complete": true,
+                "contact_pairs": [],
+                "containment": {
+                  "status": "NO_CONTAINMENT_DETECTED",
+                  "complete": true,
+                  "contained_components": [],
+                  "tolerance_mm": 1e-06,
+                  "scope": "Whole connected boundary components of closed disjoint surfaces"
+                }
+              },
+              "added_contact_pairs": [],
+              "removed_contact_pairs": []
+            }
+          ],
+          "new_or_extended_contacts": [],
+          "unknown": [],
+          "remaining_contacts": [],
+          "tolerance_mm": 1e-06,
+          "scope": "Fixed-topology edit versus all supplied static neighbors, including disjoint containment",
+          "same_triangle_contact_location_equivalence": "NOT RUN",
+          "anatomical_validation": "NOT RUN"
+        }
+      },
+      {
+        "edge_id": "FJ1690:e1",
+        "scale": 0.9,
+        "artifact_sha256": "46e0ae9370db7b64e861100d385a1911754b2f2dee17250ecdf2085ae4949683",
+        "context": {
+          "status": "PASS",
+          "decision_reason": "CLEAR",
+          "context_sha256": "2c7f4c82a283a7c37e3cade7229c5b200241adbd39e51f8d20f1f24dcc04ce1d",
+          "rows": [
+            {
+              "neighbor_id": "FJ1699-diagnostic-copy",
+              "before": {
+                "status": "SEPARATED",
+                "complete": true,
+                "contact_pairs": [],
+                "containment": {
+                  "status": "NO_CONTAINMENT_DETECTED",
+                  "complete": true,
+                  "contained_components": [],
+                  "tolerance_mm": 1e-06,
+                  "scope": "Whole connected boundary components of closed disjoint surfaces"
+                }
+              },
+              "after": {
+                "status": "SEPARATED",
+                "complete": true,
+                "contact_pairs": [],
+                "containment": {
+                  "status": "NO_CONTAINMENT_DETECTED",
+                  "complete": true,
+                  "contained_components": [],
+                  "tolerance_mm": 1e-06,
+                  "scope": "Whole connected boundary components of closed disjoint surfaces"
+                }
+              },
+              "added_contact_pairs": [],
+              "removed_contact_pairs": []
+            }
+          ],
+          "new_or_extended_contacts": [],
+          "unknown": [],
+          "remaining_contacts": [],
+          "tolerance_mm": 1e-06,
+          "scope": "Fixed-topology edit versus all supplied static neighbors, including disjoint containment",
+          "same_triangle_contact_location_equivalence": "NOT RUN",
+          "anatomical_validation": "NOT RUN"
+        }
+      },
+      {
+        "edge_id": "FJ1690:e1",
+        "scale": 1.1,
+        "artifact_sha256": "1179f1021fb46f6ef9c8a163b807dcb6dd9991db7bb9660fedb68d91324c5b33",
+        "context": {
+          "status": "PASS",
+          "decision_reason": "CLEAR",
+          "context_sha256": "2c7f4c82a283a7c37e3cade7229c5b200241adbd39e51f8d20f1f24dcc04ce1d",
+          "rows": [
+            {
+              "neighbor_id": "FJ1699-diagnostic-copy",
+              "before": {
+                "status": "SEPARATED",
+                "complete": true,
+                "contact_pairs": [],
+                "containment": {
+                  "status": "NO_CONTAINMENT_DETECTED",
+                  "complete": true,
+                  "contained_components": [],
+                  "tolerance_mm": 1e-06,
+                  "scope": "Whole connected boundary components of closed disjoint surfaces"
+                }
+              },
+              "after": {
+                "status": "SEPARATED",
+                "complete": true,
+                "contact_pairs": [],
+                "containment": {
+                  "status": "NO_CONTAINMENT_DETECTED",
+                  "complete": true,
+                  "contained_components": [],
+                  "tolerance_mm": 1e-06,
+                  "scope": "Whole connected boundary components of closed disjoint surfaces"
+                }
+              },
+              "added_contact_pairs": [],
+              "removed_contact_pairs": []
+            }
+          ],
+          "new_or_extended_contacts": [],
+          "unknown": [],
+          "remaining_contacts": [],
+          "tolerance_mm": 1e-06,
+          "scope": "Fixed-topology edit versus all supplied static neighbors, including disjoint containment",
+          "same_triangle_contact_location_equivalence": "NOT RUN",
+          "anatomical_validation": "NOT RUN"
+        }
+      },
+      {
+        "edge_id": "FJ1690:e2",
+        "scale": 0.9,
+        "artifact_sha256": "bda22feae8ec76381cabe63365c39c510b778e0b3a824e88ffd25a05e3ca83f6",
+        "context": {
+          "status": "PASS",
+          "decision_reason": "CLEAR",
+          "context_sha256": "2c7f4c82a283a7c37e3cade7229c5b200241adbd39e51f8d20f1f24dcc04ce1d",
+          "rows": [
+            {
+              "neighbor_id": "FJ1699-diagnostic-copy",
+              "before": {
+                "status": "SEPARATED",
+                "complete": true,
+                "contact_pairs": [],
+                "containment": {
+                  "status": "NO_CONTAINMENT_DETECTED",
+                  "complete": true,
+                  "contained_components": [],
+                  "tolerance_mm": 1e-06,
+                  "scope": "Whole connected boundary components of closed disjoint surfaces"
+                }
+              },
+              "after": {
+                "status": "SEPARATED",
+                "complete": true,
+                "contact_pairs": [],
+                "containment": {
+                  "status": "NO_CONTAINMENT_DETECTED",
+                  "complete": true,
+                  "contained_components": [],
+                  "tolerance_mm": 1e-06,
+                  "scope": "Whole connected boundary components of closed disjoint surfaces"
+                }
+              },
+              "added_contact_pairs": [],
+              "removed_contact_pairs": []
+            }
+          ],
+          "new_or_extended_contacts": [],
+          "unknown": [],
+          "remaining_contacts": [],
+          "tolerance_mm": 1e-06,
+          "scope": "Fixed-topology edit versus all supplied static neighbors, including disjoint containment",
+          "same_triangle_contact_location_equivalence": "NOT RUN",
+          "anatomical_validation": "NOT RUN"
+        }
+      },
+      {
+        "edge_id": "FJ1690:e2",
+        "scale": 1.1,
+        "artifact_sha256": "9d940f36dbcba3726cd6e4f7de52eb0358fc64c2c36fc89087d08f9de67f8e24",
+        "context": {
+          "status": "PASS",
+          "decision_reason": "CLEAR",
+          "context_sha256": "2c7f4c82a283a7c37e3cade7229c5b200241adbd39e51f8d20f1f24dcc04ce1d",
+          "rows": [
+            {
+              "neighbor_id": "FJ1699-diagnostic-copy",
+              "before": {
+                "status": "SEPARATED",
+                "complete": true,
+                "contact_pairs": [],
+                "containment": {
+                  "status": "NO_CONTAINMENT_DETECTED",
+                  "complete": true,
+                  "contained_components": [],
+                  "tolerance_mm": 1e-06,
+                  "scope": "Whole connected boundary components of closed disjoint surfaces"
+                }
+              },
+              "after": {
+                "status": "SEPARATED",
+                "complete": true,
+                "contact_pairs": [],
+                "containment": {
+                  "status": "NO_CONTAINMENT_DETECTED",
+                  "complete": true,
+                  "contained_components": [],
+                  "tolerance_mm": 1e-06,
+                  "scope": "Whole connected boundary components of closed disjoint surfaces"
+                }
+              },
+              "added_contact_pairs": [],
+              "removed_contact_pairs": []
+            }
+          ],
+          "new_or_extended_contacts": [],
+          "unknown": [],
+          "remaining_contacts": [],
+          "tolerance_mm": 1e-06,
+          "scope": "Fixed-topology edit versus all supplied static neighbors, including disjoint containment",
+          "same_triangle_contact_location_equivalence": "NOT RUN",
+          "anatomical_validation": "NOT RUN"
+        }
+      }
+    ],
+    "scope": "Only FJ1699 with four isolated duplicate faces removed; not full-context or anatomical approval"
+  }
+}

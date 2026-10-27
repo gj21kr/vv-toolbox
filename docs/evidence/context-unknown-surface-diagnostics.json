@@ -1,0 +1,512 @@
+{
+  "status": "UNKNOWN",
+  "context_sha256": "20957bae7dcae8bfa59c04041a49ad300b857f750d829fa05aee41990180ec49",
+  "parent_report_sha256": "cc49fedc067e4a8be931d72180425d49372423a229d02fcb378a1ef963f106c4",
+  "rows": [
+    {
+      "part_id": "FJ1683",
+      "label": "lateral branch of right superior cerebellar artery",
+      "reason": "Self-contact clearance incomplete or failed",
+      "validation": {
+        "geometry_sha256": "e3064e757595eea93b948d48d60c1893c204739b5ada11dd2da5d38aed1b2751",
+        "topology": {
+          "method": "exact-coordinate-index-copy/1",
+          "coordinate_tolerance_mm": 0,
+          "original_vertices": 713,
+          "normalized_vertices": 366,
+          "faces": 728,
+          "triangle_coordinate_bytes_preserved": true,
+          "triangle_sha256": "21f8fdaac86bfcb7a41446224ee75b8d51380ada5f335dee97d4940d2468486c",
+          "original_watertight": false,
+          "normalized_watertight": true,
+          "normalized_winding_consistent": true,
+          "zero_area_faces": 0,
+          "usable_for_sampled_containment": true,
+          "original_modified": false,
+          "faces_added_or_removed": false,
+          "self_intersection": "NOT RUN",
+          "anatomical_validity": "NOT RUN"
+        },
+        "self_contact": {
+          "status": "CONTACT_DETECTED",
+          "coverage": "all distinct triangle pairs",
+          "checked_pairs": 6424,
+          "contact_pair_count": 3,
+          "example_contact_pairs": [
+            [
+              172,
+              175
+            ],
+            [
+              172,
+              176
+            ],
+            [
+              174,
+              176
+            ]
+          ]
+        }
+      },
+      "status": "UNKNOWN",
+      "pair_clearance": "NOT RUN"
+    },
+    {
+      "part_id": "FJ1683M",
+      "label": "lateral branch of left superior cerebellar artery",
+      "reason": "Self-contact clearance incomplete or failed",
+      "validation": {
+        "geometry_sha256": "d5bca04873a7e6b0cdfb8469bce06efd290116abab2b2f6fd108fc1bc6f76ca6",
+        "topology": {
+          "method": "exact-coordinate-index-copy/1",
+          "coordinate_tolerance_mm": 0,
+          "original_vertices": 720,
+          "normalized_vertices": 366,
+          "faces": 728,
+          "triangle_coordinate_bytes_preserved": true,
+          "triangle_sha256": "1a3263a6de718428a3cc4ff19c30eb33f779dc34cdba001efd3a3ecdff1f1f47",
+          "original_watertight": false,
+          "normalized_watertight": true,
+          "normalized_winding_consistent": true,
+          "zero_area_faces": 0,
+          "usable_for_sampled_containment": true,
+          "original_modified": false,
+          "faces_added_or_removed": false,
+          "self_intersection": "NOT RUN",
+          "anatomical_validity": "NOT RUN"
+        },
+        "self_contact": {
+          "status": "CONTACT_DETECTED",
+          "coverage": "all distinct triangle pairs",
+          "checked_pairs": 6438,
+          "contact_pair_count": 3,
+          "example_contact_pairs": [
+            [
+              172,
+              175
+            ],
+            [
+              172,
+              176
+            ],
+            [
+              174,
+              176
+            ]
+          ]
+        }
+      },
+      "status": "UNKNOWN",
+      "pair_clearance": "NOT RUN"
+    },
+    {
+      "part_id": "FJ1688",
+      "label": "medial branch of right superior cerebellar artery",
+      "reason": "Self-contact clearance incomplete or failed",
+      "validation": {
+        "geometry_sha256": "3f90e3f81d495e7ea9a6fabe7d1e026b79c4dea21b6c0239c2d290574811fab7",
+        "topology": {
+          "method": "exact-coordinate-index-copy/1",
+          "coordinate_tolerance_mm": 0,
+          "original_vertices": 342,
+          "normalized_vertices": 181,
+          "faces": 354,
+          "triangle_coordinate_bytes_preserved": true,
+          "triangle_sha256": "139e62be4abf8ea8fd6dd11d2efc4a187282518911d361370e71bf4d56a23c24",
+          "original_watertight": false,
+          "normalized_watertight": true,
+          "normalized_winding_consistent": true,
+          "zero_area_faces": 0,
+          "usable_for_sampled_containment": true,
+          "original_modified": false,
+          "faces_added_or_removed": false,
+          "self_intersection": "NOT RUN",
+          "anatomical_validity": "NOT RUN"
+        },
+        "self_contact": {
+          "status": "CONTACT_DETECTED",
+          "coverage": "all distinct triangle pairs",
+          "checked_pairs": 2952,
+          "contact_pair_count": 1,
+          "example_contact_pairs": [
+            [
+              349,
+              351
+            ]
+          ]
+        }
+      },
+      "status": "UNKNOWN",
+      "pair_clearance": "NOT RUN"
+    },
+    {
+      "part_id": "FJ1688M",
+      "label": "medial branch of left superior cerebellar artery",
+      "reason": "Self-contact clearance incomplete or failed",
+      "validation": {
+        "geometry_sha256": "ff06ee6b0a30e315f93786fb13a667b52073581a8d9d9d2c1506d5bf70b6f1e5",
+        "topology": {
+          "method": "exact-coordinate-index-copy/1",
+          "coordinate_tolerance_mm": 0,
+          "original_vertices": 343,
+          "normalized_vertices": 181,
+          "faces": 354,
+          "triangle_coordinate_bytes_preserved": true,
+          "triangle_sha256": "ffba2c876613701e377cdc573f4f9ad84b5667bec78005352bbc44e36fbdbf50",
+          "original_watertight": false,
+          "normalized_watertight": true,
+          "normalized_winding_consistent": true,
+          "zero_area_faces": 0,
+          "usable_for_sampled_containment": true,
+          "original_modified": false,
+          "faces_added_or_removed": false,
+          "self_intersection": "NOT RUN",
+          "anatomical_validity": "NOT RUN"
+        },
+        "self_contact": {
+          "status": "CONTACT_DETECTED",
+          "coverage": "all distinct triangle pairs",
+          "checked_pairs": 2960,
+          "contact_pair_count": 1,
+          "example_contact_pairs": [
+            [
+              349,
+              351
+            ]
+          ]
+        }
+      },
+      "status": "UNKNOWN",
+      "pair_clearance": "NOT RUN"
+    },
+    {
+      "part_id": "FJ2404",
+      "label": "left portal vein",
+      "reason": "Self-contact clearance incomplete or failed",
+      "validation": {
+        "geometry_sha256": "e5347c6858512de04699f9a594494186d612edad41d7b5ef89e318a647a499af",
+        "topology": {
+          "method": "exact-coordinate-index-copy/1",
+          "coordinate_tolerance_mm": 0,
+          "original_vertices": 4965,
+          "normalized_vertices": 3357,
+          "faces": 6706,
+          "triangle_coordinate_bytes_preserved": true,
+          "triangle_sha256": "45f75622de369548f9ffb7ebf06400691b0ece2d3e8a514e452b5373ff9519a2",
+          "original_watertight": false,
+          "normalized_watertight": true,
+          "normalized_winding_consistent": true,
+          "zero_area_faces": 0,
+          "usable_for_sampled_containment": true,
+          "original_modified": false,
+          "faces_added_or_removed": false,
+          "self_intersection": "NOT RUN",
+          "anatomical_validity": "NOT RUN"
+        },
+        "self_contact": {
+          "status": "CONTACT_DETECTED",
+          "coverage": "all distinct triangle pairs",
+          "checked_pairs": 57444,
+          "contact_pair_count": 6,
+          "example_contact_pairs": [
+            [
+              6450,
+              6489
+            ],
+            [
+              6450,
+              6491
+            ],
+            [
+              6488,
+              6489
+            ],
+            [
+              6488,
+              6491
+            ],
+            [
+              6489,
+              6491
+            ],
+            [
+              6699,
+              6705
+            ]
+          ]
+        }
+      },
+      "status": "UNKNOWN",
+      "pair_clearance": "NOT RUN"
+    },
+    {
+      "part_id": "FJ2405",
+      "label": "right portal vein",
+      "reason": "Self-contact clearance incomplete or failed",
+      "validation": {
+        "geometry_sha256": "540144b5e64c4867daa5ddee2e490753a60a5f5e8b3d3aa8f2cb6f71cce7522c",
+        "topology": {
+          "method": "exact-coordinate-index-copy/1",
+          "coordinate_tolerance_mm": 0,
+          "original_vertices": 2605,
+          "normalized_vertices": 1615,
+          "faces": 3230,
+          "triangle_coordinate_bytes_preserved": true,
+          "triangle_sha256": "cd4ea81f8a1947543547e1edda24e3af64eaef161be9c97c5432183adcb238b5",
+          "original_watertight": false,
+          "normalized_watertight": true,
+          "normalized_winding_consistent": true,
+          "zero_area_faces": 0,
+          "usable_for_sampled_containment": true,
+          "original_modified": false,
+          "faces_added_or_removed": false,
+          "self_intersection": "NOT RUN",
+          "anatomical_validity": "NOT RUN"
+        },
+        "self_contact": {
+          "status": "CONTACT_DETECTED",
+          "coverage": "all distinct triangle pairs",
+          "checked_pairs": 32202,
+          "contact_pair_count": 11,
+          "example_contact_pairs": [
+            [
+              8,
+              9
+            ],
+            [
+              2039,
+              2045
+            ],
+            [
+              2039,
+              2047
+            ],
+            [
+              2040,
+              2045
+            ],
+            [
+              2040,
+              2053
+            ],
+            [
+              2040,
+              2047
+            ],
+            [
+              2041,
+              2053
+            ],
+            [
+              2041,
+              2047
+            ],
+            [
+              2041,
+              2048
+            ],
+            [
+              2044,
+              2048
+            ],
+            [
+              2048,
+              2054
+            ]
+          ]
+        }
+      },
+      "status": "UNKNOWN",
+      "pair_clearance": "NOT RUN"
+    },
+    {
+      "part_id": "FJ3467",
+      "label": "left inferior suprarenal artery",
+      "reason": "Self-contact clearance incomplete or failed",
+      "validation": {
+        "geometry_sha256": "0d3228ef157ee90beff228152456a772630d5e1acb01e4e3c3e9501a0bea896b",
+        "topology": {
+          "method": "exact-coordinate-index-copy/1",
+          "coordinate_tolerance_mm": 0,
+          "original_vertices": 810,
+          "normalized_vertices": 481,
+          "faces": 954,
+          "triangle_coordinate_bytes_preserved": true,
+          "triangle_sha256": "5d9abe80cabefaf7055aceb59d7e534036f5b93bce38d5d1f9e246ab2d58b773",
+          "original_watertight": false,
+          "normalized_watertight": true,
+          "normalized_winding_consistent": true,
+          "zero_area_faces": 0,
+          "usable_for_sampled_containment": true,
+          "original_modified": false,
+          "faces_added_or_removed": false,
+          "self_intersection": "NOT RUN",
+          "anatomical_validity": "NOT RUN"
+        },
+        "self_contact": {
+          "status": "CONTACT_DETECTED",
+          "coverage": "all distinct triangle pairs",
+          "checked_pairs": 8355,
+          "contact_pair_count": 1,
+          "example_contact_pairs": [
+            [
+              462,
+              463
+            ]
+          ]
+        }
+      },
+      "status": "UNKNOWN",
+      "pair_clearance": "NOT RUN"
+    },
+    {
+      "part_id": "FJ3473",
+      "label": "posterior division of left renal artery",
+      "reason": "Self-contact clearance incomplete or failed",
+      "validation": {
+        "geometry_sha256": "82b7e2fdff25afe474b1aef2bf8eb4860f3ceb3309fd8a0ac11e5236379f844e",
+        "topology": {
+          "method": "exact-coordinate-index-copy/1",
+          "coordinate_tolerance_mm": 0,
+          "original_vertices": 288,
+          "normalized_vertices": 177,
+          "faces": 334,
+          "triangle_coordinate_bytes_preserved": true,
+          "triangle_sha256": "3a20787194f42598d70b2d231e17e16df432dfc9bb2d0d65f303cd11c8167e7a",
+          "original_watertight": false,
+          "normalized_watertight": true,
+          "normalized_winding_consistent": true,
+          "zero_area_faces": 0,
+          "usable_for_sampled_containment": true,
+          "original_modified": false,
+          "faces_added_or_removed": false,
+          "self_intersection": "NOT RUN",
+          "anatomical_validity": "NOT RUN"
+        },
+        "self_contact": {
+          "status": "CONTACT_DETECTED",
+          "coverage": "all distinct triangle pairs",
+          "checked_pairs": 2812,
+          "contact_pair_count": 3,
+          "example_contact_pairs": [
+            [
+              20,
+              26
+            ],
+            [
+              23,
+              29
+            ],
+            [
+              32,
+              33
+            ]
+          ]
+        }
+      },
+      "status": "UNKNOWN",
+      "pair_clearance": "NOT RUN"
+    },
+    {
+      "part_id": "FJ3553",
+      "label": "posterior cecal artery",
+      "reason": "Closed consistent nondegenerate surface required",
+      "validation": {
+        "geometry_sha256": "359583fd165ff6d08b6e379fd8327bc0ee84caf8f6a548214775249a72dbd938",
+        "topology": {
+          "method": "exact-coordinate-index-copy/1",
+          "coordinate_tolerance_mm": 0,
+          "original_vertices": 132,
+          "normalized_vertices": 52,
+          "faces": 90,
+          "triangle_coordinate_bytes_preserved": true,
+          "triangle_sha256": "f18591660f6dee3f1128cf5751065c4f308c19128e81e8c3106c0099293560bb",
+          "original_watertight": false,
+          "normalized_watertight": false,
+          "normalized_winding_consistent": true,
+          "zero_area_faces": 0,
+          "usable_for_sampled_containment": false,
+          "original_modified": false,
+          "faces_added_or_removed": false,
+          "self_intersection": "NOT RUN",
+          "anatomical_validity": "NOT RUN"
+        },
+        "self_contact": "NOT RUN"
+      },
+      "status": "UNKNOWN",
+      "pair_clearance": "NOT RUN"
+    },
+    {
+      "part_id": "FJ3639",
+      "label": "sigmoid vein",
+      "reason": "Self-contact clearance incomplete or failed",
+      "validation": {
+        "geometry_sha256": "5b3bc498c548b0dcd6f6a2bdc0a5994f544e990445a5de244db75c59c9804558",
+        "topology": {
+          "method": "exact-coordinate-index-copy/1",
+          "coordinate_tolerance_mm": 0,
+          "original_vertices": 1131,
+          "normalized_vertices": 711,
+          "faces": 1422,
+          "triangle_coordinate_bytes_preserved": true,
+          "triangle_sha256": "a82071c16c5c472f2f53223f44a746ce08314e38f26b1edf22dd12e4d520cc49",
+          "original_watertight": false,
+          "normalized_watertight": true,
+          "normalized_winding_consistent": true,
+          "zero_area_faces": 0,
+          "usable_for_sampled_containment": true,
+          "original_modified": false,
+          "faces_added_or_removed": false,
+          "self_intersection": "NOT RUN",
+          "anatomical_validity": "NOT RUN"
+        },
+        "self_contact": {
+          "status": "CONTACT_DETECTED",
+          "coverage": "all distinct triangle pairs",
+          "checked_pairs": 13189,
+          "contact_pair_count": 1,
+          "example_contact_pairs": [
+            [
+              1290,
+              1292
+            ]
+          ]
+        }
+      },
+      "status": "UNKNOWN",
+      "pair_clearance": "NOT RUN"
+    },
+    {
+      "part_id": "estimated_left_vertebral_neck",
+      "label": "Estimated left vertebral neck connector",
+      "reason": "Closed consistent nondegenerate surface required",
+      "validation": {
+        "geometry_sha256": "99800fec1e9b6be403e2f1ad4081994f329dd78a7dc2a43513b82cdee4affcf9",
+        "topology": {
+          "method": "exact-coordinate-index-copy/1",
+          "coordinate_tolerance_mm": 0,
+          "original_vertices": 2304,
+          "normalized_vertices": 2304,
+          "faces": 4560,
+          "triangle_coordinate_bytes_preserved": true,
+          "triangle_sha256": "a9b1cb220a6df0748de5bb6a5d0f75fbd2ed91567d880fb489e6860c709fbade",
+          "original_watertight": false,
+          "normalized_watertight": false,
+          "normalized_winding_consistent": true,
+          "zero_area_faces": 0,
+          "usable_for_sampled_containment": false,
+          "original_modified": false,
+          "faces_added_or_removed": false,
+          "self_intersection": "NOT RUN",
+          "anatomical_validity": "NOT RUN"
+        },
+        "self_contact": "NOT RUN"
+      },
+      "status": "UNKNOWN",
+      "pair_clearance": "NOT RUN"
+    }
+  ],
+  "source_modified": false,
+  "anatomical_validation": "NOT RUN",
+  "inspection_status": "COMPLETE"
+}

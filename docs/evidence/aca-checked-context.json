@@ -1,0 +1,4581 @@
+{
+  "schema": "vv-toolbox.aca-checked-context/1",
+  "artifact_sha256": "42706677ab43b0f1bba45a691733b1200a9096565f8a2b76dd38f608d373b677",
+  "atlas_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "face_lineage": {
+    "status": "PASS",
+    "rows": [
+      {
+        "source": "FJ1654-sac-candidate",
+        "faces": 6372,
+        "maximum_vertex_distance_mm": 2.2889686485852954e-13,
+        "mismatched_faces": 0,
+        "opposite_or_degenerate_normals": 0
+      },
+      {
+        "source": "FJ1655",
+        "faces": 82,
+        "maximum_vertex_distance_mm": 2.2920510649655803e-13,
+        "mismatched_faces": 0,
+        "opposite_or_degenerate_normals": 0
+      },
+      {
+        "source": "FJ1690",
+        "faces": 816,
+        "maximum_vertex_distance_mm": 2.3365845670431234e-13,
+        "mismatched_faces": 0,
+        "opposite_or_degenerate_normals": 0
+      }
+    ],
+    "tolerance_mm": 1e-06,
+    "faces": 7270,
+    "scope": "Every output triangle vertex against its declared input triangle, plus normal orientation",
+    "anatomical_labels": "NOT ASSIGNED"
+  },
+  "context": {
+    "status": "UNKNOWN",
+    "decision_reason": "INCOMPLETE_INSPECTION",
+    "context_sha256": "25b2cfc44a838136d60543c985a41cb02bd11f33c02b7b3e73c0b628d5248adc",
+    "tolerance_mm": 1e-06,
+    "rows": [
+      {
+        "neighbor_id": "FJ1654M",
+        "status": "SURFACE_CONTACT",
+        "complete": true,
+        "contact_pairs": [
+          [
+            6420,
+            390
+          ],
+          [
+            6421,
+            390
+          ],
+          [
+            6422,
+            390
+          ],
+          [
+            6423,
+            390
+          ],
+          [
+            6428,
+            390
+          ],
+          [
+            6428,
+            298
+          ],
+          [
+            6429,
+            298
+          ],
+          [
+            6432,
+            398
+          ],
+          [
+            6432,
+            397
+          ],
+          [
+            6433,
+            390
+          ],
+          [
+            6433,
+            376
+          ],
+          [
+            6433,
+            373
+          ],
+          [
+            6433,
+            398
+          ],
+          [
+            6434,
+            397
+          ],
+          [
+            6435,
+            390
+          ],
+          [
+            6436,
+            390
+          ],
+          [
+            6437,
+            397
+          ],
+          [
+            6438,
+            397
+          ],
+          [
+            6444,
+            397
+          ],
+          [
+            6449,
+            298
+          ],
+          [
+            6451,
+            298
+          ],
+          [
+            6452,
+            298
+          ],
+          [
+            6452,
+            397
+          ],
+          [
+            6453,
+            397
+          ]
+        ]
+      },
+      {
+        "neighbor_id": "FJ1656",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1656M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1657",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1657M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1658",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1658M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1659",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1659M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1660",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1660M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1661",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1661M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1662",
+        "status": "SURFACE_CONTACT",
+        "complete": true,
+        "contact_pairs": [
+          [
+            36,
+            1103
+          ],
+          [
+            36,
+            1101
+          ],
+          [
+            36,
+            1012
+          ],
+          [
+            36,
+            1011
+          ],
+          [
+            36,
+            1013
+          ],
+          [
+            37,
+            1101
+          ],
+          [
+            37,
+            1014
+          ],
+          [
+            37,
+            1013
+          ],
+          [
+            39,
+            1159
+          ],
+          [
+            39,
+            1021
+          ],
+          [
+            39,
+            1022
+          ],
+          [
+            39,
+            1031
+          ],
+          [
+            42,
+            1014
+          ],
+          [
+            42,
+            1022
+          ],
+          [
+            42,
+            1031
+          ],
+          [
+            62,
+            1116
+          ],
+          [
+            62,
+            1112
+          ],
+          [
+            62,
+            1102
+          ],
+          [
+            62,
+            1115
+          ],
+          [
+            62,
+            1127
+          ],
+          [
+            62,
+            1120
+          ],
+          [
+            62,
+            1119
+          ],
+          [
+            78,
+            1101
+          ],
+          [
+            78,
+            1102
+          ],
+          [
+            78,
+            1134
+          ],
+          [
+            78,
+            1127
+          ],
+          [
+            78,
+            1133
+          ],
+          [
+            79,
+            1022
+          ],
+          [
+            79,
+            1134
+          ],
+          [
+            79,
+            1136
+          ],
+          [
+            80,
+            1162
+          ],
+          [
+            80,
+            1022
+          ],
+          [
+            80,
+            1136
+          ],
+          [
+            80,
+            1166
+          ],
+          [
+            80,
+            1165
+          ],
+          [
+            80,
+            1170
+          ],
+          [
+            80,
+            1141
+          ],
+          [
+            80,
+            1164
+          ]
+        ]
+      },
+      {
+        "neighbor_id": "FJ1662M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1663",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1663M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1664",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1664M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1665",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1665M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1666",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1666M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1667",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1667M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1668",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1668M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1669",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1669M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1670",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1670M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1671",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1671M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1672",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1673",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1673M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1674",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1674M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1675",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1675M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1676",
+        "status": "SURFACE_CONTACT",
+        "complete": true,
+        "contact_pairs": [
+          [
+            6287,
+            503
+          ],
+          [
+            6288,
+            503
+          ],
+          [
+            6294,
+            228
+          ],
+          [
+            6294,
+            237
+          ],
+          [
+            6295,
+            240
+          ],
+          [
+            6296,
+            225
+          ],
+          [
+            6297,
+            225
+          ],
+          [
+            6297,
+            228
+          ],
+          [
+            6297,
+            229
+          ],
+          [
+            6297,
+            231
+          ],
+          [
+            6297,
+            232
+          ],
+          [
+            6298,
+            225
+          ],
+          [
+            6298,
+            226
+          ],
+          [
+            6298,
+            256
+          ],
+          [
+            6298,
+            242
+          ],
+          [
+            6299,
+            256
+          ],
+          [
+            6299,
+            242
+          ],
+          [
+            6300,
+            237
+          ],
+          [
+            6300,
+            242
+          ],
+          [
+            6301,
+            256
+          ],
+          [
+            6301,
+            257
+          ],
+          [
+            6301,
+            262
+          ],
+          [
+            6301,
+            242
+          ],
+          [
+            6302,
+            237
+          ],
+          [
+            6302,
+            240
+          ],
+          [
+            6302,
+            242
+          ],
+          [
+            6303,
+            242
+          ],
+          [
+            6304,
+            229
+          ],
+          [
+            6304,
+            496
+          ],
+          [
+            6305,
+            228
+          ],
+          [
+            6305,
+            229
+          ],
+          [
+            6306,
+            228
+          ],
+          [
+            6306,
+            237
+          ],
+          [
+            6306,
+            240
+          ],
+          [
+            6307,
+            227
+          ],
+          [
+            6307,
+            228
+          ],
+          [
+            6308,
+            227
+          ],
+          [
+            6308,
+            228
+          ],
+          [
+            6309,
+            227
+          ],
+          [
+            6310,
+            240
+          ],
+          [
+            6312,
+            227
+          ],
+          [
+            6313,
+            227
+          ],
+          [
+            6325,
+            262
+          ],
+          [
+            6325,
+            265
+          ],
+          [
+            6325,
+            263
+          ],
+          [
+            6328,
+            250
+          ],
+          [
+            6328,
+            263
+          ],
+          [
+            6329,
+            250
+          ],
+          [
+            6329,
+            266
+          ],
+          [
+            6330,
+            269
+          ],
+          [
+            6330,
+            266
+          ],
+          [
+            6332,
+            497
+          ],
+          [
+            6332,
+            496
+          ],
+          [
+            6333,
+            501
+          ],
+          [
+            6333,
+            497
+          ],
+          [
+            6333,
+            502
+          ],
+          [
+            6347,
+            502
+          ],
+          [
+            6348,
+            502
+          ],
+          [
+            6348,
+            504
+          ],
+          [
+            6349,
+            503
+          ],
+          [
+            6349,
+            504
+          ],
+          [
+            6350,
+            503
+          ],
+          [
+            6350,
+            509
+          ],
+          [
+            6351,
+            268
+          ],
+          [
+            6351,
+            528
+          ],
+          [
+            6351,
+            524
+          ],
+          [
+            6351,
+            269
+          ],
+          [
+            6352,
+            524
+          ],
+          [
+            6352,
+            529
+          ],
+          [
+            6352,
+            509
+          ],
+          [
+            6353,
+            269
+          ]
+        ]
+      },
+      {
+        "neighbor_id": "FJ1676M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": [],
+        "containment": {
+          "status": "NO_CONTAINMENT_DETECTED",
+          "complete": true,
+          "contained_components": [],
+          "tolerance_mm": 1e-06,
+          "scope": "Whole connected boundary components of closed disjoint surfaces"
+        }
+      },
+      {
+        "neighbor_id": "FJ1677",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1677M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1678",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1678M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1679",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1679M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1680",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1680M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1681",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1681M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1682",
+        "status": "SURFACE_CONTACT",
+        "complete": true,
+        "contact_pairs": [
+          [
+            8,
+            540
+          ],
+          [
+            9,
+            540
+          ],
+          [
+            10,
+            540
+          ],
+          [
+            10,
+            539
+          ],
+          [
+            11,
+            541
+          ],
+          [
+            11,
+            540
+          ],
+          [
+            13,
+            545
+          ],
+          [
+            13,
+            541
+          ],
+          [
+            13,
+            938
+          ],
+          [
+            16,
+            539
+          ],
+          [
+            35,
+            959
+          ],
+          [
+            35,
+            948
+          ],
+          [
+            38,
+            540
+          ],
+          [
+            38,
+            539
+          ],
+          [
+            39,
+            540
+          ],
+          [
+            39,
+            940
+          ],
+          [
+            40,
+            972
+          ],
+          [
+            40,
+            942
+          ],
+          [
+            41,
+            973
+          ],
+          [
+            41,
+            972
+          ],
+          [
+            41,
+            959
+          ],
+          [
+            41,
+            1234
+          ],
+          [
+            41,
+            1233
+          ],
+          [
+            42,
+            940
+          ],
+          [
+            45,
+            948
+          ],
+          [
+            45,
+            938
+          ],
+          [
+            77,
+            942
+          ],
+          [
+            79,
+            940
+          ],
+          [
+            80,
+            940
+          ],
+          [
+            86,
+            942
+          ],
+          [
+            86,
+            1231
+          ],
+          [
+            89,
+            1231
+          ],
+          [
+            89,
+            1239
+          ],
+          [
+            90,
+            1239
+          ],
+          [
+            90,
+            1235
+          ],
+          [
+            91,
+            1235
+          ],
+          [
+            92,
+            1231
+          ],
+          [
+            93,
+            1235
+          ],
+          [
+            94,
+            1235
+          ],
+          [
+            95,
+            1236
+          ],
+          [
+            95,
+            1237
+          ],
+          [
+            98,
+            959
+          ],
+          [
+            98,
+            948
+          ],
+          [
+            98,
+            1234
+          ],
+          [
+            98,
+            940
+          ],
+          [
+            98,
+            938
+          ],
+          [
+            107,
+            1234
+          ],
+          [
+            107,
+            1233
+          ],
+          [
+            107,
+            1236
+          ],
+          [
+            311,
+            1239
+          ],
+          [
+            316,
+            1236
+          ],
+          [
+            316,
+            1232
+          ],
+          [
+            316,
+            1237
+          ],
+          [
+            316,
+            1235
+          ],
+          [
+            317,
+            1237
+          ]
+        ]
+      },
+      {
+        "neighbor_id": "FJ1682M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1683",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1683M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1684",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1684M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1685",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1685M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1686",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1686M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1687",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1687M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1688",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1688M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1689",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1689M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1690M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": [],
+        "containment": {
+          "status": "NO_CONTAINMENT_DETECTED",
+          "complete": true,
+          "contained_components": [],
+          "tolerance_mm": 1e-06,
+          "scope": "Whole connected boundary components of closed disjoint surfaces"
+        }
+      },
+      {
+        "neighbor_id": "FJ1691",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1691M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1692",
+        "status": "SURFACE_CONTACT",
+        "complete": true,
+        "contact_pairs": [
+          [
+            1,
+            662
+          ],
+          [
+            1,
+            668
+          ],
+          [
+            1,
+            669
+          ],
+          [
+            10,
+            694
+          ],
+          [
+            10,
+            692
+          ],
+          [
+            11,
+            695
+          ],
+          [
+            13,
+            623
+          ],
+          [
+            13,
+            704
+          ],
+          [
+            13,
+            695
+          ],
+          [
+            14,
+            662
+          ],
+          [
+            15,
+            662
+          ],
+          [
+            15,
+            663
+          ],
+          [
+            15,
+            682
+          ],
+          [
+            15,
+            664
+          ],
+          [
+            15,
+            681
+          ],
+          [
+            16,
+            682
+          ],
+          [
+            16,
+            694
+          ],
+          [
+            18,
+            711
+          ],
+          [
+            18,
+            712
+          ],
+          [
+            21,
+            645
+          ],
+          [
+            21,
+            666
+          ],
+          [
+            22,
+            666
+          ],
+          [
+            24,
+            667
+          ],
+          [
+            24,
+            666
+          ],
+          [
+            24,
+            668
+          ],
+          [
+            26,
+            715
+          ],
+          [
+            26,
+            711
+          ],
+          [
+            26,
+            719
+          ],
+          [
+            27,
+            720
+          ],
+          [
+            27,
+            719
+          ],
+          [
+            27,
+            721
+          ],
+          [
+            28,
+            645
+          ],
+          [
+            28,
+            713
+          ],
+          [
+            28,
+            712
+          ],
+          [
+            35,
+            708
+          ],
+          [
+            35,
+            797
+          ],
+          [
+            40,
+            776
+          ],
+          [
+            40,
+            774
+          ],
+          [
+            40,
+            777
+          ],
+          [
+            40,
+            785
+          ],
+          [
+            41,
+            706
+          ],
+          [
+            41,
+            776
+          ],
+          [
+            41,
+            797
+          ],
+          [
+            43,
+            693
+          ],
+          [
+            43,
+            692
+          ],
+          [
+            44,
+            693
+          ],
+          [
+            44,
+            695
+          ],
+          [
+            45,
+            708
+          ],
+          [
+            45,
+            704
+          ],
+          [
+            54,
+            754
+          ],
+          [
+            54,
+            763
+          ],
+          [
+            54,
+            762
+          ],
+          [
+            54,
+            721
+          ],
+          [
+            77,
+            763
+          ],
+          [
+            77,
+            766
+          ],
+          [
+            77,
+            783
+          ],
+          [
+            77,
+            785
+          ],
+          [
+            77,
+            782
+          ],
+          [
+            77,
+            765
+          ]
+        ]
+      },
+      {
+        "neighbor_id": "FJ1692M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1693",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1693M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1694",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1694M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1695",
+        "status": "SURFACE_CONTACT",
+        "complete": true,
+        "contact_pairs": [
+          [
+            6483,
+            1143
+          ],
+          [
+            6484,
+            1180
+          ],
+          [
+            6485,
+            1180
+          ],
+          [
+            6485,
+            1143
+          ],
+          [
+            6486,
+            2003
+          ],
+          [
+            6486,
+            2004
+          ],
+          [
+            6486,
+            1180
+          ],
+          [
+            6486,
+            2002
+          ],
+          [
+            6489,
+            2001
+          ],
+          [
+            6490,
+            1996
+          ],
+          [
+            6490,
+            2001
+          ],
+          [
+            6491,
+            1180
+          ],
+          [
+            6491,
+            2002
+          ],
+          [
+            6491,
+            1143
+          ],
+          [
+            6491,
+            2001
+          ],
+          [
+            6492,
+            2005
+          ],
+          [
+            6492,
+            2000
+          ],
+          [
+            6492,
+            1981
+          ],
+          [
+            6492,
+            1980
+          ],
+          [
+            6492,
+            1996
+          ],
+          [
+            6492,
+            1983
+          ],
+          [
+            6492,
+            1998
+          ],
+          [
+            6492,
+            1999
+          ],
+          [
+            6492,
+            1997
+          ],
+          [
+            6519,
+            2409
+          ],
+          [
+            6519,
+            2408
+          ],
+          [
+            6519,
+            2407
+          ],
+          [
+            6520,
+            2409
+          ],
+          [
+            6520,
+            2408
+          ],
+          [
+            6520,
+            2407
+          ],
+          [
+            6521,
+            2407
+          ],
+          [
+            6522,
+            2408
+          ],
+          [
+            6523,
+            2009
+          ],
+          [
+            6523,
+            2408
+          ],
+          [
+            6524,
+            2009
+          ],
+          [
+            6524,
+            2005
+          ],
+          [
+            6524,
+            2408
+          ],
+          [
+            6524,
+            1984
+          ],
+          [
+            6527,
+            2007
+          ],
+          [
+            6527,
+            2006
+          ],
+          [
+            6527,
+            2009
+          ],
+          [
+            6527,
+            2005
+          ],
+          [
+            6527,
+            2008
+          ],
+          [
+            6527,
+            2004
+          ],
+          [
+            6527,
+            1984
+          ],
+          [
+            6528,
+            2005
+          ],
+          [
+            6528,
+            2008
+          ],
+          [
+            6528,
+            2000
+          ],
+          [
+            6528,
+            1983
+          ]
+        ]
+      },
+      {
+        "neighbor_id": "FJ1695M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1696",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1696M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1697",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1697M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1698",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1698M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1699",
+        "status": "SURFACE_CONTACT",
+        "complete": true,
+        "contact_pairs": [
+          [
+            6311,
+            264
+          ],
+          [
+            6311,
+            265
+          ],
+          [
+            6311,
+            266
+          ],
+          [
+            6311,
+            271
+          ],
+          [
+            6316,
+            244
+          ],
+          [
+            6316,
+            271
+          ],
+          [
+            6316,
+            275
+          ],
+          [
+            6317,
+            266
+          ],
+          [
+            6318,
+            244
+          ],
+          [
+            6319,
+            244
+          ],
+          [
+            6319,
+            254
+          ],
+          [
+            6319,
+            253
+          ],
+          [
+            6326,
+            269
+          ],
+          [
+            6327,
+            269
+          ],
+          [
+            6337,
+            254
+          ],
+          [
+            6337,
+            603
+          ],
+          [
+            6340,
+            598
+          ],
+          [
+            6340,
+            603
+          ],
+          [
+            6341,
+            598
+          ],
+          [
+            6341,
+            599
+          ],
+          [
+            6342,
+            599
+          ],
+          [
+            6354,
+            600
+          ],
+          [
+            6354,
+            599
+          ],
+          [
+            6355,
+            596
+          ],
+          [
+            6355,
+            601
+          ],
+          [
+            6356,
+            600
+          ],
+          [
+            6356,
+            601
+          ],
+          [
+            6358,
+            266
+          ],
+          [
+            6358,
+            267
+          ],
+          [
+            6361,
+            268
+          ],
+          [
+            6361,
+            267
+          ],
+          [
+            6361,
+            269
+          ],
+          [
+            6362,
+            574
+          ],
+          [
+            6362,
+            269
+          ],
+          [
+            6362,
+            276
+          ],
+          [
+            6364,
+            282
+          ],
+          [
+            6364,
+            281
+          ],
+          [
+            6364,
+            276
+          ],
+          [
+            6368,
+            282
+          ],
+          [
+            6368,
+            284
+          ],
+          [
+            6369,
+            604
+          ],
+          [
+            6369,
+            284
+          ],
+          [
+            6371,
+            596
+          ],
+          [
+            6371,
+            604
+          ],
+          [
+            6371,
+            602
+          ]
+        ]
+      },
+      {
+        "neighbor_id": "FJ1699M",
+        "status": "UNKNOWN",
+        "complete": false,
+        "contact_pairs": [],
+        "containment": {
+          "status": "UNKNOWN",
+          "complete": false,
+          "contained_components": [],
+          "tolerance_mm": 1e-06,
+          "scope": "Whole connected boundary components of closed disjoint surfaces",
+          "reason": "Self-contact clearance incomplete or failed",
+          "invalid_surface_index": 1,
+          "invalid_surface_validation": {
+            "geometry_sha256": "837387873328281062880a424bca360124d1cc539e9756cd0c6eb52d555d1e92",
+            "topology": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 972,
+              "normalized_vertices": 558,
+              "faces": 1080,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "aa2d3b6340fe41a9fb3e8b35e3d46cf35ec3a70c89ed010e4656ce8224e59484",
+              "original_watertight": false,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "self_contact": {
+              "status": "CONTACT_DETECTED",
+              "coverage": "all distinct triangle pairs",
+              "checked_pairs": 8976,
+              "contact_pair_count": 2,
+              "example_contact_pairs": [
+                [
+                  0,
+                  24
+                ],
+                [
+                  32,
+                  33
+                ]
+              ]
+            }
+          }
+        }
+      },
+      {
+        "neighbor_id": "FJ1700",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1700M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1701",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1701M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1702",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1702M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1703",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1703M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1704",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1704M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1705",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1705M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1706",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1706M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1707",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1707M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1708",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1708M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1709",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1709M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1710",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1710M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1711",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1711M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1712",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1712M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1713",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1713M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1714",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1714M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1715",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1715M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1716",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1716M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1717",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1717M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1718",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1718M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1720",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1720M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1721",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1721M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1722",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1722M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1723",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1723M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1724",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1724M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1725",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1725M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1726",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1726M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1727",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1727M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1728",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1728M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1729",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1729M",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1844",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1846",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1874",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1916",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1924",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1928",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1931",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1932",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1933",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1934",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1935",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1936",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1937",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1938",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1939",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1950",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1967",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1969",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1970",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1971",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1972",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1973",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1974",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1976",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1977",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ1979",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2011",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2013",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2025",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2034",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2038",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2042",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2043",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2045",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2046",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2049",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2052",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2053",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2054",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2055",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2057",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2058",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2063",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2064",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2065",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2066",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2067",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2068",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2069",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2072",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2073",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2074",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2076",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2077",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2078",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2079",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2080",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2081",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2082",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2083",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2084",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2085",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2086",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2087",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2089",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2096",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2130",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2131",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2133",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2136",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2137",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2141",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2143",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2150",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2152",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2158",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2159",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2162",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2163",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2164",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2166",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2167",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2169",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2170",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2172",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2179",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2206",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2209",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2210",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2211",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2212",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2214",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2215",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2216",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2219",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2221",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2223",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2224",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2225",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2226",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2227",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2230",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2231",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2232",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2236",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2237",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2239",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2240",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2241",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2242",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2243",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2245",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2246",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2248",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2251",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2252",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2253",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2255",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2256",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2257",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2258",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2259",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2261",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2262",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2263",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2264",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2266",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2267",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2268",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2271",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2273",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2275",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2276",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2277",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2278",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2279",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2282",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2283",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2284",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2288",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2289",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2291",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2292",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2293",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2294",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2295",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2297",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2298",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2300",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2303",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2304",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2305",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2307",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2308",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2309",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2310",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2311",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2314",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2315",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2316",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2317",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2330",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2331",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2332",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2333",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2334",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2335",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2336",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2337",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2338",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2339",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2342",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2343",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2344",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2345",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2361",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2362",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2363",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2364",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2365",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2366",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2367",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2368",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2369",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2370",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2371",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2372",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2373",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2374",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2386",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2394",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2562",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2631",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2632",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2633",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2634",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2635",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2636",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2637",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2638",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2639",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2640",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2641",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2642",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2643",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2644",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2645",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2646",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2647",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2648",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2649",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2650",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2651",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2652",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2653",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2654",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2667",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2668",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2670",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2671",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2672",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2673",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2674",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2675",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2676",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2677",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2692",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2693",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2694",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2695",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2696",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2697",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2698",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2699",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2700",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2714",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2715",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2716",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2717",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2718",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2719",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2720",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2721",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2722",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2723",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2732",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2733",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2734",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2735",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2736",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ2737",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3075",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3076",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3077",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3078",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3081",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3091",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3092",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3093",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3095",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3106",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3107",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3114",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3115",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3116",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3117",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3399",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3401",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3406",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3409",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3410",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3411",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3413",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3414",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3417",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3418",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3419",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3420",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3421",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3427",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3428",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3430",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3431",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3432",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3433",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3437",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3439",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3442",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3444",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3446",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3458",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3459",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3460",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3461",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3462",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3463",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3464",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3466",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3467",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3468",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3472",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3473",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3474",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3475",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3476",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3479",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3481",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3483",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3494",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3496",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3497",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3499",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3501",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3511",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3514",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3515",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3516",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3517",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3518",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3519",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3520",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3529",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3532",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3534",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3542",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3544",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3546",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3553",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3557",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3558",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3559",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3560",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3561",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3562",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3563",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3564",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3565",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3567",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3569",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3573",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3574",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3575",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3576",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3579",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3581",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3582",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3584",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3586",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3590",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3592",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3593",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3594",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3596",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3604",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3614",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3617",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3619",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3620",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3621",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3622",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3623",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3624",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3625",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3626",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3632",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3636",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3638",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3640",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3644",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      },
+      {
+        "neighbor_id": "FJ3656",
+        "status": "SEPARATED",
+        "complete": true,
+        "contact_pairs": []
+      }
+    ],
+    "remaining_contacts": [
+      "FJ1654M",
+      "FJ1662",
+      "FJ1676",
+      "FJ1682",
+      "FJ1692",
+      "FJ1695",
+      "FJ1699"
+    ],
+    "unknown": [
+      "FJ1699M"
+    ],
+    "scope": "Single candidate against every supplied context surface, including disjoint containment",
+    "anatomical_validation": "NOT RUN"
+  },
+  "neighbor_count": 515,
+  "branch_patency": "NOT RUN",
+  "accepted_for_generation": false
+}

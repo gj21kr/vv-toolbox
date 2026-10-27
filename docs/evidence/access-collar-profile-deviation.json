@@ -1,0 +1,77 @@
+{
+  "status": "UNKNOWN",
+  "surface_sha256": "bad61c62ca40b1aade54c6e52e3ded05829240b23f6dbd915991d8688ae313d9",
+  "rows": [
+    {
+      "collar_mm": 10,
+      "graph_revision": "4f4508a9ce1564b3053ee013685b16be92774b33b49f886b2e72df62dcdb29b7",
+      "loft_sha256": "47c64930787bb6cf96863e6cc7adfbc4dfed628680f11577600c077aba3a5c91",
+      "transitions": [
+        {
+          "node_id": "collar:declared-link:10:incoming",
+          "incoming_edge": "FJ3417:e0::samples:2-155::collar:0",
+          "outgoing_edge": "declared-link:10",
+          "turn_angle_deg": 0.40453370557778073,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "collar:declared-link:10:outgoing",
+          "incoming_edge": "declared-link:10",
+          "outgoing_edge": "FJ3564:e0::samples:0-144::collar:1",
+          "turn_angle_deg": 0.22725085378682103,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        }
+      ],
+      "total_centroids": 16384,
+      "inspected_centroids": 16384,
+      "status": "MEASURED",
+      "maximum_distance_mm": 2.424487069509022,
+      "mean_distance_mm": 0.012243751183584763,
+      "p95_distance_mm": 0.03942061700383014,
+      "artifact": "exports/access-collar-candidates/collar-10mm-profile-loft-deviation.npz",
+      "artifact_sha256": "e7a10546d7d62080d5c8b6beea374c897196a05058ed71288a4db52afaab7ac1",
+      "continuous_surface_distance": "NOT RUN",
+      "bidirectional_distance": "NOT RUN"
+    },
+    {
+      "collar_mm": 20,
+      "graph_revision": "f4f6348bb0b4a016d2fe090d6fde470a3e566e5a2536f444500104b2c851f816",
+      "loft_sha256": "5154dfe30935e7f104b3b7562f4550d41ecd31e0aa36171c09647e56ee064e78",
+      "transitions": [
+        {
+          "node_id": "collar:declared-link:10:incoming",
+          "incoming_edge": "FJ3417:e0::samples:2-155::collar:0",
+          "outgoing_edge": "declared-link:10",
+          "turn_angle_deg": 0.26704595419548516,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        },
+        {
+          "node_id": "collar:declared-link:10:outgoing",
+          "incoming_edge": "declared-link:10",
+          "outgoing_edge": "FJ3564:e0::samples:0-144::collar:1",
+          "turn_angle_deg": 0.2725705449742734,
+          "radius_jump_mm": 0.0,
+          "position_gap_mm": 0.0
+        }
+      ],
+      "total_centroids": 16384,
+      "inspected_centroids": 16384,
+      "status": "MEASURED",
+      "maximum_distance_mm": 2.4276569831983044,
+      "mean_distance_mm": 0.010942486100526313,
+      "p95_distance_mm": 0.03439108009337051,
+      "artifact": "exports/access-collar-candidates/collar-20mm-profile-loft-deviation.npz",
+      "artifact_sha256": "fd7b346d4cb31b9e83f3ed26bc342b0c876d81d81773f4dc42f0a5b0d7e20db5",
+      "continuous_surface_distance": "NOT RUN",
+      "bidirectional_distance": "NOT RUN"
+    }
+  ],
+  "scope": "All triangle centroids, one-way nearest-surface distances; not Hausdorff bounds",
+  "acceptance_limits": "NOT SET",
+  "source_modified": false,
+  "live_scene_changed": false,
+  "inspection_status": "COMPLETE"
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "vv-toolbox.junction-clearance-validation/1",
+  "date": "2026-10-20",
+  "environment": "Docker vv-annotation-ui",
+  "command": "PYTHONPATH=src pytest -q -p no:cacheprovider tests/test_geometry_quality.py tests/test_case_surface.py tests/test_batch.py",
+  "passed": 23,
+  "warnings": 56,
+  "seconds": 3.44,
+  "scope": "Synthetic incident-edge capsule screening outside explicit arc-length junction collars",
+  "checks": {
+    "remote_recrossing_blocks_surface": "PASS",
+    "normal_junction_surface": "PASS",
+    "sparse_interval_splitting": "PASS",
+    "reversed_edge_orientation": "PASS",
+    "collar_consumes_edge_rejected": "PASS",
+    "budget_exhaustion_unknown": "PASS"
+  },
+  "inside_junction_collars": "NOT CHECKED",
+  "within_edge_self_intersection": "NOT RUN",
+  "final_surface_collision": "NOT RUN",
+  "actual_anatomical_model_validation": "NOT RUN"
+}

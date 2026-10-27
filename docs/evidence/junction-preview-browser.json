@@ -1,0 +1,28 @@
+{
+  "url": "http://127.0.0.1:8093/",
+  "candidate_id": "right-mca-junction-review",
+  "surface_sha256": "cd83cdceb58b76019d61993107c069ff270f7927c65b084ce567de6a9031634a",
+  "viewport": [1500, 1000],
+  "rendering": "software WebGL",
+  "source_selection": "API POST /api/source",
+  "checks": {
+    "candidate_title_and_option_visible": "PASS",
+    "red_surface_visible": "PASS",
+    "refined_context_count_1075_of_1080": "PASS",
+    "five_review_edges_visible": "PASS",
+    "unknown_smoothness_and_anatomy_preserved": "PASS",
+    "centerline_button_click_and_red_line_visible": "PASS",
+    "surface_return_button_click": "PASS",
+    "surface_return_button_label_updated": "PASS",
+    "dropdown_selection_action": "NOT RUN",
+    "atlas_return": "NOT RUN"
+  },
+  "runtime": {"source": "candidate", "generation": 2, "busy": false, "read_only": true},
+  "screenshots": [
+    {"path": "exports/junction-preview-browser/surface.png", "sha256": "fa3303b7667281cfc329f9068674d353f3312ea6c1e04aa8a022b6a005a91647"},
+    {"path": "exports/junction-preview-browser/centerline.png", "sha256": "b297099382ce2825dad76e65b7da8e84517ec54732d756618ef122881f2221c1"}
+  ],
+  "observation": "The candidate renders, but substantial visible surface roughness remains. Rendering success does not establish smooth junction acceptance.",
+  "transient_issue": "Initial atlas inspect_page timed out after 10 seconds. Same browser session recovered after API selection of the smaller candidate; server was not restarted.",
+  "scope": "Single candidate rendering and display toggles only; full editor workflow and anatomical correctness remain unverified."
+}

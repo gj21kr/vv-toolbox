@@ -1,0 +1,48 @@
+{
+  "status": "FAIL",
+  "source": "FJ2074",
+  "parameters": {
+    "bend_mm": 0.25,
+    "bend_direction": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "twist_deg": 5.0,
+    "collar_mm": 1.0,
+    "transition_mm": 10.0,
+    "max_displacement_mm": 1.0
+  },
+  "scope": "Selected source shape kernel; not complete graph deformation or live editing",
+  "neighboring_vessels": "NOT RUN",
+  "accepted_for_generation": false,
+  "parent_surface_sha256": "c1981693aff26b3a21e6dda40fca292c64e04c33471cae517f6120125352602c",
+  "reason": "Shape change exceeds displacement bound",
+  "measurements": {
+    "maximum_displacement_mm": 2.8217543157138096,
+    "displacement_bound_mm": 1.0,
+    "surface_maximum_mm": 2.8217543157138096,
+    "surface_peak_vertex": 9255,
+    "surface_peak_position_mm": [
+      42.96929931640625,
+      -140.77699279785156,
+      675.4580078125
+    ],
+    "surface_peak_chord_distance_mm": 35.02738297751383,
+    "path_maximum_mm": 2.340546178365684,
+    "path_peak_station": 585,
+    "path_peak_position_mm": [
+      44.99178392379679,
+      -135.66477823453363,
+      675.9809370834898
+    ],
+    "chord_length_mm": 348.5623043302302,
+    "surface_displacement_percentiles_mm": [
+      0.0,
+      1.164262427556021,
+      2.6172576675067236,
+      2.8217543157138096
+    ]
+  },
+  "elapsed_seconds": 5.041075375003857
+}

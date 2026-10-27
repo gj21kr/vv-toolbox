@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "tests": 1204,
+  "seconds": 161.966,
+  "warnings": 360,
+  "python": "3.12.15 (main, Oct  6 2026, 02:02:22) [GCC 14.2.0]",
+  "source_snapshot_sha256": "eab10c9774a0ce8c4fec01e45c4189b41eacd870dd806b042f314d84576222d5",
+  "junit_sha256": "38f9284865a896e435bd959065ed3be40dd3c97ef3b4df502950c8cb3e835c3d",
+  "source_files_unchanged": true,
+  "scope": "Full automated Python suite; not full anatomy acceptance or live browser validation"
+}

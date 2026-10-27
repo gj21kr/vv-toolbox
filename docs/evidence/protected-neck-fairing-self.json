@@ -1,0 +1,30 @@
+{
+  "status": "NO_CONTACT_DETECTED",
+  "artifact_sha256": "04fdc2ef0329916b3d4b9f68f0095a64dd6d8e363b516e470bba8168ab818c0a",
+  "source_surface_sha256": "bad61c62ca40b1aade54c6e52e3ded05829240b23f6dbd915991d8688ae313d9",
+  "mode": "self",
+  "live_scene_changed": false,
+  "anatomical_validation": "NOT RUN",
+  "measured_face_pairs": 44616,
+  "before": {
+    "mean_degrees": 1.023206526423378,
+    "p95_degrees": 6.59024102912953,
+    "maximum_degrees": 22.14833895003492
+  },
+  "after": {
+    "mean_degrees": 1.0444285980176435,
+    "p95_degrees": 5.9930898475637715,
+    "maximum_degrees": 22.712667182653384
+  },
+  "smoothness_acceptance": "NOT SET",
+  "self_contact": {
+    "status": "NO_CONTACT_DETECTED",
+    "coverage": "all distinct triangle pairs",
+    "checked_pairs": 542402,
+    "adjacent_pairs_checked": 414407,
+    "contact_pairs": [],
+    "tolerance_mm": 1e-08,
+    "max_pairs": 2000000,
+    "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "Language toolbar and initial page copy with local current assets; dynamic copy coverage is separate",
+  "step": "Korean edit result",
+  "reload_persisted": true,
+  "cross_page_persisted": true,
+  "cross_tab_synced": true,
+  "snapshot_unchanged": true,
+  "edit_error_bilingual": true,
+  "edit_result_bilingual": true,
+  "mobile_toolbar_visible": true,
+  "browser_errors": []
+}

@@ -1,0 +1,34 @@
+{
+  "case_revision": "ac39f2d88883cf9f2389618a7ad6f0770dd3b5efef17278fbcefa02bf677aa24",
+  "edge_id": "FJ1692:e0",
+  "input_unchanged": true,
+  "diagnostic_spacing_mm": 0.05,
+  "diagnostic_window_mm": [
+    -12,
+    12
+  ],
+  "declared_rim_samples": 64,
+  "rim_samples_inside_baseline_parent": 37,
+  "generator_version": "saccular-sidewall-6",
+  "early_attachment_rejection": "PASS",
+  "rejection_reason": "declared neck rim intersects baseline parent interior (37/64 samples); attachment redesign required",
+  "rim_parent_field_range_mm": [
+    -0.40688110586528614,
+    0.23137796366073382
+  ],
+  "plane_union_component_count": 1,
+  "neck_center_component_id": 1,
+  "neck_center_component_span_mm": [
+    12.950000000000184,
+    7.650000000000109
+  ],
+  "diagnostic_component_clipped": true,
+  "limitation": "Sampled profile-field diagnosis, not source mesh ostium proof. Window and sample counts are not acceptance tolerances.",
+  "figure_sha256": "b39b56a558cff063af328bde69e10d212101fefe379d0dbc0a011b8549c5e660",
+  "original_requested_neck_mm": [
+    2,
+    1
+  ],
+  "anatomy": "UNKNOWN",
+  "app_applied": false
+}

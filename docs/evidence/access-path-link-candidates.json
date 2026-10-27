@@ -1,0 +1,2094 @@
+{
+  "status": "UNKNOWN",
+  "source_case_revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+  "union_sha256": "bad61c62ca40b1aade54c6e52e3ded05829240b23f6dbd915991d8688ae313d9",
+  "scope": "Every path pair for explicitly listed source adjacencies; sampled straight link proposals",
+  "graph_edges_added": 0,
+  "anatomical_connections": "UNKNOWN",
+  "live_scene_changed": false,
+  "rows": [
+    {
+      "first_part": "FJ2074",
+      "second_part": "FJ3466",
+      "candidates": [
+        {
+          "first_edge": "FJ2074:e0",
+          "second_edge": "FJ3466:e0",
+          "first_index": 0,
+          "second_index": 452,
+          "points_mm": [
+            [
+              48.00000000000001,
+              -119.20000000000003,
+              824.0
+            ],
+            [
+              55.06452360478424,
+              -123.15552702497611,
+              828.4568250397831
+            ]
+          ],
+          "distance_mm": 9.242130557566655,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 5,
+            "covered_cells": 3,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 2,
+            "minimum_cover_margin_mm": 0.13008429771057087,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 1
+    },
+    {
+      "first_part": "FJ3466",
+      "second_part": "FJ3464",
+      "candidates": [
+        {
+          "first_edge": "FJ3466:e0",
+          "second_edge": "FJ3464:e0",
+          "first_index": 0,
+          "second_index": 250,
+          "points_mm": [
+            [
+              31.200000000000003,
+              -96.80000000000001,
+              907.2
+            ],
+            [
+              31.200000000000003,
+              -96.80000000000001,
+              907.2
+            ]
+          ],
+          "distance_mm": 0.0,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "UNKNOWN",
+            "reason": "Coincident samples require explicit node identity review"
+          }
+        }
+      ],
+      "contained_candidates": 0
+    },
+    {
+      "first_part": "FJ3464",
+      "second_part": "FJ1932",
+      "candidates": [
+        {
+          "first_edge": "FJ3464:e0",
+          "second_edge": "FJ1932:e0",
+          "first_index": 0,
+          "second_index": 0,
+          "points_mm": [
+            [
+              7.2,
+              -123.2,
+              956.8000000000001
+            ],
+            [
+              5.6,
+              -124.00000000000003,
+              961.6000000000001
+            ]
+          ],
+          "distance_mm": 5.122499389946347,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 1,
+            "covered_cells": 1,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 0,
+            "minimum_cover_margin_mm": 3.3451945487837014,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 1
+    },
+    {
+      "first_part": "FJ2143",
+      "second_part": "FJ3567",
+      "candidates": [
+        {
+          "first_edge": "FJ2143:e0",
+          "second_edge": "FJ3567:e0",
+          "first_index": 1380,
+          "second_index": 56,
+          "points_mm": [
+            [
+              -48.75657816569757,
+              -124.43912358768499,
+              816.0000659037541
+            ],
+            [
+              -53.11227727724446,
+              -125.98985567117244,
+              817.0602207564722
+            ]
+          ],
+          "distance_mm": 4.74350219319326,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 1,
+            "covered_cells": 1,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 0,
+            "minimum_cover_margin_mm": 1.9408428038131114,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 1
+    },
+    {
+      "first_part": "FJ3567",
+      "second_part": "FJ3565",
+      "candidates": [
+        {
+          "first_edge": "FJ3567:e0",
+          "second_edge": "FJ3565:e0",
+          "first_index": 548,
+          "second_index": 0,
+          "points_mm": [
+            [
+              -33.02052682217105,
+              -109.31995827649612,
+              909.0123067932379
+            ],
+            [
+              -32.8,
+              -109.60000000000002,
+              908.8000000000001
+            ]
+          ],
+          "distance_mm": 0.4148850692117587,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 1,
+            "covered_cells": 1,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 0,
+            "minimum_cover_margin_mm": 3.404229181939589,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        },
+        {
+          "first_edge": "FJ3567:e0",
+          "second_edge": "FJ3565:e1",
+          "first_index": 552,
+          "second_index": 1,
+          "points_mm": [
+            [
+              -32.8,
+              -109.60000000000002,
+              909.6
+            ],
+            [
+              -19.999999999999996,
+              -116.80000000000001,
+              924.0000000000001
+            ]
+          ],
+          "distance_mm": 20.567936211491965,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 7,
+            "covered_cells": 4,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 2,
+            "minimum_cover_margin_mm": 0.42371145931806725,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        },
+        {
+          "first_edge": "FJ3567:e0",
+          "second_edge": "FJ3565:e2",
+          "first_index": 552,
+          "second_index": 0,
+          "points_mm": [
+            [
+              -32.8,
+              -109.60000000000002,
+              909.6
+            ],
+            [
+              -19.999999999999996,
+              -116.80000000000001,
+              924.0000000000001
+            ]
+          ],
+          "distance_mm": 20.567936211491965,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 7,
+            "covered_cells": 4,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 2,
+            "minimum_cover_margin_mm": 0.42371145931806725,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 3
+    },
+    {
+      "first_part": "FJ3565",
+      "second_part": "FJ1932",
+      "candidates": [
+        {
+          "first_edge": "FJ3565:e0",
+          "second_edge": "FJ1932:e0",
+          "first_index": 83,
+          "second_index": 0,
+          "points_mm": [
+            [
+              -19.999999999999996,
+              -116.80000000000001,
+              924.0000000000001
+            ],
+            [
+              5.6,
+              -124.00000000000003,
+              961.6000000000001
+            ]
+          ],
+          "distance_mm": 46.053881486797636,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 29,
+            "covered_cells": 15,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 5,
+            "minimum_cover_margin_mm": 0.0914913922861135,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        },
+        {
+          "first_edge": "FJ3565:e1",
+          "second_edge": "FJ1932:e0",
+          "first_index": 0,
+          "second_index": 0,
+          "points_mm": [
+            [
+              -20.799999999999997,
+              -117.60000000000002,
+              924.8000000000001
+            ],
+            [
+              5.6,
+              -124.00000000000003,
+              961.6000000000001
+            ]
+          ],
+          "distance_mm": 45.740135548553035,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 23,
+            "covered_cells": 12,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 4,
+            "minimum_cover_margin_mm": 0.03135344585244218,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        },
+        {
+          "first_edge": "FJ3565:e2",
+          "second_edge": "FJ1932:e0",
+          "first_index": 178,
+          "second_index": 0,
+          "points_mm": [
+            [
+              4.000000000000007,
+              -124.00000000000001,
+              957.6000000000001
+            ],
+            [
+              5.6,
+              -124.00000000000003,
+              961.6000000000001
+            ]
+          ],
+          "distance_mm": 4.3081318457076,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 1,
+            "covered_cells": 1,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 0,
+            "minimum_cover_margin_mm": 3.635066761919934,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 3
+    },
+    {
+      "first_part": "FJ1932",
+      "second_part": "FJ1931",
+      "candidates": [
+        {
+          "first_edge": "FJ1932:e0",
+          "second_edge": "FJ1931:e0",
+          "first_index": 669,
+          "second_index": 0,
+          "points_mm": [
+            [
+              11.200000000000001,
+              -93.60000000000002,
+              1125.6000000000001
+            ],
+            [
+              11.200000000000001,
+              -89.6,
+              1139.2
+            ]
+          ],
+          "distance_mm": 14.176036117335402,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 1,
+            "covered_cells": 1,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 0,
+            "minimum_cover_margin_mm": 1.0350708490052052,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        },
+        {
+          "first_edge": "FJ1932:e0",
+          "second_edge": "FJ1931:e1",
+          "first_index": 669,
+          "second_index": 1,
+          "points_mm": [
+            [
+              11.200000000000001,
+              -93.60000000000002,
+              1125.6000000000001
+            ],
+            [
+              12.000000000000002,
+              -88.0,
+              1144.0
+            ]
+          ],
+          "distance_mm": 19.249935064825422,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 3,
+            "covered_cells": 2,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 1,
+            "minimum_cover_margin_mm": 3.2425650195671514,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        },
+        {
+          "first_edge": "FJ1932:e0",
+          "second_edge": "FJ1931:e2",
+          "first_index": 669,
+          "second_index": 0,
+          "points_mm": [
+            [
+              11.200000000000001,
+              -93.60000000000002,
+              1125.6000000000001
+            ],
+            [
+              12.000000000000002,
+              -88.0,
+              1144.0
+            ]
+          ],
+          "distance_mm": 19.249935064825422,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 3,
+            "covered_cells": 2,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 1,
+            "minimum_cover_margin_mm": 3.2425650195671514,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        },
+        {
+          "first_edge": "FJ1932:e0",
+          "second_edge": "FJ1931:e3",
+          "first_index": 669,
+          "second_index": 0,
+          "points_mm": [
+            [
+              11.200000000000001,
+              -93.60000000000002,
+              1125.6000000000001
+            ],
+            [
+              16.0,
+              -66.4,
+              1230.4
+            ]
+          ],
+          "distance_mm": 108.37859567276183,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 27,
+            "covered_cells": 14,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 4,
+            "minimum_cover_margin_mm": 0.5461992309642075,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        },
+        {
+          "first_edge": "FJ1932:e0",
+          "second_edge": "FJ1931:e4",
+          "first_index": 669,
+          "second_index": 0,
+          "points_mm": [
+            [
+              11.200000000000001,
+              -93.60000000000002,
+              1125.6000000000001
+            ],
+            [
+              18.933333333333337,
+              -64.26666666666667,
+              1230.6666666666667
+            ]
+          ],
+          "distance_mm": 109.35837111686203,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 27,
+            "covered_cells": 14,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 4,
+            "minimum_cover_margin_mm": 0.5934081024484562,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 5
+    },
+    {
+      "first_part": "FJ1931",
+      "second_part": "FJ3411",
+      "candidates": [
+        {
+          "first_edge": "FJ1931:e0",
+          "second_edge": "FJ3411:e0",
+          "first_index": 27,
+          "second_index": 309,
+          "points_mm": [
+            [
+              12.000000000000002,
+              -88.0,
+              1144.0
+            ],
+            [
+              23.200000000000003,
+              -64.00000000000001,
+              1288.0000000000002
+            ]
+          ],
+          "distance_mm": 146.41529974698705,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "FAIL",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 1,
+            "covered_cells": 0,
+            "unresolved_segments": [],
+            "outside_witnesses": [
+              {
+                "segment_index": 0,
+                "fraction": 0.5,
+                "position_mm": [
+                  17.6,
+                  -76.0,
+                  1216.0
+                ],
+                "distance_to_surface_mm": 0.7969854748873608
+              }
+            ],
+            "maximum_depth_used": 0,
+            "minimum_cover_margin_mm": null,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        },
+        {
+          "first_edge": "FJ1931:e1",
+          "second_edge": "FJ3411:e0",
+          "first_index": 0,
+          "second_index": 309,
+          "points_mm": [
+            [
+              11.200000000000001,
+              -88.0,
+              1144.8
+            ],
+            [
+              23.200000000000003,
+              -64.00000000000001,
+              1288.0000000000002
+            ]
+          ],
+          "distance_mm": 145.69227845016385,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "FAIL",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 1,
+            "covered_cells": 0,
+            "unresolved_segments": [],
+            "outside_witnesses": [
+              {
+                "segment_index": 0,
+                "fraction": 0.5,
+                "position_mm": [
+                  17.200000000000003,
+                  -76.0,
+                  1216.4
+                ],
+                "distance_to_surface_mm": 0.7972469763259908
+              }
+            ],
+            "maximum_depth_used": 0,
+            "minimum_cover_margin_mm": null,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        },
+        {
+          "first_edge": "FJ1931:e2",
+          "second_edge": "FJ3411:e0",
+          "first_index": 418,
+          "second_index": 309,
+          "points_mm": [
+            [
+              18.933333333333337,
+              -64.26666666666667,
+              1230.6666666666667
+            ],
+            [
+              23.200000000000003,
+              -64.00000000000001,
+              1288.0000000000002
+            ]
+          ],
+          "distance_mm": 57.49249226348327,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 15,
+            "covered_cells": 8,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 3,
+            "minimum_cover_margin_mm": 1.557513600725968,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        },
+        {
+          "first_edge": "FJ1931:e3",
+          "second_edge": "FJ3411:e0",
+          "first_index": 14,
+          "second_index": 309,
+          "points_mm": [
+            [
+              18.933333333333337,
+              -64.26666666666667,
+              1230.6666666666667
+            ],
+            [
+              23.200000000000003,
+              -64.00000000000001,
+              1288.0000000000002
+            ]
+          ],
+          "distance_mm": 57.49249226348327,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 15,
+            "covered_cells": 8,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 3,
+            "minimum_cover_margin_mm": 1.557513600725968,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        },
+        {
+          "first_edge": "FJ1931:e4",
+          "second_edge": "FJ3411:e0",
+          "first_index": 237,
+          "second_index": 308,
+          "points_mm": [
+            [
+              20.52645714641915,
+              -64.80155946847908,
+              1288.144179667306
+            ],
+            [
+              23.228411929732292,
+              -64.10222245381243,
+              1288.1018990880655
+            ]
+          ],
+          "distance_mm": 2.7913114406193626,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 1,
+            "covered_cells": 1,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 0,
+            "minimum_cover_margin_mm": 7.329545330042735,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 3
+    },
+    {
+      "first_part": "FJ3411",
+      "second_part": "FJ3483",
+      "candidates": [
+        {
+          "first_edge": "FJ3411:e0",
+          "second_edge": "FJ3483:e0",
+          "first_index": 133,
+          "second_index": 0,
+          "points_mm": [
+            [
+              17.283896588714605,
+              -99.75737433016067,
+              1305.2944196366097
+            ],
+            [
+              16.8,
+              -100.0,
+              1311.2
+            ]
+          ],
+          "distance_mm": 5.930337473761145,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 1,
+            "covered_cells": 1,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 0,
+            "minimum_cover_margin_mm": 5.805186020759728,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 1
+    },
+    {
+      "first_part": "FJ3411",
+      "second_part": "FJ3417",
+      "candidates": [
+        {
+          "first_edge": "FJ3411:e0",
+          "second_edge": "FJ3417:e0",
+          "first_index": 88,
+          "second_index": 155,
+          "points_mm": [
+            [
+              13.572249387808284,
+              -109.4770378526377,
+              1303.479044183783
+            ],
+            [
+              11.2,
+              -112.0,
+              1310.4
+            ]
+          ],
+          "distance_mm": 7.739026719491962,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 1,
+            "covered_cells": 1,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 0,
+            "minimum_cover_margin_mm": 4.899487423729118,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 1
+    },
+    {
+      "first_part": "FJ3417",
+      "second_part": "FJ3564",
+      "candidates": [
+        {
+          "first_edge": "FJ3417:e0",
+          "second_edge": "FJ3564:e0",
+          "first_index": 2,
+          "second_index": 144,
+          "points_mm": [
+            [
+              -13.364099569402711,
+              -109.61486092858517,
+              1334.9582423611712
+            ],
+            [
+              -13.289237534523654,
+              -109.59371849230487,
+              1334.9072880007654
+            ]
+          ],
+          "distance_mm": 0.09299286920220166,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 1,
+            "covered_cells": 1,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 0,
+            "minimum_cover_margin_mm": 4.726575841771142,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 1
+    },
+    {
+      "first_part": "FJ3417",
+      "second_part": "FJ3579",
+      "candidates": [
+        {
+          "first_edge": "FJ3417:e0",
+          "second_edge": "FJ3579:e0",
+          "first_index": 0,
+          "second_index": 298,
+          "points_mm": [
+            [
+              -13.600000000000003,
+              -109.6,
+              1335.2
+            ],
+            [
+              -15.200000000000003,
+              -106.39999999999999,
+              1336.8000000000002
+            ]
+          ],
+          "distance_mm": 3.919183588453143,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 1,
+            "covered_cells": 1,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 0,
+            "minimum_cover_margin_mm": 2.215425416880157,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 1
+    },
+    {
+      "first_part": "FJ3483",
+      "second_part": "estimated_left_carotid_neck",
+      "candidates": [
+        {
+          "first_edge": "FJ3483:e0",
+          "second_edge": "estimated_left_carotid_neck:e0",
+          "first_index": 237,
+          "second_index": 0,
+          "points_mm": [
+            [
+              19.200000000000003,
+              -108.0,
+              1368.8000000000002
+            ],
+            [
+              18.739318478982685,
+              -108.19906929588872,
+              1372.1800537109375
+            ]
+          ],
+          "distance_mm": 3.4171068372518874,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 1,
+            "covered_cells": 1,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 0,
+            "minimum_cover_margin_mm": 1.5298716696686343,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 1
+    },
+    {
+      "first_part": "estimated_left_carotid_neck",
+      "second_part": "FJ1682M",
+      "candidates": [
+        {
+          "first_edge": "estimated_left_carotid_neck:e0",
+          "second_edge": "FJ1682M:e0",
+          "first_index": 95,
+          "second_index": 668,
+          "points_mm": [
+            [
+              35.4880827626409,
+              -105.51026889285825,
+              1436.0400390625
+            ],
+            [
+              35.497960300416175,
+              -105.36696152663214,
+              1436.8222026358928
+            ]
+          ],
+          "distance_mm": 0.7952448821022472,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 1,
+            "covered_cells": 1,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 0,
+            "minimum_cover_margin_mm": 1.3466605981138424,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 1
+    },
+    {
+      "first_part": "FJ1682M",
+      "second_part": "FJ1654M",
+      "candidates": [
+        {
+          "first_edge": "FJ1682M:e0",
+          "second_edge": "FJ1654M:e0",
+          "first_index": 10,
+          "second_index": 188,
+          "points_mm": [
+            [
+              13.910090102008837,
+              -111.2566410783087,
+              1535.9836724593079
+            ],
+            [
+              13.894274808949655,
+              -111.15419847159724,
+              1536.543331813256
+            ]
+          ],
+          "distance_mm": 0.5691776555926553,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 1,
+            "covered_cells": 1,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 0,
+            "minimum_cover_margin_mm": 1.161139211508657,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 1
+    },
+    {
+      "first_part": "FJ1682M",
+      "second_part": "FJ1692M",
+      "candidates": [
+        {
+          "first_edge": "FJ1682M:e0",
+          "second_edge": "FJ1692M:e0",
+          "first_index": 3,
+          "second_index": 0,
+          "points_mm": [
+            [
+              14.910202146501296,
+              -111.92108762556464,
+              1535.9896858244258
+            ],
+            [
+              14.948121267351317,
+              -111.88442281926591,
+              1536.0327035632822
+            ]
+          ],
+          "distance_mm": 0.06806389353599934,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 1,
+            "covered_cells": 1,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 0,
+            "minimum_cover_margin_mm": 1.3301870448176045,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 1
+    },
+    {
+      "first_part": "FJ1654M",
+      "second_part": "FJ1655",
+      "candidates": [
+        {
+          "first_edge": "FJ1654M:e0",
+          "second_edge": "FJ1655:e0",
+          "first_index": 91,
+          "second_index": 71,
+          "points_mm": [
+            [
+              3.3852325535962424,
+              -113.68676902217729,
+              1538.3764426866348
+            ],
+            [
+              1.7314426558488236,
+              -112.54377263017354,
+              1537.7134609110722
+            ]
+          ],
+          "distance_mm": 2.1168388254076556,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 5,
+            "covered_cells": 3,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 2,
+            "minimum_cover_margin_mm": 0.033135481340775236,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 1
+    },
+    {
+      "first_part": "FJ3564",
+      "second_part": "estimated_right_carotid_neck",
+      "candidates": [
+        {
+          "first_edge": "FJ3564:e0",
+          "second_edge": "estimated_right_carotid_neck:e0",
+          "first_index": 0,
+          "second_index": 0,
+          "points_mm": [
+            [
+              -16.8,
+              -111.2,
+              1369.6000000000001
+            ],
+            [
+              -16.628530192319882,
+              -111.28552512687082,
+              1371.8800048828125
+            ]
+          ],
+          "distance_mm": 2.2880425494121273,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 1,
+            "covered_cells": 1,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 0,
+            "minimum_cover_margin_mm": 2.6718115716221655,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 1
+    },
+    {
+      "first_part": "estimated_right_carotid_neck",
+      "second_part": "FJ1682",
+      "candidates": [
+        {
+          "first_edge": "estimated_right_carotid_neck:e0",
+          "second_edge": "FJ1682:e0",
+          "first_index": 95,
+          "second_index": 0,
+          "points_mm": [
+            [
+              -35.48810445411533,
+              -105.51056746368678,
+              1436.0400390625
+            ],
+            [
+              -35.49887344673566,
+              -105.36967197681852,
+              1436.8591633202527
+            ]
+          ],
+          "distance_mm": 0.8312232305830027,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 1,
+            "covered_cells": 1,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 0,
+            "minimum_cover_margin_mm": 1.334150433021118,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 1
+    },
+    {
+      "first_part": "FJ1682",
+      "second_part": "FJ1654",
+      "candidates": [
+        {
+          "first_edge": "FJ1682:e0",
+          "second_edge": "FJ1654:e0",
+          "first_index": 653,
+          "second_index": 0,
+          "points_mm": [
+            [
+              -13.47359782370773,
+              -110.74215724344339,
+              1536.01672700712
+            ],
+            [
+              -12.666214100519182,
+              -111.13581404326509,
+              1537.9235443340065
+            ]
+          ],
+          "distance_mm": 2.1077918470831953,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 3,
+            "covered_cells": 2,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 1,
+            "minimum_cover_margin_mm": 0.2826552089422473,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 1
+    },
+    {
+      "first_part": "FJ1682",
+      "second_part": "FJ1692",
+      "candidates": [
+        {
+          "first_edge": "FJ1682:e0",
+          "second_edge": "FJ1692:e0",
+          "first_index": 664,
+          "second_index": 230,
+          "points_mm": [
+            [
+              -14.796604173570271,
+              -111.94292820938225,
+              1536.1399993465461
+            ],
+            [
+              -14.946511989729984,
+              -111.87237762010015,
+              1536.3202627019423
+            ]
+          ],
+          "distance_mm": 0.24483589665837105,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 1,
+            "covered_cells": 1,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 0,
+            "minimum_cover_margin_mm": 1.231991765438355,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 1
+    },
+    {
+      "first_part": "FJ1654",
+      "second_part": "FJ1655",
+      "candidates": [
+        {
+          "first_edge": "FJ1654:e0",
+          "second_edge": "FJ1655:e0",
+          "first_index": 77,
+          "second_index": 0,
+          "points_mm": [
+            [
+              -3.944545908179147,
+              -113.11278851233018,
+              1538.2019759795046
+            ],
+            [
+              -2.6933552424315037,
+              -112.15900759554047,
+              1537.7134609110722
+            ]
+          ],
+          "distance_mm": 1.647368535383567,
+          "connection_status": "UNADJUDICATED",
+          "method": "nearest-sampled-point-per-explicit-path-pair/1",
+          "containment": {
+            "status": "PASS",
+            "method": "interior-midpoint-ball-cover/1",
+            "scope": "whole polyline intervals under floating-point closed-solid assumptions",
+            "tolerance_mm": 1e-06,
+            "max_depth": 16,
+            "max_cells": 100000,
+            "query_batch_size": 128,
+            "indexing": {
+              "method": "exact-coordinate-index-copy/1",
+              "coordinate_tolerance_mm": 0,
+              "original_vertices": 33564,
+              "normalized_vertices": 33564,
+              "faces": 67128,
+              "triangle_coordinate_bytes_preserved": true,
+              "triangle_sha256": "6d4c374a944142900e14e584756ddc0eb923ca845e6c8363506158a05662b60d",
+              "original_watertight": true,
+              "normalized_watertight": true,
+              "normalized_winding_consistent": true,
+              "zero_area_faces": 0,
+              "usable_for_sampled_containment": true,
+              "original_modified": false,
+              "faces_added_or_removed": false,
+              "self_intersection": "NOT RUN",
+              "anatomical_validity": "NOT RUN"
+            },
+            "segment_count": 1,
+            "processed_cells": 3,
+            "covered_cells": 2,
+            "unresolved_segments": [],
+            "outside_witnesses": [],
+            "maximum_depth_used": 1,
+            "minimum_cover_margin_mm": 0.05868240043934095,
+            "surface_self_intersection": "NOT RUN",
+            "anatomical_validation": "NOT RUN"
+          }
+        }
+      ],
+      "contained_candidates": 1
+    }
+  ],
+  "status_scope": "At least one contained proposal per declared adjacency; not graph route approval"
+}

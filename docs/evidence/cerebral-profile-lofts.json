@@ -1,0 +1,1152 @@
+{
+  "scope": "Open interior profile loft candidates; no tube/junction acceptance",
+  "source_profile_index_sha256": "95608cf4db9a0ab08901e87b5c01acaf944d689d1cc8dd7a7208faf4ff0c7233",
+  "atlas_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "rows": [
+    {
+      "edge_id": "FJ1654:e0",
+      "profile_sha256": "3b81d3ba6f94f65b505d6289dcd9d11971812d585677eff831580c9b8dedcd6e",
+      "status": "CANDIDATE",
+      "metadata": {
+        "method": "perimeter-cyclic-open-loft/1",
+        "status": "CANDIDATE",
+        "profiles": 46,
+        "samples_per_profile": 64,
+        "cyclic_shifts": [
+          0,
+          52,
+          29,
+          28,
+          62,
+          13,
+          59,
+          13,
+          8,
+          2,
+          14,
+          2,
+          54,
+          12,
+          46,
+          58,
+          49,
+          33,
+          39,
+          16,
+          12,
+          36,
+          27,
+          21,
+          8,
+          44,
+          28,
+          11,
+          14,
+          20,
+          0,
+          8,
+          6,
+          16,
+          52,
+          3,
+          8,
+          51,
+          8,
+          36,
+          42,
+          47,
+          36,
+          56,
+          62,
+          20
+        ],
+        "boundary_edges": 128,
+        "watertight": false,
+        "winding_consistent": true,
+        "endpoints": "open at first and last measured interior sections",
+        "self_intersection": "NOT RUN",
+        "junctions": "NOT RUN",
+        "smoothness_acceptance": "NOT RUN",
+        "anatomical_validation": "NOT RUN"
+      },
+      "triangles": 5760,
+      "source_distance_samples": {
+        "vertices": {
+          "count": 2944,
+          "maximum_mm": 2.582156319245315e-13,
+          "p95_mm": 2.3034877777449133e-13
+        },
+        "face_centroids": {
+          "count": 5760,
+          "maximum_mm": 0.09539305910862511,
+          "p95_mm": 0.024430604958248104,
+          "worst_samples": [
+            {
+              "face_index": 3022,
+              "distance_mm": 0.09539305910862511,
+              "position_mm": [
+                -3.968975683103736,
+                -114.38071227280624,
+                1539.406576907614
+              ],
+              "profile_indices": [
+                24,
+                25
+              ]
+            },
+            {
+              "face_index": 3018,
+              "distance_mm": 0.09439593187555356,
+              "position_mm": [
+                -3.825915646059139,
+                -114.2186844329824,
+                1539.542693802861
+              ],
+              "profile_indices": [
+                24,
+                25
+              ]
+            },
+            {
+              "face_index": 3020,
+              "distance_mm": 0.09401681462700832,
+              "position_mm": [
+                -3.896810389557134,
+                -114.29968534427702,
+                1539.4740260974477
+              ],
+              "profile_indices": [
+                24,
+                25
+              ]
+            }
+          ]
+        }
+      },
+      "sha256": "474d39312f4e9eedd2087f7fd17846e272a49f0de31765221656b805a93f1817",
+      "artifact": "exports/cerebral-profile-lofts/474d39312f4e9eedd2087f7fd17846e272a49f0de31765221656b805a93f1817/surface.ply"
+    },
+    {
+      "edge_id": "FJ1654M:e0",
+      "profile_sha256": "844418645fc8fde72f85b9689011d360d229fe18f5e150244d799b3395ce6efd",
+      "status": "CANDIDATE",
+      "metadata": {
+        "method": "perimeter-cyclic-open-loft/1",
+        "status": "CANDIDATE",
+        "profiles": 49,
+        "samples_per_profile": 64,
+        "cyclic_shifts": [
+          0,
+          42,
+          55,
+          14,
+          49,
+          28,
+          45,
+          29,
+          26,
+          22,
+          44,
+          31,
+          10,
+          25,
+          28,
+          57,
+          58,
+          55,
+          44,
+          45,
+          54,
+          53,
+          57,
+          52,
+          42,
+          0,
+          19,
+          46,
+          34,
+          21,
+          57,
+          14,
+          32,
+          10,
+          61,
+          30,
+          28,
+          35,
+          29,
+          33,
+          23,
+          3,
+          25,
+          45,
+          24,
+          53,
+          45,
+          9,
+          10
+        ],
+        "boundary_edges": 128,
+        "watertight": false,
+        "winding_consistent": true,
+        "endpoints": "open at first and last measured interior sections",
+        "self_intersection": "NOT RUN",
+        "junctions": "NOT RUN",
+        "smoothness_acceptance": "NOT RUN",
+        "anatomical_validation": "NOT RUN"
+      },
+      "triangles": 6144,
+      "source_distance_samples": {
+        "vertices": {
+          "count": 3136,
+          "maximum_mm": 2.5599884484532497e-13,
+          "p95_mm": 2.304887172969727e-13
+        },
+        "face_centroids": {
+          "count": 6144,
+          "maximum_mm": 0.10677686440024271,
+          "p95_mm": 0.027946916438540324,
+          "worst_samples": [
+            {
+              "face_index": 2757,
+              "distance_mm": 0.10677686440024271,
+              "position_mm": [
+                2.325268741007619,
+                -113.56107878786428,
+                1537.5762788191103
+              ],
+              "profile_indices": [
+                22,
+                23
+              ]
+            },
+            {
+              "face_index": 2755,
+              "distance_mm": 0.10081505922696614,
+              "position_mm": [
+                2.3778111980750265,
+                -113.65067789066767,
+                1537.5055585954321
+              ],
+              "profile_indices": [
+                22,
+                23
+              ]
+            },
+            {
+              "face_index": 6067,
+              "distance_mm": 0.09894614292470816,
+              "position_mm": [
+                12.354095048039303,
+                -110.82537028955632,
+                1535.4093553297662
+              ],
+              "profile_indices": [
+                48,
+                49
+              ]
+            }
+          ]
+        }
+      },
+      "sha256": "3bdb55b84c4fb03e2e6029dd433fc1b105dc7137d366c3426044c862d3e4e972",
+      "artifact": "exports/cerebral-profile-lofts/3bdb55b84c4fb03e2e6029dd433fc1b105dc7137d366c3426044c862d3e4e972/surface.ply"
+    },
+    {
+      "edge_id": "FJ1660:e0",
+      "profile_sha256": "ae37c3f859e2589d52d767b325340be1c5e00cfeeb8893e756d274062956139f",
+      "status": "CANDIDATE",
+      "metadata": {
+        "method": "perimeter-cyclic-open-loft/1",
+        "status": "CANDIDATE",
+        "profiles": 27,
+        "samples_per_profile": 64,
+        "cyclic_shifts": [
+          0,
+          1,
+          3,
+          63,
+          0,
+          55,
+          53,
+          2,
+          31,
+          63,
+          30,
+          4,
+          48,
+          7,
+          36,
+          33,
+          3,
+          30,
+          30,
+          37,
+          49,
+          39,
+          5,
+          40,
+          40,
+          61,
+          17
+        ],
+        "boundary_edges": 128,
+        "watertight": false,
+        "winding_consistent": true,
+        "endpoints": "open at first and last measured interior sections",
+        "self_intersection": "NOT RUN",
+        "junctions": "NOT RUN",
+        "smoothness_acceptance": "NOT RUN",
+        "anatomical_validation": "NOT RUN"
+      },
+      "triangles": 3328,
+      "source_distance_samples": {
+        "vertices": {
+          "count": 1728,
+          "maximum_mm": 2.554991538711022e-13,
+          "p95_mm": 8.74845116204967e-14
+        },
+        "face_centroids": {
+          "count": 3328,
+          "maximum_mm": 0.04714836352882551,
+          "p95_mm": 0.016991842811508714,
+          "worst_samples": [
+            {
+              "face_index": 552,
+              "distance_mm": 0.04714836352882551,
+              "position_mm": [
+                -40.642365983148586,
+                -110.04680476930544,
+                1554.1057074858388
+              ],
+              "profile_indices": [
+                5,
+                6
+              ]
+            },
+            {
+              "face_index": 549,
+              "distance_mm": 0.04513473024983004,
+              "position_mm": [
+                -40.815245865570226,
+                -109.82582164752118,
+                1553.8936938420813
+              ],
+              "profile_indices": [
+                5,
+                6
+              ]
+            },
+            {
+              "face_index": 771,
+              "distance_mm": 0.0366057550922668,
+              "position_mm": [
+                -42.2610595744813,
+                -109.93743121186795,
+                1552.5104261386798
+              ],
+              "profile_indices": [
+                7,
+                8
+              ]
+            }
+          ]
+        }
+      },
+      "sha256": "8eac196c082c959f5da0d28ed017cc2a4b05bee69aeb9375fc612891a233f1dd",
+      "artifact": "exports/cerebral-profile-lofts/8eac196c082c959f5da0d28ed017cc2a4b05bee69aeb9375fc612891a233f1dd/surface.ply"
+    },
+    {
+      "edge_id": "FJ1660M:e0",
+      "profile_sha256": "b2bec3a40a392663f82bef393d32c74507005f09d61a1c6b12f1960424c7c20c",
+      "status": "CANDIDATE",
+      "metadata": {
+        "method": "perimeter-cyclic-open-loft/1",
+        "status": "CANDIDATE",
+        "profiles": 27,
+        "samples_per_profile": 64,
+        "cyclic_shifts": [
+          0,
+          62,
+          5,
+          9,
+          20,
+          1,
+          15,
+          26,
+          53,
+          9,
+          17,
+          19,
+          45,
+          56,
+          53,
+          51,
+          41,
+          60,
+          27,
+          34,
+          26,
+          34,
+          22,
+          50,
+          54,
+          50,
+          51
+        ],
+        "boundary_edges": 128,
+        "watertight": false,
+        "winding_consistent": true,
+        "endpoints": "open at first and last measured interior sections",
+        "self_intersection": "NOT RUN",
+        "junctions": "NOT RUN",
+        "smoothness_acceptance": "NOT RUN",
+        "anatomical_validation": "NOT RUN"
+      },
+      "triangles": 3328,
+      "source_distance_samples": {
+        "vertices": {
+          "count": 1728,
+          "maximum_mm": 2.5579538487363607e-13,
+          "p95_mm": 8.673279421411239e-14
+        },
+        "face_centroids": {
+          "count": 3328,
+          "maximum_mm": 0.036562522575985246,
+          "p95_mm": 0.013889577521322019,
+          "worst_samples": [
+            {
+              "face_index": 2738,
+              "distance_mm": 0.036562522575985246,
+              "position_mm": [
+                42.36635248896511,
+                -110.11524955521031,
+                1553.1592201733808
+              ],
+              "profile_indices": [
+                22,
+                23
+              ]
+            },
+            {
+              "face_index": 1673,
+              "distance_mm": 0.0341529887222392,
+              "position_mm": [
+                40.606305792803134,
+                -109.96986084011462,
+                1549.8947282995832
+              ],
+              "profile_indices": [
+                14,
+                15
+              ]
+            },
+            {
+              "face_index": 2774,
+              "distance_mm": 0.03353824555841469,
+              "position_mm": [
+                40.64087414078758,
+                -110.03767088322176,
+                1554.060748683464
+              ],
+              "profile_indices": [
+                22,
+                23
+              ]
+            }
+          ]
+        }
+      },
+      "sha256": "85df622608fa6539b98db7171601a0610395984a6e151b4394640a6403459128",
+      "artifact": "exports/cerebral-profile-lofts/85df622608fa6539b98db7171601a0610395984a6e151b4394640a6403459128/surface.ply"
+    },
+    {
+      "edge_id": "FJ1692:e0",
+      "profile_sha256": "6ff87d4ca2340a6aba80db39a1255e211a9f44ef7b06fb992cccbd8c8336f8b8",
+      "status": "CANDIDATE",
+      "metadata": {
+        "method": "perimeter-cyclic-open-loft/1",
+        "status": "CANDIDATE",
+        "profiles": 60,
+        "samples_per_profile": 64,
+        "cyclic_shifts": [
+          0,
+          24,
+          50,
+          54,
+          42,
+          41,
+          59,
+          48,
+          55,
+          3,
+          50,
+          15,
+          36,
+          12,
+          57,
+          40,
+          53,
+          39,
+          40,
+          17,
+          37,
+          53,
+          22,
+          20,
+          40,
+          63,
+          29,
+          26,
+          16,
+          59,
+          13,
+          44,
+          42,
+          10,
+          42,
+          19,
+          48,
+          38,
+          24,
+          15,
+          0,
+          20,
+          1,
+          48,
+          45,
+          51,
+          34,
+          19,
+          29,
+          3,
+          40,
+          51,
+          33,
+          14,
+          16,
+          6,
+          17,
+          58,
+          1,
+          47
+        ],
+        "boundary_edges": 128,
+        "watertight": false,
+        "winding_consistent": true,
+        "endpoints": "open at first and last measured interior sections",
+        "self_intersection": "NOT RUN",
+        "junctions": "NOT RUN",
+        "smoothness_acceptance": "NOT RUN",
+        "anatomical_validation": "NOT RUN"
+      },
+      "triangles": 7552,
+      "source_distance_samples": {
+        "vertices": {
+          "count": 3840,
+          "maximum_mm": 2.5785947331689917e-13,
+          "p95_mm": 2.3201695664817656e-13
+        },
+        "face_centroids": {
+          "count": 7552,
+          "maximum_mm": 0.05883055874980677,
+          "p95_mm": 0.013442626151026153,
+          "worst_samples": [
+            {
+              "face_index": 7167,
+              "distance_mm": 0.05883055874980677,
+              "position_mm": [
+                -17.16039999997805,
+                -111.9286100762052,
+                1535.2697261233798
+              ],
+              "profile_indices": [
+                56,
+                57
+              ]
+            },
+            {
+              "face_index": 7042,
+              "distance_mm": 0.05474293533515847,
+              "position_mm": [
+                -17.548272546770356,
+                -111.8317021495223,
+                1535.5964023804381
+              ],
+              "profile_indices": [
+                56,
+                57
+              ]
+            },
+            {
+              "face_index": 7044,
+              "distance_mm": 0.048619494327251676,
+              "position_mm": [
+                -17.524229355479715,
+                -111.7715774232086,
+                1535.7334828437986
+              ],
+              "profile_indices": [
+                56,
+                57
+              ]
+            }
+          ]
+        }
+      },
+      "sha256": "fb6507a014588aff37c14d81c04ccc1d11bbe1e3143361d62314f095535463b1",
+      "artifact": "exports/cerebral-profile-lofts/fb6507a014588aff37c14d81c04ccc1d11bbe1e3143361d62314f095535463b1/surface.ply"
+    },
+    {
+      "edge_id": "FJ1692M:e0",
+      "profile_sha256": "d7dcf6042c517aca7be7badc92c7eb30ee69cefe0440886ab53c357faaa3fe7c",
+      "status": "CANDIDATE",
+      "metadata": {
+        "method": "perimeter-cyclic-open-loft/1",
+        "status": "CANDIDATE",
+        "profiles": 60,
+        "samples_per_profile": 64,
+        "cyclic_shifts": [
+          0,
+          0,
+          8,
+          14,
+          3,
+          14,
+          50,
+          20,
+          28,
+          46,
+          56,
+          29,
+          29,
+          46,
+          15,
+          2,
+          6,
+          19,
+          59,
+          30,
+          41,
+          24,
+          18,
+          3,
+          23,
+          58,
+          31,
+          11,
+          3,
+          21,
+          57,
+          10,
+          44,
+          31,
+          20,
+          33,
+          55,
+          51,
+          33,
+          61,
+          21,
+          62,
+          14,
+          2,
+          27,
+          45,
+          10,
+          20,
+          32,
+          32,
+          10,
+          37,
+          2,
+          20,
+          52,
+          11,
+          35,
+          16,
+          2,
+          1
+        ],
+        "boundary_edges": 128,
+        "watertight": false,
+        "winding_consistent": true,
+        "endpoints": "open at first and last measured interior sections",
+        "self_intersection": "NOT RUN",
+        "junctions": "NOT RUN",
+        "smoothness_acceptance": "NOT RUN",
+        "anatomical_validation": "NOT RUN"
+      },
+      "triangles": 7552,
+      "source_distance_samples": {
+        "vertices": {
+          "count": 3840,
+          "maximum_mm": 2.5815299586305613e-13,
+          "p95_mm": 2.3266884355213253e-13
+        },
+        "face_centroids": {
+          "count": 7552,
+          "maximum_mm": 0.04968674113967313,
+          "p95_mm": 0.014357947434170012,
+          "worst_samples": [
+            {
+              "face_index": 179,
+              "distance_mm": 0.04968674113967313,
+              "position_mm": [
+                16.85419036100231,
+                -112.1620056187336,
+                1535.03546300541
+              ],
+              "profile_indices": [
+                2,
+                3
+              ]
+            },
+            {
+              "face_index": 181,
+              "distance_mm": 0.048724310313013774,
+              "position_mm": [
+                16.88519994496673,
+                -112.04076867066715,
+                1535.118465340538
+              ],
+              "profile_indices": [
+                2,
+                3
+              ]
+            },
+            {
+              "face_index": 174,
+              "distance_mm": 0.04562008869479378,
+              "position_mm": [
+                16.4015087968851,
+                -112.19805508370872,
+                1534.8504855399933
+              ],
+              "profile_indices": [
+                2,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      "sha256": "ecb251cf51d96bcb1b06feb5c512d760ff59535291c854808ed3fc5db880fe8a",
+      "artifact": "exports/cerebral-profile-lofts/ecb251cf51d96bcb1b06feb5c512d760ff59535291c854808ed3fc5db880fe8a/surface.ply"
+    },
+    {
+      "edge_id": "FJ1694:e0",
+      "profile_sha256": "7ec054a861fb7eaa247dba7ab666ce2c499cc765d15ecaf32253cc5755cbe8c1",
+      "status": "CANDIDATE",
+      "metadata": {
+        "method": "perimeter-cyclic-open-loft/1",
+        "status": "CANDIDATE",
+        "profiles": 127,
+        "samples_per_profile": 64,
+        "cyclic_shifts": [
+          0,
+          34,
+          2,
+          27,
+          3,
+          23,
+          43,
+          44,
+          27,
+          1,
+          34,
+          53,
+          21,
+          30,
+          7,
+          9,
+          30,
+          41,
+          17,
+          52,
+          36,
+          4,
+          11,
+          3,
+          58,
+          50,
+          43,
+          56,
+          48,
+          60,
+          21,
+          0,
+          45,
+          50,
+          61,
+          33,
+          2,
+          48,
+          55,
+          3,
+          12,
+          6,
+          61,
+          33,
+          53,
+          31,
+          60,
+          44,
+          63,
+          63,
+          50,
+          13,
+          13,
+          25,
+          6,
+          4,
+          49,
+          44,
+          44,
+          16,
+          56,
+          36,
+          44,
+          13,
+          25,
+          48,
+          41,
+          58,
+          7,
+          44,
+          38,
+          9,
+          37,
+          44,
+          47,
+          55,
+          7,
+          44,
+          33,
+          41,
+          57,
+          9,
+          46,
+          33,
+          59,
+          41,
+          6,
+          9,
+          29,
+          49,
+          42,
+          17,
+          26,
+          60,
+          36,
+          19,
+          62,
+          25,
+          41,
+          14,
+          4,
+          18,
+          29,
+          16,
+          22,
+          39,
+          23,
+          44,
+          45,
+          17,
+          38,
+          45,
+          18,
+          60,
+          21,
+          33,
+          39,
+          54,
+          61,
+          53,
+          15,
+          11,
+          28,
+          60,
+          24,
+          58,
+          16
+        ],
+        "boundary_edges": 128,
+        "watertight": false,
+        "winding_consistent": true,
+        "endpoints": "open at first and last measured interior sections",
+        "self_intersection": "NOT RUN",
+        "junctions": "NOT RUN",
+        "smoothness_acceptance": "NOT RUN",
+        "anatomical_validation": "NOT RUN"
+      },
+      "triangles": 16128,
+      "source_distance_samples": {
+        "vertices": {
+          "count": 8128,
+          "maximum_mm": 3.4552634356132177e-07,
+          "p95_mm": 2.330753469956438e-13
+        },
+        "face_centroids": {
+          "count": 16128,
+          "maximum_mm": 1.0814616457900277,
+          "p95_mm": 0.019109903612346674,
+          "worst_samples": [
+            {
+              "face_index": 5432,
+              "distance_mm": 1.0814616457900277,
+              "position_mm": [
+                -41.04124580061214,
+                -71.47276665986276,
+                1569.0420519523268
+              ],
+              "profile_indices": [
+                43,
+                44
+              ]
+            },
+            {
+              "face_index": 5303,
+              "distance_mm": 1.0530698186079732,
+              "position_mm": [
+                -41.07587572090089,
+                -71.56551996379922,
+                1569.1209680104678
+              ],
+              "profile_indices": [
+                42,
+                43
+              ]
+            },
+            {
+              "face_index": 5305,
+              "distance_mm": 1.0454602383512475,
+              "position_mm": [
+                -41.01230860321918,
+                -71.37953303191023,
+                1569.1036395141302
+              ],
+              "profile_indices": [
+                42,
+                43
+              ]
+            }
+          ]
+        }
+      },
+      "sha256": "5a6cddeec885ff3891299944a765ad5ba521ea171de07f874ab839514465848c",
+      "artifact": "exports/cerebral-profile-lofts/5a6cddeec885ff3891299944a765ad5ba521ea171de07f874ab839514465848c/surface.ply"
+    },
+    {
+      "edge_id": "FJ1694M:e0",
+      "profile_sha256": "33ede2279a99455175bfcdf75205e55b68849a2ce1803ee9389bdbe60462c1b6",
+      "status": "CANDIDATE",
+      "metadata": {
+        "method": "perimeter-cyclic-open-loft/1",
+        "status": "CANDIDATE",
+        "profiles": 129,
+        "samples_per_profile": 64,
+        "cyclic_shifts": [
+          0,
+          17,
+          25,
+          49,
+          16,
+          32,
+          38,
+          57,
+          19,
+          11,
+          35,
+          36,
+          16,
+          51,
+          39,
+          13,
+          45,
+          10,
+          43,
+          7,
+          45,
+          34,
+          12,
+          7,
+          53,
+          39,
+          26,
+          24,
+          54,
+          57,
+          23,
+          4,
+          36,
+          32,
+          60,
+          21,
+          16,
+          46,
+          15,
+          37,
+          26,
+          25,
+          46,
+          35,
+          11,
+          62,
+          10,
+          31,
+          9,
+          51,
+          61,
+          17,
+          50,
+          63,
+          0,
+          7,
+          9,
+          19,
+          42,
+          0,
+          63,
+          51,
+          38,
+          35,
+          23,
+          59,
+          18,
+          63,
+          53,
+          55,
+          54,
+          7,
+          47,
+          27,
+          29,
+          21,
+          6,
+          33,
+          30,
+          33,
+          50,
+          55,
+          40,
+          5,
+          43,
+          4,
+          58,
+          10,
+          38,
+          47,
+          48,
+          23,
+          58,
+          54,
+          58,
+          22,
+          8,
+          27,
+          14,
+          32,
+          34,
+          10,
+          53,
+          48,
+          44,
+          47,
+          36,
+          21,
+          6,
+          35,
+          36,
+          41,
+          39,
+          62,
+          41,
+          48,
+          22,
+          2,
+          56,
+          62,
+          43,
+          59,
+          52,
+          14,
+          5,
+          42,
+          48,
+          44,
+          5
+        ],
+        "boundary_edges": 128,
+        "watertight": false,
+        "winding_consistent": true,
+        "endpoints": "open at first and last measured interior sections",
+        "self_intersection": "NOT RUN",
+        "junctions": "NOT RUN",
+        "smoothness_acceptance": "NOT RUN",
+        "anatomical_validation": "NOT RUN"
+      },
+      "triangles": 16384,
+      "source_distance_samples": {
+        "vertices": {
+          "count": 8256,
+          "maximum_mm": 2.6126338512498016e-13,
+          "p95_mm": 2.327502010382318e-13
+        },
+        "face_centroids": {
+          "count": 16384,
+          "maximum_mm": 0.27993047901208185,
+          "p95_mm": 0.01638725301568711,
+          "worst_samples": [
+            {
+              "face_index": 10881,
+              "distance_mm": 0.27993047901208185,
+              "position_mm": [
+                39.227415074203414,
+                -71.87459822819541,
+                1567.810948114089
+              ],
+              "profile_indices": [
+                86,
+                87
+              ]
+            },
+            {
+              "face_index": 11007,
+              "distance_mm": 0.2682046162278832,
+              "position_mm": [
+                39.151295578045904,
+                -71.9569007333156,
+                1567.8110669393045
+              ],
+              "profile_indices": [
+                86,
+                87
+              ]
+            },
+            {
+              "face_index": 10883,
+              "distance_mm": 0.26249816339296406,
+              "position_mm": [
+                39.2873309299801,
+                -71.79379471704912,
+                1567.8129077467936
+              ],
+              "profile_indices": [
+                86,
+                87
+              ]
+            }
+          ]
+        }
+      },
+      "sha256": "cf667167494273e9350ff68ff2a0f24051c21f3b6e60ba45726d584d4bf30b0c",
+      "artifact": "exports/cerebral-profile-lofts/cf667167494273e9350ff68ff2a0f24051c21f3b6e60ba45726d584d4bf30b0c/surface.ply"
+    }
+  ],
+  "original_modified": false,
+  "continuous_surface_error": "NOT RUN",
+  "self_intersection": "NOT RUN",
+  "anatomical_validation": "NOT RUN"
+}

@@ -27,6 +27,13 @@ def test_atlas_modification_is_absolute_exportable_and_resettable(workspace,monk
     work.modify_atlas_part(request)
     np.testing.assert_array_equal(work.atlas_modified_parts['a']['vertices'],modified)
     bundle=json.loads(work.export_bundle())
+    assert bundle['edit_checks']['a']['checks']['endpoint_positions_and_radii']=='PASS'
+    assert bundle['edit_checks']['a']['self_intersection']=='PASS'
+    assert bundle['edit_checks']['a']['self_contact_screen']['status']=='NO_CONTACT_DETECTED'
+    status=work.snapshot()
+    assert status['atlas_edit_checks']['a']==bundle['edit_checks']['a']
+    status['atlas_edit_checks']['a']['checks']['positive_radii']='FAIL'
+    assert work.snapshot()['atlas_edit_checks']['a']['checks']['positive_radii']=='PASS'
     assert bundle['modifications']['a']['radius_scale']==1.3
     assert 'a' in bundle['modified_surfaces']
     work.modify_atlas_part(dict(part_id='a',radius_scale=1.,tortuosity=0.,torsion_deg=0.))

@@ -1,0 +1,117 @@
+{
+  "schema": "vv-toolbox.frontobasal-radius-context/1",
+  "status": "UNKNOWN",
+  "parent_artifact_sha256": "ae2081891d07565d24e9810917f757332c19d03036471380d8d5346c3a3bd539",
+  "atlas_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "input_report_sha256": "29a7374133da36a5935a3cbf9cd07ea3f6d65e6ab3a46cc07f0a38195ffba6c2",
+  "expected_candidates": 6,
+  "neighbor_count": 517,
+  "rows": [
+    {
+      "edge_id": "FJ1690:e0",
+      "scale": 0.9,
+      "status": "UNKNOWN",
+      "decision_reason": "INCOMPLETE_INSPECTION",
+      "new_or_extended_contacts": [],
+      "remaining_contacts": [
+        "FJ1654",
+        "FJ1655",
+        "FJ1695"
+      ],
+      "unknown": [
+        "FJ1699"
+      ],
+      "report": "docs/evidence/frontobasal-external-radius-context/candidate-0.json",
+      "sha256": "50012c0a8eb8b305a0c7a9b45b22e2dc5ddd4ce1804e76527b284d0d0b71d475"
+    },
+    {
+      "edge_id": "FJ1690:e0",
+      "scale": 1.1,
+      "status": "UNKNOWN",
+      "decision_reason": "INCOMPLETE_INSPECTION",
+      "new_or_extended_contacts": [],
+      "remaining_contacts": [
+        "FJ1654",
+        "FJ1655",
+        "FJ1695"
+      ],
+      "unknown": [
+        "FJ1699"
+      ],
+      "report": "docs/evidence/frontobasal-external-radius-context/candidate-1.json",
+      "sha256": "38d63d431ea4a293062619b60366174c10c3fbb0a97cb2182f9790600a00d605"
+    },
+    {
+      "edge_id": "FJ1690:e1",
+      "scale": 0.9,
+      "status": "UNKNOWN",
+      "decision_reason": "INCOMPLETE_INSPECTION",
+      "new_or_extended_contacts": [],
+      "remaining_contacts": [
+        "FJ1654",
+        "FJ1655",
+        "FJ1695"
+      ],
+      "unknown": [
+        "FJ1699"
+      ],
+      "report": "docs/evidence/frontobasal-external-radius-context/candidate-2.json",
+      "sha256": "176e3339c7cb205925ccc54ee164a3f6bf9aa5fb81cf701eeb84499add09a5e0"
+    },
+    {
+      "edge_id": "FJ1690:e1",
+      "scale": 1.1,
+      "status": "UNKNOWN",
+      "decision_reason": "INCOMPLETE_INSPECTION",
+      "new_or_extended_contacts": [],
+      "remaining_contacts": [
+        "FJ1654",
+        "FJ1655",
+        "FJ1695"
+      ],
+      "unknown": [
+        "FJ1699"
+      ],
+      "report": "docs/evidence/frontobasal-external-radius-context/candidate-3.json",
+      "sha256": "cd1bbf8e487bf73e81b1aa9715bcffce3de286cf5a6a04a52a12301c36b0976a"
+    },
+    {
+      "edge_id": "FJ1690:e2",
+      "scale": 0.9,
+      "status": "UNKNOWN",
+      "decision_reason": "INCOMPLETE_INSPECTION",
+      "new_or_extended_contacts": [],
+      "remaining_contacts": [
+        "FJ1654",
+        "FJ1655",
+        "FJ1695"
+      ],
+      "unknown": [
+        "FJ1699"
+      ],
+      "report": "docs/evidence/frontobasal-external-radius-context/candidate-4.json",
+      "sha256": "54b719b0fe2f46e216099b8b72b257742ee5193f7d2d55cf80a75e00178079b3"
+    },
+    {
+      "edge_id": "FJ1690:e2",
+      "scale": 1.1,
+      "status": "UNKNOWN",
+      "decision_reason": "INCOMPLETE_INSPECTION",
+      "new_or_extended_contacts": [],
+      "remaining_contacts": [
+        "FJ1654",
+        "FJ1655",
+        "FJ1695"
+      ],
+      "unknown": [
+        "FJ1699"
+      ],
+      "report": "docs/evidence/frontobasal-external-radius-context/candidate-5.json",
+      "sha256": "74581a9aa72ac5e9cc6144d83eab62cff15c4f99345df221bddd74753530c3ef"
+    }
+  ],
+  "accepted_for_generation": false,
+  "scope": "Every radius candidate versus all 517 other arterial parts; original contacts retained in reports.",
+  "venous_context": "NOT RUN",
+  "anatomical_validation": "NOT RUN"
+}

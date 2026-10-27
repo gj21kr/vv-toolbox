@@ -1,0 +1,153 @@
+{
+  "schema": "vv-toolbox.frontobasal-junction-partition/1",
+  "parent_report_sha256": "7029826e2ab9408b226727edd1a94c693cabb4f50789e1281b01570b2c722dcc",
+  "atlas_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "ports": [
+    {
+      "edge_id": "FJ1690:e0",
+      "distance_from_junction_mm": 3.0,
+      "tangent_window_mm": 0.5,
+      "origin_mm": [
+        -3.8861005742473402,
+        -152.49399164909332,
+        1540.1519637544368
+      ],
+      "outward_normal": [
+        -0.7079351368027647,
+        -0.3452379868152323,
+        -0.6161481757984978
+      ]
+    },
+    {
+      "edge_id": "FJ1690:e1",
+      "distance_from_junction_mm": 3.0,
+      "tangent_window_mm": 0.5,
+      "origin_mm": [
+        -2.0871385328231824,
+        -153.71283405238978,
+        1544.343422207722
+      ],
+      "outward_normal": [
+        0.0,
+        -0.6501307881563608,
+        0.759822320211238
+      ]
+    },
+    {
+      "edge_id": "FJ1690:e2",
+      "distance_from_junction_mm": 3.0,
+      "tangent_window_mm": 0.5,
+      "origin_mm": [
+        -1.490813237730844,
+        -149.39199584407754,
+        1541.215234589594
+      ],
+      "outward_normal": [
+        0.0,
+        0.707106781186718,
+        -0.7071067811863769
+      ]
+    }
+  ],
+  "accepted_for_generation": false,
+  "scope": "Complete unmodified source surface, conforming junction/arm partition",
+  "modified_arm_attachment": "NOT RUN",
+  "surrounding_clearance": "NOT RUN",
+  "status": "CANDIDATE",
+  "partition": {
+    "status": "CANDIDATE",
+    "method": "conforming-source-junction-partition/1",
+    "source_partition_identity": "PASS",
+    "source_face_coverage": "PASS",
+    "maximum_source_face_area_error_mm2": 1.6076029396572267e-13,
+    "shared_seam_indices": "PASS",
+    "watertight": true,
+    "winding_consistent": true,
+    "port_boundary_vertex_ids": [
+      [
+        212,
+        213,
+        216,
+        217,
+        219,
+        220,
+        221,
+        231,
+        357,
+        368,
+        356,
+        337,
+        338,
+        339,
+        333,
+        228,
+        225,
+        224,
+        214
+      ],
+      [
+        362,
+        363,
+        366,
+        365,
+        391,
+        393,
+        382,
+        383,
+        385,
+        389,
+        386,
+        387,
+        380,
+        379,
+        370
+      ],
+      [
+        323,
+        325,
+        341,
+        342,
+        344,
+        345,
+        348,
+        351,
+        352,
+        354,
+        355,
+        332,
+        330,
+        328,
+        326
+      ]
+    ],
+    "region_face_counts": [
+      119,
+      205,
+      221,
+      281
+    ],
+    "region_labels": "0 junction; 1..N arms in supplied port order",
+    "self_contact": "NOT RUN",
+    "modification": "NOT RUN",
+    "anatomical_validation": "NOT RUN",
+    "accepted_for_generation": false
+  },
+  "self_contact": {
+    "status": "NO_CONTACT_DETECTED",
+    "coverage": "all distinct triangle pairs",
+    "checked_pairs": 6941,
+    "adjacent_pairs_checked": 5213,
+    "contact_pairs": [],
+    "tolerance_mm": 1e-08,
+    "max_pairs": 2000000,
+    "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+  },
+  "vertices": 415,
+  "faces": 826,
+  "source_area_mm2": 348.0015028425232,
+  "area_mm2": 348.0015028425231,
+  "source_volume_mm3": 108.08442649747121,
+  "volume_mm3": 108.08442649747117,
+  "artifact": "exports/frontobasal-junction-partition.npz",
+  "sha256": "ae2081891d07565d24e9810917f757332c19d03036471380d8d5346c3a3bd539"
+}

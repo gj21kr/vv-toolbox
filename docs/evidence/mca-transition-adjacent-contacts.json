@@ -1,0 +1,19 @@
+{
+  "artifact_sha256": "cd83cdceb58b76019d61993107c069ff270f7927c65b084ce567de6a9031634a",
+  "case_revision": "90aa67f11b698178168d7491e1da7d23bd621f252dfea6dd47029af93b9a9da4",
+  "scope": "new transition versus all other triangles in this single vessel candidate",
+  "tolerance_mm": 1e-08,
+  "narrow_phase_pairs": 682,
+  "adjacent_pairs_excluded": 0,
+  "contact_pairs": [],
+  "status": "NO_CONTACT_DETECTED",
+  "full_self_intersection": "UNKNOWN",
+  "limitations": [
+    "Unmodified source-source pairs and other vessels not checked.",
+    "Finite precision tests, not an exact predicate certificate."
+  ],
+  "input_unchanged": true,
+  "app_applied": false,
+  "adjacent_pairs_checked": 11641,
+  "beyond_shared_contact_pairs": []
+}

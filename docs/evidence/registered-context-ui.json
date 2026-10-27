@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "Exact-case stored contact inspection import, undo/redo and download",
+  "browser_path": "Playwright: Browser plugin not available",
+  "revision": "97a298419bcf397ea420f46f598a47c3a9d14558650f0e786032855e543d68e5",
+  "context_status": "FAIL",
+  "rows": 788,
+  "undo_redo": true,
+  "atlas_unchanged": true,
+  "browser_errors": [],
+  "visual_review": "NOT RUN"
+}

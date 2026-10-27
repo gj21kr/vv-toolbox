@@ -1,0 +1,34 @@
+{
+  "schema": "vv-toolbox.boundary-followup-verification/1",
+  "evidence_integrity": "PASS",
+  "boundary_group_count": 12,
+  "boundary_ids": [
+    "B.L.ACA.A1_A2",
+    "B.L.ACA.A2_A3",
+    "B.L.ACA.A3_A4",
+    "B.L.MCA.M1_M2",
+    "B.L.MCA.M2_M3",
+    "B.L.MCA.M3_M4",
+    "B.R.ACA.A1_A2",
+    "B.R.ACA.A2_A3",
+    "B.R.ACA.A3_A4",
+    "B.R.MCA.M1_M2",
+    "B.R.MCA.M2_M3",
+    "B.R.MCA.M3_M4"
+  ],
+  "source_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "centerline_sha256": "1f099284deca459fcf34850d2c84223e98f78d6f576d9faa72aa0ee66a0cc8f9",
+  "reports": [
+    {
+      "path": "docs/evidence/aca-boundary-followup.json",
+      "sha256": "a04ba4a2952f9f49f85c7af1c82aaddd8951ef197b8771e499f6e37c1a0f2a18"
+    },
+    {
+      "path": "docs/evidence/mca-boundary-followup.json",
+      "sha256": "c9fae66b32ed54e63f7ae60685d59f76750d85ce9fb7706a997db70babffb37a"
+    }
+  ],
+  "verified_figure_count": 10,
+  "anatomical_correctness": "NOT ASSESSED BY THIS SCRIPT",
+  "limitation": "Coverage and hashes do not validate landmarks or lumen connectivity."
+}

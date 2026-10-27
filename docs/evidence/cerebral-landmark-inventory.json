@@ -1,0 +1,142 @@
+{
+  "schema": "vv-toolbox.landmark-inventory/1",
+  "input_sha256": {
+    "isa_BP3D_4.0_obj_99.zip": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+    "isa_element_parts.txt": "a3de74423f943b0d724ae8f59b3a817f87c423a544f8db98113b1980817cbeaf",
+    "isa_parts_list_e.txt": "ab7796deedd49205e77f3609a1cb8c53e2bbee14ecb5c9a6ca05227469780513",
+    "partof_parts_list_e.txt": "9224080557053e6f1322f1e13ab27f0ecde0db19bb3b505f0631afad230eeebd"
+  },
+  "boundary_coordinates_assigned": false,
+  "assets": [
+    {
+      "element_id": "FJ1742",
+      "name": "corpus callosum",
+      "concepts": [
+        [
+          "FMA86464",
+          "corpus callosum"
+        ]
+      ],
+      "obj_sha256": "3f46359c2a23499ac130bd27646309f7974d216f9d55320b503e3b0844da9a70",
+      "vertex_count": 16716,
+      "face_count": 30232,
+      "source_bounds": [
+        [
+          -26.5615,
+          -131.056,
+          1544.41
+        ],
+        [
+          25.2447,
+          -39.4334,
+          1583.26
+        ]
+      ],
+      "units_status": "not_verified",
+      "boundary_status": "unresolved"
+    },
+    {
+      "element_id": "FJ1748",
+      "name": "left insula",
+      "concepts": [
+        [
+          "FMA72978",
+          "left insula"
+        ]
+      ],
+      "obj_sha256": "b7553aaa8a282d5882d9d2809f5fedd7b35ef50710773ac103cfa82f9f184245",
+      "vertex_count": 1250,
+      "face_count": 2448,
+      "source_bounds": [
+        [
+          25.0155,
+          -122.271,
+          1545.53
+        ],
+        [
+          44.2794,
+          -70.6417,
+          1580.1
+        ]
+      ],
+      "units_status": "not_verified",
+      "boundary_status": "unresolved"
+    },
+    {
+      "element_id": "FJ1749",
+      "name": "right insula",
+      "concepts": [
+        [
+          "FMA72977",
+          "right insula"
+        ]
+      ],
+      "obj_sha256": "0c8e4e39ba935c4f5b24168b46c99782057ba73379844173de56c60210b45c72",
+      "vertex_count": 1261,
+      "face_count": 2448,
+      "source_bounds": [
+        [
+          -45.5903,
+          -122.423,
+          1545.58
+        ],
+        [
+          -26.3446,
+          -70.6754,
+          1580.06
+        ]
+      ],
+      "units_status": "not_verified",
+      "boundary_status": "unresolved"
+    },
+    {
+      "element_id": "FJ1655",
+      "name": "anterior communicating artery",
+      "concepts": [
+        [
+          "FMA50169",
+          "anterior communicating artery"
+        ]
+      ],
+      "obj_sha256": "9e93878f7df5385e705674367796c02b86082fb2df1d3e35c9c801658e3f4914",
+      "vertex_count": 63,
+      "face_count": 80,
+      "source_bounds": [
+        [
+          -4.15553,
+          -113.342,
+          1537.0
+        ],
+        [
+          2.7064,
+          -111.532,
+          1538.37
+        ]
+      ],
+      "units_status": "not_verified",
+      "boundary_status": "unresolved"
+    }
+  ],
+  "term_matches": {
+    "isa_parts_list_e.txt": {
+      "genu": [],
+      "rostrum": [],
+      "limen": [],
+      "circular sulcus": [],
+      "limiting sulcus": [],
+      "operculum": [],
+      "opercular": [],
+      "lateral sulcus": []
+    },
+    "partof_parts_list_e.txt": {
+      "genu": [],
+      "rostrum": [],
+      "limen": [],
+      "circular sulcus": [],
+      "limiting sulcus": [],
+      "operculum": [],
+      "opercular": [],
+      "lateral sulcus": []
+    }
+  }
+}

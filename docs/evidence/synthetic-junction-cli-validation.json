@@ -1,0 +1,17 @@
+{
+  "schema": "vv-toolbox.synthetic-junction-cli-validation/1",
+  "execution_environment": "Docker vv-annotation-ui, /workspace",
+  "command": "PYTHONPATH=src pytest -q -p no:cacheprovider tests/test_synthetic_junctions.py tests/test_synthetic_route_extension.py tests/test_junction_continuity.py tests/test_synthetic_route_cli.py",
+  "status": "PASS",
+  "passed": 36,
+  "scope": [
+    "Explicit source-addressed interior junction splitting and provenance",
+    "Synthetic parent extension with prior bridge preservation",
+    "Declared side-branch radius and direction continuity",
+    "CLI split then extend then snapshot reload",
+    "Input immutability and overwrite protection"
+  ],
+  "actual_source_case": "docs/evidence/synthetic-arch-carotid-case.json",
+  "surface_quality": "NOT PROVEN BY UNIT TESTS",
+  "anatomical_acceptance": "UNKNOWN"
+}

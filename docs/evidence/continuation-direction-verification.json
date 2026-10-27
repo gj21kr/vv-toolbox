@@ -1,0 +1,55 @@
+{
+  "schema": "vv-toolbox.continuation-direction-verification/1",
+  "status": "PASS",
+  "source_case_sha256": "ac39f2d88883cf9f2389618a7ad6f0770dd3b5efef17278fbcefa02bf677aa24",
+  "rejected_source_pairs": [
+    {
+      "id": "BCT-RCCA",
+      "status": "REJECTED",
+      "reason": "continuation reverses along endpoint chord; review anchors, trim overlapping tails, or shorten handles",
+      "anchors": [
+        {
+          "edge_id": "FJ3417:e0",
+          "endpoint": "start"
+        },
+        {
+          "edge_id": "FJ3564:e0",
+          "endpoint": "end"
+        }
+      ]
+    },
+    {
+      "id": "L-iliac-femoral",
+      "status": "REJECTED",
+      "reason": "continuation reverses along endpoint chord; review anchors, trim overlapping tails, or shorten handles",
+      "anchors": [
+        {
+          "edge_id": "FJ3466:e0",
+          "endpoint": "end"
+        },
+        {
+          "edge_id": "FJ2074:e0",
+          "endpoint": "start"
+        }
+      ]
+    },
+    {
+      "id": "R-iliac-femoral",
+      "status": "REJECTED",
+      "reason": "continuation reverses along endpoint chord; review anchors, trim overlapping tails, or shorten handles",
+      "anchors": [
+        {
+          "edge_id": "FJ3567:e0",
+          "endpoint": "start"
+        },
+        {
+          "edge_id": "FJ2143:e0",
+          "endpoint": "end"
+        }
+      ]
+    }
+  ],
+  "existing_neck_case_identical": true,
+  "source_unchanged": true,
+  "limitation": "Chord monotonicity only; not collision, lumen continuity, or anatomical approval."
+}

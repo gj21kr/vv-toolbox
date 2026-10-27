@@ -1,0 +1,462 @@
+{
+  "schema": "vv_toolbox.cerebral_boundary_adjudication/1",
+  "source_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "coordinate_frame_id": "bodyparts3d_native_LPS",
+  "units": "mm",
+  "units_confirmed": true,
+  "frame_confirmed": true,
+  "coordinate_reference": {
+    "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/20130619/coordinate_system.png",
+    "sha256": "338736275c11eac8c89531fdc14193c9a8adf5baab674033d9d89259f152a5f6",
+    "interpretation": "Native +X left, +Y posterior, +Z superior; native origin preserved; not a DICOM patient affine."
+  },
+  "assets": [
+    {
+      "element_id": "FJ1742",
+      "obj_sha256": "3f46359c2a23499ac130bd27646309f7974d216f9d55320b503e3b0844da9a70",
+      "vertices": 16716,
+      "triangles": 30232,
+      "bounds": [
+        [
+          -26.5615,
+          -131.056,
+          1544.41
+        ],
+        [
+          25.2447,
+          -39.4334,
+          1583.26
+        ]
+      ]
+    },
+    {
+      "element_id": "FJ1748",
+      "obj_sha256": "b7553aaa8a282d5882d9d2809f5fedd7b35ef50710773ac103cfa82f9f184245",
+      "vertices": 1250,
+      "triangles": 2448,
+      "bounds": [
+        [
+          25.0155,
+          -122.271,
+          1545.53
+        ],
+        [
+          44.2794,
+          -70.6417,
+          1580.1
+        ]
+      ]
+    },
+    {
+      "element_id": "FJ1749",
+      "obj_sha256": "0c8e4e39ba935c4f5b24168b46c99782057ba73379844173de56c60210b45c72",
+      "vertices": 1261,
+      "triangles": 2448,
+      "bounds": [
+        [
+          -45.5903,
+          -122.423,
+          1545.58
+        ],
+        [
+          -26.3446,
+          -70.6754,
+          1580.06
+        ]
+      ]
+    },
+    {
+      "element_id": "FJ1655",
+      "obj_sha256": "9e93878f7df5385e705674367796c02b86082fb2df1d3e35c9c801658e3f4914",
+      "vertices": 63,
+      "triangles": 80,
+      "bounds": [
+        [
+          -4.15553,
+          -113.342,
+          1537.0
+        ],
+        [
+          2.7064,
+          -111.532,
+          1538.37
+        ]
+      ]
+    },
+    {
+      "element_id": "FJ1654",
+      "obj_sha256": "7f146e7551bb53d1ad7f5d98a77a16d8c7ea4e8ab86012bfd3c92b782df2a5dd",
+      "vertices": 213,
+      "triangles": 400,
+      "bounds": [
+        [
+          -15.4,
+          -121.207,
+          1534.87
+        ],
+        [
+          -1.09873,
+          -109.004,
+          1548.98
+        ]
+      ]
+    },
+    {
+      "element_id": "FJ1654M",
+      "obj_sha256": "b5bbd053a3b23de2490f00262adc37044f2a1f09f6548468b9595add93806dcc",
+      "vertices": 213,
+      "triangles": 400,
+      "bounds": [
+        [
+          1.09873,
+          -121.207,
+          1534.87
+        ],
+        [
+          15.4,
+          -109.005,
+          1548.98
+        ]
+      ]
+    },
+    {
+      "element_id": "FJ1692",
+      "obj_sha256": "99bb5115dcc1d28e6e89d6e35d6b013b31b8903e358f9cbd8cec1652c3bb97c2",
+      "vertices": 402,
+      "triangles": 800,
+      "bounds": [
+        [
+          -44.307,
+          -115.268,
+          1534.51
+        ],
+        [
+          -13.1427,
+          -102.973,
+          1549.64
+        ]
+      ]
+    },
+    {
+      "element_id": "FJ1692M",
+      "obj_sha256": "2a40b6986263e9372009ee06b8007ff4e7e417b1f6813b1ce80fdcbd26ee9ba6",
+      "vertices": 402,
+      "triangles": 800,
+      "bounds": [
+        [
+          13.1427,
+          -115.268,
+          1534.51
+        ],
+        [
+          44.3071,
+          -102.973,
+          1549.65
+        ]
+      ]
+    },
+    {
+      "element_id": "FJ1660",
+      "obj_sha256": "7d032ea5f922e80c51f5e0f7718b1fcd42836b355e4d725bf729cad034993cf1",
+      "vertices": 579,
+      "triangles": 1154,
+      "bounds": [
+        [
+          -43.3409,
+          -112.186,
+          1543.0
+        ],
+        [
+          -37.434,
+          -105.897,
+          1557.04
+        ]
+      ]
+    },
+    {
+      "element_id": "FJ1660M",
+      "obj_sha256": "0d1b6ccd0b8c94788b9c298dd53d0a299b05e8030b74bab7e95241fce856122c",
+      "vertices": 579,
+      "triangles": 1154,
+      "bounds": [
+        [
+          37.434,
+          -112.186,
+          1543.0
+        ],
+        [
+          43.3409,
+          -105.896,
+          1557.05
+        ]
+      ]
+    },
+    {
+      "element_id": "FJ1694",
+      "obj_sha256": "c0112564a5793a0c8bdbf869fb958d17cd3b010283746e8411796519f4109bdd",
+      "vertices": 2361,
+      "triangles": 4706,
+      "bounds": [
+        [
+          -53.3913,
+          -105.536,
+          1547.07
+        ],
+        [
+          -36.5662,
+          -70.3156,
+          1570.41
+        ]
+      ]
+    },
+    {
+      "element_id": "FJ1694M",
+      "obj_sha256": "7ed96fddfe2ff72fe5234953b23133d14a68c4a3be0efdf10ded79d5e9c8ebd2",
+      "vertices": 2362,
+      "triangles": 4706,
+      "bounds": [
+        [
+          36.5662,
+          -105.536,
+          1547.07
+        ],
+        [
+          53.3913,
+          -70.3157,
+          1570.41
+        ]
+      ]
+    },
+    {
+      "element_id": "FJ1699",
+      "obj_sha256": "56ef6e1b97a44969452123f30fd86871e654a034cf06af498aabde6d56f16c9a",
+      "vertices": 984,
+      "triangles": 1080,
+      "bounds": [
+        [
+          -6.39291,
+          -131.038,
+          1547.02
+        ],
+        [
+          -0.527047,
+          -56.8719,
+          1588.76
+        ]
+      ]
+    },
+    {
+      "element_id": "FJ1699M",
+      "obj_sha256": "26cf1f0bc067fa0444535138cced1dec8ce0b9da946bad785972779bb58c128c",
+      "vertices": 972,
+      "triangles": 1080,
+      "bounds": [
+        [
+          0.527047,
+          -131.038,
+          1547.02
+        ],
+        [
+          6.39291,
+          -56.8719,
+          1588.76
+        ]
+      ]
+    },
+    {
+      "element_id": "FJ1676",
+      "obj_sha256": "ef91dfc288beb91672ff9aa18b06405022eb6aa45e9549a82819d76a5ac7d1e9",
+      "vertices": 334,
+      "triangles": 578,
+      "bounds": [
+        [
+          -5.59086,
+          -143.923,
+          1546.55
+        ],
+        [
+          -0.10323,
+          -118.764,
+          1589.22
+        ]
+      ]
+    },
+    {
+      "element_id": "FJ1676M",
+      "obj_sha256": "0e5d4f84475f3b5ae441d5a5ba90a6f1734e14cd9e008183762d2bed4890646e",
+      "vertices": 337,
+      "triangles": 578,
+      "bounds": [
+        [
+          0.10323,
+          -143.922,
+          1546.55
+        ],
+        [
+          5.59086,
+          -118.765,
+          1589.22
+        ]
+      ]
+    }
+  ],
+  "inspection_locators": [
+    {
+      "boundary_id": "B.R.ACA.A1_A2",
+      "kind": "closest_source_vertex_pair",
+      "source_element_ids": [
+        "FJ1655",
+        "FJ1654"
+      ],
+      "acom_vertex_index": 3,
+      "aca_vertex_index": 201,
+      "acom_position_native": [
+        -3.14706,
+        -111.674,
+        1537.92
+      ],
+      "aca_position_native": [
+        -3.35964,
+        -111.652,
+        1538.03
+      ],
+      "candidate_position": [
+        -3.35964,
+        -111.652,
+        1538.03
+      ],
+      "coordinate_frame_id": "bodyparts3d_native_LPS",
+      "units": "mm",
+      "source_refs": [
+        "FJ1655:sha256:9e93878f7df5385e705674367796c02b86082fb2df1d3e35c9c801658e3f4914",
+        "FJ1654:sha256:7f146e7551bb53d1ad7f5d98a77a16d8c7ea4e8ab86012bfd3c92b782df2a5dd"
+      ],
+      "separation_native_units": 0.2403627600107351,
+      "anatomical_boundary_approved": false,
+      "limitation": "Nearest surface vertices are not a lumen center or proof of attachment."
+    },
+    {
+      "boundary_id": "B.L.ACA.A1_A2",
+      "kind": "closest_source_vertex_pair",
+      "source_element_ids": [
+        "FJ1655",
+        "FJ1654M"
+      ],
+      "acom_vertex_index": 29,
+      "aca_vertex_index": 197,
+      "acom_position_native": [
+        2.21782,
+        -113.189,
+        1538.19
+      ],
+      "aca_position_native": [
+        2.06185,
+        -113.234,
+        1538.05
+      ],
+      "candidate_position": [
+        2.06185,
+        -113.234,
+        1538.05
+      ],
+      "coordinate_frame_id": "bodyparts3d_native_LPS",
+      "units": "mm",
+      "source_refs": [
+        "FJ1655:sha256:9e93878f7df5385e705674367796c02b86082fb2df1d3e35c9c801658e3f4914",
+        "FJ1654M:sha256:b5bbd053a3b23de2490f00262adc37044f2a1f09f6548468b9595add93806dcc"
+      ],
+      "separation_native_units": 0.21436333851670658,
+      "anatomical_boundary_approved": false,
+      "limitation": "Nearest surface vertices are not a lumen center or proof of attachment."
+    }
+  ],
+  "figures": [
+    {
+      "path": "exports/cerebral-boundary-inspection/aca-callosum.png",
+      "sha256": "dcae7bdf704fe021e080fd0e1a66f9a08efc7e1c951b2681adcdb8cce4d19d0e"
+    },
+    {
+      "path": "exports/cerebral-boundary-inspection/mca-insula.png",
+      "sha256": "4811d2e21c2394c04fae3a2e59a6d3878a811f2875281d11970934680e0f7151"
+    },
+    {
+      "path": "exports/cerebral-boundary-inspection/acom-closeup.png",
+      "sha256": "1785dd06088e26cf621fed6aad5b5741067bfb0e473416c7d6b00dba3f5b75ed"
+    }
+  ],
+  "approved_boundary_count": 0,
+  "boundaries": [
+    {
+      "boundary_id": "B.L.ACA.A1_A2",
+      "position": null,
+      "evidence_status": "unresolved",
+      "reason": "ACom proximity inspected; exact lumen center/attachment plane unconfirmed."
+    },
+    {
+      "boundary_id": "B.L.ACA.A2_A3",
+      "position": null,
+      "evidence_status": "unresolved",
+      "reason": "Callosal surface available; rostrum-genu boundary not independently annotated."
+    },
+    {
+      "boundary_id": "B.L.ACA.A3_A4",
+      "position": null,
+      "evidence_status": "unresolved",
+      "reason": "Callosal surface available; superior course transition requires source-specific annotation."
+    },
+    {
+      "boundary_id": "B.L.MCA.M1_M2",
+      "position": null,
+      "evidence_status": "unresolved",
+      "reason": "Insula and sphenoid/insular named parts available; limen/genu landmark unconfirmed."
+    },
+    {
+      "boundary_id": "B.L.MCA.M2_M3",
+      "position": null,
+      "evidence_status": "unresolved",
+      "reason": "Insula perimeter alone does not identify each insular-opercular crossing."
+    },
+    {
+      "boundary_id": "B.L.MCA.M3_M4",
+      "position": null,
+      "evidence_status": "unresolved",
+      "reason": "Sylvian cortical exit and operculum labels not available in inspected source tables."
+    },
+    {
+      "boundary_id": "B.R.ACA.A1_A2",
+      "position": null,
+      "evidence_status": "unresolved",
+      "reason": "ACom proximity inspected; exact lumen center/attachment plane unconfirmed."
+    },
+    {
+      "boundary_id": "B.R.ACA.A2_A3",
+      "position": null,
+      "evidence_status": "unresolved",
+      "reason": "Callosal surface available; rostrum-genu boundary not independently annotated."
+    },
+    {
+      "boundary_id": "B.R.ACA.A3_A4",
+      "position": null,
+      "evidence_status": "unresolved",
+      "reason": "Callosal surface available; superior course transition requires source-specific annotation."
+    },
+    {
+      "boundary_id": "B.R.MCA.M1_M2",
+      "position": null,
+      "evidence_status": "unresolved",
+      "reason": "Insula and sphenoid/insular named parts available; limen/genu landmark unconfirmed."
+    },
+    {
+      "boundary_id": "B.R.MCA.M2_M3",
+      "position": null,
+      "evidence_status": "unresolved",
+      "reason": "Insula perimeter alone does not identify each insular-opercular crossing."
+    },
+    {
+      "boundary_id": "B.R.MCA.M3_M4",
+      "position": null,
+      "evidence_status": "unresolved",
+      "reason": "Sylvian cortical exit and operculum labels not available in inspected source tables."
+    }
+  ]
+}

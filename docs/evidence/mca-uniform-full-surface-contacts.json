@@ -1,0 +1,24 @@
+{
+  "artifact_sha256": "cd83cdceb58b76019d61993107c069ff270f7927c65b084ce567de6a9031634a",
+  "case_revision": "90aa67f11b698178168d7491e1da7d23bd621f252dfea6dd47029af93b9a9da4",
+  "scope": "all distinct triangle pairs of this single vessel candidate",
+  "tolerance_mm": 1e-08,
+  "narrow_phase_pairs": 4624,
+  "adjacent_pairs_excluded": 0,
+  "contact_pairs": [],
+  "status": "NO_CONTACT_DETECTED",
+  "full_self_intersection": "NO_CONTACT_DETECTED",
+  "limitations": [
+    "Other vessels not checked by this surface self-contact inspection.",
+    "Finite precision tests, not an exact predicate certificate."
+  ],
+  "input_unchanged": true,
+  "app_applied": false,
+  "adjacent_pairs_checked": 328832,
+  "beyond_shared_contact_pairs": [],
+  "tolerance_semantics": "Nonadjacent SAT conservatively includes near contact; adjacent test checks geometric overlap beyond shared topology with numerical tolerance, not minimum clearance.",
+  "implementation_sha256": {
+    "triangle_contact.py": "95d53d9f902f2c5a01628c8199176c311c075c523c27df6368a21daa68ca81ac",
+    "adjacent_contact.py": "eb5e29c6d17e4dd8f82352e9c060aa087b932197e91ea2aa3800a25926b06ff1"
+  }
+}

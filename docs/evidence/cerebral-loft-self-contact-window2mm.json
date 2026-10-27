@@ -1,0 +1,138 @@
+{
+  "scope": "Actual serialized PLY candidates, including shared-topology triangle pairs",
+  "source_index_sha256": "103906e03c7bcb2959eebb9610ed0470c0632bd34825f92fea3a5394e5da2677",
+  "rows": [
+    {
+      "edge_id": "FJ1654:e0",
+      "status": "NO_CONTACT_DETECTED",
+      "artifact_sha256": "fffb9fec0f72e9816e3def5b563b0d2493dd2ab8687167688a53dad336ac66cb",
+      "triangles": 5760,
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 40832,
+        "adjacent_pairs_checked": 34048,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      }
+    },
+    {
+      "edge_id": "FJ1654M:e0",
+      "status": "NO_CONTACT_DETECTED",
+      "artifact_sha256": "8265c720c73a09b483050bbe733a88bccc6acc9133773889a87b0f5cf9df9dbc",
+      "triangles": 6144,
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 43824,
+        "adjacent_pairs_checked": 36352,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      }
+    },
+    {
+      "edge_id": "FJ1660:e0",
+      "status": "NO_CONTACT_DETECTED",
+      "artifact_sha256": "39a8dfb1c9bc41b4b1bf63eaddaa704442a58c10f1b8003e694e60685bb90891",
+      "triangles": 3328,
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 22475,
+        "adjacent_pairs_checked": 19456,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      }
+    },
+    {
+      "edge_id": "FJ1660M:e0",
+      "status": "NO_CONTACT_DETECTED",
+      "artifact_sha256": "c64ef5013240451dbb4c2778bcbb0a791cf5b8bb61e868efebb9f4d718f0c857",
+      "triangles": 3328,
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 22308,
+        "adjacent_pairs_checked": 19456,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      }
+    },
+    {
+      "edge_id": "FJ1692:e0",
+      "status": "NO_CONTACT_DETECTED",
+      "artifact_sha256": "5d41a632ee5173481f56b9d5d8cd3ebd1a8180a4862c96ad42ce709e8ddd3bbb",
+      "triangles": 7552,
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 61094,
+        "adjacent_pairs_checked": 44800,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      }
+    },
+    {
+      "edge_id": "FJ1692M:e0",
+      "status": "NO_CONTACT_DETECTED",
+      "artifact_sha256": "c088829759c9e095a51fd460601f4e2933bb9c4c9200fd355d042d4e7007ae10",
+      "triangles": 7552,
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 59839,
+        "adjacent_pairs_checked": 44800,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      }
+    },
+    {
+      "edge_id": "FJ1694:e0",
+      "status": "NO_CONTACT_DETECTED",
+      "artifact_sha256": "bd52b0c54235d9cf2151f93a6d3e0211133978069c2c2dd717683d207963aa90",
+      "triangles": 16128,
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 128983,
+        "adjacent_pairs_checked": 96256,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      }
+    },
+    {
+      "edge_id": "FJ1694M:e0",
+      "status": "NO_CONTACT_DETECTED",
+      "artifact_sha256": "cd4ec42151a7dbaea240088a943c8129488192beac964bae0597f70119b72f38",
+      "triangles": 16384,
+      "self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 129309,
+        "adjacent_pairs_checked": 97792,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      }
+    }
+  ],
+  "other_vessels": "NOT RUN",
+  "anatomical_validation": "NOT RUN",
+  "closed_surface_acceptance": "NOT RUN",
+  "original_modified": false
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "vv-toolbox.fusiform-dilation-validation/1",
+  "date": "2026-10-20",
+  "environment": "Docker vv-annotation-ui",
+  "command": "PYTHONPATH=src pytest -q -p no:cacheprovider tests/test_fusiform_dilation.py tests/test_lesions.py tests/test_lesion_labels.py tests/test_case_surface.py tests/test_batch.py",
+  "passed": 39,
+  "warnings": 57,
+  "seconds": 4.66,
+  "scope": "Manual symmetric radius expansion, source preservation, spatial lesion separation, surface and label output, mixed batch",
+  "surface_fixture": {"baseline_diameter_mm": 4, "requested_center_diameter_mm": 8, "grid_spacing_mm": 0.2, "tolerance_mm": 0.3, "status": "PASS"},
+  "expanded_lumen_voxel_labeled": "PASS",
+  "expanded_support_overlap_rejection": "PASS",
+  "mixed_stenosis_dilation_batch": "PASS",
+  "literature_preset": "NOT IMPLEMENTED",
+  "bifurcation_lesions": "NOT IMPLEMENTED",
+  "app_controls": "NOT IMPLEMENTED",
+  "clinical_validity": "NOT RUN"
+}

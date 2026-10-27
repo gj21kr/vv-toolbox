@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "url": "http://127.0.0.1:8093/case-labels",
+  "page_errors": [],
+  "checks": [
+    "short edge disabled",
+    "synthetic copy created",
+    "frozen endpoint chords and radii",
+    "other edges unchanged",
+    "undo exact source",
+    "redo exact result",
+    "download"
+  ],
+  "maximum_displacement_mm": 0.09305706065504564,
+  "geometry_quality": "NOT RUN",
+  "scope": "synthetic fixture centerline editing; surface collisions and anatomical validation NOT RUN"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "FAIL",
+  "scope": "Automated two-sided browser rendering verification",
+  "failure": "Timed out waiting for visible left carotid description in the Viser iframe",
+  "selector": "#stage iframe >> getByText(/좌측 경동맥/).first()",
+  "timeout_ms": 60000,
+  "left_saved_screenshot_visually_inspected": true,
+  "left_saved_screenshot_has_vessel": true,
+  "right_visual_verification": "NOT RUN",
+  "complete_browser_workflow": "NOT VERIFIED",
+  "atlas_restored_by_test_cleanup": true
+}

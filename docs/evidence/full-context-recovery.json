@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "Actual full job loaded by fresh job manager; not an HTTP server restart",
+  "job_id": "635fd2e646344ac6944676db566e3866",
+  "output_revision": "1876451579824ef112999c109cd5c199efbe944114d4ec31bbbd2469521c484f",
+  "cli_browser_saved_result_exact": true,
+  "restored_completed": 788,
+  "automatic_calculation_started": false,
+  "accepted_for_generation": false,
+  "inspection_status": "FAIL",
+  "output_sha256": "b74e30605e7f4d9a6e800788b014f96594dae007577005a62bc4f31326789557"
+}

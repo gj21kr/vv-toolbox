@@ -1,0 +1,1136 @@
+{
+  "schema": "vv-toolbox.aca-curved-patch-diagnostic/1",
+  "case_revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+  "input_unchanged": true,
+  "attempts": [
+    {
+      "junction_id": "sample:FJ1654:e0:77",
+      "status": "CANDIDATE",
+      "surface_published": true,
+      "vertices": 2177,
+      "triangles": 4288,
+      "artifact": "exports/aca-curved-patches/patch-0.npz",
+      "sha256": "c783c592a5e0b1383eadc1b15af401e90b1bd15c26d73ba171bcef0d8bcc1820",
+      "metadata": {
+        "schema": "vv-toolbox.curved-sac-patch/1",
+        "status": "CANDIDATE",
+        "case_revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+        "frame": {
+          "axes": "LPS",
+          "id": "bodyparts3d_native_LPS",
+          "origin": "unchanged BodyParts3D native origin",
+          "units": "mm"
+        },
+        "rim_inspection": {
+          "schema": "vv-toolbox.bifurcation-rim-continuity/1",
+          "case_revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+          "status": "PASS",
+          "closed_chord_count": 64,
+          "tolerance_mm": 0.02,
+          "field_lipschitz_bound": 1.6029079506675628,
+          "total_sample_count": 496,
+          "chords": [
+            {
+              "chord_index": 0,
+              "length_mm": 0.049827276316167866,
+              "sample_count": 5,
+              "maximum_sampled_absolute_field_mm": 0.00021564177178423627,
+              "continuous_absolute_field_upper_bound_mm": 0.010199208942696113,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 1,
+              "length_mm": 0.052311667191991214,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.0002281754112094525,
+              "continuous_absolute_field_upper_bound_mm": 0.008613254136681275,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 2,
+              "length_mm": 0.05624447538084486,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.00026377694330737,
+              "continuous_absolute_field_upper_bound_mm": 0.009279248620215591,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 3,
+              "length_mm": 0.06102903672771123,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.00031056834048670545,
+              "continuous_absolute_field_upper_bound_mm": 0.010092961159729808,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 4,
+              "length_mm": 0.06614418822351702,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.0003800202849288947,
+              "continuous_absolute_field_upper_bound_mm": 0.009215274051089494,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 5,
+              "length_mm": 0.07121251652647853,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.000440499266921357,
+              "continuous_absolute_field_upper_bound_mm": 0.009952758344199494,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 6,
+              "length_mm": 0.07599351857392211,
+              "sample_count": 8,
+              "maximum_sampled_absolute_field_mm": 0.0004914037526795312,
+              "continuous_absolute_field_upper_bound_mm": 0.009192161975632593,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 7,
+              "length_mm": 0.08035152346391804,
+              "sample_count": 8,
+              "maximum_sampled_absolute_field_mm": 0.0005493920155634768,
+              "continuous_absolute_field_upper_bound_mm": 0.009749113144746722,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 8,
+              "length_mm": 0.08422259060598376,
+              "sample_count": 8,
+              "maximum_sampled_absolute_field_mm": 0.0006036142534950883,
+              "continuous_absolute_field_upper_bound_mm": 0.010246547118362984,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 9,
+              "length_mm": 0.08758795986672001,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0006664313801467703,
+              "continuous_absolute_field_upper_bound_mm": 0.009441146208466577,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 10,
+              "length_mm": 0.09045489086485736,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0007107836318585026,
+              "continuous_absolute_field_upper_bound_mm": 0.009772712615861412,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 11,
+              "length_mm": 0.09284365034288229,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.000748830399120104,
+              "continuous_absolute_field_upper_bound_mm": 0.01005006948059543,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 12,
+              "length_mm": 0.09515315387106785,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.00020038767714236627,
+              "continuous_absolute_field_upper_bound_mm": 0.009732996856581655,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 13,
+              "length_mm": 0.09677188072373458,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0007959206217924564,
+              "continuous_absolute_field_upper_bound_mm": 0.010490696685112906,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 14,
+              "length_mm": 0.09764769032703839,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0008103963609651377,
+              "continuous_absolute_field_upper_bound_mm": 0.010592912560311007,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 15,
+              "length_mm": 0.09808134318846377,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0008176122883214454,
+              "continuous_absolute_field_upper_bound_mm": 0.010643572588880344,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 16,
+              "length_mm": 0.09808134317016051,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0008176122880181325,
+              "continuous_absolute_field_upper_bound_mm": 0.010643572586743378,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 17,
+              "length_mm": 0.09764769027198504,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0008103963600420983,
+              "continuous_absolute_field_upper_bound_mm": 0.010592912553872626,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 18,
+              "length_mm": 0.09677188063279978,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0007959206202905467,
+              "continuous_absolute_field_upper_bound_mm": 0.01049069667450099,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 19,
+              "length_mm": 0.09543731644001378,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0007741134557184282,
+              "continuous_absolute_field_upper_bound_mm": 0.010335190537723065,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 20,
+              "length_mm": 0.09362029805801102,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0007449101705949701,
+              "continuous_absolute_field_upper_bound_mm": 0.010123955176910773,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 21,
+              "length_mm": 0.09129197299064912,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0007083104473175617,
+              "continuous_absolute_field_upper_bound_mm": 0.009854099780995053,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 22,
+              "length_mm": 0.08842187797389486,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0006644640037589689,
+              "continuous_absolute_field_upper_bound_mm": 0.009522722204841039,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 23,
+              "length_mm": 0.08498405313267458,
+              "sample_count": 8,
+              "maximum_sampled_absolute_field_mm": 0.0006012605307441632,
+              "continuous_absolute_field_upper_bound_mm": 0.010331375848338356,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 24,
+              "length_mm": 0.08096713114530737,
+              "sample_count": 8,
+              "maximum_sampled_absolute_field_mm": 0.0005457542473394916,
+              "continuous_absolute_field_upper_bound_mm": 0.009815958408450665,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 25,
+              "length_mm": 0.07453734293653184,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.000598148987299485,
+              "continuous_absolute_field_upper_bound_mm": 0.010554523955182952,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 26,
+              "length_mm": 0.06888916794365982,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.00041142980567143717,
+              "continuous_absolute_field_upper_bound_mm": 0.009613346056651881,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 27,
+              "length_mm": 0.06308864759475315,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.0007945036256393756,
+              "continuous_absolute_field_upper_bound_mm": 0.009221611527847194,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 28,
+              "length_mm": 0.05686252946405201,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.003065274170702459,
+              "continuous_absolute_field_upper_bound_mm": 0.01217981422800221,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 29,
+              "length_mm": 0.05698674066165738,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.0002756771206580133,
+              "continuous_absolute_field_upper_bound_mm": 0.009410127089578123,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 30,
+              "length_mm": 0.05710321514039811,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.0004850797385080874,
+              "continuous_absolute_field_upper_bound_mm": 0.009638199494230535,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 31,
+              "length_mm": 0.056976638893116174,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.0002700194625850916,
+              "continuous_absolute_field_upper_bound_mm": 0.009402850210994152,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 32,
+              "length_mm": 0.057402247403624616,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.00027406893858872294,
+              "continuous_absolute_field_upper_bound_mm": 0.009475120813534358,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 33,
+              "length_mm": 0.05880550421079515,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.00028763386919661293,
+              "continuous_absolute_field_upper_bound_mm": 0.009713614893446451,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 34,
+              "length_mm": 0.061339395757783,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.00011368821811164054,
+              "continuous_absolute_field_upper_bound_mm": 0.009945828733041093,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 35,
+              "length_mm": 0.0646407313237853,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.0003548797377530555,
+              "continuous_absolute_field_upper_bound_mm": 0.008989308252408157,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 36,
+              "length_mm": 0.06743929848852126,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.00038627748563357933,
+              "continuous_absolute_field_upper_bound_mm": 0.009394526463524719,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 37,
+              "length_mm": 0.07055038440236283,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.0004227440049018316,
+              "continuous_absolute_field_upper_bound_mm": 0.009846558345001847,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 38,
+              "length_mm": 0.07386159550338361,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.00046336375177014055,
+              "continuous_absolute_field_upper_bound_mm": 0.010329475308550566,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 39,
+              "length_mm": 0.07729143600678554,
+              "sample_count": 8,
+              "maximum_sampled_absolute_field_mm": 0.0004970471257581544,
+              "continuous_absolute_field_upper_bound_mm": 0.009346408361028844,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 40,
+              "length_mm": 0.0807863250373707,
+              "sample_count": 8,
+              "maximum_sampled_absolute_field_mm": 0.0005430218476005777,
+              "continuous_absolute_field_upper_bound_mm": 0.00979252489814454,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 41,
+              "length_mm": 0.08431650188970424,
+              "sample_count": 8,
+              "maximum_sampled_absolute_field_mm": 0.0005915260956410595,
+              "continuous_absolute_field_upper_bound_mm": 0.01024521118503274,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 42,
+              "length_mm": 0.08789623149824352,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0005855145676165741,
+              "continuous_absolute_field_upper_bound_mm": 0.009391112586507273,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 43,
+              "length_mm": 0.09127096952737,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0007218775348418749,
+              "continuous_absolute_field_upper_bound_mm": 0.009865562704876764,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 44,
+              "length_mm": 0.09460767950873729,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.000775637991015321,
+              "continuous_absolute_field_upper_bound_mm": 0.010253600595938049,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 45,
+              "length_mm": 0.09787497147193366,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0006687739853605823,
+              "continuous_absolute_field_upper_bound_mm": 0.010474059606843292,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 46,
+              "length_mm": 0.09917331502790522,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0024442609321275732,
+              "continuous_absolute_field_upper_bound_mm": 0.012379616879145582,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 47,
+              "length_mm": 0.09834105423224376,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.00039271502533733127,
+              "continuous_absolute_field_upper_bound_mm": 0.010244693631955674,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 48,
+              "length_mm": 0.09842702302431909,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0008400151588210392,
+              "continuous_absolute_field_upper_bound_mm": 0.01070060626920981,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 49,
+              "length_mm": 0.09836677114242243,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0008389867475671053,
+              "continuous_absolute_field_upper_bound_mm": 0.010693541719172448,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 50,
+              "length_mm": 0.09680571551835536,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0006770369740529691,
+              "continuous_absolute_field_upper_bound_mm": 0.010375202666205098,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 51,
+              "length_mm": 0.09543731655149046,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.000774113457634451,
+              "continuous_absolute_field_upper_bound_mm": 0.010335190550807016,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 52,
+              "length_mm": 0.09362029819296626,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0007449101726939578,
+              "continuous_absolute_field_upper_bound_mm": 0.010123955192529812,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 53,
+              "length_mm": 0.09129197314366715,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0007083104496696802,
+              "continuous_absolute_field_upper_bound_mm": 0.009854099798676786,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 54,
+              "length_mm": 0.0884218781381066,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.000664464006233878,
+              "continuous_absolute_field_upper_bound_mm": 0.009522722223766968,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 55,
+              "length_mm": 0.08498405329946196,
+              "sample_count": 8,
+              "maximum_sampled_absolute_field_mm": 0.0006012605330223408,
+              "continuous_absolute_field_upper_bound_mm": 0.010331375869712589,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 56,
+              "length_mm": 0.080967131304309,
+              "sample_count": 8,
+              "maximum_sampled_absolute_field_mm": 0.0005457542494924361,
+              "continuous_absolute_field_upper_bound_mm": 0.009815958428808252,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 57,
+              "length_mm": 0.07639025315426722,
+              "sample_count": 8,
+              "maximum_sampled_absolute_field_mm": 0.0004857878706892027,
+              "continuous_absolute_field_upper_bound_mm": 0.00923196959458083,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 58,
+              "length_mm": 0.07132693193454233,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.0004323393924434704,
+              "continuous_absolute_field_upper_bound_mm": 0.009959881583660303,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 59,
+              "length_mm": 0.06593848353859195,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.00036947609981519136,
+              "continuous_absolute_field_upper_bound_mm": 0.00917725272639613,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 60,
+              "length_mm": 0.06051567067084254,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.0002987479502638557,
+              "continuous_absolute_field_upper_bound_mm": 0.00999885291609119,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 61,
+              "length_mm": 0.05551730597566549,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.00025143111134706686,
+              "continuous_absolute_field_upper_bound_mm": 0.009150344226150867,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 62,
+              "length_mm": 0.051569858033440844,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.00021694468613975282,
+              "continuous_absolute_field_upper_bound_mm": 0.008483118231799733,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 63,
+              "length_mm": 0.04926761090812344,
+              "sample_count": 5,
+              "maximum_sampled_absolute_field_mm": 0.00011980704165592826,
+              "continuous_absolute_field_upper_bound_mm": 0.009991237696034303,
+              "status": "PASS"
+            }
+          ],
+          "maximum_continuous_absolute_field_bound_mm": 0.012379616879145582,
+          "accepted_for_generation": false,
+          "scope": "All straight chords including last-to-first; capsule scalar-field residual bound",
+          "limitation": "Not exact Euclidean distance to a tapered union surface, smoothness, ray completeness, atlas mesh attachment, or a generated lumen. Floating-point arithmetic is not interval certified."
+        },
+        "boundary_vertex_count": 64,
+        "axial_ring_count": 34,
+        "measured_width_depth_height_mm": [
+          4.000000000000012,
+          2.999999999999946,
+          4.999999999999949
+        ],
+        "requested_width_depth_height_mm": [
+          4.0,
+          3.0,
+          5.0
+        ],
+        "dimension_tolerance_mm": 1e-06,
+        "closed_lumen": false,
+        "accepted_for_generation": false,
+        "limitation": "Open dome disk only; no parent surface trimming or lumen union. Boundary positions are preserved, not parent tangent continuity. No surrounding clearance check."
+      }
+    },
+    {
+      "junction_id": "sample:FJ1654M:e0:91",
+      "status": "CANDIDATE",
+      "surface_published": true,
+      "vertices": 2177,
+      "triangles": 4288,
+      "artifact": "exports/aca-curved-patches/patch-1.npz",
+      "sha256": "4e6ea5b7682fdf496ccace488e13c0ddfe62fc37b5cd8d776b8750067ac0767c",
+      "metadata": {
+        "schema": "vv-toolbox.curved-sac-patch/1",
+        "status": "CANDIDATE",
+        "case_revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+        "frame": {
+          "axes": "LPS",
+          "id": "bodyparts3d_native_LPS",
+          "origin": "unchanged BodyParts3D native origin",
+          "units": "mm"
+        },
+        "rim_inspection": {
+          "schema": "vv-toolbox.bifurcation-rim-continuity/1",
+          "case_revision": "0def50325bdc82ce28f188ab372474fdb0e32dc601b46a8c6ac62ed0f20b345a",
+          "status": "PASS",
+          "closed_chord_count": 64,
+          "tolerance_mm": 0.02,
+          "field_lipschitz_bound": 1.6576446787400765,
+          "total_sample_count": 519,
+          "chords": [
+            {
+              "chord_index": 0,
+              "length_mm": 0.04930064939258978,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.00046223715382454067,
+              "continuous_absolute_field_upper_bound_mm": 0.008634533066230205,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 1,
+              "length_mm": 0.05159007564844241,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.00021838289675213396,
+              "continuous_absolute_field_upper_bound_mm": 0.00877018433419599,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 2,
+              "length_mm": 0.05556453554945246,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.0002533301375113872,
+              "continuous_absolute_field_upper_bound_mm": 0.009463955805532756,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 3,
+              "length_mm": 0.06058907041696634,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.00031377461264825435,
+              "continuous_absolute_field_upper_bound_mm": 0.008683370459855925,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 4,
+              "length_mm": 0.0660306400414943,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.0003726739038949489,
+              "continuous_absolute_field_upper_bound_mm": 0.00949395216211032,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 5,
+              "length_mm": 0.07142806656878975,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.0004360990856011604,
+              "continuous_absolute_field_upper_bound_mm": 0.010302961957305018,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 6,
+              "length_mm": 0.07649109655083833,
+              "sample_count": 8,
+              "maximum_sampled_absolute_field_mm": 0.0004899167738281474,
+              "continuous_absolute_field_upper_bound_mm": 0.009546706714434616,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 7,
+              "length_mm": 0.08106036645662905,
+              "sample_count": 8,
+              "maximum_sampled_absolute_field_mm": 0.0005502076363410602,
+              "continuous_absolute_field_upper_bound_mm": 0.010148013715880469,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 8,
+              "length_mm": 0.08506476655369193,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0006185487137455592,
+              "continuous_absolute_field_upper_bound_mm": 0.0094314960653702,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 9,
+              "length_mm": 0.08848745062006474,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0006693378544067041,
+              "continuous_absolute_field_upper_bound_mm": 0.009836884832883305,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 10,
+              "length_mm": 0.09134171978767068,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0007132255766293394,
+              "continuous_absolute_field_upper_bound_mm": 0.010176482811191805,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 11,
+              "length_mm": 0.09365503986087931,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0007498187227874542,
+              "continuous_absolute_field_upper_bound_mm": 0.010452742376698475,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 12,
+              "length_mm": 0.09545898039296942,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0007789900088170931,
+              "continuous_absolute_field_upper_bound_mm": 0.010668806939214534,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 13,
+              "length_mm": 0.09748606609084762,
+              "sample_count": 10,
+              "maximum_sampled_absolute_field_mm": 0.0005906641808928192,
+              "continuous_absolute_field_upper_bound_mm": 0.009568289664603762,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 14,
+              "length_mm": 0.09812845876780707,
+              "sample_count": 10,
+              "maximum_sampled_absolute_field_mm": 0.0008338953585089737,
+              "continuous_absolute_field_upper_bound_mm": 0.009870679664587885,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 15,
+              "length_mm": 0.09831634159240753,
+              "sample_count": 10,
+              "maximum_sampled_absolute_field_mm": 0.0006228423532876892,
+              "continuous_absolute_field_upper_bound_mm": 0.009676929046279134,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 16,
+              "length_mm": 0.09816232999883248,
+              "sample_count": 10,
+              "maximum_sampled_absolute_field_mm": 0.0008564685616441192,
+              "continuous_absolute_field_upper_bound_mm": 0.00989637211582701,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 17,
+              "length_mm": 0.09734940636792926,
+              "sample_count": 10,
+              "maximum_sampled_absolute_field_mm": 0.0008423374607169354,
+              "continuous_absolute_field_upper_bound_mm": 0.009807377763178228,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 18,
+              "length_mm": 0.09621355379594028,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0008330778680663009,
+              "continuous_absolute_field_upper_bound_mm": 0.010801070710098332,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 19,
+              "length_mm": 0.09473974266537122,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0008077435992577264,
+              "continuous_absolute_field_upper_bound_mm": 0.010623045492661276,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 20,
+              "length_mm": 0.09283235497379734,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0005886888730382012,
+              "continuous_absolute_field_upper_bound_mm": 0.010206380075364766,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 21,
+              "length_mm": 0.09048311247842217,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0007567181773588949,
+              "continuous_absolute_field_upper_bound_mm": 0.010131021297089916,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 22,
+              "length_mm": 0.08799218948281524,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0007156171717657145,
+              "continuous_absolute_field_upper_bound_mm": 0.00983185371344554,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 23,
+              "length_mm": 0.08513872152694839,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0006699454167977681,
+              "continuous_absolute_field_upper_bound_mm": 0.009490554710165218,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 24,
+              "length_mm": 0.08186907165488523,
+              "sample_count": 8,
+              "maximum_sampled_absolute_field_mm": 0.0005760765667464085,
+              "continuous_absolute_field_upper_bound_mm": 0.010269635922611446,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 25,
+              "length_mm": 0.07747908826395657,
+              "sample_count": 8,
+              "maximum_sampled_absolute_field_mm": 0.0005291511281093619,
+              "continuous_absolute_field_upper_bound_mm": 0.0097029224405651,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 26,
+              "length_mm": 0.07306728511551466,
+              "sample_count": 8,
+              "maximum_sampled_absolute_field_mm": 0.0004705952287455961,
+              "continuous_absolute_field_upper_bound_mm": 0.00912199496886823,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 27,
+              "length_mm": 0.06831787731843604,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.00041996899973484325,
+              "continuous_absolute_field_upper_bound_mm": 0.009857199483045082,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 28,
+              "length_mm": 0.06340661374526736,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.0003617499882184738,
+              "continuous_absolute_field_upper_bound_mm": 0.009120552977532627,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 29,
+              "length_mm": 0.05856546454070621,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.00024764624896356224,
+              "continuous_absolute_field_upper_bound_mm": 0.00995571931434779,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 30,
+              "length_mm": 0.052747932252076,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.0002341571385588992,
+              "continuous_absolute_field_upper_bound_mm": 0.008977890059778485,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 31,
+              "length_mm": 0.05003961214330803,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.00021072731059379457,
+              "continuous_absolute_field_upper_bound_mm": 0.008505516990150981,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 32,
+              "length_mm": 0.04931476057521096,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.0002046660885401952,
+              "continuous_absolute_field_upper_bound_mm": 0.008379301133624131,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 33,
+              "length_mm": 0.051528201613114166,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.00012207962225252444,
+              "continuous_absolute_field_upper_bound_mm": 0.008663624543154978,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 34,
+              "length_mm": 0.05556453497003479,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.0002533301322260595,
+              "continuous_absolute_field_upper_bound_mm": 0.009463955704200566,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 35,
+              "length_mm": 0.06058906965653577,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.00031377460488446474,
+              "continuous_absolute_field_upper_bound_mm": 0.008683370347048495,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 36,
+              "length_mm": 0.06603063917153014,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.0003726738941118857,
+              "continuous_absolute_field_upper_bound_mm": 0.009493952032152968,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 37,
+              "length_mm": 0.07142806565715662,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.00043609907457953234,
+              "continuous_absolute_field_upper_bound_mm": 0.010302961820353071,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 38,
+              "length_mm": 0.07649109565251565,
+              "sample_count": 8,
+              "maximum_sampled_absolute_field_mm": 0.0004899167624055067,
+              "continuous_absolute_field_upper_bound_mm": 0.009546706596647704,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 39,
+              "length_mm": 0.08106036561174876,
+              "sample_count": 8,
+              "maximum_sampled_absolute_field_mm": 0.000550207624890664,
+              "continuous_absolute_field_upper_bound_mm": 0.01014801360439355,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 40,
+              "length_mm": 0.08506476578932486,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0006185487025998082,
+              "continuous_absolute_field_upper_bound_mm": 0.009431495975033887,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 41,
+              "length_mm": 0.0884874499526054,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0006693378442941267,
+              "continuous_absolute_field_upper_bound_mm": 0.009836884753620075,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 42,
+              "length_mm": 0.09134171922568834,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0007132255678290456,
+              "continuous_absolute_field_upper_bound_mm": 0.010176482744168573,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 43,
+              "length_mm": 0.09365503940730513,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0007498187155614566,
+              "continuous_absolute_field_upper_bound_mm": 0.010452742322480927,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 44,
+              "length_mm": 0.09545898004731856,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0007789900032071362,
+              "continuous_absolute_field_upper_bound_mm": 0.010668806897794184,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 45,
+              "length_mm": 0.0967831660783832,
+              "sample_count": 10,
+              "maximum_sampled_absolute_field_mm": 0.0007908692421307872,
+              "continuous_absolute_field_upper_bound_mm": 0.009703763699989064,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 46,
+              "length_mm": 0.09765180623917205,
+              "sample_count": 10,
+              "maximum_sampled_absolute_field_mm": 0.000805133162617544,
+              "continuous_absolute_field_upper_bound_mm": 0.009798021883824242,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 47,
+              "length_mm": 0.09819801833274146,
+              "sample_count": 10,
+              "maximum_sampled_absolute_field_mm": 0.0003312325409612349,
+              "continuous_absolute_field_upper_bound_mm": 0.009374422682743976,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 48,
+              "length_mm": 0.09805294276588877,
+              "sample_count": 10,
+              "maximum_sampled_absolute_field_mm": 0.0008234554308717001,
+              "continuous_absolute_field_upper_bound_mm": 0.00985328536479841,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 49,
+              "length_mm": 0.09744130098984229,
+              "sample_count": 10,
+              "maximum_sampled_absolute_field_mm": 0.00081321136233381,
+              "continuous_absolute_field_upper_bound_mm": 0.009786714366518378,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 50,
+              "length_mm": 0.09643585054810838,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0008064702219929831,
+              "continuous_absolute_field_upper_bound_mm": 0.010797493628295804,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 51,
+              "length_mm": 0.09502208936360644,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0007829912699972574,
+              "continuous_absolute_field_upper_bound_mm": 0.010627545069768898,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 52,
+              "length_mm": 0.09317907741528725,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0007529047717600434,
+              "continuous_absolute_field_upper_bound_mm": 0.010406517387220078,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 53,
+              "length_mm": 0.0908811950117562,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0007162188865303953,
+              "continuous_absolute_field_upper_bound_mm": 0.010131764468328948,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 54,
+              "length_mm": 0.08810113330776592,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0006730606488980495,
+              "continuous_absolute_field_upper_bound_mm": 0.009800584075059817,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 55,
+              "length_mm": 0.08481490491367139,
+              "sample_count": 9,
+              "maximum_sampled_absolute_field_mm": 0.0006237752580227074,
+              "continuous_absolute_field_upper_bound_mm": 0.009410836246022266,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 56,
+              "length_mm": 0.08101000103973902,
+              "sample_count": 8,
+              "maximum_sampled_absolute_field_mm": 0.0005574375569548096,
+              "continuous_absolute_field_upper_bound_mm": 0.010149280210401342,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 57,
+              "length_mm": 0.07669820003310113,
+              "sample_count": 8,
+              "maximum_sampled_absolute_field_mm": 0.0004996669127692588,
+              "continuous_absolute_field_upper_bound_mm": 0.009580978566612977,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 58,
+              "length_mm": 0.07193481684507838,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.00044867895647149325,
+              "continuous_absolute_field_upper_bound_mm": 0.010385542819753676,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 59,
+              "length_mm": 0.0668459723421516,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.0003874348496344382,
+              "continuous_absolute_field_upper_bound_mm": 0.009621340711982266,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 60,
+              "length_mm": 0.06166361929441343,
+              "sample_count": 7,
+              "maximum_sampled_absolute_field_mm": 0.0003296837264878949,
+              "continuous_absolute_field_upper_bound_mm": 0.008847714592757756,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 61,
+              "length_mm": 0.05676161565587616,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.00026817046942495537,
+              "continuous_absolute_field_upper_bound_mm": 0.00967722948429021,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 62,
+              "length_mm": 0.052669290856336495,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.00023089300849687966,
+              "continuous_absolute_field_upper_bound_mm": 0.008961589980598835,
+              "status": "PASS"
+            },
+            {
+              "chord_index": 63,
+              "length_mm": 0.050010375151254796,
+              "sample_count": 6,
+              "maximum_sampled_absolute_field_mm": 0.0002081673639320325,
+              "continuous_absolute_field_upper_bound_mm": 0.008498110589059278,
+              "status": "PASS"
+            }
+          ],
+          "maximum_continuous_absolute_field_bound_mm": 0.010801070710098332,
+          "accepted_for_generation": false,
+          "scope": "All straight chords including last-to-first; capsule scalar-field residual bound",
+          "limitation": "Not exact Euclidean distance to a tapered union surface, smoothness, ray completeness, atlas mesh attachment, or a generated lumen. Floating-point arithmetic is not interval certified."
+        },
+        "boundary_vertex_count": 64,
+        "axial_ring_count": 34,
+        "measured_width_depth_height_mm": [
+          4.000000000000013,
+          2.9999999999999463,
+          5.000000000000023
+        ],
+        "requested_width_depth_height_mm": [
+          4.0,
+          3.0,
+          5.0
+        ],
+        "dimension_tolerance_mm": 1e-06,
+        "closed_lumen": false,
+        "accepted_for_generation": false,
+        "limitation": "Open dome disk only; no parent surface trimming or lumen union. Boundary positions are preserved, not parent tangent continuity. No surrounding clearance check."
+      }
+    }
+  ],
+  "closed_lumen": false,
+  "accepted_for_generation": false,
+  "app_applied": false
+}

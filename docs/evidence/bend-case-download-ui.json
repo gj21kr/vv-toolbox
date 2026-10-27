@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "Actual browser access-femoral-bend-inspection case download; not anatomy acceptance",
+  "browser_path": "Playwright: Browser plugin not available",
+  "stale_generation_status": 409,
+  "revision": "4ffe329b1d12886832348f16e3110988cdc7afe35ceb6448a95ee23c081d176a",
+  "file_sha256": "fdce60bdc6a078f557f79995c37fbfbb5b2e8c05a71c0132578b9bf46845be16",
+  "file": "exports/bend-case-download/case.snapshot.json",
+  "browser_errors": [],
+  "geometry_reload": "NOT RUN",
+  "visual_review": "NOT RUN",
+  "atlas_restored": true
+}

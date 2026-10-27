@@ -1,0 +1,10 @@
+{
+  "schema": "vv-toolbox.validation/1",
+  "environment": "Docker vv-annotation-ui",
+  "date": "2026-10-20",
+  "command": "PYTHONPATH=src pytest -q -p no:cacheprovider tests/test_radius_regularization.py tests/test_junction_continuity.py tests/test_synthetic_route_cli.py",
+  "passed": 21,
+  "seconds": 0.91,
+  "scope": "bounded synthetic radius operator, endpoint/source preservation, lesion protection, reproducibility and CLI snapshot output",
+  "whole_surface_smoothness": "NOT PROVEN"
+}

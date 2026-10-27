@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "scope": "35937 fixed ROI voxel centers; full surface; not whole-model timing",
+  "case_revision": "51182f6ba84c030716888beb4daa45fd5eb1c34952e23003c3a15559d3c7594b",
+  "mesh_faces": 50188,
+  "sampled_voxels": 35937,
+  "tolerance_mm": 1e-08,
+  "timings_seconds": {
+    "32": 252.26967806300672,
+    "128": 229.6445382039965
+  },
+  "reference_seconds_over_batched": 1.0985224383560648,
+  "disagreements_with_completed_roi": {
+    "32": 0,
+    "128": 0
+  },
+  "roi_artifact_sha256": "6a56d703e49fbf5c8f38c0c1073e3230a04e03b14258f0e387a75f62f16066d2",
+  "points_sha256": "51bb070a5a1f781c1abdebaae0a2d4f3c0e816e504862edd10f54dd5971b9dd3",
+  "implementation_sha256": "39149c96afff6afee1ddf30b536f7f3bc2ab137636f432a5232e9692c6edd190",
+  "timing_limitations": "Single paired run; concurrent app and atlas mask workloads; no general speedup claim"
+}

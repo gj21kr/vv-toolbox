@@ -1,0 +1,55 @@
+{
+  "status": "CANDIDATE",
+  "method": "fixed-vertex squared uniform Laplacian",
+  "strength": 10.0,
+  "free_vertices": 25465,
+  "max_displacement_mm": 0.04472029673485355,
+  "displacement_limit_mm": 0.15,
+  "volume_change_fraction": 3.5884274290354234e-05,
+  "volume_change_limit_fraction": 0.02,
+  "fixed_vertices_exact": true,
+  "closed_volume": "PASS",
+  "self_intersection": "NOT RUN",
+  "source_artifact_sha256": "cd83cdceb58b76019d61993107c069ff270f7927c65b084ce567de6a9031634a",
+  "case_revision": "90aa67f11b698178168d7491e1da7d23bd621f252dfea6dd47029af93b9a9da4",
+  "frame": {
+    "axes": "LPS",
+    "evidence_ref": "docs/CEREBRAL_LANDMARK_INSPECTION.md",
+    "id": "bodyparts3d_native_LPS",
+    "origin": "unchanged BodyParts3D native origin",
+    "units": "mm"
+  },
+  "frozen_vertices": 1117,
+  "unused_vertices": 749,
+  "junction_collar_exact": true,
+  "design_curve_exact": true,
+  "before": {
+    "retained": {
+      "p95_deg": 14.032200720064694,
+      "max_deg": 56.05519489565348,
+      "above_90": 0
+    },
+    "junction": {
+      "p95_deg": 25.081061057017592,
+      "max_deg": 51.04826357831475,
+      "above_90": 0
+    }
+  },
+  "after": {
+    "retained": {
+      "p95_deg": 7.092243595875063,
+      "max_deg": 32.12611754126954,
+      "above_90": 0
+    },
+    "junction": {
+      "p95_deg": 25.081061057017592,
+      "max_deg": 51.04826357831475,
+      "above_90": 0
+    }
+  },
+  "smoothness": "UNKNOWN",
+  "context_collision": "NOT RUN",
+  "app_applied": false,
+  "artifact_sha256": "ed7178832bf4abc0847d7c0b315c4743d0a79726b6d951a51d0e5019d9e0d347",
+  "input_unchanged": true
+}

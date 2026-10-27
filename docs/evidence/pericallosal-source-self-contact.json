@@ -1,0 +1,157 @@
+{
+  "part_id": "FJ1699",
+  "source_case_revision": "f8714bac82de86e2ba4223f57ae33a3a975c5fddf76f2002b47e9c21a5f8119d",
+  "registered_geometry_sha256": "7259ac3689acc61c8a33ec3fa2a85cc5418d454a0ac2326ad78059c4891f40c0",
+  "indexing": {
+    "method": "exact-coordinate-index-copy/1",
+    "coordinate_tolerance_mm": 0,
+    "original_vertices": 984,
+    "normalized_vertices": 558,
+    "faces": 1080,
+    "triangle_coordinate_bytes_preserved": true,
+    "triangle_sha256": "03a29409c3899ffb18b631d5b34ea2949b41a1e922dff4b17bd10c253a028b65",
+    "original_watertight": false,
+    "normalized_watertight": true,
+    "normalized_winding_consistent": true,
+    "zero_area_faces": 0,
+    "usable_for_sampled_containment": true,
+    "original_modified": false,
+    "faces_added_or_removed": false,
+    "self_intersection": "NOT RUN",
+    "anatomical_validity": "NOT RUN"
+  },
+  "self_contact": {
+    "status": "CONTACT_DETECTED",
+    "coverage": "all distinct triangle pairs",
+    "checked_pairs": 8978,
+    "adjacent_pairs_checked": 6611,
+    "contact_pairs": [
+      [
+        0,
+        24
+      ],
+      [
+        32,
+        33
+      ]
+    ],
+    "tolerance_mm": 1e-08,
+    "max_pairs": 2000000,
+    "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+  },
+  "pairs": [
+    {
+      "face_ids": [
+        0,
+        24
+      ],
+      "shared_vertex_count": 3,
+      "triangles_mm": [
+        [
+          [
+            -6.392910003662109,
+            -59.60169982910156,
+            1588.72998046875
+          ],
+          [
+            -6.32790994644165,
+            -59.60169982910156,
+            1588.75
+          ],
+          [
+            -6.381969928741455,
+            -59.40169906616211,
+            1588.75
+          ]
+        ],
+        [
+          [
+            -6.392910003662109,
+            -59.60169982910156,
+            1588.72998046875
+          ],
+          [
+            -6.381969928741455,
+            -59.40169906616211,
+            1588.75
+          ],
+          [
+            -6.32790994644165,
+            -59.60169982910156,
+            1588.75
+          ]
+        ]
+      ],
+      "triangle_support_bounds_mm": [
+        [
+          -6.392910003662109,
+          -59.60169982910156,
+          1588.72998046875
+        ],
+        [
+          -6.32790994644165,
+          -59.40169906616211,
+          1588.75
+        ]
+      ]
+    },
+    {
+      "face_ids": [
+        32,
+        33
+      ],
+      "shared_vertex_count": 3,
+      "triangles_mm": [
+        [
+          [
+            -5.992909908294678,
+            -59.801700592041016,
+            1588.449951171875
+          ],
+          [
+            -5.992909908294678,
+            -59.731300354003906,
+            1588.550048828125
+          ],
+          [
+            -5.94419002532959,
+            -59.801700592041016,
+            1588.550048828125
+          ]
+        ],
+        [
+          [
+            -5.94419002532959,
+            -59.801700592041016,
+            1588.550048828125
+          ],
+          [
+            -5.992909908294678,
+            -59.731300354003906,
+            1588.550048828125
+          ],
+          [
+            -5.992909908294678,
+            -59.801700592041016,
+            1588.449951171875
+          ]
+        ]
+      ],
+      "triangle_support_bounds_mm": [
+        [
+          -5.992909908294678,
+          -59.801700592041016,
+          1588.449951171875
+        ],
+        [
+          -5.94419002532959,
+          -59.731300354003906,
+          1588.550048828125
+        ]
+      ]
+    }
+  ],
+  "source_modified": false,
+  "scope": "Finite-precision source self-contact diagnosis; coordinates unchanged",
+  "anatomical_validation": "NOT RUN"
+}

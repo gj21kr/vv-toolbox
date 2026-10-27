@@ -4,7 +4,9 @@
 
 상위 문서: [개발계획서](DEVELOPMENT_PLAN.md) · 입력 조사: [로컬 자료](LOCAL_SOURCE_INVENTORY.md), [TopCoW](TOPCOW_SOURCE_INSPECTION.md)
 
-상태: 문헌 기반 주석·데이터 설계. 개별 표본의 경계 좌표 판정 및 앱 적용은 NOT RUN.
+상태: 문헌 기반 주석·데이터 설계. 개별 표본의 12개 경계군을 검사하고 후보를 기록했다. 정확 경계 확정 및 확정 구간 라벨 적용은 미완료다. 최신 근거는 [경계 검사 현황](CEREBRAL_BOUNDARY_REVIEW_STATUS.md)을 따른다.
+
+판정용 원구조의 파일 검사: [뇌량·insula·ACom 검사](CEREBRAL_LANDMARK_INSPECTION.md).
 
 ## 1. 분류 원칙
 
@@ -116,7 +118,7 @@ MCA 분기가 genu보다 앞에 있으면 분기 이후에도 M1 구간이 존�
 | 경계 불확실성 | 근거 없는 위치 null, 해당 세부 구간 출력은 미확인 또는 합성으로 표시 |
 | 접근 경로 | 좌우 대퇴 × 좌우 경동맥 네 조합 각각에서 동측 ACA/MCA 목표까지 도달 검사; 반대편 ACom 우회를 지정 경동맥 통과로 대체하지 않음 |
 
-현재는 명세 작성 단계이며 위 검사의 실행 결과는 모두 NOT RUN이다. 위치 오차·곡률·마스크 허용오차는 좌표 계약과 기준 주석 확보 후 별도 기하 명세에서 고정한다. 구현 전에 첫 기준 표본의 landmark 가용성, ACom 대응 요소, M3 후보 목록을 조사한다.
+위 표는 수용 기준이며 전체 통과를 의미하지 않는다. 실제 실행 결과는 [구현 현황](IMPLEMENTATION_STATUS.md)과 [경계 검사 현황](CEREBRAL_BOUNDARY_REVIEW_STATUS.md)에 기록한다. 위치 오차·곡률·마스크 허용오차는 기준 주석 확보 후 별도 기하 명세에서 고정한다.
 
 ## 7. 문헌과 적용 범위
 

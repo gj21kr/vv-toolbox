@@ -1,0 +1,72 @@
+{
+  "schema": "vv-toolbox.saccular-candidate/1",
+  "status": "CANDIDATE",
+  "case_revision": "aae0c1e09343288373c1d3d4f86116e4742e2330a102de12258bfc3842fc6deb",
+  "specification_sha256": "94e18d0f5eec8fca9c0c9cd2214f3be4a1f0cfbeb9367a20c40d4b28dfb134ea",
+  "edge_ids": [
+    "e"
+  ],
+  "frame": {
+    "id": "fixture",
+    "units": "mm",
+    "axes": "LPS",
+    "origin": "arbitrary engineering origin"
+  },
+  "spacing_mm": 0.15,
+  "grid_shape_xyz": [
+    167,
+    71,
+    34
+  ],
+  "grid_origin_mm": [
+    -2.45,
+    -2.45,
+    -2.45
+  ],
+  "method": "ellipsoidal-axis loft with compact polynomial smooth union; selected parent only",
+  "checks": {
+    "single_closed_surface": "PASS",
+    "sampled_lumen_connectivity": "PASS",
+    "context_support_clearance": "PASS",
+    "surface_dimensions": "NOT RUN",
+    "remote_parent_self_contact": "NOT RUN",
+    "clinical_validity": "NOT RUN"
+  },
+  "context_clearance": [],
+  "neck_probe_positions_mm": [
+    [
+      10.0,
+      0.0,
+      0.0
+    ],
+    [
+      10.0,
+      2.0,
+      0.0
+    ],
+    [
+      10.0,
+      4.5,
+      0.0
+    ]
+  ],
+  "limitations": "Candidate only. Sampling is not a continuous lumen proof. Blending changes requested dimensions. No case lesion, mask labels, bifurcation support or clinical acceptance.",
+  "vertices": 20314,
+  "triangles": 40624,
+  "independent_mesh_section_loops": 1,
+  "independent_mesh_voxel_central_channel": "PASS",
+  "fixture": "straight circular parent with manually specified sidewall sac; not atlas",
+  "actual_tip_y_mm": 6.9624999999999995,
+  "requested_tip_y_mm": 7,
+  "actual_neck_width_depth_mm": [
+    4.079219584023482,
+    1.3656568918957186
+  ],
+  "requested_neck_width_depth_mm": [
+    2,
+    1
+  ],
+  "measurement_note": "Triangle-plane contour axis spans. Smooth blending alters the declared neck dimensions; no tolerance acceptance.",
+  "surface_sha256": "7d9c4f859ce36968ad1c58f64f952319fa20eeb7bc1e23419cffd6197ed6f8b7",
+  "figure_sha256": "8ecc80a0439ac30268b2ca2cb60625f5f8e46b390148704040dcbbbe14f3b456"
+}

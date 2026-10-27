@@ -1,0 +1,261 @@
+{
+  "part_id": "FJ1692",
+  "source_surface_sha256": "55528e5d869de026fb04a2a1eb62a7c58bb39e8e3c9be876a4ca46a2695cef41",
+  "input_export_sha256": "470c8e03cee16691f8d13c88e1a81b58fe841e47a547e8b9878e23b29848aa49",
+  "field_support_mm": 15.80078198903985,
+  "parameters": {
+    "radius_scale": 1.3,
+    "tortuosity": 0.3,
+    "torsion_deg": 35.0
+  },
+  "implementation_sha256": "bc07f80cbd0cdfa45de87a736eba1d81c82a3893a946fbb87e92ca5cd8650d01",
+  "adjacent_contact_sha256": "34c22e10ec7a04d98199f97b49ce71f6586e2896722f10f281382f11359522fa",
+  "planned_cases": 4,
+  "completed_cases": 4,
+  "rows": [
+    {
+      "subdivision_level": 0,
+      "integration_steps": 32,
+      "vertex_count": 402,
+      "face_count": 800,
+      "source_self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 6355,
+        "adjacent_pairs_checked": 4920,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "edited_self_contact": {
+        "status": "CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 6562,
+        "adjacent_pairs_checked": 4920,
+        "contact_pairs": [
+          [
+            308,
+            313
+          ],
+          [
+            313,
+            339
+          ],
+          [
+            313,
+            332
+          ],
+          [
+            313,
+            331
+          ],
+          [
+            313,
+            314
+          ],
+          [
+            332,
+            341
+          ]
+        ],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "original_vertex_difference_from_flow32_mm": 0.0,
+      "surface_sha256": "918a74dcda2fa4a2031ba88f819a7eab17e263bb189cefbef71a858545e5836b",
+      "basic_checks": {
+        "schema": "vv-toolbox.atlas-edit-checks/1",
+        "basic_invariants": "PASS",
+        "checks": {
+          "connectivity": "PASS",
+          "endpoint_positions_and_radii": "PASS",
+          "positive_radii": "PASS",
+          "no_new_degenerate_triangles": "PASS"
+        },
+        "area_tolerance_mm2": 1e-12,
+        "source_degenerate_triangles": 0,
+        "edited_degenerate_triangles": 0,
+        "newly_degenerate_face_ids": [],
+        "maximum_vertex_displacement_mm": 3.878176976230829,
+        "self_intersection": "NOT RUN",
+        "surrounding_collision": "NOT RUN",
+        "junction_smoothness": "NOT RUN",
+        "anatomical_validity": "UNKNOWN",
+        "scope": "Same-connectivity mesh and centerline endpoint invariants only; inherited defects are counted separately."
+      }
+    },
+    {
+      "subdivision_level": 0,
+      "integration_steps": 64,
+      "vertex_count": 402,
+      "face_count": 800,
+      "source_self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 6355,
+        "adjacent_pairs_checked": 4920,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "edited_self_contact": {
+        "status": "CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 6562,
+        "adjacent_pairs_checked": 4920,
+        "contact_pairs": [
+          [
+            308,
+            313
+          ],
+          [
+            313,
+            339
+          ],
+          [
+            313,
+            332
+          ],
+          [
+            313,
+            331
+          ],
+          [
+            313,
+            314
+          ],
+          [
+            332,
+            341
+          ]
+        ],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "original_vertex_difference_from_flow32_mm": 0.0004666006617901676,
+      "surface_sha256": "748522936a46a1e6f799da79e09740a5ef424f7dd9635dbe4bb63d23cd55576a",
+      "basic_checks": {
+        "schema": "vv-toolbox.atlas-edit-checks/1",
+        "basic_invariants": "PASS",
+        "checks": {
+          "connectivity": "PASS",
+          "endpoint_positions_and_radii": "PASS",
+          "positive_radii": "PASS",
+          "no_new_degenerate_triangles": "PASS"
+        },
+        "area_tolerance_mm2": 1e-12,
+        "source_degenerate_triangles": 0,
+        "edited_degenerate_triangles": 0,
+        "newly_degenerate_face_ids": [],
+        "maximum_vertex_displacement_mm": 3.878176966507463,
+        "self_intersection": "NOT RUN",
+        "surrounding_collision": "NOT RUN",
+        "junction_smoothness": "NOT RUN",
+        "anatomical_validity": "UNKNOWN",
+        "scope": "Same-connectivity mesh and centerline endpoint invariants only; inherited defects are counted separately."
+      }
+    },
+    {
+      "subdivision_level": 1,
+      "integration_steps": 32,
+      "vertex_count": 1602,
+      "face_count": 3200,
+      "source_self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 24522,
+        "adjacent_pairs_checked": 19320,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "edited_self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 25581,
+        "adjacent_pairs_checked": 19320,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "original_vertex_difference_from_flow32_mm": 0.0,
+      "surface_sha256": "f7fd3cd6783b2d33ca3eaa4af54bf2ee210d01f14f5340f5fb219fc961135c39",
+      "basic_checks": {
+        "schema": "vv-toolbox.atlas-edit-checks/1",
+        "basic_invariants": "PASS",
+        "checks": {
+          "connectivity": "PASS",
+          "endpoint_positions_and_radii": "PASS",
+          "positive_radii": "PASS",
+          "no_new_degenerate_triangles": "PASS"
+        },
+        "area_tolerance_mm2": 1e-12,
+        "source_degenerate_triangles": 0,
+        "edited_degenerate_triangles": 0,
+        "newly_degenerate_face_ids": [],
+        "maximum_vertex_displacement_mm": 3.878176976230829,
+        "self_intersection": "NOT RUN",
+        "surrounding_collision": "NOT RUN",
+        "junction_smoothness": "NOT RUN",
+        "anatomical_validity": "UNKNOWN",
+        "scope": "Same-connectivity mesh and centerline endpoint invariants only; inherited defects are counted separately."
+      }
+    },
+    {
+      "subdivision_level": 2,
+      "integration_steps": 32,
+      "vertex_count": 6402,
+      "face_count": 12800,
+      "source_self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 97381,
+        "adjacent_pairs_checked": 76920,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "edited_self_contact": {
+        "status": "NO_CONTACT_DETECTED",
+        "coverage": "all distinct triangle pairs",
+        "checked_pairs": 101505,
+        "adjacent_pairs_checked": 76920,
+        "contact_pairs": [],
+        "tolerance_mm": 1e-08,
+        "max_pairs": 2000000,
+        "limitations": "Finite-precision tests, not exact predicates. Other vessels not checked. Adjacent pairs check overlap beyond shared topology, not clearance."
+      },
+      "original_vertex_difference_from_flow32_mm": 0.0,
+      "surface_sha256": "aa40e4da69ff69af400a50d406b1b77565a528c82c7bad3ba16449e599de659b",
+      "basic_checks": {
+        "schema": "vv-toolbox.atlas-edit-checks/1",
+        "basic_invariants": "PASS",
+        "checks": {
+          "connectivity": "PASS",
+          "endpoint_positions_and_radii": "PASS",
+          "positive_radii": "PASS",
+          "no_new_degenerate_triangles": "PASS"
+        },
+        "area_tolerance_mm2": 1e-12,
+        "source_degenerate_triangles": 0,
+        "edited_degenerate_triangles": 0,
+        "newly_degenerate_face_ids": [],
+        "maximum_vertex_displacement_mm": 3.878176976230829,
+        "self_intersection": "NOT RUN",
+        "surrounding_collision": "NOT RUN",
+        "junction_smoothness": "NOT RUN",
+        "anatomical_validity": "UNKNOWN",
+        "scope": "Same-connectivity mesh and centerline endpoint invariants only; inherited defects are counted separately."
+      }
+    }
+  ],
+  "live_workspace_modified": false,
+  "scope": "Same source planar surface subdivided before deformation. Surrounding surfaces and containment NOT RUN."
+}
