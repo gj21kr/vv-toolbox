@@ -1,0 +1,174 @@
+{
+  "schema": "vv-toolbox.frontobasal-centerline-restoration/1",
+  "atlas_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "source_identities": {
+    "isa_BP3D_4.0_obj_99.zip": {
+      "method": "raw-sha256",
+      "sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e"
+    },
+    "isa_parts_list_e.txt": {
+      "method": "raw-sha256",
+      "sha256": "ab7796deedd49205e77f3609a1cb8c53e2bbee14ecb5c9a6ca05227469780513"
+    },
+    "isa_element_parts.txt": {
+      "method": "raw-sha256",
+      "sha256": "a3de74423f943b0d724ae8f59b3a817f87c423a544f8db98113b1980817cbeaf"
+    },
+    "partof_parts_list_e.txt": {
+      "method": "raw-sha256",
+      "sha256": "9224080557053e6f1322f1e13ab27f0ecde0db19bb3b505f0631afad230eeebd"
+    },
+    "partof_element_parts.txt": {
+      "method": "raw-sha256",
+      "sha256": "3f5f6df1028eb122b30de77c711597b6bb8e5541658e5985859fd228adbf88ea"
+    },
+    "README_e.html": {
+      "method": "raw-sha256",
+      "sha256": "f9a90b4d945ad0fe50db45c712e931aa54e52667187b30d7085b6cc394f40107"
+    },
+    "LICENSE.html": {
+      "method": "reviewed-license-content-v1",
+      "sha256": "3c3b434bf7af38eae2cb72135b1cbbd2c70e092b9a724fef836c8fea72a0d679",
+      "content_sha256": "9c0ffe8ac89dfe29946cc3f903b39124553f4fbceecd97d25d8ede3df79691fb",
+      "legacy_raw_sha256": "7bbf53a72b44fdc32f08af98f1d474acf0363a82fa4f1de1c7889206f69783ea"
+    }
+  },
+  "contact_report_sha256": "62f12a42d071c5cd2377818325e8b1ef7e4608284ddc54251f603c71de9ffcbd",
+  "artifact": "exports/frontobasal-restored/centerlines.json",
+  "sha256": "542d44924a1565139888c9632e39face4af1a1e757f8d63ef643e9a8197f61b5",
+  "runtime": {
+    "python": "3.12.15",
+    "packages": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "scikit-image": "0.26.0",
+      "trimesh": "5.1.1"
+    }
+  },
+  "summary": {
+    "source_parts": 4,
+    "extracted": 4,
+    "unresolved": 0,
+    "authored_parts": 0,
+    "nodes": 13,
+    "edges": 6,
+    "candidate_links": 3
+  },
+  "parts": [
+    {
+      "id": "FJ1654",
+      "layer": "arterial",
+      "status": "EXTRACTED",
+      "method": "Watertight welded mesh, filled surface voxelization, Lee thinning, junction-cluster graph",
+      "pitch": 0.40858755162965105,
+      "components": 1,
+      "estimated_radius": 1.225762654888953,
+      "quality": "VOXEL_APPROXIMATION",
+      "voxels": 46398,
+      "geometry_algorithm_sha256": "982626056b5dad00398c423c441c0430d6b37fe773063085fd7fb41308270a35"
+    },
+    {
+      "id": "FJ1655",
+      "layer": "arterial",
+      "status": "EXTRACTED",
+      "method": "Watertight welded mesh, filled surface voxelization, Lee thinning, junction-cluster graph",
+      "pitch": 0.19238251731653597,
+      "components": 1,
+      "estimated_radius": 0.5771475519496079,
+      "quality": "VOXEL_APPROXIMATION",
+      "voxels": 4680,
+      "geometry_algorithm_sha256": "f4be867b77a1203ad8e6bf74320fa5e6c0855997502e20d5ec3c1cbd908a7a26"
+    },
+    {
+      "id": "FJ1690",
+      "layer": "arterial",
+      "status": "EXTRACTED",
+      "method": "Watertight welded mesh, filled surface voxelization, Lee thinning, junction-cluster graph",
+      "pitch": 0.29816264754616895,
+      "components": 1,
+      "estimated_radius": 0.621172182387852,
+      "quality": "VOXEL_APPROXIMATION",
+      "voxels": 852390,
+      "geometry_algorithm_sha256": "2532aeb338a5cc07c9406b01fc1059ff8fff8d07843842e23e356ce0f2a110f4"
+    },
+    {
+      "id": "FJ1695",
+      "layer": "arterial",
+      "status": "EXTRACTED",
+      "method": "Watertight welded mesh, filled surface voxelization, Lee thinning, junction-cluster graph",
+      "pitch": 0.26384127927312573,
+      "components": 1,
+      "estimated_radius": 0.7915238378193772,
+      "quality": "VOXEL_APPROXIMATION",
+      "voxels": 203984,
+      "geometry_algorithm_sha256": "da9b3111e2263277e055c59aae1652c12eff8d720a71f24479a39bce9aba4d74"
+    }
+  ],
+  "support_projections": [
+    {
+      "neighbor_id": "FJ1654",
+      "support_component": 0,
+      "nearest_centerline": {
+        "edge_id": "FJ1690:e2",
+        "distance_mm": 0.17588697913367096,
+        "arclength_from_start_mm": 4.45885189688611,
+        "edge_length_mm": 45.91570242328133,
+        "nearest_point_mm": [
+          -5.310973518473537,
+          -112.52207620083318,
+          1537.4168875426665
+        ]
+      }
+    },
+    {
+      "neighbor_id": "FJ1654",
+      "support_component": 1,
+      "nearest_centerline": {
+        "edge_id": "FJ1690:e2",
+        "distance_mm": 0.892037115605016,
+        "arclength_from_start_mm": 0.0,
+        "edge_length_mm": 45.91570242328133,
+        "nearest_point_mm": [
+          -8.646716778838899,
+          -110.02201694453635,
+          1538.8174239857779
+        ]
+      }
+    },
+    {
+      "neighbor_id": "FJ1655",
+      "support_component": 0,
+      "nearest_centerline": {
+        "edge_id": "FJ1690:e2",
+        "distance_mm": 0.9150195201446956,
+        "arclength_from_start_mm": 4.996889767693038,
+        "edge_length_mm": 45.91570242328133,
+        "nearest_point_mm": [
+          -4.9596168517656745,
+          -112.92359237877037,
+          1537.3518300322298
+        ]
+      }
+    },
+    {
+      "neighbor_id": "FJ1695",
+      "support_component": 0,
+      "nearest_centerline": {
+        "edge_id": "FJ1690:e0",
+        "distance_mm": 0.14985068197253007,
+        "arclength_from_start_mm": 5.356266863077072,
+        "edge_length_mm": 17.238185747510187,
+        "nearest_point_mm": [
+          -11.078929776776011,
+          -155.83139331927137,
+          1541.709953466669
+        ]
+      }
+    }
+  ],
+  "historical_export_equivalence": "NOT VERIFIED",
+  "historical_exports_overwritten": false,
+  "accepted_for_generation": false,
+  "anatomical_junction_validation": "NOT RUN",
+  "scope": "Regenerated voxel centerlines of four original parts. Support-centroid proximity is not an ostium or a patent lumen."
+}

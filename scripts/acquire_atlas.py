@@ -4,6 +4,7 @@ import hashlib
 import json
 import urllib.request
 from vv_toolbox.atlas import PINNED
+from vv_toolbox.source_identity import validate_source_identity
 
 ROOT=Path(__file__).resolve().parents[1]/'reference-data'/'bodyparts3d'
 BASE='https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/'
@@ -27,9 +28,8 @@ def main():
                     stream.write(chunk)
             temporary.replace(target)
         data=target.read_bytes()
-        if hashlib.sha256(data).hexdigest()!=PINNED[name]:
-            raise ValueError('Official atlas source changed; review before updating pinned hashes: '+name)
-        entries[name]=dict(url=url,bytes=len(data),sha256=hashlib.sha256(data).hexdigest())
+        identity=validate_source_identity(name,data,PINNED[name])
+        entries[name]=dict(url=url,bytes=len(data),**identity)
         print(name,len(data),entries[name]['sha256'],flush=True)
     (ROOT/'acquisition.json').write_text(json.dumps(dict(source=BASE,files=entries),indent=2))
 

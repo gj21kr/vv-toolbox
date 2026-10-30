@@ -1,0 +1,1012 @@
+{
+  "schema": "vv-toolbox.frontobasal-source-contacts/1",
+  "atlas_archive_sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "file_identity": {
+    "isa_BP3D_4.0_obj_99.zip": {
+      "expected": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+      "actual": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+      "match": true
+    },
+    "isa_parts_list_e.txt": {
+      "expected": "ab7796deedd49205e77f3609a1cb8c53e2bbee14ecb5c9a6ca05227469780513",
+      "actual": "ab7796deedd49205e77f3609a1cb8c53e2bbee14ecb5c9a6ca05227469780513",
+      "match": true
+    },
+    "isa_element_parts.txt": {
+      "expected": "a3de74423f943b0d724ae8f59b3a817f87c423a544f8db98113b1980817cbeaf",
+      "actual": "a3de74423f943b0d724ae8f59b3a817f87c423a544f8db98113b1980817cbeaf",
+      "match": true
+    },
+    "partof_parts_list_e.txt": {
+      "expected": "9224080557053e6f1322f1e13ab27f0ecde0db19bb3b505f0631afad230eeebd",
+      "actual": "9224080557053e6f1322f1e13ab27f0ecde0db19bb3b505f0631afad230eeebd",
+      "match": true
+    },
+    "partof_element_parts.txt": {
+      "expected": "3f5f6df1028eb122b30de77c711597b6bb8e5541658e5985859fd228adbf88ea",
+      "actual": "3f5f6df1028eb122b30de77c711597b6bb8e5541658e5985859fd228adbf88ea",
+      "match": true
+    },
+    "README_e.html": {
+      "expected": "f9a90b4d945ad0fe50db45c712e931aa54e52667187b30d7085b6cc394f40107",
+      "actual": "f9a90b4d945ad0fe50db45c712e931aa54e52667187b30d7085b6cc394f40107",
+      "match": true
+    },
+    "LICENSE.html": {
+      "expected": "7bbf53a72b44fdc32f08af98f1d474acf0363a82fa4f1de1c7889206f69783ea",
+      "actual": "3c3b434bf7af38eae2cb72135b1cbbd2c70e092b9a724fef836c8fea72a0d679",
+      "match": false
+    }
+  },
+  "application_source_gate": "FAIL",
+  "sources": {
+    "FJ1690": {
+      "name": "right medial frontobasal artery",
+      "obj_sha256": "59cf83c7163d6dc488dcafa66d3e37852e4a453c2eb8e8961c1b5e332a55a52e",
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 553,
+        "normalized_vertices": 351,
+        "faces": 698,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "e9b4e71685d88f563376de9c3fe1dcb32affe95ce316a6e4e612cc41cfc11f94",
+        "original_watertight": false,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      }
+    },
+    "FJ1654": {
+      "name": "right anterior cerebral artery",
+      "obj_sha256": "7f146e7551bb53d1ad7f5d98a77a16d8c7ea4e8ab86012bfd3c92b782df2a5dd",
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 213,
+        "normalized_vertices": 202,
+        "faces": 400,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "2605719db704d8bf6a8b669c21a6c7d26d2e69fc7ee31f5db900a278fe263036",
+        "original_watertight": false,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      }
+    },
+    "FJ1655": {
+      "name": "anterior communicating artery",
+      "obj_sha256": "9e93878f7df5385e705674367796c02b86082fb2df1d3e35c9c801658e3f4914",
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 63,
+        "normalized_vertices": 42,
+        "faces": 80,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "50a53aa4f01d6da3b6725b626896f1b9bded7e2c4581c46611d07def832c4232",
+        "original_watertight": false,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      }
+    },
+    "FJ1695": {
+      "name": "right ophthalmic artery",
+      "obj_sha256": "3363ca2391df50d44aec0ad6fbfccf7afb566e0ab2bf213b8a5fbbf23b256570",
+      "indexing": {
+        "method": "exact-coordinate-index-copy/1",
+        "coordinate_tolerance_mm": 0,
+        "original_vertices": 1207,
+        "normalized_vertices": 1207,
+        "faces": 2410,
+        "triangle_coordinate_bytes_preserved": true,
+        "triangle_sha256": "0fda0dc443f423111fabf34c5ac228e048cb13562006a5a29ec5b6fb3d583354",
+        "original_watertight": true,
+        "normalized_watertight": true,
+        "normalized_winding_consistent": true,
+        "zero_area_faces": 0,
+        "usable_for_sampled_containment": true,
+        "original_modified": false,
+        "faces_added_or_removed": false,
+        "self_intersection": "NOT RUN",
+        "anatomical_validity": "NOT RUN"
+      }
+    }
+  },
+  "rows": [
+    {
+      "neighbor_id": "FJ1654",
+      "name": "right anterior cerebral artery",
+      "contact": {
+        "status": "CONTACT_DETECTED",
+        "complete": true,
+        "checked_pairs": 812,
+        "contact_pairs": [
+          [
+            61,
+            186
+          ],
+          [
+            62,
+            284
+          ],
+          [
+            62,
+            186
+          ],
+          [
+            62,
+            286
+          ],
+          [
+            62,
+            185
+          ],
+          [
+            62,
+            287
+          ],
+          [
+            63,
+            175
+          ],
+          [
+            64,
+            175
+          ],
+          [
+            65,
+            284
+          ],
+          [
+            73,
+            175
+          ],
+          [
+            129,
+            186
+          ],
+          [
+            132,
+            175
+          ],
+          [
+            133,
+            175
+          ],
+          [
+            137,
+            284
+          ],
+          [
+            141,
+            175
+          ],
+          [
+            142,
+            175
+          ],
+          [
+            204,
+            186
+          ],
+          [
+            209,
+            186
+          ],
+          [
+            211,
+            284
+          ],
+          [
+            212,
+            285
+          ],
+          [
+            212,
+            286
+          ],
+          [
+            212,
+            287
+          ],
+          [
+            213,
+            296
+          ],
+          [
+            214,
+            186
+          ],
+          [
+            214,
+            185
+          ],
+          [
+            214,
+            293
+          ],
+          [
+            214,
+            296
+          ],
+          [
+            219,
+            284
+          ],
+          [
+            219,
+            285
+          ],
+          [
+            219,
+            286
+          ],
+          [
+            219,
+            267
+          ],
+          [
+            292,
+            186
+          ],
+          [
+            292,
+            185
+          ],
+          [
+            292,
+            293
+          ],
+          [
+            293,
+            288
+          ],
+          [
+            293,
+            387
+          ],
+          [
+            293,
+            388
+          ],
+          [
+            294,
+            388
+          ],
+          [
+            300,
+            288
+          ],
+          [
+            301,
+            288
+          ],
+          [
+            301,
+            296
+          ],
+          [
+            335,
+            267
+          ],
+          [
+            337,
+            388
+          ],
+          [
+            508,
+            362
+          ],
+          [
+            508,
+            266
+          ],
+          [
+            508,
+            365
+          ],
+          [
+            508,
+            361
+          ],
+          [
+            508,
+            267
+          ],
+          [
+            512,
+            362
+          ],
+          [
+            512,
+            363
+          ],
+          [
+            512,
+            388
+          ]
+        ],
+        "degenerate_candidates": false,
+        "tolerance_mm": 1e-06,
+        "max_pairs": 2000000,
+        "containment": "NOT RUN",
+        "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+      },
+      "frontobasal_support": {
+        "face_ids": [
+          61,
+          62,
+          63,
+          64,
+          65,
+          73,
+          129,
+          132,
+          133,
+          137,
+          141,
+          142,
+          204,
+          209,
+          211,
+          212,
+          213,
+          214,
+          219,
+          292,
+          293,
+          294,
+          300,
+          301,
+          335,
+          337,
+          508,
+          512
+        ],
+        "components": [
+          {
+            "face_ids": [
+              61,
+              62,
+              65,
+              129,
+              137,
+              204,
+              209,
+              211,
+              212,
+              213,
+              214,
+              219,
+              292,
+              293,
+              294,
+              300,
+              301,
+              335,
+              337,
+              508,
+              512
+            ],
+            "face_count": 21,
+            "support_area_mm2": 16.537340865335857,
+            "support_centroid_mm": [
+              -5.412656575819425,
+              -112.62467485831756,
+              1537.5172384308537
+            ],
+            "bounds_mm": [
+              [
+                -9.175399780273438,
+                -115.5,
+                1536.1500244140625
+              ],
+              [
+                -2.5,
+                -110.09300231933594,
+                1538.9599609375
+              ]
+            ]
+          },
+          {
+            "face_ids": [
+              63,
+              64,
+              73,
+              132,
+              133,
+              141,
+              142
+            ],
+            "face_count": 7,
+            "support_area_mm2": 0.6868155920001879,
+            "support_centroid_mm": [
+              -8.731290926460803,
+              -109.13453961950403,
+              1538.848430867666
+            ],
+            "bounds_mm": [
+              [
+                -9.240150451660156,
+                -109.25199890136719,
+                1538.4599609375
+              ],
+              [
+                -8.131019592285156,
+                -109.01799774169922,
+                1539.260009765625
+              ]
+            ]
+          }
+        ],
+        "scope": "Full supporting facets, not measured intersection area or an open lumen"
+      },
+      "neighbor_support": {
+        "face_ids": [
+          175,
+          185,
+          186,
+          266,
+          267,
+          284,
+          285,
+          286,
+          287,
+          288,
+          293,
+          296,
+          361,
+          362,
+          363,
+          365,
+          387,
+          388
+        ],
+        "components": [
+          {
+            "face_ids": [
+              175
+            ],
+            "face_count": 1,
+            "support_area_mm2": 0.6799967791902348,
+            "support_centroid_mm": [
+              -8.688753286997477,
+              -109.07766723632812,
+              1538.8533528645833
+            ],
+            "bounds_mm": [
+              [
+                -9.283220291137695,
+                -109.16600036621094,
+                1538.5400390625
+              ],
+              [
+                -7.754499912261963,
+                -109.00399780273438,
+                1539.4300537109375
+              ]
+            ]
+          },
+          {
+            "face_ids": [
+              185,
+              186,
+              266,
+              267,
+              284,
+              285,
+              286,
+              287,
+              288,
+              293,
+              296,
+              361,
+              362,
+              363,
+              365,
+              387,
+              388
+            ],
+            "face_count": 17,
+            "support_area_mm2": 15.84974418571076,
+            "support_centroid_mm": [
+              -4.56129016748512,
+              -113.28584329657019,
+              1537.3675868891585
+            ],
+            "bounds_mm": [
+              [
+                -8.000049591064453,
+                -116.15699768066406,
+                1536.719970703125
+              ],
+              [
+                -2.0119099617004395,
+                -110.8239974975586,
+                1538.5999755859375
+              ]
+            ]
+          }
+        ],
+        "scope": "Full supporting facets, not measured intersection area or an open lumen"
+      },
+      "anatomical_junction_status": "UNVERIFIED",
+      "open_lumen": "NOT RUN"
+    },
+    {
+      "neighbor_id": "FJ1655",
+      "name": "anterior communicating artery",
+      "contact": {
+        "status": "CONTACT_DETECTED",
+        "complete": true,
+        "checked_pairs": 131,
+        "contact_pairs": [
+          [
+            333,
+            6
+          ],
+          [
+            333,
+            11
+          ],
+          [
+            336,
+            6
+          ],
+          [
+            336,
+            11
+          ]
+        ],
+        "degenerate_candidates": false,
+        "tolerance_mm": 1e-06,
+        "max_pairs": 2000000,
+        "containment": "NOT RUN",
+        "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+      },
+      "frontobasal_support": {
+        "face_ids": [
+          333,
+          336
+        ],
+        "components": [
+          {
+            "face_ids": [
+              333,
+              336
+            ],
+            "face_count": 2,
+            "support_area_mm2": 1.9676136901343573,
+            "support_centroid_mm": [
+              -4.301011061032799,
+              -112.32185297814459,
+              1537.5553216251606
+            ],
+            "bounds_mm": [
+              [
+                -5.173830032348633,
+                -113.0,
+                1536.81005859375
+              ],
+              [
+                -3.5,
+                -111.25,
+                1538.0999755859375
+              ]
+            ]
+          }
+        ],
+        "scope": "Full supporting facets, not measured intersection area or an open lumen"
+      },
+      "neighbor_support": {
+        "face_ids": [
+          6,
+          11
+        ],
+        "components": [
+          {
+            "face_ids": [
+              6,
+              11
+            ],
+            "face_count": 2,
+            "support_area_mm2": 0.21761319858530304,
+            "support_centroid_mm": [
+              -3.9072859225050305,
+              -112.51493593474464,
+              1537.4605434827204
+            ],
+            "bounds_mm": [
+              [
+                -4.155529975891113,
+                -112.81199645996094,
+                1537.3199462890625
+              ],
+              [
+                -3.4024899005889893,
+                -112.27999877929688,
+                1537.6600341796875
+              ]
+            ]
+          }
+        ],
+        "scope": "Full supporting facets, not measured intersection area or an open lumen"
+      },
+      "anatomical_junction_status": "UNVERIFIED",
+      "open_lumen": "NOT RUN"
+    },
+    {
+      "neighbor_id": "FJ1695",
+      "name": "right ophthalmic artery",
+      "contact": {
+        "status": "CONTACT_DETECTED",
+        "complete": true,
+        "checked_pairs": 388,
+        "contact_pairs": [
+          [
+            26,
+            2001
+          ],
+          [
+            28,
+            1996
+          ],
+          [
+            28,
+            2001
+          ],
+          [
+            30,
+            1180
+          ],
+          [
+            30,
+            2002
+          ],
+          [
+            30,
+            1143
+          ],
+          [
+            30,
+            2001
+          ],
+          [
+            31,
+            1143
+          ],
+          [
+            32,
+            1180
+          ],
+          [
+            32,
+            1143
+          ],
+          [
+            33,
+            1180
+          ],
+          [
+            37,
+            2409
+          ],
+          [
+            37,
+            2408
+          ],
+          [
+            37,
+            2407
+          ],
+          [
+            38,
+            2003
+          ],
+          [
+            38,
+            2004
+          ],
+          [
+            38,
+            1180
+          ],
+          [
+            38,
+            2002
+          ],
+          [
+            39,
+            2005
+          ],
+          [
+            39,
+            2000
+          ],
+          [
+            39,
+            1981
+          ],
+          [
+            39,
+            1980
+          ],
+          [
+            39,
+            1996
+          ],
+          [
+            39,
+            1983
+          ],
+          [
+            39,
+            1998
+          ],
+          [
+            39,
+            1999
+          ],
+          [
+            39,
+            1997
+          ],
+          [
+            40,
+            2009
+          ],
+          [
+            40,
+            2408
+          ],
+          [
+            41,
+            2007
+          ],
+          [
+            41,
+            2006
+          ],
+          [
+            41,
+            2009
+          ],
+          [
+            41,
+            2005
+          ],
+          [
+            41,
+            2008
+          ],
+          [
+            41,
+            2004
+          ],
+          [
+            41,
+            1984
+          ],
+          [
+            91,
+            2407
+          ],
+          [
+            92,
+            2409
+          ],
+          [
+            92,
+            2408
+          ],
+          [
+            92,
+            2407
+          ],
+          [
+            93,
+            2005
+          ],
+          [
+            93,
+            2008
+          ],
+          [
+            93,
+            2000
+          ],
+          [
+            93,
+            1983
+          ],
+          [
+            94,
+            2408
+          ],
+          [
+            95,
+            2009
+          ],
+          [
+            95,
+            2005
+          ],
+          [
+            95,
+            2408
+          ],
+          [
+            95,
+            1984
+          ]
+        ],
+        "degenerate_candidates": false,
+        "tolerance_mm": 1e-06,
+        "max_pairs": 2000000,
+        "containment": "NOT RUN",
+        "scope": "Surface intersections only; fully contained disjoint surfaces can overlap in volume."
+      },
+      "frontobasal_support": {
+        "face_ids": [
+          26,
+          28,
+          30,
+          31,
+          32,
+          33,
+          37,
+          38,
+          39,
+          40,
+          41,
+          91,
+          92,
+          93,
+          94,
+          95
+        ],
+        "components": [
+          {
+            "face_ids": [
+              26,
+              28,
+              30,
+              31,
+              32,
+              33,
+              37,
+              38,
+              39,
+              40,
+              41,
+              91,
+              92,
+              93,
+              94,
+              95
+            ],
+            "face_count": 16,
+            "support_area_mm2": 4.5359325539077195,
+            "support_centroid_mm": [
+              -11.16751015629073,
+              -155.81706061554516,
+              1541.5899396472291
+            ],
+            "bounds_mm": [
+              [
+                -13.0,
+                -156.51400756835938,
+                1540.4599609375
+              ],
+              [
+                -9.658329963684082,
+                -154.96200561523438,
+                1542.5
+              ]
+            ]
+          }
+        ],
+        "scope": "Full supporting facets, not measured intersection area or an open lumen"
+      },
+      "neighbor_support": {
+        "face_ids": [
+          1143,
+          1180,
+          1980,
+          1981,
+          1983,
+          1984,
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2407,
+          2408,
+          2409
+        ],
+        "components": [
+          {
+            "face_ids": [
+              1143,
+              1180,
+              1980,
+              1981,
+              1983,
+              1984,
+              1996,
+              1997,
+              1998,
+              1999,
+              2000,
+              2001,
+              2002,
+              2003,
+              2004,
+              2005,
+              2006,
+              2007,
+              2008,
+              2009,
+              2407,
+              2408,
+              2409
+            ],
+            "face_count": 23,
+            "support_area_mm2": 5.481555382340159,
+            "support_centroid_mm": [
+              -11.360482878072048,
+              -156.5373796386861,
+              1541.8804578873296
+            ],
+            "bounds_mm": [
+              [
+                -12.079700469970703,
+                -158.64999389648438,
+                1541.06005859375
+              ],
+              [
+                -10.931099891662598,
+                -154.4510040283203,
+                1542.449951171875
+              ]
+            ]
+          }
+        ],
+        "scope": "Full supporting facets, not measured intersection area or an open lumen"
+      },
+      "anatomical_junction_status": "UNVERIFIED",
+      "open_lumen": "NOT RUN"
+    }
+  ],
+  "original_modified": false,
+  "accepted_for_generation": false,
+  "scope": "Original atlas surfaces only; not partition candidates or complete arterial context",
+  "centerline_ostium_alignment": "NOT RUN: prior local exports unavailable in current checkout"
+}
