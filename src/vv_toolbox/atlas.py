@@ -6,6 +6,7 @@ import hashlib
 import io
 from pathlib import Path
 import zipfile
+from .source_identity import validate_source_identity
 
 import numpy as np
 from scipy.spatial import cKDTree
@@ -101,14 +102,12 @@ class AtlasReference:
 
 @lru_cache(maxsize=1)
 def load_atlas():
+    identities={}
     for name,expected in PINNED.items():
         path=ROOT/name
         if not path.is_file():
             raise FileNotFoundError('BodyParts3D reference unavailable; run scripts/acquire_atlas.py explicitly')
-        with path.open('rb') as stream:
-            actual=hashlib.file_digest(stream,'sha256').hexdigest()
-        if actual!=expected:
-            raise ValueError('Pinned atlas source hash mismatch: '+name)
+        identities[name]=validate_source_identity(name,path.read_bytes(),expected)
     tables={tree:list(csv.DictReader(io.StringIO((ROOT/f'{tree}_element_parts.txt').read_text(encoding='utf-8')),delimiter='\t')) for tree in ('isa','partof')}
     groups,labels=groups_from_tables(tables)
     memberships={}
@@ -156,6 +155,7 @@ def load_atlas():
             nearest_vertex_distance_source_units=float(cKDTree(a).query(b)[0].min()),
             note='Both original elements are included. Vertex proximity is not an exact surface distance or a clinical measurement.')
     metadata=dict(available=True,title='BodyParts3D 4.0 · shared-coordinate vascular atlas',kind='anatomical-atlas-reference',
+        source_identities=identities,
         source_url='https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html',
         license='CC BY 4.0 per current official distribution license (2025-02-27)',attribution=ATTRIBUTION,
         license_url='https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html',
